@@ -13,13 +13,18 @@
   },
   "clip_count": 150,
   "chapter_count": 10,
-  "chapter_audio_seconds": 2278.6,
+  "chapter_audio_seconds": 2295.3,
   "asr_model": "small.en",
   "asr_scenes": 150,
-  "automated_flags": 15,
+  "automated_flags": 16,
   "review": "Independent Whisper screening, phoneme inspection, encoded-audio checks, and browser playback tests. No human listening approval.",
   "authorization": "User requested Kokoro af_heart for the existing course scripts.",
   "skill_repository": "https://github.com/snowch/claude-skills",
   "skill_commit": "c9a7c521568632aa216932f4c965df386498602a",
-  "audio_map": "audio/manifest.json"
+  "audio_map": "audio/manifest.json",
+  "revision": "v0.1.1: clarified opening story with nine deliberate pauses",
+  "revision_scenes": [
+    "c01s01"
+  ],
+  "pacing_review": "qa/pacing-review.json"
 }

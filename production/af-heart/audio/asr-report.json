@@ -1,20 +1,22 @@
 {
   "method": "Independent unprompted Whisper screening. Audio-only batches with explicit clip boundaries; skill word, pacing, peak, level, and gap checks. Not a human listening review.",
   "model": "small.en",
-  "flagged": 15,
+  "flagged": 16,
   "scenes": [
     {
       "id": "c01s01",
-      "text": "A neighborhood team is turning an empty shop into a repair caf\u00e9. At the first meeting, Maya arrives twenty minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar: what did you actually observe, and what explanation did you supply?",
-      "heard": "A neighborhood team is turning an empty shop into a repair cafe. At the first meeting, Maya arrives 20 minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar. What did you actually observe and what explanation did you supply?",
-      "level": -23.227217446542046,
-      "gap": 0.6,
-      "peak": 0.699798583984375,
-      "ratio": 0.9722222222222222,
-      "wpm": 177.78753292361722,
+      "text": "A neighborhood team is turning an empty shop into a repair caf\u00e9. At the first meeting, Maya arrives twenty minutes late. Leo takes her lateness as a sign that she doesn\u2019t care about the project.\n\nWhat Leo hasn\u2019t seen is the broken lift at Maya\u2019s apartment, or the neighbor she helped down the stairs.\n\nLeo\u2019s conclusion\u2014that Maya didn\u2019t care\u2014was one possible explanation for her lateness. But he hadn\u2019t considered what might have delayed her.\n\nThese characters are fictional, but the question is familiar: what did you observe, and what explanation did you supply?",
+      "heard": "A neighborhood team is turning an empty shop into a repair cafe. At the first meeting, Maya arrives 20 minutes late. Leo takes her lateness as a sign that she doesn't care about the project. What Leo hasn't seen is the broken lift at Maya's apartment or the neighbor she helped down the stairs. Leo's conclusion that Maya didn't care was one possible explanation for her lateness, but he hadn't considered what might have delayed her. These characters are fictional, but the question is familiar. What did you observe? And what explanation did you supply?",
+      "level": -23.464171064868324,
+      "gap": 1.78,
+      "peak": 0.5482177734375,
+      "ratio": 0.9801980198019802,
+      "wpm": 193.23979591836732,
       "short": false,
-      "gap_ok": 1.5,
-      "flags": []
+      "gap_ok": 4.0,
+      "flags": [
+        "pace"
+      ]
     },
     {
       "id": "c01s02",

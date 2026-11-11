@@ -1,10 +1,16 @@
 COMMON GROUND — RECORDED AF_HEART SCRIPT
 Kokoro v1.0, ONNX CPU, af_heart, speed 1.0.
-Visible text and speech-specific forms are recorded separately. Quiz feedback and recall answers are separate clips.
+Speech-specific pronunciation and pause markers remain separate from visible teaching text.
 
 c01s01 | Maya arrives late. The room has already decided why.
-A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar: what did you actually observe, and what explanation did you supply?
-Speech-specific rendering: A neighborhood team is turning an empty shop into a repair café. At the first meeting, [Maya](/mˈaɪə/) arrives twenty minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar: what did you actually observe, and what explanation did you supply?
+A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo takes her lateness as a sign that she doesn’t care about the project.
+
+What Leo hasn’t seen is the broken lift at Maya’s apartment, or the neighbor she helped down the stairs.
+
+Leo’s conclusion—that Maya didn’t care—was one possible explanation for her lateness. But he hadn’t considered what might have delayed her.
+
+These characters are fictional, but the question is familiar: what did you observe, and what explanation did you supply?
+Speech-specific rendering: A neighborhood team is turning an empty shop into a repair café. [pause 0.6] At the first meeting, [Maya](/mˈaɪə/) arrives twenty minutes late. [pause 0.5] Leo takes her lateness as a sign that she doesn’t care about the project. [pause 1.0] What Leo hasn’t seen is the broken lift at [Maya’s](/mˈaɪəz/) apartment, or the neighbor she helped down the stairs. [pause 1.0] Leo’s conclusion—that [Maya](/mˈaɪə/) didn’t care—was one possible explanation for her lateness. [pause 0.6] But he hadn’t considered what might have delayed her. [pause 1.0] These characters are fictional, but the question is familiar. [pause 0.5] What did you observe? [pause 1.5] And what explanation did you supply? [pause 3.0]
 
 c01s02 | What would you do?
 Make a prediction before the explanation. Leo is assigning the opening shift. What is his most informative next move? Consider the consequence of each option. Choose one to see feedback. Option A. Ask Maya about today and check her availability. Option B. Use today’s lateness as the main sign of reliability. Option C. Ignore today and assume she will arrive on time. Pause here and choose an action.

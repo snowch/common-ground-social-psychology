@@ -6,7 +6,13 @@ CHAPTER 1: The person and the room
 Learning outcome: Given an ambiguous action, generate two situational explanations and identify evidence that distinguishes them from a personal explanation.
 
 c01s01 | Story | Maya arrives late. The room has already decided why.
-A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar: what did you actually observe, and what explanation did you supply?
+A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo takes her lateness as a sign that she doesn’t care about the project.
+
+What Leo hasn’t seen is the broken lift at Maya’s apartment, or the neighbor she helped down the stairs.
+
+Leo’s conclusion—that Maya didn’t care—was one possible explanation for her lateness. But he hadn’t considered what might have delayed her.
+
+These characters are fictional, but the question is familiar: what did you observe, and what explanation did you supply?
 
 c01s02 | Your decision | What would you do?
 Make a prediction before the explanation. Leo is assigning the opening shift. What is his most informative next move? Consider the consequence of each option. Choose one to see feedback.

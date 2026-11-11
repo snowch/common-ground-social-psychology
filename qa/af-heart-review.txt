@@ -14,7 +14,7 @@ Word-match flags inspected:
 - c06s07-answers: one/two numbering; both norm definitions are retained.
 - c10s07-answers: numbered answers and chapter references rendered as spoken numbers. Both mechanisms and the chapter examples are retained.
 
-Pace flags: all were below the skill's 120-wpm lower threshold, mainly short feedback or numbered recall answers. No clip was flagged as too fast. Original speed 1.0 is intentionally retained; slower recall delivery is appropriate for the learning task. The final ASR report retains these flags rather than presenting a false “no flags” result.
+Pace flags: all were below the skill's 120-wpm lower threshold, mainly short feedback or numbered recall answers. No clip was flagged as too fast in the original v0.1.0 run. The v0.1.1 opening has a speech-only pace of about 193 wpm, just above the 190-wpm screening threshold; including the requested pauses, overall delivery is about 146 wpm. The generation speed remains 1.0. This additional pace flag is retained for review. Original speed 1.0 is intentionally retained; slower recall delivery is appropriate for the learning task. The final ASR report retains these flags rather than presenting a false “no flags” result.
 
 No raw clip had a clipping, relative-level, or excessive-internal-gap flag. Single-pass encoded loudness is a target rather than an exact per-clip guarantee; an initial preview before the pronunciation correction measured -16.73 LUFS, with a codec true-peak estimate of -1.47 dBTP.
 

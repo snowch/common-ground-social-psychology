@@ -16,3 +16,5 @@ qa/concept.png
 qa/mobile-*.png
 qa/slide-preview.png
 release-artifacts/
+
+qa/pacing-asr.log

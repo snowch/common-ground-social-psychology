@@ -70,13 +70,15 @@ Raw working WAV files, downloaded speech models, local environments, and generat
 
 Kokoro-82M v1.0, **`af_heart`**, original synthesis speed **1.0**, Linux ONNX CPU. These are the settings documented for the newer `metadata-book` Chapter 1. The model and voice hashes are retained in `production/af-heart-production.json`.
 
+The [narration style guide](docs/narration-style.md) explains explicit references, short paragraphs, and deliberate pauses. The v0.1.1 opening story applies that approach.
+
 The voice workflow uses [snowch/claude-skills](https://github.com/snowch/claude-skills/tree/c9a7c521568632aa216932f4c965df386498602a/plugins/demo-video/skills/record-demo). [Production notes](production/README.md) explain regeneration. Phoneme overrides preserve the visible text while clarifying speech, including Maya's name and numbers.
 
 ## Verification
 
 The recorded-audio browser check decoded all 150 recordings and exercised playback, pause/resume, stopping, rate changes, feedback and recall queues, navigation, mobile width, and a separate chapter deck. The 20 decisions' 60 feedback variants were checked.
 
-Independent Whisper `small.en` screening covered all 150 clips. The retained report includes 15 flags, chiefly number formatting, word splitting, and slower delivery of short feedback or recall answers; [the review](qa/af-heart-review.txt) records their interpretation. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
+Independent Whisper `small.en` screening covered all 150 clips. The retained report includes 16 flags, chiefly number formatting, word splitting, slower delivery of short feedback or recall answers, and the opening’s speech-only pace; [the review](qa/af-heart-review.txt) records their interpretation. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
 
 For optional browser checks, install Playwright and Chromium, serve `dist` on port 8877, then run:
 
