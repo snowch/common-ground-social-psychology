@@ -27,7 +27,9 @@ The release ZIP includes a self-contained narrated HTML course, ten separate cha
 | 9 | A place beside someone | Attraction and relationships |
 | 10 | Who will do something? | Aggression, helping, and cooperation |
 
-There are 80 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 48 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading.
+There are 80 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 48 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and an 11-page PDF.
+
+The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
 
 ## Build from source
 
@@ -53,6 +55,8 @@ The manually dispatched **Package private course release** workflow builds the p
 ## Content and production source
 
 - `course.json`: complete chapter content, quizzes, feedback, recall answers, outcomes, and references.
+- `course-evidence.json`, `learning-check.json`: chapter evidence notes and the written transfer case.
+- `study-guide.pdf`: printable evidence and assessment companion; `scripts/build_study_guide.py` generates its HTML.
 - `content.py`: original content authoring source; regenerates the canonical course JSON and teaching script.
 - `template.html`, `build.py`: interactive player and portable/static builds.
 - `assets/fonts/`, `FONT-LICENSE.txt`: bundled fonts and their license information.
@@ -85,7 +89,13 @@ For optional browser checks, install Playwright and Chromium, serve `dist` on po
 ```sh
 python3 -m pip install playwright
 python3 -m playwright install chromium
+python3 qa/check_deck.py
 python3 qa/check_recorded_audio.py
+# Optional broader accessibility and regression audit:
+curl -fsSL https://cdn.jsdelivr.net/npm/axe-core@4.10.3/axe.min.js -o /tmp/common-ground-axe.min.js
+python3 qa/check_course_review.py
+# Regenerate the PDFs from a running course preview:
+python3 scripts/export_pdfs.py
 ```
 
 The scripts default to `/usr/bin/chromium`; adjust that executable for another development machine. `COURSE_BASE_URL` can select another preview origin. Normal reading and builds require no browser automation dependencies.

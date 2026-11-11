@@ -1,0 +1,162 @@
+{
+  "1": {
+    "claims": [
+      "Behavior can reflect personal tendencies, circumstances, and their interaction.",
+      "Attribution biases describe tendencies rather than diagnoses of an individual."
+    ],
+    "note": "A single late arrival cannot isolate character from circumstances. Use repeated observations and competing explanations; a bias label alone is not evidence.",
+    "sources": [
+      {
+        "title": "Gilbert & Malone (1995), The correspondence bias",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7870861/",
+        "kind": "Review; abstract available"
+      }
+    ]
+  },
+  "2": {
+    "claims": [
+      "Random assignment improves comparisons between conditions; random sampling concerns who is selected.",
+      "One before-and-after difference does not isolate a cause; replication and uncertainty matter."
+    ],
+    "note": "Random assignment helps balance other causes on average. It does not guarantee equal groups, prevent spillover, or make a narrow sample representative. The 12-versus-15 example is hypothetical and does not establish a reliable effect.",
+    "sources": [
+      {
+        "title": "Open Science Collaboration (2015), Estimating the reproducibility of psychological science",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26315443/",
+        "kind": "Replication project; abstract available"
+      }
+    ]
+  },
+  "3": {
+    "claims": [
+      "Accessible examples can influence frequency judgments.",
+      "Representative records help distinguish a vivid impression from the underlying rate."
+    ],
+    "note": "Heuristics can be useful. Diagnose a judgment by comparing it with relevant evidence, rather than assuming that an intuitive answer is biased. A complaint channel can identify faults without estimating their prevalence.",
+    "sources": [
+      {
+        "title": "Tversky & Kahneman (1973), Availability: A heuristic for judging frequency and probability",
+        "url": "https://doi.org/10.1016/0010-0285(73)90033-9",
+        "kind": "Foundational experiments; access varies"
+      }
+    ]
+  },
+  "4": {
+    "claims": [
+      "Dissonance is a theoretical framework; particular demonstrations need separate evaluation.",
+      "Irrecoverable costs differ from future costs and benefits."
+    ],
+    "note": "The 2024 multilab study did not support its primary high-choice versus low-choice attitude prediction. That result concerns the tested induced-compliance procedure; it does not settle every dissonance claim. Past investments can still matter through their future consequences.",
+    "sources": [
+      {
+        "title": "Vaidis et al. (2024), A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance",
+        "url": "https://www.psychologicalscience.org/journals/ampps/25152459231213375/",
+        "kind": "Preregistered multilab replication"
+      },
+      {
+        "title": "Arkes & Blumer (1985), The psychology of sunk cost",
+        "url": "https://doi.org/10.1016/0749-5978(85)90049-4",
+        "kind": "Foundational experiments; access varies"
+      }
+    ]
+  },
+  "5": {
+    "claims": [
+      "Normative influence concerns acceptance; informational influence treats others as evidence.",
+      "Conformity, compliance, and obedience depend on the setting and process."
+    ],
+    "note": "The classic tasks used particular participants, procedures, and pressures. Their results should not be converted into a universal conformity or obedience rate. Independent judgments and stop rules are practical hypotheses to evaluate in a real group.",
+    "sources": [
+      {
+        "title": "Noba, Conformity and Obedience",
+        "url": "https://nobaproject.com/modules/conformity-and-obedience",
+        "kind": "Open introductory module"
+      }
+    ]
+  },
+  "6": {
+    "claims": [
+      "Motivation and ability influence how much a message is examined.",
+      "Descriptive and injunctive norms concern behavior and approval respectively."
+    ],
+    "note": "Central and peripheral processing describe differences along an elaboration continuum. A cue can matter in more than one way depending on the decision. A click, an attitude report, informed participation, and sustained behavior are different outcomes.",
+    "sources": [
+      {
+        "title": "Elaboration Likelihood Model, Oxford reference entry",
+        "url": "https://academic.oup.com/reference/62347/reference-article-abstract/554213168",
+        "kind": "Reference overview; access varies"
+      },
+      {
+        "title": "Cialdini, Reno & Kallgren (1990), A focus theory of normative conduct",
+        "url": "https://doi.org/10.1037/0022-3514.58.6.1015",
+        "kind": "Experimental social-norm research; access varies"
+      }
+    ]
+  },
+  "7": {
+    "claims": [
+      "Group polarization, social loafing, and coordination loss describe different processes.",
+      "An unfinished task is insufficient evidence that people are loafing."
+    ],
+    "note": "A poor decision does not establish groupthink, and poor output does not establish low effort. Identify an observable process before choosing a remedy. The café examples illustrate possible explanations rather than diagnosing real groups.",
+    "sources": [
+      {
+        "title": "Karau & Williams (1993), Social loafing: A meta-analytic review and theoretical integration",
+        "url": "https://doi.org/10.1037/0022-3514.65.4.681",
+        "kind": "Meta-analysis; access varies"
+      }
+    ]
+  },
+  "8": {
+    "claims": [
+      "Stereotypes, prejudice, and discrimination are distinct, related concepts.",
+      "Contact interventions and procedural changes need outcome-based evaluation."
+    ],
+    "note": "Contact is not a universal remedy. The 2019 review found important gaps in randomized evidence for particular adult prejudice outcomes; the 2021 review also highlights limits in durability and generalization. Evaluate the actual population, setting, access, behavior, and follow-up. A single implicit-association score is not a character diagnosis.",
+    "sources": [
+      {
+        "title": "Paluck, Green & Green (2019), The contact hypothesis re-evaluated",
+        "url": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+        "kind": "Review of randomized contact evidence"
+      },
+      {
+        "title": "Paluck et al. (2021), Prejudice Reduction: Progress and Challenges",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32928061/",
+        "kind": "Review of intervention experiments; abstract available"
+      }
+    ]
+  },
+  "9": {
+    "claims": [
+      "Opportunity, familiarity, and similarity can be associated with liking and connection.",
+      "Disclosure and perceived responsiveness can contribute to experienced intimacy."
+    ],
+    "note": "Repeated exposure is not an unlimited rule that more contact produces more liking. Meta-analytic patterns vary with conditions and can be nonlinear. Relationship associations do not establish a guaranteed intervention, and they never override a person’s boundary.",
+    "sources": [
+      {
+        "title": "Montoya et al. (2017), A re-examination of the mere exposure effect",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28263645/",
+        "kind": "Meta-analysis; abstract available"
+      },
+      {
+        "title": "Laurenceau, Barrett & Pietromonaco (1998), Intimacy as an interpersonal process",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9599440/",
+        "kind": "Interpersonal-process studies; abstract available"
+      }
+    ]
+  },
+  "10": {
+    "claims": [
+      "Bystander effects depend on danger, relationships, and available support.",
+      "Aggression measures and helping plans require careful interpretation."
+    ],
+    "note": "Other people can reduce an individual’s likelihood of helping in some settings and provide essential support in others. A crowd is not a deterministic cause of inaction. Social-psychology models do not replace emergency training, and laboratory aggression measures are imperfect indicators of serious violence.",
+    "sources": [
+      {
+        "title": "Fischer et al. (2011), The bystander-effect: a meta-analytic review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21534650/",
+        "kind": "Meta-analysis; abstract available"
+      }
+    ]
+  }
+}

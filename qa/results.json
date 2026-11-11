@@ -6,10 +6,7 @@
   "recall_reveals_checked": 10,
   "mobile_width": 390,
   "js_errors": [],
-  "browser_voice_count": 0,
-  "narration_controls": "mock transport tested; no audible speech quality claim",
+  "narration_controls": "See af-heart-browser-results.json for real AAC playback checks",
   "pdf": "exported",
-  "standalone_chapter": "passed",
-  "print_layout_overflow": [],
-  "chapter_pdfs": 10
+  "standalone_chapter": "passed"
 }

@@ -1,6 +1,7 @@
 """Build the course with the standard library and bundled assets."""
 from pathlib import Path
-import argparse,base64,json,shutil
+import argparse,base64,json,re,shutil
+from scripts.build_study_guide import render as render_study_guide
 R=Path(__file__).resolve().parent
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--portable',action='store_true',help='Embed narration in each HTML deck for offline use.')
@@ -11,14 +12,24 @@ if len(clips)!=150:raise SystemExit('Expected 150 audio/clips/*.m4a recordings. 
 fonts=''
 for family,name in [('Bookman','URWBookman-Light.otf'),('Nimbus','NimbusSans-Regular.otf')]:
  b=base64.b64encode((R/'assets/fonts'/name).read_bytes()).decode();fonts+=f'@font-face{{font-family:{family};src:url(data:font/otf;base64,{b}) format("opentype");font-weight:100 900;font-display:swap}}\n'
+def spoken_text(scene):
+ text=scene.get('say',scene['text'])
+ text=re.sub(r'\[pause [0-9.]+\]', '\n\n', text)
+ return re.sub(r'\[([^\]]+)\]\(/[^/]+/\)',r'\1',text).strip()
+narration={x['id']:spoken_text(x)for x in json.loads((R/'production/af-heart/scenes.json').read_text())}
 template=(R/'template.html').read_text().replace('__FONTS__',fonts)
+for placeholder,file in [('__EVIDENCE__','course-evidence.json'),('__LEARNING_CHECK__','learning-check.json')]:
+ template=template.replace(placeholder,json.dumps(json.loads((R/file).read_text()),ensure_ascii=False).replace('</','<\\/'))
+
 def render(path,chapters,prefix):
  numbers={f"c{c['number']:02d}"for c in chapters}
  audio={key:('data:audio/mp4;base64,'+base64.b64encode(file.read_bytes()).decode()if a.portable else prefix+'audio/clips/'+file.name)for key,file in clips.items()if key[:3]in numbers}
- s=template.replace('__DATA__',json.dumps(chapters,ensure_ascii=False).replace('</','<\\/')).replace('__AUDIO__',json.dumps(audio))
+ s=template.replace('__NARRATION_TEXT__',json.dumps({k:v for k,v in narration.items()if k[:3]in numbers},ensure_ascii=False).replace('</','<\\/')).replace('__DATA__',json.dumps(chapters,ensure_ascii=False).replace('</','<\\/')).replace('__AUDIO__',json.dumps(audio))
  if not a.portable:
   s=s.replace('The recordings are included in this deck and work offline.','Recordings load when you press Play narration. The portable build embeds them for offline use.').replace('The deck embeds prerecorded Kokoro','The course plays prerecorded Kokoro').replace('Quizzes and embedded narration work offline. External reading requires a connection.','This build loads audio files from its audio folder. Use the portable build for self-contained offline decks.')
  path.write_text(s)
+(D/'study-guide.html').write_text(render_study_guide(R))
+if (R/'study-guide.pdf').exists():shutil.copy(R/'study-guide.pdf',D/'study-guide.pdf')
 render(D/'index.html',C,'./')
 for c in C:
  slug=f"chapter-{c['number']:02d}"

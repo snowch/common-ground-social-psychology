@@ -1,0 +1,174 @@
+{
+  "checked_utc": "2026-11-11",
+  "method": "HTTP GET with title extraction; semantic claim checks recorded separately in course review. Access blocks do not establish a broken source.",
+  "results": [
+    {
+      "url": "https://academic.oup.com/reference/62347/reference-article-abstract/554213168",
+      "status": 403,
+      "limitation": "HTTP response; access may be restricted or automated requests blocked."
+    },
+    {
+      "url": "https://doi.org/10.1016/0010-0285(73)90033-9",
+      "status": null,
+      "limitation": "URLError"
+    },
+    {
+      "url": "https://doi.org/10.1016/0749-5978(85)90049-4",
+      "status": null,
+      "limitation": "URLError"
+    },
+    {
+      "url": "https://doi.org/10.1037/0022-3514.58.6.1015",
+      "status": 403,
+      "limitation": "HTTP response; access may be restricted or automated requests blocked."
+    },
+    {
+      "url": "https://doi.org/10.1037/0022-3514.65.4.681",
+      "status": 403,
+      "limitation": "HTTP response; access may be restricted or automated requests blocked."
+    },
+    {
+      "url": "https://doi.org/10.1177/25152459231213375",
+      "status": 403,
+      "limitation": "HTTP response; access may be restricted or automated requests blocked."
+    },
+    {
+      "url": "https://nobaproject.com/modules/attraction-and-beauty",
+      "status": 200,
+      "final_url": "https://nobaproject.com/modules/attraction-and-beauty",
+      "title": "Attraction and Beauty | Noba"
+    },
+    {
+      "url": "https://nobaproject.com/modules/conformity-and-obedience",
+      "status": 200,
+      "final_url": "https://nobaproject.com/modules/conformity-and-obedience",
+      "title": "Conformity and Obedience | Noba"
+    },
+    {
+      "url": "https://nobaproject.com/modules/helping-and-prosocial-behavior",
+      "status": 200,
+      "final_url": "https://nobaproject.com/modules/helping-and-prosocial-behavior",
+      "title": "Helping and Prosocial Behavior | Noba"
+    },
+    {
+      "url": "https://nobaproject.com/modules/persuasion-so-easily-fooled",
+      "status": 200,
+      "final_url": "https://nobaproject.com/modules/persuasion-so-easily-fooled",
+      "title": "Persuasion: So Easily Fooled | Noba"
+    },
+    {
+      "url": "https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+      "status": 200,
+      "final_url": "https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+      "title": "Prejudice, Discrimination, and Stereotyping | Noba"
+    },
+    {
+      "url": "https://nobaproject.com/modules/social-cognition-and-attitudes",
+      "status": 200,
+      "final_url": "https://nobaproject.com/modules/social-cognition-and-attitudes",
+      "title": "Social Cognition and Attitudes | Noba"
+    },
+    {
+      "url": "https://nobaproject.com/modules/the-replication-crisis-in-psychology",
+      "status": 200,
+      "final_url": "https://nobaproject.com/modules/the-replication-crisis-in-psychology",
+      "title": "The Replication Crisis in Psychology | Noba"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+      "title": "12.1 What Is Social Psychology? - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
+      "title": "12.3 Attitudes and Persuasion - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+      "title": "12.4 Conformity, Compliance, and Obedience - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination",
+      "title": "12.5 Prejudice and Discrimination - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression",
+      "title": "12.6 Aggression - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
+      "title": "12.7 Prosocial Behavior - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+      "title": "2.3 Analyzing Findings - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+      "status": 200,
+      "final_url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+      "title": "7.3 Problem Solving - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21534650/",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/21534650/",
+      "title": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26315443/",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/26315443/",
+      "title": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28263645/",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/28263645/",
+      "title": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32928061/",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/32928061/",
+      "title": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7870861/",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/7870861/",
+      "title": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9599440/",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/9599440/",
+      "title": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+      "status": 200,
+      "final_url": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
+      "title": "The contact hypothesis re-evaluated | Behavioural Public Policy | Cambridge Core"
+    },
+    {
+      "url": "https://www.psychologicalscience.org/journals/ampps/25152459231213375/",
+      "status": 200,
+      "final_url": "https://www.psychologicalscience.org/journals/ampps/25152459231213375/",
+      "title": "A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance - Advances in Methods and Practices in Psychological Science - APS"
+    }
+  ]
+}

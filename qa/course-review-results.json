@@ -1,0 +1,28 @@
+{
+  "chapters_reviewed": 10,
+  "slides_checked": 80,
+  "source_notes": 10,
+  "written_transfer_tasks": 6,
+  "rubric_dimensions": 4,
+  "axe_version": "4.10.3",
+  "axe_tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "axe_screens": 83,
+  "axe_violations": 0,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "navigation_focus": "passed",
+  "feedback_gating_and_direct_play": "passed",
+  "corrupt_and_denied_storage": "passed",
+  "unique_print_ids": "passed",
+  "js_errors": [],
+  "limits": "Automated Chromium checks do not establish full WCAG conformance or usability with assistive technology."
+}

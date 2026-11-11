@@ -14,9 +14,9 @@ async def main():
   await page.locator('#start').click();await page.wait_for_selector('.slide.story')
   await page.screenshot(path=str(R/'qa/story.png'),full_page=True)
   await page.locator('#next').click();await page.wait_for_selector('.choices')
-  await page.locator('[data-answer="1"]').click()
+  await page.locator('[data-answer="1"]').click();await page.locator('#checkChoice').click()
   assert 'One episode' in await page.locator('.feedback').inner_text()
-  await page.locator('[data-answer="0"]').click()
+  await page.locator('[data-answer="0"]').click();await page.locator('#checkChoice').click()
   assert 'Good application' in await page.locator('.feedback').inner_text()
   await page.screenshot(path=str(R/'qa/decision.png'),full_page=True)
   await page.locator('#next').click();await page.wait_for_selector('.slide.concept')
@@ -30,7 +30,7 @@ async def main():
     assert await page.locator('.slide').count()==1
     if 'quiz' in s:
      for k in range(3):
-      await page.locator(f'[data-answer="{k}"]').click()
+      await page.locator(f'[data-answer="{k}"]').click();await page.locator('#checkChoice').click()
       assert s['quiz']['feedback'][k] in await page.locator('.feedback').inner_text()
      checked+=1
     if s['kind']=='recall':
@@ -56,7 +56,7 @@ async def main():
   await page.set_viewport_size({'width':1280,'height':720})
   await page.evaluate('buildPrint()');await page.evaluate('document.fonts.ready')
   assert await page.locator('#print .slide').count()==80
-  await page.pdf(path=str(R/'common-ground-slides.pdf'),prefer_css_page_size=True,print_background=True)
+  await page.pdf(path=str(R/'common-ground-slides.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)
   # A 4K slide export suitable as the first recording input.
   await page.goto((os.environ.get('COURSE_BASE_URL','http://127.0.0.1:8877').rstrip('/')+'/index.html')+'#chapter-1-slide-1');await page.wait_for_selector('.slide.story')
   await page.emulate_media(media='screen',reduced_motion='reduce')

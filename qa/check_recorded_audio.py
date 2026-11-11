@@ -17,7 +17,7 @@ async def main():
   await pg.select_option('#speed','1.15');assert await pg.evaluate('audioPlayer.playbackRate')==1.15
   await pg.locator('#stop').click();assert await pg.evaluate('audioPlayer===null')
   await pg.locator('#next').click();await pg.wait_for_selector('.choices')
-  await pg.locator('[data-answer="0"]').click();await pg.locator('#read').click();await pg.wait_for_function('audioPlayer&&audioPlayer.currentTime>.05')
+  await pg.locator('[data-answer="0"]').click();await pg.locator('#checkChoice').click();await pg.locator('#read').click();await pg.wait_for_function('audioPlayer&&audioPlayer.currentTime>.05')
   await pg.evaluate("audioPlayer.dispatchEvent(new Event('ended'))")
   assert await pg.evaluate("audioPlayer.src===new URL(RECORDED_AUDIO['c01s02-feedback-0'],location.href).href")
   await pg.evaluate('window.oldAudio=audioPlayer');await pg.locator('#next').click()
@@ -38,7 +38,7 @@ async def main():
     await pg.evaluate('(h)=>location.hash=h',f"chapter-{c['number']}-slide-{j+1}")
     await pg.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=s['title'])
     for k,f in enumerate(s['quiz']['feedback']):
-     await pg.locator(f'[data-answer="{k}"]').click();assert f in await pg.locator('.feedback').inner_text()
+     await pg.locator(f'[data-answer="{k}"]').click();await pg.locator('#checkChoice').click();assert f in await pg.locator('.feedback').inner_text()
   await pg.set_viewport_size({'width':390,'height':844})
   await pg.evaluate("location.hash='chapter-1-slide-1'");await pg.wait_for_selector('.story')
   assert await pg.evaluate('document.documentElement.scrollWidth<=innerWidth+1')

@@ -19,7 +19,7 @@ with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6)as z:
   if file.is_file():add(file,Path(name))
  z.writestr('common-ground/START-HERE.txt','''COMMON GROUND — AF_HEART EDITION
 
-Open index.html in a modern browser and press Play narration. Individual chapter decks are in chapters/. Play audio/chapters/*.m4a directly for continuous listening. PDFs provide the static slides.
+Open index.html in a modern browser and press Play narration. Individual chapter decks are in chapters/. Play audio/chapters/*.m4a directly for continuous listening. PDFs provide the static slides. study-guide.html and study-guide.pdf contain evidence notes and the optional written final case, with suggested reasoning and a self-assessment rubric. This companion has no recorded narration.
 
 The HTML includes the individual recorded clips for offline use. To recover separate clips for rebuilding, run:
 python3 extract_audio.py index.html

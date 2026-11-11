@@ -1,0 +1,88 @@
+{
+  "title": "Try a new case",
+  "subtitle": "An optional written transfer check after the ten chapters",
+  "intro": "Work without your notes first. Allow about 20–30 minutes. Write your reasoning somewhere private; this page does not collect or grade it. The case is fictional, and different well-supported plans can be reasonable.",
+  "paragraphs": [
+    "An online language club changes its reminder message. Attendance rises from 14 of 20 members one week to 17 of 20 the next. That second week also has a different lesson topic and a school holiday. The organizer credits the new message.",
+    "The organizer opens a planning call by recommending daily homework. Two members agree; others remain quiet. One quiet member privately worries about the workload and assumes everyone else wants the plan. Another member’s late arrivals are described as poor commitment before anyone asks about their work schedule.",
+    "The club has already paid a nonrefundable fee for a learning app. Some members want to keep using it because of that payment, although a free alternative may meet their future needs. The organizer also worries that switching would make their earlier judgment look poor. Recruitment mainly happens through existing friends. A proposed invitation says that everyone practices daily, but the club has no evidence for that claim.",
+    "A newcomer shares a personal difficulty. A member offers advice immediately without asking what support is wanted. Later, a shared resource list remains unfinished because each person assumed someone else was responsible."
+  ],
+  "tasks": [
+    {
+      "title": "Separate observations from explanations",
+      "chapters": [
+        1,
+        3
+      ],
+      "prompt": "Identify two observations and two interpretations. Give a plausible alternative to one interpretation, and name evidence that would help distinguish the explanations. What records would you need before judging how common late arrivals are?",
+      "answer": "Attendance counts and late arrivals are observations. Crediting the reminder or inferring poor commitment are interpretations. Lesson interest, the holiday, or a work constraint are alternatives. Comparable attendance records or a respectful question about availability could help distinguish them. Estimating lateness also requires a consistent definition and a record of all comparable arrivals, including those on time; a few memorable late arrivals do not supply a rate."
+    },
+    {
+      "title": "Test a causal claim",
+      "chapters": [
+        2
+      ],
+      "prompt": "Design a fairer test of the reminder. Specify the allocation, outcome, likely spillover, and what a small observed difference would leave uncertain. Who would the result represent?",
+      "answer": "For the same events, randomly allocate comparable members to invitation versions, keep practical details consistent, define attendance in advance, and account for messages being shared. Estimate the difference and its uncertainty. A small or imprecise result would not prove either a useful effect or exactly no effect. The result would initially concern the tested members, messages, and events; random allocation does not create a representative population sample."
+    },
+    {
+      "title": "Explain the group decision",
+      "chapters": [
+        5,
+        7
+      ],
+      "prompt": "Distinguish two reasons a member might publicly agree. Choose a procedure that makes independent concerns visible, and explain why an unfinished task does not establish loafing.",
+      "answer": "A member may seek acceptance or treat others’ responses as information. Collect independent judgments before public discussion and review contrary evidence. The resource list could reflect unclear ownership, dependencies, or missing tools even when effort is genuine."
+    },
+    {
+      "title": "Compare future options",
+      "chapters": [
+        4
+      ],
+      "prompt": "Explain how the app payment should enter the decision. Identify at least two future consequences that still matter. Distinguish defending an earlier judgment from counting money that cannot be recovered.",
+      "answer": "The nonrefundable payment is sunk under the case assumptions. Compare future time, support, switching costs, accessibility, reliability, and learning benefits. Keeping the paid app can be reasonable if its future advantages justify it; switching is not automatically the correct answer. Defending an earlier judgment may reduce discomfort about inconsistency; treating the nonrefundable fee as a reason to continue is the distinct sunk-cost problem."
+    },
+    {
+      "title": "Design an honest, accessible invitation",
+      "chapters": [
+        6,
+        8
+      ],
+      "prompt": "Revise the unsupported daily-practice claim and one access barrier. Specify an outcome you would examine afterward. What would the observed recruitment barrier establish about prejudice?",
+      "answer": "State a concrete, truthful commitment and available support, with room to decline. Open recruitment beyond existing friends and examine relevant requirements or scheduling barriers. Track who can apply, participate, and remain involved, while protecting privacy. Feeling inclusive or getting clicks is insufficient on its own. A recruitment rule can restrict access without an openly hostile statement. Its consequences do not, alone, establish an organizer’s attitude or diagnose the organizer’s character."
+    },
+    {
+      "title": "Support connection and constructive action",
+      "chapters": [
+        9,
+        10
+      ],
+      "prompt": "Respond to the newcomer while respecting their choice, then give a low-risk helping plan for the resource list. State one limit of your explanation.",
+      "answer": "Ask whether the newcomer wants listening, practical help, or advice, and accept the response. Agree on a named owner, a specific next action, support, and feedback for the resource list. General relationship or bystander patterns cannot diagnose an individual’s motives or guarantee the plan’s success."
+    }
+  ],
+  "rubric": [
+    {
+      "title": "Concept and mechanism",
+      "strong": "Names a relevant concept and explains how it could operate in this case, including a competing explanation.",
+      "developing": "Names a concept but gives little explanation or treats a label as a diagnosis."
+    },
+    {
+      "title": "Evidence and uncertainty",
+      "strong": "Separates observation from inference, proposes discriminating evidence, and states what remains uncertain.",
+      "developing": "Treats the before-and-after change or a single behavior as proof."
+    },
+    {
+      "title": "Action and evaluation",
+      "strong": "Proposes a specific feasible action, explains the mechanism, and identifies a meaningful outcome and follow-up.",
+      "developing": "Offers a general appeal without identifying responsibility, comparison, or outcome."
+    },
+    {
+      "title": "Limits and autonomy",
+      "strong": "Uses conditional language, respects stated boundaries, and identifies at least one limit on generalization.",
+      "developing": "Treats an average pattern as a guarantee or overrides a person’s expressed wishes."
+    }
+  ],
+  "followup": "After comparing your work with the suggested reasoning, revise one weak answer in your own words. Revisit the case in about a week using a different setting. This self-check can expose gaps; it does not certify mastery or demonstrate real-world transfer."
+}
