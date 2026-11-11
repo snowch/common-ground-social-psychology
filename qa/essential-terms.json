@@ -1,0 +1,113 @@
+{
+  "c01s03": [
+    "Disposition",
+    "Situation"
+  ],
+  "c01s04": [
+    "Observation",
+    "Attribution",
+    "Fundamental attribution error"
+  ],
+  "c01s05": [
+    "Attribution",
+    "actor–observer differences"
+  ],
+  "c02s03": [
+    "Correlation",
+    "Confound",
+    "Random assignment",
+    "Random sampling"
+  ],
+  "c02s04": [
+    "percentage points",
+    "Statistical significance"
+  ],
+  "c02s05": [
+    "Replication",
+    "Preregistration"
+  ],
+  "c03s03": [
+    "Availability heuristic",
+    "Base rate",
+    "Denominator"
+  ],
+  "c03s04": [
+    "Confirmation bias",
+    "Motivated reasoning"
+  ],
+  "c04s03": [
+    "Cognitive dissonance",
+    "Cognitions"
+  ],
+  "c04s04": [
+    "Sunk cost",
+    "Sunk cost effect"
+  ],
+  "c04s05": [
+    "induced-compliance"
+  ],
+  "c05s03": [
+    "Informational influence",
+    "Normative influence"
+  ],
+  "c05s04": [
+    "Compliance",
+    "Obedience"
+  ],
+  "c06s03": [
+    "Attitude",
+    "Elaboration likelihood model",
+    "Central processing",
+    "Peripheral processing"
+  ],
+  "c06s04": [
+    "Descriptive norm",
+    "Injunctive norm"
+  ],
+  "c07s03": [
+    "Social identity",
+    "In-group favoritism"
+  ],
+  "c07s04": [
+    "Group polarization",
+    "Social loafing",
+    "Coordination loss"
+  ],
+  "c07s05": [
+    "Groupthink"
+  ],
+  "c08s03": [
+    "Stereotype",
+    "Prejudice",
+    "Discrimination"
+  ],
+  "c08s04": [
+    "Intergroup contact",
+    "Procedural change"
+  ],
+  "c08s05": [
+    "explicit attitude",
+    "implicit association"
+  ],
+  "c09s03": [
+    "Proximity",
+    "Mere exposure effect",
+    "Similarity"
+  ],
+  "c09s04": [
+    "Disclosure",
+    "Responsiveness",
+    "Reciprocity",
+    "Attachment"
+  ],
+  "c10s03": [
+    "Bystander effect",
+    "Diffusion of responsibility",
+    "Pluralistic ignorance"
+  ],
+  "c10s04": [
+    "Aggression",
+    "De-escalation",
+    "Cooperation"
+  ]
+}

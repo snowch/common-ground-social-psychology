@@ -4,6 +4,7 @@ Apply these choices when editing a passage; they are editorial guidance, not an 
 
 - Keep the belief being examined explicit. After introducing another person or event, repeat “Leo’s conclusion—that Maya didn’t care” rather than relying on a distant “his explanation.”
 - Explain a technical term on first use, then give a short original example when the definition alone would remain abstract. Distinguish adjacent concepts using the same situation where possible.
+- Put essential terminology and a brief explanation on the teaching slide itself. The narration and transcript can expand the explanation, but must not be the only place a learner can find the concept’s name. Check the exported slide PDF too.
 - Connect the explanation back to the people and actions in the story. Make an important reasoning step explicit instead of asking the listener to supply it.
 - Treat an example as an illustration of a possible process. Keep qualifications about uncertainty, boundaries, and how widely research findings apply.
 - Use visible paragraph breaks for shifts between observation, hidden circumstances, interpretation, and reflection.

@@ -22,3 +22,13 @@ Examples added in this pass are original illustrations. “Sweet disposition” 
 Recording scripts are synchronized using `scripts/sync_narration.py`; its `--check` mode detects stale scripts. Only changed recordings are regenerated, using the existing Kokoro ONNX `af_heart` voice at speed 1.0, with pauses at paragraph and exercise boundaries. Unchanged clips retain their approved speech forms. Current generation and automated screening details are recorded in `production/af-heart-production.json` and `qa/clarity-review.json`; earlier versioned reviews remain historical records.
 
 This is an editorial and automated verification pass. It is not an external subject-matter review, a learner pilot, or human listening approval.
+
+## Visible terminology follow-up
+
+Fifteen concept slides now name important vocabulary directly in their summaries. The additions include fundamental attribution error, random sampling, statistical significance, confirmation bias, motivated reasoning, cognitive dissonance, sunk cost effect, the elaboration likelihood model, intergroup contact, mere exposure effect, reciprocity, and the three helping concepts. Existing abbreviated labels such as “informational” and “descriptive” now use the full terms “informational influence” and “descriptive norm.”
+
+Concept labels before a colon are emphasized in bold, alongside short explanations or examples. The same summaries appear in the online course, portable decks, and PDFs. The approved recording scripts and all audio files are unchanged.
+
+`qa/essential-terms.json` lists the vocabulary that must appear on each teaching slide. `qa/check_visible_terminology.py` checks the actual slide text at mobile and desktop widths, excluding the recording transcript, and checks the corresponding pages in the complete PDF and individual chapter PDFs. It also covers terms already visible in the evidence slides, including replication, preregistration, groupthink, and implicit associations. Run it against a preview after exporting the PDFs. `qa/visible-terminology-results.json` records the result.
+
+The check passed for 61 required term appearances across 25 teaching slides at widths of 320 and 1440 pixels, and on the matching pages in both PDF formats. The 80-slide layout check found no clipping; the course regression check reported no automated accessibility violations across 83 screens. These are automated checks, with the same usability and review limits stated above.

@@ -28,7 +28,7 @@ Each chapter download includes a narrated HTML deck, continuous audio, an eight-
 
 There are 80 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 55 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
 
-The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. The [examples and explanation review](docs/clarity-review.md) adds concrete definitions, story connections, and clearer distinctions across all ten chapters. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
+The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. The [examples and explanation review](docs/clarity-review.md) adds concrete definitions, story connections, and clearer distinctions across all ten chapters. Essential concept names also appear directly on the teaching slides and in their PDFs, with short explanations. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
 
 ## Build from source
 
@@ -101,6 +101,8 @@ curl -fsSL https://cdn.jsdelivr.net/npm/axe-core@4.10.3/axe.min.js -o /tmp/commo
 python3 qa/check_course_review.py
 # Regenerate the PDFs from a running course preview:
 python3 scripts/export_pdfs.py
+# Check essential vocabulary on the slides and PDF pages (requires pdftotext):
+python3 qa/check_visible_terminology.py
 ```
 
 The scripts default to `/usr/bin/chromium`; adjust that executable for another development machine. `COURSE_BASE_URL` can select another preview origin. Normal reading and builds require no browser automation dependencies.
