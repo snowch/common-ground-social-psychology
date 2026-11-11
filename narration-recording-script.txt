@@ -1,0 +1,466 @@
+COMMON GROUND — RECORDED AF_HEART SCRIPT
+Kokoro v1.0, ONNX CPU, af_heart, speed 1.0.
+Visible text and speech-specific forms are recorded separately. Quiz feedback and recall answers are separate clips.
+
+c01s01 | Maya arrives late. The room has already decided why.
+A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar: what did you actually observe, and what explanation did you supply?
+Speech-specific rendering: A neighborhood team is turning an empty shop into a repair café. At the first meeting, [Maya](/mˈaɪə/) arrives twenty minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar: what did you actually observe, and what explanation did you supply?
+
+c01s02 | What would you do?
+Make a prediction before the explanation. Leo is assigning the opening shift. What is his most informative next move? Consider the consequence of each option. Choose one to see feedback. Option A. Ask Maya about today and check her availability. Option B. Use today’s lateness as the main sign of reliability. Option C. Ignore today and assume she will arrive on time. Pause here and choose an action.
+Speech-specific rendering: Make a prediction before the explanation. Leo is assigning the opening shift. What is his most informative next move? Consider the consequence of each option. Choose one to see feedback. Option A. Ask [Maya](/mˈaɪə/) about today and check her availability. Option B. Use today’s lateness as the main sign of reliability. Option C. Ignore today and assume she will arrive on time. Pause here and choose an action.
+
+c01s02-feedback-0 | Decision feedback
+Good application. He can investigate the obstacle and plan the shift without pretending the lateness did not matter.
+
+c01s02-feedback-1 | Decision feedback
+Consider the consequence. One episode may be a weak guide to a stable personal tendency.
+
+c01s02-feedback-2 | Decision feedback
+Consider the consequence. Avoiding judgment is not the same as gathering evidence.
+
+c01s03 | Behavior has more than one author.
+A disposition is a relatively enduring personal tendency. A situation includes immediate demands, other people, and available choices. Social psychology examines how these combine. An inaccessible building may make one person late while leaving another unaffected. Context does not erase responsibility. It improves the explanation and can suggest a better intervention than asking someone to try harder.
+
+c01s04 | Observation is not explanation.
+The fundamental attribution error describes a tendency to overemphasize personal qualities when explaining someone else’s behavior and underweight circumstances. Its strength varies with culture and context. You cannot diagnose it simply because you disagree with a judgment. Write the behavior neutrally, generate alternative explanations, and seek evidence that could make each explanation less plausible.
+
+c01s05 | What can we really conclude?
+Attribution studies describe patterns in judgment, not a law that character never matters. Repeated behavior across varied settings is more informative than one episode. Named effects such as actor–observer differences depend on the judgment and design. Do not turn every bias label into a universal rule or a diagnosis of someone else’s mind.
+
+c01s06 | Try the idea somewhere new.
+Apply the idea to a new decision. A volunteer misses shifts only when the bus service is suspended. What should you test? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Whether personality alone predicts attendance. Option B. Whether another travel plan improves attendance. Option C. Whether the missed shifts can be deleted. Pause here and choose an action.
+
+c01s06-feedback-0 | Decision feedback
+Consider the consequence. This repeats a preferred explanation without testing the pattern.
+
+c01s06-feedback-1 | Decision feedback
+Good application. Changing the suspected barrier gives useful evidence while keeping expectations clear.
+
+c01s06-feedback-2 | Decision feedback
+Consider the consequence. Removing observations does not remove the barrier.
+
+c01s07 | Close your notes. Explain it.
+Pause and answer from memory. Explain observation versus attribution. What would strengthen a personal explanation? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c01s07-answers | Suggested recall answers
+Suggested answers. 1. An observation records an action; an attribution proposes its cause. 2. A recurring pattern across varied circumstances, after examining plausible alternatives.
+
+c01s08 | Carry one idea into your week.
+Here is your field practice. Choose a mildly frustrating encounter. Write the action, your first interpretation, two alternatives, and one respectful question that could clarify it. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c02s01 | A brighter poster. More visitors. A cause?
+Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. He announces that the design doubled interest. But the rain also stopped, the local paper ran a story, and the opening hours changed. The improvement is real; the explanation is uncertain. This distinction matters whenever a headline, manager, or friend says that one change caused another.
+
+c02s02 | What would you do?
+Make a prediction before the explanation. Which statement fits Leo’s evidence? Consider the consequence of each option. Choose one to see feedback. Option A. The poster caused the increase. Option B. The poster had no effect. Option C. Attendance rose; several causes remain possible. Pause here and choose an action.
+
+c02s02-feedback-0 | Decision feedback
+Consider the consequence. Several conditions changed at once.
+
+c02s02-feedback-1 | Decision feedback
+Consider the consequence. Uncertain causation is not evidence of no effect.
+
+c02s02-feedback-2 | Decision feedback
+Good application. This preserves the observation without claiming to isolate a cause.
+
+c02s03 | Comparison makes a claim testable.
+An experiment deliberately varies a condition while comparing outcomes. Comparable households could receive randomly assigned invitations for the same café event. Random assignment helps balance other influences on average. Random sampling answers a different question: who enters the study from the population? A strong internal comparison can still involve a narrow sample that represents very few people.
+
+c02s04 | Ask how much—and how uncertain.
+Imagine twelve of one hundred invited households attend with one design and fifteen of one hundred with another. These are invented teaching numbers. The difference is three percentage points, with uncertainty that may be substantial. Statistical significance does not measure practical importance. A nonsignificant result does not prove zero effect. Examine the estimate, interval, design, and evidence from other tests.
+
+c02s05 | What can we really conclude?
+Replication examines how dependable a finding is across repeated tests. Preregistration records planned methods and analyses before results are known, reducing some opportunities for selective reporting. It cannot rescue a poor design. Larger samples improve precision; transparent materials and independent tests help others evaluate the claim. A memorable study is a starting point, not a final verdict.
+
+c02s06 | Try the idea somewhere new.
+Apply the idea to a new decision. Which invitation comparison is strongest? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Design A in winter; design B in summer. Option B. Randomize designs for one event; define attendance in advance. Option C. Design A for existing fans; design B for newcomers. Pause here and choose an action.
+
+c02s06-feedback-0 | Decision feedback
+Consider the consequence. Season varies alongside design.
+
+c02s06-feedback-1 | Decision feedback
+Good application. This improves comparability. Also check whether households share invitations.
+
+c02s06-feedback-2 | Decision feedback
+Consider the consequence. Prior interest differs systematically between groups.
+
+c02s07 | Close your notes. Explain it.
+Pause and answer from memory. How does assignment differ from sampling? Why is before-and-after evidence insufficient? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c02s07-answers | Suggested recall answers
+Suggested answers. 1. Assignment allocates conditions; sampling selects people. 2. Other conditions can change over time and produce the same pattern.
+
+c02s08 | Carry one idea into your week.
+Here is your field practice. Find an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c03s01 | One broken toaster becomes “they always break.”
+A repaired toaster fails again. The story spreads through the café chat. Leo decides electrical repairs usually fail, though nobody has counted outcomes. Maya has the opposite impression: she remembers grateful visitors and overlooks returns. Both have real memories. Neither collection is a representative audit. The team needs a way to learn from experience without confusing what is easy to remember with what is common.
+Speech-specific rendering: A repaired toaster fails again. The story spreads through the café chat. Leo decides electrical repairs usually fail, though nobody has counted outcomes. [Maya](/mˈaɪə/) has the opposite impression: she remembers grateful visitors and overlooks returns. Both have real memories. Neither collection is a representative audit. The team needs a way to learn from experience without confusing what is easy to remember with what is common.
+
+c03s02 | What would you do?
+Make a prediction before the explanation. What most improves the estimate of repeat failures? Consider the consequence of each option. Choose one to see feedback. Option A. A detailed account of the worst failure. Option B. Failures divided by comparable completed repairs. Option C. A vote on whose impression feels realistic. Pause here and choose an action.
+
+c03s02-feedback-0 | Decision feedback
+Consider the consequence. A case can reveal a mechanism but not establish a rate.
+
+c03s02-feedback-1 | Decision feedback
+Good application. The denominator makes the cases interpretable; consistent follow-up still matters.
+
+c03s02-feedback-2 | Decision feedback
+Consider the consequence. A vote measures beliefs, which may share the same missing information.
+
+c03s03 | Memorable is not the same as common.
+Heuristics are shortcuts that can be useful when time and information are limited. Availability misleads when vividness or recent exposure is a poor guide to frequency. A complaint channel can be excellent for detecting problems and poor for estimating their prevalence. Ask how examples were selected and what happened in the cases you never heard about.
+
+c03s04 | Beliefs can filter their own evidence.
+Confirmation bias includes seeking or interpreting information in ways that fit an existing belief. Motivated reasoning adds the influence of desired conclusions. These are tools for examining your own process, not labels to throw at opponents. Maya can define a failed repair in advance, follow up comparable cases consistently, and invite someone with another expectation to inspect the same record.
+Speech-specific rendering: Confirmation bias includes seeking or interpreting information in ways that fit an existing belief. Motivated reasoning adds the influence of desired conclusions. These are tools for examining your own process, not labels to throw at opponents. [Maya](/mˈaɪə/) can define a failed repair in advance, follow up comparable cases consistently, and invite someone with another expectation to inspect the same record.
+
+c03s05 | What can we really conclude?
+A bias name does not establish why one person made one judgment. To distinguish availability from accurate expertise, compare the judgment with relevant data. Corrective strategies are aids, not immunity. Experts also need feedback, representative records, and procedures that permit their expectations to be wrong. Personal reflection alone cannot replace those conditions.
+
+c03s06 | Try the idea somewhere new.
+Apply the idea to a new decision. Leo thinks evening sessions fail. Which question best challenges his belief? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Which evenings went badly? Option B. Who agrees that evenings are a poor idea? Option C. What outcomes would make us conclude evenings work? Pause here and choose an action.
+
+c03s06-feedback-0 | Decision feedback
+Consider the consequence. This selects cases consistent with the original belief.
+
+c03s06-feedback-1 | Decision feedback
+Consider the consequence. Agreement may reflect shared assumptions.
+
+c03s06-feedback-2 | Decision feedback
+Good application. Defining possible disconfirmation makes the belief testable.
+
+c03s07 | Close your notes. Explain it.
+Pause and answer from memory. Why does a vivid case need a denominator? When can an availability shortcut be useful? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c03s07-answers | Suggested recall answers
+Suggested answers. 1. Without the total of comparable cases, frequency is unknown. 2. When accessible examples reliably represent the relevant events.
+
+c03s08 | Carry one idea into your week.
+Here is your field practice. Keep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c04s01 | “I chose it” quietly becomes “it must be right.”
+Maya championed a booking system. After weeks of work, it still loses reservations. Usually quick to spot technical problems, she now explains each failure away. Admitting the system is poor feels like admitting she is poor at her role. Leo proposes another month of configuration because they have already spent so much. Their dilemma connects a threatened self-image with a decision about the future.
+Speech-specific rendering: [Maya](/mˈaɪə/) championed a booking system. After weeks of work, it still loses reservations. Usually quick to spot technical problems, she now explains each failure away. Admitting the system is poor feels like admitting she is poor at her role. Leo proposes another month of configuration because they have already spent so much. Their dilemma connects a threatened self-image with a decision about the future.
+
+c04s02 | What would you do?
+Make a prediction before the explanation. What makes honest revision easier? Consider the consequence of each option. Choose one to see feedback. Option A. Review failures and compare options afresh. Option B. Remind Maya that a competent coordinator would know better. Option C. Keep the system until the investment feels worthwhile. Pause here and choose an action.
+Speech-specific rendering: Make a prediction before the explanation. What makes honest revision easier? Consider the consequence of each option. Choose one to see feedback. Option A. Review failures and compare options afresh. Option B. Remind [Maya](/mˈaɪə/) that a competent coordinator would know better. Option C. Keep the system until the investment feels worthwhile. Pause here and choose an action.
+
+c04s02-feedback-0 | Decision feedback
+Good application. This makes the decision about outcomes rather than defending identity.
+
+c04s02-feedback-1 | Decision feedback
+Consider the consequence. Personal threat can encourage defensiveness without improving the decision.
+
+c04s02-feedback-2 | Decision feedback
+Consider the consequence. Continuing cannot recover an irrecoverable cost.
+
+c04s03 | Inconsistency can feel uncomfortable.
+Cognitive dissonance theory proposes that inconsistent cognitions can create discomfort that people are motivated to reduce. Someone may change behavior, change an attitude, or add a justification. The outcome is not predetermined. Maya could defend the tool or revise her self-story: careful coordinators notice mistakes and correct them. Perceived choice and responsibility can affect the pressure to justify an action.
+Speech-specific rendering: Cognitive dissonance theory proposes that inconsistent cognitions can create discomfort that people are motivated to reduce. Someone may change behavior, change an attitude, or add a justification. The outcome is not predetermined. [Maya](/mˈaɪə/) could defend the tool or revise her self-story: careful coordinators notice mistakes and correct them. Perceived choice and responsibility can affect the pressure to justify an action.
+
+c04s04 | Give the future a fresh vote.
+The sunk cost effect is a related decision problem, not another name for dissonance. Money or effort that cannot be recovered should not, by itself, determine the best next option. Switching costs, remaining obligations, and knowledge gained still matter when they affect future consequences. Ask which next step you would choose if you inherited this situation today.
+
+c04s05 | What can we really conclude?
+Specific dissonance demonstrations have uneven evidence. Vaidis and colleagues’ preregistered 2024 multilab replication did not support the primary predicted high-choice versus low-choice attitude difference in one induced-compliance paradigm. This challenges the tested procedure. It neither confirms every dissonance claim nor disproves every version of the theory. Keep the influential framework separate from confidence in a particular demonstration.
+Speech-specific rendering: Specific dissonance demonstrations have uneven evidence. A research team’s preregistered twenty twenty-four multilab replication did not support the primary predicted high-choice versus low-choice attitude difference in one induced-compliance paradigm. This challenges the tested procedure. It neither confirms every dissonance claim nor disproves every version of the theory. Keep the influential framework separate from confidence in a particular demonstration.
+
+c04s06 | Try the idea somewhere new.
+Apply the idea to a new decision. Switching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. The large fee already paid. Option B. The lower avoidable future cost of switching. Option C. Only the emotional discomfort of switching. Pause here and choose an action.
+Speech-specific rendering: Apply the idea to a new decision. Switching costs one hundred pounds; keeping the tool costs three hundred pounds in future support. Benefits are equal. What matters? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. The large fee already paid. Option B. The lower avoidable future cost of switching. Option C. Only the emotional discomfort of switching. Pause here and choose an action.
+
+c04s06-feedback-0 | Decision feedback
+Consider the consequence. The original fee is irrecoverable under these hypothetical assumptions.
+
+c04s06-feedback-1 | Decision feedback
+Good application. Under the stated assumptions, £100 is less than £300. Real choices also compare risks.
+Speech-specific rendering: Good application. Under the stated assumptions, one hundred pounds is less than three hundred pounds. Real choices also compare risks.
+
+c04s06-feedback-2 | Decision feedback
+Consider the consequence. Feelings may matter, but they do not replace the stated comparison.
+
+c04s07 | Close your notes. Explain it.
+Pause and answer from memory. Name two ways to reduce dissonance. When can a past investment still matter? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c04s07-answers | Suggested recall answers
+Suggested answers. 1. Change behavior or belief, or add a justification; context affects the response. 2. When it changes future consequences, such as switching costs or usable skills.
+
+c04s08 | Carry one idea into your week.
+Here is your field practice. Revisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c05s01 | Everyone says yes. Has everyone agreed?
+A donor offers a publicity event. The chair calls it a wonderful opportunity; the first three volunteers agree. Sam doubts the team can manage the workload but stays silent. Maya assumes Sam knows something reassuring. Sam assumes Maya checked the risks. Apparent agreement partly comes from everyone watching everyone else. Later, a request to skip an equipment check raises another question: when should authority be challenged?
+Speech-specific rendering: A donor offers a publicity event. The chair calls it a wonderful opportunity; the first three volunteers agree. Sam doubts the team can manage the workload but stays silent. [Maya](/mˈaɪə/) assumes Sam knows something reassuring. Sam assumes [Maya](/mˈaɪə/) checked the risks. Apparent agreement partly comes from everyone watching everyone else. Later, a request to skip an equipment check raises another question: when should authority be challenged?
+
+c05s02 | What would you do?
+Make a prediction before the explanation. What could reveal concerns before discussion? Consider the consequence of each option. Choose one to see feedback. Option A. Have the chair announce the preferred answer. Option B. Collect independent written judgments first. Option C. Ask only experienced members to speak. Pause here and choose an action.
+
+c05s02-feedback-0 | Decision feedback
+Consider the consequence. This may anchor later comments.
+
+c05s02-feedback-1 | Decision feedback
+Good application. Independent responses make public agreement less necessary.
+
+c05s02-feedback-2 | Decision feedback
+Consider the consequence. Experience matters, but other members may have relevant information.
+
+c05s03 | Two reasons to follow a group.
+Informational influence treats other people as evidence about reality, especially in uncertainty. Normative influence concerns acceptance or avoiding rejection. Both can operate at once. Sam may genuinely doubt their workload estimate and fear disappointing the chair. Conformity can coordinate useful behavior. Ask whether the information is sound and whether disagreement is possible without a social penalty.
+
+c05s04 | Authority changes the pressure.
+Authority can make a demand feel legitimate and shift perceived responsibility. Historical obedience studies found that some participants continued under strong experimental pressure, while others resisted, and outcomes varied with conditions. They do not prove everyone will obey harmful instructions. At the café, an explicit rule allowing any volunteer to stop unsafe work makes the right to question concrete.
+
+c05s05 | What can we really conclude?
+Asch’s line-judgment studies examined majority influence in an artificial task. Milgram’s studies examined apparent authority in a highly structured setting. Their methods, ethics, and interpretation matter. They offer evidence about conditions of influence, not universal population obedience rates. Famous demonstrations should not be treated as proof that harmful conduct is inevitable.
+
+c05s06 | Try the idea somewhere new.
+Apply the idea to a new decision. The chair requests bypassing a required check. Which process helps? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Let the first confident person decide. Option B. Allow anonymous complaints afterward. Option C. Pause and use an agreed safety escalation route. Pause here and choose an action.
+
+c05s06-feedback-0 | Decision feedback
+Consider the consequence. Confidence is not evidence of safety.
+
+c05s06-feedback-1 | Decision feedback
+Consider the consequence. Later complaints cannot prevent unchecked work now.
+
+c05s06-feedback-2 | Decision feedback
+Good application. A clear route makes questioning possible while the decision still matters.
+
+c05s07 | Close your notes. Explain it.
+Pause and answer from memory. Distinguish normative and informational influence. Why can public agreement overstate private agreement? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c05s07-answers | Suggested recall answers
+Suggested answers. 1. Normative concerns acceptance; informational treats others as evidence. 2. People suppress doubts, copy early answers, or infer that others have checked.
+
+c05s08 | Carry one idea into your week.
+Here is your field practice. For an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c06s01 | Two invitations. Different reasons to care.
+The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya explains the skills people can learn, the time needed, and available support. Neither invitation automatically wins. A hurried passerby might notice the celebrity; someone deciding whether to give every Saturday needs practical reasons. The challenge is an honest invitation that helps people make a choice they can sustain.
+Speech-specific rendering: The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. [Maya](/mˈaɪə/) explains the skills people can learn, the time needed, and available support. Neither invitation automatically wins. A hurried passerby might notice the celebrity; someone deciding whether to give every Saturday needs practical reasons. The challenge is an honest invitation that helps people make a choice they can sustain.
+
+c06s02 | What would you do?
+Make a prediction before the explanation. A prospect worries about time. What helps most? Consider the consequence of each option. Choose one to see feedback. Option A. A second celebrity endorsement. Option B. Shift length, support, and an optional trial. Option C. A stronger claim that this is unmissable. Pause here and choose an action.
+
+c06s02-feedback-0 | Decision feedback
+Consider the consequence. It may attract attention but leaves the concern unresolved.
+
+c06s02-feedback-1 | Decision feedback
+Good application. Relevant details allow evaluation of the actual commitment.
+
+c06s02-feedback-2 | Decision feedback
+Consider the consequence. Pressure does not answer the practical question.
+
+c06s03 | Attention and evaluation are different jobs.
+The elaboration likelihood model links message processing with motivation and ability. When people can and want to think carefully, argument quality matters more. Under low elaboration, cues such as familiarity or perceived credibility can carry more weight. These are not fixed personality types. The same person may inspect a major commitment closely and use a shortcut for a minor decision.
+
+c06s04 | A norm must be true to be useful.
+Saying many people volunteer communicates a descriptive norm. Saying the community values volunteering communicates an injunctive norm. Inventing either is misleading. Highlighting how widespread a problem is can sometimes normalize it. State what is actually known, explain the contribution needed, and make it easy to ask questions or decline. Ethical influence supports an informed choice rather than hiding the effort involved.
+
+c06s05 | What can we really conclude?
+Persuasion varies with audience, topic, source, and outcome. A changed survey answer is not sustained behavior change. These recommendations are design hypotheses to test, not guaranteed conversion techniques. Compare comprehension, informed sign-ups, and retention rather than counting clicks alone. Also ask whether people understood the commitment and felt able to decline it.
+
+c06s06 | Try the idea somewhere new.
+Apply the idea to a new decision. Few residents currently volunteer. Which invitation is defensible? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. “Everyone here already volunteers.” Option B. “Hardly anyone helps—don’t be like them.” Option C. “Try a supported two-hour shift; here is what it involves.” Pause here and choose an action.
+
+c06s06-feedback-0 | Decision feedback
+Consider the consequence. It invents a descriptive norm.
+
+c06s06-feedback-1 | Decision feedback
+Consider the consequence. It highlights nonparticipation and adds shame.
+
+c06s06-feedback-2 | Decision feedback
+Good application. It gives a concrete, checkable request. Its effect still needs evaluation.
+
+c06s07 | Close your notes. Explain it.
+Pause and answer from memory. What makes central processing more likely? Distinguish descriptive and injunctive norms. Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c06s07-answers | Suggested recall answers
+Suggested answers. 1. Motivation, ability, attention, and relevant information. 2. Descriptive norms concern actions; injunctive norms concern approval.
+
+c06s08 | Carry one idea into your week.
+Here is your field practice. Rewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c07s01 | Two teams stop sharing a table.
+Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each sees its own effort clearly and the other’s poorly. A planning meeting grows increasingly ambitious as speakers propose bigger events. Meanwhile nobody owns the checklist: everybody assumed somebody else did. Belonging supports cooperation, but the way a group organizes work can help or hinder it.
+
+c07s02 | What would you do?
+Make a prediction before the explanation. The shared checklist is unfinished. What is a useful first change? Consider the consequence of each option. Choose one to see feedback. Option A. Agree on owners, deadlines, and needed support. Option B. Tell everyone their commitment is disappointing. Option C. Copy more people onto every task. Pause here and choose an action.
+
+c07s02-feedback-0 | Decision feedback
+Good application. This directly addresses responsibility and coordination.
+
+c07s02-feedback-1 | Decision feedback
+Consider the consequence. General criticism leaves allocation unclear.
+
+c07s02-feedback-2 | Decision feedback
+Consider the consequence. More recipients may strengthen the assumption that someone else will act.
+
+c07s03 | Identity changes the boundary of “us.”
+Group memberships help people understand themselves and others. Favoring an in-group does not require explicit hatred of outsiders, but can produce unequal treatment. A shared goal of a successful visitor journey can connect the café teams. A new label alone is unlikely to fix conflicting incentives, a real workload imbalance, or unequal decision power. Consider the structure supporting the boundary.
+
+c07s04 | Groups can amplify—or lose—effort.
+Polarization can arise through supporting arguments and comparisons with other members. It differs from merely reaching agreement. Social loafing concerns reduced individual effort in a collective task, particularly when contributions are hard to identify. An unfinished checklist is not proof of loafing: missing tools, unclear roles, or duplicated work can also lower group performance. Diagnose the process before selecting a fix.
+
+c07s05 | What can we really conclude?
+Groupthink is a label for some failures of critical discussion, not a complete explanation whenever a group makes a mistake. Seek observable processes: suppressed dissent, repeated information, incentives, effort, or coordination. Independent estimates, clear roles, and structured disagreement solve different problems. Avoid calling a group irrational without identifying what would improve its decisions.
+
+c07s06 | Try the idea somewhere new.
+Apply the idea to a new decision. An event budget keeps escalating without checking demand. What helps? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Ask members to show stronger enthusiasm. Option B. Gather independent estimates and contrary evidence. Option C. Open with the chair’s preferred budget. Pause here and choose an action.
+
+c07s06-feedback-0 | Decision feedback
+Consider the consequence. This rewards visible commitment rather than realistic planning.
+
+c07s06-feedback-1 | Decision feedback
+Good application. This introduces information beyond the existing enthusiasm.
+
+c07s06-feedback-2 | Decision feedback
+Consider the consequence. A preferred opening number can anchor later judgments.
+
+c07s07 | Close your notes. Explain it.
+Pause and answer from memory. How does polarization differ from consensus? How can a willing group still perform poorly? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c07s07-answers | Suggested recall answers
+Suggested answers. 1. Consensus is agreement; polarization moves toward a more extreme position from an initial leaning. 2. Poor sequencing, duplication, missing tools, or ambiguous roles can waste genuine effort.
+
+c07s08 | Carry one idea into your week.
+Here is your field practice. Map a shared project: task, owner, dependency, and feedback point. Decide whether its main obstacle is effort, coordination, or decision quality before proposing a remedy. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c08s01 | “Anyone can join.” The form says otherwise.
+The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes people own specialist tools. A newcomer is treated as inexperienced before anyone asks what she can do. No single explanation covers every barrier. We need to distinguish beliefs about people, attitudes toward groups, decisions about access, and procedures that reproduce a pattern over time.
+
+c08s02 | What would you do?
+Make a prediction before the explanation. How should the team investigate unequal access? Consider the consequence of each option. Choose one to see feedback. Option A. Ask whether organizers consider themselves fair. Option B. Trace who can enter each stage and where people drop out. Option C. Add a fairness slogan to the poster. Pause here and choose an action.
+
+c08s02-feedback-0 | Decision feedback
+Consider the consequence. Self-descriptions do not establish how the process works.
+
+c08s02-feedback-1 | Decision feedback
+Good application. A process audit can reveal barriers that intentions and slogans miss.
+
+c08s02-feedback-2 | Decision feedback
+Consider the consequence. The slogan does not change the entry requirements.
+
+c08s03 | Belief, feeling, and action are distinct.
+These concepts overlap without being identical. Someone can endorse equality and still use an unexamined stereotype in an application decision. Unequal access can also arise from a procedure favoring existing networks. Examine the actual decision, relevant comparisons, and context. An ambiguous observation cannot reveal someone’s entire belief system, while positive intentions cannot establish that a process is fair.
+
+c08s04 | Change the encounter and the structure.
+Intergroup contact can reduce prejudice on average. Cooperation, common goals, equal status within an encounter, and institutional support are important conditions to consider. A brief social event is not a guarantee. Sharing real authority and resources matters alongside meeting people. Structural barriers need procedural changes, not only requests for warmer feelings. Evaluate the access people actually experience.
+
+c08s05 | What can we really conclude?
+Explicit attitudes, implicit associations, and discriminatory behavior are different measures. A test score is not a complete character diagnosis or a forecast of every action. Evaluate interventions using meaningful behavior and access outcomes, follow-up, and affected people’s experiences. Account for small samples and protect privacy; measuring inequality does not justify collecting unnecessary personal information.
+
+c08s06 | Try the idea somewhere new.
+Apply the idea to a new decision. Friend referrals become an open skills-based application. How can improvement be assessed? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Check whether organizers feel more inclusive. Option B. Compare the friendliness of form wording. Option C. Track applications, progression, and participation using relevant criteria. Pause here and choose an action.
+
+c08s06-feedback-0 | Decision feedback
+Consider the consequence. Reaction is useful but does not measure access.
+
+c08s06-feedback-1 | Decision feedback
+Consider the consequence. Wording can help, but outcomes still matter.
+
+c08s06-feedback-2 | Decision feedback
+Good application. Stage-by-stage outcomes can reveal remaining barriers; interpret with context and privacy safeguards.
+
+c08s07 | Close your notes. Explain it.
+Pause and answer from memory. Give discrimination without open hostility as an example. Why might a contact event leave unequal access unchanged? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c08s07-answers | Suggested recall answers
+Suggested answers. 1. An irrelevant requirement or restricted network can exclude a group without a hostile statement. 2. Power, incentives, status differences, or procedures may stay unchanged.
+
+c08s08 | Carry one idea into your week.
+Here is your field practice. Review a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c09s01 | Friendship begins with the quiet shift.
+Sam and Leo take the quiet Thursday session. At first they discuss only spare parts. Over weeks they discover a shared interest in old radios. Leo mentions a difficult week; Sam listens before offering a solution. Repeated contact created opportunities, shared interests made conversation easier, and responsiveness made it feel safer. There is no secret technique in this story, and neither person is owed closeness.
+
+c09s02 | What would you do?
+Make a prediction before the explanation. A newcomer hopes to make friends. What is a respectful starting point? Consider the consequence of each option. Choose one to see feedback. Option A. Offer a shared activity and notice reciprocal interest. Option B. Share increasingly private details until closeness develops. Option C. Keep arranging contact after invitations are declined. Pause here and choose an action.
+
+c09s02-feedback-0 | Decision feedback
+Good application. This creates an opportunity while preserving choice.
+
+c09s02-feedback-1 | Decision feedback
+Consider the consequence. Disclosure without mutual readiness can feel intrusive.
+
+c09s02-feedback-2 | Decision feedback
+Consider the consequence. A refusal is information about a boundary, not a barrier to overcome.
+
+c09s03 | Opportunity shapes who becomes familiar.
+Daily settings expose you to a particular subset of people. Shared schedules influence who becomes familiar. Mere exposure describes cases where repeated encounters increase liking, but repetition can also intensify annoyance or threat. Similarity in interests and values can support connection. None of these factors guarantees attraction, compatibility, or a healthy relationship, and they never override someone’s expressed boundary.
+
+c09s04 | Closeness is a reciprocal process.
+Disclosure can support intimacy when met with appropriate responsiveness. Reciprocity does not mean matching secrets on demand or treating favors as debts. Relationships also involve expectations about support, fairness, and commitment. People differ in how secure or anxious they feel in close relationships. Attachment labels are not diagnoses and should not be used to explain away a person’s stated wishes.
+
+c09s05 | What can we really conclude?
+Much relationship research is correlational or uses self-reports from particular cultures and relationship forms. An association between similarity and satisfaction does not prove that making two people more similar improves their relationship. Distinguish average associations from advice for a particular pair, and give direct communication more weight than catchy compatibility rules.
+
+c09s06 | Try the idea somewhere new.
+Apply the idea to a new decision. Sam declines an invitation and needs time alone. What should Leo do? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Diagnose an avoidant attachment style. Option B. Accept the boundary and leave future contact optional. Option C. Increase contact to use the familiarity effect. Pause here and choose an action.
+
+c09s06-feedback-0 | Decision feedback
+Consider the consequence. One refusal does not establish an attachment pattern.
+
+c09s06-feedback-1 | Decision feedback
+Good application. This respects the stated preference without inventing a diagnosis.
+
+c09s06-feedback-2 | Decision feedback
+Consider the consequence. Exposure does not justify ignoring a boundary.
+
+c09s07 | Close your notes. Explain it.
+Pause and answer from memory. How can proximity affect friendship? Why is disclosure alone insufficient? Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c09s07-answers | Suggested recall answers
+Suggested answers. 1. It changes opportunities to interact and discover shared interests. 2. Willingness, response, trust, context, and mutual boundaries also matter.
+
+c09s08 | Carry one idea into your week.
+Here is your field practice. In a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on responsiveness rather than whether you won someone’s affection. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.
+
+c10s01 | A crash. A full room. A moment of hesitation.
+A shelf falls during a busy café session and a visitor needs help. People freeze, checking everyone else’s reaction. Maya names the problem, asks Leo to contact the appropriate emergency service, and clears space for a trained helper. Later, two volunteers argue about blame. The team needs both a response to the incident and a better environment for cooperation. Good intentions need a workable path to action.
+Speech-specific rendering: A shelf falls during a busy café session and a visitor needs help. People freeze, checking everyone else’s reaction. [Maya](/mˈaɪə/) names the problem, asks Leo to contact the appropriate emergency service, and clears space for a trained helper. Later, two volunteers argue about blame. The team needs both a response to the incident and a better environment for cooperation. Good intentions need a workable path to action.
+
+c10s02 | What would you do?
+Make a prediction before the explanation. Why could concerned bystanders hesitate? Consider the consequence of each option. Choose one to see feedback. Option A. Concern disappears when groups become large. Option B. People may be uncertain and assume someone else will act. Option C. Hesitation proves nobody cares. Pause here and choose an action.
+
+c10s02-feedback-0 | Decision feedback
+Consider the consequence. Group size does not determine concern on its own.
+
+c10s02-feedback-1 | Decision feedback
+Good application. Ambiguity and divided responsibility can both contribute.
+
+c10s02-feedback-2 | Decision feedback
+Consider the consequence. Ability, safety, and uncertainty are alternative explanations.
+
+c10s03 | Helping has several decision points.
+The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility means each person feels less personally responsible. Pluralistic ignorance means people misread others’ outward calm as evidence that nothing is wrong. These patterns have important moderators: in some emergencies others provide essential support and increase the chance that someone helps. Crowds do not mechanically remove concern.
+
+c10s04 | Make constructive action easier.
+Frustration, learned scripts, perceived threat, and pressure can contribute to aggression, but anger does not inevitably produce harm. Calm space, clear conduct rules, and trained escalation routes can help at the café. Cooperative work needs reliable expectations about contributions, reporting problems, and sharing benefits and burdens. Context helps explain conduct while leaving accountability for harmful actions intact.
+
+c10s05 | What can we really conclude?
+Laboratory aggression measures are imperfect proxies for serious violence. Bystander findings vary with danger, relationships, and available support. Avoid universal slogans about crowds. For real emergencies, follow local guidance and your training; a social psychology explanation does not replace first-aid instruction. Assess practical changes by whether appropriate, safe help becomes more available.
+
+c10s06 | Try the idea somewhere new.
+Apply the idea to a new decision. Which preparation makes future help more likely? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Tell everyone to be more caring. Option B. Assume the most senior person handles all incidents. Option C. Agree on response roles, training, and a call-for-help route. Pause here and choose an action.
+
+c10s06-feedback-0 | Decision feedback
+Consider the consequence. A general appeal leaves the action unclear.
+
+c10s06-feedback-1 | Decision feedback
+Consider the consequence. An assumed owner may be absent or untrained.
+
+c10s06-feedback-2 | Decision feedback
+Good application. Preparation addresses ability and responsibility, not just intentions.
+
+c10s07 | Close your notes. Explain it.
+Pause and answer from memory. Distinguish diffusion of responsibility from pluralistic ignorance. Apply two earlier chapters to an incident review. Use your own example. Reveal the suggested answers only after attempting both questions.
+
+c10s07-answers | Suggested recall answers
+Suggested answers. 1. Diffusion concerns who should act; pluralistic ignorance concerns interpreting others’ reactions. 2. Separate observations from blame (1), compare causes (2), invite independent accounts (5), or assign clear roles (7).
+
+c10s08 | Carry one idea into your week.
+Here is your field practice. Design a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.

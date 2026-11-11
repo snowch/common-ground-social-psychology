@@ -1,0 +1,16 @@
+{
+  "metadata_decoded": 150,
+  "real_playback": "passed",
+  "pause_resume_stop": "passed",
+  "speed": "passed",
+  "selected_feedback_queue": "passed",
+  "recall_answer_queue": "passed",
+  "navigation_stops_audio": "passed",
+  "standalone_chapter": "passed",
+  "feedback_variants": 60,
+  "mobile_width": 390,
+  "js_errors": [],
+  "audible_human_review": false,
+  "recordings": 150,
+  "audio_storage": "local files"
+}

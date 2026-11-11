@@ -1,0 +1,25 @@
+AF_HEART AUDIO REVIEW
+
+Method: independent Whisper small.en transcription without script prompts or vocabulary hints; inspection of transcript differences and Kokoro phoneme output; actual browser decoding and playback checks. This is an automated and text/phoneme review, not a human listening approval.
+
+Settings: Kokoro v1.0, af_heart, original synthesis speed 1.0, ONNX CPU. The requested skill's verified model and voice hashes are retained in production provenance. Encoded AAC targets -16 LUFS and -1.5 dBTP at 48 kHz, mono, 160 kbps.
+
+Pronunciation correction: explicit /mˈaɪə/ for Maya in ten scenes, retaining the on-screen spelling. Original eSpeak output sometimes included a final /r/ and the recognizer wrote Meyer. The corrected speech is re-screened independently. Leo, Sam, heuristics, preregistered, multilab, injunctive, pluralistic ignorance, and other technical terms were checked in phoneme output. The author citation is retained on screen; the speech-specific script uses “a research team” for the unfamiliar Vaidis surname. Currency and the year are written out for speech.
+
+Word-match flags inspected:
+- c01s07-answers: numbered list digits versus spoken one/two, plus a recognizer split of attribution.
+- c02s04: twelve/one hundred/fifteen versus 12/100/15 and nonsignificant versus non-significant. Both negations and “three percentage points” are preserved.
+- c04s07-answers: one/two numbering and “add a” transcribed as “added”; the intended action is retained.
+- c06s06-feedback-1: nonparticipation versus non-participation.
+- c06s07-answers: one/two numbering; both norm definitions are retained.
+- c10s07-answers: numbered answers and chapter references rendered as spoken numbers. Both mechanisms and the chapter examples are retained.
+
+Pace flags: all were below the skill's 120-wpm lower threshold, mainly short feedback or numbered recall answers. No clip was flagged as too fast. Original speed 1.0 is intentionally retained; slower recall delivery is appropriate for the learning task. The final ASR report retains these flags rather than presenting a false “no flags” result.
+
+No raw clip had a clipping, relative-level, or excessive-internal-gap flag. Single-pass encoded loudness is a target rather than an exact per-clip guarantee; an initial preview before the pronunciation correction measured -16.73 LUFS, with a codec true-peak estimate of -1.47 dBTP.
+
+Additional transcript inspection: compared every recognized passage with its intended speech. Differences were spelling, homophones, inflection, numeric formatting, or segmentation. No substantive omitted teaching claim or negation was identified in this review.
+
+One repeated-sentence alert (c01s06) was investigated with independent full-clip and last-eight-second transcription. The full recognizer invented repeat timestamps beyond the 24.68-second recording duration; the isolated tail contained one final “Pause here and choose an action.” No speech was cut to chase that ASR hallucination.
+
+Remaining limit: ASR spelling and phoneme checks cannot establish naturalness, exact pronunciation, or complete word accuracy. No claim of a human listening review is made. The downloadable opening sample and chapter tracks allow direct listening.

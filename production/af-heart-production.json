@@ -1,0 +1,25 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "engine": {
+    "backend": "onnx",
+    "model": "Kokoro-82M v1.0",
+    "release": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/",
+    "sha256": {
+      "kokoro-v1.0.onnx": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+      "voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+    },
+    "provider": "CPUExecutionProvider"
+  },
+  "clip_count": 150,
+  "chapter_count": 10,
+  "chapter_audio_seconds": 2278.6,
+  "asr_model": "small.en",
+  "asr_scenes": 150,
+  "automated_flags": 15,
+  "review": "Independent Whisper screening, phoneme inspection, encoded-audio checks, and browser playback tests. No human listening approval.",
+  "authorization": "User requested Kokoro af_heart for the existing course scripts.",
+  "skill_repository": "https://github.com/snowch/claude-skills",
+  "skill_commit": "c9a7c521568632aa216932f4c965df386498602a",
+  "audio_map": "audio/manifest.json"
+}

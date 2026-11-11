@@ -1,0 +1,28 @@
+"""Build the course with the standard library and bundled assets."""
+from pathlib import Path
+import argparse,base64,json,shutil
+R=Path(__file__).resolve().parent
+p=argparse.ArgumentParser(description=__doc__)
+p.add_argument('--portable',action='store_true',help='Embed narration in each HTML deck for offline use.')
+p.add_argument('--output',default='dist',help='Build output directory (default: dist).')
+a=p.parse_args();D=(R/a.output).resolve();D.mkdir(parents=True,exist_ok=True);(D/'chapters').mkdir(exist_ok=True)
+C=json.loads((R/'course.json').read_text());clips={f.stem:f for f in (R/'audio/clips').glob('*.m4a')}
+if len(clips)!=150:raise SystemExit('Expected 150 audio/clips/*.m4a recordings. See README.md for setup.')
+fonts=''
+for family,name in [('Bookman','URWBookman-Light.otf'),('Nimbus','NimbusSans-Regular.otf')]:
+ b=base64.b64encode((R/'assets/fonts'/name).read_bytes()).decode();fonts+=f'@font-face{{font-family:{family};src:url(data:font/otf;base64,{b}) format("opentype");font-weight:100 900;font-display:swap}}\n'
+template=(R/'template.html').read_text().replace('__FONTS__',fonts)
+def render(path,chapters,prefix):
+ numbers={f"c{c['number']:02d}"for c in chapters}
+ audio={key:('data:audio/mp4;base64,'+base64.b64encode(file.read_bytes()).decode()if a.portable else prefix+'audio/clips/'+file.name)for key,file in clips.items()if key[:3]in numbers}
+ s=template.replace('__DATA__',json.dumps(chapters,ensure_ascii=False).replace('</','<\\/')).replace('__AUDIO__',json.dumps(audio))
+ if not a.portable:
+  s=s.replace('The recordings are included in this deck and work offline.','Recordings load when you press Play narration. The portable build embeds them for offline use.').replace('The deck embeds prerecorded Kokoro','The course plays prerecorded Kokoro').replace('Quizzes and embedded narration work offline. External reading requires a connection.','This build loads audio files from its audio folder. Use the portable build for self-contained offline decks.')
+ path.write_text(s)
+render(D/'index.html',C,'./')
+for c in C:
+ slug=f"chapter-{c['number']:02d}"
+ render(D/'chapters'/f'{slug}.html',[c],'../');shutil.copy(R/'chapters'/f'{slug}.pdf',D/'chapters'/f'{slug}.pdf')
+shutil.copy(R/'common-ground-slides.pdf',D/'common-ground-slides.pdf');shutil.copy(R/'FONT-LICENSE.txt',D/'FONT-LICENSE.txt')
+if not a.portable:shutil.copytree(R/'audio',D/'audio',dirs_exist_ok=True)
+print(f"Built {'portable'if a.portable else 'streamed-audio'} course in {D}")

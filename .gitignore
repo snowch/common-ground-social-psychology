@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+out/
+releases/
+*.zip
+production/af-heart/audio/*.wav
+production/af-heart/audio/asr-progress.json
+production/af-heart/chapter-*-concat.txt
+qa/af-heart-mobile.png
+qa/cover.png
+qa/story.png
+qa/decision.png
+qa/concept.png
+qa/mobile-*.png
+qa/slide-preview.png

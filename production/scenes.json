@@ -1,0 +1,642 @@
+[
+  {
+    "id": "c01s01",
+    "slide": 1,
+    "step": "Maya arrives late. The room has already decided why.",
+    "text": "A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo thinks she does not care. Then we see the broken lift at her apartment and the neighbor she helped down the stairs. His explanation was possible. It was also incomplete. Our characters are fictional, but their problem is familiar: what did you actually observe, and what explanation did you supply?",
+    "part": "chapter-01",
+    "hold": 1
+  },
+  {
+    "id": "c01s02",
+    "slide": 2,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. Leo is assigning the opening shift. What is his most informative next move? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-01",
+    "hold": 3
+  },
+  {
+    "id": "c01s03",
+    "slide": 3,
+    "step": "Behavior has more than one author.",
+    "text": "A disposition is a relatively enduring personal tendency. A situation includes immediate demands, other people, and available choices. Social psychology examines how these combine. An inaccessible building may make one person late while leaving another unaffected. Context does not erase responsibility. It improves the explanation and can suggest a better intervention than asking someone to try harder.",
+    "part": "chapter-01",
+    "hold": 1
+  },
+  {
+    "id": "c01s04",
+    "slide": 4,
+    "step": "Observation is not explanation.",
+    "text": "The fundamental attribution error describes a tendency to overemphasize personal qualities when explaining someone else’s behavior and underweight circumstances. Its strength varies with culture and context. You cannot diagnose it simply because you disagree with a judgment. Write the behavior neutrally, generate alternative explanations, and seek evidence that could make each explanation less plausible.",
+    "part": "chapter-01",
+    "hold": 1
+  },
+  {
+    "id": "c01s05",
+    "slide": 5,
+    "step": "What can we really conclude?",
+    "text": "Attribution studies describe patterns in judgment, not a law that character never matters. Repeated behavior across varied settings is more informative than one episode. Named effects such as actor–observer differences depend on the judgment and design. Do not turn every bias label into a universal rule or a diagnosis of someone else’s mind.",
+    "part": "chapter-01",
+    "hold": 1
+  },
+  {
+    "id": "c01s06",
+    "slide": 6,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. A volunteer misses shifts only when the bus service is suspended. What should you test? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-01",
+    "hold": 3
+  },
+  {
+    "id": "c01s07",
+    "slide": 7,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. Explain observation versus attribution. What would strengthen a personal explanation? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-01",
+    "hold": 3
+  },
+  {
+    "id": "c01s08",
+    "slide": 8,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Choose a mildly frustrating encounter. Write the action, your first interpretation, two alternatives, and one respectful question that could clarify it. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-01",
+    "hold": 3
+  },
+  {
+    "id": "c02s01",
+    "slide": 9,
+    "step": "A brighter poster. More visitors. A cause?",
+    "text": "Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. He announces that the design doubled interest. But the rain also stopped, the local paper ran a story, and the opening hours changed. The improvement is real; the explanation is uncertain. This distinction matters whenever a headline, manager, or friend says that one change caused another.",
+    "part": "chapter-02",
+    "hold": 1
+  },
+  {
+    "id": "c02s02",
+    "slide": 10,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. Which statement fits Leo’s evidence? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-02",
+    "hold": 3
+  },
+  {
+    "id": "c02s03",
+    "slide": 11,
+    "step": "Comparison makes a claim testable.",
+    "text": "An experiment deliberately varies a condition while comparing outcomes. Comparable households could receive randomly assigned invitations for the same café event. Random assignment helps balance other influences on average. Random sampling answers a different question: who enters the study from the population? A strong internal comparison can still involve a narrow sample that represents very few people.",
+    "part": "chapter-02",
+    "hold": 1
+  },
+  {
+    "id": "c02s04",
+    "slide": 12,
+    "step": "Ask how much—and how uncertain.",
+    "text": "Imagine twelve of one hundred invited households attend with one design and fifteen of one hundred with another. These are invented teaching numbers. The difference is three percentage points, with uncertainty that may be substantial. Statistical significance does not measure practical importance. A nonsignificant result does not prove zero effect. Examine the estimate, interval, design, and evidence from other tests.",
+    "part": "chapter-02",
+    "hold": 1
+  },
+  {
+    "id": "c02s05",
+    "slide": 13,
+    "step": "What can we really conclude?",
+    "text": "Replication examines how dependable a finding is across repeated tests. Preregistration records planned methods and analyses before results are known, reducing some opportunities for selective reporting. It cannot rescue a poor design. Larger samples improve precision; transparent materials and independent tests help others evaluate the claim. A memorable study is a starting point, not a final verdict.",
+    "part": "chapter-02",
+    "hold": 1
+  },
+  {
+    "id": "c02s06",
+    "slide": 14,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. Which invitation comparison is strongest? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-02",
+    "hold": 3
+  },
+  {
+    "id": "c02s07",
+    "slide": 15,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. How does assignment differ from sampling? Why is before-and-after evidence insufficient? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-02",
+    "hold": 3
+  },
+  {
+    "id": "c02s08",
+    "slide": 16,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Find an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-02",
+    "hold": 3
+  },
+  {
+    "id": "c03s01",
+    "slide": 17,
+    "step": "One broken toaster becomes “they always break.”",
+    "text": "A repaired toaster fails again. The story spreads through the café chat. Leo decides electrical repairs usually fail, though nobody has counted outcomes. Maya has the opposite impression: she remembers grateful visitors and overlooks returns. Both have real memories. Neither collection is a representative audit. The team needs a way to learn from experience without confusing what is easy to remember with what is common.",
+    "part": "chapter-03",
+    "hold": 1
+  },
+  {
+    "id": "c03s02",
+    "slide": 18,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. What most improves the estimate of repeat failures? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-03",
+    "hold": 3
+  },
+  {
+    "id": "c03s03",
+    "slide": 19,
+    "step": "Memorable is not the same as common.",
+    "text": "Heuristics are shortcuts that can be useful when time and information are limited. Availability misleads when vividness or recent exposure is a poor guide to frequency. A complaint channel can be excellent for detecting problems and poor for estimating their prevalence. Ask how examples were selected and what happened in the cases you never heard about.",
+    "part": "chapter-03",
+    "hold": 1
+  },
+  {
+    "id": "c03s04",
+    "slide": 20,
+    "step": "Beliefs can filter their own evidence.",
+    "text": "Confirmation bias includes seeking or interpreting information in ways that fit an existing belief. Motivated reasoning adds the influence of desired conclusions. These are tools for examining your own process, not labels to throw at opponents. Maya can define a failed repair in advance, follow up comparable cases consistently, and invite someone with another expectation to inspect the same record.",
+    "part": "chapter-03",
+    "hold": 1
+  },
+  {
+    "id": "c03s05",
+    "slide": 21,
+    "step": "What can we really conclude?",
+    "text": "A bias name does not establish why one person made one judgment. To distinguish availability from accurate expertise, compare the judgment with relevant data. Corrective strategies are aids, not immunity. Experts also need feedback, representative records, and procedures that permit their expectations to be wrong. Personal reflection alone cannot replace those conditions.",
+    "part": "chapter-03",
+    "hold": 1
+  },
+  {
+    "id": "c03s06",
+    "slide": 22,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. Leo thinks evening sessions fail. Which question best challenges his belief? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-03",
+    "hold": 3
+  },
+  {
+    "id": "c03s07",
+    "slide": 23,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. Why does a vivid case need a denominator? When can an availability shortcut be useful? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-03",
+    "hold": 3
+  },
+  {
+    "id": "c03s08",
+    "slide": 24,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Keep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-03",
+    "hold": 3
+  },
+  {
+    "id": "c04s01",
+    "slide": 25,
+    "step": "“I chose it” quietly becomes “it must be right.”",
+    "text": "Maya championed a booking system. After weeks of work, it still loses reservations. Usually quick to spot technical problems, she now explains each failure away. Admitting the system is poor feels like admitting she is poor at her role. Leo proposes another month of configuration because they have already spent so much. Their dilemma connects a threatened self-image with a decision about the future.",
+    "part": "chapter-04",
+    "hold": 1
+  },
+  {
+    "id": "c04s02",
+    "slide": 26,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. What makes honest revision easier? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-04",
+    "hold": 3
+  },
+  {
+    "id": "c04s03",
+    "slide": 27,
+    "step": "Inconsistency can feel uncomfortable.",
+    "text": "Cognitive dissonance theory proposes that inconsistent cognitions can create discomfort that people are motivated to reduce. Someone may change behavior, change an attitude, or add a justification. The outcome is not predetermined. Maya could defend the tool or revise her self-story: careful coordinators notice mistakes and correct them. Perceived choice and responsibility can affect the pressure to justify an action.",
+    "part": "chapter-04",
+    "hold": 1
+  },
+  {
+    "id": "c04s04",
+    "slide": 28,
+    "step": "Give the future a fresh vote.",
+    "text": "The sunk cost effect is a related decision problem, not another name for dissonance. Money or effort that cannot be recovered should not, by itself, determine the best next option. Switching costs, remaining obligations, and knowledge gained still matter when they affect future consequences. Ask which next step you would choose if you inherited this situation today.",
+    "part": "chapter-04",
+    "hold": 1
+  },
+  {
+    "id": "c04s05",
+    "slide": 29,
+    "step": "What can we really conclude?",
+    "text": "Specific dissonance demonstrations have uneven evidence. Vaidis and colleagues’ preregistered 2024 multilab replication did not support the primary predicted high-choice versus low-choice attitude difference in one induced-compliance paradigm. This challenges the tested procedure. It neither confirms every dissonance claim nor disproves every version of the theory. Keep the influential framework separate from confidence in a particular demonstration.",
+    "part": "chapter-04",
+    "hold": 1
+  },
+  {
+    "id": "c04s06",
+    "slide": 30,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. Switching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-04",
+    "hold": 3
+  },
+  {
+    "id": "c04s07",
+    "slide": 31,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. Name two ways to reduce dissonance. When can a past investment still matter? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-04",
+    "hold": 3
+  },
+  {
+    "id": "c04s08",
+    "slide": 32,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Revisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-04",
+    "hold": 3
+  },
+  {
+    "id": "c05s01",
+    "slide": 33,
+    "step": "Everyone says yes. Has everyone agreed?",
+    "text": "A donor offers a publicity event. The chair calls it a wonderful opportunity; the first three volunteers agree. Sam doubts the team can manage the workload but stays silent. Maya assumes Sam knows something reassuring. Sam assumes Maya checked the risks. Apparent agreement partly comes from everyone watching everyone else. Later, a request to skip an equipment check raises another question: when should authority be challenged?",
+    "part": "chapter-05",
+    "hold": 1
+  },
+  {
+    "id": "c05s02",
+    "slide": 34,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. What could reveal concerns before discussion? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-05",
+    "hold": 3
+  },
+  {
+    "id": "c05s03",
+    "slide": 35,
+    "step": "Two reasons to follow a group.",
+    "text": "Informational influence treats other people as evidence about reality, especially in uncertainty. Normative influence concerns acceptance or avoiding rejection. Both can operate at once. Sam may genuinely doubt their workload estimate and fear disappointing the chair. Conformity can coordinate useful behavior. Ask whether the information is sound and whether disagreement is possible without a social penalty.",
+    "part": "chapter-05",
+    "hold": 1
+  },
+  {
+    "id": "c05s04",
+    "slide": 36,
+    "step": "Authority changes the pressure.",
+    "text": "Authority can make a demand feel legitimate and shift perceived responsibility. Historical obedience studies found that some participants continued under strong experimental pressure, while others resisted, and outcomes varied with conditions. They do not prove everyone will obey harmful instructions. At the café, an explicit rule allowing any volunteer to stop unsafe work makes the right to question concrete.",
+    "part": "chapter-05",
+    "hold": 1
+  },
+  {
+    "id": "c05s05",
+    "slide": 37,
+    "step": "What can we really conclude?",
+    "text": "Asch’s line-judgment studies examined majority influence in an artificial task. Milgram’s studies examined apparent authority in a highly structured setting. Their methods, ethics, and interpretation matter. They offer evidence about conditions of influence, not universal population obedience rates. Famous demonstrations should not be treated as proof that harmful conduct is inevitable.",
+    "part": "chapter-05",
+    "hold": 1
+  },
+  {
+    "id": "c05s06",
+    "slide": 38,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. The chair requests bypassing a required check. Which process helps? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-05",
+    "hold": 3
+  },
+  {
+    "id": "c05s07",
+    "slide": 39,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. Distinguish normative and informational influence. Why can public agreement overstate private agreement? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-05",
+    "hold": 3
+  },
+  {
+    "id": "c05s08",
+    "slide": 40,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. For an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-05",
+    "hold": 3
+  },
+  {
+    "id": "c06s01",
+    "slide": 41,
+    "step": "Two invitations. Different reasons to care.",
+    "text": "The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya explains the skills people can learn, the time needed, and available support. Neither invitation automatically wins. A hurried passerby might notice the celebrity; someone deciding whether to give every Saturday needs practical reasons. The challenge is an honest invitation that helps people make a choice they can sustain.",
+    "part": "chapter-06",
+    "hold": 1
+  },
+  {
+    "id": "c06s02",
+    "slide": 42,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. A prospect worries about time. What helps most? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-06",
+    "hold": 3
+  },
+  {
+    "id": "c06s03",
+    "slide": 43,
+    "step": "Attention and evaluation are different jobs.",
+    "text": "The elaboration likelihood model links message processing with motivation and ability. When people can and want to think carefully, argument quality matters more. Under low elaboration, cues such as familiarity or perceived credibility can carry more weight. These are not fixed personality types. The same person may inspect a major commitment closely and use a shortcut for a minor decision.",
+    "part": "chapter-06",
+    "hold": 1
+  },
+  {
+    "id": "c06s04",
+    "slide": 44,
+    "step": "A norm must be true to be useful.",
+    "text": "Saying many people volunteer communicates a descriptive norm. Saying the community values volunteering communicates an injunctive norm. Inventing either is misleading. Highlighting how widespread a problem is can sometimes normalize it. State what is actually known, explain the contribution needed, and make it easy to ask questions or decline. Ethical influence supports an informed choice rather than hiding the effort involved.",
+    "part": "chapter-06",
+    "hold": 1
+  },
+  {
+    "id": "c06s05",
+    "slide": 45,
+    "step": "What can we really conclude?",
+    "text": "Persuasion varies with audience, topic, source, and outcome. A changed survey answer is not sustained behavior change. These recommendations are design hypotheses to test, not guaranteed conversion techniques. Compare comprehension, informed sign-ups, and retention rather than counting clicks alone. Also ask whether people understood the commitment and felt able to decline it.",
+    "part": "chapter-06",
+    "hold": 1
+  },
+  {
+    "id": "c06s06",
+    "slide": 46,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. Few residents currently volunteer. Which invitation is defensible? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-06",
+    "hold": 3
+  },
+  {
+    "id": "c06s07",
+    "slide": 47,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. What makes central processing more likely? Distinguish descriptive and injunctive norms. Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-06",
+    "hold": 3
+  },
+  {
+    "id": "c06s08",
+    "slide": 48,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Rewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-06",
+    "hold": 3
+  },
+  {
+    "id": "c07s01",
+    "slide": 49,
+    "step": "Two teams stop sharing a table.",
+    "text": "Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each sees its own effort clearly and the other’s poorly. A planning meeting grows increasingly ambitious as speakers propose bigger events. Meanwhile nobody owns the checklist: everybody assumed somebody else did. Belonging supports cooperation, but the way a group organizes work can help or hinder it.",
+    "part": "chapter-07",
+    "hold": 1
+  },
+  {
+    "id": "c07s02",
+    "slide": 50,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. The shared checklist is unfinished. What is a useful first change? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-07",
+    "hold": 3
+  },
+  {
+    "id": "c07s03",
+    "slide": 51,
+    "step": "Identity changes the boundary of “us.”",
+    "text": "Group memberships help people understand themselves and others. Favoring an in-group does not require explicit hatred of outsiders, but can produce unequal treatment. A shared goal of a successful visitor journey can connect the café teams. A new label alone is unlikely to fix conflicting incentives, a real workload imbalance, or unequal decision power. Consider the structure supporting the boundary.",
+    "part": "chapter-07",
+    "hold": 1
+  },
+  {
+    "id": "c07s04",
+    "slide": 52,
+    "step": "Groups can amplify—or lose—effort.",
+    "text": "Polarization can arise through supporting arguments and comparisons with other members. It differs from merely reaching agreement. Social loafing concerns reduced individual effort in a collective task, particularly when contributions are hard to identify. An unfinished checklist is not proof of loafing: missing tools, unclear roles, or duplicated work can also lower group performance. Diagnose the process before selecting a fix.",
+    "part": "chapter-07",
+    "hold": 1
+  },
+  {
+    "id": "c07s05",
+    "slide": 53,
+    "step": "What can we really conclude?",
+    "text": "Groupthink is a label for some failures of critical discussion, not a complete explanation whenever a group makes a mistake. Seek observable processes: suppressed dissent, repeated information, incentives, effort, or coordination. Independent estimates, clear roles, and structured disagreement solve different problems. Avoid calling a group irrational without identifying what would improve its decisions.",
+    "part": "chapter-07",
+    "hold": 1
+  },
+  {
+    "id": "c07s06",
+    "slide": 54,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. An event budget keeps escalating without checking demand. What helps? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-07",
+    "hold": 3
+  },
+  {
+    "id": "c07s07",
+    "slide": 55,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. How does polarization differ from consensus? How can a willing group still perform poorly? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-07",
+    "hold": 3
+  },
+  {
+    "id": "c07s08",
+    "slide": 56,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Map a shared project: task, owner, dependency, and feedback point. Decide whether its main obstacle is effort, coordination, or decision quality before proposing a remedy. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-07",
+    "hold": 3
+  },
+  {
+    "id": "c08s01",
+    "slide": 57,
+    "step": "“Anyone can join.” The form says otherwise.",
+    "text": "The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes people own specialist tools. A newcomer is treated as inexperienced before anyone asks what she can do. No single explanation covers every barrier. We need to distinguish beliefs about people, attitudes toward groups, decisions about access, and procedures that reproduce a pattern over time.",
+    "part": "chapter-08",
+    "hold": 1
+  },
+  {
+    "id": "c08s02",
+    "slide": 58,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. How should the team investigate unequal access? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-08",
+    "hold": 3
+  },
+  {
+    "id": "c08s03",
+    "slide": 59,
+    "step": "Belief, feeling, and action are distinct.",
+    "text": "These concepts overlap without being identical. Someone can endorse equality and still use an unexamined stereotype in an application decision. Unequal access can also arise from a procedure favoring existing networks. Examine the actual decision, relevant comparisons, and context. An ambiguous observation cannot reveal someone’s entire belief system, while positive intentions cannot establish that a process is fair.",
+    "part": "chapter-08",
+    "hold": 1
+  },
+  {
+    "id": "c08s04",
+    "slide": 60,
+    "step": "Change the encounter and the structure.",
+    "text": "Intergroup contact can reduce prejudice on average. Cooperation, common goals, equal status within an encounter, and institutional support are important conditions to consider. A brief social event is not a guarantee. Sharing real authority and resources matters alongside meeting people. Structural barriers need procedural changes, not only requests for warmer feelings. Evaluate the access people actually experience.",
+    "part": "chapter-08",
+    "hold": 1
+  },
+  {
+    "id": "c08s05",
+    "slide": 61,
+    "step": "What can we really conclude?",
+    "text": "Explicit attitudes, implicit associations, and discriminatory behavior are different measures. A test score is not a complete character diagnosis or a forecast of every action. Evaluate interventions using meaningful behavior and access outcomes, follow-up, and affected people’s experiences. Account for small samples and protect privacy; measuring inequality does not justify collecting unnecessary personal information.",
+    "part": "chapter-08",
+    "hold": 1
+  },
+  {
+    "id": "c08s06",
+    "slide": 62,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. Friend referrals become an open skills-based application. How can improvement be assessed? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-08",
+    "hold": 3
+  },
+  {
+    "id": "c08s07",
+    "slide": 63,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. Give discrimination without open hostility as an example. Why might a contact event leave unequal access unchanged? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-08",
+    "hold": 3
+  },
+  {
+    "id": "c08s08",
+    "slide": 64,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Review a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-08",
+    "hold": 3
+  },
+  {
+    "id": "c09s01",
+    "slide": 65,
+    "step": "Friendship begins with the quiet shift.",
+    "text": "Sam and Leo take the quiet Thursday session. At first they discuss only spare parts. Over weeks they discover a shared interest in old radios. Leo mentions a difficult week; Sam listens before offering a solution. Repeated contact created opportunities, shared interests made conversation easier, and responsiveness made it feel safer. There is no secret technique in this story, and neither person is owed closeness.",
+    "part": "chapter-09",
+    "hold": 1
+  },
+  {
+    "id": "c09s02",
+    "slide": 66,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. A newcomer hopes to make friends. What is a respectful starting point? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-09",
+    "hold": 3
+  },
+  {
+    "id": "c09s03",
+    "slide": 67,
+    "step": "Opportunity shapes who becomes familiar.",
+    "text": "Daily settings expose you to a particular subset of people. Shared schedules influence who becomes familiar. Mere exposure describes cases where repeated encounters increase liking, but repetition can also intensify annoyance or threat. Similarity in interests and values can support connection. None of these factors guarantees attraction, compatibility, or a healthy relationship, and they never override someone’s expressed boundary.",
+    "part": "chapter-09",
+    "hold": 1
+  },
+  {
+    "id": "c09s04",
+    "slide": 68,
+    "step": "Closeness is a reciprocal process.",
+    "text": "Disclosure can support intimacy when met with appropriate responsiveness. Reciprocity does not mean matching secrets on demand or treating favors as debts. Relationships also involve expectations about support, fairness, and commitment. People differ in how secure or anxious they feel in close relationships. Attachment labels are not diagnoses and should not be used to explain away a person’s stated wishes.",
+    "part": "chapter-09",
+    "hold": 1
+  },
+  {
+    "id": "c09s05",
+    "slide": 69,
+    "step": "What can we really conclude?",
+    "text": "Much relationship research is correlational or uses self-reports from particular cultures and relationship forms. An association between similarity and satisfaction does not prove that making two people more similar improves their relationship. Distinguish average associations from advice for a particular pair, and give direct communication more weight than catchy compatibility rules.",
+    "part": "chapter-09",
+    "hold": 1
+  },
+  {
+    "id": "c09s06",
+    "slide": 70,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. Sam declines an invitation and needs time alone. What should Leo do? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-09",
+    "hold": 3
+  },
+  {
+    "id": "c09s07",
+    "slide": 71,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. How can proximity affect friendship? Why is disclosure alone insufficient? Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-09",
+    "hold": 3
+  },
+  {
+    "id": "c09s08",
+    "slide": 72,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. In a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on responsiveness rather than whether you won someone’s affection. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-09",
+    "hold": 3
+  },
+  {
+    "id": "c10s01",
+    "slide": 73,
+    "step": "A crash. A full room. A moment of hesitation.",
+    "text": "A shelf falls during a busy café session and a visitor needs help. People freeze, checking everyone else’s reaction. Maya names the problem, asks Leo to contact the appropriate emergency service, and clears space for a trained helper. Later, two volunteers argue about blame. The team needs both a response to the incident and a better environment for cooperation. Good intentions need a workable path to action.",
+    "part": "chapter-10",
+    "hold": 1
+  },
+  {
+    "id": "c10s02",
+    "slide": 74,
+    "step": "What would you do?",
+    "text": "Make a prediction before the explanation. Why could concerned bystanders hesitate? Consider the consequence of each option. Choose one to see feedback.",
+    "part": "chapter-10",
+    "hold": 3
+  },
+  {
+    "id": "c10s03",
+    "slide": 75,
+    "step": "Helping has several decision points.",
+    "text": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility means each person feels less personally responsible. Pluralistic ignorance means people misread others’ outward calm as evidence that nothing is wrong. These patterns have important moderators: in some emergencies others provide essential support and increase the chance that someone helps. Crowds do not mechanically remove concern.",
+    "part": "chapter-10",
+    "hold": 1
+  },
+  {
+    "id": "c10s04",
+    "slide": 76,
+    "step": "Make constructive action easier.",
+    "text": "Frustration, learned scripts, perceived threat, and pressure can contribute to aggression, but anger does not inevitably produce harm. Calm space, clear conduct rules, and trained escalation routes can help at the café. Cooperative work needs reliable expectations about contributions, reporting problems, and sharing benefits and burdens. Context helps explain conduct while leaving accountability for harmful actions intact.",
+    "part": "chapter-10",
+    "hold": 1
+  },
+  {
+    "id": "c10s05",
+    "slide": 77,
+    "step": "What can we really conclude?",
+    "text": "Laboratory aggression measures are imperfect proxies for serious violence. Bystander findings vary with danger, relationships, and available support. Avoid universal slogans about crowds. For real emergencies, follow local guidance and your training; a social psychology explanation does not replace first-aid instruction. Assess practical changes by whether appropriate, safe help becomes more available.",
+    "part": "chapter-10",
+    "hold": 1
+  },
+  {
+    "id": "c10s06",
+    "slide": 78,
+    "step": "Try the idea somewhere new.",
+    "text": "Apply the idea to a new decision. Which preparation makes future help more likely? Explain why your chosen action addresses the mechanism, rather than simply naming it.",
+    "part": "chapter-10",
+    "hold": 3
+  },
+  {
+    "id": "c10s07",
+    "slide": 79,
+    "step": "Close your notes. Explain it.",
+    "text": "Pause and answer from memory. Distinguish diffusion of responsibility from pluralistic ignorance. Apply two earlier chapters to an incident review. Use your own example. Reveal the suggested answers only after attempting both questions.",
+    "part": "chapter-10",
+    "hold": 3
+  },
+  {
+    "id": "c10s08",
+    "slide": 80,
+    "step": "Carry one idea into your week.",
+    "text": "Here is your field practice. Design a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+    "part": "chapter-10",
+    "hold": 3
+  }
+]

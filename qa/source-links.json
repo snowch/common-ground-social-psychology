@@ -1,0 +1,81 @@
+[
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+    "status": 200,
+    "title": "12.1 What Is Social Psychology? - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+    "status": 200,
+    "title": "2.3 Analyzing Findings - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://nobaproject.com/modules/the-replication-crisis-in-psychology",
+    "status": 200,
+    "title": "The Replication Crisis in Psychology | Noba"
+  },
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+    "status": 200,
+    "title": "7.3 Problem Solving - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://nobaproject.com/modules/social-cognition-and-attitudes",
+    "status": 200,
+    "title": "Social Cognition and Attitudes | Noba"
+  },
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
+    "status": 200,
+    "title": "12.3 Attitudes and Persuasion - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://doi.org/10.1177/25152459231213375",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+    "status": 200,
+    "title": "12.4 Conformity, Compliance, and Obedience - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://nobaproject.com/modules/conformity-and-obedience",
+    "status": 200,
+    "title": "Conformity and Obedience | Noba"
+  },
+  {
+    "url": "https://nobaproject.com/modules/persuasion-so-easily-fooled",
+    "status": 200,
+    "title": "Persuasion: So Easily Fooled | Noba"
+  },
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination",
+    "status": 200,
+    "title": "12.5 Prejudice and Discrimination - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+    "status": 200,
+    "title": "Prejudice, Discrimination, and Stereotyping | Noba"
+  },
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
+    "status": 200,
+    "title": "12.7 Prosocial Behavior - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://nobaproject.com/modules/attraction-and-beauty",
+    "status": 200,
+    "title": "Attraction and Beauty | Noba"
+  },
+  {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression",
+    "status": 200,
+    "title": "12.6 Aggression - Psychology 2e | OpenStax"
+  },
+  {
+    "url": "https://nobaproject.com/modules/helping-and-prosocial-behavior",
+    "status": 200,
+    "title": "Helping and Prosocial Behavior | Noba"
+  }
+]

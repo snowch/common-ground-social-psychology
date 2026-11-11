@@ -1,0 +1,15 @@
+{
+  "chapters": 10,
+  "slides": 80,
+  "decisions_checked": 20,
+  "feedback_variants_checked": 60,
+  "recall_reveals_checked": 10,
+  "mobile_width": 390,
+  "js_errors": [],
+  "browser_voice_count": 0,
+  "narration_controls": "mock transport tested; no audible speech quality claim",
+  "pdf": "exported",
+  "standalone_chapter": "passed",
+  "print_layout_overflow": [],
+  "chapter_pdfs": 10
+}
