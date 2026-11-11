@@ -1,40 +1,51 @@
 {
-  "revision": "attribution-diagram",
+  "revision": "attribution-thought-bubble",
   "widths": [
     {
       "width": 320,
-      "personArea": 32660,
-      "situationArea": 11250,
-      "personStroke": 8,
-      "situationStroke": 2.5,
+      "personArea": 26000,
+      "situationArea": 8704,
+      "thoughtTrail": 3,
+      "observer": true,
       "overflow": []
     },
     {
       "width": 390,
-      "personArea": 32660,
-      "situationArea": 11250,
-      "personStroke": 8,
-      "situationStroke": 2.5,
+      "personArea": 26000,
+      "situationArea": 8704,
+      "thoughtTrail": 3,
+      "observer": true,
       "overflow": []
     },
     {
       "width": 768,
-      "personArea": 32660,
-      "situationArea": 11250,
-      "personStroke": 8,
-      "situationStroke": 2.5,
+      "personArea": 26000,
+      "situationArea": 8704,
+      "thoughtTrail": 3,
+      "observer": true,
       "overflow": []
     },
     {
       "width": 1440,
-      "personArea": 32660,
-      "situationArea": 11250,
-      "personStroke": 8,
-      "situationStroke": 2.5,
+      "personArea": 26000,
+      "situationArea": 8704,
+      "thoughtTrail": 3,
+      "observer": true,
       "overflow": []
     }
   ],
   "previous_balanced_diagram": "preserved",
   "specific_print_slide": "passed",
-  "js_errors": []
+  "js_errors": [],
+  "axe_audits": [
+    {
+      "width": 390,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "observer_label_spacing": "passed"
 }
