@@ -1,0 +1,1972 @@
+{
+  "scope": "All 149 clips after the approved opening story",
+  "reviewed": 149,
+  "revised": 134,
+  "clips": [
+    {
+      "id": "c01s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. Leo is assigning the opening shift. What is his most informative next move? Consider the consequence of each option. Choose one to see feedback. Option A. Ask Maya about today and check her availability. Option B. Use today’s lateness as the main sign of reliability. Option C. Ignore today and assume she will arrive on time. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nLeo is assigning the opening shift. What is his most informative next move?\n\nConsider the consequences of each option.\n\nOption A. Ask Maya about today and check her availability.\nOption B. Use today’s lateness as the main sign of reliability.\nOption C. Ignore today and assume she will arrive on time.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "669ddcef2dc3ece14db197d2ebb1b86a0caeee0541ee00d6e6faae84f50b6150"
+    },
+    {
+      "id": "c01s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. He can investigate the obstacle and plan the shift without pretending the lateness did not matter.",
+      "after": "Good application. Asking Maya about the delay lets Leo investigate the obstacle and plan the shift without ignoring the lateness.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "e2972338ae1c83e76e10924c6fc02061ba3725a501c19ef771e98263340aefe0"
+    },
+    {
+      "id": "c01s02-feedback-1",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. One episode may be a weak guide to a stable personal tendency.",
+      "after": "Consider the consequence. One episode may be a weak guide to a stable personal tendency.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "053eb7bd7d28f5456c0383d4002ff561ed7c49e33e86bcf7bdee7d8fc216dfba"
+    },
+    {
+      "id": "c01s02-feedback-2",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Avoiding judgment is not the same as gathering evidence.",
+      "after": "Consider the consequence. Avoiding judgment is not the same as gathering evidence.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "4525b9a1606516690150a08cf1852c6c98822c1e20d50bbebd61a98bd441e924"
+    },
+    {
+      "id": "c01s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "A disposition is a relatively enduring personal tendency. A situation includes immediate demands, other people, and available choices. Social psychology examines how these combine. An inaccessible building may make one person late while leaving another unaffected. Context does not erase responsibility. It improves the explanation and can suggest a better intervention than asking someone to try harder.",
+      "after": "A disposition is a relatively enduring personal tendency. A situation includes immediate demands, other people, and available choices. Social psychology examines how the person and the situation combine.\n\nAn inaccessible building may make one person late while leaving another unaffected. Considering that barrier improves our explanation of the lateness. It can also suggest a practical change, while leaving the person responsible for their commitments.",
+      "pause_seconds": [
+        0.9
+      ],
+      "explicit_pause_total": 0.9,
+      "script_sha256": "3cae66422f094d110bd931a0654680829d8328e0cbce9c3a913de951f43a078f"
+    },
+    {
+      "id": "c01s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "The fundamental attribution error describes a tendency to overemphasize personal qualities when explaining someone else’s behavior and underweight circumstances. Its strength varies with culture and context. You cannot diagnose it simply because you disagree with a judgment. Write the behavior neutrally, generate alternative explanations, and seek evidence that could make each explanation less plausible.",
+      "after": "When explaining someone else’s behavior, we can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.\n\nTo check your own judgment, describe the behavior neutrally. Generate alternative explanations, then look for evidence that could make each explanation less plausible. Disagreeing with someone’s judgment does not, by itself, establish that the judgment is biased.",
+      "pause_seconds": [
+        0.9
+      ],
+      "explicit_pause_total": 0.9,
+      "script_sha256": "a6f5d61f56a6c4304f37516e201ed63a324ab66bc7768125389b5808634ae38a"
+    },
+    {
+      "id": "c01s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Attribution studies describe patterns in judgment, not a law that character never matters. Repeated behavior across varied settings is more informative than one episode. Named effects such as actor–observer differences depend on the judgment and design. Do not turn every bias label into a universal rule or a diagnosis of someone else’s mind.",
+      "after": "Attribution research describes tendencies in judgment. It does not establish that personal qualities never matter. Repeated behavior across varied settings is more informative than one episode.\n\nEffects such as actor–observer differences depend on the judgment and the study design. Use a bias label to ask a better question about the evidence. The label alone cannot reveal what is happening in someone else’s mind.",
+      "pause_seconds": [
+        0.9
+      ],
+      "explicit_pause_total": 0.9,
+      "script_sha256": "9ea00d9453fcea5d98f0ffe9be8c4324a6b65f9bb5508f51d40ce3ae38075471"
+    },
+    {
+      "id": "c01s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. A volunteer misses shifts only when the bus service is suspended. What should you test? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Whether personality alone predicts attendance. Option B. Whether another travel plan improves attendance. Option C. Whether the missed shifts can be deleted. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nA volunteer misses shifts only when the bus service is suspended. What should you test?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Whether personality alone predicts attendance.\nOption B. Whether another travel plan improves attendance.\nOption C. Whether the missed shifts can be deleted.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "7abd5ab1ccc9cdacfc2ea2a49c6642dadce0c76536e5e58dc0621d63b9be39ec"
+    },
+    {
+      "id": "c01s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. This repeats a preferred explanation without testing the pattern.",
+      "after": "Consider the consequence. Focusing on personality alone leaves the link between bus cancellations and missed shifts untested.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "ede5c382836bf5fdc472e298a177c878606b2f1f4b340c6840ef8552d17fd7d7"
+    },
+    {
+      "id": "c01s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. Changing the suspected barrier gives useful evidence while keeping expectations clear.",
+      "after": "Good application. Trying another travel plan tests the suspected barrier while keeping the attendance expectation clear.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "6ddf00e134eef3f87a43760951778eae61c84e5469a76916486e3f98cb1b48ae"
+    },
+    {
+      "id": "c01s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Removing observations does not remove the barrier.",
+      "after": "Consider the consequence. Deleting the missed shifts from the record would hide the pattern. It would not remove the travel barrier.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "48e3d5564e7bba964b2bfdc46a3a67b5b1a8dab8c83d7d60274466d046e1bd3e"
+    },
+    {
+      "id": "c01s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. Explain observation versus attribution. What would strengthen a personal explanation? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. Explain observation versus attribution.\n\nSecond. What would strengthen a personal explanation?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "6af3a60e141845c2d1d3dae01e074936ec0bb236d798e0a2598eed65cc442bd5"
+    },
+    {
+      "id": "c01s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. An observation records an action; an attribution proposes its cause. 2. A recurring pattern across varied circumstances, after examining plausible alternatives.",
+      "after": "Suggested answers.\n\nFirst. An observation records an action. An attribution proposes a cause for that action.\n\nSecond. A personal explanation becomes more credible when the pattern recurs across varied circumstances and plausible alternatives have been examined.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "fa2f41c01ddcf37e0a2c6a7829926d47120bd87e4312154d915e9a4c88efade6"
+    },
+    {
+      "id": "c01s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Choose a mildly frustrating encounter. Write the action, your first interpretation, two alternatives, and one respectful question that could clarify it. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nChoose a mildly frustrating encounter. Write the action, your first interpretation, two alternatives, and one respectful question that could clarify it.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "75c677f3a3f826412ef48fb8e01d586e0b5f00b949c52b5e47763e7a10ab026a"
+    },
+    {
+      "id": "c02s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. He announces that the design doubled interest. But the rain also stopped, the local paper ran a story, and the opening hours changed. The improvement is real; the explanation is uncertain. This distinction matters whenever a headline, manager, or friend says that one change caused another.",
+      "after": "Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. Leo credits the new poster for the increase.\n\nBut other things changed too. The rain stopped, the local paper ran a story, and the opening hours changed.\n\nThe team knows that more people attended. The team does not yet know how much the poster contributed. Keep that distinction in mind whenever someone says that one change caused another.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "3adbbb0e4b287966a8e3c734ab5cbc82ded6f1c4079404309060c28f6e32add6"
+    },
+    {
+      "id": "c02s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. Which statement fits Leo’s evidence? Consider the consequence of each option. Choose one to see feedback. Option A. The poster caused the increase. Option B. The poster had no effect. Option C. Attendance rose; several causes remain possible. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nWhich statement fits Leo’s evidence?\n\nConsider the consequences of each option.\n\nOption A. The poster caused the increase.\nOption B. The poster had no effect.\nOption C. Attendance rose; several causes remain possible.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "30dc12342d1e835bd611676a3396de0e7ae9642f955076a9f8f39b170cf1a09b"
+    },
+    {
+      "id": "c02s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Several conditions changed at once.",
+      "after": "Consider the consequence. Crediting the poster alone overlooks the weather, publicity, and opening hours that changed at the same time.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "1f0c42525d505093913277cfb1b876bf7fa456f4080f25a111c1163804c20728"
+    },
+    {
+      "id": "c02s02-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Uncertain causation is not evidence of no effect.",
+      "after": "Consider the consequence. Uncertainty about the poster’s contribution does not establish that the poster had no effect.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "2ba6fde4ae79fb6f87e3caad4244b58b1cd4de156656e8f8cbc6470b3682f91e"
+    },
+    {
+      "id": "c02s02-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. This preserves the observation without claiming to isolate a cause.",
+      "after": "Good application. Saying that attendance rose preserves the observation. Leaving the cause open reflects the limits of the comparison.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "c6effc4fd1e12778fdbdcfd5926283576171215dbb595f1e22150075a2b92ee3"
+    },
+    {
+      "id": "c02s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "An experiment deliberately varies a condition while comparing outcomes. Comparable households could receive randomly assigned invitations for the same café event. Random assignment helps balance other influences on average. Random sampling answers a different question: who enters the study from the population? A strong internal comparison can still involve a narrow sample that represents very few people.",
+      "after": "Correlation means that two things vary together. A confound is another factor that could explain an apparent relationship. In Leo’s poster comparison, the changing weather is one possible confound.\n\nAn experiment deliberately changes a condition and compares the outcomes. For the same café event, comparable households could be randomly assigned different invitations. Random assignment helps balance other influences on average.\n\nRandom sampling answers a separate question: who is selected from the population? Even a good comparison between conditions may involve a sample that represents only a narrow group of people.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "cc23bdf9af1af89b87b6da1510fd212bdf68600d54894155d25506bec26864b5"
+    },
+    {
+      "id": "c02s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Imagine twelve of one hundred invited households attend with one design and fifteen of one hundred with another. These are invented teaching numbers. The difference is three percentage points, with uncertainty that may be substantial. Statistical significance does not measure practical importance. A nonsignificant result does not prove zero effect. Examine the estimate, interval, design, and evidence from other tests.",
+      "after": "Imagine two groups of one hundred households. Twelve households attend after receiving one invitation design. Fifteen attend after receiving the other design. These are invented teaching numbers.\n\nThe difference is three percentage points. But the estimated advantage is uncertain, and a different sample could produce a different result.\n\nStatistical significance does not measure practical importance. A nonsignificant result does not prove zero effect. Examine the size of the estimate, its uncertainty, the design, and evidence from other tests.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "330dc0da76c8fed0b32ec00553056ae9d44ec34bf64f57cd65aa84112a43f28d"
+    },
+    {
+      "id": "c02s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Replication examines how dependable a finding is across repeated tests. Preregistration records planned methods and analyses before results are known, reducing some opportunities for selective reporting. It cannot rescue a poor design. Larger samples improve precision; transparent materials and independent tests help others evaluate the claim. A memorable study is a starting point, not a final verdict.",
+      "after": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.\n\nPreregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.\n\nLarger samples improve precision. Transparent materials let others inspect the research. A memorable study is a starting point for evaluation, rather than a final verdict.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "c94830f892629d3516a6c02a428f200e430973abfc12e308882ebdfce2fc3a7a"
+    },
+    {
+      "id": "c02s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. Which invitation comparison is strongest? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Design A in winter; design B in summer. Option B. Randomize designs for one event; define attendance in advance. Option C. Design A for existing fans; design B for newcomers. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nWhich invitation comparison is strongest?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Design A in winter; design B in summer.\nOption B. Randomize designs for one event; define attendance in advance.\nOption C. Design A for existing fans; design B for newcomers.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "6eaa2f93c45b83ad3c1a1a64fa83a149f7a75439fe56b0bdc71e1c68f85dd28f"
+    },
+    {
+      "id": "c02s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Season varies alongside design.",
+      "after": "Consider the consequence. Comparing winter with summer changes the season alongside the invitation design.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "fd4fd9af91d1dea968531198910a4164db9dd9de531be087198dbfbc5f3c598a"
+    },
+    {
+      "id": "c02s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. This improves comparability. Also check whether households share invitations.",
+      "after": "Good application. Randomizing invitations for one event improves the comparison. Also check whether households share invitations.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "001d3e534c50e3daa4e45acaa34d3d08199dd882fa2408c924ee692fb65b15f6"
+    },
+    {
+      "id": "c02s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Prior interest differs systematically between groups.",
+      "after": "Consider the consequence. Existing fans and newcomers differ in prior interest. That difference could affect attendance regardless of the invitation.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "35128e87245a8686f6b255ef84e512fce3cd60a103c6e6e69d86853effbe0d21"
+    },
+    {
+      "id": "c02s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. How does assignment differ from sampling? Why is before-and-after evidence insufficient? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. How does random assignment differ from random sampling?\n\nSecond. Why is before-and-after evidence insufficient?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "5e6bf0845472ac465b671ee4ff1ddf6d58bca3026d02f31f61c114dbfb7791bb"
+    },
+    {
+      "id": "c02s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. Assignment allocates conditions; sampling selects people. 2. Other conditions can change over time and produce the same pattern.",
+      "after": "Suggested answers.\n\nFirst. Random assignment allocates people to conditions. Random sampling selects people from a population.\n\nSecond. Other conditions can change over time and produce the same before-and-after pattern.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "0c1bdcc94a2cb0942c88a7901a89123b83f60899f508daa79957a2e32a94f9f4"
+    },
+    {
+      "id": "c02s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Find an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nFind an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "d5c37ea41064afb7265d813c1709d734efc0b86a6e729a1d04b2ce7ad2d94682"
+    },
+    {
+      "id": "c03s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "A repaired toaster fails again. The story spreads through the café chat. Leo decides electrical repairs usually fail, though nobody has counted outcomes. Maya has the opposite impression: she remembers grateful visitors and overlooks returns. Both have real memories. Neither collection is a representative audit. The team needs a way to learn from experience without confusing what is easy to remember with what is common.",
+      "after": "A repaired toaster fails again. The story spreads through the café chat. Leo concludes that electrical repairs usually fail, although nobody has counted the outcomes.\n\nMaya remembers grateful visitors and overlooks returns. Maya therefore has a more positive impression than Leo.\n\nBoth people remember genuine cases. Neither person has systematically checked all comparable repairs. To estimate how often repairs fail, the team needs a record that includes the cases nobody talked about.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "0894c692efa49018723a28b311d6724009fa586449ae50621faa61cb5d17cb36"
+    },
+    {
+      "id": "c03s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. What most improves the estimate of repeat failures? Consider the consequence of each option. Choose one to see feedback. Option A. A detailed account of the worst failure. Option B. Failures divided by comparable completed repairs. Option C. A vote on whose impression feels realistic. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nWhat most improves the estimate of repeat failures?\n\nConsider the consequences of each option.\n\nOption A. A detailed account of the worst failure.\nOption B. Failures divided by comparable completed repairs.\nOption C. A vote on whose impression feels realistic.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "d372c2c673d561e2578205250f37ae71863b0636608f75f8d175fc16d54271d7"
+    },
+    {
+      "id": "c03s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. A case can reveal a mechanism but not establish a rate.",
+      "after": "Consider the consequence. A failed repair can help explain how a fault occurs. One case cannot establish how often repairs fail.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "737ed22e4397f5caa1c46703e0e657209e001633a3e198e566a902379a2e4370"
+    },
+    {
+      "id": "c03s02-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. The denominator makes the cases interpretable; consistent follow-up still matters.",
+      "after": "Good application. The total of comparable repairs provides the denominator for a failure rate. Consistent follow-up still matters.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "93de0f13144fa41d5b026456fc2b024c054af296a9a1434b4fe1c3d9340da3fe"
+    },
+    {
+      "id": "c03s02-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. A vote measures beliefs, which may share the same missing information.",
+      "after": "Consider the consequence. A vote measures the team’s beliefs. The voters may share the same gaps in information.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "54f0b2aec0e86904026cd1a628932ce56d8f538120ea1633e8e8ea5a48cf6aa3"
+    },
+    {
+      "id": "c03s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Heuristics are shortcuts that can be useful when time and information are limited. Availability misleads when vividness or recent exposure is a poor guide to frequency. A complaint channel can be excellent for detecting problems and poor for estimating their prevalence. Ask how examples were selected and what happened in the cases you never heard about.",
+      "after": "Heuristics are mental shortcuts. They can help when time and information are limited. The availability shortcut uses examples that come easily to mind.\n\nAvailability can mislead when vivid or recent examples are a poor guide to frequency. A complaint channel may help you discover faults while giving a distorted picture of how common those faults are.\n\nAsk which cases reached your attention, and which cases you never heard about. Then look for a relevant total to compare them with.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "e2267661f75c2924d6a9e5b2b759c5d5ea3d27f533867e39c99e85c059a89f48"
+    },
+    {
+      "id": "c03s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Confirmation bias includes seeking or interpreting information in ways that fit an existing belief. Motivated reasoning adds the influence of desired conclusions. These are tools for examining your own process, not labels to throw at opponents. Maya can define a failed repair in advance, follow up comparable cases consistently, and invite someone with another expectation to inspect the same record.",
+      "after": "Confirmation bias includes seeking or interpreting information in ways that fit an existing belief. Motivated reasoning adds the influence of a conclusion we want to reach.\n\nStart by checking your own evidence-seeking habits. Maya can define a failed repair in advance and follow up comparable repairs consistently. Maya can also ask someone with a different expectation to examine the same record.\n\nThose procedures give an expectation a chance to be wrong. Calling another person biased is not a substitute for checking the evidence.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "d76fe089cb979d64d1ffac746ff8bec6a608dd2bd4d7a1f840530cd73d56c2f5"
+    },
+    {
+      "id": "c03s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "A bias name does not establish why one person made one judgment. To distinguish availability from accurate expertise, compare the judgment with relevant data. Corrective strategies are aids, not immunity. Experts also need feedback, representative records, and procedures that permit their expectations to be wrong. Personal reflection alone cannot replace those conditions.",
+      "after": "A bias name cannot establish why a particular person reached a particular judgment. Compare the judgment with relevant data before deciding what went wrong.\n\nFor example, a memorable set of cases might distort a judgment through availability. Or those cases might accurately reflect an expert’s experience. A representative record helps distinguish those possibilities.\n\nCorrective strategies are useful aids. They do not make anyone immune to error. Experts also need feedback and procedures that allow expectations to be challenged.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "2dde44c59e12b91b45bba6b3ed264f10ab18524f81d9c05cf51e65703446cb8d"
+    },
+    {
+      "id": "c03s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. Leo thinks evening sessions fail. Which question best challenges his belief? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Which evenings went badly? Option B. Who agrees that evenings are a poor idea? Option C. What outcomes would make us conclude evenings work? Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nLeo thinks evening sessions fail. Which question best challenges his belief?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Which evenings went badly?\nOption B. Who agrees that evenings are a poor idea?\nOption C. What outcomes would make us conclude evenings work?\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "8fe7893bd59f78fd31014426e76f94e3fcfd2300b57dc10c6f694b2a7f8a4659"
+    },
+    {
+      "id": "c03s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. This selects cases consistent with the original belief.",
+      "after": "Consider the consequence. Looking only at unsuccessful evening sessions selects evidence that fits Leo’s initial belief.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "26eeaa3e2d9b58f7fe228422882cfca0d1a2e3df2c25c901da43b82d5ee0fa33"
+    },
+    {
+      "id": "c03s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Agreement may reflect shared assumptions.",
+      "after": "Consider the consequence. Agreement with Leo may reflect shared assumptions rather than independent evidence.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "07ee029d9b041187178d14da4d69575c79a74b01a2c9f848712d4a545fc84a22"
+    },
+    {
+      "id": "c03s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. Defining possible disconfirmation makes the belief testable.",
+      "after": "Good application. Naming outcomes that would count as success gives Leo’s belief a chance to be wrong.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "e2b4eeb95fe3b10db48268ab60827644f2d81c763673b985031772824faa612c"
+    },
+    {
+      "id": "c03s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. Why does a vivid case need a denominator? When can an availability shortcut be useful? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. Why does a vivid case need a denominator?\n\nSecond. When can an availability shortcut be useful?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "ac5ea0ab7d9db5bee3770b26110b1e2b6d2ed68b0dad5f7ebd748435433c96bf"
+    },
+    {
+      "id": "c03s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. Without the total of comparable cases, frequency is unknown. 2. When accessible examples reliably represent the relevant events.",
+      "after": "Suggested answers.\n\nFirst. A vivid case needs a denominator because the total of comparable cases is needed to estimate frequency.\n\nSecond. An availability shortcut can help when the examples that come to mind reliably represent the relevant events.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "db901da2b86191131b548f377e02a80e913e18dacfc8f7f938a76c50893016bb"
+    },
+    {
+      "id": "c03s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Keep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nKeep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "494a76221ab20f7c5a1ad148e240f82b5685e325b134321429cf11ad09a2def4"
+    },
+    {
+      "id": "c04s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Maya championed a booking system. After weeks of work, it still loses reservations. Usually quick to spot technical problems, she now explains each failure away. Admitting the system is poor feels like admitting she is poor at her role. Leo proposes another month of configuration because they have already spent so much. Their dilemma connects a threatened self-image with a decision about the future.",
+      "after": "Maya championed a booking system. After weeks of work, the system still loses reservations. Maya usually spots technical problems quickly, but now explains each failure away.\n\nFor Maya, admitting that the system is poor feels like admitting that she is poor at her role. Leo proposes another month of configuration because the team has already spent so much.\n\nMaya is defending her judgment. Leo is focused on money already spent. Both need to compare what the available options would deliver from today onward.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "dc20e8a2f7c649c810317cb496075b5c4561ac2f7692da2bc8547fbb2ceef7b2"
+    },
+    {
+      "id": "c04s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. What makes honest revision easier? Consider the consequence of each option. Choose one to see feedback. Option A. Review failures and compare options afresh. Option B. Remind Maya that a competent coordinator would know better. Option C. Keep the system until the investment feels worthwhile. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nWhat makes honest revision easier?\n\nConsider the consequences of each option.\n\nOption A. Review failures and compare options afresh.\nOption B. Remind Maya that a competent coordinator would know better.\nOption C. Keep the system until the investment feels worthwhile.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "d63dde7d7a87f5404c3a12bb081a8ff705ea649711cd1265f27b61c51879564e"
+    },
+    {
+      "id": "c04s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. This makes the decision about outcomes rather than defending identity.",
+      "after": "Good application. Reviewing failures and comparing options turns attention toward outcomes and the next decision.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "d1f3a06dafef7b1aa16a320469670281574d26c9e7abc856c6566495364a7daa"
+    },
+    {
+      "id": "c04s02-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Personal threat can encourage defensiveness without improving the decision.",
+      "after": "Consider the consequence. Questioning Maya’s competence can increase defensiveness without improving the comparison of options.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "da3e170e4c8957ef629b69d88bc6436b44bdc22fb378219add466f53912dce91"
+    },
+    {
+      "id": "c04s02-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Continuing cannot recover an irrecoverable cost.",
+      "after": "Consider the consequence. Continuing with an inferior option cannot recover money that has already been spent.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "f5e82ab6425089b1ecb3d8acedd054ff303e6b74f8f3e5b501f2b102424afac7"
+    },
+    {
+      "id": "c04s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Cognitive dissonance theory proposes that inconsistent cognitions can create discomfort that people are motivated to reduce. Someone may change behavior, change an attitude, or add a justification. The outcome is not predetermined. Maya could defend the tool or revise her self-story: careful coordinators notice mistakes and correct them. Perceived choice and responsibility can affect the pressure to justify an action.",
+      "after": "Cognitive dissonance theory concerns inconsistency between cognitions, such as beliefs or knowledge about our actions. The theory proposes that this inconsistency can create discomfort that we are motivated to reduce.\n\nA person may change a behavior, change a belief, or add a justification. The response is not predetermined. Maya could defend the booking tool, or decide that being careful includes noticing and correcting a mistake.\n\nHow much choice and responsibility someone feels can affect the pressure to justify an action.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "d764d7dceafdde688bd160d47be189fbce8f66beae2557cfb927ac1e2bd48b08"
+    },
+    {
+      "id": "c04s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "The sunk cost effect is a related decision problem, not another name for dissonance. Money or effort that cannot be recovered should not, by itself, determine the best next option. Switching costs, remaining obligations, and knowledge gained still matter when they affect future consequences. Ask which next step you would choose if you inherited this situation today.",
+      "after": "The sunk cost effect concerns decisions influenced by costs that cannot be recovered. It is related to self-justification, but it is a distinct decision problem.\n\nMoney or effort already spent should not, by itself, determine the best next option. Compare the future benefits and avoidable costs of continuing or switching.\n\nPast investments can still matter when they change future consequences. Usable skills, remaining obligations, and switching costs belong in that comparison. Ask what you would choose if you took over the project today.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "a1ccc1e173dc20be5da5f9cc2bb76218c1b6c792271cb86b81f4235f6538f15a"
+    },
+    {
+      "id": "c04s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Specific dissonance demonstrations have uneven evidence. Vaidis and colleagues’ preregistered 2024 multilab replication did not support the primary predicted high-choice versus low-choice attitude difference in one induced-compliance paradigm. This challenges the tested procedure. It neither confirms every dissonance claim nor disproves every version of the theory. Keep the influential framework separate from confidence in a particular demonstration.",
+      "after": "Evidence for specific dissonance demonstrations is uneven. In 2024, a research team repeated one induced-compliance procedure across multiple laboratories. The study compared attitude change under high-choice and low-choice conditions.\n\nThe primary analysis did not support the predicted difference between those conditions. That result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory.\n\nKeep the general theoretical framework separate from confidence in any single demonstration. The linked Vaidis and colleagues study provides the details.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "c831f6ab0fdb5e727656506948fc6b8978cd8fe4e18c8c3814a9b0f9d4055fb2"
+    },
+    {
+      "id": "c04s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. Switching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. The large fee already paid. Option B. The lower avoidable future cost of switching. Option C. Only the emotional discomfort of switching. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nSwitching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. The large fee already paid.\nOption B. The lower avoidable future cost of switching.\nOption C. Only the emotional discomfort of switching.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "d2de168501fcc986e489eea62009a6901fc221663710f7efa91fad3576c2b0ae"
+    },
+    {
+      "id": "c04s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. The original fee is irrecoverable under these hypothetical assumptions.",
+      "after": "Consider the consequence. The original fee cannot be recovered under the stated assumptions. It does not favor either future option.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "20a32d6f5e3ba2e7cb40ee8ef46089e02c673f8c164b1bc6176d944b6d7c5fb3"
+    },
+    {
+      "id": "c04s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. Under the stated assumptions, £100 is less than £300. Real choices also compare risks.",
+      "after": "Good application. Under the stated assumptions, switching costs one hundred pounds and keeping the tool costs three hundred. Real choices also compare risks.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "294f66d20b82e99dbed0a22ada5ee8ccf723563f2694a54255fd7a8564db440a"
+    },
+    {
+      "id": "c04s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Feelings may matter, but they do not replace the stated comparison.",
+      "after": "Consider the consequence. Discomfort about switching may matter to the people involved, but it does not replace the comparison of future costs and benefits.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "1bb80b8382b1e53680bafffd86d6319d59653706a6046740f3a30a4fc23696ed"
+    },
+    {
+      "id": "c04s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. Name two ways to reduce dissonance. When can a past investment still matter? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. Name two ways to reduce dissonance.\n\nSecond. When can a past investment still matter?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "a60c68af1bd623ffe5f3b7390e635c3e822b20e944254be0afa913848770062d"
+    },
+    {
+      "id": "c04s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. Change behavior or belief, or add a justification; context affects the response. 2. When it changes future consequences, such as switching costs or usable skills.",
+      "after": "Suggested answers.\n\nFirst. People may reduce dissonance by changing a behavior or belief, or by adding a justification. Context affects the response.\n\nSecond. A past investment matters when it changes future consequences, such as switching costs or usable skills.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "229fec084b764945ae0a23428a8581ec564565df9b0b5461b65e430ada5d3dca"
+    },
+    {
+      "id": "c04s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Revisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nRevisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "f4e17ba1b70f7a4ffa6abbc2dfc2ec6a26bad2774791ec288b5bae6af2b0f667"
+    },
+    {
+      "id": "c05s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "A donor offers a publicity event. The chair calls it a wonderful opportunity; the first three volunteers agree. Sam doubts the team can manage the workload but stays silent. Maya assumes Sam knows something reassuring. Sam assumes Maya checked the risks. Apparent agreement partly comes from everyone watching everyone else. Later, a request to skip an equipment check raises another question: when should authority be challenged?",
+      "after": "A donor offers a publicity event. The chair calls it a wonderful opportunity, and the first three volunteers agree. Sam doubts that the team can manage the workload, but stays silent.\n\nSam assumes Maya has checked the risks. Maya reads Sam’s silence as reassurance. Each person is taking the other’s outward response as a sign that the proposal has been considered carefully.\n\nPublic agreement can hide private doubts. Later, a request to skip an equipment check raises a different question: when should authority be challenged?",
+      "pause_seconds": [
+        0.9,
+        0.9,
+        1.5
+      ],
+      "explicit_pause_total": 3.3,
+      "script_sha256": "804514e2d45daafb36547effec56d364e50be90e5aae7029a895a4ff7c02ff1e"
+    },
+    {
+      "id": "c05s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. What could reveal concerns before discussion? Consider the consequence of each option. Choose one to see feedback. Option A. Have the chair announce the preferred answer. Option B. Collect independent written judgments first. Option C. Ask only experienced members to speak. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nWhat could reveal concerns before discussion?\n\nConsider the consequences of each option.\n\nOption A. Have the chair announce the preferred answer.\nOption B. Collect independent written judgments first.\nOption C. Ask only experienced members to speak.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "932f566daf385972f3cb930da1e0e1b9c84e61887680d176c8b07b7a9b6def4f"
+    },
+    {
+      "id": "c05s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. This may anchor later comments.",
+      "after": "Consider the consequence. Announcing the chair’s preferred answer first may anchor the comments that follow.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "4a9e3f1511ce04e0a69d9136f7c33c41b667a76cfe7f5da7d737167f20a01c02"
+    },
+    {
+      "id": "c05s02-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. Independent responses make public agreement less necessary.",
+      "after": "Good application. Independent written judgments let people record a view before seeing which answer has public support.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "7cc6e1616595542339d74008dd41725b0c5a93faccd2e795e8adb38e6c25d2c5"
+    },
+    {
+      "id": "c05s02-feedback-2",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Experience matters, but other members may have relevant information.",
+      "after": "Consider the consequence. Experience matters, but other members may have relevant information.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "477c53b46a2c0b12e576782812a10108d4d41d9829544fd954f09deb900a739f"
+    },
+    {
+      "id": "c05s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Informational influence treats other people as evidence about reality, especially in uncertainty. Normative influence concerns acceptance or avoiding rejection. Both can operate at once. Sam may genuinely doubt their workload estimate and fear disappointing the chair. Conformity can coordinate useful behavior. Ask whether the information is sound and whether disagreement is possible without a social penalty.",
+      "after": "Informational influence means treating other people’s responses as evidence about reality. It is especially relevant when we are uncertain. Normative influence concerns acceptance and the wish to avoid rejection.\n\nBoth influences can operate at once. Sam may doubt their own workload estimate and also fear disappointing the chair.\n\nFollowing a group can support useful coordination. Check whether the group’s information is sound, and whether people can disagree without a social penalty.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "5257309fd162ac67acc61dc9a3c0819a464ac6db54050595d6bba2cb1674ff43"
+    },
+    {
+      "id": "c05s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Authority can make a demand feel legitimate and shift perceived responsibility. Historical obedience studies found that some participants continued under strong experimental pressure, while others resisted, and outcomes varied with conditions. They do not prove everyone will obey harmful instructions. At the café, an explicit rule allowing any volunteer to stop unsafe work makes the right to question concrete.",
+      "after": "Compliance means responding to a request. Obedience means responding to an authority’s order. An authority’s role can make a demand feel legitimate and shift perceived responsibility.\n\nThat pressure does not make obedience inevitable. People can resist, and the conditions surrounding an order matter.\n\nAt the café, an explicit rule allows any volunteer to stop unsafe work. An agreed escalation route gives the volunteer a practical next step after questioning the instruction.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "69dff6a1bd69be09d5a9c20359047c5f44dae379fa59c06a13cfd7d4f4a5f0f8"
+    },
+    {
+      "id": "c05s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Asch’s line-judgment studies examined majority influence in an artificial task. Milgram’s studies examined apparent authority in a highly structured setting. Their methods, ethics, and interpretation matter. They offer evidence about conditions of influence, not universal population obedience rates. Famous demonstrations should not be treated as proof that harmful conduct is inevitable.",
+      "after": "Asch’s line-judgment studies examined majority influence in an artificial task. Milgram’s studies examined responses to apparent authority in a highly structured setting.\n\nTo interpret those experiments, consider their methods, ethics, and limits. The findings concern particular conditions of influence. They are not universal population obedience rates.\n\nSome participants resisted, and responses varied with the conditions. Famous demonstrations do not establish that harmful conduct is inevitable.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "91d1e8a0f436f99e29a9ec0ed1efde58deac47f3b76750823fb0cf724861cba4"
+    },
+    {
+      "id": "c05s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. The chair requests bypassing a required check. Which process helps? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Let the first confident person decide. Option B. Allow anonymous complaints afterward. Option C. Pause and use an agreed safety escalation route. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nThe chair requests bypassing a required check. Which process helps?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Let the first confident person decide.\nOption B. Allow anonymous complaints afterward.\nOption C. Pause and use an agreed safety escalation route.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "237bf3013e34d4231ffa070171c1350b8cffeff3ae4daeabec61f5a5d722955f"
+    },
+    {
+      "id": "c05s06-feedback-0",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Confidence is not evidence of safety.",
+      "after": "Consider the consequence. Confidence is not evidence of safety.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "324b0a23f79abc69c1f3d82c332005d768fb63ce928a87251c00cba6ed9ee5c9"
+    },
+    {
+      "id": "c05s06-feedback-1",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Later complaints cannot prevent unchecked work now.",
+      "after": "Consider the consequence. Later complaints cannot prevent unchecked work now.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "6a21ce570bb1faf92420ac208347173675d6f983a3ea3381a660c6448aad6df0"
+    },
+    {
+      "id": "c05s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. A clear route makes questioning possible while the decision still matters.",
+      "after": "Good application. An agreed stop-and-escalation route makes questioning possible while the safety decision still matters.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "0e61d7ccbe0b697060c534711558440b148917631cf1de45e4cf22da18489593"
+    },
+    {
+      "id": "c05s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. Distinguish normative and informational influence. Why can public agreement overstate private agreement? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. Distinguish normative and informational influence.\n\nSecond. Why can public agreement overstate private agreement?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "02e31e2d4abe0549d6d21d09f38687c1413e6b55d93378a16612e79c6da5657d"
+    },
+    {
+      "id": "c05s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. Normative concerns acceptance; informational treats others as evidence. 2. People suppress doubts, copy early answers, or infer that others have checked.",
+      "after": "Suggested answers.\n\nFirst. Normative influence concerns acceptance. Informational influence treats other people’s responses as evidence.\n\nSecond. Public agreement can hide private doubt when people copy early answers, suppress concerns, or assume that others have checked.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "e18bc21ec7f5bd3915a2a50ee932c9fca7cf59c7ee25a2c7875bc56d3307b4bc"
+    },
+    {
+      "id": "c05s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. For an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nFor an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "9207c0b0adb4c422953940700f9ac711dee3d6edd22f41239e81fbecd11781ba"
+    },
+    {
+      "id": "c06s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya explains the skills people can learn, the time needed, and available support. Neither invitation automatically wins. A hurried passerby might notice the celebrity; someone deciding whether to give every Saturday needs practical reasons. The challenge is an honest invitation that helps people make a choice they can sustain.",
+      "after": "The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya’s invitation explains what volunteers can learn, how much time a shift takes, and what support is available.\n\nA hurried passerby might notice the celebrity. A person deciding whether to volunteer regularly needs practical details about the commitment.\n\nAn invitation can attract attention and help someone evaluate a decision. The team needs to consider both jobs, while keeping the invitation honest.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "28614cbdab2e42e1a67cca5b698a89a509866f540dc7f7e964d9e695ea8202d3"
+    },
+    {
+      "id": "c06s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. A prospect worries about time. What helps most? Consider the consequence of each option. Choose one to see feedback. Option A. A second celebrity endorsement. Option B. Shift length, support, and an optional trial. Option C. A stronger claim that this is unmissable. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nA potential volunteer worries about the time commitment. What information would help most?\n\nConsider the consequences of each option.\n\nOption A. A second celebrity endorsement.\nOption B. Shift length, support, and an optional trial.\nOption C. A stronger claim that this is unmissable.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "2592af7829a859b34c45e2328d9d8318db3a381871b8604f124cba48a857383b"
+    },
+    {
+      "id": "c06s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. It may attract attention but leaves the concern unresolved.",
+      "after": "Consider the consequence. A celebrity endorsement may attract attention while leaving the volunteer’s time concern unanswered.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "dabe17d091bb8120dfccfdbbba10722729f2c541851367aa03512a875c5827a7"
+    },
+    {
+      "id": "c06s02-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. Relevant details allow evaluation of the actual commitment.",
+      "after": "Good application. Shift length, support, and an optional trial give the volunteer relevant information about the commitment.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "424bcc4ac710072f999207ef05e16cbc245e37393adc5e4e4b8ef4e2ffd18c93"
+    },
+    {
+      "id": "c06s02-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Pressure does not answer the practical question.",
+      "after": "Consider the consequence. Calling the opportunity unmissable adds pressure without answering how much time it requires.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "7c96b1e2a69495d1f1d674a0096fa601ff26d3b6e7634b8bb5c2ac57552a5a51"
+    },
+    {
+      "id": "c06s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "The elaboration likelihood model links message processing with motivation and ability. When people can and want to think carefully, argument quality matters more. Under low elaboration, cues such as familiarity or perceived credibility can carry more weight. These are not fixed personality types. The same person may inspect a major commitment closely and use a shortcut for a minor decision.",
+      "after": "An attitude is an evaluation of something. The elaboration likelihood model explains how motivation and ability can affect the way a persuasive message is processed.\n\nIn central processing, a person examines relevant arguments. When someone has the motivation and attention to think carefully, argument quality matters more.\n\nIn peripheral processing, cues such as familiarity or perceived credibility can carry more weight. These routes are not fixed personality types. The same person may examine a major commitment carefully and use a shortcut for a minor decision.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "e126245e2e0266c5944a5d4edc736f6ea51832cd0d150b8aa350f0aa28355166"
+    },
+    {
+      "id": "c06s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Saying many people volunteer communicates a descriptive norm. Saying the community values volunteering communicates an injunctive norm. Inventing either is misleading. Highlighting how widespread a problem is can sometimes normalize it. State what is actually known, explain the contribution needed, and make it easy to ask questions or decline. Ethical influence supports an informed choice rather than hiding the effort involved.",
+      "after": "A descriptive norm concerns what people do. Saying that many residents volunteer communicates a descriptive norm. An injunctive norm concerns approval. Saying that the community values volunteering communicates an injunctive norm.\n\nBoth claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.\n\nFor the café invitation, state what is known, explain the contribution needed, and make questions or refusal easy. Help the reader understand the commitment before choosing.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "d97bf315ca5cd35aa390e83e27ec372855f1aa0004c5ba64ce48f1aecc9283cf"
+    },
+    {
+      "id": "c06s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Persuasion varies with audience, topic, source, and outcome. A changed survey answer is not sustained behavior change. These recommendations are design hypotheses to test, not guaranteed conversion techniques. Compare comprehension, informed sign-ups, and retention rather than counting clicks alone. Also ask whether people understood the commitment and felt able to decline it.",
+      "after": "Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.\n\nTreat a revised invitation as a hypothesis to test. An increase in clicks does not establish that people understood the commitment or will continue volunteering.\n\nCompare comprehension, informed sign-ups, and retention. Ask whether people understood the effort involved and felt able to decline. Those measures are closer to the decision the café needs to support.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "6920b5fdb29fd7e95f3ac67bf43f4f9141253868cc7f3e03ba96a4305c762daa"
+    },
+    {
+      "id": "c06s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. Few residents currently volunteer. Which invitation is defensible? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. “Everyone here already volunteers.” Option B. “Hardly anyone helps—don’t be like them.” Option C. “Try a supported two-hour shift; here is what it involves.” Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nFew residents currently volunteer. Which invitation is defensible?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. “Everyone here already volunteers.”\nOption B. “Hardly anyone helps—don’t be like them.”\nOption C. “Try a supported two-hour shift; here is what it involves.”\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "a2370b262dcc7790815ebca0ff7b4cc439fb22df68740802162d2dfa1d5c1aeb"
+    },
+    {
+      "id": "c06s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. It invents a descriptive norm.",
+      "after": "Consider the consequence. Claiming that everyone volunteers invents a descriptive norm that the team cannot substantiate.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "4e58526b5267dd09d08dba4dacab28d20387f21e52235bc442fc8cceaa9ef111"
+    },
+    {
+      "id": "c06s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. It highlights nonparticipation and adds shame.",
+      "after": "Consider the consequence. Highlighting how few people help can make nonparticipation seem normal. The wording also adds shame.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "965cb918945eb594260d47d6b19bc5a1a5e47dd236c38f7648f5d5491fe6347d"
+    },
+    {
+      "id": "c06s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. It gives a concrete, checkable request. Its effect still needs evaluation.",
+      "after": "Good application. A supported two-hour trial is a concrete, checkable request. Its effect on informed participation still needs evaluation.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "1faf1110ec8430fbdb273a38dbbb53d3158fa1247cd2185013bad24a3867a321"
+    },
+    {
+      "id": "c06s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. What makes central processing more likely? Distinguish descriptive and injunctive norms. Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. What makes central processing more likely?\n\nSecond. Distinguish descriptive and injunctive norms.\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "51e1f34d779f4c46feaa84c7755720ea478f8b3c0c6074632ce525208511d272"
+    },
+    {
+      "id": "c06s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. Motivation, ability, attention, and relevant information. 2. Descriptive norms concern actions; injunctive norms concern approval.",
+      "after": "Suggested answers.\n\nFirst. Central processing is more likely when someone is motivated and has the ability, attention, and information to examine the arguments.\n\nSecond. Descriptive norms concern what people do. Injunctive norms concern approval.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "2a371bf55bf617904890c06b8266c300329b545db9e19bdbf030bcedf79f8a29"
+    },
+    {
+      "id": "c06s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Rewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nRewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "cf08f27aa5e06088a5b8b06dcff124613bc9b5ba0767b73c7b511def180a6233"
+    },
+    {
+      "id": "c07s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each sees its own effort clearly and the other’s poorly. A planning meeting grows increasingly ambitious as speakers propose bigger events. Meanwhile nobody owns the checklist: everybody assumed somebody else did. Belonging supports cooperation, but the way a group organizes work can help or hinder it.",
+      "after": "Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each team notices its own effort more clearly than the other team’s contribution.\n\nAt a planning meeting, speakers propose increasingly ambitious events. Meanwhile, nobody owns the checklist. Each volunteer assumes someone else is responsible.\n\nThe café now faces several group problems: boundaries between teams, an escalating decision, and unclear task ownership. Each problem may need a different remedy.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "3725cfa9d6a3f26b66e628724150cafe746b94a483dabd962eeeaccd846109b6"
+    },
+    {
+      "id": "c07s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. The shared checklist is unfinished. What is a useful first change? Consider the consequence of each option. Choose one to see feedback. Option A. Agree on owners, deadlines, and needed support. Option B. Tell everyone their commitment is disappointing. Option C. Copy more people onto every task. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nThe shared checklist is unfinished. What is a useful first change?\n\nConsider the consequences of each option.\n\nOption A. Agree on owners, deadlines, and needed support.\nOption B. Tell everyone their commitment is disappointing.\nOption C. Copy more people onto every task.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "209aae05ac8a2124403b8794009ab21c4f7a11c15142275e8c6c6e8f79177ae5"
+    },
+    {
+      "id": "c07s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. This directly addresses responsibility and coordination.",
+      "after": "Good application. Agreed owners, deadlines, and support make responsibility clearer and help people coordinate the work.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "a788fafd640dda8d6499fe031d037dc456e82ba0fa2adaf44a65bfb5f037fd49"
+    },
+    {
+      "id": "c07s02-feedback-1",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. General criticism leaves allocation unclear.",
+      "after": "Consider the consequence. General criticism leaves allocation unclear.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "69e4230225894dca0b3ed4e62683dd9d9d9d90994c939dfc1daae9ae11c0251a"
+    },
+    {
+      "id": "c07s02-feedback-2",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. More recipients may strengthen the assumption that someone else will act.",
+      "after": "Consider the consequence. More recipients may strengthen the assumption that someone else will act.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "b4b7860902e6da501c9a85112c9a8801af54bc701467825834e55dd0798fdee8"
+    },
+    {
+      "id": "c07s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Group memberships help people understand themselves and others. Favoring an in-group does not require explicit hatred of outsiders, but can produce unequal treatment. A shared goal of a successful visitor journey can connect the café teams. A new label alone is unlikely to fix conflicting incentives, a real workload imbalance, or unequal decision power. Consider the structure supporting the boundary.",
+      "after": "Group memberships help people understand themselves and others. Favoring an in-group means giving preference to people seen as part of “our” group. That favoritism can produce unequal treatment without explicit hatred of outsiders.\n\nAt the café, the repair and welcome teams can work toward a shared goal: a successful visitor experience. That goal makes each team’s contribution easier to see.\n\nA shared team name alone will not resolve conflicting incentives, unequal workloads, or unequal decision power. Look at the structure that keeps the division in place.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "72bc06d18dbe9c1fc7dd2a22e251f2b04f0277d5a648454f011b917c1ae204bc"
+    },
+    {
+      "id": "c07s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Polarization can arise through supporting arguments and comparisons with other members. It differs from merely reaching agreement. Social loafing concerns reduced individual effort in a collective task, particularly when contributions are hard to identify. An unfinished checklist is not proof of loafing: missing tools, unclear roles, or duplicated work can also lower group performance. Diagnose the process before selecting a fix.",
+      "after": "Group polarization is movement toward a more extreme position from an initial leaning. Discussion can supply supporting arguments and encourage comparisons with other members. Polarization is different from simply reaching agreement.\n\nSocial loafing means reduced individual effort in a collective task. It can become more likely when individual contributions are hard to identify.\n\nPoor group output can also reflect coordination problems. Missing tools, duplicated work, or unclear roles can waste genuine effort. An unfinished checklist does not, by itself, establish that people are loafing.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "a078b916dc7e44ab67d2f3354bb286a386fc102cb3a5d4e8bc67324f3329c93f"
+    },
+    {
+      "id": "c07s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Groupthink is a label for some failures of critical discussion, not a complete explanation whenever a group makes a mistake. Seek observable processes: suppressed dissent, repeated information, incentives, effort, or coordination. Independent estimates, clear roles, and structured disagreement solve different problems. Avoid calling a group irrational without identifying what would improve its decisions.",
+      "after": "Groupthink describes cases where pressure for agreement interferes with critical discussion. The label does not fully explain every poor group decision.\n\nLook for an observable process. Were doubts suppressed? Was the same information repeated while other evidence was missed? Were roles or incentives unclear?\n\nDifferent processes need different remedies. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "c2908e9256709c181f4b0b4ef1320255c6b72bcaf62a6d9d03430be28e6c3dd8"
+    },
+    {
+      "id": "c07s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. An event budget keeps escalating without checking demand. What helps? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Ask members to show stronger enthusiasm. Option B. Gather independent estimates and contrary evidence. Option C. Open with the chair’s preferred budget. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nAn event budget keeps escalating without checking demand. What helps?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Ask members to show stronger enthusiasm.\nOption B. Gather independent estimates and contrary evidence.\nOption C. Open with the chair’s preferred budget.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "a9e005a73589343f5820ae6f25ee59c1e376fcf81881c52d905f48283ec13ea3"
+    },
+    {
+      "id": "c07s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. This rewards visible commitment rather than realistic planning.",
+      "after": "Consider the consequence. Rewarding public enthusiasm can encourage visible commitment without improving the demand estimate.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "7a52cfec41ea01d78ff8f6180aa33c82477c898f93d8c3f47ad5e1f9bb196c54"
+    },
+    {
+      "id": "c07s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. This introduces information beyond the existing enthusiasm.",
+      "after": "Good application. Independent estimates and contrary evidence give the group information beyond its existing enthusiasm.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "7ca0607b3c9cb4514bfc96950cecb48d3e3c3792d6e4add67dd8015d345df080"
+    },
+    {
+      "id": "c07s06-feedback-2",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. A preferred opening number can anchor later judgments.",
+      "after": "Consider the consequence. A preferred opening number can anchor later judgments.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "231241f5078498bfcd564545da60e3cf7df722aca16d76b6618ea004b48987f0"
+    },
+    {
+      "id": "c07s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. How does polarization differ from consensus? How can a willing group still perform poorly? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. How does polarization differ from consensus?\n\nSecond. How can a willing group still perform poorly?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "d2a45b04313620095d8353a1cfa9e2acf14c78f490e4434d7d6e0b9321a0b593"
+    },
+    {
+      "id": "c07s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. Consensus is agreement; polarization moves toward a more extreme position from an initial leaning. 2. Poor sequencing, duplication, missing tools, or ambiguous roles can waste genuine effort.",
+      "after": "Suggested answers.\n\nFirst. Consensus is agreement. Polarization is movement toward a more extreme position from an initial leaning.\n\nSecond. A willing group can still lose output through poor sequencing, duplicated work, missing tools, or unclear roles.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "6a66aa4efdc5f4e2dbe8c3b14bd326b3f61ef2a3b92c3c279fa832159f30bfd2"
+    },
+    {
+      "id": "c07s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Map a shared project: task, owner, dependency, and feedback point. Decide whether its main obstacle is effort, coordination, or decision quality before proposing a remedy. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nMap a shared project: task, owner, dependency, and feedback point. Decide whether its main obstacle is effort, coordination, or decision quality before proposing a remedy.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "3fbcaa5348d62bf641f0142aec7ee2bd515882e99f4f31ecc1faa4d090b57996"
+    },
+    {
+      "id": "c08s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes people own specialist tools. A newcomer is treated as inexperienced before anyone asks what she can do. No single explanation covers every barrier. We need to distinguish beliefs about people, attitudes toward groups, decisions about access, and procedures that reproduce a pattern over time.",
+      "after": "The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes that people own specialist tools.\n\nA newcomer is treated as inexperienced before anyone checks the applicant’s skills. The barrier may involve a judgment about the person, a recruitment rule, or both.\n\nTo understand unequal access, examine beliefs, attitudes, individual decisions, and procedures. Good intentions alone do not tell us how the process works.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "0dbd3d03e240e0eacbfe85e1d7c37a8bdef4d4ee42ba905b4df327873cf16767"
+    },
+    {
+      "id": "c08s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. How should the team investigate unequal access? Consider the consequence of each option. Choose one to see feedback. Option A. Ask whether organizers consider themselves fair. Option B. Trace who can enter each stage and where people drop out. Option C. Add a fairness slogan to the poster. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nHow should the team investigate unequal access?\n\nConsider the consequences of each option.\n\nOption A. Ask whether organizers consider themselves fair.\nOption B. Trace who can enter each stage and where people drop out.\nOption C. Add a fairness slogan to the poster.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "1068fab2b7ffe9de24575ed926828c7ccefe7b123a12a0a1cc004fed85c4911c"
+    },
+    {
+      "id": "c08s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Self-descriptions do not establish how the process works.",
+      "after": "Consider the consequence. Organizers’ beliefs about their own fairness do not establish who can use the recruitment process.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "fadd65e3a3e8060c3d518bd5cfc8e7f0fa2293f4d2ec05d6f20de6619ac4cb0b"
+    },
+    {
+      "id": "c08s02-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. A process audit can reveal barriers that intentions and slogans miss.",
+      "after": "Good application. Tracing each stage can reveal access barriers that intentions and slogans miss.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "c88ffafabc684f5538eeb528592246975a8b40a2098a85c22817cab4857e2e70"
+    },
+    {
+      "id": "c08s02-feedback-2",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. The slogan does not change the entry requirements.",
+      "after": "Consider the consequence. The slogan does not change the entry requirements.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "1b409c46b73c4d3f2e4f0f56303aed559e667d370d82516620b18ac6d0db5c99"
+    },
+    {
+      "id": "c08s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "These concepts overlap without being identical. Someone can endorse equality and still use an unexamined stereotype in an application decision. Unequal access can also arise from a procedure favoring existing networks. Examine the actual decision, relevant comparisons, and context. An ambiguous observation cannot reveal someone’s entire belief system, while positive intentions cannot establish that a process is fair.",
+      "after": "A stereotype is a generalized belief about a group. Prejudice is an evaluative attitude toward a group. Discrimination is unequal treatment based on group membership.\n\nThe three concepts overlap, but they are distinct. A person can endorse equality and still use an unexamined stereotype when assessing an applicant. A procedure can also favor an existing group through its recruitment network.\n\nExamine the actual decision, relevant comparisons, and context. An ambiguous action cannot reveal someone’s entire belief system, and positive intentions cannot establish that a process is fair.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "c591a3848bdabe330f390750a95142f824ad3d04da7d0075ec1f267aad148451"
+    },
+    {
+      "id": "c08s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Intergroup contact can reduce prejudice on average. Cooperation, common goals, equal status within an encounter, and institutional support are important conditions to consider. A brief social event is not a guarantee. Sharing real authority and resources matters alongside meeting people. Structural barriers need procedural changes, not only requests for warmer feelings. Evaluate the access people actually experience.",
+      "after": "Intergroup contact can reduce prejudice on average. Important conditions to consider include cooperation, common goals, equal status within the encounter, and institutional support.\n\nSimply bringing people together is not a guarantee of improvement. At the café, meaningful participation includes access to resources and a real voice in decisions.\n\nA social event may improve an encounter while leaving entry requirements unchanged. Procedural barriers need procedural changes. Evaluate whether people can actually enter and participate.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "943334aeabbd628bf3653d9df70fd745ee2b1bbced52a7a97bf83315010e5c3c"
+    },
+    {
+      "id": "c08s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Explicit attitudes, implicit associations, and discriminatory behavior are different measures. A test score is not a complete character diagnosis or a forecast of every action. Evaluate interventions using meaningful behavior and access outcomes, follow-up, and affected people’s experiences. Account for small samples and protect privacy; measuring inequality does not justify collecting unnecessary personal information.",
+      "after": "Explicit attitudes, implicit associations, and discriminatory behavior are different things to measure. A score on an implicit-association measure is not a complete diagnosis of a person’s character or a forecast of every action.\n\nEvaluate an intervention using meaningful behavior and access outcomes. Include follow-up and the experiences of people affected by the process.\n\nInterpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "cbed025cb9340fd5e9908508f1448ef7b7442541ca6c846bae94e82488c4ab01"
+    },
+    {
+      "id": "c08s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. Friend referrals become an open skills-based application. How can improvement be assessed? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Check whether organizers feel more inclusive. Option B. Compare the friendliness of form wording. Option C. Track applications, progression, and participation using relevant criteria. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nFriend referrals become an open skills-based application. How can improvement be assessed?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Check whether organizers feel more inclusive.\nOption B. Compare the friendliness of form wording.\nOption C. Track applications, progression, and participation using relevant criteria.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "b7cd6e8014a0154e98a2a219314a058d011b1f13c84ece27256baa2e02a43834"
+    },
+    {
+      "id": "c08s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Reaction is useful but does not measure access.",
+      "after": "Consider the consequence. Organizers feeling more inclusive is a reaction to the change. It does not establish that access improved.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "fefabfacc5ee343f94c98fce6f0baf93cae6b3beaef4e246d0c57f1ac9c58e7b"
+    },
+    {
+      "id": "c08s06-feedback-1",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Wording can help, but outcomes still matter.",
+      "after": "Consider the consequence. Wording can help, but outcomes still matter.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "c11420ec259e1b98daf0215f4a34fb008428c72f31a45cb6aca5db2bd23cd0f1"
+    },
+    {
+      "id": "c08s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. Stage-by-stage outcomes can reveal remaining barriers; interpret with context and privacy safeguards.",
+      "after": "Good application. Applications, progression, and participation can show where barriers remain. Interpret those outcomes with context and privacy safeguards.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "1f96395d2d855899d70aa4808ee1de5952ca24e6baa268b61728a7766011ad8b"
+    },
+    {
+      "id": "c08s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. Give discrimination without open hostility as an example. Why might a contact event leave unequal access unchanged? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. Give an example of discrimination without an openly hostile statement.\n\nSecond. Why might a contact event leave unequal access unchanged?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "c7e1880b55b6366e639bac4fdbc7f2905b2c05ce58d7c017a247129c680847c1"
+    },
+    {
+      "id": "c08s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. An irrelevant requirement or restricted network can exclude a group without a hostile statement. 2. Power, incentives, status differences, or procedures may stay unchanged.",
+      "after": "Suggested answers.\n\nFirst. An irrelevant requirement or restricted network can exclude a group without an openly hostile statement.\n\nSecond. Contact can leave unequal access unchanged when decision power, incentives, status differences, or procedures remain the same.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "a62a5f52b45e20efccb9b48015dfee22b3681214e786ebc19e6b96a6dbff0acd"
+    },
+    {
+      "id": "c08s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Review a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nReview a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "4d34a9538a506622045f9f505497cc682cbf8c20eebe6a5b97f7f1d09cea61e5"
+    },
+    {
+      "id": "c09s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Sam and Leo take the quiet Thursday session. At first they discuss only spare parts. Over weeks they discover a shared interest in old radios. Leo mentions a difficult week; Sam listens before offering a solution. Repeated contact created opportunities, shared interests made conversation easier, and responsiveness made it feel safer. There is no secret technique in this story, and neither person is owed closeness.",
+      "after": "Sam and Leo take the quiet Thursday session. At first, they discuss only spare parts. Over several weeks, they discover a shared interest in old radios.\n\nLeo mentions a difficult week. Sam listens before offering a solution, and Leo feels heard.\n\nTheir shared shift created opportunities to meet. Their common interest supported conversation. Sam’s responsive listening supported closeness. None of those conditions gave either person a right to the other’s friendship.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "46b8cc4c7623bfd801f87c74ec0f672dc6c8dd206c0d7a39ee2f84c150a7a4c7"
+    },
+    {
+      "id": "c09s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. A newcomer hopes to make friends. What is a respectful starting point? Consider the consequence of each option. Choose one to see feedback. Option A. Offer a shared activity and notice reciprocal interest. Option B. Share increasingly private details until closeness develops. Option C. Keep arranging contact after invitations are declined. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nA newcomer hopes to make friends. What is a respectful starting point?\n\nConsider the consequences of each option.\n\nOption A. Offer a shared activity and notice reciprocal interest.\nOption B. Share increasingly private details until closeness develops.\nOption C. Keep arranging contact after invitations are declined.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "5183443eb59419b6504a2aa464efb16f4c62066a7346438bd461c7847e679b8c"
+    },
+    {
+      "id": "c09s02-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. This creates an opportunity while preserving choice.",
+      "after": "Good application. Offering a shared activity creates an opportunity to connect while preserving the other person’s choice.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "4d5cc31a2b31c19dad2eeaf221fc47e04586fa06a6bc1b68b0e66a6ffc45e36d"
+    },
+    {
+      "id": "c09s02-feedback-1",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Disclosure without mutual readiness can feel intrusive.",
+      "after": "Consider the consequence. Disclosure without mutual readiness can feel intrusive.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "295b1d869690fde20120f701edf4b37751d69637fca8b4b064a9ea9de91b32d9"
+    },
+    {
+      "id": "c09s02-feedback-2",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. A refusal is information about a boundary, not a barrier to overcome.",
+      "after": "Consider the consequence. A refusal is information about a boundary, not a barrier to overcome.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "58b8d138a6f3dcf5530f5f6e6fd116e50a74147f8c47a652df0d23fdbf8b2153"
+    },
+    {
+      "id": "c09s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Daily settings expose you to a particular subset of people. Shared schedules influence who becomes familiar. Mere exposure describes cases where repeated encounters increase liking, but repetition can also intensify annoyance or threat. Similarity in interests and values can support connection. None of these factors guarantees attraction, compatibility, or a healthy relationship, and they never override someone’s expressed boundary.",
+      "after": "Daily settings influence who you have opportunities to meet. Shared schedules can make particular people familiar.\n\nMere exposure describes cases where repeated encounters increase liking. Repetition can also intensify annoyance or threat, so more contact is not automatically better. Similar interests and values can make connection easier.\n\nContact, familiarity, and similarity do not guarantee attraction, compatibility, or a healthy relationship. Someone’s expressed boundary still matters.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "b33838bde6904f1902b1f147a0d4ddc14be24560cfd550c59cadb7ad84f98342"
+    },
+    {
+      "id": "c09s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Disclosure can support intimacy when met with appropriate responsiveness. Reciprocity does not mean matching secrets on demand or treating favors as debts. Relationships also involve expectations about support, fairness, and commitment. People differ in how secure or anxious they feel in close relationships. Attachment labels are not diagnoses and should not be used to explain away a person’s stated wishes.",
+      "after": "Disclosure means sharing something personal. Disclosure can support intimacy when the other person responds with understanding and appropriate care.\n\nReciprocity does not require matching secrets on demand or treating favors as debts. Trust, willingness, support, fairness, and commitment also shape a relationship.\n\nPeople differ in how secure or anxious they feel about closeness. Attachment labels are not diagnoses. A label should not be used to explain away what a person says they want.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "2fe01213a6c08fe85747b895384e1ecaca917fd1a9aed72b1483aa66f8b84cdd"
+    },
+    {
+      "id": "c09s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Much relationship research is correlational or uses self-reports from particular cultures and relationship forms. An association between similarity and satisfaction does not prove that making two people more similar improves their relationship. Distinguish average associations from advice for a particular pair, and give direct communication more weight than catchy compatibility rules.",
+      "after": "Much relationship research is correlational or uses self-reports. Samples may represent particular cultures and relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship.\n\nDistinguish an average association from advice for a particular pair. Direct communication provides information that a catchy compatibility rule may miss.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "2236d98999684f75e207444ced9aa05c7315264c55b57a06a4ddcf3549d22179"
+    },
+    {
+      "id": "c09s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. Sam declines an invitation and needs time alone. What should Leo do? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Diagnose an avoidant attachment style. Option B. Accept the boundary and leave future contact optional. Option C. Increase contact to use the familiarity effect. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nSam declines an invitation and needs time alone. What should Leo do?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Diagnose an avoidant attachment style.\nOption B. Accept the boundary and leave future contact optional.\nOption C. Increase contact to use the familiarity effect.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "b755f4aaa79ba23b7c6bee5a6e1c6784221bcd9b8bd4ba88cefc5d292b971d56"
+    },
+    {
+      "id": "c09s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. One refusal does not establish an attachment pattern.",
+      "after": "Consider the consequence. One declined invitation does not establish an attachment pattern.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "4cfad196e1e4474899b187b8794d1b44eac4baf3e30623f5b2a40880da8b21c9"
+    },
+    {
+      "id": "c09s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. This respects the stated preference without inventing a diagnosis.",
+      "after": "Good application. Accepting the invitation refusal respects Sam’s stated preference without inventing a diagnosis.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "96326544a4b437f10277b8c584c09d3091ec05acedf8944e1cf26a6d790e826e"
+    },
+    {
+      "id": "c09s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. Exposure does not justify ignoring a boundary.",
+      "after": "Consider the consequence. The familiarity effect is not a reason to ignore Sam’s expressed boundary.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "d3442498585caf87572ad1e11248cc71888450154b0c325582d2975631467a93"
+    },
+    {
+      "id": "c09s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. How can proximity affect friendship? Why is disclosure alone insufficient? Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. How can proximity affect friendship?\n\nSecond. Why is disclosure alone insufficient?\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "170af6a1ef1c2800de6fe57d9624b93db8a07fa8d953cd9970d5f9b82cc4cfec"
+    },
+    {
+      "id": "c09s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. It changes opportunities to interact and discover shared interests. 2. Willingness, response, trust, context, and mutual boundaries also matter.",
+      "after": "Suggested answers.\n\nFirst. Proximity changes opportunities to interact and discover shared interests.\n\nSecond. Disclosure alone is insufficient because willingness, responsiveness, trust, context, and mutual boundaries also matter.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "0da0415edfc643ca3295bae9193a4b2cce28969fa368b2bd1374de4d5b4b5fb0"
+    },
+    {
+      "id": "c09s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. In a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on responsiveness rather than whether you won someone’s affection. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nIn a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on responsiveness rather than whether you won someone’s affection.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "88f9d84c87426c13084a9cd5ff8273b5d607f8c7265a3bdb1e681ac000bba571"
+    },
+    {
+      "id": "c10s01",
+      "reviewed": true,
+      "status": "revised",
+      "before": "A shelf falls during a busy café session and a visitor needs help. People freeze, checking everyone else’s reaction. Maya names the problem, asks Leo to contact the appropriate emergency service, and clears space for a trained helper. Later, two volunteers argue about blame. The team needs both a response to the incident and a better environment for cooperation. Good intentions need a workable path to action.",
+      "after": "A shelf falls during a busy café session, and a visitor needs help. People hesitate while checking everyone else’s reaction.\n\nMaya names the problem. Maya asks Leo to contact the appropriate emergency service and clears space for a trained helper.\n\nLater, two volunteers argue about blame. The team needs to review both the immediate response and the conditions supporting cooperation. Good intentions need a clear, safe path to action.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "4284351048129d49837cfd9730dea1e3ffd82feb058eb30c4743007b8eee2f53"
+    },
+    {
+      "id": "c10s02",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Make a prediction before the explanation. Why could concerned bystanders hesitate? Consider the consequence of each option. Choose one to see feedback. Option A. Concern disappears when groups become large. Option B. People may be uncertain and assume someone else will act. Option C. Hesitation proves nobody cares. Pause here and choose an action.",
+      "after": "Before the explanation, make your own choice.\n\nWhy could concerned bystanders hesitate?\n\nConsider the consequences of each option.\n\nOption A. Concern disappears when groups become large.\nOption B. People may be uncertain and assume someone else will act.\nOption C. Hesitation proves nobody cares.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "8233c8c315fc6463a3548cffd8cec1515d24d1ee8dcec2b28ebf6733ee5f936b"
+    },
+    {
+      "id": "c10s02-feedback-0",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Group size does not determine concern on its own.",
+      "after": "Consider the consequence. Group size does not determine concern on its own.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "b79f5482d55bd4b6ad80075a4b8b0a3df5a685c6f1f12a74a93246bee522f369"
+    },
+    {
+      "id": "c10s02-feedback-1",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Good application. Ambiguity and divided responsibility can both contribute.",
+      "after": "Good application. Ambiguity and divided responsibility can both contribute.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "a41737cb174fe7a5744e36d57b4c87d83aba7573c221099afbab1e6d3e102c4e"
+    },
+    {
+      "id": "c10s02-feedback-2",
+      "reviewed": true,
+      "status": "retained",
+      "before": "Consider the consequence. Ability, safety, and uncertainty are alternative explanations.",
+      "after": "Consider the consequence. Ability, safety, and uncertainty are alternative explanations.",
+      "pause_seconds": [],
+      "explicit_pause_total": 0,
+      "script_sha256": "a921c24a24363eff0b3f6ccb174924f721684a995e860af471d0769191c5880c"
+    },
+    {
+      "id": "c10s03",
+      "reviewed": true,
+      "status": "revised",
+      "before": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility means each person feels less personally responsible. Pluralistic ignorance means people misread others’ outward calm as evidence that nothing is wrong. These patterns have important moderators: in some emergencies others provide essential support and increase the chance that someone helps. Crowds do not mechanically remove concern.",
+      "after": "The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. Diffusion of responsibility means that each person feels less personally responsible for acting.\n\nPluralistic ignorance concerns interpretation. People may read others’ outward calm as evidence that nothing is wrong, even when others are also uncertain.\n\nThose patterns depend on the situation. In some emergencies, other people provide essential support and increase the chance that someone helps. Crowds do not mechanically remove concern.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "9c1e23612ef57485b2e6f1d8ea14b9710c26f38ead312d45ec537b84a02a82ac"
+    },
+    {
+      "id": "c10s04",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Frustration, learned scripts, perceived threat, and pressure can contribute to aggression, but anger does not inevitably produce harm. Calm space, clear conduct rules, and trained escalation routes can help at the café. Cooperative work needs reliable expectations about contributions, reporting problems, and sharing benefits and burdens. Context helps explain conduct while leaving accountability for harmful actions intact.",
+      "after": "Aggression is behavior intended to harm. Frustration, learned scripts, perceived threat, and situational pressure can contribute to aggression. Anger does not inevitably lead to harm.\n\nAt the café, calm space, clear conduct rules, and a trained escalation route can support a constructive response. These are practical arrangements to evaluate, rather than guarantees.\n\nCooperation also needs clear expectations about contributions, reporting problems, and sharing benefits and burdens. Context can improve an explanation while leaving accountability for harmful actions intact.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "8ff1184b7d413a72451da267b7eb6476a43ca01bf53bffda765448d1268197f4"
+    },
+    {
+      "id": "c10s05",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Laboratory aggression measures are imperfect proxies for serious violence. Bystander findings vary with danger, relationships, and available support. Avoid universal slogans about crowds. For real emergencies, follow local guidance and your training; a social psychology explanation does not replace first-aid instruction. Assess practical changes by whether appropriate, safe help becomes more available.",
+      "after": "Laboratory aggression measures are imperfect indicators of serious violence. Bystander findings also vary with danger, relationships, and available support. A slogan about crowds can hide those differences.\n\nFor a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction.\n\nEvaluate a practical change by whether appropriate, safe help becomes more available. Concern alone does not establish that a response plan works.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "2e2204be20bca534f99ed44188cd304fcdf199fffd5872e5dd4e2b65276d2b1f"
+    },
+    {
+      "id": "c10s06",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Apply the idea to a new decision. Which preparation makes future help more likely? Explain why your chosen action addresses the mechanism, rather than simply naming it. Option A. Tell everyone to be more caring. Option B. Assume the most senior person handles all incidents. Option C. Agree on response roles, training, and a call-for-help route. Pause here and choose an action.",
+      "after": "Apply the idea to a new decision.\n\nWhich preparation makes future help more likely?\n\nChoose an action and explain why it addresses the problem.\n\nOption A. Tell everyone to be more caring.\nOption B. Assume the most senior person handles all incidents.\nOption C. Agree on response roles, training, and a call-for-help route.\n\nPause here and make your choice.",
+      "pause_seconds": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.7,
+        2.0
+      ],
+      "explicit_pause_total": 5.7,
+      "script_sha256": "5cc7c2c4cdf42a16c5bc659a509a0f94068df0ff2d52943147e4d599af2510dc"
+    },
+    {
+      "id": "c10s06-feedback-0",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. A general appeal leaves the action unclear.",
+      "after": "Consider the consequence. Asking everyone to care more leaves the required action and responsibility unclear.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "aa9a8c47c58db336a87a4c6675a1db956e8fc82527d6a8fbaa4948c8ae3293e7"
+    },
+    {
+      "id": "c10s06-feedback-1",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Consider the consequence. An assumed owner may be absent or untrained.",
+      "after": "Consider the consequence. The most senior person may be absent or lack the relevant training. Assuming that person will act leaves a gap in the plan.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "18cf911615b7df50bc6601e42fa46fee168b0fcbfe2b04ab48d225070af760fe"
+    },
+    {
+      "id": "c10s06-feedback-2",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Good application. Preparation addresses ability and responsibility, not just intentions.",
+      "after": "Good application. Roles, training, and a call-for-help route address ability and responsibility as well as good intentions.",
+      "pause_seconds": [
+        0.35
+      ],
+      "explicit_pause_total": 0.35,
+      "script_sha256": "304fbfd7be324acc3f918e791725b67d58aeca7482389413bc232b67c36b8cfd"
+    },
+    {
+      "id": "c10s07",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Pause and answer from memory. Distinguish diffusion of responsibility from pluralistic ignorance. Apply two earlier chapters to an incident review. Use your own example. Reveal the suggested answers only after attempting both questions.",
+      "after": "Answer both prompts from memory.\n\nFirst. Distinguish diffusion of responsibility from pluralistic ignorance.\n\nSecond. Use two ideas from earlier chapters to improve an incident review.\n\nUse your own example. Try both prompts before revealing the suggested answers.",
+      "pause_seconds": [
+        0.7,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "explicit_pause_total": 7.7,
+      "script_sha256": "7d19fa24d1a8a42a69f9d4f5d644e77c34094fef91629a40c4b9db1ccbbac7e5"
+    },
+    {
+      "id": "c10s07-answers",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Suggested answers. 1. Diffusion concerns who should act; pluralistic ignorance concerns interpreting others’ reactions. 2. Separate observations from blame (1), compare causes (2), invite independent accounts (5), or assign clear roles (7).",
+      "after": "Suggested answers.\n\nFirst. Diffusion of responsibility concerns who should act. Pluralistic ignorance concerns how people interpret others’ reactions.\n\nSecond. For an incident review, separate observations from blame, compare possible causes, invite independent accounts, or assign clear roles. These draw on chapters one, two, five, and seven.",
+      "pause_seconds": [
+        0.8,
+        0.8
+      ],
+      "explicit_pause_total": 1.6,
+      "script_sha256": "fed6b56255861a73018f77f6f7e892935fb4711bcbc95d8291bb02a313aea8fc"
+    },
+    {
+      "id": "c10s08",
+      "reviewed": true,
+      "status": "revised",
+      "before": "Here is your field practice. Design a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan. Return tomorrow and in a week. Answer the recall questions without notes, then apply the idea in a different setting. These intervals are a starting plan, not a guarantee of retention.",
+      "after": "Here is your field practice.\n\nDesign a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "pause_seconds": [
+        0.9,
+        0.9
+      ],
+      "explicit_pause_total": 1.8,
+      "script_sha256": "643c7e2f15432a2c50ea03e8beb8953459b0bd0330380c30815f185b4ec3bc3d"
+    }
+  ]
+}

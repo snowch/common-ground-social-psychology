@@ -1,4 +1,6 @@
 {
+  "recordings": 150,
+  "audio_storage": "local files or embedded, depending on the selected build",
   "metadata_decoded": 150,
   "real_playback": "passed",
   "pause_resume_stop": "passed",
@@ -10,7 +12,5 @@
   "feedback_variants": 60,
   "mobile_width": 390,
   "js_errors": [],
-  "audible_human_review": false,
-  "recordings": 150,
-  "audio_storage": "local files"
+  "audible_human_review": false
 }

@@ -1,3 +1,7 @@
+# /// script
+# requires-python = ">=3.10,<3.13"
+# dependencies = ["faster-whisper", "soundfile", "numpy"]
+# ///
 """Independent Whisper small.en screening using the skill's checks, in audio-only batches.
 No script prompt, hotwords, or vocabulary hint is passed to the recognizer.
 """

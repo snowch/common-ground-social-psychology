@@ -11,4 +11,4 @@ Apply these choices when editing a passage; they are editorial guidance, not an 
 
 Store `[pause 0.6]` and similar markers in a scene’s `say` field. Keep them out of the canonical `text`, so captions and transcripts remain readable. The recording skill inserts silence rather than speaking the markers.
 
-The v0.1.1 opening story is the first application of this approach. Other chapter narration is unchanged.
+The approved v0.1.1 opening story is preserved. The v0.1.2 listening edit reviews the other 149 clips, revising 134 and retaining 15 concise feedback clips.

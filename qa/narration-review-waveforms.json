@@ -1,0 +1,949 @@
+{
+  "reviewed_clips": 149,
+  "revised_clips": 134,
+  "retained_clips": 15,
+  "measured_pauses": 341,
+  "explicit_pause_seconds": 309.75,
+  "quiz_answer_keys": "unchanged",
+  "encoded_audio_hashes": "verified",
+  "clips": [
+    {
+      "id": "c01s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 28.719,
+      "peak": 0.404785
+    },
+    {
+      "id": "c01s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.35,
+      "peak": 0.428711
+    },
+    {
+      "id": "c01s03",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.9,
+      "raw_seconds": 29.743,
+      "peak": 0.496399
+    },
+    {
+      "id": "c01s04",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.9,
+      "raw_seconds": 31.812,
+      "peak": 0.550934
+    },
+    {
+      "id": "c01s05",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.9,
+      "raw_seconds": 27.183,
+      "peak": 0.507568
+    },
+    {
+      "id": "c01s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 27.567,
+      "peak": 0.519104
+    },
+    {
+      "id": "c01s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.987,
+      "peak": 0.41217
+    },
+    {
+      "id": "c01s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.753,
+      "peak": 0.500793
+    },
+    {
+      "id": "c01s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.155,
+      "peak": 0.359131
+    },
+    {
+      "id": "c01s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 20.073,
+      "peak": 0.445312
+    },
+    {
+      "id": "c01s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 17.92,
+      "peak": 0.383759
+    },
+    {
+      "id": "c01s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 20.403,
+      "peak": 0.509277
+    },
+    {
+      "id": "c02s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 28.317,
+      "peak": 0.469574
+    },
+    {
+      "id": "c02s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 23.492,
+      "peak": 0.467987
+    },
+    {
+      "id": "c02s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.307,
+      "peak": 0.441833
+    },
+    {
+      "id": "c02s02-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.475,
+      "peak": 0.385498
+    },
+    {
+      "id": "c02s02-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.798,
+      "peak": 0.390594
+    },
+    {
+      "id": "c02s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 41.309,
+      "peak": 0.441223
+    },
+    {
+      "id": "c02s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 36.211,
+      "peak": 0.659119
+    },
+    {
+      "id": "c02s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 35.08,
+      "peak": 0.453583
+    },
+    {
+      "id": "c02s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 28.207,
+      "peak": 0.477325
+    },
+    {
+      "id": "c02s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.579,
+      "peak": 0.392151
+    },
+    {
+      "id": "c02s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.905,
+      "peak": 0.402496
+    },
+    {
+      "id": "c02s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 9.246,
+      "peak": 0.419006
+    },
+    {
+      "id": "c02s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 20.841,
+      "peak": 0.412323
+    },
+    {
+      "id": "c02s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 15.488,
+      "peak": 0.429901
+    },
+    {
+      "id": "c02s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 20.68,
+      "peak": 0.541504
+    },
+    {
+      "id": "c03s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 32.477,
+      "peak": 0.640656
+    },
+    {
+      "id": "c03s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 25.839,
+      "peak": 0.522125
+    },
+    {
+      "id": "c03s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.115,
+      "peak": 0.437286
+    },
+    {
+      "id": "c03s02-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.713,
+      "peak": 0.467773
+    },
+    {
+      "id": "c03s02-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.771,
+      "peak": 0.480438
+    },
+    {
+      "id": "c03s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 30.685,
+      "peak": 0.479736
+    },
+    {
+      "id": "c03s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 35.549,
+      "peak": 0.567932
+    },
+    {
+      "id": "c03s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 34.952,
+      "peak": 0.537048
+    },
+    {
+      "id": "c03s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 26.628,
+      "peak": 0.444519
+    },
+    {
+      "id": "c03s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.838,
+      "peak": 0.465302
+    },
+    {
+      "id": "c03s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.558,
+      "peak": 0.435333
+    },
+    {
+      "id": "c03s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.643,
+      "peak": 0.562592
+    },
+    {
+      "id": "c03s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 20.244,
+      "peak": 0.427155
+    },
+    {
+      "id": "c03s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 17.451,
+      "peak": 0.437775
+    },
+    {
+      "id": "c03s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 22.557,
+      "peak": 0.472473
+    },
+    {
+      "id": "c04s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 33.949,
+      "peak": 0.496185
+    },
+    {
+      "id": "c04s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 25.775,
+      "peak": 0.460327
+    },
+    {
+      "id": "c04s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.347,
+      "peak": 0.396484
+    },
+    {
+      "id": "c04s02-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.051,
+      "peak": 0.431213
+    },
+    {
+      "id": "c04s02-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.878,
+      "peak": 0.351471
+    },
+    {
+      "id": "c04s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 35.4,
+      "peak": 0.632996
+    },
+    {
+      "id": "c04s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 35.613,
+      "peak": 0.552673
+    },
+    {
+      "id": "c04s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 38.813,
+      "peak": 0.545044
+    },
+    {
+      "id": "c04s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 30.276,
+      "peak": 0.440826
+    },
+    {
+      "id": "c04s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.115,
+      "peak": 0.391571
+    },
+    {
+      "id": "c04s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 10.078,
+      "peak": 0.425201
+    },
+    {
+      "id": "c04s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 9.545,
+      "peak": 0.354187
+    },
+    {
+      "id": "c04s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 19.433,
+      "peak": 0.534271
+    },
+    {
+      "id": "c04s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 18.923,
+      "peak": 0.424194
+    },
+    {
+      "id": "c04s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 22.195,
+      "peak": 0.468475
+    },
+    {
+      "id": "c05s01",
+      "pause_count": 3,
+      "explicit_pause_seconds": 3.3,
+      "raw_seconds": 35.833,
+      "peak": 0.524292
+    },
+    {
+      "id": "c05s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 24.388,
+      "peak": 0.542084
+    },
+    {
+      "id": "c05s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.046,
+      "peak": 0.361267
+    },
+    {
+      "id": "c05s02-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.582,
+      "peak": 0.459137
+    },
+    {
+      "id": "c05s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 31.987,
+      "peak": 0.489349
+    },
+    {
+      "id": "c05s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 32.221,
+      "peak": 0.541168
+    },
+    {
+      "id": "c05s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 34.205,
+      "peak": 0.676361
+    },
+    {
+      "id": "c05s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 26.713,
+      "peak": 0.392914
+    },
+    {
+      "id": "c05s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.454,
+      "peak": 0.555359
+    },
+    {
+      "id": "c05s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 21.417,
+      "peak": 0.486359
+    },
+    {
+      "id": "c05s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 18.859,
+      "peak": 0.523529
+    },
+    {
+      "id": "c05s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 20.637,
+      "peak": 0.62912
+    },
+    {
+      "id": "c06s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 33.587,
+      "peak": 0.512848
+    },
+    {
+      "id": "c06s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 27.119,
+      "peak": 0.453186
+    },
+    {
+      "id": "c06s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.667,
+      "peak": 0.473816
+    },
+    {
+      "id": "c06s02-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.817,
+      "peak": 0.469879
+    },
+    {
+      "id": "c06s02-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.177,
+      "peak": 0.3974
+    },
+    {
+      "id": "c06s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 37.597,
+      "peak": 0.579285
+    },
+    {
+      "id": "c06s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 37.405,
+      "peak": 0.491089
+    },
+    {
+      "id": "c06s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 35.101,
+      "peak": 0.603455
+    },
+    {
+      "id": "c06s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 27.14,
+      "peak": 0.483215
+    },
+    {
+      "id": "c06s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.603,
+      "peak": 0.421448
+    },
+    {
+      "id": "c06s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.966,
+      "peak": 0.37027
+    },
+    {
+      "id": "c06s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 9.929,
+      "peak": 0.416412
+    },
+    {
+      "id": "c06s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 20.18,
+      "peak": 0.506592
+    },
+    {
+      "id": "c06s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 17.557,
+      "peak": 0.509064
+    },
+    {
+      "id": "c06s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 20.637,
+      "peak": 0.49585
+    },
+    {
+      "id": "c07s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 34.632,
+      "peak": 0.544098
+    },
+    {
+      "id": "c07s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 26.393,
+      "peak": 0.426544
+    },
+    {
+      "id": "c07s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.731,
+      "peak": 0.395447
+    },
+    {
+      "id": "c07s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 36.296,
+      "peak": 0.483185
+    },
+    {
+      "id": "c07s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 39.688,
+      "peak": 0.559387
+    },
+    {
+      "id": "c07s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 32.883,
+      "peak": 0.582977
+    },
+    {
+      "id": "c07s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 27.396,
+      "peak": 0.538666
+    },
+    {
+      "id": "c07s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.265,
+      "peak": 0.420319
+    },
+    {
+      "id": "c07s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.243,
+      "peak": 0.497528
+    },
+    {
+      "id": "c07s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 20.052,
+      "peak": 0.478729
+    },
+    {
+      "id": "c07s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 17.472,
+      "peak": 0.596191
+    },
+    {
+      "id": "c07s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 22.216,
+      "peak": 0.447998
+    },
+    {
+      "id": "c08s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 33.672,
+      "peak": 0.56366
+    },
+    {
+      "id": "c08s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 25.753,
+      "peak": 0.418823
+    },
+    {
+      "id": "c08s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.561,
+      "peak": 0.354767
+    },
+    {
+      "id": "c08s02-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.387,
+      "peak": 0.532654
+    },
+    {
+      "id": "c08s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 40.157,
+      "peak": 0.556
+    },
+    {
+      "id": "c08s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 36.701,
+      "peak": 0.503693
+    },
+    {
+      "id": "c08s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 36.723,
+      "peak": 0.610535
+    },
+    {
+      "id": "c08s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 30.98,
+      "peak": 0.58786
+    },
+    {
+      "id": "c08s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 8.435,
+      "peak": 0.447876
+    },
+    {
+      "id": "c08s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 10.697,
+      "peak": 0.503387
+    },
+    {
+      "id": "c08s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 23.209,
+      "peak": 0.437561
+    },
+    {
+      "id": "c08s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 18.816,
+      "peak": 0.580109
+    },
+    {
+      "id": "c08s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 22.088,
+      "peak": 0.477264
+    },
+    {
+      "id": "c09s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 30.856,
+      "peak": 0.420868
+    },
+    {
+      "id": "c09s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 29.593,
+      "peak": 0.453003
+    },
+    {
+      "id": "c09s02-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.539,
+      "peak": 0.452057
+    },
+    {
+      "id": "c09s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 33.203,
+      "peak": 0.493073
+    },
+    {
+      "id": "c09s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 32.904,
+      "peak": 0.564392
+    },
+    {
+      "id": "c09s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 31.859,
+      "peak": 0.554443
+    },
+    {
+      "id": "c09s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 28.377,
+      "peak": 0.464783
+    },
+    {
+      "id": "c09s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 5.939,
+      "peak": 0.363586
+    },
+    {
+      "id": "c09s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.817,
+      "peak": 0.396149
+    },
+    {
+      "id": "c09s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 6.217,
+      "peak": 0.325348
+    },
+    {
+      "id": "c09s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 19.561,
+      "peak": 0.426422
+    },
+    {
+      "id": "c09s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 16.619,
+      "peak": 0.477234
+    },
+    {
+      "id": "c09s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 21.981,
+      "peak": 0.472931
+    },
+    {
+      "id": "c10s01",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 29.427,
+      "peak": 0.572205
+    },
+    {
+      "id": "c10s02",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 25.369,
+      "peak": 0.456268
+    },
+    {
+      "id": "c10s03",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 37.448,
+      "peak": 0.597076
+    },
+    {
+      "id": "c10s04",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 38.92,
+      "peak": 0.499573
+    },
+    {
+      "id": "c10s05",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 33.629,
+      "peak": 0.502411
+    },
+    {
+      "id": "c10s06",
+      "pause_count": 7,
+      "explicit_pause_seconds": 5.7,
+      "raw_seconds": 26.265,
+      "peak": 0.460022
+    },
+    {
+      "id": "c10s06-feedback-0",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.07,
+      "peak": 0.56308
+    },
+    {
+      "id": "c10s06-feedback-1",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 9.054,
+      "peak": 0.439392
+    },
+    {
+      "id": "c10s06-feedback-2",
+      "pause_count": 1,
+      "explicit_pause_seconds": 0.35,
+      "raw_seconds": 7.987,
+      "peak": 0.407349
+    },
+    {
+      "id": "c10s07",
+      "pause_count": 4,
+      "explicit_pause_seconds": 7.7,
+      "raw_seconds": 23.615,
+      "peak": 0.498383
+    },
+    {
+      "id": "c10s07-answers",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.6,
+      "raw_seconds": 23.744,
+      "peak": 0.509644
+    },
+    {
+      "id": "c10s08",
+      "pause_count": 2,
+      "explicit_pause_seconds": 1.8,
+      "raw_seconds": 22.088,
+      "peak": 0.516571
+    }
+  ]
+}

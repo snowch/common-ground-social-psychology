@@ -1,25 +1,11 @@
-AF_HEART AUDIO REVIEW
+AF_HEART AUDIO REVIEW — V0.1.2
 
-Method: independent Whisper small.en transcription without script prompts or vocabulary hints; inspection of transcript differences and Kokoro phoneme output; actual browser decoding and playback checks. This is an automated and text/phoneme review, not a human listening approval.
+Reviewed all 149 clips after the approved opening. Revised 134; retained 15 short feedback clips and the approved opening. Generated speech uses the same Kokoro v1.0 af_heart model, voice assets, backend, and speed 1.0. Four one-thread synthesis workers preserve that configuration.
 
-Settings: Kokoro v1.0, af_heart, original synthesis speed 1.0, ONNX CPU. The requested skill's verified model and voice hashes are retained in production provenance. Encoded AAC targets -16 LUFS and -1.5 dBTP at 48 kHz, mono, 160 kbps.
+Checks: canonical-text review, exact-zero waveform checks for all requested pauses, finite/unclipped samples, encoded-audio hashes, independent Whisper small.en screening, and Chromium playback checks. The full 150-clip report retains 16 unchanged screens and adds 134 new screens. No human listening review or external subject-matter review is claimed.
 
-Pronunciation correction: explicit /mˈaɪə/ for Maya in ten scenes, retaining the on-screen spelling. Original eSpeak output sometimes included a final /r/ and the recognizer wrote Meyer. The corrected speech is re-screened independently. Leo, Sam, heuristics, preregistered, multilab, injunctive, pluralistic ignorance, and other technical terms were checked in phoneme output. The author citation is retained on screen; the speech-specific script uses “a research team” for the unfamiliar Vaidis surname. Currency and the year are written out for speech.
+Nine screening flags are retained. The approved opening's speech-only pace is about 193 wpm. Seven short feedback/answer clips are slower than the screening threshold. Their text is complete and the deliberate pause timing is recorded. The c04s06-feedback-1 word-match flag reflects one hundred/three hundred being transcribed as 100/300; the amounts and comparison are preserved.
 
-Word-match flags inspected:
-- c01s07-answers: numbered list digits versus spoken one/two, plus a recognizer split of attribution.
-- c02s04: twelve/one hundred/fifteen versus 12/100/15 and nonsignificant versus non-significant. Both negations and “three percentage points” are preserved.
-- c04s07-answers: one/two numbering and “add a” transcribed as “added”; the intended action is retained.
-- c06s06-feedback-1: nonparticipation versus non-participation.
-- c06s07-answers: one/two numbering; both norm definitions are retained.
-- c10s07-answers: numbered answers and chapter references rendered as spoken numbers. Both mechanisms and the chapter examples are retained.
+All transcript differences were inspected, including high-scoring clips. Possible recognition substitutions in usable skills, famous demonstrations, and interpret small samples were checked using isolated paragraphs with unprompted voice-activity-filtered transcription. Those checks recovered the intended words. An apparent repeated choice instruction was checked in the isolated tail, which contained one instruction. See narration-review-targeted-asr.json. Other differences involve spelling, homophones, inflection, number formatting, or word segmentation.
 
-Pace flags: all were below the skill's 120-wpm lower threshold, mainly short feedback or numbered recall answers. No clip was flagged as too fast in the original v0.1.0 run. The v0.1.1 opening has a speech-only pace of about 193 wpm, just above the 190-wpm screening threshold; including the requested pauses, overall delivery is about 146 wpm. The generation speed remains 1.0. This additional pace flag is retained for review. Original speed 1.0 is intentionally retained; slower recall delivery is appropriate for the learning task. The final ASR report retains these flags rather than presenting a false “no flags” result.
-
-No raw clip had a clipping, relative-level, or excessive-internal-gap flag. Single-pass encoded loudness is a target rather than an exact per-clip guarantee; an initial preview before the pronunciation correction measured -16.73 LUFS, with a codec true-peak estimate of -1.47 dBTP.
-
-Additional transcript inspection: compared every recognized passage with its intended speech. Differences were spelling, homophones, inflection, numeric formatting, or segmentation. No substantive omitted teaching claim or negation was identified in this review.
-
-One repeated-sentence alert (c01s06) was investigated with independent full-clip and last-eight-second transcription. The full recognizer invented repeat timestamps beyond the 24.68-second recording duration; the isolated tail contained one final “Pause here and choose an action.” No speech was cut to chase that ASR hallucination.
-
-Remaining limit: ASR spelling and phoneme checks cannot establish naturalness, exact pronunciation, or complete word accuracy. No claim of a human listening review is made. The downloadable opening sample and chapter tracks allow direct listening.
+No clip was flagged for raw clipping, relative level, or excessive internal silence beyond the allowance for its requested pauses. Waveform pause measurements and review scope are in narration-review-waveforms.json. Browser evidence is in af-heart-browser-results.json. ASR and phoneme checks cannot establish complete accuracy or naturalness.

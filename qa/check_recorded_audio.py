@@ -29,6 +29,8 @@ async def main():
   # Decode metadata from every embedded recording using the real browser AAC decoder.
   decoded=await pg.evaluate('''async()=>{let results=[];for(const [id,url] of Object.entries(RECORDED_AUDIO)){let a=new Audio();a.src=url;await new Promise((resolve,reject)=>{a.onloadedmetadata=resolve;a.onerror=()=>reject(Error(id));a.load()});if(!(a.duration>0))throw Error(id);results.push({id,duration:a.duration});a.removeAttribute('src');a.load();}return results;}''')
   assert len(decoded)==150
+  expected={x["id"]:x["duration"]for x in json.loads((R/"audio/manifest.json").read_text())["clips"]}
+  for item in decoded:assert abs(item["duration"]-expected[item["id"]])<.04,item["id"]
   C=json.loads((R/'course.json').read_text())
   for c in C:
    for j,s in enumerate(c['slides']):
