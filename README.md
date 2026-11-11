@@ -48,6 +48,8 @@ python3 build.py --portable --output out/portable
 
 Open `out/portable/index.html` or an individual file in `out/portable/chapters/`. Build output is ignored by Git; large portable bundles belong in releases.
 
+The manually dispatched **Package private course release** workflow builds the portable ZIP, verifies its integrity, computes a SHA-256 checksum, and attaches both to a release. It uses the repository’s own short-lived Actions token with contents-write permission. It does not change repository visibility.
+
 ## Content and production source
 
 - `course.json`: complete chapter content, quizzes, feedback, recall answers, outcomes, and references.
