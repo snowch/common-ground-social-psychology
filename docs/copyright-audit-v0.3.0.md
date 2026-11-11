@@ -1,6 +1,6 @@
 # Copyright and asset audit — v0.3.0
 
-11 November 2026. Scope: the current Common Ground course, source tree, learner pages, slides, recordings, study companion, standalone chapter packages, and new release packaging. The repository and Site remain private to the owner.
+11 November 2026. Scope: the current Common Ground course, source tree, learner pages, slides, recordings, study companion, standalone chapter packages, and new release packaging. The audit was completed while the repository and Site were private to the owner. The owner subsequently authorized public GitHub Pages publication of the reviewed current build; this does not expand the audit scope or retroactively clear historical artifacts.
 
 **Finding:** the inspection did not identify a copied passage, imported figure, reproduced assessment, or audiobook excerpt in the teaching material reviewed. It did identify font-notice and production-code licensing gaps, which this release addresses. This is a documented risk assessment, not a guarantee of non-infringement or a jurisdiction-specific legal opinion.
 

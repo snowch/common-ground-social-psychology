@@ -2,15 +2,15 @@
 
 An original, illustrated social psychology course in ten stories, with recorded narration, decisions, recall practice, and open reading.
 
-**Private repository.** This project and its releases are intended for the repository owner for now. No public hosting, sharing, or open-source license is enabled by this import.
+**Public course and repository.** The course is published with GitHub Pages. Public access does not grant an additional reuse license for course material; third-party assets retain their stated licenses.
 
 ## Read or download
 
 - [Download the latest offline course ZIP](https://github.com/snowch/common-ground-social-psychology/releases/latest).
-- [Open the private web course](https://common-ground-social-psychology.intactmars4.chatgpt.site).
-- [Download smaller chapter packages](https://common-ground-social-psychology.intactmars4.chatgpt.site/downloads.html).
+- [Open the course](https://snowch.github.io/common-ground-social-psychology/).
+- [Download smaller chapter packages](https://snowch.github.io/common-ground-social-psychology/downloads.html).
 
-The release ZIP includes a self-contained narrated HTML course, ten separate chapter decks, PDFs, chapter audio, scripts, and review records. Extract it and open `common-ground/index.html` in a modern browser, then press **Play narration**. The recorded voice is embedded; no speech service or installed device voice is required. The M4A chapter tracks can be played directly on a phone. Release assets inherit this repository's private access.
+The release ZIP includes a self-contained narrated HTML course, ten separate chapter decks, PDFs, chapter audio, scripts, and review records. Extract it and open `common-ground/index.html` in a modern browser, then press **Play narration**. The recorded voice is embedded; no speech service or installed device voice is required. The M4A chapter tracks can be played directly on a phone. Release assets follow repository visibility.
 
 ## Course
 
@@ -50,7 +50,11 @@ python3 build.py --portable --output out/portable
 
 Open `out/portable/index.html` or an individual file in `out/portable/chapters/`. Build output is ignored by Git; large portable bundles belong in releases.
 
-The manually dispatched **Package private course release** workflow builds the portable ZIP, verifies its integrity, computes a SHA-256 checksum, and attaches both to a release. It uses the repository’s own short-lived Actions token with contents-write permission. It does not change repository visibility.
+The manually dispatched **Package course release** workflow builds the portable ZIP, verifies its integrity, computes a SHA-256 checksum, and attaches both to a release. It uses the repository’s own short-lived Actions token with contents-write permission. It does not change repository visibility.
+
+## GitHub Pages
+
+The **Deploy course to GitHub Pages** workflow builds the hosted course and chapter downloads on pushes to `main`, then deploys the validated artifact. Pages uses **GitHub Actions** as its build source. See [deployment instructions](docs/github-pages.md) for manual runs, local builds, permissions, and checks.
 
 ## Content and production source
 

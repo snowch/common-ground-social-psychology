@@ -1,4 +1,4 @@
-name: Package private course release
+name: Package course release
 on:
   workflow_dispatch:
     inputs:
@@ -20,7 +20,7 @@ jobs:
         run: python3 build.py --portable --output out/portable
       - name: Package and verify ZIP
         run: python3 scripts/package_release.py
-      - name: Publish private release and assets
+      - name: Publish release and assets
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ inputs.tag }}
