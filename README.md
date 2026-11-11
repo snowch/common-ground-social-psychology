@@ -6,11 +6,10 @@ An original, illustrated social psychology course in ten stories, with recorded 
 
 ## Read or download
 
-- [Download the latest offline course ZIP](https://github.com/snowch/common-ground-social-psychology/releases/latest).
 - [Open the course](https://snowch.github.io/common-ground-social-psychology/).
 - [Download smaller chapter packages](https://snowch.github.io/common-ground-social-psychology/downloads.html).
 
-The release ZIP includes a self-contained narrated HTML course, ten separate chapter decks, PDFs, chapter audio, scripts, and review records. Extract it and open `common-ground/index.html` in a modern browser, then press **Play narration**. The recorded voice is embedded; no speech service or installed device voice is required. The M4A chapter tracks can be played directly on a phone. Release assets follow repository visibility.
+Each chapter download includes a narrated HTML deck, continuous audio, an eight-slide PDF, and the study companion. Extract the ZIP and open its HTML file in a modern browser, then press **Play narration**. The recorded voice is embedded; no speech service or installed device voice is required. The M4A track can be played directly on a phone.
 
 ## Course
 
@@ -48,9 +47,9 @@ For self-contained HTML decks with embedded audio:
 python3 build.py --portable --output out/portable
 ```
 
-Open `out/portable/index.html` or an individual file in `out/portable/chapters/`. Build output is ignored by Git; large portable bundles belong in releases.
+Open `out/portable/index.html` or an individual file in `out/portable/chapters/`. Build output is ignored by Git.
 
-The manually dispatched **Package course release** workflow builds the portable ZIP, verifies its integrity, computes a SHA-256 checksum, and attaches both to a release. It uses the repository’s own short-lived Actions token with contents-write permission. It does not change repository visibility.
+To package a complete offline ZIP locally, run `python3 scripts/package_offline.py`. The archive and checksum are written to `out/packages/`. This command does not publish anything.
 
 The [v0.4.0 design refinement](docs/design-v0.4.0.md) updates the illustrated cover, chapter navigation, learning toolbar, downloads, and study companion while retaining the recorded narration and audited asset notices.
 

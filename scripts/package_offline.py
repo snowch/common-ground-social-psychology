@@ -1,8 +1,8 @@
-"""Package the built portable course and tracked source for a GitHub release."""
+"""Package the built portable course and tracked source for local offline use."""
 from pathlib import Path
 import argparse,hashlib,subprocess,zipfile
 R=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser(description=__doc__);p.add_argument('--portable',default='out/portable');p.add_argument('--output',default='release-artifacts');a=p.parse_args()
+p=argparse.ArgumentParser(description=__doc__);p.add_argument('--portable',default='out/portable');p.add_argument('--output',default='out/packages');a=p.parse_args()
 D=R/a.portable;O=R/a.output;O.mkdir(parents=True,exist_ok=True)
 if not (D/'index.html').exists():raise SystemExit('First run: python3 build.py --portable --output out/portable')
 archive=O/'common-ground-af-heart.zip';seen=set()
@@ -33,7 +33,7 @@ with zipfile.ZipFile(archive)as z:
  if z.testzip()is not None:raise SystemExit('ZIP integrity check failed')
  for name in ['FONT-LICENSE.txt','THIRD-PARTY-NOTICES.txt','licenses/LibreBaskerville-OFL.txt','licenses/Arimo-OFL.txt']:
   assert 'common-ground/'+name in z.namelist(),name
- assert not any(n.endswith('.otf')for n in z.namelist()),'Obsolete font binary in release'
+ assert not any(n.endswith('.otf')for n in z.namelist()),'Obsolete font binary in offline package'
  notices=(R/'FONT-LICENSE.txt').read_text()
  htmls=[file for file in D.rglob('*.html')]
  for file in htmls:
