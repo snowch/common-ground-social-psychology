@@ -1,0 +1,40 @@
+{
+  "revision": "attribution-diagram",
+  "widths": [
+    {
+      "width": 320,
+      "personArea": 32660,
+      "situationArea": 11250,
+      "personStroke": 8,
+      "situationStroke": 2.5,
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "personArea": 32660,
+      "situationArea": 11250,
+      "personStroke": 8,
+      "situationStroke": 2.5,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "personArea": 32660,
+      "situationArea": 11250,
+      "personStroke": 8,
+      "situationStroke": 2.5,
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "personArea": 32660,
+      "situationArea": 11250,
+      "personStroke": 8,
+      "situationStroke": 2.5,
+      "overflow": []
+    }
+  ],
+  "previous_balanced_diagram": "preserved",
+  "specific_print_slide": "passed",
+  "js_errors": []
+}

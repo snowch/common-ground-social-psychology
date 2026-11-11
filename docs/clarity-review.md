@@ -32,3 +32,9 @@ Concept labels before a colon are emphasized in bold, alongside short explanatio
 `qa/essential-terms.json` lists the vocabulary that must appear on each teaching slide. `qa/check_visible_terminology.py` checks the actual slide text at mobile and desktop widths, excluding the recording transcript, and checks the corresponding pages in the complete PDF and individual chapter PDFs. It also covers terms already visible in the evidence slides, including replication, preregistration, groupthink, and implicit associations. Run it against a preview after exporting the PDFs. `qa/visible-terminology-results.json` records the result.
 
 The check passed for 61 required term appearances across 25 teaching slides at widths of 320 and 1440 pixels, and on the matching pages in both PDF formats. The 80-slide layout check found no clipping; the course regression check reported no automated accessibility violations across 83 screens. These are automated checks, with the same usability and review limits stated above.
+
+## Attribution-error diagram
+
+Chapter 1’s first concept retains the diagram showing personal and situational influences together. The second concept now shows the imbalance in Leo’s explanation: a larger Person box and heavy arrow, a smaller Situation box and lighter dashed arrow, both leading to his conclusion about Maya. Labels state “Too much weight” and “Too little weight.” The geometry illustrates relative emphasis in an explanation. The figure also states that the tendency’s strength varies with culture and context.
+
+The graphic has an accessible description and appears in the online slide, portable chapter, and PDF. Checks at 320, 390, 768, and 1440 pixels found no horizontal overflow or cropped SVG text; the preceding balanced diagram is preserved. The full course and PDF layout checks passed. `qa/attribution-diagram-results.json` records the targeted checks. Existing teaching text and recordings are unchanged.
