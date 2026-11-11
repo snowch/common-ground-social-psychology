@@ -23,7 +23,7 @@
       "chapters": [
         2
       ],
-      "prompt": "Design a fairer test of the reminder. Specify the allocation, outcome, likely spillover, and what a small observed difference would leave uncertain. Who would the result represent?",
+      "prompt": "Design a fairer test of the reminder. Specify how you would assign message versions and what you would measure. Could messages be shared between groups? What would a small observed difference leave uncertain, and whose behavior would the result represent?",
       "answer": "For the same events, randomly allocate comparable members to invitation versions, keep practical details consistent, define attendance in advance, and account for messages being shared. Estimate the difference and its uncertainty. A small or imprecise result would not prove either a useful effect or exactly no effect. The result would initially concern the tested members, messages, and events; random allocation does not create a representative population sample."
     },
     {
@@ -41,7 +41,7 @@
         4
       ],
       "prompt": "Explain how the app payment should enter the decision. Identify at least two future consequences that still matter. Distinguish defending an earlier judgment from counting money that cannot be recovered.",
-      "answer": "The nonrefundable payment is sunk under the case assumptions. Compare future time, support, switching costs, accessibility, reliability, and learning benefits. Keeping the paid app can be reasonable if its future advantages justify it; switching is not automatically the correct answer. Defending an earlier judgment may reduce discomfort about inconsistency; treating the nonrefundable fee as a reason to continue is the distinct sunk-cost problem."
+      "answer": "The nonrefundable payment is a sunk cost: money already spent that cannot be recovered under the case assumptions. Compare future time, support, switching costs, accessibility, reliability, and learning benefits. Keeping the paid app can be reasonable if its future advantages justify it; switching is not automatically the correct answer. Defending an earlier judgment may reduce discomfort about inconsistency; treating the nonrefundable fee as a reason to continue is the distinct sunk-cost problem."
     },
     {
       "title": "Design an honest, accessible invitation",
@@ -64,23 +64,23 @@
   ],
   "rubric": [
     {
-      "title": "Concept and mechanism",
+      "title": "Concept and explanation",
       "strong": "Names a relevant concept and explains how it could operate in this case, including a competing explanation.",
       "developing": "Names a concept but gives little explanation or treats a label as a diagnosis."
     },
     {
       "title": "Evidence and uncertainty",
-      "strong": "Separates observation from inference, proposes discriminating evidence, and states what remains uncertain.",
+      "strong": "Separates observation from inference, identifies evidence that could distinguish competing explanations, and states what remains uncertain.",
       "developing": "Treats the before-and-after change or a single behavior as proof."
     },
     {
       "title": "Action and evaluation",
-      "strong": "Proposes a specific feasible action, explains the mechanism, and identifies a meaningful outcome and follow-up.",
+      "strong": "Proposes a specific feasible action, explains how it could help, and identifies a meaningful outcome and follow-up.",
       "developing": "Offers a general appeal without identifying responsibility, comparison, or outcome."
     },
     {
       "title": "Limits and autonomy",
-      "strong": "Uses conditional language, respects stated boundaries, and identifies at least one limit on generalization.",
+      "strong": "Uses conditional language, respects stated boundaries, and identifies at least one limit on applying the finding to other people or settings.",
       "developing": "Treats an average pattern as a guarantee or overrides a person’s expressed wishes."
     }
   ],

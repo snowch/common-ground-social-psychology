@@ -1,0 +1,580 @@
+{
+  "revision": "clarity-review",
+  "date_utc": "2026-11-11",
+  "chapters_reviewed": 10,
+  "slides_reviewed": 80,
+  "decisions_reviewed": 20,
+  "feedback_variants_reviewed": 60,
+  "recall_prompts_reviewed": 20,
+  "field_exercises_reviewed": 10,
+  "evidence_notes_reviewed": 10,
+  "written_case_tasks_reviewed": 6,
+  "quiz_options_and_answer_keys": "unchanged",
+  "outcomes_and_reading_links": "unchanged",
+  "revised_recordings": 36,
+  "unchanged_recordings_verified": 114,
+  "voice": "af_heart",
+  "speed": 1.0,
+  "newly_screened_recordings": 36,
+  "retained_unchanged_screens": 114,
+  "new_screen_flags": [],
+  "total_asr_flags": 8,
+  "chapter_audio_minutes": 54.81,
+  "source_audio_and_track_hashes": "verified",
+  "chapter_durations": [
+    {
+      "chapter": 1,
+      "raw_seconds": 335.148,
+      "encoded_seconds": 335.2
+    },
+    {
+      "chapter": 2,
+      "raw_seconds": 327.039,
+      "encoded_seconds": 327.1
+    },
+    {
+      "chapter": 3,
+      "raw_seconds": 317.349,
+      "encoded_seconds": 317.4
+    },
+    {
+      "chapter": 4,
+      "raw_seconds": 328.976,
+      "encoded_seconds": 329.0
+    },
+    {
+      "chapter": 5,
+      "raw_seconds": 318.273,
+      "encoded_seconds": 318.3
+    },
+    {
+      "chapter": 6,
+      "raw_seconds": 313.855,
+      "encoded_seconds": 313.9
+    },
+    {
+      "chapter": 7,
+      "raw_seconds": 319.205,
+      "encoded_seconds": 319.3
+    },
+    {
+      "chapter": 8,
+      "raw_seconds": 351.227,
+      "encoded_seconds": 351.3
+    },
+    {
+      "chapter": 9,
+      "raw_seconds": 339.493,
+      "encoded_seconds": 339.5
+    },
+    {
+      "chapter": 10,
+      "raw_seconds": 337.62,
+      "encoded_seconds": 337.7
+    }
+  ],
+  "limits": "Editorial review and automated speech, waveform, browser, and artifact checks; no external subject-matter review, learner pilot, or human listening approval.",
+  "clips": [
+    {
+      "id": "c01s02-feedback-1",
+      "before": "Consider the consequence. One episode may be a weak guide to a stable personal tendency.",
+      "after": "Consider the consequence. One episode of lateness is a weak guide to how reliably someone usually arrives.",
+      "script_sha256": "7f67665936e6691d6ea9c064976f4d07a676e28cd3924e0b9d2399a6056ceb4f",
+      "encoded_sha256": "7d43753ad9e5b1f60f915ffd7a0f1dbe2f5fc22cd9e8f3720420921f166a7a0f",
+      "raw_seconds": 7.027,
+      "requested_pauses": [
+        0.35
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c01s03",
+      "before": "A disposition is a relatively enduring personal tendency. A situation includes immediate demands, other people, and available choices. Social psychology examines how the person and the situation combine.\n\nAn inaccessible building may make one person late while leaving another unaffected. Considering that barrier improves our explanation of the lateness. It can also suggest a practical change, while leaving the person responsible for their commitments.",
+      "after": "A disposition is a personal tendency that persists over time. Someone described as having a “sweet disposition” is generally kind and good-natured. A tendency need not appear in every situation.\n\nA situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. A usually patient volunteer might speak sharply when several visitors demand help at once. Both the volunteer’s usual patience and the pressure matter.\n\nSocial psychology studies how people’s thoughts, feelings, and behavior are shaped by other people and social circumstances. That includes how personal qualities and circumstances interact. Personal qualities include dispositions, but also goals, beliefs, and skills.\n\nFor Maya, the broken lift made arriving on time harder. Investigating that barrier helps the team explain her lateness and plan future shifts, while keeping commitments clear.",
+      "script_sha256": "64bce3bb6cadac900681ab21cd02d2bf9f7c3f7a9cd6de0eb637116dfbf40efc",
+      "encoded_sha256": "b0e3b93f1e1c4749102ff4efb855c9fed585e500e27a82efc2b721b91849e0d8",
+      "raw_seconds": 61.345,
+      "requested_pauses": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9814126394052045,
+      "asr_flags": []
+    },
+    {
+      "id": "c01s05",
+      "before": "Attribution research describes tendencies in judgment. It does not establish that personal qualities never matter. Repeated behavior across varied settings is more informative than one episode.\n\nEffects such as actor–observer differences depend on the judgment and the study design. Use a bias label to ask a better question about the evidence. The label alone cannot reveal what is happening in someone else’s mind.",
+      "after": "An attribution is an explanation of what caused an action. Saying “Maya arrived late” records an observation. Saying “Maya arrived late because she doesn’t care” adds an attribution about her priorities.\n\nAttribution research describes patterns in how people explain behavior. It does not establish that personal qualities never matter. Repeated behavior across varied settings is more informative than one episode.\n\nResearchers also examine actor–observer differences: differences between how we explain our own actions and other people’s actions. We might explain our own lateness through a delayed bus, but someone else’s through poor planning. Whether that pattern appears depends on the judgment and study design. A bias label alone cannot reveal what is happening in someone’s mind.",
+      "script_sha256": "21c8057aba953d93676a236c857c45641baad79d80f2417db7538a05f2c7d4f0",
+      "encoded_sha256": "f88a70573b433622b452dedb53b69b466ba868eef23f7ade7ee4cb70eb10e087",
+      "raw_seconds": 50.483,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c01s07-answers",
+      "before": "Suggested answers.\n\nFirst. An observation records an action. An attribution proposes a cause for that action.\n\nSecond. A personal explanation becomes more credible when the pattern recurs across varied circumstances and plausible alternatives have been examined.",
+      "after": "Suggested answers.\n\nFirst. An observation records an action. An attribution proposes a cause for that action.\n\nSecond. An explanation based on a personal tendency becomes more credible when the behavior recurs across varied circumstances and plausible alternatives have been examined.",
+      "script_sha256": "1af2c815cf27c2af6ffa65422a4b4e343cde30a59d7f14539674ec02bf62cb92",
+      "encoded_sha256": "63bc815490ae6325776c27854fbe22b2be94dfaa7d2de23eec32877d23f520c7",
+      "raw_seconds": 19.584,
+      "requested_pauses": [
+        0.8,
+        0.8
+      ],
+      "asr_ratio": 0.9382716049382716,
+      "asr_flags": []
+    },
+    {
+      "id": "c02s03",
+      "before": "Correlation means that two things vary together. A confound is another factor that could explain an apparent relationship. In Leo’s poster comparison, the changing weather is one possible confound.\n\nAn experiment deliberately changes a condition and compares the outcomes. For the same café event, comparable households could be randomly assigned different invitations. Random assignment helps balance other influences on average.\n\nRandom sampling answers a separate question: who is selected from the population? Even a good comparison between conditions may involve a sample that represents only a narrow group of people.",
+      "after": "Correlation means that two things vary together. A confound is another factor that could explain an apparent relationship. Attendance rose after Leo changed the poster, but better weather could also have brought more visitors. The poster comparison cannot separate those explanations.\n\nAn experiment deliberately changes a condition and compares outcomes. For one café event, a chance process could assign households to receive invitation A or B. This random assignment helps balance other influences between groups on average; it cannot guarantee identical groups.\n\nRandom sampling concerns who enters the study. Selecting households by chance from a neighborhood list is different from assigning invitation designs to households already selected. Testing only existing supporters may tell us little about residents who have never visited.",
+      "script_sha256": "58ae90d74b8cf803ff6a2311398cc80e7bb94becf469f73a2f65e3107d9a9ec5",
+      "encoded_sha256": "5d3b532bca4a5c34c4e4751bc0a62979fd3d6f65247f1c7426219db6f2c9eb7d",
+      "raw_seconds": 54.451,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9834710743801653,
+      "asr_flags": []
+    },
+    {
+      "id": "c02s04",
+      "before": "Imagine two groups of one hundred households. Twelve households attend after receiving one invitation design. Fifteen attend after receiving the other design. These are invented teaching numbers.\n\nThe difference is three percentage points. But the estimated advantage is uncertain, and a different sample could produce a different result.\n\nStatistical significance does not measure practical importance. A nonsignificant result does not prove zero effect. Examine the size of the estimate, its uncertainty, the design, and evidence from other tests.",
+      "after": "Imagine two groups of one hundred households. Twelve attend after receiving one invitation design. Fifteen attend after receiving the other. These are invented teaching numbers.\n\nAttendance is twelve percent in one group and fifteen percent in the other: a difference of three percentage points. A different sample could produce a different result, so the estimated advantage has uncertainty.\n\nStatistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not tell us whether a difference matters in practice. A small change could be statistically significant in a large study, yet be too small to justify an expensive campaign.\n\nA nonsignificant result does not prove zero effect. Examine the size of the estimate, its uncertainty, the study design, and other tests.",
+      "script_sha256": "959daf631fbdc6886d861cc2d8c5cd08df57cf001c98c043ae675fc1a36288b8",
+      "encoded_sha256": "db677b458ff400e15add84fa6c4a5a87cbb2907ce4faef49c3ad8d8ad848cbd1",
+      "raw_seconds": 56.204,
+      "requested_pauses": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9312977099236641,
+      "asr_flags": []
+    },
+    {
+      "id": "c02s05",
+      "before": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.\n\nPreregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.\n\nLarger samples improve precision. Transparent materials let others inspect the research. A memorable study is a starting point for evaluation, rather than a final verdict.",
+      "after": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.\n\nPreregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.\n\nWith a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.",
+      "script_sha256": "4b713dc2c254ad483296597715efc284a78e68657e21995e5e32ce65340613fd",
+      "encoded_sha256": "ec93fd55108c3785e2501179c879cc74f3386e64a1b1e37c6f8946d7750ef8d7",
+      "raw_seconds": 43.656,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9897959183673469,
+      "asr_flags": []
+    },
+    {
+      "id": "c03s03",
+      "before": "Heuristics are mental shortcuts. They can help when time and information are limited. The availability shortcut uses examples that come easily to mind.\n\nAvailability can mislead when vivid or recent examples are a poor guide to frequency. A complaint channel may help you discover faults while giving a distorted picture of how common those faults are.\n\nAsk which cases reached your attention, and which cases you never heard about. Then look for a relevant total to compare them with.",
+      "after": "Heuristics are mental shortcuts. They can help when time and information are limited. The availability shortcut uses examples that come easily to mind. After hearing the toaster story, Leo may judge repair failures by how easily he remembers one.\n\nVivid or recent examples can be a poor guide to frequency. A complaint channel helps discover faults, but usually says little about repairs that worked.\n\nTo estimate a failure rate, count failures and the total of comparable repairs. In an invented example, four failures among forty repairs means ten percent. Forty is the denominator: the total used to interpret the four failures. Without that total and consistent follow-up, the café cannot tell how common failure is.",
+      "script_sha256": "54241eb165f481c19ac54614b071a5b34c0857d600d08c6a6bb727b1b89ad6e3",
+      "encoded_sha256": "e08f55d7c6ead19a972821dbb5b99527d791ee4eabb59fca71b293d3ba986ab2",
+      "raw_seconds": 47.368,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.961038961038961,
+      "asr_flags": []
+    },
+    {
+      "id": "c03s04",
+      "before": "Confirmation bias includes seeking or interpreting information in ways that fit an existing belief. Motivated reasoning adds the influence of a conclusion we want to reach.\n\nStart by checking your own evidence-seeking habits. Maya can define a failed repair in advance and follow up comparable repairs consistently. Maya can also ask someone with a different expectation to examine the same record.\n\nThose procedures give an expectation a chance to be wrong. Calling another person biased is not a substitute for checking the evidence.",
+      "after": "Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives his belief an unfair advantage.\n\nMotivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so she may find reassuring repair stories easier to accept. The two processes can overlap; neither label proves that a conclusion is wrong.\n\nMaya can define a failed repair in advance and follow up comparable repairs consistently. Someone with a different expectation can examine the same record. These procedures give an expectation a chance to be wrong. Calling another person biased does not replace checking the evidence.",
+      "script_sha256": "918103cab7c29f3cf7a88afba864c98889c0bdbd2419a99b657fbe28ca3b14b6",
+      "encoded_sha256": "c670429793c094aad0da022988877512a6bfb5bcc7002b756a7b6e1af59b9fad",
+      "raw_seconds": 50.568,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9914529914529915,
+      "asr_flags": []
+    },
+    {
+      "id": "c03s07-answers",
+      "before": "Suggested answers.\n\nFirst. A vivid case needs a denominator because the total of comparable cases is needed to estimate frequency.\n\nSecond. An availability shortcut can help when the examples that come to mind reliably represent the relevant events.",
+      "after": "Suggested answers.\n\nFirst. The denominator is the total of comparable cases. Four failed repairs mean something different among forty repairs than among four hundred. Consistent follow-up is needed to estimate the failure rate.\n\nSecond. An availability shortcut can help when the examples that come to mind reliably represent the relevant events.",
+      "script_sha256": "67d7372bca8a12247bbbd422187128d7d1dab809bdd0e4704747e2faa2eb3964",
+      "encoded_sha256": "131bec0bccb43ee8d920b272cd37c8ede5cf8a14b72ba5dacbea2764dd7c3ce2",
+      "raw_seconds": 23.36,
+      "requested_pauses": [
+        0.8,
+        0.8
+      ],
+      "asr_ratio": 0.9514563106796117,
+      "asr_flags": []
+    },
+    {
+      "id": "c04s03",
+      "before": "Cognitive dissonance theory concerns inconsistency between cognitions, such as beliefs or knowledge about our actions. The theory proposes that this inconsistency can create discomfort that we are motivated to reduce.\n\nA person may change a behavior, change a belief, or add a justification. The response is not predetermined. Maya could defend the booking tool, or decide that being careful includes noticing and correcting a mistake.\n\nHow much choice and responsibility someone feels can affect the pressure to justify an action.",
+      "after": "Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce.\n\nMaya believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice.\n\nPeople may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.",
+      "script_sha256": "a53ef1ff1b5349cd2a8ad08ed5327078f85263dd95766bb7f0d84622c5fbda2d",
+      "encoded_sha256": "30f8ad846ceb97b4196754e1666b3f38dc2a309f3e8485e62818e006df6dc688",
+      "raw_seconds": 47.624,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c04s04",
+      "before": "The sunk cost effect concerns decisions influenced by costs that cannot be recovered. It is related to self-justification, but it is a distinct decision problem.\n\nMoney or effort already spent should not, by itself, determine the best next option. Compare the future benefits and avoidable costs of continuing or switching.\n\nPast investments can still matter when they change future consequences. Usable skills, remaining obligations, and switching costs belong in that comparison. Ask what you would choose if you took over the project today.",
+      "after": "A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next.\n\nThe hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option.\n\nPast work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.",
+      "script_sha256": "4c9f7694f4280d15389e9fd88b75f5c85617a39f4848a96628ec74ffc5827370",
+      "encoded_sha256": "44c797f0c917f8028c0c4c6823e419cfc6fdb65553e15e5fa7c04fde6a337a7f",
+      "raw_seconds": 46.195,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c04s05",
+      "before": "Evidence for specific dissonance demonstrations is uneven. In 2024, a research team repeated one induced-compliance procedure across multiple laboratories. The study compared attitude change under high-choice and low-choice conditions.\n\nThe primary analysis did not support the predicted difference between those conditions. That result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory.\n\nKeep the general theoretical framework separate from confidence in any single demonstration. The linked Vaidis and colleagues study provides the details.",
+      "after": "Evidence for specific cognitive dissonance demonstrations is uneven. In 2024, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure.\n\nThe study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups.\n\nThat result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked Vaidis and colleagues study provides the details.",
+      "script_sha256": "260b4b6cf6cc68658f1d226e3b16cfc2bbc8ebee1f06a220e60e25350c93dc2f",
+      "encoded_sha256": "633cfb4cc8e14105ae7f72a63992cc0a7be50eddf98afe78aaabc8a9a374961f",
+      "raw_seconds": 49.181,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9775784753363229,
+      "asr_flags": []
+    },
+    {
+      "id": "c05s02-feedback-0",
+      "before": "Consider the consequence. Announcing the chair’s preferred answer first may anchor the comments that follow.",
+      "after": "Consider the consequence. Announcing the chair’s preferred answer first can pull later comments toward it, making independent concerns harder to see.",
+      "script_sha256": "3507f53a8b6a0b1c8a58dd40092d00d771f64ab247c3725ea7de33837c1a634a",
+      "encoded_sha256": "1d347ca8ee29b2c480be4b4bb72b6d8a0f6d7c653b5956a0b0593be19cbcce9a",
+      "raw_seconds": 8.841,
+      "requested_pauses": [
+        0.35
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c05s03",
+      "before": "Informational influence means treating other people’s responses as evidence about reality. It is especially relevant when we are uncertain. Normative influence concerns acceptance and the wish to avoid rejection.\n\nBoth influences can operate at once. Sam may doubt their own workload estimate and also fear disappointing the chair.\n\nFollowing a group can support useful coordination. Check whether the group’s information is sound, and whether people can disagree without a social penalty.",
+      "after": "Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.\n\nNormative influence concerns acceptance and the wish to avoid rejection. Sam might instead think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”\n\nBoth influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair. Following a group can support useful coordination. Check whether the group’s information is sound and whether people can disagree without a social penalty.",
+      "script_sha256": "aba641f8021ddb13dba7fa09162b69b4e38ad6144c7e1f23699837a2360c7018",
+      "encoded_sha256": "1028adccdec3f1e159136dd20ae4c8fc7fe172cbeeb460c1e065985bf04fa4d2",
+      "raw_seconds": 42.568,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9906542056074766,
+      "asr_flags": []
+    },
+    {
+      "id": "c05s04",
+      "before": "Compliance means responding to a request. Obedience means responding to an authority’s order. An authority’s role can make a demand feel legitimate and shift perceived responsibility.\n\nThat pressure does not make obedience inevitable. People can resist, and the conditions surrounding an order matter.\n\nAt the café, an explicit rule allows any volunteer to stop unsafe work. An agreed escalation route gives the volunteer a practical next step after questioning the instruction.",
+      "after": "Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following a chair’s instruction because the chair is in charge illustrates obedience.\n\nA request from an authority can involve both processes. The role may make a demand feel legitimate or encourage someone to think, “The chair is responsible for this decision.” That pressure does not make obedience inevitable. People can resist, and the surrounding conditions matter.\n\nAt the café, an explicit rule allows any volunteer to stop unsafe work. An agreed route for raising the concern gives that volunteer a practical next step after questioning an instruction.",
+      "script_sha256": "e3e5caae8f521b7eb9084e982070e405c97d83b9deabe982c6f04e37de7a2b15",
+      "encoded_sha256": "6028488ed48ddaef0726ed0639c6e50ab18a83f6ce603774a624e7a52315c047",
+      "raw_seconds": 47.795,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9913793103448276,
+      "asr_flags": []
+    },
+    {
+      "id": "c05s05",
+      "before": "Asch’s line-judgment studies examined majority influence in an artificial task. Milgram’s studies examined responses to apparent authority in a highly structured setting.\n\nTo interpret those experiments, consider their methods, ethics, and limits. The findings concern particular conditions of influence. They are not universal population obedience rates.\n\nSome participants resisted, and responses varied with the conditions. Famous demonstrations do not establish that harmful conduct is inevitable.",
+      "after": "In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence.\n\nIn Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting.\n\nBoth sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.",
+      "script_sha256": "ef8ed470644c54bf1cbf1a79e19a621b456eb0e0bf5e8a94bc4e5cd48e2ff008",
+      "encoded_sha256": "d2886ef27c6444ba612be4bb10b27e6545799ecc1ce02d5aa7e9e27a4bb9b838",
+      "raw_seconds": 47.027,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9760765550239234,
+      "asr_flags": []
+    },
+    {
+      "id": "c06s03",
+      "before": "An attitude is an evaluation of something. The elaboration likelihood model explains how motivation and ability can affect the way a persuasive message is processed.\n\nIn central processing, a person examines relevant arguments. When someone has the motivation and attention to think carefully, argument quality matters more.\n\nIn peripheral processing, cues such as familiarity or perceived credibility can carry more weight. These routes are not fixed personality types. The same person may examine a major commitment carefully and use a shortcut for a minor decision.",
+      "after": "An attitude is an evaluation: for example, judging volunteering to be worthwhile or burdensome. The elaboration likelihood model describes how motivation and ability affect how carefully someone examines a persuasive message.\n\nCentral processing involves examining relevant arguments. A potential volunteer might compare the shift length, available support, and likely contribution. When someone can and wants to think carefully, argument quality matters more.\n\nPeripheral processing gives more weight to cues, such as a familiar face or an apparently credible speaker. A hurried passerby might feel positive about the café because a favorite local celebrity supports it, without checking the practical details.\n\nThese are differences in how a message is processed, not fixed personality types or two sealed categories. The same person can process different messages more or less carefully.",
+      "script_sha256": "d5672649df14ae50bc3e981e52dba589f574678c07109dc392154384ceacdbc6",
+      "encoded_sha256": "6d30b53d51b511a529a3d2b91f14f69969b9671dfcd4dd36d49972e83416046c",
+      "raw_seconds": 59.383,
+      "requested_pauses": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.980544747081712,
+      "asr_flags": []
+    },
+    {
+      "id": "c07s02-feedback-1",
+      "before": "Consider the consequence. General criticism leaves allocation unclear.",
+      "after": "Consider the consequence. Telling everyone to be more committed still leaves the team unsure who owns each checklist task.",
+      "script_sha256": "92d8b575a933db5d3ee7528498204d42e8dae5e111bae8ed0e1d01a2922344c2",
+      "encoded_sha256": "413d92b936a3c1d97a95f11efe6c7d42cda8110519dccfde5544e35e4f907706",
+      "raw_seconds": 7.411,
+      "requested_pauses": [
+        0.35
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c07s03",
+      "before": "Group memberships help people understand themselves and others. Favoring an in-group means giving preference to people seen as part of “our” group. That favoritism can produce unequal treatment without explicit hatred of outsiders.\n\nAt the café, the repair and welcome teams can work toward a shared goal: a successful visitor experience. That goal makes each team’s contribution easier to see.\n\nA shared team name alone will not resolve conflicting incentives, unequal workloads, or unequal decision power. Look at the structure that keeps the division in place.",
+      "after": "Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as “us.” Giving repair volunteers first choice of shifts simply because they are “our team” would illustrate in-group favoritism.\n\nFavoritism can produce unequal treatment without explicit hatred of outsiders. At the café, a shared goal—a successful visitor experience—can help the repair and welcome teams see why both contributions matter.\n\nA shared team name alone will not resolve conflicting incentives, unequal workloads, or unequal decision power. If repair volunteers still control the rota, renaming everyone “the café team” leaves that power difference in place. Examine the arrangements that sustain the division.",
+      "script_sha256": "bc66fd36745d0cff714215e8d8db5965afbc7195d1dede3fc7aa52f4705c8a28",
+      "encoded_sha256": "aca8584b7e93afa81f03d7c95c601b6a655c725b2e6497fd85346d6a36d2de8c",
+      "raw_seconds": 49.245,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9694323144104804,
+      "asr_flags": []
+    },
+    {
+      "id": "c07s04",
+      "before": "Group polarization is movement toward a more extreme position from an initial leaning. Discussion can supply supporting arguments and encourage comparisons with other members. Polarization is different from simply reaching agreement.\n\nSocial loafing means reduced individual effort in a collective task. It can become more likely when individual contributions are hard to identify.\n\nPoor group output can also reflect coordination problems. Missing tools, duplicated work, or unclear roles can waste genuine effort. An unfinished checklist does not, by itself, establish that people are loafing.",
+      "after": "Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute. Simply agreeing on the small event would be consensus, not polarization.\n\nSocial loafing means reducing individual effort when working collectively. Someone might check fewer items because their contribution will be hidden in the team’s total.\n\nPoor output can also reflect coordination problems. Two willing volunteers may duplicate one repair while another waits for a missing tool. That wastes genuine effort. An unfinished checklist alone does not establish loafing; check effort, tools, sequencing, and roles before choosing a remedy.",
+      "script_sha256": "b370c7c291a6d649dc41d3bdc68131e595f3939c7f21f0e9dc67e8e263bab869",
+      "encoded_sha256": "7fa8615ed952949b02eabeda04d03b2cb77e5f13da1acf0fa0cdc83ad40ae3d1",
+      "raw_seconds": 52.595,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c07s06-feedback-2",
+      "before": "Consider the consequence. A preferred opening number can anchor later judgments.",
+      "after": "Consider the consequence. The chair’s opening budget can become an anchor: a starting number that pulls later estimates toward it, even when demand has not been checked.",
+      "script_sha256": "e229cdfc6099e6ab9f30a5c8c21b39d1258c58cfc45bcd7a596ab1256ca0ed9b",
+      "encoded_sha256": "85bc14509ff7054a1f1ac5525175c415d8d66182c127ae53f7afc009f1bd265f",
+      "raw_seconds": 10.142,
+      "requested_pauses": [
+        0.35
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c07s08",
+      "before": "Here is your field practice.\n\nMap a shared project: task, owner, dependency, and feedback point. Decide whether its main obstacle is effort, coordination, or decision quality before proposing a remedy.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "after": "Here is your field practice.\n\nMap a shared project: each task, its owner, what must happen before it can start, and when progress will be checked. Decide whether the main obstacle is effort, coordination, or decision quality before proposing a remedy.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "script_sha256": "de0697c8a8d8e599b6020ff78b928b8b2d1e7a3b8e07b677b4860bfe0dd9cc78",
+      "encoded_sha256": "be91236a12742ea11dcc9dd9a6fb2f39791d91ca2c9ecfa444ba49abb1ececfc",
+      "raw_seconds": 24.563,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c08s03",
+      "before": "A stereotype is a generalized belief about a group. Prejudice is an evaluative attitude toward a group. Discrimination is unequal treatment based on group membership.\n\nThe three concepts overlap, but they are distinct. A person can endorse equality and still use an unexamined stereotype when assessing an applicant. A procedure can also favor an existing group through its recruitment network.\n\nExamine the actual decision, relevant comparisons, and context. An ambiguous action cannot reveal someone’s entire belief system, and positive intentions cannot establish that a process is fair.",
+      "after": "A stereotype is a generalized belief about a group: for example, assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them. Discrimination is unequal treatment based on group membership: rejecting an applicant because they are a newcomer, without checking relevant skills.\n\nThese examples concern beliefs, attitudes, and actions respectively. The three can overlap, but one does not establish everything about the others. A person can support equality yet use an unexamined stereotype when assessing an applicant.\n\nA procedure can also favor an existing group through its recruitment network. Examine the actual decision, relevant comparisons, and context. Good intentions alone do not establish that a process is fair.",
+      "script_sha256": "7cfae91b7abdb8adbb418ae5a6f343308f48a1e212cefec1f9d8ebcf820410b1",
+      "encoded_sha256": "555864393d3e6e71fb9b2112d980990ecf5abaf6e1d2ba4738aa52be80ca0fff",
+      "raw_seconds": 52.851,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c08s04",
+      "before": "Intergroup contact can reduce prejudice on average. Important conditions to consider include cooperation, common goals, equal status within the encounter, and institutional support.\n\nSimply bringing people together is not a guarantee of improvement. At the café, meaningful participation includes access to resources and a real voice in decisions.\n\nA social event may improve an encounter while leaving entry requirements unchanged. Procedural barriers need procedural changes. Evaluate whether people can actually enter and participate.",
+      "after": "Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support are important conditions to consider.\n\nFor example, experienced volunteers and newcomers could work together on a repair, share decisions, and receive support from the coordinator. If newcomers only watch while established members control the tools, being in the same room offers less equal participation.\n\nContact also leaves some barriers untouched. A friendly social event does not change a rule requiring applicants to own expensive tools. Removing that requirement, where unnecessary, is a procedural change. Evaluate whether people can actually enter and participate.",
+      "script_sha256": "23e3cf7ab63ac5e7fbf7ec0b6af65dd25236cd1293e6e1078d0b2cc684ef6d78",
+      "encoded_sha256": "03518670f692b8afd5ba868703a0760303a7d5d9465e19d822a6f085ccf759a7",
+      "raw_seconds": 54.579,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c08s05",
+      "before": "Explicit attitudes, implicit associations, and discriminatory behavior are different things to measure. A score on an implicit-association measure is not a complete diagnosis of a person’s character or a forecast of every action.\n\nEvaluate an intervention using meaningful behavior and access outcomes. Include follow-up and the experiences of people affected by the process.\n\nInterpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
+      "after": "An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.\n\nThose are different things to measure. An implicit-association score is not a complete diagnosis of character or a forecast of every action. A statement of fairness also cannot establish fair treatment.\n\nEvaluate changes using meaningful outcomes: who can apply, progress through recruitment, and participate afterward? Include follow-up and the experiences of people affected. Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
+      "script_sha256": "c5521ee2e851885deb2ad6de49f52ca490bd03f81925490753b874cad542b4de",
+      "encoded_sha256": "67bc32763e65b2b3e114fd3318cbfefd57f96f963e76e806f5f4ff25b963253a",
+      "raw_seconds": 54.195,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c09s02-feedback-0",
+      "before": "Good application. Offering a shared activity creates an opportunity to connect while preserving the other person’s choice.",
+      "after": "Good application. Offering a shared activity creates an opportunity to connect. Notice whether the other person also chooses to participate and show interest.",
+      "script_sha256": "c1ea4d7d1ee818bb2472465a06b03bb130528a05cd28e33c5cc0b2fdabc5e2e8",
+      "encoded_sha256": "b776e755c46c6ad5ae13930098c2e87fc859d5247369d0308f05819124b46651",
+      "raw_seconds": 10.27,
+      "requested_pauses": [
+        0.35
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c09s03",
+      "before": "Daily settings influence who you have opportunities to meet. Shared schedules can make particular people familiar.\n\nMere exposure describes cases where repeated encounters increase liking. Repetition can also intensify annoyance or threat, so more contact is not automatically better. Similar interests and values can make connection easier.\n\nContact, familiarity, and similarity do not guarantee attraction, compatibility, or a healthy relationship. Someone’s expressed boundary still matters.",
+      "after": "Daily settings influence whom we have opportunities to meet. Sharing the Thursday shift makes Sam and Leo more familiar to each other. Their interest in old radios gives them something to discuss.\n\nThe mere exposure effect refers to cases where repeated encounters increase liking. A face that initially feels unfamiliar may become more comfortable to see. Repetition can also intensify annoyance or threat, so more contact is not automatically better.\n\nSimilar interests and values can make connection easier. Contact, familiarity, and similarity do not guarantee attraction, compatibility, or a healthy relationship. Sam and Leo’s shared shift creates opportunities for friendship; it does not create an obligation to become friends. Someone’s expressed boundary still matters.",
+      "script_sha256": "f40df4be3eb16fd70debc9fbe6a5b3ec3891b4f94521d2bf00aa82f4a434dd1a",
+      "encoded_sha256": "f81a5c328ee2fab8c2a1739b8927ecba6fe258452dd58c301de6f5f2a90a5193",
+      "raw_seconds": 51.08,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c09s04",
+      "before": "Disclosure means sharing something personal. Disclosure can support intimacy when the other person responds with understanding and appropriate care.\n\nReciprocity does not require matching secrets on demand or treating favors as debts. Trust, willingness, support, fairness, and commitment also shape a relationship.\n\nPeople differ in how secure or anxious they feel about closeness. Attachment labels are not diagnoses. A label should not be used to explain away what a person says they want.",
+      "after": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. Sam could listen, check what Leo means, and ask whether advice would help.\n\nDisclosure can support intimacy when it receives an understanding response. Reciprocity means that consideration can flow both ways over time; it does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.\n\nPeople differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses. One declined invitation cannot establish a pattern or override someone’s stated wishes.",
+      "script_sha256": "c6f2355d4e44c79aa92d0cbedec2e155e8de47ded53520c52275a327c690d8ce",
+      "encoded_sha256": "2c4369ca9c9cc9ee24f54821535207786189db8e718a3d8d9b06ce3aa5d533e4",
+      "raw_seconds": 51.869,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c09s05",
+      "before": "Much relationship research is correlational or uses self-reports. Samples may represent particular cultures and relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship.\n\nDistinguish an average association from advice for a particular pair. Direct communication provides information that a catchy compatibility rule may miss.",
+      "after": "Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.\n\nDistinguish an average association from advice for a particular pair. Ask about their experience directly. A conversation may reveal important details that a catchy compatibility rule overlooks.",
+      "script_sha256": "f1b480a297be8730208170100d99de52978879552741388531d95144307b6dd1",
+      "encoded_sha256": "e6b9262a18391c11ad810b2a805c124229b29bca79cb25db85c7c3ace8ec249e",
+      "raw_seconds": 51.571,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c09s08",
+      "before": "Here is your field practice.\n\nIn a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on responsiveness rather than whether you won someone’s affection.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "after": "Here is your field practice.\n\nIn a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on whether the person seemed heard and understood, and whether you gave them room to correct your summary.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+      "script_sha256": "eb7bc353695a49dde52aebe23c8f1f4a0a28bfddcbd405f61722ad3614a52acd",
+      "encoded_sha256": "464378b89f612efdcf61b3d251da0a988b6e1a03f55aabf2dcac08a69574b0cb",
+      "raw_seconds": 23.88,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c10s02-feedback-1",
+      "before": "Good application. Ambiguity and divided responsibility can both contribute.",
+      "after": "Good application. People may be unsure whether help is needed, or think someone else is responsible for acting.",
+      "script_sha256": "692137f0150f23767526d2a480225c8d2a9657cc18fe4d39bb6f98092d089f7e",
+      "encoded_sha256": "9b994c84b8cb8e0107f24716115d5cd6721426b83f06ee97cdf01fa429628647",
+      "raw_seconds": 6.814,
+      "requested_pauses": [
+        0.35
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c10s02-feedback-2",
+      "before": "Consider the consequence. Ability, safety, and uncertainty are alternative explanations.",
+      "after": "Consider the consequence. A person may care and still hesitate because they do not know what happened, lack the skills to help, or fear making things worse.",
+      "script_sha256": "7c04c9fac60892bd1809a0babcec1f8b5b496f9e292b488191ab880c4d168de7",
+      "encoded_sha256": "b2d853df3c7f9373a2550cedc8e06b77ad50d8be8292073f254a2ac28f7da2b7",
+      "raw_seconds": 9.182,
+      "requested_pauses": [
+        0.35
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c10s03",
+      "before": "The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. Diffusion of responsibility means that each person feels less personally responsible for acting.\n\nPluralistic ignorance concerns interpretation. People may read others’ outward calm as evidence that nothing is wrong, even when others are also uncertain.\n\nThose patterns depend on the situation. In some emergencies, other people provide essential support and increase the chance that someone helps. Crowds do not mechanically remove concern.",
+      "after": "The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. One possible process is diffusion of responsibility: “There are plenty of people here; someone else will act.” Each person may feel less personally responsible.\n\nPluralistic ignorance concerns interpreting others’ reactions: “Everyone looks calm, so perhaps no help is needed.” Several worried people may each hide their uncertainty and mistake everyone else’s outward calm for reassurance.\n\nThe first explanation concerns who should act; the second concerns whether action seems necessary. Both could contribute to hesitation after the shelf falls. In other emergencies, people provide essential support and increase the chance that someone helps. The effect depends on the situation.",
+      "script_sha256": "28c39c028f53c43ee4e4be98dec4cdcad7b8da58d3f1a375785625bd056c89bc",
+      "encoded_sha256": "d2ba9416ecd83a144b51805ab50de03182142130aef5802f29cdf62a31d6b077",
+      "raw_seconds": 51.933,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    },
+    {
+      "id": "c10s04",
+      "before": "Aggression is behavior intended to harm. Frustration, learned scripts, perceived threat, and situational pressure can contribute to aggression. Anger does not inevitably lead to harm.\n\nAt the café, calm space, clear conduct rules, and a trained escalation route can support a constructive response. These are practical arrangements to evaluate, rather than guarantees.\n\nCooperation also needs clear expectations about contributions, reporting problems, and sharing benefits and burdens. Context can improve an explanation while leaving accountability for harmful actions intact.",
+      "after": "Aggression is behavior intended to harm. Anger is a feeling; aggression involves an intention to harm through behavior. Someone can feel angry about the fallen shelf and still respond constructively.\n\nFrustration, perceived threat, situational pressure, and learned expectations about how conflicts are handled can contribute to aggression. Those influences do not make harm inevitable or remove responsibility.\n\nDe-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate these arrangements rather than treating them as guarantees.\n\nCooperation also needs clear contributions, a way to report problems, and a fair division of benefits and burdens. Naming who checks a replacement shelf turns a general wish to cooperate into a specific responsibility.",
+      "script_sha256": "184d3e891b7ded4bcd2421427e9f2d2212b6c4472e248e0ea818a7e2c8e0ceae",
+      "encoded_sha256": "be248cef6a0914b4b928c04a42c5b34f12daf6f2d4988bce018d02ddb76572e0",
+      "raw_seconds": 57.975,
+      "requested_pauses": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 0.9803921568627451,
+      "asr_flags": []
+    },
+    {
+      "id": "c10s05",
+      "before": "Laboratory aggression measures are imperfect indicators of serious violence. Bystander findings also vary with danger, relationships, and available support. A slogan about crowds can hide those differences.\n\nFor a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction.\n\nEvaluate a practical change by whether appropriate, safe help becomes more available. Concern alone does not establish that a response plan works.",
+      "after": "Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.\n\nBystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident.\n\nFor a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.",
+      "script_sha256": "2502c5bff325939233103642101a76a6a70c001689b8ea4e602e3901a533ba8c",
+      "encoded_sha256": "99a73828894264f6199b43fff4e2663a9daf6918ac76ba2c5b851a4d7f186e86",
+      "raw_seconds": 44.403,
+      "requested_pauses": [
+        0.9,
+        0.9
+      ],
+      "asr_ratio": 1.0,
+      "asr_flags": []
+    }
+  ]
+}

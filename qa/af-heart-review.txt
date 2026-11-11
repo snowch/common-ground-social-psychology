@@ -1,3 +1,15 @@
+AF_HEART AUDIO REVIEW — CURRENT CLARITY PASS
+
+Reviewed the complete course for abstract definitions, unclear references, and missing links between ideas and examples. Regenerated and independently screened 36 revised clips; verified the encoded hashes of 114 unchanged clips. The Kokoro v1.0 ONNX af_heart voice, model hashes, and speed 1.0 are unchanged. Deliberate pauses were verified in the revised WAVs.
+
+No revised clip has an automated screening flag. Eight flags remain in unchanged clips: seven pacing flags and one number-formatting word-match flag. The opening is about 193 speech-only words per minute; six unchanged feedback/answer clips are slower than the screening threshold. The c04s06-feedback-1 word-match flag concerns one hundred/three hundred being transcribed as 100/300. The prior interpretation below remains relevant to those unchanged recordings.
+
+All revised ASR transcript differences were inspected. They concern number formatting, homophones, inflection, word boundaries, names, or the intentional speech-specific form for the linked-study sentence. The ambiguous sound sequence “miss information” was rewritten as “reveal important details” before the final recording. Current inputs, waveform checks, screening results, and chapter-track duration checks are recorded in clarity-review.json. Browser decoding/playback evidence is in af-heart-browser-results.json.
+
+These checks are automated screening and editorial inspection, not human listening approval or evidence of learner comprehension.
+
+HISTORICAL REVIEW FOLLOWS — THE COUNTS BELOW DESCRIBE V0.1.2
+
 AF_HEART AUDIO REVIEW — V0.1.2
 
 Reviewed all 149 clips after the approved opening. Revised 134; retained 15 short feedback clips and the approved opening. Generated speech uses the same Kokoro v1.0 af_heart model, voice assets, backend, and speed 1.0. Four one-thread synthesis workers preserve that configuration.

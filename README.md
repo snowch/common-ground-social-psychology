@@ -26,9 +26,9 @@ Each chapter download includes a narrated HTML deck, continuous audio, an eight-
 | 9 | A place beside someone | Attraction and relationships |
 | 10 | Who will do something? | Aggression, helping, and cooperation |
 
-There are 80 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 48 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
+There are 80 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 55 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
 
-The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
+The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. The [examples and explanation review](docs/clarity-review.md) adds concrete definitions, story connections, and clearer distinctions across all ten chapters. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
 
 ## Build from source
 
@@ -79,7 +79,7 @@ Raw working WAV files, downloaded speech models, local environments, and generat
 
 Kokoro-82M v1.0, **`af_heart`**, original synthesis speed **1.0**, Linux ONNX CPU. These are the settings documented for the newer `metadata-book` Chapter 1. The model and voice hashes are retained in `production/af-heart-production.json`.
 
-The [narration style guide](docs/narration-style.md) explains explicit references, short paragraphs, and deliberate pauses. The approved opening introduced that approach in v0.1.1. The [v0.1.2 narration review](docs/narration-review-v0.1.2.md) applies it to the remaining 149 clips.
+The [narration style guide](docs/narration-style.md) explains explicit references, short paragraphs, and deliberate pauses. The approved opening introduced that approach in v0.1.1. The [v0.1.2 narration review](docs/narration-review-v0.1.2.md) applied it to the remaining 149 clips. The [clarity review](docs/clarity-review.md) adds concrete explanations and updates 36 recordings while preserving the same voice and speed.
 
 The voice workflow uses [snowch/claude-skills](https://github.com/snowch/claude-skills/tree/c9a7c521568632aa216932f4c965df386498602a/plugins/demo-video/skills/record-demo). [Production notes](production/README.md) explain regeneration. Phoneme overrides preserve the visible text while clarifying speech, including Maya's name and numbers.
 
@@ -87,7 +87,7 @@ The voice workflow uses [snowch/claude-skills](https://github.com/snowch/claude-
 
 The recorded-audio browser check decoded all 150 recordings and exercised playback, pause/resume, stopping, rate changes, feedback and recall queues, navigation, mobile width, and a separate chapter deck. The 20 decisions' 60 feedback variants were checked.
 
-Independent Whisper `small.en` screening covered all 150 clips. The retained report includes 9 flags: eight pacing flags and one number-formatting word-match flag; [the review](qa/af-heart-review.txt) records their interpretation. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
+Independent Whisper `small.en` screening covers all 150 clips. The clarity review re-screens the 36 revised recordings and retains screens for 114 unchanged clips. Eight flags remain in unchanged clips: seven pacing flags and one number-formatting word-match flag; [the review](qa/af-heart-review.txt) records their interpretation. No revised clip is flagged. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
 
 For optional browser checks, install Playwright and Chromium, serve `dist` on port 8877, then run:
 

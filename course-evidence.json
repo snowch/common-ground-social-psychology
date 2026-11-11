@@ -18,7 +18,7 @@
       "Random assignment improves comparisons between conditions; random sampling concerns who is selected.",
       "One before-and-after difference does not isolate a cause; replication and uncertainty matter."
     ],
-    "note": "Random assignment helps balance other causes on average. It does not guarantee equal groups, prevent spillover, or make a narrow sample representative. The 12-versus-15 example is hypothetical and does not establish a reliable effect.",
+    "note": "Random assignment helps balance other possible causes on average. It does not guarantee equal groups. Households might share invitations, so one group could be affected by the other group’s message. Assignment also does not make a narrow sample representative. The invented 12-versus-15 attendance comparison does not establish a dependable advantage.",
     "sources": [
       {
         "title": "Open Science Collaboration (2015), Estimating the reproducibility of psychological science",
@@ -32,7 +32,7 @@
       "Accessible examples can influence frequency judgments.",
       "Representative records help distinguish a vivid impression from the underlying rate."
     ],
-    "note": "Heuristics can be useful. Diagnose a judgment by comparing it with relevant evidence, rather than assuming that an intuitive answer is biased. A complaint channel can identify faults without estimating their prevalence.",
+    "note": "Mental shortcuts can be useful. Check a judgment against relevant evidence before deciding it is biased. A complaint channel can identify faults without showing how common they are, because successful repairs may never be mentioned.",
     "sources": [
       {
         "title": "Tversky & Kahneman (1973), Availability: A heuristic for judging frequency and probability",
@@ -46,7 +46,7 @@
       "Dissonance is a theoretical framework; particular demonstrations need separate evaluation.",
       "Irrecoverable costs differ from future costs and benefits."
     ],
-    "note": "The 2024 multilab study did not support its primary high-choice versus low-choice attitude prediction. That result concerns the tested induced-compliance procedure; it does not settle every dissonance claim. Past investments can still matter through their future consequences.",
+    "note": "The 2024 multilab study asked people to argue for a position they did not hold, under conditions offering more or less choice. Its primary analysis did not support the predicted attitude difference. That finding concerns the tested procedure, rather than every dissonance claim. Past investments can still matter through future consequences such as usable skills or switching costs.",
     "sources": [
       {
         "title": "Vaidis et al. (2024), A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance",
@@ -79,7 +79,7 @@
       "Motivation and ability influence how much a message is examined.",
       "Descriptive and injunctive norms concern behavior and approval respectively."
     ],
-    "note": "Central and peripheral processing describe differences along an elaboration continuum. A cue can matter in more than one way depending on the decision. A click, an attitude report, informed participation, and sustained behavior are different outcomes.",
+    "note": "Central and peripheral processing describe degrees of careful examination, rather than two fixed types of person. The same cue can play different roles: a speaker’s expertise might serve as a shortcut or prompt someone to investigate the argument. Clicking, reporting a positive attitude, joining with an informed choice, and continuing to volunteer are different outcomes.",
     "sources": [
       {
         "title": "Elaboration Likelihood Model, Oxford reference entry",
@@ -112,7 +112,7 @@
       "Stereotypes, prejudice, and discrimination are distinct, related concepts.",
       "Contact interventions and procedural changes need outcome-based evaluation."
     ],
-    "note": "Contact is not a universal remedy. The 2019 review found important gaps in randomized evidence for particular adult prejudice outcomes; the 2021 review also highlights limits in durability and generalization. Evaluate the actual population, setting, access, behavior, and follow-up. A single implicit-association score is not a character diagnosis.",
+    "note": "Contact is not a universal remedy. The 2019 review found gaps in studies that randomly assigned contact conditions and measured particular adult prejudice outcomes. The 2021 review also highlights uncertainty about whether improvements last and extend to other settings or groups. Check the actual people, access, behavior, and later outcomes. An implicit-association score is not a character diagnosis.",
     "sources": [
       {
         "title": "Paluck, Green & Green (2019), The contact hypothesis re-evaluated",
@@ -131,7 +131,7 @@
       "Opportunity, familiarity, and similarity can be associated with liking and connection.",
       "Disclosure and perceived responsiveness can contribute to experienced intimacy."
     ],
-    "note": "Repeated exposure is not an unlimited rule that more contact produces more liking. Meta-analytic patterns vary with conditions and can be nonlinear. Relationship associations do not establish a guaranteed intervention, and they never override a person’s boundary.",
+    "note": "Repeated exposure does not mean that each extra encounter increases liking. Research combining results from multiple studies finds that the pattern depends on conditions and can change as encounters accumulate. Relationship associations do not establish a guaranteed way to improve a particular relationship, and they never override someone’s boundary.",
     "sources": [
       {
         "title": "Montoya et al. (2017), A re-examination of the mere exposure effect",

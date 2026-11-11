@@ -21,7 +21,7 @@ async def main():
   await pg.evaluate("audioPlayer.dispatchEvent(new Event('ended'))")
   assert await pg.evaluate("audioPlayer.src===new URL(RECORDED_AUDIO['c01s02-feedback-0'],location.href).href")
   await pg.evaluate('window.oldAudio=audioPlayer');await pg.locator('#next').click()
-  assert await pg.evaluate('oldAudio.paused&&audioPlayer===null')
+  await pg.wait_for_function('oldAudio.paused&&audioPlayer===null')
   await pg.evaluate("location.hash='chapter-1-slide-7'");await pg.wait_for_selector('#reveal');await pg.locator('#reveal').click();await pg.locator('#read').click()
   await pg.evaluate("audioPlayer.dispatchEvent(new Event('ended'))")
   assert await pg.evaluate("audioPlayer.src===new URL(RECORDED_AUDIO['c01s07-answers'],location.href).href")
