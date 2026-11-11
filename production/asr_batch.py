@@ -1,68 +1,56 @@
 # /// script
 # requires-python = ">=3.10,<3.13"
-# dependencies = ["faster-whisper", "soundfile", "numpy"]
 # ///
-"""Independent Whisper small.en screening using the skill's checks, in audio-only batches.
-No script prompt, hotwords, or vocabulary hint is passed to the recognizer.
+"""Run independent screening through a separately obtained record-demo checkout.
+
+This wrapper distributes no upstream ASR implementation. Three external workers
+screen stable WAV inputs and merge their reports into the existing course format.
 """
-import bisect,difflib,json,os,re,sys,time,concurrent.futures
 from pathlib import Path
-import numpy as np,soundfile as sf
-from faster_whisper import WhisperModel,BatchedInferencePipeline
-W=Path(sys.argv[1]);scenes=json.loads((W/'scenes.json').read_text())
-m=WhisperModel('small.en',device='cpu',compute_type='int8',cpu_threads=1,num_workers=3)
-PAUSE=re.compile(r'\[pause(?:\s+(\d*\.?\d+))?\]')
-norm=lambda s:re.sub(r'\s+',' ',re.sub(r'\[([^\]]+)\]\(/[^)]*/\)',r'\1',PAUSE.sub(' ',s)).lower())
-words=lambda s:re.sub(r'[^a-z0-9 ]',' ',norm(s)).split()
-spoken=lambda s:words(re.sub(r'(?<=\w)([./-])(?=\w)',lambda m:{'.':' dot ','/':' slash ','-':' dash '}[m[1]],s))
-similar=lambda a,b:difflib.SequenceMatcher(None,a,b).ratio()
-db=lambda x:20*np.log10(max(float(x),1e-9))
-def speech(a,sr):
- n=int(sr*.02);f=a[:len(a)//n*n].reshape(-1,n);rms=np.sqrt((f**2).mean(axis=1));voiced=rms>10**(-40/20)*max(np.abs(a).max(),1e-9)
- if not voiced.any():return -120.,0.
- idx=np.flatnonzero(voiced);gaps=np.diff(idx)-1
- return db(np.sqrt((rms[voiced]**2).mean())),float(gaps.max()*.02 if len(gaps) else 0.)
-progress=W/'audio/asr-progress.json'
-rows=json.loads(progress.read_text())['scenes'] if progress.exists() else []
-seen={r['id'] for r in rows};pending=[s for s in scenes if s['id']not in seen]
-print('Retaining',len(rows),'already screened clips; batching',len(pending),'remaining.',flush=True)
-def screen_batch(batch):
- pipeline=BatchedInferencePipeline(model=m)
- output=[];arrays=[];raw=[];intervals=[];starts=[];clock=0.
- for s in batch:
-  path=W/'audio'/f"{s['id']}.wav"
-  while not path.exists() or time.time()-path.stat().st_mtime<1:time.sleep(.5)
-  a,sr=sf.read(path,dtype='float32');raw.append((a,sr))
-  t=np.arange(0,len(a)/sr,1/16000);resampled=np.interp(t,np.arange(len(a))/sr,a).astype('float32')
-  starts.append(clock);intervals.append(dict(start=clock,end=clock+len(resampled)/16000))
-  arrays.extend([resampled,np.zeros(16000,dtype='float32')]);clock+=len(resampled)/16000+1
- # Explicit clip boundaries prevent concatenation from mixing the individual recordings.
- if any(x['end']-x['start']>30 for x in intervals):
-  heard=[]
-  for a,sr in raw:
-   t=np.arange(0,len(a)/sr,1/16000);segs,_=m.transcribe(np.interp(t,np.arange(len(a))/sr,a).astype('float32'),language='en',beam_size=5)
-   heard.append(' '.join(x.text.strip()for x in segs))
- else:
-  segs,_=pipeline.transcribe(np.concatenate(arrays),language='en',beam_size=5,batch_size=8,clip_timestamps=intervals,word_timestamps=False)
-  texts=[[]for _ in batch]
-  for seg in segs:
-   k=max(0,min(len(batch)-1,bisect.bisect_right(starts,seg.start+.001)-1));texts[k].append(seg.text.strip())
-  heard=[' '.join(t) for t in texts]
- for s,(a,sr),heard_text in zip(batch,raw,heard):
-  say=s.get('say',s['text']);pauses=[float(p or .5)for p in PAUSE.findall(say)];level,gap=speech(a,sr);said=words(say)
-  output.append(dict(id=s['id'],text=s['text'],heard=heard_text,level=level,gap=gap,peak=float(np.abs(a).max()),ratio=max(similar(words(s['text']),words(heard_text)),similar(said,spoken(heard_text))),wpm=len(said)/max(len(a)/sr-sum(pauses),.1)*60,short=len(said)<10,gap_ok=max(1.5,max(pauses,default=0)+1.)))
-  print('Screened',s['id'],round(output[-1]['ratio'],3),flush=True)
- return output
-with concurrent.futures.ThreadPoolExecutor(3) as pool:
- futures=[pool.submit(screen_batch,pending[i:i+4]) for i in range(0,len(pending),4)]
- for future in concurrent.futures.as_completed(futures):
-  rows.extend(future.result());progress.write_text(json.dumps(dict(scenes=rows),indent=2))
-order={s['id']:i for i,s in enumerate(scenes)};rows.sort(key=lambda r:order[r['id']])
-median=float(np.median([r['level']for r in rows]));flagged=0
-for r in rows:
- why=[w for w,bad in [('words',r['ratio']<.9),('pace',not r['short']and not 120<=r['wpm']<=190),('clip',r['peak']>=.99),('level',abs(r['level']-median)>3),('gap',r['gap']>r['gap_ok'])]if bad]
- r['flags']=why;flagged+=bool(why)
- if why:print('!!',r['id'],why,r['ratio'],r['heard'],flush=True)
-report=dict(method='Independent unprompted Whisper screening. Audio-only batches with explicit clip boundaries; skill word, pacing, peak, level, and gap checks. Not a human listening review.',model='small.en',flagged=flagged,scenes=rows)
-(W/'audio/asr-report.json').write_text(json.dumps(report,indent=2))
-print('Finished',len(rows),'clips;',flagged,'flagged for inspection.',flush=True)
+import argparse,concurrent.futures,json,os,statistics,subprocess,tempfile,time
+
+
+def main():
+ parser=argparse.ArgumentParser(description=__doc__)
+ parser.add_argument('workdir',type=Path)
+ parser.add_argument('--record-scripts',type=Path,default=os.environ.get('RECORD_DEMO_SCRIPTS','/workspace/claude-skills/plugins/demo-video/skills/record-demo/scripts'))
+ args=parser.parse_args();work=args.workdir.resolve();upstream=args.record_scripts.resolve()/'asr.py'
+ if not upstream.is_file():parser.error('Obtain the authorized record-demo checkout separately and set --record-scripts or RECORD_DEMO_SCRIPTS.')
+ scenes=json.loads((work/'scenes.json').read_text());cache=work/'audio/asr-progress.json'
+ retained=json.loads(cache.read_text()).get('scenes',[])if cache.exists()else []
+ valid_ids={s['id']for s in scenes};by_id={r['id']:r for r in retained if r['id']in valid_ids}
+ pending=[s for s in scenes if s['id']not in by_id]
+ print(f'Reusing {len(by_id)} screened clips; waiting for {len(pending)} stable WAV inputs.',flush=True)
+ def worker(batch):
+  with tempfile.TemporaryDirectory(prefix='common-ground-asr-')as temp:
+   job=Path(temp);(job/'audio').mkdir();(job/'scenes.json').write_text(json.dumps(batch,ensure_ascii=False))
+   for scene in batch:
+    source=work/'audio'/(scene['id']+'.wav')
+    while not source.exists()or time.time()-source.stat().st_mtime<1:time.sleep(.5)
+    (job/'audio'/source.name).symlink_to(source)
+   env=os.environ.copy();env.update(OMP_NUM_THREADS='1',OPENBLAS_NUM_THREADS='1')
+   subprocess.run(['uv','run',str(upstream),str(job),'small.en'],env=env,check=True)
+   result=json.loads((job/'audio/asr-report.json').read_text())
+   rows=result['scenes'];baseline=statistics.median(row['level']for row in rows)if rows else 0
+   for row in rows:
+    checks={}
+    checks['words']=row['ratio']<0.9
+    checks['pace']=not row['short']and (row['wpm']<120 or row['wpm']>190)
+    checks['clip']=row['peak']>=0.99
+    checks['level']=abs(row['level']-baseline)>3
+    checks['gap']=row['gap']>row['gap_ok']
+    row['flags']=[label for label,failed in checks.items()if failed]
+   assert sum(bool(row['flags'])for row in rows)==result['flagged'],'External ASR criteria changed; review the upstream interface.'
+   return rows
+ batches=[pending[i::3]for i in range(3)if pending[i::3]]
+ with concurrent.futures.ThreadPoolExecutor(max_workers=3)as pool:
+  for rows in pool.map(worker,batches):
+   by_id.update((r['id'],r)for r in rows)
+   cache.write_text(json.dumps({'scenes':list(by_id.values())},indent=2))
+ rows=[by_id[s['id']]for s in scenes]
+ report={'method':'External record-demo ASR screening of audio-only inputs; existing cached screens retained. Not a human listening review.','model':'small.en','flagged':sum(bool(r.get('flags'))for r in rows),'scenes':rows}
+ (work/'audio/asr-report.json').write_text(json.dumps(report,indent=2))
+ print(f'Screening complete: {len(rows)} clips, {report["flagged"]} flagged.',flush=True)
+
+
+if __name__=='__main__':main()

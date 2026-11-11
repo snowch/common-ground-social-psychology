@@ -20,7 +20,7 @@ for i,items in enumerate(bins):
  d=T/f'worker-{i+1}';(d/'audio').mkdir(parents=True,exist_ok=True);(d/'scenes.json').write_text(json.dumps(items,ensure_ascii=False,indent=2));log=(d/'synthesis.log').open('w');logs.append(log)
  processes.append((d,subprocess.Popen(['uv','run',str(Path(args.record_scripts)/'tts.py'),str(d),'af_heart','1.0'],env=env,stdout=log,stderr=subprocess.STDOUT)))
 print('Started four bounded one-thread Kokoro workers for',len(remaining),'clips.',flush=True)
-asrlog=(T/'asr.log').open('w');asr=subprocess.Popen(['uv','run',str(R/'production/asr_batch.py'),str(A)],stdout=asrlog,stderr=subprocess.STDOUT)
+asrlog=(T/'asr.log').open('w');asr=subprocess.Popen(['uv','run',str(R/'production/asr_batch.py'),str(A),'--record-scripts',args.record_scripts],stdout=asrlog,stderr=subprocess.STDOUT)
 last=-1
 while True:
  for d,proc in processes:

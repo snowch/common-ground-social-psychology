@@ -27,9 +27,17 @@ python3 extract_audio.py index.html
 Editable source and build instructions are also available in the private repository:
 https://github.com/snowch/common-ground-social-psychology
 
-This is independently written introductory teaching content, not a rewritten edition of The Social Animal.
+Learn through fictional stories, decisions, recall, and field practice. Further readings are linked in each chapter. Asset licenses and credits are in FONT-LICENSE.txt, THIRD-PARTY-NOTICES.txt, and licenses/.
 ''')
 with zipfile.ZipFile(archive)as z:
  if z.testzip()is not None:raise SystemExit('ZIP integrity check failed')
+ for name in ['FONT-LICENSE.txt','THIRD-PARTY-NOTICES.txt','licenses/LibreBaskerville-OFL.txt','licenses/Arimo-OFL.txt']:
+  assert 'common-ground/'+name in z.namelist(),name
+ assert not any(n.endswith('.otf')for n in z.namelist()),'Obsolete font binary in release'
+ notices=(R/'FONT-LICENSE.txt').read_text()
+ htmls=[file for file in D.rglob('*.html')]
+ for file in htmls:
+  assert notices in z.read('common-ground/'+file.relative_to(D).as_posix()).decode(),file
+ print(f'Font/notice packaging checks passed for {len(htmls)} HTML files.')
 (O/'SHA256SUMS.txt').write_text(hashlib.sha256(archive.read_bytes()).hexdigest()+'  '+archive.name+'\n')
 print(f'Packaged {archive.name}: {archive.stat().st_size/2**20:.1f} MiB; integrity passed.')

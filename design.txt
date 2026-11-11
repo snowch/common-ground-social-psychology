@@ -1,16 +1,16 @@
 Common Ground — design and learning decisions
 
-Audience: one motivated adult beginner, studying independently. Goal: explain and apply social psychology without recreating a particular textbook. Format: portable HTML slide decks; no LMS, account, or paid authoring tool.
+Audience: one motivated adult beginner, studying independently. Goal: explain and apply social psychology through observation, explanation, evidence, and practice. Format: portable HTML slide decks; no LMS, account, or paid authoring tool.
 
 Visual direction: an illustrated community workshop. A shared table is the visual anchor, with the same people recurring across chapters. Diagrams replace the scene on concept slides to make the mechanism visible.
 Palette: paper #F2F6FC, ink #152F52, ocean #216B88, plum #7058A3, berry #A1486D, brass #DCA64C. These colors distinguish people and chapter families rather than decorating statistics.
-Typography: embedded URW Bookman Light for narrative headlines; embedded Nimbus Sans for readable controls and explanations. Both are bundled system fonts with accompanying license information. Left-aligned, short line lengths.
+Typography: embedded Libre Baskerville for narrative headlines; embedded Arimo for readable controls and explanations. Both are bundled under OFL-1.1 with complete notices. Left-aligned, short line lengths.
 Layout: quiet navigation rail, generous slide, one primary illustration. Story and recall slides share the cast; concept slides show mechanisms. Questions use full-width choice buttons. Transcript is adjacent below, never an overlay hiding the slide.
 
 Plan critique: a generic dashboard of ten repeated cards would not serve a continuing narrative. Use a workshop scene and sequential chapter list instead. Avoid a decorative graph implying nonexistent research data; all diagrams are conceptual, and numerical teaching examples are explicitly hypothetical.
 
 Learning: scenario → initial decision → two concepts → evidence limits → transfer decision → retrieval → field practice. Feedback explains the consequences of every option. Suggested revisits: tomorrow and in a week. These are starting intervals, not validated individual scheduling.
-Evaluation: twenty application decisions with immediate feedback; twenty short recall prompts with suggested answers; integrative final field practice. Correct choices demonstrate limited application, not certification or equivalence to a 480-page textbook. No learner pilot or expert review has been performed.
+Evaluation: twenty application decisions with feedback after checking; twenty short recall prompts with suggested answers; integrative final field practice. Correct choices demonstrate limited application, not certification. No learner pilot or expert review has been performed.
 
 Skills used:
 https://github.com/snowch/claude-skills/blob/c9a7c521568632aa216932f4c965df386498602a/plugins/demo-video/skills/record-demo/SKILL.md

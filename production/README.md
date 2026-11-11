@@ -14,7 +14,7 @@ uv run /path/to/claude-skills/plugins/demo-video/skills/record-demo/scripts/asr.
 
 Run from the course repository root. The narration skill's dependencies are declared in its scripts. Retain raw `audio/*.wav` as ignored working files. Selective regeneration is available through the skill's `SCENES` environment variable.
 
-`asr_batch.py` retains independent Whisper small.en screening with audio-only batches and explicit clip boundaries. It can resume previously screened clips; invalidate corresponding entries in its working `asr-progress.json` after changing speech. Original sequential and batched checks share the same word, pacing, peak, level, and internal-gap criteria. ASR screening is not listening approval.
+`asr_batch.py` is a runner for the separately obtained record-demo `asr.py`; upstream implementation code is not bundled. It runs up to three external workers over stable WAV files and merges their reports, retaining cached screens. Set `RECORD_DEMO_SCRIPTS` or pass `--record-scripts` when the checkout is elsewhere. Invalidate corresponding entries in `asr-progress.json` after changing speech. Existing ASR reports describe the earlier production run; changing this runner does not re-screen audio or alter those records. ASR screening is not listening approval. The upstream skill checkout has no general license at the pinned commit, so no redistribution permission is inferred for it.
 
 After reviewing speech, install `numpy` and `soundfile` for the encoding helper, and run:
 

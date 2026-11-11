@@ -1,0 +1,17 @@
+{
+  "purpose": "PDF artifact build from local HTML with browser networking disabled; no Site preview or interactive browser QA",
+  "fonts": [
+    {
+      "family": "CourseSerif",
+      "status": "loaded"
+    },
+    {
+      "family": "CourseSans",
+      "status": "loaded"
+    }
+  ],
+  "slide_pages": 80,
+  "chapter_pdfs": 10,
+  "measured_print_overflow": [],
+  "revision": "v0.3.0"
+}

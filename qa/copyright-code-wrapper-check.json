@@ -1,0 +1,9 @@
+{
+  "purpose": "External ASR runner interface check with a temporary stub, not a speech/transcription test",
+  "inputs": 5,
+  "external_workers": 3,
+  "report_order": "passed",
+  "flagged_input_preserved": "passed",
+  "cached_rerun": "passed",
+  "existing_audio_changed": false
+}

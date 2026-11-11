@@ -1,0 +1,78 @@
+COMMON GROUND — ASSET AND PRODUCTION CREDITS
+Reviewed 11 November 2026
+
+BUNDLED FONT SOFTWARE
+
+Libre Baskerville — The Libre Baskerville Project Authors
+https://github.com/impallari/Libre-Baskerville
+Arimo — The Arimo Project Authors
+https://github.com/googlefonts/arimo
+
+Both fonts are bundled unmodified under the SIL Open Font License 1.1.
+Complete copyright and permission notices are in FONT-LICENSE.txt and
+licenses/LibreBaskerville-OFL.txt and licenses/Arimo-OFL.txt. Font source
+URLs, upstream commit, and SHA-256 hashes are recorded in
+assets/fonts/manifest.json. Every course HTML file retains the full font
+notices, including standalone chapter decks. The font license does not
+license the teaching content.
+
+SYNTHESIZED NARRATION
+
+Narration was generated from the course scripts using Kokoro-82M v1.0,
+voice af_heart, speed 1.0, through kokoro-onnx. The recordings, model and
+voice-file hashes, and production workflow are documented in production/.
+
+Kokoro model: https://huggingface.co/hexgrad/Kokoro-82M
+Kokoro implementation: https://github.com/hexgrad/kokoro
+Upstream model metadata declares Apache-2.0; a copy of the Apache-2.0
+license is retained in licenses/Kokoro-Apache-2.0.txt.
+kokoro-onnx: https://github.com/thewh1teagle/kokoro-onnx
+MIT license retained in licenses/kokoro-onnx-MIT.txt.
+
+The course distributes synthesized recordings, not the model weights,
+voice tensors, or upstream speech software. Those software/model licenses
+are recorded for provenance; this notice does not apply them wholesale
+to the course text or recordings, or warrant rights in all model output.
+No person’s recording was supplied to this project for voice cloning.
+The upstream model card discloses training sources, including Koniwa
+(CC BY 3.0) and SIWIS (CC BY 4.0):
+https://huggingface.co/hexgrad/Kokoro-82M#creative-commons-attribution
+Those datasets and their recordings are not bundled here. Training-data
+provenance has not been independently verified by this project.
+
+READINGS AND RESEARCH
+
+Each chapter links to its reading and research sources. OpenStax and
+Noba retain their own copyright, attribution, and reuse terms. The
+reading pages inspected on 11 November 2026 identify CC BY-NC-SA 4.0:
+https://creativecommons.org/licenses/by-nc-sa/4.0/ Linking
+and teaching scientific ideas do not grant permission to reproduce a
+source’s passages, images, exercises, or distinctive presentation. Source
+page snapshots used for comparison are not included in this package.
+
+PRODUCTION TOOLS AND SKILLS — USED EXTERNALLY
+
+snowch/claude-skills record-demo workflow, commit
+c9a7c521568632aa216932f4c965df386498602a:
+https://github.com/snowch/claude-skills
+Instructional Design:
+https://github.com/joelrkohlman/instructional-design
+Frontend Design:
+https://github.com/anthropics/skills/tree/main/skills/frontend-design
+
+These upstream skill documents and scripts are referenced, not bundled.
+No general redistribution license is inferred for an upstream repository
+that lacks an explicit license. Production wrappers invoke a separately
+obtained record-demo checkout when speech regeneration or ASR is needed.
+
+FFmpeg, ONNX Runtime, kokoro-onnx, Whisper/faster-whisper, NumPy,
+SoundFile, Playwright, Chromium, and axe-core were used as build or review
+tools. Their executables, libraries, model weights, and browser code are
+not shipped as part of the standalone course player. Tools retain their
+own licenses. The player uses inline course code and browser APIs.
+
+SCOPE
+
+This notice identifies third-party materials and provenance. It does not
+certify non-infringement, verify all training-data rights, or establish
+exclusive copyright in AI-assisted text, code, images, or speech.

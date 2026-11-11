@@ -10,14 +10,16 @@ a=p.parse_args();D=(R/a.output).resolve();D.mkdir(parents=True,exist_ok=True);(D
 C=json.loads((R/'course.json').read_text());clips={f.stem:f for f in (R/'audio/clips').glob('*.m4a')}
 if len(clips)!=150:raise SystemExit('Expected 150 audio/clips/*.m4a recordings. See README.md for setup.')
 fonts=''
-for family,name in [('Bookman','URWBookman-Light.otf'),('Nimbus','NimbusSans-Regular.otf')]:
- b=base64.b64encode((R/'assets/fonts'/name).read_bytes()).decode();fonts+=f'@font-face{{font-family:{family};src:url(data:font/otf;base64,{b}) format("opentype");font-weight:100 900;font-display:swap}}\n'
+for family,name in [('CourseSerif','LibreBaskerville[wght].ttf'),('CourseSans','Arimo[wght].ttf')]:
+ b=base64.b64encode((R/'assets/fonts'/name).read_bytes()).decode();fonts+=f'@font-face{{font-family:{family};src:url(data:font/ttf;base64,{b}) format("truetype");font-weight:100 900;font-display:swap}}\n'
 def spoken_text(scene):
  text=scene.get('say',scene['text'])
  text=re.sub(r'\[pause [0-9.]+\]', '\n\n', text)
  return re.sub(r'\[([^\]]+)\]\(/[^/]+/\)',r'\1',text).strip()
 narration={x['id']:spoken_text(x)for x in json.loads((R/'production/af-heart/scenes.json').read_text())}
-template=(R/'template.html').read_text().replace('__FONTS__',fonts)
+rights=(R/'FONT-LICENSE.txt').read_text()+'\n'+(R/'THIRD-PARTY-NOTICES.txt').read_text()
+assert '-->' not in rights
+template=(R/'template.html').read_text().replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights)
 for placeholder,file in [('__EVIDENCE__','course-evidence.json'),('__LEARNING_CHECK__','learning-check.json')]:
  template=template.replace(placeholder,json.dumps(json.loads((R/file).read_text()),ensure_ascii=False).replace('</','<\\/'))
 
@@ -28,12 +30,16 @@ def render(path,chapters,prefix):
  if not a.portable:
   s=s.replace('The recordings are included in this deck and work offline.','Recordings load when you press Play narration. The portable build embeds them for offline use.').replace('The deck embeds prerecorded Kokoro','The course plays prerecorded Kokoro').replace('Quizzes and embedded narration work offline. External reading requires a connection.','This build loads audio files from its audio folder. Use the portable build for self-contained offline decks.')
  path.write_text(s)
-(D/'study-guide.html').write_text(render_study_guide(R))
+(D/'study-guide.html').write_text(render_study_guide(R).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights))
 if (R/'study-guide.pdf').exists():shutil.copy(R/'study-guide.pdf',D/'study-guide.pdf')
 render(D/'index.html',C,'./')
 for c in C:
  slug=f"chapter-{c['number']:02d}"
  render(D/'chapters'/f'{slug}.html',[c],'../');shutil.copy(R/'chapters'/f'{slug}.pdf',D/'chapters'/f'{slug}.pdf')
-shutil.copy(R/'common-ground-slides.pdf',D/'common-ground-slides.pdf');shutil.copy(R/'FONT-LICENSE.txt',D/'FONT-LICENSE.txt')
+shutil.copy(R/'common-ground-slides.pdf',D/'common-ground-slides.pdf')
+for name in ['FONT-LICENSE.txt','THIRD-PARTY-NOTICES.txt']:shutil.copy(R/name,D/name)
+shutil.copytree(R/'licenses',D/'licenses',dirs_exist_ok=True)
+(D/'assets/fonts').mkdir(parents=True,exist_ok=True)
+shutil.copy(R/'assets/fonts/manifest.json',D/'assets/fonts/manifest.json')
 if not a.portable:shutil.copytree(R/'audio',D/'audio',dirs_exist_ok=True)
 print(f"Built {'portable'if a.portable else 'streamed-audio'} course in {D}")

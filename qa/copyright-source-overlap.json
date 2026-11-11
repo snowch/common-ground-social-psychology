@@ -1,0 +1,98 @@
+{
+  "checked_utc": "2026-11-11",
+  "method": "Case-normalized contiguous word matching against linked public reading pages. An 8-word candidate threshold is a screening choice, not a legal rule or safe harbor. Source text retained only in ignored/external working storage. No proprietary textbook full text was acquired or compared.",
+  "unique_course_units": 355,
+  "source_pages": [
+    {
+      "url": "https://nobaproject.com/modules/attraction-and-beauty",
+      "status": 200,
+      "sha256": "5f9ddd6f6724f543d61544f42f4f1b2e0c1ea2c8305f4add61f825667bfd75c6",
+      "tokens": 6373
+    },
+    {
+      "url": "https://nobaproject.com/modules/conformity-and-obedience",
+      "status": 200,
+      "sha256": "a61a675854cc52469855c089c911c5d32a9e4cf3330c178d2b1b99d0f340d896",
+      "tokens": 4864
+    },
+    {
+      "url": "https://nobaproject.com/modules/helping-and-prosocial-behavior",
+      "status": 200,
+      "sha256": "c6c8605f5f2473a7bf7613d72b5b7c01fd6570bd2d25d7f099f79d0be01b31b0",
+      "tokens": 5901
+    },
+    {
+      "url": "https://nobaproject.com/modules/persuasion-so-easily-fooled",
+      "status": 200,
+      "sha256": "10521005130fc5a80fd56fe99a2e7a30a097a1e8659eb2b58b2aab1b4cdd9f31",
+      "tokens": 6534
+    },
+    {
+      "url": "https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping",
+      "status": 200,
+      "sha256": "4c88e66281908878dd7ff0d4c615f363e053c1971423f99da9a197a3cf7ac5c7",
+      "tokens": 4839
+    },
+    {
+      "url": "https://nobaproject.com/modules/social-cognition-and-attitudes",
+      "status": 200,
+      "sha256": "fbfc5f76b7fd175f4d809134351f584572dc3807655e2d6fca55eda0b357d363",
+      "tokens": 7437
+    },
+    {
+      "url": "https://nobaproject.com/modules/the-replication-crisis-in-psychology",
+      "status": 200,
+      "sha256": "94b3619f14e1a6483550100346b654078648a9b725d3e884afadaaf0bf1d9118",
+      "tokens": 4765
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+      "status": 200,
+      "sha256": "1236f49d4574d1dbb7b5705002038b06e833d37eb27c6fa282f058615f2c60aa",
+      "tokens": 3442
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
+      "status": 200,
+      "sha256": "f5506a293e2199ab1e6546fa139491ab801c43b793c1b44bb70e66e0d866efc4",
+      "tokens": 3610
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+      "status": 200,
+      "sha256": "5914f63d41db5de7312cd568348f5906146e72c954ae67e5d0aed3254878a3a8",
+      "tokens": 4150
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination",
+      "status": 200,
+      "sha256": "4a1f14615cace200ca4aebbda20325d59a6550e16c7fa244d25fc7b21887067b",
+      "tokens": 3998
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression",
+      "status": 200,
+      "sha256": "77dbe8012709b8514ddb0fe9b5199df6dbd4842a36596a4c20864c9703e2ee2c",
+      "tokens": 2528
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
+      "status": 200,
+      "sha256": "748b75fe18b7c0bafce555a4e47d4be7ef756292807cc528ce001b8bc42c8a43",
+      "tokens": 2572
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+      "status": 200,
+      "sha256": "76c9dde9158622c996d1f1f21711ec03149577fe873c2f9c5b612c22e123d82c",
+      "tokens": 6358
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+      "status": 200,
+      "sha256": "72379296bf8b19c4228661c7575a1f9c1a7500bcd51e9a14a49dae8e0082594e",
+      "tokens": 2881
+    }
+  ],
+  "candidate_overlaps": []
+}

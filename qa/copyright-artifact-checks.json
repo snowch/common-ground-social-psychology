@@ -1,0 +1,89 @@
+{
+  "revision": "v0.3.0",
+  "purpose": "Artifact consistency and license-notice verification, not a determination of non-infringement",
+  "html_files": 12,
+  "standalone_html_font_and_asset_notices": "passed",
+  "embedded_font_hashes": "passed",
+  "font_license_hashes": "passed",
+  "removed_URW_binaries": "passed",
+  "learner_book_comparison_scan": "clear",
+  "pdfs": [
+    {
+      "file": "common-ground-slides.pdf",
+      "pages": 80,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-01.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-02.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-03.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-04.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-05.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-06.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-07.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-08.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-09.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "chapters/chapter-10.pdf",
+      "pages": 8,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    },
+    {
+      "file": "study-guide.pdf",
+      "pages": 11,
+      "font_families": "Libre Baskerville / Arimo",
+      "book_comparison_scan": "clear"
+    }
+  ],
+  "encoded_clip_hashes": 150,
+  "continuous_track_hashes": 10,
+  "audio_unchanged_from_parent_commit": true,
+  "external_ASR_runner_source_check": "passed",
+  "interactive_Site_browser_QA": "not rerun; managed preview route unavailable"
+}

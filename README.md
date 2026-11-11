@@ -27,7 +27,7 @@ The release ZIP includes a self-contained narrated HTML course, ten separate cha
 | 9 | A place beside someone | Attraction and relationships |
 | 10 | Who will do something? | Aggression, helping, and cooperation |
 
-There are 80 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 48 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and an 11-page PDF.
+There are 80 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 48 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
 
 The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
 
@@ -102,6 +102,6 @@ The scripts default to `/usr/bin/chromium`; adjust that executable for another d
 
 ## Sources and rights
 
-This is an independently organized introductory course. It does not reproduce *The Social Animal*, follow its chapter structure, or claim equivalent depth or full textbook coverage. Characters and café events are fictional. Teaching text, illustrations, and exercises are original. OpenStax, Noba, and research readings are linked within each chapter rather than reproduced.
+Common Ground teaches introductory social psychology through fictional café stories, decisions, recall, and field practice. OpenStax, Noba, and research readings are linked within each chapter. The [copyright and asset audit](docs/copyright-audit-v0.3.0.md) records the inspection, corrections, source checks, and limits.
 
-Learning and visual design drew on the [Instructional Design skill](https://github.com/joelrkohlman/instructional-design/blob/main/SKILL.md) and [Frontend Design skill](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md). Third-party fonts retain their own license. No general redistribution license for the original course is granted by this private repository.
+Learning and visual design drew on the [Instructional Design skill](https://github.com/joelrkohlman/instructional-design/blob/main/SKILL.md) and [Frontend Design skill](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md). Libre Baskerville and Arimo are bundled under OFL-1.1, with complete font licenses embedded in each HTML file and included in each package. [Third-party notices](THIRD-PARTY-NOTICES.txt) distinguish bundled assets from production tools. The repository grants no additional redistribution license for course material; third-party license grants remain in effect.

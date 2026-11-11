@@ -1,0 +1,87 @@
+{
+  "date_utc": "2026-11-11",
+  "retrieved_source_records": [
+    {
+      "key": "google-fonts-libre-metadata",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/METADATA.pb",
+      "status": 200,
+      "sha256": "e29f1dcebfdf5918d29c4d373e1a6a0ae3bcb94538aa63362fdcc7bf095cc9c8",
+      "size": 1464
+    },
+    {
+      "key": "google-fonts-libre-license",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/OFL.txt",
+      "status": 200,
+      "sha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "size": 4542
+    },
+    {
+      "key": "arimo-ofl",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/OFL.txt",
+      "status": 200,
+      "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+      "size": 4384
+    },
+    {
+      "key": "kokoro-card",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/README.md",
+      "status": 200,
+      "sha256": "91dcabced89db6f109b8786642f50402d3ee87450e8189589b6f85520e7f4d78",
+      "size": 6348
+    },
+    {
+      "key": "kokoro-voices",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/VOICES.md",
+      "status": 200,
+      "sha256": "ec7e4941ad7e194af61e3455928528a9ff5360c7c505e412efab27d6a69ea106",
+      "size": 7625
+    },
+    {
+      "key": "kokoro-onnx-license",
+      "url": "https://raw.githubusercontent.com/thewh1teagle/kokoro-onnx/main/LICENSE",
+      "status": 200,
+      "sha256": "f61fdd0217de9ece8fa699912848d91187d84879fc2e689f0906d0c1299e955e",
+      "size": 1080
+    },
+    {
+      "key": "openstax-license",
+      "url": "https://openstax.org/books/psychology-2e/pages/1-introduction",
+      "status": 200,
+      "sha256": "8bbac4055ca8b1d6ecc3b1101a7d56ec5280346bb71d9f99f7dc5ebd83f214d1",
+      "size": 265031
+    },
+    {
+      "key": "font-upstream-license",
+      "url": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/LICENSE",
+      "status": 200,
+      "sha256": "772b1b47eead8722156abaed483154e1dd1137e7035290550cea6444192a2e3f",
+      "size": 440
+    },
+    {
+      "key": "font-upstream-copying",
+      "url": "https://raw.githubusercontent.com/ArtifexSoftware/urw-base35-fonts/master/COPYING",
+      "status": 200,
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+      "size": 34520
+    }
+  ],
+  "publisher_contents_check": {
+    "url": "https://store.macmillanlearning.com/US/product/The-Social-Animal/p/1464144184",
+    "sha256": "0e4ed6afa3463964de34de45a9c4a5efe4db064c0e4d4ee34b762dee30e7868a",
+    "course_chapters": 10,
+    "published_chapters": 9,
+    "exact_course_title_matches": 0,
+    "full_book_compared": false
+  },
+  "record_demo_licensing": {
+    "repository": "https://github.com/snowch/claude-skills",
+    "commit": "c9a7c521568632aa216932f4c965df386498602a",
+    "general_license": "No root license found by pinned tree inspection; GitHub license endpoint returned 404",
+    "bundled_implementation": "Incorporated ASR helpers removed; separately installed upstream invoked"
+  },
+  "reading_page_license_observations": {
+    "OpenStax": "CC BY-NC-SA 4.0 labels on retrieved current pages",
+    "Noba": "CC BY-NC-SA 4.0 labels on retrieved current pages"
+  },
+  "source_snapshots_shipped": false
+}
