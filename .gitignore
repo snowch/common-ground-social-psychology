@@ -3,7 +3,7 @@ __pycache__/
 .venv/
 dist/
 out/
-releases/
+/releases/
 *.zip
 production/af-heart/audio/*.wav
 production/af-heart/audio/asr-progress.json
