@@ -24,7 +24,7 @@ Open index.html in a modern browser and press Play narration. Individual chapter
 The HTML includes the individual recorded clips for offline use. To recover separate clips for rebuilding, run:
 python3 extract_audio.py index.html
 
-Editable source and build instructions are also available in the private repository:
+Editable source and build instructions are also available in the project repository:
 https://github.com/snowch/common-ground-social-psychology
 
 Learn through fictional stories, decisions, recall, and field practice. Further readings are linked in each chapter. Asset licenses and credits are in FONT-LICENSE.txt, THIRD-PARTY-NOTICES.txt, and licenses/.

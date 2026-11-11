@@ -19,6 +19,9 @@ async def main():
    for j,s in enumerate(c['slides']):
     await page.evaluate('(h)=>location.hash=h',f"chapter-{c['number']}-slide-{j+1}");await page.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=s['title'])
     assert await page.evaluate('document.activeElement.id')=='slideTitle',s['id']
+    reading=page.locator('.chapter-reading')
+    assert (await reading.get_attribute('open') is not None)==(s['kind']=='evidence')
+    if await reading.get_attribute('open') is None:await reading.locator('summary').first.click()
     assert await page.locator('.evidence-note').inner_text() and evidence[str(c['number'])]['note'] in await page.locator('.evidence-note').inner_text()
     text=await page.locator('.transcript details > p').first.inner_text();assert '[pause' not in text and '](/' not in text
     if 'quiz'in s:
@@ -48,6 +51,6 @@ async def main():
   denied=await b.new_context();await denied.add_init_script("Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Denied','SecurityError')}})");dp=await denied.new_page();await dp.goto(BASE+'/index.html#chapter-1-slide-1');assert 'unavailable' in await dp.locator('.progress-caption').inner_text();await denied.close()
   await page.goto(BASE+'/study-guide.html');await page.evaluate('document.fonts.ready');assert await page.locator('section.chapter').count()==10;await page.pdf(path=str(R/'study-guide.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)
   assert not errors,errors
-  out={'chapters_reviewed':10,'slides_checked':80,'source_notes':10,'written_transfer_tasks':6,'rubric_dimensions':4,'axe_version':'4.10.3','axe_tags':['wcag2a','wcag2aa','wcag21aa','wcag22aa'],'axe_screens':len(audits),'axe_violations':sum(len(x['violations'])for x in audits),'widths':[320,390,768,1440],'navigation_focus':'passed','feedback_gating_and_direct_play':'passed','corrupt_and_denied_storage':'passed','unique_print_ids':'passed','js_errors':errors,'limits':'Automated Chromium checks do not establish full WCAG conformance or usability with assistive technology.'}
+  out={'revision':'v0.4.0','native_evidence_disclosures':'passed','chapters_reviewed':10,'slides_checked':80,'source_notes':10,'written_transfer_tasks':6,'rubric_dimensions':4,'axe_version':'4.10.3','axe_tags':['wcag2a','wcag2aa','wcag21aa','wcag22aa'],'axe_screens':len(audits),'axe_violations':sum(len(x['violations'])for x in audits),'widths':[320,390,768,1440],'navigation_focus':'passed','feedback_gating_and_direct_play':'passed','corrupt_and_denied_storage':'passed','unique_print_ids':'passed','js_errors':errors,'limits':'Automated Chromium checks do not establish full WCAG conformance or usability with assistive technology.'}
   (R/'qa/course-review-results.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2));await b.close()
 asyncio.run(main())

@@ -1,0 +1,42 @@
+{
+  "revision": "v0.4.0",
+  "design_skill": "Frontend Design \u2014 anthropics/skills",
+  "design_record": "docs/design-v0.4.0.md",
+  "visual_review": [
+    "desktop and mobile cover",
+    "desktop and mobile player",
+    "desktop and mobile downloads",
+    "study companion"
+  ],
+  "responsive_widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "selected_screen_overflow": "none",
+  "course_screen_axe_report": "course-review-results.json",
+  "additional_axe_checks": {
+    "home_widths": 5,
+    "download_widths": 4,
+    "study_companion": 1,
+    "violations": 0
+  },
+  "audio_transport_report": "af-heart-browser-results.json",
+  "all_slide_feedback_recall_report": "results.json",
+  "pdf_report": "course-review-pdf.json",
+  "source_content_and_audio_unchanged": true,
+  "third_party_fonts_and_licences_unchanged": true,
+  "new_external_artwork": false,
+  "illustration": "New workshop SVG authored in template.html",
+  "limits": "Automated Chromium and axe checks supplement visual review; they do not establish full accessibility conformance or compatibility with every browser.",
+  "hosted_checks": {
+    "html_pages": 13,
+    "local_audio_links": 300,
+    "offline_chapter_zips": 10,
+    "notices": "passed"
+  },
+  "offline_playback_report": "course-review-portable.json",
+  "navy_cover_keyboard_focus": "brass outline verified"
+}

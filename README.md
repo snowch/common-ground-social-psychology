@@ -52,6 +52,8 @@ Open `out/portable/index.html` or an individual file in `out/portable/chapters/`
 
 The manually dispatched **Package course release** workflow builds the portable ZIP, verifies its integrity, computes a SHA-256 checksum, and attaches both to a release. It uses the repository’s own short-lived Actions token with contents-write permission. It does not change repository visibility.
 
+The [v0.4.0 design refinement](docs/design-v0.4.0.md) updates the illustrated cover, chapter navigation, learning toolbar, downloads, and study companion while retaining the recorded narration and audited asset notices.
+
 ## GitHub Pages
 
 The **Deploy course to GitHub Pages** workflow builds the hosted course and chapter downloads on pushes to `main`, then deploys the validated artifact. Pages uses **GitHub Actions** as its build source. See [deployment instructions](docs/github-pages.md) for manual runs, local builds, permissions, and checks.

@@ -1,4 +1,6 @@
 {
+  "revision": "v0.4.0",
+  "native_evidence_disclosures": "passed",
   "chapters_reviewed": 10,
   "slides_checked": 80,
   "source_notes": 10,

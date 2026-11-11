@@ -10,7 +10,7 @@ files=[D/'index.html',*sorted((D/'chapters').glob('*.html')),D/'study-guide.html
 mappings=0;links=0
 for file in files:
  s=file.read_text();assert not re.search(r'__[A-Z_]+__',s),file
- if file.name!='downloads.html':assert font_notice in s and asset_notice in s,file
+ assert font_notice in s and asset_notice in s,file
  if 'const RECORDED_AUDIO='in s:
   start=s.index('const RECORDED_AUDIO=')+len('const RECORDED_AUDIO=');audio,_=json.JSONDecoder().raw_decode(s[start:]);assert len(audio)==(150 if file.name=='index.html'else 15),file
   for id,url in audio.items():
