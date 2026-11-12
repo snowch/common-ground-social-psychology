@@ -27,7 +27,7 @@
     "id": "c01s04",
     "slide": 4,
     "step": "Observation is not explanation.",
-    "text": "When explaining someone else’s behavior, we can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.\n\nTo check your own judgment, describe the behavior neutrally. Generate alternative explanations, then look for evidence that could make each explanation less plausible. Disagreeing with someone’s judgment does not, by itself, establish that the judgment is biased.",
+    "text": "When you explain another person’s behavior, you can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.\n\nTo check your own interpretation of that behavior, first describe what you observed without adding a cause. “Maya arrived after the start” records the behavior. “Maya doesn’t care” adds your explanation.\n\nNext, generate alternative causes. Ask what evidence would weaken each explanation, including the one you first favored. The aim is to test your interpretation.",
     "part": "chapter-01",
     "hold": 1
   },
@@ -35,7 +35,7 @@
     "id": "c01s05",
     "slide": 5,
     "step": "What can we really conclude?",
-    "text": "An attribution is an explanation of what caused an action. Saying “Maya arrived late” records an observation. Saying “Maya arrived late because she doesn’t care” adds an attribution about her priorities.\n\nAttribution research describes patterns in how people explain behavior. It does not establish that personal qualities never matter. Repeated behavior across varied settings is more informative than one episode.\n\nResearchers also examine actor–observer differences: differences between how we explain our own actions and other people’s actions. We might explain our own lateness through a delayed bus, but someone else’s through poor planning. Whether that pattern appears depends on the judgment and study design. A bias label alone cannot reveal what is happening in someone’s mind.",
+    "text": "An attribution is an explanation of what caused an action. Attribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.\n\nA separate task is assessing another person’s interpretation. Ask what that person observed, which causes they considered, and what supports their conclusion. Disagreeing with their conclusion does not, by itself, establish that their reasoning is biased.",
     "part": "chapter-01",
     "hold": 1
   },
@@ -59,7 +59,7 @@
     "id": "c01s08",
     "slide": 8,
     "step": "Carry one idea into your week.",
-    "text": "Here is your field practice.\n\nChoose a mildly frustrating encounter. Write the action, your first interpretation, two alternatives, and one respectful question that could clarify it.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+    "text": "Here is your field practice.\n\nChoose a mildly frustrating action by another person. Write what you observed, your initial explanation, two plausible alternatives, and one respectful question that could clarify what happened.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-01",
     "hold": 3
   },
@@ -155,7 +155,7 @@
     "id": "c03s04",
     "slide": 20,
     "step": "Beliefs can filter their own evidence.",
-    "text": "Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives his belief an unfair advantage.\n\nMotivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so she may find reassuring repair stories easier to accept. The two processes can overlap; neither label proves that a conclusion is wrong.\n\nMaya can define a failed repair in advance and follow up comparable repairs consistently. Someone with a different expectation can examine the same record. These procedures give an expectation a chance to be wrong. Calling another person biased does not replace checking the evidence.",
+    "text": "Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives his belief an unfair advantage.\n\nMotivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so she may find reassuring repair stories easier to accept. These processes can overlap; neither label proves that a conclusion is wrong.\n\nTo check your own reasoning, define the outcome before collecting results. Record comparable successes and failures. Ask someone with a different expectation to review that record.\n\nThese steps make it possible for evidence to challenge your initial belief.",
     "part": "chapter-03",
     "hold": 1
   },
@@ -163,7 +163,7 @@
     "id": "c03s05",
     "slide": 21,
     "step": "What can we really conclude?",
-    "text": "A bias name cannot establish why a particular person reached a particular judgment. Compare the judgment with relevant data before deciding what went wrong.\n\nFor example, a memorable set of cases might distort a judgment through availability. Or those cases might accurately reflect an expert’s experience. A representative record helps distinguish those possibilities.\n\nCorrective strategies are useful aids. They do not make anyone immune to error. Experts also need feedback and procedures that allow expectations to be challenged.",
+    "text": "When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.\n\nFor example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities.\n\nWhen reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.",
     "part": "chapter-03",
     "hold": 1
   },
@@ -275,7 +275,7 @@
     "id": "c05s03",
     "slide": 35,
     "step": "Two reasons to follow a group.",
-    "text": "Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.\n\nNormative influence concerns acceptance and the wish to avoid rejection. Sam might instead think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”\n\nBoth influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair. Following a group can support useful coordination. Check whether the group’s information is sound and whether people can disagree without a social penalty.",
+    "text": "Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.\n\nNormative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”\n\nBoth influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair.\n\nFor your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.",
     "part": "chapter-05",
     "hold": 1
   },
@@ -347,7 +347,7 @@
     "id": "c06s04",
     "slide": 44,
     "step": "A norm must be true to be useful.",
-    "text": "A descriptive norm concerns what people do. Saying that many residents volunteer communicates a descriptive norm. An injunctive norm concerns approval. Saying that the community values volunteering communicates an injunctive norm.\n\nBoth claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.\n\nFor the café invitation, state what is known, explain the contribution needed, and make questions or refusal easy. Help the reader understand the commitment before choosing.",
+    "text": "A descriptive norm concerns what people do. Saying that many residents volunteer communicates a descriptive norm. An injunctive norm concerns approval. Saying that the community values volunteering communicates an injunctive norm.\n\nBoth example claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.\n\nWhen you write an invitation, state what is known, explain the contribution needed, and make questions or refusal easy. The reader needs enough information to understand the commitment before choosing.",
     "part": "chapter-06",
     "hold": 1
   },
@@ -355,7 +355,7 @@
     "id": "c06s05",
     "slide": 45,
     "step": "What can we really conclude?",
-    "text": "Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.\n\nTreat a revised invitation as a hypothesis to test. An increase in clicks does not establish that people understood the commitment or will continue volunteering.\n\nCompare comprehension, informed sign-ups, and retention. Ask whether people understood the effort involved and felt able to decline. Those measures are closer to the decision the café needs to support.",
+    "text": "Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.\n\nFor the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering.\n\nThe team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.",
     "part": "chapter-06",
     "hold": 1
   },
@@ -411,7 +411,7 @@
     "id": "c07s04",
     "slide": 52,
     "step": "Groups can amplify—or lose—effort.",
-    "text": "Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute. Simply agreeing on the small event would be consensus, not polarization.\n\nSocial loafing means reducing individual effort when working collectively. Someone might check fewer items because their contribution will be hidden in the team’s total.\n\nPoor output can also reflect coordination problems. Two willing volunteers may duplicate one repair while another waits for a missing tool. That wastes genuine effort. An unfinished checklist alone does not establish loafing; check effort, tools, sequencing, and roles before choosing a remedy.",
+    "text": "Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute. Simply agreeing on the small event would be consensus, not polarization.\n\nSocial loafing means reducing individual effort when working collectively. Someone might check fewer items because their contribution will be hidden in the team’s total.\n\nPoor output can also reflect coordination problems. Two willing volunteers may duplicate one repair while another waits for a missing tool. That wastes genuine effort.\n\nWhen you review an unfinished group task, check effort, tools, sequencing, and roles before choosing a remedy. An unfinished checklist alone does not establish that the volunteers reduced their effort.",
     "part": "chapter-07",
     "hold": 1
   },
@@ -419,7 +419,7 @@
     "id": "c07s05",
     "slide": 53,
     "step": "What can we really conclude?",
-    "text": "Groupthink describes cases where pressure for agreement interferes with critical discussion. The label does not fully explain every poor group decision.\n\nLook for an observable process. Were doubts suppressed? Was the same information repeated while other evidence was missed? Were roles or incentives unclear?\n\nDifferent processes need different remedies. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express.",
+    "text": "Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.\n\nTo review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?\n\nThen choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.",
     "part": "chapter-07",
     "hold": 1
   },
@@ -443,7 +443,7 @@
     "id": "c07s08",
     "slide": 56,
     "step": "Carry one idea into your week.",
-    "text": "Here is your field practice.\n\nMap a shared project: each task, its owner, what must happen before it can start, and when progress will be checked. Decide whether the main obstacle is effort, coordination, or decision quality before proposing a remedy.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+    "text": "Here is your field practice.\n\nChoose a shared project you know well. Map each task, its owner, what must happen before it can start, and when progress will be checked. Identify one plausible obstacle and a check that could distinguish it from another explanation before proposing a remedy.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-07",
     "hold": 3
   },
@@ -467,7 +467,7 @@
     "id": "c08s03",
     "slide": 59,
     "step": "Belief, feeling, and action are distinct.",
-    "text": "A stereotype is a generalized belief about a group: for example, assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them. Discrimination is unequal treatment based on group membership: rejecting an applicant because they are a newcomer, without checking relevant skills.\n\nThese examples concern beliefs, attitudes, and actions respectively. The three can overlap, but one does not establish everything about the others. A person can support equality yet use an unexamined stereotype when assessing an applicant.\n\nA procedure can also favor an existing group through its recruitment network. Examine the actual decision, relevant comparisons, and context. Good intentions alone do not establish that a process is fair.",
+    "text": "A stereotype is a generalized belief about a group: for example, assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them. Discrimination is unequal treatment based on group membership: rejecting an applicant because they are a newcomer, without checking relevant skills.\n\nThese examples concern beliefs, attitudes, and actions respectively. The three can overlap, but evidence about one does not establish everything about the others.\n\nTo evaluate the recruitment process, compare the actual decisions and requirements applied to applicants. Good intentions alone do not establish that the process is fair.\n\nAssessing an organizer’s beliefs is a different question. A decision is evidence to examine, but one action does not reveal the organizer’s entire belief system.",
     "part": "chapter-08",
     "hold": 1
   },
@@ -483,7 +483,7 @@
     "id": "c08s05",
     "slide": 61,
     "step": "What can we really conclude?",
-    "text": "An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.\n\nThose are different things to measure. An implicit-association score is not a complete diagnosis of character or a forecast of every action. A statement of fairness also cannot establish fair treatment.\n\nEvaluate changes using meaningful outcomes: who can apply, progress through recruitment, and participate afterward? Include follow-up and the experiences of people affected. Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
+    "text": "An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.\n\nWhen interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action.\n\nWhen evaluating a recruitment change, inspect access and participation: who can apply, progress, and remain involved? Include follow-up and the experiences of applicants. An organizer saying “I am fair” cannot establish that those outcomes are fair.\n\nInterpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
     "part": "chapter-08",
     "hold": 1
   },
@@ -539,7 +539,7 @@
     "id": "c09s04",
     "slide": 68,
     "step": "Closeness is a reciprocal process.",
-    "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. Sam could listen, check what Leo means, and ask whether advice would help.\n\nDisclosure can support intimacy when it receives an understanding response. Reciprocity means that consideration can flow both ways over time; it does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.\n\nPeople differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses. One declined invitation cannot establish a pattern or override someone’s stated wishes.",
+    "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. Sam could listen, check what Leo means, and ask whether advice would help.\n\nDisclosure can support intimacy when it receives an understanding response. Reciprocity means that consideration can flow both ways over time; it does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.\n\nPeople differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses.\n\nWhen Sam declines an invitation, Leo needs to respond to Sam’s stated preference. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference.",
     "part": "chapter-09",
     "hold": 1
   },
@@ -547,7 +547,7 @@
     "id": "c09s05",
     "slide": 69,
     "step": "What can we really conclude?",
-    "text": "Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.\n\nDistinguish an average association from advice for a particular pair. Ask about their experience directly. A conversation may reveal important details that a catchy compatibility rule overlooks.",
+    "text": "Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.\n\nTo apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.",
     "part": "chapter-09",
     "hold": 1
   },
@@ -571,7 +571,7 @@
     "id": "c09s08",
     "slide": 72,
     "step": "Carry one idea into your week.",
-    "text": "Here is your field practice.\n\nIn a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on whether the person seemed heard and understood, and whether you gave them room to correct your summary.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
+    "text": "Here is your field practice.\n\nDuring a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-09",
     "hold": 3
   },
@@ -595,7 +595,7 @@
     "id": "c10s03",
     "slide": 75,
     "step": "Helping has several decision points.",
-    "text": "The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. One possible process is diffusion of responsibility: “There are plenty of people here; someone else will act.” Each person may feel less personally responsible.\n\nPluralistic ignorance concerns interpreting others’ reactions: “Everyone looks calm, so perhaps no help is needed.” Several worried people may each hide their uncertainty and mistake everyone else’s outward calm for reassurance.\n\nThe first explanation concerns who should act; the second concerns whether action seems necessary. Both could contribute to hesitation after the shelf falls. In other emergencies, people provide essential support and increase the chance that someone helps. The effect depends on the situation.",
+    "text": "The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process. A concerned volunteer might think, “There are plenty of people here; someone else will act,” and feel less personally responsible.\n\nPluralistic ignorance concerns interpreting other people’s reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. In that case, Leo has mistaken Sam’s appearance for Sam’s private assessment.\n\nDiffusion concerns who should act; pluralistic ignorance concerns how the need for action is interpreted. Both could contribute to hesitation after the shelf falls. In other emergencies, people provide essential support and increase the chance that someone helps. The effect depends on the situation.",
     "part": "chapter-10",
     "hold": 1
   },

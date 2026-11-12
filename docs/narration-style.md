@@ -8,6 +8,10 @@ Apply these choices when editing a passage; they are editorial guidance, not an 
 - Connect the explanation back to the people and actions in the story. Make an important reasoning step explicit instead of asking the listener to supply it.
 - Treat an example as an illustration of a possible process. Keep qualifications about uncertainty, boundaries, and how widely research findings apply.
 - Use visible paragraph breaks for shifts between observation, hidden circumstances, interpretation, and reflection.
+- Keep one reasoning task in each paragraph. Checking your own interpretation and assessing another person’s reasoning require different questions; mark that change explicitly and use a separate paragraph or slide.
+- Name whose observation, belief, estimate, or decision is being discussed. Mark the transition from a character’s example to advice for the learner.
+- Preserve explicit comparisons, such as one observer explaining their own actions and another person’s actions. A contrast is useful when both roles and the common question are clear.
+- Distinguish observed actions and outcomes from inferred motives or private experiences. Ask for the person’s account where relevant instead of treating an observer’s impression as their feedback.
 - Give story beats roughly 0.5–0.7 seconds of additional silence when a break helps comprehension.
 - Allow roughly one second at a causal turn or after an important distinction.
 - Leave 1.5–3 seconds after a reflective question. Longer exercises remain under the learner’s control; continuous chapter tracks already add six seconds before suggested answers.

@@ -51,9 +51,9 @@
     {
       "id": "c01s02-feedback-2",
       "file": "audio/clips/c01s02-feedback-2.m4a",
-      "duration": 5.0,
-      "bytes": 105007,
-      "sha256": "4d79c7db9811cbeb9042d0786e8c61e688711dc88967d1200d801daa870d8890"
+      "duration": 8.4,
+      "bytes": 170144,
+      "sha256": "73cf35727bf973c32ffb981fc3bd6a0d74c618993460b95721b91804f4de9b50"
     },
     {
       "id": "c01s03",
@@ -65,16 +65,16 @@
     {
       "id": "c01s04",
       "file": "audio/clips/c01s04.m4a",
-      "duration": 31.9,
-      "bytes": 651403,
-      "sha256": "bd3779ef5cb0ae26068d13ae4aa8d7714da9c0de49ef385c332c1da89604a467"
+      "duration": 39.8,
+      "bytes": 807369,
+      "sha256": "420cb3aa95c15016a0c42461119165f5d9a9013683d06fe2033406ec31f07a9a"
     },
     {
       "id": "c01s05",
       "file": "audio/clips/c01s05.m4a",
-      "duration": 50.5,
-      "bytes": 1025790,
-      "sha256": "f88a70573b433622b452dedb53b69b466ba868eef23f7ade7ee4cb70eb10e087"
+      "duration": 49.6,
+      "bytes": 1010230,
+      "sha256": "8aa76f52b07d36cd8134d66945e50007124e6395d58eb7f7deee9486fb373acf"
     },
     {
       "id": "c01s06",
@@ -121,9 +121,9 @@
     {
       "id": "c01s08",
       "file": "audio/clips/c01s08.m4a",
-      "duration": 20.5,
-      "bytes": 398810,
-      "sha256": "64df69e10e0a40e00b8e1ab16c4a1ab494275ef66ed2ab27787b904bede0ef70"
+      "duration": 22.7,
+      "bytes": 445645,
+      "sha256": "c165b742d7d0ca07c59429ad540678cc3d85655ebdd806f7cbb83fd163e99ca2"
     },
     {
       "id": "c02s01",
@@ -275,16 +275,16 @@
     {
       "id": "c03s04",
       "file": "audio/clips/c03s04.m4a",
-      "duration": 50.6,
-      "bytes": 1028719,
-      "sha256": "c670429793c094aad0da022988877512a6bfb5bcc7002b756a7b6e1af59b9fad"
+      "duration": 48.6,
+      "bytes": 971436,
+      "sha256": "ea54120fe96cdff6c6cc0a3e64a77e1ea221d699f5e33292442f991fcc432c30"
     },
     {
       "id": "c03s05",
       "file": "audio/clips/c03s05.m4a",
-      "duration": 35.0,
-      "bytes": 701810,
-      "sha256": "9e2c7da9417c7d8be5acb37a58e676bc4ac9a30ceca1709a7f33c7304620020f"
+      "duration": 44.8,
+      "bytes": 914279,
+      "sha256": "a24ab9c56546178bf3cd11ab4fb2eca10402aa02754f04efdcce22643c11ade1"
     },
     {
       "id": "c03s06",
@@ -478,9 +478,9 @@
     {
       "id": "c05s03",
       "file": "audio/clips/c05s03.m4a",
-      "duration": 42.6,
-      "bytes": 859352,
-      "sha256": "1028adccdec3f1e159136dd20ae4c8fc7fe172cbeeb460c1e065985bf04fa4d2"
+      "duration": 47.1,
+      "bytes": 932295,
+      "sha256": "1b3767ff97c181c0edc7209c3036a968b60b797d71b22b46b16355a38ce8cb3c"
     },
     {
       "id": "c05s04",
@@ -590,16 +590,16 @@
     {
       "id": "c06s04",
       "file": "audio/clips/c06s04.m4a",
-      "duration": 37.5,
-      "bytes": 751471,
-      "sha256": "e890299481593f24ccc11a10f8781114c2417045d7cfbe7ae383eb5c0f97efef"
+      "duration": 39.1,
+      "bytes": 786323,
+      "sha256": "1974ec0745867d2ee200e7c289c7db93fe5fabe06a7eebb4eb0c37f0b6b2c38e"
     },
     {
       "id": "c06s05",
       "file": "audio/clips/c06s05.m4a",
-      "duration": 35.2,
-      "bytes": 702706,
-      "sha256": "3e6de5813e2680a719f544c72edd788fefc484c9378c47ebc1c1662c2c2a924b"
+      "duration": 44.1,
+      "bytes": 891993,
+      "sha256": "476634959be60d34d43a758da6dd4b7d56469feb7908925c4083539fb2b3075a"
     },
     {
       "id": "c06s06",
@@ -681,9 +681,9 @@
     {
       "id": "c07s02-feedback-2",
       "file": "audio/clips/c07s02-feedback-2.m4a",
-      "duration": 5.4,
-      "bytes": 113029,
-      "sha256": "7874318ffdb0847865f504653e29c7590243a352cffb34b5d00e3bf48fee7779"
+      "duration": 8.0,
+      "bytes": 165443,
+      "sha256": "5a3ed99d1675dd8cb9da3f7a64de249d63e307f607dd9b3ff2e8356442e49172"
     },
     {
       "id": "c07s03",
@@ -695,16 +695,16 @@
     {
       "id": "c07s04",
       "file": "audio/clips/c07s04.m4a",
-      "duration": 52.6,
-      "bytes": 1073710,
-      "sha256": "7fa8615ed952949b02eabeda04d03b2cb77e5f13da1acf0fa0cdc83ad40ae3d1"
+      "duration": 57.7,
+      "bytes": 1163381,
+      "sha256": "455ec502799ee48c979f1d1f9f55db746fffc3455531887564021f5baa237168"
     },
     {
       "id": "c07s05",
       "file": "audio/clips/c07s05.m4a",
-      "duration": 32.9,
-      "bytes": 658044,
-      "sha256": "bb7e1c5da11870c099a20a2ae72aa3f196744656373acfaa618907e08953f21c"
+      "duration": 43.0,
+      "bytes": 868914,
+      "sha256": "9bd1880cfb00c2965b552ef36340fe443c43565cfc994edc51163c4222887dfb"
     },
     {
       "id": "c07s06",
@@ -751,9 +751,9 @@
     {
       "id": "c07s08",
       "file": "audio/clips/c07s08.m4a",
-      "duration": 24.6,
-      "bytes": 486557,
-      "sha256": "be91236a12742ea11dcc9dd9a6fb2f39791d91ca2c9ecfa444ba49abb1ececfc"
+      "duration": 26.6,
+      "bytes": 524838,
+      "sha256": "7e844de675c7514ab7fb9d295a6a874f8aa2168ca980d32ad2d7e3a620d174cd"
     },
     {
       "id": "c08s01",
@@ -793,9 +793,9 @@
     {
       "id": "c08s03",
       "file": "audio/clips/c08s03.m4a",
-      "duration": 52.9,
-      "bytes": 1070693,
-      "sha256": "555864393d3e6e71fb9b2112d980990ecf5abaf6e1d2ba4738aa52be80ca0fff"
+      "duration": 55.9,
+      "bytes": 1120385,
+      "sha256": "d19519a3126e1c436cddb9b55cde816c85f7aa87edc4003cf420119a2948dbe9"
     },
     {
       "id": "c08s04",
@@ -807,9 +807,9 @@
     {
       "id": "c08s05",
       "file": "audio/clips/c08s05.m4a",
-      "duration": 54.2,
-      "bytes": 1093626,
-      "sha256": "67bc32763e65b2b3e114fd3318cbfefd57f96f963e76e806f5f4ff25b963253a"
+      "duration": 57.0,
+      "bytes": 1140423,
+      "sha256": "56e04b2e1f604fb61d5f8d4d291d07774daa65876aa9661fb8158a7cc0e61a2e"
     },
     {
       "id": "c08s06",
@@ -877,9 +877,9 @@
     {
       "id": "c09s02-feedback-0",
       "file": "audio/clips/c09s02-feedback-0.m4a",
-      "duration": 10.3,
-      "bytes": 208237,
-      "sha256": "b776e755c46c6ad5ae13930098c2e87fc859d5247369d0308f05819124b46651"
+      "duration": 10.4,
+      "bytes": 209119,
+      "sha256": "0a93349e79732911e0250a074972c11fca395a925e181be576a0753dfe4af0d5"
     },
     {
       "id": "c09s02-feedback-1",
@@ -905,16 +905,16 @@
     {
       "id": "c09s04",
       "file": "audio/clips/c09s04.m4a",
-      "duration": 51.9,
-      "bytes": 1050704,
-      "sha256": "2c4369ca9c9cc9ee24f54821535207786189db8e718a3d8d9b06ce3aa5d533e4"
+      "duration": 58.4,
+      "bytes": 1174919,
+      "sha256": "3c09d02b640da1909b0c62ca4d0b6e49e3a1d24ba4e0eb5cf4a5e07ea4bd0ecd"
     },
     {
       "id": "c09s05",
       "file": "audio/clips/c09s05.m4a",
-      "duration": 51.6,
-      "bytes": 1048239,
-      "sha256": "e6b9262a18391c11ad810b2a805c124229b29bca79cb25db85c7c3ace8ec249e"
+      "duration": 54.7,
+      "bytes": 1115443,
+      "sha256": "3fad7bbf4fca4f729fb85ffd28df55ccf644c00d0d603d64f1d47b923d10f120"
     },
     {
       "id": "c09s06",
@@ -961,9 +961,9 @@
     {
       "id": "c09s08",
       "file": "audio/clips/c09s08.m4a",
-      "duration": 23.9,
-      "bytes": 467236,
-      "sha256": "464378b89f612efdcf61b3d251da0a988b6e1a03f55aabf2dcac08a69574b0cb"
+      "duration": 25.8,
+      "bytes": 510260,
+      "sha256": "e55cd714413a1cbb3877d9ff08c34919bb2056b98750759e843df0e8136abb48"
     },
     {
       "id": "c10s01",
@@ -1003,9 +1003,9 @@
     {
       "id": "c10s03",
       "file": "audio/clips/c10s03.m4a",
-      "duration": 52.0,
-      "bytes": 1051928,
-      "sha256": "d2ba9416ecd83a144b51805ab50de03182142130aef5802f29cdf62a31d6b077"
+      "duration": 56.1,
+      "bytes": 1142787,
+      "sha256": "49efdbf516b0b7c9f8c821abec3462b7d4fd084880fa0c6be2ce470272f8f4cf"
     },
     {
       "id": "c10s04",
@@ -1076,8 +1076,8 @@
       "chapter": 1,
       "title": "The person and the room",
       "file": "audio/chapters/chapter-01.m4a",
-      "duration": 335.2,
-      "sha256": "d98e7d42bde64519ebcb9c0d8950ea052fbebb7921168d697a284c33db477f5f"
+      "duration": 344.5,
+      "sha256": "88aa82c545633151caacb79be0604d5da7ee0f8e05fd504fc0ac0b1eb5655391"
     },
     {
       "chapter": 2,
@@ -1090,8 +1090,8 @@
       "chapter": 3,
       "title": "The story that comes to mind",
       "file": "audio/chapters/chapter-03.m4a",
-      "duration": 317.4,
-      "sha256": "23ab19bca695ba9f2ac2c3bdb4ecb508fbbf04ebfc9cefdac754e779dd4a2979"
+      "duration": 325.2,
+      "sha256": "fde404c68961771b5ced0985ccd22d737008be59584945beb69cfec0f94be887"
     },
     {
       "chapter": 4,
@@ -1104,43 +1104,43 @@
       "chapter": 5,
       "title": "The quiet vote",
       "file": "audio/chapters/chapter-05.m4a",
-      "duration": 318.3,
-      "sha256": "0131de817823dfb47f38c676507fcad45b512b54eff8d7e5c03013b3512440c4"
+      "duration": 322.8,
+      "sha256": "5512d707b69928f2158c42197f059b1e20e31d84916589078d0a387c8a743db7"
     },
     {
       "chapter": 6,
       "title": "The invitation",
       "file": "audio/chapters/chapter-06.m4a",
-      "duration": 313.9,
-      "sha256": "edf91562a5cfc363f0280653c513438c62367c41e6824c3b8d2fa64c71bc547e"
+      "duration": 324.5,
+      "sha256": "e1cf11a4e7e5803ff5d277eb165d55b17045c38b3143c1f52b82de253ff96914"
     },
     {
       "chapter": 7,
       "title": "When \u201cwe\u201d takes over",
       "file": "audio/chapters/chapter-07.m4a",
-      "duration": 319.3,
-      "sha256": "931329940c72eeecbb4de632769b65e8430a79ffe7e423ef3a9b202e17424331"
+      "duration": 336.3,
+      "sha256": "3d06c3dfbc340b96d9fffeb091d64dff614ccef514a48337c99d6011fd03e7a2"
     },
     {
       "chapter": 8,
       "title": "The invisible doorway",
       "file": "audio/chapters/chapter-08.m4a",
-      "duration": 351.3,
-      "sha256": "368d4067d8e33e1b67ebf5745c863b558932077eb7394739b3d077598c5f7483"
+      "duration": 357.0,
+      "sha256": "76e769d55fef0f91063c1ff47f9d369a5e6aa3ff5a42c9b0cc6fa2b2a0e05b92"
     },
     {
       "chapter": 9,
       "title": "A place beside someone",
       "file": "audio/chapters/chapter-09.m4a",
-      "duration": 339.5,
-      "sha256": "6162a0faf24987566f79414ec94e2b58eaff92b057160908d47c50d2d37a8b6b"
+      "duration": 351.0,
+      "sha256": "3f8714a0b0ac7e3e874f8a90df0542cd0ba0cfd98f80727d99e52280e2b098e3"
     },
     {
       "chapter": 10,
       "title": "Who will do something?",
       "file": "audio/chapters/chapter-10.m4a",
-      "duration": 337.7,
-      "sha256": "8f242906fb227af846775b764051e8e692b5cbad622dbb7b74240ab5fb3602af"
+      "duration": 341.7,
+      "sha256": "50c9cfad8b4f1ac91275c7246cded03ca5fddd35c5c3cb981e0e0303ee9b9980"
     }
   ],
   "review": "Independent ASR and phoneme screening; not a human listening review"

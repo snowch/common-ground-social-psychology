@@ -26,7 +26,7 @@ Consider the consequences of each option.
   Suggested answer: 1
   Feedback: Asking Maya about the delay lets Leo investigate the obstacle and plan the shift without ignoring the lateness.
   Feedback: One episode of lateness is a weak guide to how reliably someone usually arrives.
-  Feedback: Avoiding judgment is not the same as gathering evidence.
+  Feedback: Assuming Maya will arrive on time does not investigate today’s delay or check her future availability.
 
 c01s03 | First lens | Behavior has more than one author.
 A disposition is a personal tendency that persists over time. Someone described as having a “sweet disposition” is generally kind and good-natured. A tendency need not appear in every situation.
@@ -38,16 +38,18 @@ Social psychology studies how people’s thoughts, feelings, and behavior are sh
 For Maya, the broken lift made arriving on time harder. Investigating that barrier helps the team explain her lateness and plan future shifts, while keeping commitments clear.
 
 c01s04 | Second lens | Observation is not explanation.
-When explaining someone else’s behavior, we can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.
+When you explain another person’s behavior, you can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.
 
-To check your own judgment, describe the behavior neutrally. Generate alternative explanations, then look for evidence that could make each explanation less plausible. Disagreeing with someone’s judgment does not, by itself, establish that the judgment is biased.
+To check your own interpretation of that behavior, first describe what you observed without adding a cause. “Maya arrived after the start” records the behavior. “Maya doesn’t care” adds your explanation.
+
+Next, generate alternative causes. Ask what evidence would weaken each explanation, including the one you first favored. The aim is to test your interpretation.
 
 c01s05 | Evidence check | What can we really conclude?
-An attribution is an explanation of what caused an action. Saying “Maya arrived late” records an observation. Saying “Maya arrived late because she doesn’t care” adds an attribution about her priorities.
+An attribution is an explanation of what caused an action. Attribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.
 
-Attribution research describes patterns in how people explain behavior. It does not establish that personal qualities never matter. Repeated behavior across varied settings is more informative than one episode.
+Actor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.
 
-Researchers also examine actor–observer differences: differences between how we explain our own actions and other people’s actions. We might explain our own lateness through a delayed bus, but someone else’s through poor planning. Whether that pattern appears depends on the judgment and study design. A bias label alone cannot reveal what is happening in someone’s mind.
+A separate task is assessing another person’s interpretation. Ask what that person observed, which causes they considered, and what supports their conclusion. Disagreeing with their conclusion does not, by itself, establish that their reasoning is biased.
 
 c01s06 | New situation | Try the idea somewhere new.
 Apply the idea to a new decision.
@@ -77,7 +79,7 @@ Use your own example. Try both prompts before revealing the suggested answers.
 c01s08 | Field practice | Carry one idea into your week.
 Here is your field practice.
 
-Choose a mildly frustrating encounter. Write the action, your first interpretation, two alternatives, and one respectful question that could clarify it.
+Choose a mildly frustrating action by another person. Write what you observed, your initial explanation, two plausible alternatives, and one respectful question that could clarify what happened.
 
 Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.
 
@@ -201,16 +203,18 @@ To estimate a failure rate, count failures and the total of comparable repairs. 
 c03s04 | Second lens | Beliefs can filter their own evidence.
 Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives his belief an unfair advantage.
 
-Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so she may find reassuring repair stories easier to accept. The two processes can overlap; neither label proves that a conclusion is wrong.
+Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so she may find reassuring repair stories easier to accept. These processes can overlap; neither label proves that a conclusion is wrong.
 
-Maya can define a failed repair in advance and follow up comparable repairs consistently. Someone with a different expectation can examine the same record. These procedures give an expectation a chance to be wrong. Calling another person biased does not replace checking the evidence.
+To check your own reasoning, define the outcome before collecting results. Record comparable successes and failures. Ask someone with a different expectation to review that record.
+
+These steps make it possible for evidence to challenge your initial belief.
 
 c03s05 | Evidence check | What can we really conclude?
-A bias name cannot establish why a particular person reached a particular judgment. Compare the judgment with relevant data before deciding what went wrong.
+When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.
 
-For example, a memorable set of cases might distort a judgment through availability. Or those cases might accurately reflect an expert’s experience. A representative record helps distinguish those possibilities.
+For example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities.
 
-Corrective strategies are useful aids. They do not make anyone immune to error. Experts also need feedback and procedures that allow expectations to be challenged.
+When reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.
 
 c03s06 | New situation | Try the idea somewhere new.
 Apply the idea to a new decision.
@@ -357,9 +361,11 @@ Consider the consequences of each option.
 c05s03 | First lens | Two reasons to follow a group.
 Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.
 
-Normative influence concerns acceptance and the wish to avoid rejection. Sam might instead think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”
+Normative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”
 
-Both influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair. Following a group can support useful coordination. Check whether the group’s information is sound and whether people can disagree without a social penalty.
+Both influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair.
+
+For your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.
 
 c05s04 | Second lens | Authority changes the pressure.
 Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following a chair’s instruction because the chair is in charge illustrates obedience.
@@ -447,16 +453,16 @@ These are differences in how a message is processed, not fixed personality types
 c06s04 | Second lens | A norm must be true to be useful.
 A descriptive norm concerns what people do. Saying that many residents volunteer communicates a descriptive norm. An injunctive norm concerns approval. Saying that the community values volunteering communicates an injunctive norm.
 
-Both claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.
+Both example claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.
 
-For the café invitation, state what is known, explain the contribution needed, and make questions or refusal easy. Help the reader understand the commitment before choosing.
+When you write an invitation, state what is known, explain the contribution needed, and make questions or refusal easy. The reader needs enough information to understand the commitment before choosing.
 
 c06s05 | Evidence check | What can we really conclude?
 Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.
 
-Treat a revised invitation as a hypothesis to test. An increase in clicks does not establish that people understood the commitment or will continue volunteering.
+For the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering.
 
-Compare comprehension, informed sign-ups, and retention. Ask whether people understood the effort involved and felt able to decline. Those measures are closer to the decision the café needs to support.
+The team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.
 
 c06s06 | New situation | Try the idea somewhere new.
 Apply the idea to a new decision.
@@ -516,7 +522,7 @@ Consider the consequences of each option.
   Suggested answer: 1
   Feedback: Agreed owners, deadlines, and support make responsibility clearer and help people coordinate the work.
   Feedback: Telling everyone to be more committed still leaves the team unsure who owns each checklist task.
-  Feedback: More recipients may strengthen the assumption that someone else will act.
+  Feedback: Copying more people onto a task can leave each volunteer assuming another recipient will handle it.
 
 c07s03 | First lens | Identity changes the boundary of “us.”
 Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as “us.” Giving repair volunteers first choice of shifts simply because they are “our team” would illustrate in-group favoritism.
@@ -530,14 +536,16 @@ Group polarization means moving toward a more extreme version of a group’s ini
 
 Social loafing means reducing individual effort when working collectively. Someone might check fewer items because their contribution will be hidden in the team’s total.
 
-Poor output can also reflect coordination problems. Two willing volunteers may duplicate one repair while another waits for a missing tool. That wastes genuine effort. An unfinished checklist alone does not establish loafing; check effort, tools, sequencing, and roles before choosing a remedy.
+Poor output can also reflect coordination problems. Two willing volunteers may duplicate one repair while another waits for a missing tool. That wastes genuine effort.
+
+When you review an unfinished group task, check effort, tools, sequencing, and roles before choosing a remedy. An unfinished checklist alone does not establish that the volunteers reduced their effort.
 
 c07s05 | Evidence check | What can we really conclude?
-Groupthink describes cases where pressure for agreement interferes with critical discussion. The label does not fully explain every poor group decision.
+Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.
 
-Look for an observable process. Were doubts suppressed? Was the same information repeated while other evidence was missed? Were roles or incentives unclear?
+To review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?
 
-Different processes need different remedies. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express.
+Then choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.
 
 c07s06 | New situation | Try the idea somewhere new.
 Apply the idea to a new decision.
@@ -567,7 +575,7 @@ Use your own example. Try both prompts before revealing the suggested answers.
 c07s08 | Field practice | Carry one idea into your week.
 Here is your field practice.
 
-Map a shared project: each task, its owner, what must happen before it can start, and when progress will be checked. Decide whether the main obstacle is effort, coordination, or decision quality before proposing a remedy.
+Choose a shared project you know well. Map each task, its owner, what must happen before it can start, and when progress will be checked. Identify one plausible obstacle and a check that could distinguish it from another explanation before proposing a remedy.
 
 Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.
 
@@ -602,9 +610,11 @@ Consider the consequences of each option.
 c08s03 | First lens | Belief, feeling, and action are distinct.
 A stereotype is a generalized belief about a group: for example, assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them. Discrimination is unequal treatment based on group membership: rejecting an applicant because they are a newcomer, without checking relevant skills.
 
-These examples concern beliefs, attitudes, and actions respectively. The three can overlap, but one does not establish everything about the others. A person can support equality yet use an unexamined stereotype when assessing an applicant.
+These examples concern beliefs, attitudes, and actions respectively. The three can overlap, but evidence about one does not establish everything about the others.
 
-A procedure can also favor an existing group through its recruitment network. Examine the actual decision, relevant comparisons, and context. Good intentions alone do not establish that a process is fair.
+To evaluate the recruitment process, compare the actual decisions and requirements applied to applicants. Good intentions alone do not establish that the process is fair.
+
+Assessing an organizer’s beliefs is a different question. A decision is evidence to examine, but one action does not reveal the organizer’s entire belief system.
 
 c08s04 | Second lens | Change the encounter and the structure.
 Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support are important conditions to consider.
@@ -616,9 +626,11 @@ Contact also leaves some barriers untouched. A friendly social event does not ch
 c08s05 | Evidence check | What can we really conclude?
 An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.
 
-Those are different things to measure. An implicit-association score is not a complete diagnosis of character or a forecast of every action. A statement of fairness also cannot establish fair treatment.
+When interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action.
 
-Evaluate changes using meaningful outcomes: who can apply, progress through recruitment, and participate afterward? Include follow-up and the experiences of people affected. Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.
+When evaluating a recruitment change, inspect access and participation: who can apply, progress, and remain involved? Include follow-up and the experiences of applicants. An organizer saying “I am fair” cannot establish that those outcomes are fair.
+
+Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.
 
 c08s06 | New situation | Try the idea somewhere new.
 Apply the idea to a new decision.
@@ -676,7 +688,7 @@ Consider the consequences of each option.
   2. Share increasingly private details until closeness develops.
   3. Keep arranging contact after invitations are declined.
   Suggested answer: 1
-  Feedback: Offering a shared activity creates an opportunity to connect. Notice whether the other person also chooses to participate and show interest.
+  Feedback: Offering a shared activity creates an opportunity to connect. Notice whether the other person also chooses to participate and shows interest.
   Feedback: Disclosure without mutual readiness can feel intrusive.
   Feedback: A refusal is information about a boundary, not a barrier to overcome.
 
@@ -692,14 +704,16 @@ Disclosure means sharing something personal. Leo mentioning a difficult week is 
 
 Disclosure can support intimacy when it receives an understanding response. Reciprocity means that consideration can flow both ways over time; it does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.
 
-People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses. One declined invitation cannot establish a pattern or override someone’s stated wishes.
+People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses.
+
+When Sam declines an invitation, Leo needs to respond to Sam’s stated preference. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference.
 
 c09s05 | Evidence check | What can we really conclude?
 Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.
 
 Suppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.
 
-Distinguish an average association from advice for a particular pair. Ask about their experience directly. A conversation may reveal important details that a catchy compatibility rule overlooks.
+To apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.
 
 c09s06 | New situation | Try the idea somewhere new.
 Apply the idea to a new decision.
@@ -729,7 +743,7 @@ Use your own example. Try both prompts before revealing the suggested answers.
 c09s08 | Field practice | Carry one idea into your week.
 Here is your field practice.
 
-In a willing everyday conversation, ask an open question and summarize what you heard before offering advice. Reflect on whether the person seemed heard and understood, and whether you gave them room to correct your summary.
+During a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave.
 
 Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.
 
@@ -762,11 +776,11 @@ Consider the consequences of each option.
   Feedback: A person may care and still hesitate because they do not know what happened, lack the skills to help, or fear making things worse.
 
 c10s03 | First lens | Helping has several decision points.
-The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. One possible process is diffusion of responsibility: “There are plenty of people here; someone else will act.” Each person may feel less personally responsible.
+The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process. A concerned volunteer might think, “There are plenty of people here; someone else will act,” and feel less personally responsible.
 
-Pluralistic ignorance concerns interpreting others’ reactions: “Everyone looks calm, so perhaps no help is needed.” Several worried people may each hide their uncertainty and mistake everyone else’s outward calm for reassurance.
+Pluralistic ignorance concerns interpreting other people’s reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. In that case, Leo has mistaken Sam’s appearance for Sam’s private assessment.
 
-The first explanation concerns who should act; the second concerns whether action seems necessary. Both could contribute to hesitation after the shelf falls. In other emergencies, people provide essential support and increase the chance that someone helps. The effect depends on the situation.
+Diffusion concerns who should act; pluralistic ignorance concerns how the need for action is interpreted. Both could contribute to hesitation after the shelf falls. In other emergencies, people provide essential support and increase the chance that someone helps. The effect depends on the situation.
 
 c10s04 | Second lens | Make constructive action easier.
 Aggression is behavior intended to harm. Anger is a feeling; aggression involves an intention to harm through behavior. Someone can feel angry about the fallen shelf and still respond constructively.

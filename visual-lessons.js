@@ -19,16 +19,16 @@ function personSituationFigure(){return compareFigure('person-situation','A tend
  ['Personal tendency',['Usually patient','with visitors','A disposition'],'person'],
  ['Immediate demands',['Several visitors','need help at once','A situation'],'person'],
  ['Pressure can strain usual patience.','Goals, beliefs, and skills matter too.']);}
-function observationFigure(){return compareFigure('observation-attribution','An action and an explanation',
- ['Observation',['Maya arrived','after the start.','What was observed'],'clock'],
- ['Attribution',['“She doesn’t care.”','A proposed cause','What could test it?'],'person'],
- ['Ask about the delay.','Compare behavior across situations.']);}
-function actorObserverFigure(){return compareFigure('actor-observer','Explaining the same lateness',
- ['My own action',['“The bus','was delayed.”','Circumstances'],'person'],
- ['Someone else’s',['“They plan badly.”','A personal tendency','Could I be missing','their circumstances?'],'person'],
+function observationFigure(){return compareFigure('observation-attribution','What Leo saw and what he inferred',
+ ['Leo’s observation',['Maya arrived','after the start.','What was observed'],'clock'],
+ ['Leo’s attribution',['“She doesn’t care.”','A proposed cause','What could test it?'],'person'],
+ ['Leo can ask Maya about the delay.','Then compare plausible causes.']);}
+function actorObserverFigure(){return compareFigure('actor-observer','One observer, two explanations',
+ ['Leo explains himself',['“The bus','was delayed.”','Circumstances'],'person'],
+ ['Leo explains Maya',['“She doesn’t care.”','A personal tendency','Could he be missing','her circumstances?'],'person'],
  ['A possible actor–observer difference.','The pattern depends on judgment and setting.']);}
-function repeatedEvidenceFigure(){return flowFigure('repeated-evidence','One event leaves several explanations',[
- ['Describe the action','Separate it from a character judgment'],['Compare occasions','Different settings and exceptions'],['Check alternatives','Ask what could change the explanation'],['Revise confidence','A bias label alone proves no motive']], 'Repeated patterns can be more informative.');}
+function repeatedEvidenceFigure(){return flowFigure('repeated-evidence','Checking your own interpretation',[
+ ['Describe the action','Separate it from a character judgment'],['Compare occasions','Different settings and exceptions'],['Check alternatives','Ask what could change the explanation'],['Revise your confidence','Update your explanation from the evidence']], 'Test the explanation you first favored.');}
 function samplingFigure(){return flowFigure('sampling-assignment','A possible selection-and-allocation design',[
  ['Population','Residents we want to learn about'],['Random sampling','Select people by chance'],['Sample enters the comparison','Who was actually included?'],['Random assignment','Allocate invitation A or B by chance']], 'Assignment does not make a sample representative.');}
 function correlationFigure(){return compareFigure('correlation-causation','Together does not establish because',
@@ -50,11 +50,11 @@ function availabilityFigure(){
  return conceptSVG('availability-base-rate','A vivid failed repair is easy to remember. In the invented record, four failures among forty comparable repairs give a ten percent failure rate. Count the whole denominator, with consistent follow-up.',label(260,27,'A vivid case needs a denominator',23)+thoughtPanel(95,58,330,82,['“That toaster failed again!”'])+label(260,172,'Invented record: all comparable repairs',20)+cells+label(260,391,'4 failures / 40 repairs = 10%',25)+figureFooter('Availability is a shortcut, not a frequency count.'));
 }
 function motivatedReasoningFigure(){return flowFigure('motivated-reasoning','A desired conclusion can shape reasoning',[
- ['Maya wants the café to succeed','“I hope our repairs are working.”'],['Reassuring stories feel persuasive','Returns get less attention'],['Use the same test for all cases','Define failure and follow up consistently'],['Invite a challenging review','What evidence would change my mind?']], 'A wanted conclusion can still be correct.');}
-function biasCheckFigure(){return compareFigure('bias-evidence','A memorable judgment needs checking',
+ ['Maya wants the café to succeed','“I hope our repairs are working.”'],['Reassuring stories feel persuasive','Returns get less attention'],['Maya can use one test for all cases','Define failure and follow up consistently'],['Maya can invite a challenging review','What could change her first belief?']], 'A wanted conclusion can still be correct.');}
+function biasCheckFigure(){return compareFigure('bias-evidence','Checking someone else’s estimate',
  ['Possible distortion',['Vivid cases get','too much attention.','The record does','not support the','initial estimate.'],'record'],
  ['Possible expertise',['Remembered cases','reflect experience.','A representative','record supports','the estimate.'],'record'],
- ['Compare the judgment with evidence.','Experts also need feedback and correction.']);}
+ ['Compare their estimate with a relevant record.','Ask which cases they considered.']);}
 function dissonanceFigure(){return conceptSVG('cognitive-dissonance','Maya sees a conflict between choosing reliable tools and a booking system that loses reservations. The conflict can motivate discomfort reduction through changing behavior, revising a belief, or adding a justification.',
  label(260,27,'When beliefs and actions clash',24)+box(20,65,230,88,'“I choose reliable tools.”','#FFF')+box(270,65,230,88,'“This tool loses bookings.”','#FFF')+
  conceptArrow(135,168,230,221)+conceptArrow(385,168,290,221)+box(140,239,240,58,'Possible discomfort','#ECE6F5')+
@@ -118,20 +118,20 @@ function proceduralChangeFigure(){return compareFigure('procedural-change','Chan
 function prejudiceMeasuresFigure(){return threeRowsFigure('attitude-measures','Different measures answer different questions',[
  ['Explicit attitude','What someone reports directly'],['Implicit association','An indirect response pattern in a task'],['Behavior and access','Who can apply, progress, and participate?']], 'No single score is a complete character diagnosis.');}
 function opportunityFigure(){return flowFigure('relationship-opportunity','A shared shift creates opportunities',[
- ['Sam and Leo meet on Thursdays','Proximity changes who becomes familiar'],['They discover an interest in radios','Similarity can support conversation'],['They choose further conversation','Look for reciprocal interest'],['Respect willingness and boundaries','Contact creates no right to friendship']], 'Connection is possible, not guaranteed.');}
+ ['Sam and Leo meet on Thursdays','Proximity changes who becomes familiar'],['They discover an interest in radios','Similarity can support conversation'],['They choose further conversation','Look for reciprocal interest'],['Either person can set a boundary','Contact creates no right to friendship']], 'Connection is possible, not guaranteed.');}
 function exposureFigure(){return compareFigure('mere-exposure','Repeated encounters can have different effects',
  ['Possible familiarity',['A face becomes','more comfortable','to see.','Liking may increase.'],'person'],
  ['A different response',['Unwanted contact','can intensify','annoyance or threat.','More is not','automatically better.'],'person'],
  ['The mere exposure effect depends on conditions.','A stated boundary still matters.']);}
 function responsivenessFigure(){return flowFigure('disclosure-responsiveness','Closeness depends on the response',[
- ['Leo discloses something personal','“It has been a difficult week.”'],['Sam listens and checks understanding','“Have I understood what you mean?”'],['Ask what support is wanted','Listening, practical help, or advice?'],['Reciprocity over time','Mutual consideration, not matching secrets']], 'Disclosure needs willingness and responsiveness.');}
+ ['Leo discloses something personal','“It has been a difficult week.”'],['Sam listens and checks understanding','“Have I understood what you mean?”'],['Sam asks what support Leo wants','Listening, practical help, or advice?'],['Reciprocity over time','Mutual consideration, not matching secrets']], 'Disclosure needs willingness and responsiveness.');}
 function attachmentBoundaryFigure(){return compareFigure('attachment-boundary','A declined invitation is useful information',
  ['What Sam says',['“I need time alone.”','An expressed','preference for now.'],'sam'],
- ['A respectful response',['Accept the refusal.','Leave future contact','optional.','One occasion does not','establish an','attachment style.'],'person'],
+ ['Leo’s response',['Accept the refusal.','Leave future contact','optional.','One occasion does not','establish an','attachment style.'],'person'],
  ['Attachment labels describe studied patterns.','They are not diagnoses or permission to persist.']);}
 function relationshipEvidenceFigure(){return compareFigure('relationship-evidence','An association and an individual relationship',
  ['Study reports',['Some partners report','greater similarity','and satisfaction.','Self-reports can','have limitations.'],'record'],
- ['Questions left open',['Other influences?','What caused what?','Whose relationships','were represented?','What does this','pair want?'],'person'],
+ ['Sam and Leo’s situation',['Ask Sam and Leo','about their experiences','and preferences.','A group average','cannot choose','their goals.'],'person'],
  ['Association alone does not establish an intervention.','Ask about the pair’s actual experience.']);}
 function helpingPathFigure(){return flowFigure('helping-path','Turn concern into a safe path to action',[
  ['Notice and interpret the need','Clarify what is happening'],['Accept responsibility','Agree who will take the next step'],['Identify an appropriate safe action','Use available skills, training, and support'],['Act and review','For a low-risk task, check the outcome']], 'In emergencies, follow local guidance and training.');}
@@ -149,14 +149,14 @@ function lessonView(key,title,render,caption,terms){return {key,title,render,cap
 function personSituationModelFigure(){return scene('room','concept').replace('<svg ','<svg data-diagram="person-situation-model" ');}
 const visualLessons={
  c01s03:[lessonView('person-situation-model','Person and situation together',personSituationModelFigure,'Personal qualities and circumstances can both contribute.',['Situation']),lessonView('person-situation','Disposition and immediate demands',personSituationFigure,'Personal tendencies and immediate demands can interact.',['Disposition'])],
- c01s04:[lessonView('attribution-error','Fundamental attribution error',attributionErrorScene,'The imbalance is in Leo’s explanation.',['Fundamental attribution error']),lessonView('observation-attribution','Observation and attribution',observationFigure,'Separate the action from a proposed cause.',['Observation','Attribution'])],
- c01s05:[lessonView('actor-observer','Actor–observer differences',actorObserverFigure,'A possible difference in how actions are explained.',['actor–observer differences']),lessonView('repeated-evidence','Attribution across repeated observations',repeatedEvidenceFigure,'Check settings, exceptions, and alternatives.',['Attribution'])],
+ c01s04:[lessonView('attribution-error','Fundamental attribution error',attributionErrorScene,'The imbalance is in Leo’s explanation.',['Fundamental attribution error']),lessonView('observation-attribution','Observation and attribution',observationFigure,'Leo’s observation and his attribution answer different questions.',['Observation','Attribution'])],
+ c01s05:[lessonView('actor-observer','Actor–observer differences',actorObserverFigure,'Hypothetical explanations by the same observer.',['actor–observer differences']),lessonView('repeated-evidence','Attribution across repeated observations',repeatedEvidenceFigure,'Use settings, exceptions, and alternatives to check your own account.',['Attribution'])],
  c02s03:[lessonView('confounding','Confounding',confoundingScene,conceptCaptions.c02s03,['Confound']),lessonView('sampling-assignment','Random sampling and random assignment',samplingFigure,'Choosing the sample and assigning conditions answer different questions.',['Random assignment','Random sampling']),lessonView('correlation-causation','Correlation and causation',correlationFigure,'A shared pattern leaves multiple causes possible.',['Correlation'])],
  c02s04:[lessonView('effect-size','Effect size and uncertainty',differenceFigure,'Invented counts illustrate the size of a difference.',['percentage points']),lessonView('significance-importance','Statistical significance and practical importance',significanceFigure,'Model-based evidence and practical value are different questions.',['Statistical significance'])],
  c02s05:[lessonView('research-reliability','Preregistration, transparency, and replication',researchCycleFigure,'Plan, inspect, and independently repeat a sound comparison.',['Replication','Preregistration'])],
  c03s03:[lessonView('availability-base-rate','Availability heuristic, base rates, and denominators',availabilityFigure,'The invented whole record gives a vivid case its denominator.',['Availability heuristic','Base rate','Denominator'])],
- c03s04:[lessonView('confirmation-bias','Confirmation bias',confirmationBiasScene,conceptCaptions.c03s04,['Confirmation bias']),lessonView('motivated-reasoning','Motivated reasoning',motivatedReasoningFigure,'A desired conclusion can affect how evidence is judged.',['Motivated reasoning'])],
- c03s05:[lessonView('bias-evidence','Check a bias claim against evidence',biasCheckFigure,'A shortcut can mislead or reflect useful experience.',[])],
+ c03s04:[lessonView('confirmation-bias','Confirmation bias',confirmationBiasScene,conceptCaptions.c03s04,['Confirmation bias']),lessonView('motivated-reasoning','Motivated reasoning',motivatedReasoningFigure,'Maya’s desired outcome may shape how she judges the evidence.',['Motivated reasoning'])],
+ c03s05:[lessonView('bias-evidence','Check a bias claim against evidence',biasCheckFigure,'Compare another person’s estimate with the record behind it.',[])],
  c04s03:[lessonView('cognitive-dissonance','Cognitive dissonance and cognitions',dissonanceFigure,'Inconsistency can motivate several different responses.',['Cognitive dissonance','Cognitions'])],
  c04s04:[lessonView('sunk-cost','Sunk cost effect and future consequences',sunkCostScene,conceptCaptions.c04s04,['Sunk cost','Sunk cost effect'])],
  c04s05:[lessonView('dissonance-evidence','A procedure, a prediction, and a theory',dissonanceEvidenceFigure,'The cited replication concerns a particular induced-compliance procedure.',['induced-compliance'])],
@@ -168,13 +168,13 @@ const visualLessons={
  c06s05:[lessonView('persuasion-outcomes','Attention, understanding, and participation',persuasionOutcomesFigure,'Measure later outcomes rather than assuming them from clicks.',[])],
  c07s03:[lessonView('ingroup-favoritism','Social identity and in-group favoritism',identityFigure,'Group preference can produce unequal treatment.',['Social identity','In-group favoritism']),lessonView('shared-goal','A shared goal and workable arrangements',sharedGoalFigure,'Shared identity needs coordination, resources, and decision rights.',[])],
  c07s04:[lessonView('group-polarization','Group polarization and consensus',groupPolarizationScene,conceptCaptions.c07s04,['Group polarization']),lessonView('loafing-coordination','Social loafing and coordination loss',loafingCoordinationFigure,'Different processes require different remedies.',['Social loafing','Coordination loss'])],
- c07s05:[lessonView('groupthink','Groupthink and visible decision processes',groupthinkFigure,'Look for suppressed concerns and missing information.',['Groupthink'])],
+ c07s05:[lessonView('groupthink','Groupthink and visible decision processes',groupthinkFigure,'Ask members about their concerns and check which information reached the discussion.',['Groupthink'])],
  c08s03:[lessonView('belief-attitude-action','Stereotypes, prejudice, and discrimination',prejudiceFigure,'Belief, attitude, and action are related but distinct.',['Stereotype','Prejudice','Discrimination']),lessonView('structural-barriers','Rules and unequal access',structuralBarrierFigure,'An arrangement can exclude without an openly hostile statement.',[])],
  c08s04:[lessonView('intergroup-contact','Intergroup contact and participation',contactFigure,'Cooperation, equal status, shared goals, and support matter.',['Intergroup contact']),lessonView('procedural-change','Procedural changes to access',proceduralChangeFigure,'Examine who can enter and participate after the change.',['Procedural change'])],
  c08s05:[lessonView('attitude-measures','Explicit attitudes, implicit associations, and behavior',prejudiceMeasuresFigure,'Different measurements do not supply a complete character diagnosis.',['explicit attitude','implicit association'])],
  c09s03:[lessonView('relationship-opportunity','Proximity and similarity',opportunityFigure,'Shared settings create opportunities, with mutual willingness.',['Proximity','Similarity']),lessonView('mere-exposure','The mere exposure effect',exposureFigure,'Familiarity has limits and does not override boundaries.',['Mere exposure effect'])],
- c09s04:[lessonView('disclosure-responsiveness','Disclosure, responsiveness, and reciprocity',responsivenessFigure,'Connection depends on what each person wants and how the other responds.',['Disclosure','Responsiveness','Reciprocity']),lessonView('attachment-boundary','Attachment labels and stated boundaries',attachmentBoundaryFigure,'Respect a stated preference without inventing a diagnosis.',['Attachment'])],
- c09s05:[lessonView('relationship-evidence','Relationship evidence and its limits',relationshipEvidenceFigure,'Check causal uncertainty, measurement, and the particular pair.',[])],
+ c09s04:[lessonView('disclosure-responsiveness','Disclosure, responsiveness, and reciprocity',responsivenessFigure,'Connection depends on what each person wants and how the other responds.',['Disclosure','Responsiveness','Reciprocity']),lessonView('attachment-boundary','Attachment labels and stated boundaries',attachmentBoundaryFigure,'Leo can respect Sam’s preference without inferring an attachment style.',['Attachment'])],
+ c09s05:[lessonView('relationship-evidence','Relationship evidence and its limits',relationshipEvidenceFigure,'Use research to frame questions, then ask about Sam and Leo’s own experiences and preferences.',[])],
  c10s03:[lessonView('helping-barriers','Helping and the bystander effect',helpingBarriersScene,'In some settings, others’ presence can reduce an individual’s likelihood of helping. These are two possible processes; context, skills, and support also matter.',['Bystander effect','Diffusion of responsibility','Pluralistic ignorance']),lessonView('helping-path','A safe helping process',helpingPathFigure,'Clear responsibility, skills, and support can make action feasible.',[])],
  c10s04:[lessonView('anger-aggression','Anger, aggression, and de-escalation',aggressionFigure,'A feeling does not predetermine a harmful action.',['Aggression','De-escalation']),lessonView('cooperation-plan','Cooperation with roles and feedback',cooperationFigure,'A specific arrangement can turn a shared aim into coordinated work.',['Cooperation'])],
  c10s05:[lessonView('proxy-and-context','Research measures, context, and safe help',proxyMeasuresFigure,'Interpret controlled tasks and real incidents with appropriate limits.',[])]

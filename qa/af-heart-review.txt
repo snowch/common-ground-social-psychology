@@ -1,4 +1,16 @@
-AF_HEART AUDIO REVIEW — CURRENT CLARITY PASS
+AF_HEART AUDIO REVIEW — CURRENT PERSPECTIVE PASS
+
+Reviewed all ten chapters for unmarked shifts between checking your own reasoning, assessing another person’s reasoning, and interpreting private experiences. Regenerated and independently screened 20 revised clips; verified the encoded hashes of 130 unchanged clips. The Kokoro v1.0 ONNX af_heart voice, model hashes, and speed 1.0 are unchanged. Requested pauses were verified in the revised WAVs. Continuous tracks total about 56 minutes.
+
+No revised clip has an automated screening flag. Eight flags remain in unchanged clips: seven pacing flags and one number-formatting word-match flag. The interpretation in the previous review below remains relevant to those unchanged recordings.
+
+All revised ASR transcript differences were inspected. Most involve accents, possessives, word boundaries, or inflection. The recognizer renders “bus delay” as “bust delay,” “An attribution” as “And attribution,” and “bias label” as “biased label”; these substitutions persist in isolated-paragraph transcription, while the synthesis phonemes encode the intended words. The c08s05 full-clip transcript substituted “collecting” for “Investigating”; unprompted transcription of its isolated final paragraph recovers the intended wording. The isolated results are in perspective-targeted-asr.json. These checks cannot establish perceptual quality or rule out ambiguous speech.
+
+Current text, waveform pause checks, encoded hashes, and continuous-track duration checks are in perspective-review.json. Browser decoding/playback evidence is in af-heart-browser-results.json. These checks are automated screening and editorial inspection, not human listening approval or evidence of learner comprehension.
+
+HISTORICAL REVIEW FOLLOWS — PRIOR CLARITY PASS
+
+AF_HEART AUDIO REVIEW — CLARITY PASS
 
 Reviewed the complete course for abstract definitions, unclear references, and missing links between ideas and examples. Regenerated and independently screened 36 revised clips; verified the encoded hashes of 114 unchanged clips. The Kokoro v1.0 ONNX af_heart voice, model hashes, and speed 1.0 are unchanged. Deliberate pauses were verified in the revised WAVs.
 

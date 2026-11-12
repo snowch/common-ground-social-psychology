@@ -4,7 +4,7 @@
   "intro": "Work without your notes first. Allow about 20–30 minutes. Write your reasoning somewhere private; this page does not collect or grade it. The case is fictional, and different well-supported plans can be reasonable.",
   "paragraphs": [
     "An online language club changes its reminder message. Attendance rises from 14 of 20 members one week to 17 of 20 the next. That second week also has a different lesson topic and a school holiday. The organizer credits the new message.",
-    "The organizer opens a planning call by recommending daily homework. Two members agree; others remain quiet. One quiet member privately worries about the workload and assumes everyone else wants the plan. Another member’s late arrivals are described as poor commitment before anyone asks about their work schedule.",
+    "The organizer opens a planning call by recommending daily homework. Two members agree; others remain quiet. One quiet member privately worries about the workload and assumes everyone else wants the plan. The organizer describes another member’s late arrivals as poor commitment without first asking about that member’s work schedule.",
     "The club has already paid a nonrefundable fee for a learning app. Some members want to keep using it because of that payment, although a free alternative may meet their future needs. The organizer also worries that switching would make their earlier judgment look poor. Recruitment mainly happens through existing friends. A proposed invitation says that everyone practices daily, but the club has no evidence for that claim.",
     "A newcomer shares a personal difficulty. A member offers advice immediately without asking what support is wanted. Later, a shared resource list remains unfinished because each person assumed someone else was responsible."
   ],
@@ -15,8 +15,8 @@
         1,
         3
       ],
-      "prompt": "Identify two observations and two interpretations. Give a plausible alternative to one interpretation, and name evidence that would help distinguish the explanations. What records would you need before judging how common late arrivals are?",
-      "answer": "Attendance counts and late arrivals are observations. Crediting the reminder or inferring poor commitment are interpretations. Lesson interest, the holiday, or a work constraint are alternatives. Comparable attendance records or a respectful question about availability could help distinguish them. Estimating lateness also requires a consistent definition and a record of all comparable arrivals, including those on time; a few memorable late arrivals do not supply a rate."
+      "prompt": "Identify two observations and two interpretations. For each interpretation, state who holds it. Give a plausible alternative to one interpretation, and name evidence that could distinguish the explanations. What records would you need before judging how common late arrivals are?",
+      "answer": "The attendance counts and the reported late arrivals are observations. The organizer’s claim that the reminder caused the rise and the organizer’s judgment about the late member’s commitment are interpretations. Lesson interest, the holiday, or a work constraint are alternatives to investigate. Comparable attendance records or a respectful question about the member’s availability could help distinguish causes. Estimating lateness also requires a consistent definition and a record of all comparable arrivals, including those on time; a few memorable late arrivals do not supply a rate."
     },
     {
       "title": "Test a causal claim",
@@ -40,8 +40,8 @@
       "chapters": [
         4
       ],
-      "prompt": "Explain how the app payment should enter the decision. Identify at least two future consequences that still matter. Distinguish defending an earlier judgment from counting money that cannot be recovered.",
-      "answer": "The nonrefundable payment is a sunk cost: money already spent that cannot be recovered under the case assumptions. Compare future time, support, switching costs, accessibility, reliability, and learning benefits. Keeping the paid app can be reasonable if its future advantages justify it; switching is not automatically the correct answer. Defending an earlier judgment may reduce discomfort about inconsistency; treating the nonrefundable fee as a reason to continue is the distinct sunk-cost problem."
+      "prompt": "Explain how the app payment should enter the club’s decision. Identify at least two future consequences that still matter. Separate the organizer’s concern about appearing wrong from the members’ attention to money that cannot be recovered.",
+      "answer": "The nonrefundable payment is a sunk cost: money already spent that cannot be recovered under the case assumptions. Compare future time, support, switching costs, accessibility, reliability, and learning benefits. Keeping the paid app can be reasonable if its future advantages justify it; switching is not automatically the correct answer. For the organizer, defending the earlier recommendation may reduce discomfort about inconsistency. For the members focused on the payment, treating the nonrefundable fee as a reason to continue is the distinct sunk-cost problem."
     },
     {
       "title": "Design an honest, accessible invitation",

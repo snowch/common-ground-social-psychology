@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c01s05",
+    "paragraph": 1,
+    "heard": "And attribution is an explanation of what caused an action.  Attribution research describes patterns across judgments.  Personal qualities can matter, and repeated behavior  across varied settings is more informative than one episode.",
+    "method": "Unprompted Whisper small.en on isolated paragraph, with VAD. Not a human listening review."
+  },
+  {
+    "id": "c01s05",
+    "paragraph": 2,
+    "heard": "Actor-observer differences compare how one observer explains their own actions and other  people's actions.  In a hypothetical comparison, Leo might cite a bust delay for his own lateness, but Maya's  priorities for hers.  The pattern varies with the judgment and study design.",
+    "method": "Unprompted Whisper small.en on isolated paragraph, with VAD. Not a human listening review."
+  },
+  {
+    "id": "c03s05",
+    "paragraph": 1,
+    "heard": "When assessing someone else's estimate, compare that estimate with a relevant record before  proposing that it is biased.  A biased label alone cannot establish how the person reached the estimate.",
+    "method": "Unprompted Whisper small.en on isolated paragraph, with VAD. Not a human listening review."
+  },
+  {
+    "id": "c08s05",
+    "paragraph": 4,
+    "heard": "Interpret small samples cautiously and protect privacy.  Investigating unequal access does not justify collecting  unnecessary personal information.",
+    "method": "Unprompted Whisper small.en on isolated paragraph, with VAD. Not a human listening review."
+  }
+]

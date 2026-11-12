@@ -4,7 +4,7 @@
       "Behavior can reflect personal tendencies, circumstances, and their interaction.",
       "Attribution biases describe tendencies rather than diagnoses of an individual."
     ],
-    "note": "A single late arrival cannot isolate character from circumstances. Use repeated observations and competing explanations; a bias label alone is not evidence.",
+    "note": "When checking your own explanation of someone’s behavior, compare repeated observations and plausible alternatives. A single late arrival leaves several causes possible.\n\nWhen assessing another person’s explanation, examine that person’s reasons and evidence. A bias label, or your disagreement with the conclusion, does not establish that the reasoning is biased.",
     "sources": [
       {
         "title": "Gilbert & Malone (1995), The correspondence bias",
@@ -32,7 +32,7 @@
       "Accessible examples can influence frequency judgments.",
       "Representative records help distinguish a vivid impression from the underlying rate."
     ],
-    "note": "Mental shortcuts can be useful. Check a judgment against relevant evidence before deciding it is biased. A complaint channel can identify faults without showing how common they are, because successful repairs may never be mentioned.",
+    "note": "To check your own estimate, compare the cases you remember with a relevant record that includes ordinary outcomes as well as striking ones. A complaint channel can identify faults without showing how common they are.\n\nTo evaluate someone else’s estimate, inspect the record they used before proposing a bias. A shortcut can sometimes reflect useful experience; disagreement alone does not settle the question.",
     "sources": [
       {
         "title": "Tversky & Kahneman (1973), Availability: A heuristic for judging frequency and probability",
@@ -98,7 +98,7 @@
       "Group polarization, social loafing, and coordination loss describe different processes.",
       "An unfinished task is insufficient evidence that people are loafing."
     ],
-    "note": "A poor decision does not establish groupthink, and poor output does not establish low effort. Identify an observable process before choosing a remedy. The café examples illustrate possible explanations rather than diagnosing real groups.",
+    "note": "When reviewing a group’s work, distinguish the result from the process that produced it. Poor output alone does not establish low effort, and a poor decision alone does not establish groupthink. Ask what participants did, what information was shared, and which practical conditions constrained the task. The café cases illustrate possible processes rather than diagnosing real groups.",
     "sources": [
       {
         "title": "Karau & Williams (1993), Social loafing: A meta-analytic review and theoretical integration",
