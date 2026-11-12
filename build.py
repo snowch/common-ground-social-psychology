@@ -22,7 +22,7 @@ rights=(R/'FONT-LICENSE.txt').read_text()+'\n'+(R/'THIRD-PARTY-NOTICES.txt').rea
 assert '-->' not in rights
 visual_js=(R/'visuals.js').read_text()+'\n'+(R/'visual-lessons.js').read_text()
 template=(R/'template.html').read_text().replace('__VISUALS__',visual_js).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights)
-for placeholder,file in [('__EVIDENCE__','course-evidence.json'),('__LEARNING_CHECK__','learning-check.json')]:
+for placeholder,file in [('__GLOSSARY__','glossary.json'),('__EVIDENCE__','course-evidence.json'),('__LEARNING_CHECK__','learning-check.json')]:
  template=template.replace(placeholder,json.dumps(json.loads((R/file).read_text()),ensure_ascii=False).replace('</','<\\/'))
 
 def render(path,chapters,prefix):
