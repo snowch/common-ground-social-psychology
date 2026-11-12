@@ -1,7 +1,7 @@
 {
   "revision": "all-concepts-visual",
-  "teaching_slides": 33,
-  "concept_slides": 23,
+  "teaching_slides": 48,
+  "concept_slides": 38,
   "evidence_slides": 10,
   "visual_views": 48,
   "visual_companion_pages": 49,
@@ -40,17 +40,17 @@
       "clipped_text": []
     },
     {
+      "visual": "correlation-causation",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
       "visual": "confounding",
       "width": 320,
       "clipped_text": []
     },
     {
       "visual": "sampling-assignment",
-      "width": 320,
-      "clipped_text": []
-    },
-    {
-      "visual": "correlation-causation",
       "width": 320,
       "clipped_text": []
     },
@@ -125,12 +125,12 @@
       "clipped_text": []
     },
     {
-      "visual": "message-processing",
+      "visual": "attitude-evaluation",
       "width": 320,
       "clipped_text": []
     },
     {
-      "visual": "attitude-evaluation",
+      "visual": "message-processing",
       "width": 320,
       "clipped_text": []
     },
@@ -280,17 +280,17 @@
       "clipped_text": []
     },
     {
+      "visual": "correlation-causation",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
       "visual": "confounding",
       "width": 390,
       "clipped_text": []
     },
     {
       "visual": "sampling-assignment",
-      "width": 390,
-      "clipped_text": []
-    },
-    {
-      "visual": "correlation-causation",
       "width": 390,
       "clipped_text": []
     },
@@ -365,12 +365,12 @@
       "clipped_text": []
     },
     {
-      "visual": "message-processing",
+      "visual": "attitude-evaluation",
       "width": 390,
       "clipped_text": []
     },
     {
-      "visual": "attitude-evaluation",
+      "visual": "message-processing",
       "width": 390,
       "clipped_text": []
     },
@@ -520,17 +520,17 @@
       "clipped_text": []
     },
     {
+      "visual": "correlation-causation",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
       "visual": "confounding",
       "width": 768,
       "clipped_text": []
     },
     {
       "visual": "sampling-assignment",
-      "width": 768,
-      "clipped_text": []
-    },
-    {
-      "visual": "correlation-causation",
       "width": 768,
       "clipped_text": []
     },
@@ -605,12 +605,12 @@
       "clipped_text": []
     },
     {
-      "visual": "message-processing",
+      "visual": "attitude-evaluation",
       "width": 768,
       "clipped_text": []
     },
     {
-      "visual": "attitude-evaluation",
+      "visual": "message-processing",
       "width": 768,
       "clipped_text": []
     },
@@ -760,17 +760,17 @@
       "clipped_text": []
     },
     {
+      "visual": "correlation-causation",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
       "visual": "confounding",
       "width": 1440,
       "clipped_text": []
     },
     {
       "visual": "sampling-assignment",
-      "width": 1440,
-      "clipped_text": []
-    },
-    {
-      "visual": "correlation-causation",
       "width": 1440,
       "clipped_text": []
     },
@@ -845,12 +845,12 @@
       "clipped_text": []
     },
     {
-      "visual": "message-processing",
+      "visual": "attitude-evaluation",
       "width": 1440,
       "clipped_text": []
     },
     {
-      "visual": "attitude-evaluation",
+      "visual": "message-processing",
       "width": 1440,
       "clipped_text": []
     },
@@ -982,72 +982,242 @@
       "violations": []
     },
     {
-      "screen": "c02s03-expanded",
+      "screen": "c01s03",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c02s04-expanded",
+      "screen": "c01s03b",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c03s04-expanded",
+      "screen": "c01s04",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c05s04-expanded",
+      "screen": "c01s04b",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c06s03-expanded",
+      "screen": "c01s05",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c06s04-expanded",
+      "screen": "c01s05b",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c07s03-expanded",
+      "screen": "c02s03",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c07s04-expanded",
+      "screen": "c02s03b",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c08s03-expanded",
+      "screen": "c02s03c",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c08s04-expanded",
+      "screen": "c02s04",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c09s03-expanded",
+      "screen": "c02s04b",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c09s04-expanded",
+      "screen": "c02s05",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c10s03-expanded",
+      "screen": "c03s03",
       "width": 390,
       "violations": []
     },
     {
-      "screen": "c10s04-expanded",
+      "screen": "c03s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c03s04b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c03s05",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c04s03",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c04s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c04s05",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c05s03",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c05s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c05s04b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c05s05",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c06s03",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c06s03b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c06s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c06s04b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c06s05",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c07s03",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c07s03b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c07s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c07s04b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c07s05",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c08s03",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c08s03b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c08s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c08s04b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c08s05",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c09s03",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c09s03b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c09s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c09s04b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c09s05",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c10s03",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c10s03b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c10s04",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c10s04b",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c10s05",
       "width": 390,
       "violations": []
     }

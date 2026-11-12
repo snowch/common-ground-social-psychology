@@ -67,7 +67,7 @@ function helpingBarriersScene(){
  label(260,27,'Two possible barriers to helping',23)+label(260,65,'Pluralistic ignorance',22)+worries+label(260,242,'Mistaking others’ calm for reassurance.',20)+
  `<path d="M35 268H485" stroke="#C5D3E5" stroke-width="1.5"/>`+label(260,299,'Diffusion of responsibility',22)+waiters);
 }
-const conceptScenes={c02s03:confoundingScene,c03s04:confirmationBiasScene,c04s04:sunkCostScene,c05s03:conformityMotivesScene,c07s04:groupPolarizationScene,c10s03:helpingBarriersScene};
+const conceptScenes={c02s03b:confoundingScene,c03s04:confirmationBiasScene,c04s04:sunkCostScene,c05s03:conformityMotivesScene,c07s04:groupPolarizationScene,c10s03:helpingBarriersScene};
 const conceptCaptions={c01s04b:'The imbalance is in Leo’s explanation.',c02s03:'Several changes can fit the same before-and-after pattern.',c03s04:'Expectations can change which evidence gets attention.',c04s04:'Past spending is unrecoverable; compare future consequences.',c05s03:'The same public agreement can reflect different private reasons.',c07s04:'Agreement can form with or without a more extreme leaning.',c10s03:'Context, skills, and available support also shape helping.'};
 function diagramCaption(chapter,slide){return visualLessons[slide.id]?.[0].caption||conceptCaptions[slide.id]||diagramCaptions[chapter.icon];}
 let artSerial=0;

@@ -57,6 +57,8 @@ async def main():
   for key,vs in manifest.items():
    await page.evaluate('(h)=>location.hash=h',f'chapter-{int(key[1:3])}-slide-{key.split('s')[1].lstrip('0')}')
    await page.locator(f'#app .slide-art > svg[data-diagram="{vs[0]["key"]}"]').wait_for()
+   assert not await bounds(page.locator('#app .slide-art > svg')),key
+   audits.append({'screen':key,'width':390,'violations':await audit(page)})
    if len(vs)>1:
     details=page.locator('#app .more-visuals');assert await details.get_attribute('open') is None
     await details.locator('summary').click()

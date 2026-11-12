@@ -12,7 +12,7 @@ An original, illustrated social psychology course in ten stories, with recorded 
 
 Each chapter download includes a narrated HTML deck, continuous audio, a chapter PDF, the study companion, and the complete visual companion in HTML and PDF. Extract the ZIP and open its chapter HTML file in a modern browser, then press **Play narration**. The recorded voice is embedded; no speech service or installed device voice is required. The M4A track can be played directly on a phone.
 
-All 23 concept slides and ten evidence slides have relevant visual explanations. Chapter 1 has eleven lesson steps; the remaining chapters have eight. “Test the explanation” is a separate narrated lesson following the comparison of Leo’s explanations. Where a slide teaches several ideas, **More visual explanations** opens separate figures. The 49-page visual companion collects all 48 views, with a cover and one figure per page. The chapter PDFs retain the primary figures; the companion includes every additional view.
+All 48 teaching pages have one primary illustration and independent narration. Distinct skills and worked examples appear in the normal lesson sequence. Related comparisons stay together, and Chapter 4 retains its existing focused structure. The 49-page visual companion collects all 48 figures, with a cover and one figure per page. Chapter PDFs include every teaching page. The [course-wide learning-design review](docs/course-wide-learning-review.md) explains the page-by-page decisions.
 
 ## Course
 
@@ -29,7 +29,7 @@ All 23 concept slides and ten evidence slides have relevant visual explanations.
 | 9 | A place beside someone | Attraction and relationships |
 | 10 | Who will do something? | Aggression, helping, and cooperation |
 
-There are 83 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 60 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
+There are 98 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 67 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
 
 The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. The [examples and explanation review](docs/clarity-review.md) adds concrete definitions, story connections, and clearer distinctions across all ten chapters. The [perspective review](docs/perspective-review.md) separates checking your own interpretation from assessing someone else’s reasoning and names whose belief or experience is being discussed. Essential concept names also appear directly on the teaching slides and in their PDFs, with short explanations. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
 
@@ -65,12 +65,13 @@ The **Deploy course to GitHub Pages** workflow builds the hosted course and chap
 - `course.json`: complete chapter content, quizzes, feedback, recall answers, outcomes, and references.
 - `course-evidence.json`, `learning-check.json`: chapter evidence notes and the written transfer case.
 - `study-guide.pdf`: printable evidence and assessment companion; `scripts/build_study_guide.py` generates its HTML.
-- `content.py`: original content authoring source; regenerates the canonical course JSON and teaching script.
+- `content.py`: story, decision, recall and field-practice authoring source; assembles the canonical course JSON and teaching script.
+- `teaching-pages.json`: canonical teaching-page text, sequence, stable identities and primary-figure keys. Edit this file for explanations and worked examples.
 - `template.html`, `build.py`: interactive player and portable/static builds.
-- `visuals.js`, `visual-lessons.js`: shared SVG artwork, concept-specific figures, and the complete visual coverage registry.
+- `visuals.js`, `visual-lessons.js`: shared SVG artwork and figure catalog; page placement comes from the course data.
 - `visual-guide.pdf`, `scripts/build_visual_guide.py`: printable visual companion and its self-contained HTML renderer.
 - `assets/fonts/`, `FONT-LICENSE.txt`: bundled fonts and their license information.
-- `audio/clips/`: 153 final AAC recordings, including feedback and recall answers.
+- `audio/clips/`: 168 final AAC recordings, including feedback and recall answers.
 - `audio/chapters/`: ten continuous listening tracks.
 - `audio/manifest.json`: encoded durations and SHA-256 hashes.
 - `chapters/*.pdf`, `common-ground-slides.pdf`: static slide decks.
@@ -90,9 +91,9 @@ The voice workflow uses [snowch/claude-skills](https://github.com/snowch/claude-
 
 ## Verification
 
-The recorded-audio browser check decoded all 153 recordings and exercised playback, pause/resume, stopping, rate changes, feedback and recall queues, navigation, mobile width, and a separate chapter deck. The 20 decisions' 60 feedback variants were checked.
+The recorded-audio browser check decoded all 168 recordings and exercised playback, pause/resume, stopping, rate changes, feedback and recall queues, navigation, mobile width, and a separate chapter deck. The 20 decisions' 60 feedback variants were checked.
 
-Independent Whisper `small.en` screening covers all 153 clips. The [Chapter 1 sequence review](docs/chapter-one-sequence-review.md) screens four changed or added recordings and retains 149 unchanged screens. The revised clips have no automated flags; 7 historical flags remain in unchanged clips. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
+Independent Whisper `small.en` screening covers all 168 clips. The [course-wide teaching review](docs/course-wide-learning-review.md) screens 29 changed or added recordings and retains 139 unchanged screens. The revised clips have no automated flags; 7 historical flags remain in unchanged clips. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
 
 For optional browser checks, install Playwright and Chromium, serve `dist` on port 8877, then run:
 
@@ -101,6 +102,8 @@ python3 -m pip install playwright
 python3 -m playwright install chromium
 python3 qa/check_deck.py
 python3 qa/check_recorded_audio.py
+python3 qa/check_teaching_sequence.py
+python3 qa/check_reading_layout.py
 # Optional broader accessibility and regression audit:
 curl -fsSL https://cdn.jsdelivr.net/npm/axe-core@4.10.3/axe.min.js -o /tmp/common-ground-axe.min.js
 python3 qa/check_course_review.py

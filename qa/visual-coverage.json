@@ -56,25 +56,29 @@
   ],
   "c02s03": [
     {
+      "key": "correlation-causation",
+      "title": "Correlation and causation",
+      "terms": [
+        "Correlation"
+      ]
+    }
+  ],
+  "c02s03b": [
+    {
       "key": "confounding",
       "title": "Confounding",
       "terms": [
         "Confound"
       ]
-    },
+    }
+  ],
+  "c02s03c": [
     {
       "key": "sampling-assignment",
       "title": "Random sampling and random assignment",
       "terms": [
         "Random assignment",
         "Random sampling"
-      ]
-    },
-    {
-      "key": "correlation-causation",
-      "title": "Correlation and causation",
-      "terms": [
-        "Correlation"
       ]
     }
   ],
@@ -85,7 +89,9 @@
       "terms": [
         "percentage points"
       ]
-    },
+    }
+  ],
+  "c02s04b": [
     {
       "key": "significance-importance",
       "title": "Statistical significance and practical importance",
@@ -122,7 +128,9 @@
       "terms": [
         "Confirmation bias"
       ]
-    },
+    }
+  ],
+  "c03s04b": [
     {
       "key": "motivated-reasoning",
       "title": "Motivated reasoning",
@@ -185,7 +193,9 @@
         "Compliance",
         "Obedience"
       ]
-    },
+    }
+  ],
+  "c05s04b": [
     {
       "key": "questioning-authority",
       "title": "Questioning an unsafe instruction",
@@ -201,19 +211,21 @@
   ],
   "c06s03": [
     {
+      "key": "attitude-evaluation",
+      "title": "Attitudes and action",
+      "terms": [
+        "Attitude"
+      ]
+    }
+  ],
+  "c06s03b": [
+    {
       "key": "message-processing",
       "title": "Central and peripheral processing",
       "terms": [
         "Elaboration likelihood model",
         "Central processing",
         "Peripheral processing"
-      ]
-    },
-    {
-      "key": "attitude-evaluation",
-      "title": "Attitudes and action",
-      "terms": [
-        "Attitude"
       ]
     }
   ],
@@ -225,7 +237,9 @@
         "Descriptive norm",
         "Injunctive norm"
       ]
-    },
+    }
+  ],
+  "c06s04b": [
     {
       "key": "honest-request",
       "title": "An honest, usable invitation",
@@ -247,7 +261,9 @@
         "Social identity",
         "In-group favoritism"
       ]
-    },
+    }
+  ],
+  "c07s03b": [
     {
       "key": "shared-goal",
       "title": "A shared goal and workable arrangements",
@@ -261,7 +277,9 @@
       "terms": [
         "Group polarization"
       ]
-    },
+    }
+  ],
+  "c07s04b": [
     {
       "key": "loafing-coordination",
       "title": "Social loafing and coordination loss",
@@ -289,7 +307,9 @@
         "Prejudice",
         "Discrimination"
       ]
-    },
+    }
+  ],
+  "c08s03b": [
     {
       "key": "structural-barriers",
       "title": "Rules and unequal access",
@@ -303,7 +323,9 @@
       "terms": [
         "Intergroup contact"
       ]
-    },
+    }
+  ],
+  "c08s04b": [
     {
       "key": "procedural-change",
       "title": "Procedural changes to access",
@@ -330,7 +352,9 @@
         "Proximity",
         "Similarity"
       ]
-    },
+    }
+  ],
+  "c09s03b": [
     {
       "key": "mere-exposure",
       "title": "The mere exposure effect",
@@ -348,7 +372,9 @@
         "Responsiveness",
         "Reciprocity"
       ]
-    },
+    }
+  ],
+  "c09s04b": [
     {
       "key": "attachment-boundary",
       "title": "Attachment labels and stated boundaries",
@@ -373,7 +399,9 @@
         "Diffusion of responsibility",
         "Pluralistic ignorance"
       ]
-    },
+    }
+  ],
+  "c10s03b": [
     {
       "key": "helping-path",
       "title": "A safe helping process",
@@ -388,7 +416,9 @@
         "Aggression",
         "De-escalation"
       ]
-    },
+    }
+  ],
+  "c10s04b": [
     {
       "key": "cooperation-plan",
       "title": "Cooperation with roles and feedback",

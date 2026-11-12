@@ -1,7 +1,7 @@
 {
-  "recordings": 153,
+  "recordings": 168,
   "audio_storage": "local files or embedded, depending on the selected build",
-  "metadata_decoded": 153,
+  "metadata_decoded": 168,
   "real_playback": "passed",
   "pause_resume_stop": "passed",
   "speed": "passed",

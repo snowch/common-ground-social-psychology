@@ -1,8 +1,8 @@
 {
-  "revision": "perspective-review",
+  "revision": "course-wide-learning-review",
   "native_evidence_disclosures": "passed",
   "chapters_reviewed": 10,
-  "slides_checked": 80,
+  "slides_checked": 98,
   "source_notes": 10,
   "written_transfer_tasks": 6,
   "rubric_dimensions": 4,
@@ -13,7 +13,7 @@
     "wcag21aa",
     "wcag22aa"
   ],
-  "axe_screens": 83,
+  "axe_screens": 101,
   "axe_violations": 0,
   "widths": [
     320,
