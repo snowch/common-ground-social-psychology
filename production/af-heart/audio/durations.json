@@ -12,7 +12,7 @@
   "provider": "CPUExecutionProvider"
  },
  "durations": {
-  "c01s01": 48.549,
+  "c01s01": 50.187,
   "c01s02": 28.719,
   "c01s02-feedback-0": 8.35,
   "c01s02-feedback-1": 7.027,
