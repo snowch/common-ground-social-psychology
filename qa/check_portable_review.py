@@ -11,10 +11,10 @@ async def main():
   async def load(relative):
    await ctx.set_offline(False);await page.goto(BASE+'/'+relative);await ctx.set_offline(True)
   await load('index.html#chapter-1-slide-1');await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1');await page.locator('#stop').click()
-  first=json.loads((R/'course.json').read_text())[0]['slides']
-  for token in ['3b','4b','5b']:
-   slide=next(s for s in first if s['id'].split('s')[1].lstrip('0')==token)
-   await page.evaluate('(t)=>location.hash="chapter-1-slide-"+t',token);await page.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=slide['title'])
+  course=json.loads((R/'course.json').read_text());added=[(c,s) for c in course for s in c['slides'] if s['id'][-1].isalpha()]
+  for c,slide in added:
+   token=slide['id'].split('s')[1].lstrip('0')
+   await page.evaluate('(h)=>location.hash=h',f"chapter-{c['number']}-slide-{token}");await page.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=slide['title'])
    await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1');assert await page.evaluate('(id)=>audioPlayer.src===RECORDED_AUDIO[id]',slide['id']);await page.locator('#stop').click()
   await page.evaluate("location.hash='case'");await page.wait_for_selector('.case-wrap');assert await page.locator('.case-wrap ol li').count()==6
   for n in range(1,11):
@@ -23,5 +23,5 @@ async def main():
   await page.evaluate("location.hash='case'");await page.wait_for_selector('.case-wrap');assert await page.locator('.case-wrap ol li').count()==6
   await load('study-guide.html');assert await page.locator('section.chapter').count()==10
   assert not errors and not requests,(errors,requests)
-  out={'build':'out/portable','embedded_audio_hashes_verified':len(expected),'network_disabled_during_interaction_and_playback':True,'load_method':'Portable document served locally, then browser network disabled; file URLs are blocked by managed Chromium policy and were not tested','chapter_decks_played':10,'full_deck_playback':'passed','written_case_full_and_standalone':'passed','study_companion':'passed','external_requests':requests,'js_errors':errors};(R/'qa/course-review-portable.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2));await b.close()
+  out={'build':'out/portable','embedded_audio_hashes_verified':len(expected),'network_disabled_during_interaction_and_playback':True,'load_method':'Portable document served locally, then browser network disabled; file URLs are blocked by managed Chromium policy and were not tested','independent_teaching_pages_played':len(added),'chapter_decks_played':10,'full_deck_playback':'passed','written_case_full_and_standalone':'passed','study_companion':'passed','external_requests':requests,'js_errors':errors};(R/'qa/course-review-portable.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2));await b.close()
 asyncio.run(main())

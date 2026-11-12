@@ -2,7 +2,7 @@
 
 The final recordings are already committed in `audio/`. Do not regenerate unchanged speech for visual edits.
 
-After editing `content.py`, run `python3 content.py`, then `python3 scripts/sync_narration.py`. The latter retains speech forms for unchanged text and prepares updated scripts for changed clips; it does not generate audio. Run `python3 scripts/sync_narration.py --check` to detect stale recording scripts. Regenerate and screen changed clips before publishing, and update the current production provenance.
+Edit `teaching-pages.json` for explanations and worked examples, or `content.py` for stories, decisions, retrieval, and field practice. Then run `python3 content.py`, then `python3 scripts/sync_narration.py`. The latter retains speech forms for unchanged text and prepares updated scripts for changed clips; it does not generate audio. Run `python3 scripts/sync_narration.py --check` to detect stale recording scripts. Regenerate and screen changed clips before publishing, and update the current production provenance.
 
 Voice: Kokoro v1.0, `af_heart`, speed `1.0`, ONNX CPU. The originating skill commit is `c9a7c521568632aa216932f4c965df386498602a` in `snowch/claude-skills`. It verifies downloaded model and voice files against pinned hashes.
 

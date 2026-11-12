@@ -46,7 +46,7 @@ async def main():
   await pg.screenshot(path=str(R/'qa/af-heart-mobile.png'),full_page=True)
   # Separate chapter has all 15 recordings and plays them without external assets.
   await pg.goto((os.environ.get('COURSE_BASE_URL','http://127.0.0.1:8877').rstrip('/')+'/chapters/chapter-10.html'));await pg.wait_for_selector('#read')
-  assert await pg.evaluate('Object.keys(RECORDED_AUDIO).length')==15
+  assert await pg.evaluate('Object.keys(RECORDED_AUDIO).length')==sum(x['id'].startswith('c10') for x in json.loads((R/'audio/manifest.json').read_text())['clips'])
   await pg.locator('#read').click();await pg.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1')
   await pg.locator('#stop').click()
   assert not errors,errors

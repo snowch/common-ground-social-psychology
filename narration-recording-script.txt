@@ -192,23 +192,45 @@ c02s02-feedback-2 | Decision feedback
 Good application. Saying that attendance rose preserves the observation. Leaving the cause open reflects the limits of the comparison.
 Speech-specific rendering: Good application. [pause 0.35] Saying that attendance rose preserves the observation. Leaving the cause open reflects the limits of the comparison.
 
-c02s03 | Comparison makes a claim testable.
-Correlation means that two things vary together. A confound is another factor that could explain an apparent relationship. Attendance rose after Leo changed the poster, but better weather could also have brought more visitors. The poster comparison cannot separate those explanations.
+c02s03 | Together does not establish because.
+Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain.
 
-An experiment deliberately changes a condition and compares outcomes. For one café event, a chance process could assign households to receive invitation A or B. This random assignment helps balance other influences between groups on average; it cannot guarantee identical groups.
+Leo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes.
 
-Random sampling concerns who enters the study. Selecting households by chance from a neighborhood list is different from assigning invitation designs to households already selected. Testing only existing supporters may tell us little about residents who have never visited.
-Speech-specific rendering: Correlation means that two things vary together. A confound is another factor that could explain an apparent relationship. Attendance rose after Leo changed the poster, but better weather could also have brought more visitors. The poster comparison cannot separate those explanations. [pause 0.9] An experiment deliberately changes a condition and compares outcomes. For one café event, a chance process could assign households to receive invitation A or B. This random assignment helps balance other influences between groups on average; it cannot guarantee identical groups. [pause 0.9] Random sampling concerns who enters the study. Selecting households by chance from a neighborhood list is different from assigning invitation designs to households already selected. Testing only existing supporters may tell us little about residents who have never visited.
+When you assess a causal claim, distinguish the observed change from the proposed explanation. Then ask what comparison could help test that explanation.
+Speech-specific rendering: Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain. [pause 0.9] Leo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes. [pause 0.9] When you assess a causal claim, distinguish the observed change from the proposed explanation. Then ask what comparison could help test that explanation.
 
-c02s04 | Ask how much—and how uncertain.
-Imagine two groups of one hundred households. Twelve attend after receiving one invitation design. Fifteen attend after receiving the other. These are invented teaching numbers.
+c02s03b | Several changes, one result.
+A confound is another factor that could explain an apparent relationship. Leo changed the poster, but the weather improved and the local paper also covered the café.
 
-Attendance is twelve percent in one group and fifteen percent in the other: a difference of three percentage points. A different sample could produce a different result, so the estimated advantage has uncertainty.
+Because these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.
 
-Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not tell us whether a difference matters in practice. A small change could be statistically significant in a large study, yet be too small to justify an expensive campaign.
+A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
+Speech-specific rendering: A confound is another factor that could explain an apparent relationship. Leo changed the poster, but the weather improved and the local paper also covered the café. [pause 0.9] Because these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem. [pause 0.9] A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
 
-A nonsignificant result does not prove zero effect. Examine the size of the estimate, its uncertainty, the study design, and other tests.
-Speech-specific rendering: Imagine two groups of one hundred households. Twelve attend after receiving one invitation design. Fifteen attend after receiving the other. These are invented teaching numbers. [pause 0.9] Attendance is twelve percent in one group and fifteen percent in the other: a difference of three percentage points. A different sample could produce a different result, so the estimated advantage has uncertainty. [pause 0.9] Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not tell us whether a difference matters in practice. A small change could be statistically significant in a large study, yet be too small to justify an expensive campaign. [pause 0.9] A nonsignificant result does not prove zero effect. Examine the size of the estimate, its uncertainty, the study design, and other tests.
+c02s03c | Select people. Assign conditions.
+Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives.
+
+The café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups.
+
+Testing only existing supporters may tell the team little about residents who have never visited. Randomly assigning those supporters to versions would not solve that sampling limitation.
+Speech-specific rendering: Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives. [pause 0.9] The café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups. [pause 0.9] Testing only existing supporters may tell the team little about residents who have never visited. Randomly assigning those supporters to versions would not solve that sampling limitation.
+
+c02s04 | How large is the difference?
+Imagine two groups of one hundred households. Twelve attend after receiving invitation A, and fifteen attend after receiving invitation B. These are invented teaching numbers.
+
+Attendance differs by three percentage points: fifteen percent minus twelve percent. A different sample could produce a different result, so this estimate has uncertainty.
+
+The café needs to consider the size and precision of the estimated difference alongside the cost of changing its invitation. Whether a statistical test calls the result significant is a separate question.
+Speech-specific rendering: Imagine two groups of one hundred households. Twelve attend after receiving invitation A, and fifteen attend after receiving invitation B. These are invented teaching numbers. [pause 0.9] Attendance differs by three percentage points: fifteen percent minus twelve percent. A different sample could produce a different result, so this estimate has uncertainty. [pause 0.9] The café needs to consider the size and precision of the estimated difference alongside the cost of changing its invitation. Whether a statistical test calls the result significant is a separate question.
+
+c02s04b | Significance and usefulness are different questions.
+Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not measure whether a difference is useful.
+
+A small attendance increase could be statistically significant in a large study, yet be too small to justify an expensive campaign. Conversely, an imprecise estimate may leave a useful effect uncertain.
+
+A nonsignificant result does not prove zero effect. Inspect the estimated size, its uncertainty, the study design, and other tests before deciding what the café should do.
+Speech-specific rendering: Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not measure whether a difference is useful. [pause 0.9] A small attendance increase could be statistically significant in a large study, yet be too small to justify an expensive campaign. Conversely, an imprecise estimate may leave a useful effect uncertain. [pause 0.9] A nonsignificant result does not prove zero effect. Inspect the estimated size, its uncertainty, the study design, and other tests before deciding what the café should do.
 
 c02s05 | What can we really conclude?
 Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.
@@ -312,15 +334,21 @@ Vivid or recent examples can be a poor guide to frequency. A complaint channel h
 To estimate a failure rate, count failures and the total of comparable repairs. In an invented example, four failures among forty repairs means ten percent. Forty is the denominator: the total used to interpret the four failures. Without that total and consistent follow-up, the café cannot tell how common failure is.
 Speech-specific rendering: Heuristics are mental shortcuts. They can help when time and information are limited. The availability shortcut uses examples that come easily to mind. After hearing the toaster story, Leo may judge repair failures by how easily he remembers one. [pause 0.9] Vivid or recent examples can be a poor guide to frequency. A complaint channel helps discover faults, but usually says little about repairs that worked. [pause 0.9] To estimate a failure rate, count failures and the total of comparable repairs. In an invented example, four failures among forty repairs means ten percent. Forty is the denominator: the total used to interpret the four failures. Without that total and consistent follow-up, the café cannot tell how common failure is.
 
-c03s04 | Beliefs can filter their own evidence.
-Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives his belief an unfair advantage.
+c03s04 | Give a belief a fair test.
+Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives that belief an unfair advantage.
 
-Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so she may find reassuring repair stories easier to accept. These processes can overlap; neither label proves that a conclusion is wrong.
+A fairer check defines the outcome first and records comparable successes and failures. Someone with a different expectation can review whether the same standard was applied to every case.
 
-To check your own reasoning, define the outcome before collecting results. Record comparable successes and failures. Ask someone with a different expectation to review that record.
+For your own reasoning, ask what evidence could change your initial view. The aim is to make the belief testable. Naming a bias alone does not establish that a conclusion is wrong.
+Speech-specific rendering: Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives that belief an unfair advantage. [pause 0.9] A fairer check defines the outcome first and records comparable successes and failures. Someone with a different expectation can review whether the same standard was applied to every case. [pause 0.9] For your own reasoning, ask what evidence could change your initial view. The aim is to make the belief testable. Naming a bias alone does not establish that a conclusion is wrong.
 
-These steps make it possible for evidence to challenge your initial belief.
-Speech-specific rendering: Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives his belief an unfair advantage. [pause 0.9] Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. [Maya](/mˈaɪə/) wants the café to succeed, so she may find reassuring repair stories easier to accept. These processes can overlap; neither label proves that a conclusion is wrong. [pause 0.9] To check your own reasoning, define the outcome before collecting results. Record comparable successes and failures. Ask someone with a different expectation to review that record. [pause 0.9] These steps make it possible for evidence to challenge your initial belief.
+c03s04b | When a desired answer feels persuasive.
+Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so reassuring repair stories may feel easier to accept than reports of returns.
+
+The desired conclusion could still be correct. To investigate it, Maya can define a repair failure in advance, follow up comparable repairs consistently, and invite someone to challenge the initial interpretation.
+
+With confirmation bias, the question is whether evidence was selected to fit an existing belief. With motivated reasoning, the question is whether a preferred conclusion shaped that evaluation. The processes can overlap. Test the evidence; a label alone does not settle the issue.
+Speech-specific rendering: Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. [Maya](/mˈaɪə/) wants the café to succeed, so reassuring repair stories may feel easier to accept than reports of returns. [pause 0.9] The desired conclusion could still be correct. To investigate it, [Maya](/mˈaɪə/) can define a repair failure in advance, follow up comparable repairs consistently, and invite someone to challenge the initial interpretation. [pause 0.9] With confirmation bias, the question is whether evidence was selected to fit an existing belief. With motivated reasoning, the question is whether a preferred conclusion shaped that evaluation. The processes can overlap. Test the evidence; a label alone does not settle the issue.
 
 c03s05 | What can we really conclude?
 When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.
@@ -535,13 +563,21 @@ Both influences can operate at once. Sam may doubt their own estimate and fear d
 For your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.
 Speech-specific rendering: Informational influence means treating other people’s responses as evidence about reality. Sam might think, “[Maya](/mˈaɪə/) agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain. [pause 0.9] Normative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.” [pause 0.9] Both influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair. [pause 0.9] For your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.
 
-c05s04 | Authority changes the pressure.
-Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following a chair’s instruction because the chair is in charge illustrates obedience.
+c05s04 | A request and an authority’s order.
+Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following the chair’s instruction because the chair is in charge illustrates obedience.
 
-A request from an authority can involve both processes. The role may make a demand feel legitimate or encourage someone to think, “The chair is responsible for this decision.” That pressure does not make obedience inevitable. People can resist, and the surrounding conditions matter.
+A request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.
 
-At the café, an explicit rule allows any volunteer to stop unsafe work. An agreed route for raising the concern gives that volunteer a practical next step after questioning an instruction.
-Speech-specific rendering: Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following a chair’s instruction because the chair is in charge illustrates obedience. [pause 0.9] A request from an authority can involve both processes. The role may make a demand feel legitimate or encourage someone to think, “The chair is responsible for this decision.” That pressure does not make obedience inevitable. People can resist, and the surrounding conditions matter. [pause 0.9] At the café, an explicit rule allows any volunteer to stop unsafe work. An agreed route for raising the concern gives that volunteer a practical next step after questioning an instruction.
+That pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.
+Speech-specific rendering: Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following the chair’s instruction because the chair is in charge illustrates obedience. [pause 0.9] A request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision. [pause 0.9] That pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.
+
+c05s04b | Make questioning possible before work continues.
+In the café decision, the chair asks volunteers to bypass a required equipment check. The team needs a practical route for questioning that instruction while the decision still matters.
+
+An agreed rule can allow a volunteer to pause unsafe work, name the concern, and bring it to the person responsible under the team’s procedures. The response must reflect the relevant training and responsibilities.
+
+An invitation to speak up is less useful if nobody knows what happens next. Evaluate whether people can actually raise concerns before work continues. An authority’s instruction does not remove accountability.
+Speech-specific rendering: In the café decision, the chair asks volunteers to bypass a required equipment check. The team needs a practical route for questioning that instruction while the decision still matters. [pause 0.9] An agreed rule can allow a volunteer to pause unsafe work, name the concern, and bring it to the person responsible under the team’s procedures. The response must reflect the relevant training and responsibilities. [pause 0.9] An invitation to speak up is less useful if nobody knows what happens next. Evaluate whether people can actually raise concerns before work continues. An authority’s instruction does not remove accountability.
 
 c05s05 | What can we really conclude?
 In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence.
@@ -635,23 +671,37 @@ c06s02-feedback-2 | Decision feedback
 Consider the consequence. Calling the opportunity unmissable adds pressure without answering how much time it requires.
 Speech-specific rendering: Consider the consequence. [pause 0.35] Calling the opportunity unmissable adds pressure without answering how much time it requires.
 
-c06s03 | Attention and evaluation are different jobs.
-An attitude is an evaluation: for example, judging volunteering to be worthwhile or burdensome. The elaboration likelihood model describes how motivation and ability affect how carefully someone examines a persuasive message.
+c06s03 | An evaluation is not a sign-up.
+An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up.
 
-Central processing involves examining relevant arguments. A potential volunteer might compare the shift length, available support, and likely contribution. When someone can and wants to think carefully, argument quality matters more.
+A resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does.
 
-Peripheral processing gives more weight to cues, such as a familiar face or an apparently credible speaker. A hurried passerby might feel positive about the café because a favorite local celebrity supports it, without checking the practical details.
+When evaluating Maya’s invitation, distinguish a favorable reaction from understanding the commitment and choosing to participate. Ask what outcome the message is intended to support before deciding whether it worked.
+Speech-specific rendering: An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up. [pause 0.9] A resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does. [pause 0.9] When evaluating [Maya’s](/mˈaɪəz/) invitation, distinguish a favorable reaction from understanding the commitment and choosing to participate. Ask what outcome the message is intended to support before deciding whether it worked.
 
-These are differences in how a message is processed, not fixed personality types or two sealed categories. The same person can process different messages more or less carefully.
-Speech-specific rendering: An attitude is an evaluation: for example, judging volunteering to be worthwhile or burdensome. The elaboration likelihood model describes how motivation and ability affect how carefully someone examines a persuasive message. [pause 0.9] Central processing involves examining relevant arguments. A potential volunteer might compare the shift length, available support, and likely contribution. When someone can and wants to think carefully, argument quality matters more. [pause 0.9] Peripheral processing gives more weight to cues, such as a familiar face or an apparently credible speaker. A hurried passerby might feel positive about the café because a favorite local celebrity supports it, without checking the practical details. [pause 0.9] These are differences in how a message is processed, not fixed personality types or two sealed categories. The same person can process different messages more or less carefully.
+c06s03b | How carefully is the message examined?
+The elaboration likelihood model describes how motivation and ability affect examination of a persuasive message. Central processing involves considering relevant arguments, such as shift length, available support, and the likely contribution.
 
-c06s04 | A norm must be true to be useful.
-A descriptive norm concerns what people do. Saying that many residents volunteer communicates a descriptive norm. An injunctive norm concerns approval. Saying that the community values volunteering communicates an injunctive norm.
+Peripheral processing gives more weight to cues such as a familiar face or an apparently credible speaker. A hurried passerby might respond favorably to the celebrity without checking practical details.
 
-Both example claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.
+These are differences in how a message is processed, not fixed personality types or two sealed categories. The same person may examine different messages more or less carefully. Argument quality matters more when someone can and wants to think carefully.
+Speech-specific rendering: The elaboration likelihood model describes how motivation and ability affect examination of a persuasive message. Central processing involves considering relevant arguments, such as shift length, available support, and the likely contribution. [pause 0.9] Peripheral processing gives more weight to cues such as a familiar face or an apparently credible speaker. A hurried passerby might respond favorably to the celebrity without checking practical details. [pause 0.9] These are differences in how a message is processed, not fixed personality types or two sealed categories. The same person may examine different messages more or less carefully. Argument quality matters more when someone can and wants to think carefully.
 
-When you write an invitation, state what is known, explain the contribution needed, and make questions or refusal easy. The reader needs enough information to understand the commitment before choosing.
-Speech-specific rendering: A descriptive norm concerns what people do. Saying that many residents volunteer communicates a descriptive norm. An injunctive norm concerns approval. Saying that the community values volunteering communicates an injunctive norm. [pause 0.9] Both example claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal. [pause 0.9] When you write an invitation, state what is known, explain the contribution needed, and make questions or refusal easy. The reader needs enough information to understand the commitment before choosing.
+c06s04 | Check the truth of a norm claim.
+A descriptive norm concerns what people do. Saying that many residents volunteer makes a descriptive-norm claim. An injunctive norm concerns approval: saying the community values volunteering makes an injunctive-norm claim.
+
+Both claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.
+
+Before putting a norm in the café’s invitation, check whether the team can substantiate it. A truthful description of the actual commitment can be more useful than unsupported social proof.
+Speech-specific rendering: A descriptive norm concerns what people do. Saying that many residents volunteer makes a descriptive-norm claim. An injunctive norm concerns approval: saying the community values volunteering makes an injunctive-norm claim. [pause 0.9] Both claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal. [pause 0.9] Before putting a norm in the café’s invitation, check whether the team can substantiate it. A truthful description of the actual commitment can be more useful than unsupported social proof.
+
+c06s04b | Help someone make an informed choice.
+Writing an honest invitation is a practical task. For the café, explain what a volunteer would contribute, how long a shift takes, and what support is available.
+
+Make the next step clear. A potential volunteer could ask a question or try a supported shift before making a larger commitment. Leave room to decline without pressure.
+
+Remove social-proof claims the team cannot substantiate. To evaluate the revised invitation, check understanding and informed participation, rather than relying only on attention or clicks.
+Speech-specific rendering: Writing an honest invitation is a practical task. For the café, explain what a volunteer would contribute, how long a shift takes, and what support is available. [pause 0.9] Make the next step clear. A potential volunteer could ask a question or try a supported shift before making a larger commitment. Leave room to decline without pressure. [pause 0.9] Remove social-proof claims the team cannot substantiate. To evaluate the revised invitation, check understanding and informed participation, rather than relying only on attention or clicks.
 
 c06s05 | What can we really conclude?
 Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.
@@ -747,23 +797,37 @@ c07s02-feedback-2 | Decision feedback
 Consider the consequence. Copying more people onto a task can leave each volunteer assuming another recipient will handle it.
 Speech-specific rendering: Consider the consequence. [pause 0.35] Copying more people onto a task can leave each volunteer assuming another recipient will handle it.
 
-c07s03 | Identity changes the boundary of “us.”
-Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as “us.” Giving repair volunteers first choice of shifts simply because they are “our team” would illustrate in-group favoritism.
+c07s03 | Who counts as our team?
+Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as us. Giving repair volunteers first choice of shifts simply because they are our team illustrates in-group favoritism.
 
-Favoritism can produce unequal treatment without explicit hatred of outsiders. At the café, a shared goal—a successful visitor experience—can help the repair and welcome teams see why both contributions matter.
+The welcome team’s contribution may then receive less recognition or influence. Favoritism can create unequal treatment without explicit hatred of outsiders.
 
-A shared team name alone will not resolve conflicting incentives, unequal workloads, or unequal decision power. If repair volunteers still control the rota, renaming everyone “the café team” leaves that power difference in place. Examine the arrangements that sustain the division.
-Speech-specific rendering: Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as “us.” Giving repair volunteers first choice of shifts simply because they are “our team” would illustrate in-group favoritism. [pause 0.9] Favoritism can produce unequal treatment without explicit hatred of outsiders. At the café, a shared goal—a successful visitor experience—can help the repair and welcome teams see why both contributions matter. [pause 0.9] A shared team name alone will not resolve conflicting incentives, unequal workloads, or unequal decision power. If repair volunteers still control the rota, renaming everyone “the café team” leaves that power difference in place. Examine the arrangements that sustain the division.
+When reviewing the café’s division, examine how membership affects actual decisions. A group label suggests a process to investigate; it does not reveal every member’s private motives.
+Speech-specific rendering: Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as us. Giving repair volunteers first choice of shifts simply because they are our team illustrates in-group favoritism. [pause 0.9] The welcome team’s contribution may then receive less recognition or influence. Favoritism can create unequal treatment without explicit hatred of outsiders. [pause 0.9] When reviewing the café’s division, examine how membership affects actual decisions. A group label suggests a process to investigate; it does not reveal every member’s private motives.
 
-c07s04 | Groups can amplify—or lose—effort.
-Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute. Simply agreeing on the small event would be consensus, not polarization.
+c07s03b | Make the shared goal workable.
+A successful visitor experience needs both the welcome desk and the repair bench. A shared goal can help the teams see why both contributions matter.
 
-Social loafing means reducing individual effort when working collectively. Someone might check fewer items because their contribution will be hidden in the team’s total.
+Translate that goal into arrangements: who greets the visitor, who assesses the repair, what information moves between teams, and which tools and decisions each team can access. Review workloads and share credit.
 
-Poor output can also reflect coordination problems. Two willing volunteers may duplicate one repair while another waits for a missing tool. That wastes genuine effort.
+A shared name alone does not resolve unequal power or conflicting incentives. If one team still controls the shift schedule and resources, renaming everyone the café team leaves those arrangements in place.
+Speech-specific rendering: A successful visitor experience needs both the welcome desk and the repair bench. A shared goal can help the teams see why both contributions matter. [pause 0.9] Translate that goal into arrangements: who greets the visitor, who assesses the repair, what information moves between teams, and which tools and decisions each team can access. Review workloads and share credit. [pause 0.9] A shared name alone does not resolve unequal power or conflicting incentives. If one team still controls the shift schedule and resources, renaming everyone the café team leaves those arrangements in place.
 
-When you review an unfinished group task, check effort, tools, sequencing, and roles before choosing a remedy. An unfinished checklist alone does not establish that the volunteers reduced their effort.
-Speech-specific rendering: Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute. Simply agreeing on the small event would be consensus, not polarization. [pause 0.9] Social loafing means reducing individual effort when working collectively. Someone might check fewer items because their contribution will be hidden in the team’s total. [pause 0.9] Poor output can also reflect coordination problems. Two willing volunteers may duplicate one repair while another waits for a missing tool. That wastes genuine effort. [pause 0.9] When you review an unfinished group task, check effort, tools, sequencing, and roles before choosing a remedy. An unfinished checklist alone does not establish that the volunteers reduced their effort.
+c07s04 | Discussion can strengthen an initial leaning.
+Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute.
+
+Simply agreeing on a similar small event would be consensus. Agreement and polarization can also occur together; the key question is how the positions changed.
+
+To examine the café’s discussion, compare members’ independent views before and after it. An ambitious final budget alone cannot establish which process produced it.
+Speech-specific rendering: Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute. [pause 0.9] Simply agreeing on a similar small event would be consensus. Agreement and polarization can also occur together; the key question is how the positions changed. [pause 0.9] To examine the café’s discussion, compare members’ independent views before and after it. An ambitious final budget alone cannot establish which process produced it.
+
+c07s04b | Poor output can have different causes.
+Social loafing means reducing individual effort when working collectively. A volunteer might check fewer items because their contribution will be hidden in the team’s total.
+
+Coordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.
+
+Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
+Speech-specific rendering: Social loafing means reducing individual effort when working collectively. A volunteer might check fewer items because their contribution will be hidden in the team’s total. [pause 0.9] Coordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined. [pause 0.9] Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
 
 c07s05 | What can we really conclude?
 Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.
@@ -858,23 +922,37 @@ Speech-specific rendering: Good application. [pause 0.35] Tracing each stage can
 c08s02-feedback-2 | Decision feedback
 Consider the consequence. The slogan does not change the entry requirements.
 
-c08s03 | Belief, feeling, and action are distinct.
-A stereotype is a generalized belief about a group: for example, assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them. Discrimination is unequal treatment based on group membership: rejecting an applicant because they are a newcomer, without checking relevant skills.
+c08s03 | Separate belief, attitude, and action.
+A stereotype is a generalized belief about a group, such as assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them.
 
-These examples concern beliefs, attitudes, and actions respectively. The three can overlap, but evidence about one does not establish everything about the others.
+Discrimination is unequal treatment based on group membership, such as rejecting an applicant because they are a newcomer without checking relevant skills.
 
-To evaluate the recruitment process, compare the actual decisions and requirements applied to applicants. Good intentions alone do not establish that the process is fair.
+Beliefs, attitudes, and actions can overlap, but evidence about one does not establish everything about the others. A decision is evidence to examine; it does not reveal an organizer’s entire belief system. The recruitment process also needs inspection.
+Speech-specific rendering: A stereotype is a generalized belief about a group, such as assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them. [pause 0.9] Discrimination is unequal treatment based on group membership, such as rejecting an applicant because they are a newcomer without checking relevant skills. [pause 0.9] Beliefs, attitudes, and actions can overlap, but evidence about one does not establish everything about the others. A decision is evidence to examine; it does not reveal an organizer’s entire belief system. The recruitment process also needs inspection.
 
-Assessing an organizer’s beliefs is a different question. A decision is evidence to examine, but one action does not reveal the organizer’s entire belief system.
-Speech-specific rendering: A stereotype is a generalized belief about a group: for example, assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them. Discrimination is unequal treatment based on group membership: rejecting an applicant because they are a newcomer, without checking relevant skills. [pause 0.9] These examples concern beliefs, attitudes, and actions respectively. The three can overlap, but evidence about one does not establish everything about the others. [pause 0.9] To evaluate the recruitment process, compare the actual decisions and requirements applied to applicants. Good intentions alone do not establish that the process is fair. [pause 0.9] Assessing an organizer’s beliefs is a different question. A decision is evidence to examine, but one action does not reveal the organizer’s entire belief system.
+c08s03b | Follow the route into participation.
+The café says everyone is welcome, yet recruitment runs through existing friends, meetings happen during working hours, and applicants are expected to own specialist tools. Each arrangement can restrict who enters.
 
-c08s04 | Change the encounter and the structure.
-Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support are important conditions to consider.
+Trace the route from hearing about the opportunity to applying and participating. Ask where people are excluded or drop out, and investigate the reasons.
 
-For example, experienced volunteers and newcomers could work together on a repair, share decisions, and receive support from the coordinator. If newcomers only watch while established members control the tools, being in the same room offers less equal participation.
+A barrier can remain without an openly hostile statement. Good intentions alone do not establish fair access. The observed process does not, by itself, diagnose an organizer’s attitude or character.
+Speech-specific rendering: The café says everyone is welcome, yet recruitment runs through existing friends, meetings happen during working hours, and applicants are expected to own specialist tools. Each arrangement can restrict who enters. [pause 0.9] Trace the route from hearing about the opportunity to applying and participating. Ask where people are excluded or drop out, and investigate the reasons. [pause 0.9] A barrier can remain without an openly hostile statement. Good intentions alone do not establish fair access. The observed process does not, by itself, diagnose an organizer’s attitude or character.
 
-Contact also leaves some barriers untouched. A friendly social event does not change a rule requiring applicants to own expensive tools. Removing that requirement, where unnecessary, is a procedural change. Evaluate whether people can actually enter and participate.
-Speech-specific rendering: Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support are important conditions to consider. [pause 0.9] For example, experienced volunteers and newcomers could work together on a repair, share decisions, and receive support from the coordinator. If newcomers only watch while established members control the tools, being in the same room offers less equal participation. [pause 0.9] Contact also leaves some barriers untouched. A friendly social event does not change a rule requiring applicants to own expensive tools. Removing that requirement, where unnecessary, is a procedural change. Evaluate whether people can actually enter and participate.
+c08s04 | Contact needs meaningful participation.
+Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support matter.
+
+Experienced volunteers and newcomers could work together on a repair, share decisions, and receive support from the coordinator. If newcomers only watch while established members control the tools, participation is less equal.
+
+Evaluate the encounter people actually experience. Contact and changes to recruitment rules are different interventions, so each needs its own assessment.
+Speech-specific rendering: Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support matter. [pause 0.9] Experienced volunteers and newcomers could work together on a repair, share decisions, and receive support from the coordinator. If newcomers only watch while established members control the tools, participation is less equal. [pause 0.9] Evaluate the encounter people actually experience. Contact and changes to recruitment rules are different interventions, so each needs its own assessment.
+
+c08s04b | Change the rule that creates the barrier.
+A friendly contact event does not change a rule requiring applicants to own expensive tools. Removing that requirement where unnecessary is a procedural change.
+
+The café could open applications beyond existing friends, use relevant skills criteria, and provide shared tools where feasible. Specify the barrier each change is intended to address.
+
+Follow up who can apply, progress, and remain involved. Include applicants’ experiences, interpret small samples cautiously, and protect privacy. A revised form or a feeling of inclusiveness alone cannot establish that access improved.
+Speech-specific rendering: A friendly contact event does not change a rule requiring applicants to own expensive tools. Removing that requirement where unnecessary is a procedural change. [pause 0.9] The café could open applications beyond existing friends, use relevant skills criteria, and provide shared tools where feasible. Specify the barrier each change is intended to address. [pause 0.9] Follow up who can apply, progress, and remain involved. Include applicants’ experiences, interpret small samples cautiously, and protect privacy. A revised form or a feeling of inclusiveness alone cannot establish that access improved.
 
 c08s05 | What can we really conclude?
 An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.
@@ -969,23 +1047,37 @@ Consider the consequence. Disclosure without mutual readiness can feel intrusive
 c09s02-feedback-2 | Decision feedback
 Consider the consequence. A refusal is information about a boundary, not a barrier to overcome.
 
-c09s03 | Opportunity shapes who becomes familiar.
-Daily settings influence whom we have opportunities to meet. Sharing the Thursday shift makes Sam and Leo more familiar to each other. Their interest in old radios gives them something to discuss.
+c09s03 | Shared settings create opportunities.
+Daily settings affect whom people have opportunities to meet. Sharing the Thursday shift brings Sam and Leo into contact. Their interest in old radios gives them something to discuss.
 
-The mere exposure effect refers to cases where repeated encounters increase liking. A face that initially feels unfamiliar may become more comfortable to see. Repetition can also intensify annoyance or threat, so more contact is not automatically better.
+Proximity creates opportunities, and similarity can make conversation easier. Neither guarantees attraction, compatibility, or a healthy relationship.
 
-Similar interests and values can make connection easier. Contact, familiarity, and similarity do not guarantee attraction, compatibility, or a healthy relationship. Sam and Leo’s shared shift creates opportunities for friendship; it does not create an obligation to become friends. Someone’s expressed boundary still matters.
-Speech-specific rendering: Daily settings influence whom we have opportunities to meet. Sharing the Thursday shift makes Sam and Leo more familiar to each other. Their interest in old radios gives them something to discuss. [pause 0.9] The mere exposure effect refers to cases where repeated encounters increase liking. A face that initially feels unfamiliar may become more comfortable to see. Repetition can also intensify annoyance or threat, so more contact is not automatically better. [pause 0.9] Similar interests and values can make connection easier. Contact, familiarity, and similarity do not guarantee attraction, compatibility, or a healthy relationship. Sam and Leo’s shared shift creates opportunities for friendship; it does not create an obligation to become friends. Someone’s expressed boundary still matters.
+Notice reciprocal interest and respect expressed boundaries. Their shared shift creates opportunities for friendship; it creates no obligation to become friends. The effect of repeated familiarity is a related question in the next lesson.
+Speech-specific rendering: Daily settings affect whom people have opportunities to meet. Sharing the Thursday shift brings Sam and Leo into contact. Their interest in old radios gives them something to discuss. [pause 0.9] Proximity creates opportunities, and similarity can make conversation easier. Neither guarantees attraction, compatibility, or a healthy relationship. [pause 0.9] Notice reciprocal interest and respect expressed boundaries. Their shared shift creates opportunities for friendship; it creates no obligation to become friends. The effect of repeated familiarity is a related question in the next lesson.
 
-c09s04 | Closeness is a reciprocal process.
-Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. Sam could listen, check what Leo means, and ask whether advice would help.
+c09s03b | Familiarity has conditions and limits.
+The mere exposure effect refers to cases where repeated encounters increase liking. A face that initially feels unfamiliar may become more comfortable to see.
 
-Disclosure can support intimacy when it receives an understanding response. Reciprocity means that consideration can flow both ways over time; it does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.
+That pattern has limits. Repeated unwanted contact can intensify annoyance or threat. More contact is not automatically better, and a general research pattern does not determine what Sam or Leo should want.
 
+Use shared activities as opportunities for willing interaction. If someone declines an invitation or asks for space, respect that preference rather than treating familiarity as a reason to persist.
+Speech-specific rendering: The mere exposure effect refers to cases where repeated encounters increase liking. A face that initially feels unfamiliar may become more comfortable to see. [pause 0.9] That pattern has limits. Repeated unwanted contact can intensify annoyance or threat. More contact is not automatically better, and a general research pattern does not determine what Sam or Leo should want. [pause 0.9] Use shared activities as opportunities for willing interaction. If someone declines an invitation or asks for space, respect that preference rather than treating familiarity as a reason to persist.
+
+c09s04 | Closeness depends on the response.
+Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for.
+
+Sam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.
+
+Reciprocity means consideration can flow both ways over time. It does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.
+Speech-specific rendering: Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. [pause 0.9] Sam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response. [pause 0.9] Reciprocity means consideration can flow both ways over time. It does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.
+
+c09s04b | Respond to the preference someone states.
 People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses.
 
-When Sam declines an invitation, Leo needs to respond to Sam’s stated preference. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference.
-Speech-specific rendering: Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. Sam could listen, check what Leo means, and ask whether advice would help. [pause 0.9] Disclosure can support intimacy when it receives an understanding response. Reciprocity means that consideration can flow both ways over time; it does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter. [pause 0.9] People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses. [pause 0.9] When Sam declines an invitation, Leo needs to respond to Sam’s stated preference. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference.
+When Sam declines an invitation and asks for time alone, Leo has a stated preference to respond to. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference.
+
+Leo can accept the refusal and leave future contact optional. To understand a relationship, ask about the people’s actual experiences and wishes rather than inferring a complete explanation from a label.
+Speech-specific rendering: People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses. [pause 0.9] When Sam declines an invitation and asks for time alone, Leo has a stated preference to respond to. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference. [pause 0.9] Leo can accept the refusal and leave future contact optional. To understand a relationship, ask about the people’s actual experiences and wishes rather than inferring a complete explanation from a label.
 
 c09s05 | What can we really conclude?
 Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.
@@ -1080,23 +1172,37 @@ c10s02-feedback-2 | Decision feedback
 Consider the consequence. A person may care and still hesitate because they do not know what happened, lack the skills to help, or fear making things worse.
 Speech-specific rendering: Consider the consequence. [pause 0.35] A person may care and still hesitate because they do not know what happened, lack the skills to help, or fear making things worse.
 
-c10s03 | Helping has several decision points.
-The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process. A concerned volunteer might think, “There are plenty of people here; someone else will act,” and feel less personally responsible.
+c10s03 | Two reasons concerned people may hesitate.
+The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.
 
-Pluralistic ignorance concerns interpreting other people’s reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. In that case, Leo has mistaken Sam’s appearance for Sam’s private assessment.
+Pluralistic ignorance concerns interpreting reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. He has mistaken an appearance for a private assessment.
 
-Diffusion concerns who should act; pluralistic ignorance concerns how the need for action is interpreted. Both could contribute to hesitation after the shelf falls. In other emergencies, people provide essential support and increase the chance that someone helps. The effect depends on the situation.
-Speech-specific rendering: The bystander effect describes conditions where the presence of others reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process. A concerned volunteer might think, “There are plenty of people here; someone else will act,” and feel less personally responsible. [pause 0.9] Pluralistic ignorance concerns interpreting other people’s reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. In that case, Leo has mistaken Sam’s appearance for Sam’s private assessment. [pause 0.9] Diffusion concerns who should act; pluralistic ignorance concerns how the need for action is interpreted. Both could contribute to hesitation after the shelf falls. In other emergencies, people provide essential support and increase the chance that someone helps. The effect depends on the situation.
+Diffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.
+Speech-specific rendering: The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act. [pause 0.9] Pluralistic ignorance concerns interpreting reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. He has mistaken an appearance for a private assessment. [pause 0.9] Diffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.
 
-c10s04 | Make constructive action easier.
-Aggression is behavior intended to harm. Anger is a feeling; aggression involves an intention to harm through behavior. Someone can feel angry about the fallen shelf and still respond constructively.
+c10s03b | Give concern a workable next step.
+Explaining hesitation and planning an appropriate response are different tasks. For a low-risk shared job, clarify the need, agree who will act, and check that the person has the necessary skills and support.
 
-Frustration, perceived threat, situational pressure, and learned expectations about how conflicts are handled can contribute to aggression. Those influences do not make harm inevitable or remove responsibility.
+For example, before a café session, the team can name who checks a shared setup task and how that person reports an unresolved problem. A clear handover makes responsibility visible.
 
-De-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate these arrangements rather than treating them as guarantees.
+In an emergency, follow local guidance and your training and contact appropriate help. A social psychology model does not replace practical instruction. Evaluate the plan by whether appropriate help becomes available.
+Speech-specific rendering: Explaining hesitation and planning an appropriate response are different tasks. For a low-risk shared job, clarify the need, agree who will act, and check that the person has the necessary skills and support. [pause 0.9] For example, before a café session, the team can name who checks a shared setup task and how that person reports an unresolved problem. A clear handover makes responsibility visible. [pause 0.9] In an emergency, follow local guidance and your training and contact appropriate help. A social psychology model does not replace practical instruction. Evaluate the plan by whether appropriate help becomes available.
 
-Cooperation also needs clear contributions, a way to report problems, and a fair division of benefits and burdens. Naming who checks a replacement shelf turns a general wish to cooperate into a specific responsibility.
-Speech-specific rendering: Aggression is behavior intended to harm. Anger is a feeling; aggression involves an intention to harm through behavior. Someone can feel angry about the fallen shelf and still respond constructively. [pause 0.9] Frustration, perceived threat, situational pressure, and learned expectations about how conflicts are handled can contribute to aggression. Those influences do not make harm inevitable or remove responsibility. [pause 0.9] De-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate these arrangements rather than treating them as guarantees. [pause 0.9] Cooperation also needs clear contributions, a way to report problems, and a fair division of benefits and burdens. Naming who checks a replacement shelf turns a general wish to cooperate into a specific responsibility.
+c10s04 | Anger leaves a choice about action.
+Aggression is behavior intended to harm. Anger is a feeling. A volunteer can feel angry about the fallen shelf and still respond constructively.
+
+Frustration, perceived threat, situational pressure, and learned expectations can contribute to aggression. Those influences do not make harm inevitable or remove responsibility.
+
+De-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate those arrangements rather than treating them as guarantees.
+Speech-specific rendering: Aggression is behavior intended to harm. Anger is a feeling. A volunteer can feel angry about the fallen shelf and still respond constructively. [pause 0.9] Frustration, perceived threat, situational pressure, and learned expectations can contribute to aggression. Those influences do not make harm inevitable or remove responsibility. [pause 0.9] De-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate those arrangements rather than treating them as guarantees.
+
+c10s04b | Turn a shared aim into coordinated work.
+Cooperation needs more than a general wish to work together. A shared task needs a clear outcome, named contributions, usable resources, and a way to report problems.
+
+For the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.
+
+Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
+Speech-specific rendering: Cooperation needs more than a general wish to work together. A shared task needs a clear outcome, named contributions, usable resources, and a way to report problems. [pause 0.9] For the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible. [pause 0.9] Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
 
 c10s05 | What can we really conclude?
 Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.

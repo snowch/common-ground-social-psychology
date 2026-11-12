@@ -160,32 +160,17 @@ for i,c in enumerate(C):
  c['slides'] += [s('concept',x['title'],x['points'],x['text']) for x in c['concepts']]
  c['slides'] += [s('evidence','What can we really conclude?',['What the research supports','Where the claim needs restraint'],c['evidence']),s('transfer','Try the idea somewhere new.',[], 'Apply the idea to a new decision.\n\n'+c['quizzes'][1]['prompt']+'\n\nChoose an action and explain why it addresses the problem.',quiz=c['quizzes'][1]),s('recall','Close your notes. Explain it.',c['recall'],'Answer both prompts from memory.\n\nFirst. '+c['recall'][0]+'\n\nSecond. '+c['recall'][1]+'\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.',answers=c['answers']),s('practice','Carry one idea into your week.',[c['field']], 'Here is your field practice.\n\n'+c['field']+'\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.')]
  for j,x in enumerate(c['slides']):x.update(id=f'c{i+1:02d}s{j+1:02d}',stage=STAGES[j])
-# Keep existing slide identities and links when adding a new learning step.
-c=C[0]
-c['slides'][4]['title']='One observer, two explanations.'
-c['slides'].insert(5,dict(id='c01s05b',kind='concept',stage='Check an explanation',title='Test the explanation.',
- points=['Describe: Maya arrived late; “doesn’t care” is a proposed cause.',
-         'Compare: look across shifts, settings, and exceptions.',
-         'Check: ask Maya and test plausible alternatives.',
-         'Revise: change your confidence when the evidence changes.'],
- text='Return to Maya’s late arrival at the café. Leo has proposed that she did not care about the project. How could he check that explanation?\n\nBegin with what was observed: Maya arrived after the start. Leo’s claim that she did not care adds a cause. Ask Maya about the delay before deciding which explanation fits.\n\nCompare repeated occasions and settings. Is Maya late across different shifts, or only when a particular obstacle is present? A personal tendency becomes more plausible when the behavior recurs across varied circumstances. One episode is a weak basis for that conclusion.\n\nCheck alternatives. A broken lift or helping a neighbor could explain this delay. Identify what evidence would strengthen or weaken each account, then revise your confidence.\n\nIf you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it.'))
-# Give the worked example and attribution error their own teaching steps.
-next(x for x in c['slides'] if x['id']=='c01s03')['stage']='Person and situation'
-next(x for x in c['slides'] if x['id']=='c01s04')['stage']='Observation and attribution'
-c['slides'].insert(next(i for i,x in enumerate(c['slides']) if x['id']=='c01s03')+1,dict(
- id='c01s03b',kind='concept',stage='Worked example',title='The same person, under pressure.',
- points=['Disposition: the volunteer is normally patient.',
-         'New demands: several visitors ask for help at once.',
-         'Observed action: the volunteer gives one sharp reply.',
-         'Check: compare calmer and busier shifts.'],
- text='Imagine a volunteer who is usually patient with visitors. During a quiet shift, the volunteer listens and explains each repair calmly.\n\nAt the next shift, several visitors ask for help at once. The same volunteer gives one sharp reply. Their usual patience and the immediate pressure are both relevant to understanding that action.\n\nBefore judging the volunteer’s character, what changed in the room?\n\nThe immediate demands increased. That change offers a situational explanation to investigate. It does not establish that personal qualities played no part.\n\nThis example illustrates an interaction between a disposition and a situation. Compare the volunteer’s responses across calmer and busier shifts before drawing a conclusion about a lasting personal tendency.'))
-c['slides'].insert(next(i for i,x in enumerate(c['slides']) if x['id']=='c01s04')+1,dict(
- id='c01s04b',kind='concept',stage='Attribution error',title='When the person gets too much weight.',
- points=['Fundamental attribution error: too much weight on personal qualities, too little on circumstances.',
-         'Leo’s first account: “Maya doesn’t care.”',
-         'Missing context: the broken lift and helping a neighbor.',
-         'Check: compare plausible causes before judging commitment.'],
- text='Now consider how much weight Leo gives each kind of explanation. He treats Maya’s late arrival mainly as evidence about her personal qualities, before examining the circumstances that delayed her.\n\nThe fundamental attribution error is the tendency to give too much weight to personal qualities and too little to the situation when explaining another person’s behavior. Its strength varies with culture and context.\n\nIn Maya’s case, the broken lift and helping a neighbor make Leo’s initial explanation less complete. Personal qualities can still matter, but he needs to consider the circumstances before deciding how well his account fits.\n\nTo check an explanation you form, ask which situational causes you have investigated and which you may have overlooked. Naming a bias is a prompt to examine evidence; the label alone does not prove that someone’s reasoning is biased.'))
+# Canonical teaching pages: one learning task and primary visual per page.
+teaching=json.loads((ROOT/'teaching-pages.json').read_text())
+for c in C:
+ pages=teaching[str(c['number'])]
+ assert {s['id'] for s in c['slides'] if s['kind'] in ('concept','evidence')} <= {s['id'] for s in pages}
+ assert len({s['id'] for s in pages})==len(pages)
+ assert all(s['id'].startswith(f"c{c['number']:02d}s") and s['kind'] in ('concept','evidence') and s['visual'] for s in pages)
+ assert sum(s['kind']=='evidence' for s in pages)==1
+ c['slides']=c['slides'][:2]+pages+c['slides'][-3:]
+ c['concepts']=[{k:s[k] for k in ('title','points','text')} for s in pages if s['kind']=='concept']
+ c['evidence']=next(s['text'] for s in pages if s['kind']=='evidence')
 ROOT.joinpath('course.json').write_text(json.dumps(C,ensure_ascii=False,indent=2))
 scenes=[]
 script=['COMMON GROUND: COMPLETE NARRATION SCRIPT','Original introductory social psychology course. Fictional characters and examples.','Recorded Kokoro af_heart narration is embedded in the deck. See narration-recording-script.txt for exact audio clip text and speech-specific forms.','']

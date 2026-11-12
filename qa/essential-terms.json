@@ -12,14 +12,10 @@
     "actor–observer differences"
   ],
   "c02s03": [
-    "Correlation",
-    "Confound",
-    "Random assignment",
-    "Random sampling"
+    "Correlation"
   ],
   "c02s04": [
-    "percentage points",
-    "Statistical significance"
+    "percentage points"
   ],
   "c02s05": [
     "Replication",
@@ -31,8 +27,7 @@
     "Denominator"
   ],
   "c03s04": [
-    "Confirmation bias",
-    "Motivated reasoning"
+    "Confirmation bias"
   ],
   "c04s03": [
     "Cognitive dissonance",
@@ -54,10 +49,7 @@
     "Obedience"
   ],
   "c06s03": [
-    "Attitude",
-    "Elaboration likelihood model",
-    "Central processing",
-    "Peripheral processing"
+    "Attitude"
   ],
   "c06s04": [
     "Descriptive norm",
@@ -68,9 +60,7 @@
     "In-group favoritism"
   ],
   "c07s04": [
-    "Group polarization",
-    "Social loafing",
-    "Coordination loss"
+    "Group polarization"
   ],
   "c07s05": [
     "Groupthink"
@@ -81,8 +71,7 @@
     "Discrimination"
   ],
   "c08s04": [
-    "Intergroup contact",
-    "Procedural change"
+    "Intergroup contact"
   ],
   "c08s05": [
     "explicit attitude",
@@ -90,14 +79,12 @@
   ],
   "c09s03": [
     "Proximity",
-    "Mere exposure effect",
     "Similarity"
   ],
   "c09s04": [
     "Disclosure",
     "Responsiveness",
-    "Reciprocity",
-    "Attachment"
+    "Reciprocity"
   ],
   "c10s03": [
     "Bystander effect",
@@ -106,13 +93,46 @@
   ],
   "c10s04": [
     "Aggression",
-    "De-escalation",
-    "Cooperation"
+    "De-escalation"
   ],
   "c01s03b": [
     "Disposition"
   ],
   "c01s04b": [
     "Fundamental attribution error"
+  ],
+  "c02s03b": [
+    "Confound"
+  ],
+  "c02s03c": [
+    "Random assignment",
+    "Random sampling"
+  ],
+  "c02s04b": [
+    "Statistical significance"
+  ],
+  "c03s04b": [
+    "Motivated reasoning"
+  ],
+  "c06s03b": [
+    "Elaboration likelihood model",
+    "Central processing",
+    "Peripheral processing"
+  ],
+  "c07s04b": [
+    "Social loafing",
+    "Coordination loss"
+  ],
+  "c08s04b": [
+    "Procedural change"
+  ],
+  "c09s03b": [
+    "Mere exposure effect"
+  ],
+  "c09s04b": [
+    "Attachment"
+  ],
+  "c10s04b": [
+    "Cooperation"
   ]
 }
