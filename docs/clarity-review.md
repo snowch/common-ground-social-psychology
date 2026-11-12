@@ -38,3 +38,20 @@ The check passed for 61 required term appearances across 25 teaching slides at w
 Chapter 1’s first concept retains the diagram showing personal and situational influences together. The second concept shows Leo thinking: his thought bubble contains a larger Person box, a smaller Situation box, and the thought “Maya doesn’t care.” A trail of small bubbles connects the thought to Leo. Labels state “Too much weight” and “Too little weight.” The geometry illustrates relative emphasis in his explanation. The figure also states that the tendency’s strength varies with culture and context.
 
 The graphic has an accessible description and appears in the online slide, portable chapter, and PDF. Checks at 320, 390, 768, and 1440 pixels found no horizontal overflow or cropped SVG text; the preceding balanced diagram is preserved. Targeted accessibility and PDF layout checks passed. `qa/attribution-diagram-results.json` records the targeted checks. Existing teaching text and recordings are unchanged.
+
+## Concept-specific visual explanations
+
+Six further teaching slides now illustrate the seven suggested concepts. They use the existing cast, palette, fonts, and original SVG artwork:
+
+| Slide | What the visual explains |
+| --- | --- |
+| Chapter 2, slide 3 | New poster, better weather, and publicity are possible explanations for increased attendance. Dashed paths show hypotheses to investigate. |
+| Chapter 3, slide 4 | Leo and Maya see the same illustrative repair records, but give different cases more attention according to their expectations. Symbols and outlines distinguish the cases as well as color. |
+| Chapter 4, slide 4 | An unrecoverable past expense sits behind Today. Both continuing and switching are future options; skills and obligations can still affect their consequences. |
+| Chapter 5, slide 3 | Sam says “I agree” under two possible private motives: treating others as information and seeking acceptance. The figure states that both motives can operate together. |
+| Chapter 7, slide 4 | Illustrative opinion positions show agreement around a similar average position versus a stronger version of the initial leaning. These are illustrative possible outcomes; agreement and polarization can also coexist. |
+| Chapter 10, slide 3 | Privately worried people misread others’ calm in pluralistic ignorance; people assume someone else will act in diffusion of responsibility. Context and available support remain relevant. |
+
+The repair records and opinion positions are illustrations, with no empirical effect sizes or café outcome rates implied. Recorded narration and teaching text are unchanged. Each visual is assigned to its own teaching slide and appears in the portable decks and PDF exports.
+
+`qa/check_concept_visuals.py` checks placement, text bounds, horizontal overflow, and accessibility at mobile and desktop widths. It also verifies that the confirmation-bias illustration uses the same evidence on both sides while highlighting different outcomes. `qa/concept-visuals-results.json` records the results. These checks do not establish learner comprehension or complete accessibility conformance.

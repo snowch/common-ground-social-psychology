@@ -94,10 +94,64 @@ function attributionErrorScene(){return `<svg viewBox="0 0 520 460" role="img" d
  <g data-observer="leo">${person(112,375,'#236A67',.58)}${label(112,450,'Leo',19)}</g>
  ${label(338,365,'Strength varies with',21)}${label(338,395,'culture and context.',21)}
  </svg>`;}
-function diagramCaption(chapter,slide){return slide.id==='c01s04'?'The imbalance is in Leo’s explanation.':diagramCaptions[chapter.icon];}
+function conceptSVG(name,description,body){return `<svg viewBox="0 0 520 460" role="img" data-diagram="${esc(name)}" aria-label="${esc(description)}">${body}</svg>`;}
+function conceptArrow(x1,y1,x2,y2,dashed=false,color='#7058A3'){
+ const angle=Math.atan2(y2-y1,x2-x1),backX=x2-12*Math.cos(angle),backY=y2-12*Math.sin(angle),dx=6*Math.sin(angle),dy=6*Math.cos(angle);
+ return `<path d="M${x1} ${y1}L${backX} ${backY}" fill="none" stroke="${color}" stroke-width="2.5" ${dashed?'stroke-dasharray="6 6"':''}/><path d="M${x2} ${y2}L${backX+dx} ${backY-dy}L${backX-dx} ${backY+dy}Z" fill="${color}"/>`;
+}
+function thoughtPanel(x,y,w,h,lines){return `<g transform="translate(${x} ${y})"><rect width="${w}" height="${h}" rx="23" fill="#FFF" stroke="#8DA6B7" stroke-width="1.7"/>${lines.map((line,i)=>label(w/2,h/2-(lines.length-1)*13+7+i*26,line,20)).join('')}</g>`;}
+function thoughtDots(x,y){return `<g fill="#FFF" stroke="#8DA6B7" stroke-width="1.5"><circle cx="${x}" cy="${y}" r="5"/><circle cx="${x+12}" cy="${y+15}" r="2.7"/></g>`;}
+function confirmationBiasScene(){
+ const records=['success','failure','success','failure','failure','success','failure','success'];
+ const evidence=(x,focus)=>`<g data-evidence-record="${records.join(',')}">${records.map((status,i)=>{const highlighted=status===focus,cx=x+(i%4)*43,cy=304+Math.floor(i/4)*40;return `<g data-highlighted="${highlighted}" data-outcome="${status}"><rect x="${cx}" y="${cy}" width="30" height="30" rx="5" fill="${highlighted?(focus==='failure'?'#F3E7EE':'#E0EFEA'):'#FFF'}" stroke="${highlighted?(focus==='failure'?'#A1486D':'#236A67'):'#8DA6B7'}" stroke-width="${highlighted?3:1}"/>${status==='success'?`<path d="M${cx+7} ${cy+16}L${cx+13} ${cy+22}L${cx+24} ${cy+8}" fill="none" stroke="#152F52" stroke-width="2"/>`:`<path d="M${cx+8} ${cy+8}L${cx+22} ${cy+22}M${cx+22} ${cy+8}L${cx+8} ${cy+22}" stroke="#152F52" stroke-width="2"/>`}</g>`;}).join('')}</g>`;
+ return conceptSVG('confirmation-bias','Leo and Maya see the same illustrative repair records. Leo expects failures and gives failed repairs more attention; Maya expects success and gives successful repairs more attention. Check all comparable cases.',
+ label(260,27,'Same illustrative repair records',23)+`<path d="M260 55V408" stroke="#C5D3E5" stroke-width="1.5"/>`+
+ thoughtPanel(20,62,220,87,['Repairs usually','fail.'])+thoughtPanel(280,62,220,87,['Repairs usually','work.'])+
+ thoughtDots(111,166)+thoughtDots(371,166)+person(130,219,'#236A67',.48)+person(390,219,'#806196',.48)+label(130,282,'Leo',20)+label(390,282,'Maya',20)+
+ evidence(50,'failure')+evidence(310,'success')+label(130,412,'Notices failures',21,'#A1486D')+label(390,412,'Notices successes',21,'#236A67')+label(260,448,'Check all comparable repairs.',20));
+}
+function sunkCostScene(){return conceptSVG('sunk-cost','A past expense cannot be recovered. From today, compare the future benefits and costs of continuing or switching, including reusable skills and remaining obligations.',
+ label(260,27,'Choose from today onward',24)+`<rect x="25" y="65" width="180" height="82" rx="9" fill="#F2F6FC" stroke="#8DA6B7" stroke-dasharray="5 4"/>`+label(115,97,'Past expense',22)+label(115,126,'Cannot recover it',19,'#4C617B')+
+ `<path d="M42 175H475" stroke="#8DA6B7" stroke-width="2"/><path d="M475 169L487 175L475 181Z" fill="#8DA6B7"/><circle cx="260" cy="175" r="8" fill="#152F52"/>`+label(260,151,'Today',23)+label(260,245,'Future options',21)+
+ conceptArrow(260,186,132,258)+conceptArrow(260,186,388,258)+
+ `<g data-time="future"><rect x="20" y="276" width="224" height="103" rx="12" fill="#FFF" stroke="#7058A3" stroke-width="2"/>${label(132,310,'Continue',25)}${label(132,347,'Support and bookings',19)}<rect x="276" y="276" width="224" height="103" rx="12" fill="#FFF" stroke="#216B88" stroke-width="2"/>${label(388,310,'Switch',25)}${label(388,347,'Switching and bookings',19)}</g>`+
+ label(260,418,'Compare future benefits and costs.',22)+label(260,449,'Skills and obligations can affect future options.',18));}
+function conformityMotivesScene(){return conceptSVG('conformity-motives','Sam says I agree in both illustrations. Under informational influence, Sam thinks others may know more. Under normative influence, Sam wants the group to accept them. Both motives can operate together.',
+ label(260,27,'Same words, different reasons',23)+label(130,64,'Informational',22)+label(130,89,'influence',21)+label(390,64,'Normative',22)+label(390,89,'influence',21)+
+ thoughtPanel(20,108,220,109,['They may know','more than I do.'])+thoughtPanel(280,108,220,109,['I want the group','to accept me.'])+thoughtDots(110,235)+thoughtDots(370,235)+
+ person(130,300,'#A1486D',.65)+person(390,300,'#A1486D',.65)+`<path d="M130 364L119 380H141Z" fill="#FFF" stroke="#8DA6B7"/><path d="M390 364L379 380H401Z" fill="#FFF" stroke="#8DA6B7"/>`+
+ box(50,378,160,42,'I agree.','#FFF')+box(310,378,160,42,'I agree.','#FFF')+label(260,451,'Both motives can operate together.',20));}
+function confoundingScene(){return conceptSVG('confounding','A new poster, better weather, and publicity all coincide with increased attendance. Dashed arrows show possible explanations to investigate; the before-and-after comparison does not isolate a cause.',
+ label(260,28,'Several changes, one outcome',24)+
+ `<rect x="18" y="80" width="144" height="87" rx="12" fill="#ECE6F5" stroke="#7058A3" stroke-width="2"/><rect x="188" y="80" width="144" height="87" rx="12" fill="#FFF" stroke="#8DA6B7"/><rect x="358" y="80" width="144" height="87" rx="12" fill="#FFF" stroke="#8DA6B7"/>`+
+ label(90,117,'New',23)+label(90,146,'poster',23)+label(260,117,'Better',23)+label(260,146,'weather',23)+label(430,133,'Publicity',22)+
+ conceptArrow(90,183,213,275,true)+conceptArrow(260,183,260,275,true)+conceptArrow(430,183,307,275,true)+
+ `<rect x="125" y="291" width="270" height="84" rx="14" fill="#FFF" stroke="#152F52" stroke-width="2"/>`+label(260,328,'More visitors',27)+label(260,357,'Observed attendance',19,'#4C617B')+
+ label(260,416,'Dashed paths: possible explanations',21)+label(260,448,'A fair comparison separates explanations.',19));}
+function groupPolarizationScene(){
+ const axis=y=>`<path d="M45 ${y}H475M45 ${y-5}V${y+5}M475 ${y-5}V${y+5}" stroke="#8DA6B7" stroke-width="2"/>`;
+ const dots=(positions,y,color)=>positions.map(x=>`<circle cx="${x}" cy="${y}" r="6.5" fill="${color}" stroke="#FFF" stroke-width="1.5"/>`).join('');
+ return conceptSVG('group-polarization','Illustrative opinion positions begin with a leaning toward a more ambitious event. One possible outcome is agreement around a similar average position; another is movement toward a more extreme version of the initial leaning. Agreement and polarization can also occur together. Polarization is not inevitable.',
+ label(260,26,'Illustrative discussion outcomes',23)+label(260,70,'Before: an initial leaning',21)+
+ `<path d="M315 91V397" stroke="#C5D3E5" stroke-width="1.5" stroke-dasharray="4 5"/>`+axis(110)+dots([275,295,315,335,355],110,'#216B88')+label(100,150,'Less ambitious',18)+label(421,150,'More ambitious',18)+
+ label(260,205,'After: consensus',22)+axis(241)+dots([291,303,315,327,339],241,'#216B88')+label(260,277,'Agreement, similar average position',18)+label(40,307,'or',19,'#4C617B')+
+ label(260,337,'After: polarization',22)+axis(372)+dots([365,385,405,425,445],372,'#7058A3')+label(260,410,'Stronger initial leaning',19)+label(260,450,'Agreement and polarization can coexist.',19));
+}
+function helpingBarriersScene(){
+ const colors=['#806196','#A1486D','#236A67'],positions=[92,260,428];
+ const worries=positions.map((x,i)=>`<rect x="${x-66}" y="85" width="132" height="46" rx="18" fill="#FFF" stroke="#8DA6B7"/>${label(x,115,'Worried',21)}${thoughtDots(x-12,142)}${person(x,179,colors[i],.35)}`).join('');
+ const waiters=positions.map((x,i)=>`<rect x="${x-66}" y="318" width="132" height="53" rx="18" fill="#FFF" stroke="#8DA6B7"/>${label(x,339,'Someone else',17)}${label(x,361,'will act.',19)}${thoughtDots(x-12,381)}${person(x,413,colors[i],.35)}`).join('');
+ return conceptSVG('helping-barriers','Two possible barriers to helping. In pluralistic ignorance, privately worried people mistake others’ calm appearance for reassurance. In diffusion of responsibility, each person assumes someone else will act. Context and available support also matter.',
+ label(260,27,'Two possible barriers to helping',23)+label(260,65,'Pluralistic ignorance',22)+worries+label(260,242,'Mistaking others’ calm for reassurance.',20)+
+ `<path d="M35 268H485" stroke="#C5D3E5" stroke-width="1.5"/>`+label(260,299,'Diffusion of responsibility',22)+waiters);
+}
+const conceptScenes={c02s03:confoundingScene,c03s04:confirmationBiasScene,c04s04:sunkCostScene,c05s03:conformityMotivesScene,c07s04:groupPolarizationScene,c10s03:helpingBarriersScene};
+const conceptCaptions={c01s04:'The imbalance is in Leo’s explanation.',c02s03:'Several changes can fit the same before-and-after pattern.',c03s04:'Expectations can change which evidence gets attention.',c04s04:'Past spending is unrecoverable; compare future consequences.',c05s03:'The same public agreement can reflect different private reasons.',c07s04:'Agreement can form with or without a more extreme leaning.',c10s03:'Context, skills, and available support also shape helping.'};
+function diagramCaption(chapter,slide){return conceptCaptions[slide.id]||diagramCaptions[chapter.icon];}
 let artSerial=0;
 function scene(mode='room',stage='story',slideId=''){
  if(slideId==='c01s04')return attributionErrorScene();
+ if(conceptScenes[slideId])return conceptScenes[slideId]();
  if(['story','practice','recall'].includes(stage))return workshopScene();
  let b='';
  if(stage==='story'||stage==='practice'||stage==='recall'||mode==='room'){

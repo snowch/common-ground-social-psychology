@@ -1,0 +1,195 @@
+{
+  "revision": "concept-visuals",
+  "concepts": [
+    "confounding",
+    "confirmation bias",
+    "sunk cost effect",
+    "informational and normative influence",
+    "group polarization",
+    "pluralistic ignorance",
+    "diffusion of responsibility"
+  ],
+  "target_slides": {
+    "c02s03": "confounding",
+    "c03s04": "confirmation-bias",
+    "c04s04": "sunk-cost",
+    "c05s03": "conformity-motives",
+    "c07s04": "group-polarization",
+    "c10s03": "helping-barriers"
+  },
+  "checks": [
+    {
+      "slide": "c02s03",
+      "diagram": "confounding",
+      "width": 320,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c03s04",
+      "diagram": "confirmation-bias",
+      "width": 320,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c04s04",
+      "diagram": "sunk-cost",
+      "width": 320,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c05s03",
+      "diagram": "conformity-motives",
+      "width": 320,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c07s04",
+      "diagram": "group-polarization",
+      "width": 320,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c10s03",
+      "diagram": "helping-barriers",
+      "width": 320,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c02s03",
+      "diagram": "confounding",
+      "width": 390,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c03s04",
+      "diagram": "confirmation-bias",
+      "width": 390,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c04s04",
+      "diagram": "sunk-cost",
+      "width": 390,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c05s03",
+      "diagram": "conformity-motives",
+      "width": 390,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c07s04",
+      "diagram": "group-polarization",
+      "width": 390,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c10s03",
+      "diagram": "helping-barriers",
+      "width": 390,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c02s03",
+      "diagram": "confounding",
+      "width": 768,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c03s04",
+      "diagram": "confirmation-bias",
+      "width": 768,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c04s04",
+      "diagram": "sunk-cost",
+      "width": 768,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c05s03",
+      "diagram": "conformity-motives",
+      "width": 768,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c07s04",
+      "diagram": "group-polarization",
+      "width": 768,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c10s03",
+      "diagram": "helping-barriers",
+      "width": 768,
+      "overflow": [],
+      "axe_violations": "not rerun at this width"
+    },
+    {
+      "slide": "c02s03",
+      "diagram": "confounding",
+      "width": 1440,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c03s04",
+      "diagram": "confirmation-bias",
+      "width": 1440,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c04s04",
+      "diagram": "sunk-cost",
+      "width": 1440,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c05s03",
+      "diagram": "conformity-motives",
+      "width": 1440,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c07s04",
+      "diagram": "group-polarization",
+      "width": 1440,
+      "overflow": [],
+      "axe_violations": []
+    },
+    {
+      "slide": "c10s03",
+      "diagram": "helping-barriers",
+      "width": 1440,
+      "overflow": [],
+      "axe_violations": []
+    }
+  ],
+  "js_errors": [],
+  "unique_print_placement": "passed",
+  "confirmation_evidence": "same records, different emphasis",
+  "complete_and_chapter_pdf_diagrams": 12,
+  "limits": "Automated layout and accessibility checks; no learner pilot."
+}

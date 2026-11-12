@@ -103,6 +103,8 @@ python3 qa/check_course_review.py
 python3 scripts/export_pdfs.py
 # Check essential vocabulary on the slides and PDF pages (requires pdftotext):
 python3 qa/check_visible_terminology.py
+# Check the concept-specific diagrams (using the same axe-core file):
+python3 qa/check_concept_visuals.py
 ```
 
 The scripts default to `/usr/bin/chromium`; adjust that executable for another development machine. `COURSE_BASE_URL` can select another preview origin. Normal reading and builds require no browser automation dependencies.
