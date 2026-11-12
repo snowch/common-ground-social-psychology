@@ -8,7 +8,8 @@ async def main():
   page=await browser.new_page(reduced_motion='reduce'); errors=[]
   page.on('pageerror',lambda e:errors.append(str(e)))
   await page.goto(BASE+'/#chapter-1-slide-5')
-  assert await page.locator('.evidence-body p').count()==3
+  assert await page.locator('.evidence-body p').count()==4
+  assert (await page.locator('.evidence-body p').first.inner_text()).strip()=='An attribution is an explanation of what caused an action.'
   term=page.locator('.evidence-body .glossary-term').filter(has_text='Attribution research')
   await term.focus();await page.keyboard.press('Enter')
   assert 'patterns across' in await page.locator(':popover-open').inner_text()

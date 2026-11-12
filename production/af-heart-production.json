@@ -13,23 +13,23 @@
   },
   "clip_count": 150,
   "chapter_count": 10,
-  "chapter_audio_seconds": 3461.3,
+  "chapter_audio_seconds": 3462.0,
   "asr_model": "small.en",
   "asr_scenes": 150,
   "automated_flags": 7,
-  "review": "Opening revised with a measured two-second silence and screened with Whisper small.en, zero flags. Retained screens for 149 unchanged clips. No human listening approval.",
+  "review": "Attribution definition followed by a measured one-second silence and screened with Whisper small.en, zero flags. Retained screens for 149 unchanged clips. No human listening approval.",
   "authorization": "User requested Kokoro af_heart for the existing course scripts.",
   "skill_repository": "https://github.com/snowch/claude-skills",
   "skill_commit": "c9a7c521568632aa216932f4c965df386498602a",
   "audio_map": "audio/manifest.json",
-  "revision": "Two-second pause before the opening course-wide takeaway",
+  "revision": "One-second pause after the attribution definition",
   "revision_scenes": [
-    "c01s01"
+    "c01s05"
   ],
-  "pacing_review": "qa/takeaway-pause-review.json",
+  "pacing_review": "qa/definition-pause-review.json",
   "newly_screened": 1,
   "reused_unchanged_screens": 149,
   "synthesis_workers": 1,
   "synthesis_cpu_threads_per_worker": 4,
-  "screening_report": "qa/takeaway-pause-asr.json"
+  "screening_report": "qa/definition-pause-asr.json"
 }

@@ -72,9 +72,9 @@
     {
       "id": "c01s05",
       "file": "audio/clips/c01s05.m4a",
-      "duration": 49.6,
-      "bytes": 1010230,
-      "sha256": "8aa76f52b07d36cd8134d66945e50007124e6395d58eb7f7deee9486fb373acf"
+      "duration": 50.3,
+      "bytes": 1006044,
+      "sha256": "832a795828fe09126efa29992137142728edce7d10d031655ef44b59aa2c615d"
     },
     {
       "id": "c01s06",
@@ -1076,8 +1076,8 @@
       "chapter": 1,
       "title": "The person and the room",
       "file": "audio/chapters/chapter-01.m4a",
-      "duration": 383.8,
-      "sha256": "255183f90046b2962b7c18ee8c429bbe9e9e6ec111f757051d194356aba583a3"
+      "duration": 384.5,
+      "sha256": "c39382ece788b4d8eea278b7f7196e1af2b68cf4aeb4733eb7f5982be7f3d4b4"
     },
     {
       "chapter": 2,
