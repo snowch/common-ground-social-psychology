@@ -49,7 +49,9 @@ In the story, Leo observed that Maya arrived after the start. His claim that “
 When you explain someone’s behavior in your own life, begin by describing what you observed without adding a cause. Then generate alternative explanations and ask what evidence would weaken each one, including the explanation you first favored. These steps help you test your own interpretation.
 
 c01s05 | Evidence check | What can we really conclude?
-An attribution is an explanation of what caused an action. Attribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.
+An attribution is an explanation of what caused an action.
+
+Attribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.
 
 Actor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.
 

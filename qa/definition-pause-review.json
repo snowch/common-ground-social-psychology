@@ -1,0 +1,10 @@
+{
+  "scene": "c01s05",
+  "pause_after": "An attribution is an explanation of what caused an action.",
+  "requested_pause_seconds": 1,
+  "measured_zero_silence": {
+    "start": 3.541,
+    "duration": 1.0
+  },
+  "waveform_seconds": 50.288
+}

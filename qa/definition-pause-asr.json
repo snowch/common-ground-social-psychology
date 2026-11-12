@@ -1,0 +1,19 @@
+{
+  "method": "independent Whisper screening; not listening approval",
+  "model": "small.en",
+  "flagged": 0,
+  "scenes": [
+    {
+      "id": "c01s05",
+      "text": "An attribution is an explanation of what caused an action.\n\nAttribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.\n\nA separate task is assessing another person’s interpretation. Ask what that person observed, which causes they considered, and what supports their conclusion. Disagreeing with their conclusion does not, by itself, establish that their reasoning is biased.",
+      "heard": "and attribution is an explanation of what caused an action. Attribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode. Actor-observer differences compare how one observer explains their own actions and other people's actions. In a hypothetical comparison, Leo might cite a bust delay for his own lateness, but Maya's priorities for hers. The pattern varies with the judgment and study design. A separate task is assessing another person's interpretation. Ask what that person observed, which causes they considered, and what supports their conclusion. Disagreeing with their conclusion does not, by itself, establish that their reasoning is biased.",
+      "level": -23.50824230846005,
+      "gap": 1.12,
+      "peak": 0.44622802734375,
+      "ratio": 0.9824561403508771,
+      "wpm": 144.03638814016173,
+      "short": false,
+      "gap_ok": 2.0
+    }
+  ]
+}
