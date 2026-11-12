@@ -1,0 +1,83 @@
+{
+  "1": {
+    "Disposition": "a usual tendency, such as patience.",
+    "Situation": "demands, people, available choices.",
+    "Observation": "What someone saw or recorded, distinguished from their explanation of why it happened.",
+    "Attribution": "An explanation of what caused an action.",
+    "Fundamental attribution error": "too much weight on the person, too little on the situation.",
+    "Attribution research": "Research on how people explain the causes of actions and events, and patterns across those explanations.",
+    "Actor–observer differences": "Differences between how an observer explains their own actions and other people’s actions. The pattern depends on the judgment and setting."
+  },
+  "2": {
+    "Correlation": "things vary together.",
+    "Confound": "another factor could explain the pattern.",
+    "Random assignment": "allocate conditions by chance.",
+    "Random sampling": "select people from a population by chance.",
+    "Statistical significance": "judged against a model, often assuming no group difference.",
+    "Percentage points": "The arithmetic difference between two percentages: 15% minus 12% is three percentage points.",
+    "Replication": "Repeating a test to examine how dependable a finding is.",
+    "Preregistration": "Recording planned methods and analyses before the results are known."
+  },
+  "3": {
+    "Availability heuristic": "easy-to-recall examples shape judgment.",
+    "Base rate": "how common is it among comparable cases?.",
+    "Denominator": "total comparable repairs, including successes.",
+    "Confirmation bias": "seeking or interpreting evidence to fit an existing belief.",
+    "Motivated reasoning": "what we want to be true influences our reasoning."
+  },
+  "4": {
+    "Cognitive dissonance": "inconsistency between beliefs or actions can feel uncomfortable.",
+    "Cognitions": "beliefs and knowledge about our actions.",
+    "Sunk cost": "money, time, or effort that cannot be recovered.",
+    "Sunk cost effect": "letting that past expense drive the next choice.",
+    "Induced-compliance": "A procedure in which participants are asked to advocate a position they do not hold; researchers may vary their freedom to choose."
+  },
+  "5": {
+    "Informational influence": "they may know better.",
+    "Normative influence": "I want acceptance.",
+    "Compliance": "responding to a request.",
+    "Obedience": "responding to an authority’s order."
+  },
+  "6": {
+    "Attitude": "an evaluation of something.",
+    "Elaboration likelihood model": "motivation and ability shape careful thinking.",
+    "Central processing": "examine relevant arguments.",
+    "Peripheral processing": "give more weight to cues such as familiarity.",
+    "Descriptive norm": "what people do.",
+    "Injunctive norm": "what people approve."
+  },
+  "7": {
+    "Social identity": "groups help define who we are.",
+    "In-group favoritism": "favoring “our” side.",
+    "Group polarization": "discussion can intensify a group’s initial leaning.",
+    "Social loafing": "individual effort can fall in pooled work.",
+    "Coordination loss": "real effort is poorly combined.",
+    "Groupthink": "Pressure for agreement that interferes with critical discussion. A poor decision alone does not establish groupthink."
+  },
+  "8": {
+    "Stereotype": "a generalized group belief.",
+    "Prejudice": "a group attitude, often involving dislike.",
+    "Discrimination": "unequal treatment based on group membership.",
+    "Intergroup contact": "interaction between members of different groups.",
+    "Procedural change": "remove an unnecessary entry requirement.",
+    "Explicit attitude": "An evaluation someone reports directly.",
+    "Implicit association": "A link between ideas measured indirectly, for example through response speeds in a sorting task."
+  },
+  "9": {
+    "Mere exposure effect": "familiarity can increase liking in some conditions.",
+    "Disclosure": "sharing something personal.",
+    "Responsiveness": "helping someone feel understood.",
+    "Reciprocity": "mutual consideration over time.",
+    "Proximity": "Physical or social closeness that creates opportunities to meet.",
+    "Similarity": "Having characteristics, interests, or attitudes in common.",
+    "Attachment": "Patterns of expectations and responses in close relationships. Attachment labels are not diagnoses."
+  },
+  "10": {
+    "Bystander effect": "others’ presence can reduce an individual’s chance of helping.",
+    "Diffusion of responsibility": "“Someone else will act.”.",
+    "Pluralistic ignorance": "“Everyone looks calm, so perhaps no help is needed.”.",
+    "Aggression": "behavior intended to harm.",
+    "De-escalation": "lower threat and preserve safety.",
+    "Cooperation": "align goals, roles, and feedback."
+  }
+}
