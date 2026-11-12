@@ -1,6 +1,6 @@
 {
   "build": "out/portable",
-  "embedded_audio_hashes_verified": 151,
+  "embedded_audio_hashes_verified": 153,
   "network_disabled_during_interaction_and_playback": true,
   "load_method": "Portable document served locally, then browser network disabled; file URLs are blocked by managed Chromium policy and were not tested",
   "chapter_decks_played": 10,

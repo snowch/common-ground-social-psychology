@@ -11,26 +11,28 @@
     },
     "provider": "CPUExecutionProvider"
   },
-  "clip_count": 151,
+  "clip_count": 153,
   "chapter_count": 10,
-  "chapter_audio_seconds": 3506.1,
+  "chapter_audio_seconds": 3610.7,
   "asr_model": "small.en",
-  "asr_scenes": 151,
+  "asr_scenes": 153,
   "automated_flags": 7,
-  "review": "Two independent lessons screened with Whisper small.en, zero new flags. Retained screens for 149 unchanged clips. No human listening approval.",
+  "review": "Four Chapter 1 clips screened with Whisper small.en, zero new flags. Retained screens for 149 unchanged clips. No human listening approval.",
   "authorization": "User requested Kokoro af_heart for the existing course scripts.",
   "skill_repository": "https://github.com/snowch/claude-skills",
   "skill_commit": "c9a7c521568632aa216932f4c965df386498602a",
   "audio_map": "audio/manifest.json",
-  "revision": "Independent lesson on testing an explanation",
+  "revision": "Chapter 1 independent teaching sequence and worked example",
   "revision_scenes": [
-    "c01s05",
-    "c01s05b"
+    "c01s03",
+    "c01s03b",
+    "c01s04",
+    "c01s04b"
   ],
-  "pacing_review": "docs/explanation-lesson-review.md",
-  "newly_screened": 2,
+  "pacing_review": "docs/chapter-one-sequence-review.md",
+  "newly_screened": 4,
   "reused_unchanged_screens": 149,
   "synthesis_workers": 1,
   "synthesis_cpu_threads_per_worker": 4,
-  "screening_report": "qa/lesson-split-asr.json"
+  "screening_report": "qa/chapter-one-sequence-asr.json"
 }

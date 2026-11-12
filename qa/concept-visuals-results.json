@@ -1,11 +1,11 @@
 {
   "revision": "all-concepts-visual",
-  "teaching_slides": 31,
-  "concept_slides": 21,
+  "teaching_slides": 33,
+  "concept_slides": 23,
   "evidence_slides": 10,
   "visual_views": 48,
   "visual_companion_pages": 49,
-  "required_term_appearances": 61,
+  "required_term_appearances": 62,
   "primary_and_expanded_placement": "passed",
   "confirmation_evidence": "same records, different emphasis",
   "checks": [
@@ -20,12 +20,12 @@
       "clipped_text": []
     },
     {
-      "visual": "attribution-error",
+      "visual": "observation-attribution",
       "width": 320,
       "clipped_text": []
     },
     {
-      "visual": "observation-attribution",
+      "visual": "attribution-error",
       "width": 320,
       "clipped_text": []
     },
@@ -260,12 +260,12 @@
       "clipped_text": []
     },
     {
-      "visual": "attribution-error",
+      "visual": "observation-attribution",
       "width": 390,
       "clipped_text": []
     },
     {
-      "visual": "observation-attribution",
+      "visual": "attribution-error",
       "width": 390,
       "clipped_text": []
     },
@@ -500,12 +500,12 @@
       "clipped_text": []
     },
     {
-      "visual": "attribution-error",
+      "visual": "observation-attribution",
       "width": 768,
       "clipped_text": []
     },
     {
-      "visual": "observation-attribution",
+      "visual": "attribution-error",
       "width": 768,
       "clipped_text": []
     },
@@ -740,12 +740,12 @@
       "clipped_text": []
     },
     {
-      "visual": "attribution-error",
+      "visual": "observation-attribution",
       "width": 1440,
       "clipped_text": []
     },
     {
-      "visual": "observation-attribution",
+      "visual": "attribution-error",
       "width": 1440,
       "clipped_text": []
     },
@@ -979,16 +979,6 @@
     {
       "screen": "visual-guide",
       "width": 1440,
-      "violations": []
-    },
-    {
-      "screen": "c01s03-expanded",
-      "width": 390,
-      "violations": []
-    },
-    {
-      "screen": "c01s04-expanded",
-      "width": 390,
       "violations": []
     },
     {

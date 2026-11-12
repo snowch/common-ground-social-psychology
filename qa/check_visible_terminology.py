@@ -44,7 +44,7 @@ async def main():
                 for term in expected:
                     assert normalized(term) in text, (width, key, term, 'missing from visible teaching slide')
                 assert await page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'), (width, key, 'horizontal overflow')
-                if key == 'c01s04':
+                if key == 'c01s04b':
                     assert await page.locator('#app .slide strong').filter(has_text='Fundamental attribution error').count() == 1
                     if width == 1440:
                         await page.locator('#app .slide').screenshot(path=str(ROOT/'out/terminology-desktop.png'))

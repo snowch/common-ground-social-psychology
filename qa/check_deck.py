@@ -43,9 +43,10 @@ async def main():
   assert await page.evaluate('Object.keys(RECORDED_AUDIO).length')==len(json.loads((R/'audio/manifest.json').read_text())['clips'])
   # Mobile overflow and layout.
   await page.set_viewport_size({'width':390,'height':844})
-  for n in [1,2,3,5,7,8]:
+  for j,slide in enumerate(C[0]['slides']):
+   n=slide['id'].split('s')[1].lstrip('0')
    await page.evaluate('(h)=>location.hash=h',f'chapter-1-slide-{n}')
-   await page.wait_for_function('(n)=>document.querySelector(".slide-number")?.textContent.trim()===n',arg=f'{n+(n>=6)} / 9')
+   await page.wait_for_function('(n)=>document.querySelector(".slide-number")?.textContent.trim()===n',arg=f"{j+1} / {len(C[0]['slides'])}")
    assert await page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),n
   await page.evaluate('location.hash="chapter-1-slide-5"');await page.wait_for_selector('.slide.evidence')
   await page.screenshot(path=str(R/'qa/mobile-evidence.png'),full_page=True)
