@@ -71,7 +71,7 @@ button.glossary-term{display:inline;min-height:0;padding:0;border:0;border-radiu
 button.glossary-term:hover{background:#E2ECF3;border:0}
 .term-definition{width:min(430px,calc(100vw - 32px));padding:26px;border:1px solid var(--line);border-radius:12px;color:var(--ink);background:#fff;box-shadow:0 12px 50px #19394D30}
 .term-definition::backdrop{background:#19394D30}.term-definition h3{clear:both;margin-bottom:14px}.term-definition p{line-height:1.7;margin-bottom:0}.term-close{float:right;margin-bottom:16px;font-size:14px}
-@media(max-width:900px){.slide{grid-template-columns:1fr}.slide-art{padding:24px}.slide-art>svg{max-height:420px}.slide-copy{padding:30px}}
+@media(max-width:900px){.slide{grid-template-columns:1fr}.slide>.player-controls{width:100%;margin:0;border-radius:0;border-width:1px 0;padding:16px 20px}.slide-art{padding:24px}.slide-art>svg{max-height:420px}.slide-copy{padding:30px}}
 }
 </style></head><body><a class="skip" href="#main">Skip to content</a><noscript><p>This narrated deck needs JavaScript. In the download package, use common-ground-slides.pdf or the chapter PDF and M4A files for reading and listening.</p></noscript><div id="app"></div><div id="print" class="print-only print-slides"></div>
 <script>
@@ -139,9 +139,21 @@ function slideHTML(c,s,printing=false){
  if(s.kind==='practice')body+='<p class="practice-tip">Revisit tomorrow and in a week.<br>Explain it without notes, then use a different example.</p>';
  return `<section class="slide ${s.kind}" style="--accent:${c.color}" aria-label="Chapter ${c.number}, ${s.stage}"><div class="slide-copy"><div class="slide-stage">${printing?'Chapter '+c.number+' · ':''}${esc(s.stage)}</div><h2 id="${printing?'print-'+s.id:'slideTitle'}" tabindex="-1">${esc(s.title)}</h2>${body}<div class="scene-tag">${printing?esc(c.title)+' · '+s.id:s.kind==='story'?'The Common Ground stories':s.kind==='practice'?'One useful idea, put to work.':''}</div></div><div class="slide-art">${scene(c.icon,s.kind,s.id)}<div class="art-caption">${s.kind==='story'?'A fictional story. A real question about people.':['concept','evidence'].includes(s.kind)?esc(diagramCaption(c,s)):s.kind==='practice'?'Take the question into a different setting.':'Maya, Sam and Leo at the repair café.'}</div>${printing?'':moreVisuals(s)}</div></section>`;
 }
+// Move the existing controls so visual and keyboard order agree at each width.
+const stackedLesson=window.matchMedia('(max-width:900px)');
+function placePlayerControls(){
+ const controls=$('#app .player-controls'),slide=$('#app .slide');
+ if(!controls||!slide)return;
+ const focused=controls.contains(document.activeElement)?document.activeElement:null;
+ if(stackedLesson.matches)slide.insertBefore(controls,slide.querySelector('.slide-art'));
+ else slide.before(controls);
+ if(focused)focused.focus({preventScroll:true});
+}
+stackedLesson.addEventListener('change',placePlayerControls);
 function player(){
  const c=COURSE[state.c],s=c.slides[state.s];visited[s.id]=true;save();document.documentElement.style.setProperty('--accent',c.color);
  $('#app').innerHTML=header()+`<main id="main" class="player"><div class="player-heading"><div><div class="chapter-label">Chapter ${c.number} of 10 · ${esc(c.topic)}</div><h1 class="player-title">${esc(c.title)}</h1></div><div class="stage-track" aria-label="Chapter slides">${c.slides.map((x,i)=>`<button class="${i===state.s?'on':''}" data-stage="${i}" aria-label="${esc(x.stage)}" ${i===state.s?'aria-current="step"':''}></button>`).join('')}</div></div><div class="player-controls"><div class="audio-group"><button id="read" class="primary">Play narration</button><button id="pause" disabled>Pause</button><button id="stop" disabled>Stop</button><label class="sr-only" for="speed">Narration speed</label><select id="speed"><option value="0.85">0.85× speed</option><option value="1" selected>1× speed</option><option value="1.15">1.15× speed</option></select></div><div class="nav-group"><button id="prev" ${state.c===0&&state.s===0?'disabled':''}>Previous</button><span class="slide-number">${state.s+1} / 8</span><button class="primary" id="next">${state.s===7?(state.c===COURSE.length-1?'Finish chapter':'Next chapter'):'Next'}</button></div></div>${slideHTML(c,s)}<p id="audioStatus" class="audio-status" aria-live="polite">Listen or read, then continue at your own pace. Exercises wait for your response.</p><div class="transcript"><details open><summary>Recording transcript</summary>${paragraphs(NARRATION_TEXT[s.id]||s.text,c)}${qTranscript(s)}<p class="progress-caption">${esc(storageNotice())}</p></details><aside class="resources">${glossaryHTML(c)}<h3>What you will be able to do</h3><p class="objective">${esc(c.objective)}</p><details class="chapter-reading" ${s.kind==='evidence'?'open':''}><summary>Evidence and further reading</summary>${evidenceHTML(c)}<h3>Open reading for this chapter</h3>${c.refs.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>`).join('')}<p class="small muted">The links support further reading. Evidence checks are selective; this is not an exhaustive literature review.</p></details></aside></div></main>`;
+ placePlayerControls();
  $('#prev').onclick=()=>move(-1);$('#next').onclick=()=>move(1);$('#read').onclick=read;$('#pause').onclick=togglePause;$('#stop').onclick=stop;
  $('#speed').value=String(window.readSpeed||1);$('#speed').onchange=e=>{window.readSpeed=+e.target.value;if(audioPlayer)audioPlayer.playbackRate=window.readSpeed;};
  document.querySelectorAll('[data-stage]').forEach(b=>b.onclick=()=>go(state.c,+b.dataset.stage));document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>choose(+b.dataset.answer));if($('#reveal'))$('#reveal').onclick=()=>{stop();revealed[s.id]=true;player();$('#slideTitle').focus({preventScroll:true});};if($('#checkChoice'))$('#checkChoice').onclick=()=>{stop();checked[s.id]=true;save();player();$('.feedback').tabIndex=-1;$('.feedback').focus({preventScroll:true});};if($('#playFeedback'))$('#playFeedback').onclick=()=>read([s.id+'-feedback-'+answers[s.id]]);bindHeader();
