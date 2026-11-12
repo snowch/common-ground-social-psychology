@@ -12,7 +12,9 @@ What Leo hasn’t seen is the broken lift at Maya’s apartment, or the neighbor
 
 Leo’s conclusion—that Maya didn’t care—was one possible explanation for her lateness. But he hadn’t considered what might have delayed her.
 
-These characters are fictional, but the question is familiar: what did you observe, and what explanation did you supply?
+First, examine Leo’s reasoning in this fictional story. What did Leo observe about Maya’s arrival, and what did he infer about her priorities?
+
+Then think of a recent occasion when you explained someone’s behavior. What did you observe directly, and which cause did you infer? Throughout this course, keep that distinction in mind.
 
 c01s02 | Your decision | What would you do?
 Before the explanation, make your own choice.
@@ -40,9 +42,9 @@ For Maya, the broken lift made arriving on time harder. Investigating that barri
 c01s04 | Second lens | Observation is not explanation.
 When you explain another person’s behavior, you can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.
 
-To check your own interpretation of that behavior, first describe what you observed without adding a cause. “Maya arrived after the start” records the behavior. “Maya doesn’t care” adds your explanation.
+In the story, Leo observed that Maya arrived after the start. His claim that “Maya doesn’t care” was an explanation of her lateness, rather than something he directly observed. The broken lift and helping a neighbor offer alternative causes for the delay.
 
-Next, generate alternative causes. Ask what evidence would weaken each explanation, including the one you first favored. The aim is to test your interpretation.
+When you explain someone’s behavior in your own life, begin by describing what you observed without adding a cause. Then generate alternative explanations and ask what evidence would weaken each one, including the explanation you first favored. These steps help you test your own interpretation.
 
 c01s05 | Evidence check | What can we really conclude?
 An attribution is an explanation of what caused an action. Attribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.
@@ -68,12 +70,12 @@ Choose an action and explain why it addresses the problem.
 c01s07 | Recall | Close your notes. Explain it.
 Answer both prompts from memory.
 
-First. Explain observation versus attribution.
+First. In Maya’s arrival story, what did Leo observe, and what cause did he infer?
 
-Second. What would strengthen a personal explanation?
+Second. What evidence would strengthen an explanation based on a person’s usual tendencies, rather than one unusual situation?
 
-Use your own example. Try both prompts before revealing the suggested answers.
-  Suggested recall: An observation records an action. An attribution proposes a cause for that action.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
+  Suggested recall: Leo observed that Maya arrived after the meeting had started. He inferred that she did not care about the project. Her late arrival is the observation; not caring is his proposed cause.
   Suggested recall: An explanation based on a personal tendency becomes more credible when the behavior recurs across varied circumstances and plausible alternatives have been examined.
 
 c01s08 | Field practice | Carry one idea into your week.
@@ -152,9 +154,9 @@ Answer both prompts from memory.
 
 First. How does random assignment differ from random sampling?
 
-Second. Why is before-and-after evidence insufficient?
+Second. Why does the rise in attendance after Leo changed the poster fail to establish that the poster caused the increase?
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: Random assignment allocates people to conditions. Random sampling selects people from a population.
   Suggested recall: Other conditions can change over time and produce the same before-and-after pattern.
 
@@ -233,11 +235,11 @@ Choose an action and explain why it addresses the problem.
 c03s07 | Recall | Close your notes. Explain it.
 Answer both prompts from memory.
 
-First. Why does a vivid case need a denominator?
+First. Why can’t Leo estimate the repair failure rate from one vivid toaster failure? What total must he count?
 
 Second. When can an availability shortcut be useful?
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: The denominator is the total of comparable cases. Four failed repairs mean something different among forty repairs than among four hundred. Consistent follow-up is needed to estimate the failure rate.
   Suggested recall: An availability shortcut can help when the examples that come to mind reliably represent the relevant events.
 
@@ -318,7 +320,7 @@ First. Name two ways to reduce dissonance.
 
 Second. When can a past investment still matter?
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: People may reduce dissonance by changing a behavior or belief, or by adding a justification. Context affects the response.
   Suggested recall: A past investment matters when it changes future consequences, such as switching costs or usable skills.
 
@@ -342,7 +344,7 @@ A donor offers a publicity event. The chair calls it a wonderful opportunity, an
 
 Sam assumes Maya has checked the risks. Maya reads Sam’s silence as reassurance. Each person is taking the other’s outward response as a sign that the proposal has been considered carefully.
 
-Public agreement can hide private doubts. Later, a request to skip an equipment check raises a different question: when should authority be challenged?
+Public agreement can hide private doubts. In a later decision in this chapter, the chair asks volunteers to skip a required equipment check. You will consider how the team can question that instruction before unsafe work begins.
 
 c05s02 | Your decision | What would you do?
 Before the explanation, make your own choice.
@@ -402,7 +404,7 @@ First. Distinguish normative and informational influence.
 
 Second. Why can public agreement overstate private agreement?
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: Normative influence concerns acceptance. Informational influence treats other people’s responses as evidence.
   Suggested recall: Public agreement can hide private doubt when people copy early answers, suppress concerns, or assume that others have checked.
 
@@ -485,7 +487,7 @@ First. What makes central processing more likely?
 
 Second. Distinguish descriptive and injunctive norms.
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: Central processing is more likely when someone is motivated and has the ability, attention, and information to examine the arguments.
   Suggested recall: Descriptive norms concern what people do. Injunctive norms concern approval.
 
@@ -568,7 +570,7 @@ First. How does polarization differ from consensus?
 
 Second. How can a willing group still perform poorly?
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: Consensus is agreement. Polarization is movement toward a more extreme position from an initial leaning.
   Suggested recall: A willing group can still lose output through poor sequencing, duplicated work, missing tools, or unclear roles.
 
@@ -653,7 +655,7 @@ First. Give an example of discrimination without an openly hostile statement.
 
 Second. Why might a contact event leave unequal access unchanged?
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: An irrelevant requirement or restricted network can exclude a group without an openly hostile statement.
   Suggested recall: Contact can leave unequal access unchanged when decision power, incentives, status differences, or procedures remain the same.
 
@@ -736,7 +738,7 @@ First. How can proximity affect friendship?
 
 Second. Why is disclosure alone insufficient?
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: Proximity changes opportunities to interact and discover shared interests.
   Suggested recall: Disclosure alone is insufficient because willingness, responsiveness, trust, context, and mutual boundaries also matter.
 
@@ -817,9 +819,9 @@ Answer both prompts from memory.
 
 First. Distinguish diffusion of responsibility from pluralistic ignorance.
 
-Second. Use two ideas from earlier chapters to improve an incident review.
+Second. Imagine you are reviewing the café’s response to the fallen shelf. Choose two ideas from earlier chapters and explain how each would improve the review.
 
-Use your own example. Try both prompts before revealing the suggested answers.
+Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.
   Suggested recall: Diffusion of responsibility concerns who should act. Pluralistic ignorance concerns how people interpret others’ reactions.
   Suggested recall: For an incident review, separate observations from blame, compare possible causes, invite independent accounts, or assign clear roles. These draw on chapters one, two, five, and seven.
 
