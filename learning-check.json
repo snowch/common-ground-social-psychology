@@ -58,7 +58,7 @@
         9,
         10
       ],
-      "prompt": "Respond to the newcomer while respecting their choice, then give a low-risk helping plan for the resource list. State one limit of your explanation.",
+      "prompt": "For the language-club newcomer who shared a personal difficulty, write a response that checks what support they want and respects their choice. Then propose a named role and next step for the club’s unfinished resource list. State one thing the case does not tell you about the newcomer’s needs or the cause of the unfinished list.",
       "answer": "Ask whether the newcomer wants listening, practical help, or advice, and accept the response. Agree on a named owner, a specific next action, support, and feedback for the resource list. General relationship or bystander patterns cannot diagnose an individual’s motives or guarantee the plan’s success."
     }
   ],
