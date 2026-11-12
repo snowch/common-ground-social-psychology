@@ -1,7 +1,7 @@
 {
   "revision": "all-concepts-visual",
-  "teaching_slides": 30,
-  "concept_slides": 20,
+  "teaching_slides": 31,
+  "concept_slides": 21,
   "evidence_slides": 10,
   "visual_views": 48,
   "visual_companion_pages": 49,
@@ -988,11 +988,6 @@
     },
     {
       "screen": "c01s04-expanded",
-      "width": 390,
-      "violations": []
-    },
-    {
-      "screen": "c01s05-expanded",
       "width": 390,
       "violations": []
     },

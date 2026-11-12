@@ -27,8 +27,21 @@ function actorObserverFigure(){return compareFigure('actor-observer','One observ
  ['Leo explains himself',['“The bus','was delayed.”','Circumstances'],'person'],
  ['Leo explains Maya',['“She doesn’t care.”','A personal tendency','Could he be missing','her circumstances?'],'person'],
  ['A possible actor–observer difference.','The pattern depends on judgment and setting.']);}
-function repeatedEvidenceFigure(){return flowFigure('repeated-evidence','Checking your own interpretation',[
- ['Describe the action','Separate it from a character judgment'],['Compare occasions','Different settings and exceptions'],['Check alternatives','Ask what could change the explanation'],['Revise your confidence','Update your explanation from the evidence']], 'Test the explanation you first favored.');}
+function repeatedEvidenceFigure(){
+ const steps=[
+  ['Describe the action','Maya arrived after the start.','Keep the cause open.'],
+  ['Compare occasions','Is lateness usual across shifts?','Look for exceptions.'],
+  ['Check alternatives','Could a travel barrier explain it?','Ask Maya about the delay.'],
+  ['Revise your confidence','Weigh the evidence for each cause.','Allow your explanation to change.']];
+ const leftText=(x,y,t,size,color='#19394D',extra='')=>`<text x="${x}" y="${y}" text-anchor="start" font-family="CourseSans,Arial,sans-serif" font-size="${size}" fill="${color}" ${extra}>${esc(t)}</text>`;
+ return `<svg viewBox="0 0 520 580" role="img" data-diagram="repeated-evidence" aria-label="Test an attribution: describe Maya’s late arrival, compare occasions, check alternatives, and revise confidence from evidence.">
+ <text x="30" y="35" font-family="CourseSerif,Georgia,serif" font-size="26" fill="#19394D">Follow the evidence</text>
+ <rect x="30" y="58" width="460" height="68" rx="12" fill="#F9FBFD"/>
+ ${leftText(48,82,'Leo’s proposed cause',14,'#4B6172')}${leftText(48,110,'“She doesn’t care.”',23,'#7058A3')}
+ <path d="M51 167V458" fill="none" stroke="#ADC6D3" stroke-width="2"/>
+ ${steps.map((row,i)=>{const y=171+i*95;return `<circle cx="51" cy="${y}" r="18" fill="${i===3?'#216B88':'#FFFFFF'}" stroke="#216B88" stroke-width="1.5"/><text x="51" y="${y+6}" text-anchor="middle" font-family="CourseSans,Arial,sans-serif" font-size="17" fill="${i===3?'#FFFFFF':'#216B88'}">${i+1}</text>`+leftText(87,y-5,row[0],22,'#19394D','font-weight="600"')+leftText(87,y+24,row[1],18)+leftText(87,y+48,row[2],17,'#4B6172');}).join('')}
+ <text x="260" y="554" text-anchor="middle" font-family="CourseSans,Arial,sans-serif" font-size="17" fill="#216B88">Let evidence change your confidence.</text></svg>`;
+}
 function samplingFigure(){return flowFigure('sampling-assignment','A possible selection-and-allocation design',[
  ['Population','Residents we want to learn about'],['Random sampling','Select people by chance'],['Sample enters the comparison','Who was actually included?'],['Random assignment','Allocate invitation A or B by chance']], 'Assignment does not make a sample representative.');}
 function correlationFigure(){return compareFigure('correlation-causation','Together does not establish because',
@@ -150,7 +163,8 @@ function personSituationModelFigure(){return scene('room','concept').replace('<s
 const visualLessons={
  c01s03:[lessonView('person-situation-model','Person and situation together',personSituationModelFigure,'Personal qualities and circumstances can both contribute.',['Situation']),lessonView('person-situation','Disposition and immediate demands',personSituationFigure,'Personal tendencies and immediate demands can interact.',['Disposition'])],
  c01s04:[lessonView('attribution-error','Fundamental attribution error',attributionErrorScene,'The imbalance is in Leo’s explanation.',['Fundamental attribution error']),lessonView('observation-attribution','Observation and attribution',observationFigure,'Leo’s observation and his attribution answer different questions.',['Observation','Attribution'])],
- c01s05:[lessonView('actor-observer','Actor–observer differences',actorObserverFigure,'Hypothetical explanations by the same observer.',['actor–observer differences']),lessonView('repeated-evidence','Attribution across repeated observations',repeatedEvidenceFigure,'Use settings, exceptions, and alternatives to check your own account.',['Attribution'])],
+ c01s05:[lessonView('actor-observer','Attribution and actor–observer differences',actorObserverFigure,'Hypothetical explanations by the same observer.',['Attribution','actor–observer differences'])],
+ c01s05b:[lessonView('repeated-evidence','Test an explanation against evidence',repeatedEvidenceFigure,'Describe, compare, check, and revise. Apply the same steps to your own interpretations.',[])],
  c02s03:[lessonView('confounding','Confounding',confoundingScene,conceptCaptions.c02s03,['Confound']),lessonView('sampling-assignment','Random sampling and random assignment',samplingFigure,'Choosing the sample and assigning conditions answer different questions.',['Random assignment','Random sampling']),lessonView('correlation-causation','Correlation and causation',correlationFigure,'A shared pattern leaves multiple causes possible.',['Correlation'])],
  c02s04:[lessonView('effect-size','Effect size and uncertainty',differenceFigure,'Invented counts illustrate the size of a difference.',['percentage points']),lessonView('significance-importance','Statistical significance and practical importance',significanceFigure,'Model-based evidence and practical value are different questions.',['Statistical significance'])],
  c02s05:[lessonView('research-reliability','Preregistration, transparency, and replication',researchCycleFigure,'Plan, inspect, and independently repeat a sound comparison.',['Replication','Preregistration'])],

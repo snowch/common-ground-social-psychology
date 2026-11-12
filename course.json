@@ -29,7 +29,7 @@
         "text": "When you explain another person’s behavior, you can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.\n\nIn the story, Leo observed that Maya arrived after the start. His claim that “Maya doesn’t care” was an explanation of her lateness, rather than something he directly observed. The broken lift and helping a neighbor offer alternative causes for the delay.\n\nWhen you explain someone’s behavior in your own life, begin by describing what you observed without adding a cause. Then generate alternative explanations and ask what evidence would weaken each one, including the explanation you first favored. These steps help you test your own interpretation."
       }
     ],
-    "evidence": "An attribution is an explanation of what caused an action.\n\nAttribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.\n\nA separate task is assessing another person’s interpretation. Ask what that person observed, which causes they considered, and what supports their conclusion. Disagreeing with their conclusion does not, by itself, establish that their reasoning is biased.",
+    "evidence": "An attribution is an explanation of what caused an action.\n\nAttribution research describes patterns across judgments. Those patterns do not settle the cause of one person’s action.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.",
     "quizzes": [
       {
         "prompt": "Leo is assigning the opening shift. What is his most informative next move?",
@@ -137,14 +137,27 @@
       },
       {
         "kind": "evidence",
-        "title": "What can we really conclude?",
+        "title": "One observer, two explanations.",
         "points": [
           "What the research supports",
           "Where the claim needs restraint"
         ],
-        "text": "An attribution is an explanation of what caused an action.\n\nAttribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.\n\nA separate task is assessing another person’s interpretation. Ask what that person observed, which causes they considered, and what supports their conclusion. Disagreeing with their conclusion does not, by itself, establish that their reasoning is biased.",
+        "text": "An attribution is an explanation of what caused an action.\n\nAttribution research describes patterns across judgments. Those patterns do not settle the cause of one person’s action.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.",
         "id": "c01s05",
         "stage": "Evidence check"
+      },
+      {
+        "id": "c01s05b",
+        "kind": "concept",
+        "stage": "Check an explanation",
+        "title": "Test the explanation.",
+        "points": [
+          "Describe: Maya arrived late; “doesn’t care” is a proposed cause.",
+          "Compare: look across shifts, settings, and exceptions.",
+          "Check: ask Maya and test plausible alternatives.",
+          "Revise: change your confidence when the evidence changes."
+        ],
+        "text": "Return to Maya’s late arrival at the café. Leo has proposed that she did not care about the project. How could he check that explanation?\n\nBegin with what was observed: Maya arrived after the start. Leo’s claim that she did not care adds a cause. Ask Maya about the delay before deciding which explanation fits.\n\nCompare repeated occasions and settings. Is Maya late across different shifts, or only when a particular obstacle is present? A personal tendency becomes more plausible when the behavior recurs across varied circumstances. One episode is a weak basis for that conclusion.\n\nCheck alternatives. A broken lift or helping a neighbor could explain this delay. Identify what evidence would strengthen or weaken each account, then revise your confidence.\n\nIf you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it."
       },
       {
         "kind": "transfer",

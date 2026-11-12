@@ -25,7 +25,7 @@ async def main():
   checked=0
   for c in C:
    for j,s in enumerate(c['slides']):
-    await page.evaluate('(h)=>{location.hash=h}',f"chapter-{c['number']}-slide-{j+1}")
+    await page.evaluate('(h)=>{location.hash=h}',f"chapter-{c['number']}-slide-{s['id'].split('s')[1].lstrip('0')}")
     await page.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=s['title'])
     assert await page.locator('.slide').count()==1
     if 'quiz' in s:
@@ -40,12 +40,12 @@ async def main():
     assert bounds['s']<=bounds['c']+1,(c['number'],j,bounds)
   await page.reload();await page.wait_for_selector('.slide.practice')
   # Recorded audio transport has its own real-playback check in check_recorded_audio.py.
-  assert await page.evaluate('Object.keys(RECORDED_AUDIO).length')==150
+  assert await page.evaluate('Object.keys(RECORDED_AUDIO).length')==len(json.loads((R/'audio/manifest.json').read_text())['clips'])
   # Mobile overflow and layout.
   await page.set_viewport_size({'width':390,'height':844})
   for n in [1,2,3,5,7,8]:
    await page.evaluate('(h)=>location.hash=h',f'chapter-1-slide-{n}')
-   await page.wait_for_function('(n)=>document.querySelector(".slide-number")?.textContent.trim()===n+" / 8"',arg=n)
+   await page.wait_for_function('(n)=>document.querySelector(".slide-number")?.textContent.trim()===n',arg=f'{n+(n>=6)} / 9')
    assert await page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),n
   await page.evaluate('location.hash="chapter-1-slide-5"');await page.wait_for_selector('.slide.evidence')
   await page.screenshot(path=str(R/'qa/mobile-evidence.png'),full_page=True)
@@ -55,7 +55,7 @@ async def main():
   # Print-ready full deck.
   await page.set_viewport_size({'width':1280,'height':720})
   await page.evaluate('buildPrint()');await page.evaluate('document.fonts.ready')
-  assert await page.locator('#print .slide').count()==80
+  assert await page.locator('#print .slide').count()==sum(len(c['slides']) for c in C)
   await page.pdf(path=str(R/'common-ground-slides.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)
   # A 4K slide export suitable as the first recording input.
   await page.goto((os.environ.get('COURSE_BASE_URL','http://127.0.0.1:8877').rstrip('/')+'/index.html')+'#chapter-1-slide-1');await page.wait_for_selector('.slide.story')
@@ -66,7 +66,7 @@ async def main():
   await page.goto((os.environ.get('COURSE_BASE_URL','http://127.0.0.1:8877').rstrip('/')+'/chapters/chapter-10.html'));await page.wait_for_selector('.slide.story')
   assert 'Who will do something?' in await page.locator('.player-title').inner_text()
   assert not errors,errors
-  result=dict(chapters=10,slides=80,decisions_checked=checked,feedback_variants_checked=checked*3,recall_reveals_checked=10,mobile_width=390,js_errors=errors,narration_controls='See af-heart-browser-results.json for real AAC playback checks',pdf='exported',standalone_chapter='passed')
+  result=dict(chapters=10,slides=sum(len(c['slides']) for c in C),decisions_checked=checked,feedback_variants_checked=checked*3,recall_reveals_checked=10,mobile_width=390,js_errors=errors,narration_controls='See af-heart-browser-results.json for real AAC playback checks',pdf='exported',standalone_chapter='passed')
   (R/'qa/results.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2))
   await browser.close()
 asyncio.run(main())
