@@ -46,9 +46,17 @@ for c in C:
  slug=f"chapter-{c['number']:02d}"
  render(D/'chapters'/f'{slug}.html',[c],'../');shutil.copy(R/'chapters'/f'{slug}.pdf',D/'chapters'/f'{slug}.pdf')
 shutil.copy(R/'common-ground-slides.pdf',D/'common-ground-slides.pdf')
-for name in ['FONT-LICENSE.txt','THIRD-PARTY-NOTICES.txt']:shutil.copy(R/name,D/name)
+for name in ['LICENSE','FONT-LICENSE.txt','THIRD-PARTY-NOTICES.txt']:shutil.copy(R/name,D/name)
 shutil.copytree(R/'licenses',D/'licenses',dirs_exist_ok=True)
 (D/'assets/fonts').mkdir(parents=True,exist_ok=True)
 shutil.copy(R/'assets/fonts/manifest.json',D/'assets/fonts/manifest.json')
 if not a.portable:shutil.copytree(R/'audio',D/'audio',dirs_exist_ok=True)
 print(f"Built {'portable'if a.portable else 'streamed-audio'} course in {D}")
+
+# Include the project notice in every HTML edition, including offline decks.
+for page in D.rglob("*.html"):
+ text=page.read_text()
+ if 'class="copyright-notice"' in text:continue
+ marker="</body>" if "</body>" in text else "</html>"
+ assert marker in text, page
+ page.write_text(text.replace(marker, '<footer class="copyright-notice" style="padding:1rem 4vw;font:14px/1.6 sans-serif"><a href="https://github.com/snowch/common-ground-social-psychology/blob/main/LICENSE">Copyright © 2026 Christopher Snow. All rights reserved.</a></footer>'+marker, 1))
