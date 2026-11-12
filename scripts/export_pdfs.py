@@ -12,8 +12,10 @@ async def main():
   print('Overflow:',bad,flush=True)
   assert not bad,bad
   await page.pdf(path=str(R/'common-ground-slides.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)
-  for n in range(1,11):await page.pdf(path=str(R/f'chapters/chapter-{n:02d}.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True,page_ranges=f'{(n-1)*8+1}-{n*8}')
-  (R/'qa/course-review-pdf.json').write_text(json.dumps(dict(pages=80,chapter_pdfs=10,overflow=bad,content_revision=args.revision),indent=2))
+  course=json.loads((R/'course.json').read_text());offset=0
+  for c in course:
+   count=len(c['slides']);await page.pdf(path=str(R/f"chapters/chapter-{c['number']:02d}.pdf"),prefer_css_page_size=True,print_background=True,tagged=True,outline=True,page_ranges=f'{offset+1}-{offset+count}');offset+=count
+  (R/'qa/course-review-pdf.json').write_text(json.dumps(dict(pages=offset,chapter_pdfs=10,overflow=bad,content_revision=args.revision),indent=2))
   await page.goto(BASE+'/study-guide.html');await page.evaluate('document.fonts.ready')
   await page.pdf(path=str(R/'study-guide.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)
   await page.goto(BASE+'/visual-guide.html');await page.evaluate('document.fonts.ready')
@@ -21,5 +23,5 @@ async def main():
   bad_visuals=await page.locator('.visual-card').evaluate_all('els=>els.filter(e=>e.scrollHeight>e.clientHeight+2).map(e=>e.id)')
   assert not bad_visuals,bad_visuals
   await page.pdf(path=str(R/'visual-guide.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)
-  print(f'Updated 80-slide PDF, ten chapter PDFs, study companion, and {count}-figure visual companion.',flush=True);await b.close()
+  print(f'Updated {offset}-slide PDF, ten chapter PDFs, study companion, and {count}-figure visual companion.',flush=True);await b.close()
 asyncio.run(main())

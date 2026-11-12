@@ -9,7 +9,12 @@ p.add_argument('--portable',action='store_true',help='Embed narration in each HT
 p.add_argument('--output',default='dist',help='Build output directory (default: dist).')
 a=p.parse_args();D=(R/a.output).resolve();D.mkdir(parents=True,exist_ok=True);(D/'chapters').mkdir(exist_ok=True)
 C=json.loads((R/'course.json').read_text());clips={f.stem:f for f in (R/'audio/clips').glob('*.m4a')}
-if len(clips)!=150:raise SystemExit('Expected 150 audio/clips/*.m4a recordings. See README.md for setup.')
+expected={s['id'] for c in C for s in c['slides']}
+for c in C:
+ for s in c['slides']:
+  expected.update(s['id']+'-feedback-'+str(i) for i in range(len(s.get('quiz',{}).get('options',[]))))
+  if 'answers' in s:expected.add(s['id']+'-answers')
+if set(clips)!=expected:raise SystemExit('Recordings do not match the course: '+str(set(clips)^expected))
 fonts=''
 for family,name in [('CourseSerif','LibreBaskerville[wght].ttf'),('CourseSans','Arimo[wght].ttf')]:
  b=base64.b64encode((R/'assets/fonts'/name).read_bytes()).decode();fonts+=f'@font-face{{font-family:{family};src:url(data:font/ttf;base64,{b}) format("truetype");font-weight:100 900;font-display:swap}}\n'

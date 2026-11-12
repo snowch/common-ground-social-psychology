@@ -2,13 +2,14 @@ import asyncio,json,os
 from pathlib import Path
 from playwright.async_api import async_playwright
 R=Path(__file__).resolve().parents[1]
+CLIP_COUNT=len(json.loads((R/'audio/manifest.json').read_text())['clips'])
 async def main():
  async with async_playwright() as p:
   b=await p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox','--autoplay-policy=no-user-gesture-required'])
   pg=await b.new_page(viewport={'width':1440,'height':1000},reduced_motion='reduce')
   errors=[];pg.on('pageerror',lambda e:errors.append(str(e)))
   await pg.goto((os.environ.get('COURSE_BASE_URL','http://127.0.0.1:8877').rstrip('/')+'/index.html#chapter-1-slide-1'));await pg.wait_for_selector('#read')
-  assert await pg.evaluate('Object.keys(RECORDED_AUDIO).length')==150
+  assert await pg.evaluate('Object.keys(RECORDED_AUDIO).length')==CLIP_COUNT
   assert not await pg.evaluate("document.documentElement.innerHTML.includes('speechSynthesis')")
   await pg.locator('#read').click();await pg.wait_for_function('audioPlayer&&audioPlayer.currentTime>0.15')
   await pg.locator('#pause').click();t=await pg.evaluate('audioPlayer.currentTime');await pg.wait_for_timeout(300)
@@ -28,14 +29,14 @@ async def main():
   await pg.locator('#stop').click()
   # Decode metadata from every embedded recording using the real browser AAC decoder.
   decoded=await pg.evaluate('''async()=>{let results=[];for(const [id,url] of Object.entries(RECORDED_AUDIO)){let a=new Audio();a.src=url;await new Promise((resolve,reject)=>{a.onloadedmetadata=resolve;a.onerror=()=>reject(Error(id));a.load()});if(!(a.duration>0))throw Error(id);results.push({id,duration:a.duration});a.removeAttribute('src');a.load();}return results;}''')
-  assert len(decoded)==150
+  assert len(decoded)==CLIP_COUNT
   expected={x["id"]:x["duration"]for x in json.loads((R/"audio/manifest.json").read_text())["clips"]}
   for item in decoded:assert abs(item["duration"]-expected[item["id"]])<.04,item["id"]
   C=json.loads((R/'course.json').read_text())
   for c in C:
    for j,s in enumerate(c['slides']):
     if 'quiz' not in s:continue
-    await pg.evaluate('(h)=>location.hash=h',f"chapter-{c['number']}-slide-{j+1}")
+    await pg.evaluate('(h)=>location.hash=h',f"chapter-{c['number']}-slide-{s['id'].split('s')[1].lstrip('0')}")
     await pg.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=s['title'])
     for k,f in enumerate(s['quiz']['feedback']):
      await pg.locator(f'[data-answer="{k}"]').click();await pg.locator('#checkChoice').click();assert f in await pg.locator('.feedback').inner_text()
@@ -49,6 +50,6 @@ async def main():
   await pg.locator('#read').click();await pg.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1')
   await pg.locator('#stop').click()
   assert not errors,errors
-  out=dict(recordings=150,audio_storage='local files or embedded, depending on the selected build',metadata_decoded=len(decoded),real_playback='passed',pause_resume_stop='passed',speed='passed',selected_feedback_queue='passed',recall_answer_queue='passed',navigation_stops_audio='passed',standalone_chapter='passed',feedback_variants=60,mobile_width=390,js_errors=errors,audible_human_review=False)
+  out=dict(recordings=CLIP_COUNT,audio_storage='local files or embedded, depending on the selected build',metadata_decoded=len(decoded),real_playback='passed',pause_resume_stop='passed',speed='passed',selected_feedback_queue='passed',recall_answer_queue='passed',navigation_stops_audio='passed',standalone_chapter='passed',feedback_variants=60,mobile_width=390,js_errors=errors,audible_human_review=False)
   (R/'qa/af-heart-browser-results.json').write_text(json.dumps(out,indent=2));print(json.dumps(out,indent=2));await b.close()
 asyncio.run(main())

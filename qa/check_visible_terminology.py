@@ -36,7 +36,7 @@ async def main():
             await page.set_viewport_size({'width': width, 'height': 1000})
             for key, expected in terms.items():
                 chapter, slide = slides[key]
-                number = int(key[-2:])
+                number = key.split('s')[1].lstrip('0')
                 await page.evaluate('(hash)=>location.hash=hash', f"chapter-{chapter['number']}-slide-{number}")
                 label = f"Chapter {chapter['number']}, {slide['stage']}"
                 await page.wait_for_function('(label)=>document.querySelector("#app .slide")?.getAttribute("aria-label")===label', arg=label)
@@ -51,9 +51,9 @@ async def main():
         await browser.close()
     assert not errors, errors
     for key, expected in terms.items():
-        chapter, _ = slides[key]
-        slide_number = int(key[-2:])
-        page_number = (chapter['number']-1)*8+slide_number
+        chapter, slide = slides[key]
+        slide_number = chapter['slides'].index(slide)+1
+        page_number = sum(len(c['slides']) for c in course if c['number'] < chapter['number'])+slide_number
         files = [(ROOT/'common-ground-slides.pdf', page_number),
                  (ROOT/f"chapters/chapter-{chapter['number']:02d}.pdf", slide_number)]
         for path, number in files:

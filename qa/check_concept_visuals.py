@@ -55,7 +55,7 @@ async def main():
    assert all(s==focus for s in await selected.evaluate_all('els=>els.map(e=>e.dataset.outcome)'))
   await page.goto(BASE+'/index.html');await page.add_script_tag(path=str(AXE));await page.set_viewport_size({'width':390,'height':1000})
   for key,vs in manifest.items():
-   await page.evaluate('(h)=>location.hash=h',f'chapter-{int(key[1:3])}-slide-{int(key[-2:])}')
+   await page.evaluate('(h)=>location.hash=h',f'chapter-{int(key[1:3])}-slide-{key.split('s')[1].lstrip('0')}')
    await page.locator(f'#app .slide-art > svg[data-diagram="{vs[0]["key"]}"]').wait_for()
    if len(vs)>1:
     details=page.locator('#app .more-visuals');assert await details.get_attribute('open') is None
@@ -76,7 +76,7 @@ async def main():
   text=normal(subprocess.check_output(['pdftotext','-f',str(i),'-l',str(i),str(ROOT/'visual-guide.pdf'),'-'],text=True))
   assert normal(v['title']) in text,(i,v['title'],text)
   assert all(normal(term) in text for term in v['terms']),(i,v['terms'])
- report=dict(revision='all-concepts-visual',teaching_slides=len(manifest),concept_slides=20,evidence_slides=10,visual_views=len(views),visual_companion_pages=pages,required_term_appearances=sum(map(len,required.values())),primary_and_expanded_placement='passed',confirmation_evidence='same records, different emphasis',checks=checks,axe_audits=audits,js_errors=errors,limits='Automated visual, PDF, and accessibility checks; no learner pilot or full accessibility certification.')
+ report=dict(revision='all-concepts-visual',teaching_slides=len(manifest),concept_slides=sum(s['kind']=='concept' for c in course for s in c['slides']),evidence_slides=10,visual_views=len(views),visual_companion_pages=pages,required_term_appearances=sum(map(len,required.values())),primary_and_expanded_placement='passed',confirmation_evidence='same records, different emphasis',checks=checks,axe_audits=audits,js_errors=errors,limits='Automated visual, PDF, and accessibility checks; no learner pilot or full accessibility certification.')
  (ROOT/'qa/visual-coverage.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
  (ROOT/'qa/concept-visuals-results.json').write_text(json.dumps(report,indent=2)+'\n')
  print(json.dumps({k:v for k,v in report.items() if k not in ['checks','axe_audits']},indent=2))

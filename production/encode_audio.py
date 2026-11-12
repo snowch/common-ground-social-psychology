@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1]
 W=R/'production/af-heart'
 OUT=R/'audio/clips';CH=R/'audio/chapters';OUT.mkdir(parents=True,exist_ok=True);CH.mkdir(parents=True,exist_ok=True)
 scenes=json.loads((W/'scenes.json').read_text())
-assert len(scenes)==150
+assert len(scenes)==len({s['id'] for s in scenes})
 
 def encode(s):
  src=W/'audio'/f"{s['id']}.wav"; dst=OUT/f"{s['id']}.m4a"
@@ -36,7 +36,7 @@ for c in chapters:
  tracks.append(dict(chapter=c['number'],title=c['title'],file=str(dst.relative_to(R)),duration=duration,sha256=hashlib.sha256(dst.read_bytes()).hexdigest()))
  print('Chapter',c['number'],round(duration,1),'seconds',flush=True)
 durations=json.loads((W/'audio/durations.json').read_text())
-assert len(durations['durations'])==150
+assert set(durations['durations'])=={s['id'] for s in scenes}
 manifest=dict(voice=durations['voice'],speed=durations['speed'],engine=durations['engine'],encoding=dict(codec='AAC',sample_rate=48000,channels=1,bitrate=160000,loudness_target_lufs=-16,true_peak_target_dbtp=-1.5),clips=clips,chapters=tracks,review='Independent ASR and phoneme screening; not a human listening review')
 (R/'audio/manifest.json').write_text(json.dumps(manifest,indent=2))
 print('Narration manifest written.',flush=True)

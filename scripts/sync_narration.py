@@ -51,7 +51,7 @@ def compile_scenes(course, previous):
                 say = text.replace('\n\n', ' [pause 0.9] ')
                 if text.endswith('?'):
                     say += ' [pause 1.5]'
-            add(slide['id'], slide['title'], text, say, part, (chapter['number']-1)*8+index+1)
+            add(slide['id'], slide['title'], text, say, part, sum(len(c['slides']) for c in course if c['number'] < chapter['number'])+index+1)
             if 'quiz' in slide:
                 for index, feedback in enumerate(slide['quiz']['feedback']):
                     prefix = 'Good application.' if index == slide['quiz']['correct'] else 'Consider the consequence.'
@@ -61,7 +61,8 @@ def compile_scenes(course, previous):
                 text = 'Suggested answers.\n\nFirst. '+slide['answers'][0]+'\n\nSecond. '+slide['answers'][1]
                 add(slide['id']+'-answers', 'Suggested recall answers', text,
                     text.replace('\n\n', ' [pause 0.8] '), part)
-    assert len(scenes) == len({s['id'] for s in scenes}) == 150
+    assert len(scenes) == len({s['id'] for s in scenes})
+    assert len(scenes) == sum(1+len(s.get('quiz',{}).get('options',[]))+('answers' in s) for c in course for s in c['slides'])
     return scenes
 
 
@@ -72,7 +73,8 @@ def main():
     path = ROOT/'production/af-heart/scenes.json'
     previous = json.loads(path.read_text())
     scenes = compile_scenes(json.loads((ROOT/'course.json').read_text()), previous)
-    changed = [s['id'] for s, old in zip(scenes, previous) if s != old]
+    old_by_id = {s['id']: s for s in previous}
+    changed = [s['id'] for s in scenes if s != old_by_id.get(s['id'])]
     script = ['COMMON GROUND — RECORDED AF_HEART SCRIPT',
               'Current recording script; see production/af-heart-production.json for revision provenance.',
               'Kokoro v1.0, ONNX CPU, af_heart, speed 1.0. Pause markers indicate inserted silence and are not spoken.', '']

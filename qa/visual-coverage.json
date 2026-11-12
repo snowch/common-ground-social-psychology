@@ -35,17 +35,18 @@
   "c01s05": [
     {
       "key": "actor-observer",
-      "title": "Actor–observer differences",
+      "title": "Attribution and actor–observer differences",
       "terms": [
+        "Attribution",
         "actor–observer differences"
       ]
-    },
+    }
+  ],
+  "c01s05b": [
     {
       "key": "repeated-evidence",
-      "title": "Attribution across repeated observations",
-      "terms": [
-        "Attribution"
-      ]
+      "title": "Test an explanation against evidence",
+      "terms": []
     }
   ],
   "c02s03": [

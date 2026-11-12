@@ -48,14 +48,23 @@ In the story, Leo observed that Maya arrived after the start. His claim that “
 
 When you explain someone’s behavior in your own life, begin by describing what you observed without adding a cause. Then generate alternative explanations and ask what evidence would weaken each one, including the explanation you first favored. These steps help you test your own interpretation.
 
-c01s05 | Evidence check | What can we really conclude?
+c01s05 | Evidence check | One observer, two explanations.
 An attribution is an explanation of what caused an action.
 
-Attribution research describes patterns across judgments. Personal qualities can matter, and repeated behavior across varied settings is more informative than one episode.
+Attribution research describes patterns across judgments. Those patterns do not settle the cause of one person’s action.
 
 Actor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.
 
-A separate task is assessing another person’s interpretation. Ask what that person observed, which causes they considered, and what supports their conclusion. Disagreeing with their conclusion does not, by itself, establish that their reasoning is biased.
+c01s05b | Check an explanation | Test the explanation.
+Return to Maya’s late arrival at the café. Leo has proposed that she did not care about the project. How could he check that explanation?
+
+Begin with what was observed: Maya arrived after the start. Leo’s claim that she did not care adds a cause. Ask Maya about the delay before deciding which explanation fits.
+
+Compare repeated occasions and settings. Is Maya late across different shifts, or only when a particular obstacle is present? A personal tendency becomes more plausible when the behavior recurs across varied circumstances. One episode is a weak basis for that conclusion.
+
+Check alternatives. A broken lift or helping a neighbor could explain this delay. Identify what evidence would strengthen or weaken each account, then revise your confidence.
+
+If you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it.
 
 c01s06 | New situation | Try the idea somewhere new.
 Apply the idea to a new decision.
