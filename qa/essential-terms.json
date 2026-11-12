@@ -5,8 +5,7 @@
   ],
   "c01s04": [
     "Observation",
-    "Attribution",
-    "Fundamental attribution error"
+    "Attribution"
   ],
   "c01s05": [
     "Attribution",
@@ -109,5 +108,11 @@
     "Aggression",
     "De-escalation",
     "Cooperation"
+  ],
+  "c01s03b": [
+    "Disposition"
+  ],
+  "c01s04b": [
+    "Fundamental attribution error"
   ]
 }

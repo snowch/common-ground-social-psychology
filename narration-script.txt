@@ -32,21 +32,45 @@ Consider the consequences of each option.
   Feedback: One episode of lateness is a weak guide to how reliably someone usually arrives.
   Feedback: Assuming Maya will arrive on time does not investigate today’s delay or check her future availability.
 
-c01s03 | First lens | Behavior has more than one author.
-A disposition is a personal tendency that persists over time. Someone described as having a “sweet disposition” is generally kind and good-natured. A tendency need not appear in every situation.
+c01s03 | Person and situation | Personal qualities meet circumstances.
+Social psychology studies how people’s thoughts, feelings, and behavior are shaped by other people and social circumstances. To explain an action, consider both the person and the situation.
 
-A situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. A usually patient volunteer might speak sharply when several visitors demand help at once. Both the volunteer’s usual patience and the pressure matter.
+Personal qualities include dispositions, goals, beliefs, and skills. A disposition is a usual tendency over time, such as patience. Someone described as having a sweet disposition is generally kind and good-natured. A tendency need not appear in every situation.
 
-Social psychology studies how people’s thoughts, feelings, and behavior are shaped by other people and social circumstances. That includes how personal qualities and circumstances interact. Personal qualities include dispositions, but also goals, beliefs, and skills.
+A situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. Personal qualities and circumstances can interact: the same person may respond differently as those demands change.
 
-For Maya, the broken lift made arriving on time harder. Investigating that barrier helps the team explain her lateness and plan future shifts, while keeping commitments clear.
+In Maya’s story, Leo’s judgment about her commitment leaves the obstacles she faced unexplored. The late arrival alone cannot settle how much either personal qualities or circumstances contributed.
 
-c01s04 | Second lens | Observation is not explanation.
-When you explain another person’s behavior, you can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.
+c01s03b | Worked example | The same person, under pressure.
+Imagine a volunteer who is usually patient with visitors. During a quiet shift, the volunteer listens and explains each repair calmly.
 
-In the story, Leo observed that Maya arrived after the start. His claim that “Maya doesn’t care” was an explanation of her lateness, rather than something he directly observed. The broken lift and helping a neighbor offer alternative causes for the delay.
+At the next shift, several visitors ask for help at once. The same volunteer gives one sharp reply. Their usual patience and the immediate pressure are both relevant to understanding that action.
 
-When you explain someone’s behavior in your own life, begin by describing what you observed without adding a cause. Then generate alternative explanations and ask what evidence would weaken each one, including the explanation you first favored. These steps help you test your own interpretation.
+Before judging the volunteer’s character, what changed in the room?
+
+The immediate demands increased. That change offers a situational explanation to investigate. It does not establish that personal qualities played no part.
+
+This example illustrates an interaction between a disposition and a situation. Compare the volunteer’s responses across calmer and busier shifts before drawing a conclusion about a lasting personal tendency.
+
+c01s04 | Observation and attribution | Observation is not explanation.
+Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why.
+
+An attribution is an explanation of what caused an action.
+
+Leo’s claim that Maya did not care about the project is an attribution. He has proposed a cause, rather than directly observed her priorities.
+
+Maya can provide information about the delay. The broken lift and helping a neighbor offer possible causes that Leo had not considered. He needs evidence to compare those accounts.
+
+For an action in your own life, first describe what you observed. Then state your proposed cause separately. Keeping those two statements distinct makes the explanation easier to test.
+
+c01s04b | Attribution error | When the person gets too much weight.
+Now consider how much weight Leo gives each kind of explanation. He treats Maya’s late arrival mainly as evidence about her personal qualities, before examining the circumstances that delayed her.
+
+The fundamental attribution error is the tendency to give too much weight to personal qualities and too little to the situation when explaining another person’s behavior. Its strength varies with culture and context.
+
+In Maya’s case, the broken lift and helping a neighbor make Leo’s initial explanation less complete. Personal qualities can still matter, but he needs to consider the circumstances before deciding how well his account fits.
+
+To check an explanation you form, ask which situational causes you have investigated and which you may have overlooked. Naming a bias is a prompt to examine evidence; the label alone does not prove that someone’s reasoning is biased.
 
 c01s05 | Evidence check | One observer, two explanations.
 An attribution is an explanation of what caused an action.

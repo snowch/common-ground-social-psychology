@@ -15,14 +15,26 @@ function flowFigure(key,title,steps,footer){
  return conceptSVG(key,[title,...steps.flat(),footer].join('. '),label(260,27,title,23)+body+figureFooter(footer));
 }
 function threeRowsFigure(key,title,rows,footer){return conceptSVG(key,[title,...rows.flat(),footer].join('. '),label(260,28,title,23)+rows.map((r,i)=>{const y=65+i*108;return `<rect x="25" y="${y}" width="470" height="89" rx="13" fill="#FFF" stroke="#8DA6B7" stroke-width="1.5"/>`+label(260,y+30,r[0],23,i===0?'#7058A3':'#216B88')+label(260,y+64,r[1],20);}).join('')+figureFooter(footer));}
-function personSituationFigure(){return compareFigure('person-situation','A tendency meets a situation',
- ['Personal tendency',['Usually patient','with visitors','A disposition'],'person'],
- ['Immediate demands',['Several visitors','need help at once','A situation'],'person'],
- ['Pressure can strain usual patience.','Goals, beliefs, and skills matter too.']);}
-function observationFigure(){return compareFigure('observation-attribution','What Leo saw and what he inferred',
- ['Leo’s observation',['Maya arrived','after the start.','What was observed'],'clock'],
- ['Leo’s attribution',['“She doesn’t care.”','A proposed cause','What could test it?'],'person'],
- ['Leo can ask Maya about the delay.','Then compare plausible causes.']);}
+function personSituationFigure(){return conceptSVG('person-situation','A hypothetical example: a disposition of usual patience and a situation with several visitors may both contribute to one sharp reply. Compare calmer and busier shifts before inferring a lasting tendency.',
+ `<text x="260" y="30" text-anchor="middle" font-family="CourseSerif,Georgia,serif" font-size="24" fill="#19394D">A tendency meets a busy room</text>
+ <rect x="24" y="58" width="222" height="180" rx="12" fill="#F8F5FC" stroke="#C5D3E5"/>
+ <rect x="274" y="58" width="222" height="180" rx="12" fill="#FFFFFF" stroke="#C5D3E5"/>`+
+ label(135,89,'Disposition',21,'#7058A3')+label(385,89,'Situation',21,'#216B88')+
+ figureIcon('person',135,129)+figureIcon('person',353,129)+figureIcon('person',385,129)+figureIcon('person',417,129)+
+ label(135,188,'Usually patient',21)+label(135,215,'with visitors',18,'#4B6172')+
+ label(385,188,'Several visitors',21)+label(385,215,'need help at once',18,'#4B6172')+
+ conceptArrow(135,246,212,300,true,'#8DA6B7')+conceptArrow(385,246,308,300,true,'#8DA6B7')+label(260,276,'may contribute',15,'#4B6172')+
+ `<rect x="94" y="310" width="332" height="80" rx="12" fill="#FFFFFF" stroke="#216B88" stroke-width="1.5"/>`+
+ label(260,339,'Observed action',17,'#4B6172')+label(260,372,'One sharp reply',25)+label(260,441,'Compare calmer and busier shifts.',19,'#216B88'));}
+function observationFigure(){return conceptSVG('observation-attribution','Leo’s observation is that Maya arrived after the start. His attribution that she does not care proposes a cause. The cause needs evidence.',
+ `<text x="260" y="30" text-anchor="middle" font-family="CourseSerif,Georgia,serif" font-size="24" fill="#19394D">Two different questions</text>
+ <rect x="24" y="68" width="222" height="242" rx="12" fill="#FFFFFF" stroke="#C5D3E5"/>
+ <rect x="274" y="68" width="222" height="242" rx="12" fill="#FFFFFF" stroke="#C5D3E5"/>`+
+ label(135,104,'Observation',22,'#216B88')+label(385,104,'Attribution',22,'#7058A3')+
+ figureIcon('clock',135,151)+`<circle cx="385" cy="151" r="21" fill="#F8F5FC" stroke="#7058A3" stroke-width="2"/>`+label(385,162,'?',30,'#7058A3')+
+ label(135,210,'Maya arrived',22)+label(135,239,'after the start.',21)+label(385,224,'“She doesn’t care.”',21)+
+ label(135,281,'A recorded action',17,'#4B6172')+label(385,281,'A proposed cause',17,'#4B6172')+
+ label(260,365,'One statement records an action.',21)+label(260,397,'The other proposes a cause.',21)+label(260,444,'What evidence could test Leo’s cause?',18,'#216B88'));}
 function actorObserverFigure(){return compareFigure('actor-observer','One observer, two explanations',
  ['Leo explains himself',['“The bus','was delayed.”','Circumstances'],'person'],
  ['Leo explains Maya',['“She doesn’t care.”','A personal tendency','Could he be missing','her circumstances?'],'person'],
@@ -161,8 +173,10 @@ function proxyMeasuresFigure(){return compareFigure('proxy-and-context','A resea
 function lessonView(key,title,render,caption,terms){return {key,title,render,caption,terms};}
 function personSituationModelFigure(){return scene('room','concept').replace('<svg ','<svg data-diagram="person-situation-model" ');}
 const visualLessons={
- c01s03:[lessonView('person-situation-model','Person and situation together',personSituationModelFigure,'Personal qualities and circumstances can both contribute.',['Situation']),lessonView('person-situation','Disposition and immediate demands',personSituationFigure,'Personal tendencies and immediate demands can interact.',['Disposition'])],
- c01s04:[lessonView('attribution-error','Fundamental attribution error',attributionErrorScene,'The imbalance is in Leo’s explanation.',['Fundamental attribution error']),lessonView('observation-attribution','Observation and attribution',observationFigure,'Leo’s observation and his attribution answer different questions.',['Observation','Attribution'])],
+ c01s03:[lessonView('person-situation-model','Person, disposition, and situation',personSituationModelFigure,'A disposition is one personal quality; circumstances also contribute.',['Disposition','Situation'])],
+ c01s03b:[lessonView('person-situation','Disposition under changing demands',personSituationFigure,'A hypothetical interaction of a disposition and a situation. Dashed paths indicate possible contributions.',['Disposition'])],
+ c01s04:[lessonView('observation-attribution','Observation and attribution',observationFigure,'Leo’s observation and his attribution answer different questions.',['Observation','Attribution'])],
+ c01s04b:[lessonView('attribution-error','Fundamental attribution error',attributionErrorScene,'Leo gives personal qualities more weight than the circumstances.',['Fundamental attribution error'])],
  c01s05:[lessonView('actor-observer','Attribution and actor–observer differences',actorObserverFigure,'Hypothetical explanations by the same observer.',['Attribution','actor–observer differences'])],
  c01s05b:[lessonView('repeated-evidence','Test an explanation against evidence',repeatedEvidenceFigure,'Describe, compare, check, and revise. Apply the same steps to your own interpretations.',[])],
  c02s03:[lessonView('confounding','Confounding',confoundingScene,conceptCaptions.c02s03,['Confound']),lessonView('sampling-assignment','Random sampling and random assignment',samplingFigure,'Choosing the sample and assigning conditions answer different questions.',['Random assignment','Random sampling']),lessonView('correlation-causation','Correlation and causation',correlationFigure,'A shared pattern leaves multiple causes possible.',['Correlation'])],

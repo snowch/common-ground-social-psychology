@@ -1,5 +1,5 @@
 {
-  "method": "Whisper small.en: two explanation lesson clips screened; retained screens for 149 unchanged clips.",
+  "method": "Whisper small.en: four Chapter 1 teaching clips screened; retained screens for 149 unchanged clips.",
   "model": "small.en",
   "flagged": 7,
   "scenes": [
@@ -69,29 +69,51 @@
     },
     {
       "id": "c01s03",
-      "text": "A disposition is a personal tendency that persists over time. Someone described as having a “sweet disposition” is generally kind and good-natured. A tendency need not appear in every situation.\n\nA situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. A usually patient volunteer might speak sharply when several visitors demand help at once. Both the volunteer’s usual patience and the pressure matter.\n\nSocial psychology studies how people’s thoughts, feelings, and behavior are shaped by other people and social circumstances. That includes how personal qualities and circumstances interact. Personal qualities include dispositions, but also goals, beliefs, and skills.\n\nFor Maya, the broken lift made arriving on time harder. Investigating that barrier helps the team explain her lateness and plan future shifts, while keeping commitments clear.",
-      "heard": "A disposition is a personal tendency that persists over time. Someone described as having a sweet disposition is generally kind and good-natured. A tendency need not appear in every situation. A situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. A usually patient volunteer might speak sharply when several visitors demand help at once. Both the volunteers' usual patients and the pressure matter. Social psychology studies how people's thoughts, feelings, and behavior are shaped by other people and social circumstances. That includes how personal qualities and circumstances interact. Personal qualities include dispositions, but also goals, beliefs, and skills. For Maya, the broken lift made arriving on time harder. Investigating that barrier helps the team explain her lateness and plan future shifts, while keeping commitments clear.",
-      "level": -23.27951498082615,
-      "gap": 1.06,
-      "peak": 0.54742431640625,
-      "ratio": 0.9814126394052045,
-      "wpm": 138.11840669334305,
+      "text": "Social psychology studies how people’s thoughts, feelings, and behavior are shaped by other people and social circumstances. To explain an action, consider both the person and the situation.\n\nPersonal qualities include dispositions, goals, beliefs, and skills. A disposition is a usual tendency over time, such as patience. Someone described as having a sweet disposition is generally kind and good-natured. A tendency need not appear in every situation.\n\nA situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. Personal qualities and circumstances can interact: the same person may respond differently as those demands change.\n\nIn Maya’s story, Leo’s judgment about her commitment leaves the obstacles she faced unexplored. The late arrival alone cannot settle how much either personal qualities or circumstances contributed.",
+      "heard": "Social psychology studies how people's thoughts, feelings, and behavior are shaped by other people and social circumstances. To explain an action, consider both the person and the situation. Personal qualities include dispositions, goals, beliefs, and skills. A disposition is a usual tendency over time, such as patience. Someone described as having a sweet disposition is generally kind and good-natured. A tendency need not appear in every situation. A situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. Personal qualities and circumstances can interact. The same person may respond differently as those demands change. In Maya's story, Leo's judgment about her commitment leaves the obstacles she faced unexplored. The late arrival alone cannot settle how much either personal qualities or circumstances contributed.",
+      "level": -23.33125367710536,
+      "gap": 1.04,
+      "peak": 0.488800048828125,
+      "ratio": 1.0,
+      "wpm": 135.24590163934428,
       "short": false,
-      "gap_ok": 1.9,
-      "flags": []
+      "gap_ok": 1.9
+    },
+    {
+      "id": "c01s03b",
+      "text": "Imagine a volunteer who is usually patient with visitors. During a quiet shift, the volunteer listens and explains each repair calmly.\n\nAt the next shift, several visitors ask for help at once. The same volunteer gives one sharp reply. Their usual patience and the immediate pressure are both relevant to understanding that action.\n\nBefore judging the volunteer’s character, what changed in the room?\n\nThe immediate demands increased. That change offers a situational explanation to investigate. It does not establish that personal qualities played no part.\n\nThis example illustrates an interaction between a disposition and a situation. Compare the volunteer’s responses across calmer and busier shifts before drawing a conclusion about a lasting personal tendency.",
+      "heard": "Imagine a volunteer who is usually patient with visitors. During a quiet shift, the volunteer listens and explains each repair calmly. At the next shift, several visitors ask for help at once. The same volunteer gives one sharp reply. Their usual patience and the immediate pressure are both relevant to understanding that action. Before judging the volunteer's character, what changed in the room? The immediate demands increased. That change offers a situational explanation to investigate. It does not establish that personal qualities played no part. This example illustrates an interaction between a disposition and a situation. Compare the volunteer's responses across calmer and busier shifts before drawing a conclusion about a lasting personal tendency. . . . .",
+      "level": -23.3400567153555,
+      "gap": 2.18,
+      "peak": 0.553314208984375,
+      "ratio": 1.0,
+      "wpm": 145.64732142857144,
+      "short": false,
+      "gap_ok": 3.0
     },
     {
       "id": "c01s04",
-      "text": "When you explain another person’s behavior, you can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context.\n\nIn the story, Leo observed that Maya arrived after the start. His claim that “Maya doesn’t care” was an explanation of her lateness, rather than something he directly observed. The broken lift and helping a neighbor offer alternative causes for the delay.\n\nWhen you explain someone’s behavior in your own life, begin by describing what you observed without adding a cause. Then generate alternative explanations and ask what evidence would weaken each one, including the explanation you first favored. These steps help you test your own interpretation.",
-      "heard": "When you explain another person's behavior, you can give too much weight to personal qualities and too little to circumstances. Psychologists call this tendency the fundamental attribution error. Its strength varies with culture and context. In the story, Leo observed that Maya arrived after the start. His claim that Maya doesn't care was an explanation of her lateness, rather than something he directly observed. The broken lift and helping a neighbor offer alternative causes for the delay. When you explain someone's behavior in your own life, begin by describing what you observed without adding a cause. Then generate alternative explanations and ask what evidence would weaken each one, including the explanation you first favored. These steps help you test your own interpretation.",
-      "level": -23.090563185143637,
-      "gap": 1.06,
-      "peak": 0.721771240234375,
+      "text": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why.\n\nAn attribution is an explanation of what caused an action.\n\nLeo’s claim that Maya did not care about the project is an attribution. He has proposed a cause, rather than directly observed her priorities.\n\nMaya can provide information about the delay. The broken lift and helping a neighbor offer possible causes that Leo had not considered. He needs evidence to compare those accounts.\n\nFor an action in your own life, first describe what you observed. Then state your proposed cause separately. Keeping those two statements distinct makes the explanation easier to test.",
+      "heard": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why. An attribution is an explanation of what caused an action. Leo's claim that Maya did not care about the project is an attribution. He has proposed a cause rather than directly observed her priorities. Maya can provide information about the delay. The broken lift and helping a neighbor offer possible causes that Leo had not considered. He needs evidence to compare those accounts. For an action in your own life, first describe what you observed. Then state your proposed cause separately. Keeping those two statements distinct makes the explanation easier to test.",
+      "level": -23.211335372130854,
+      "gap": 1.16,
+      "peak": 0.65234375,
       "ratio": 1.0,
-      "wpm": 153.92403677758315,
+      "wpm": 160.47297297297297,
       "short": false,
-      "gap_ok": 1.9,
-      "flags": []
+      "gap_ok": 2.0
+    },
+    {
+      "id": "c01s04b",
+      "text": "Now consider how much weight Leo gives each kind of explanation. He treats Maya’s late arrival mainly as evidence about her personal qualities, before examining the circumstances that delayed her.\n\nThe fundamental attribution error is the tendency to give too much weight to personal qualities and too little to the situation when explaining another person’s behavior. Its strength varies with culture and context.\n\nIn Maya’s case, the broken lift and helping a neighbor make Leo’s initial explanation less complete. Personal qualities can still matter, but he needs to consider the circumstances before deciding how well his account fits.\n\nTo check an explanation you form, ask which situational causes you have investigated and which you may have overlooked. Naming a bias is a prompt to examine evidence; the label alone does not prove that someone’s reasoning is biased.",
+      "heard": "Now consider how much weight Leo gives each kind of explanation. He treats Maya's late arrival mainly as evidence about her personal qualities before examining the circumstances that delayed her. The fundamental attribution error is the tendency to give too much weight to personal qualities and too little to the situation when explaining another person's behavior. Its strength varies with culture and context. In Maya's case, the broken lift and helping a neighbor make Leo's initial explanation less complete. Personal qualities can still matter, but he needs to consider the circumstances before deciding how well his account fits. To check an explanation you form, ask which situational causes you have investigated and which you may have overlooked. Naming a bias is a prompt to examine evidence. The label alone does not prove that someone's reasoning is biased.",
+      "level": -23.28971352574664,
+      "gap": 1.06,
+      "peak": 0.5621337890625,
+      "ratio": 1.0,
+      "wpm": 158.60802223987295,
+      "short": false,
+      "gap_ok": 1.9
     },
     {
       "id": "c01s05",

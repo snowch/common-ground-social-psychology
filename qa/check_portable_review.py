@@ -11,7 +11,11 @@ async def main():
   async def load(relative):
    await ctx.set_offline(False);await page.goto(BASE+'/'+relative);await ctx.set_offline(True)
   await load('index.html#chapter-1-slide-1');await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1');await page.locator('#stop').click()
-  await page.evaluate("location.hash='chapter-1-slide-5b'");await page.wait_for_function('document.querySelector("#slideTitle")?.textContent==="Test the explanation."');await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1');await page.locator('#stop').click()
+  first=json.loads((R/'course.json').read_text())[0]['slides']
+  for token in ['3b','4b','5b']:
+   slide=next(s for s in first if s['id'].split('s')[1].lstrip('0')==token)
+   await page.evaluate('(t)=>location.hash="chapter-1-slide-"+t',token);await page.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=slide['title'])
+   await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1');assert await page.evaluate('(id)=>audioPlayer.src===RECORDED_AUDIO[id]',slide['id']);await page.locator('#stop').click()
   await page.evaluate("location.hash='case'");await page.wait_for_selector('.case-wrap');assert await page.locator('.case-wrap ol li').count()==6
   for n in range(1,11):
    await load(f'chapters/chapter-{n:02d}.html');await page.wait_for_selector('#slideTitle');assert await page.evaluate('Object.keys(RECORDED_AUDIO).length')==sum(id.startswith(f'c{n:02d}') for id in expected)
