@@ -6,7 +6,7 @@ R=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',default='out/pages');a=p.parse_args();D=(R/a.output).resolve()
 manifest=json.loads((R/'audio/manifest.json').read_text());clips={x['id']:x for x in manifest['clips']}
 font_notice=(R/'FONT-LICENSE.txt').read_text();asset_notice=(R/'THIRD-PARTY-NOTICES.txt').read_text()
-files=[D/'index.html',*sorted((D/'chapters').glob('*.html')),D/'study-guide.html',D/'downloads.html'];assert len(files)==13
+files=[D/'index.html',*sorted((D/'chapters').glob('*.html')),D/'study-guide.html',D/'visual-guide.html',D/'downloads.html'];assert len(files)==14
 mappings=0;links=0
 for file in files:
  s=file.read_text();assert not re.search(r'__[A-Z_]+__',s),file
@@ -32,6 +32,9 @@ for archive in archives:
   assert z.testzip()is None,archive
   assert z.read('FONT-LICENSE.txt').decode()==font_notice
   assert z.read('THIRD-PARTY-NOTICES.txt').decode()==asset_notice
+  assert z.read('visual-guide.pdf')==(R/'visual-guide.pdf').read_bytes()
+  visual_html=z.read('visual-guide.html').decode();assert font_notice in visual_html and asset_notice in visual_html
+  assert 'href="'+archive.stem+'.html"' in visual_html
   s=z.read(archive.stem+'.html').decode();start=s.index('const RECORDED_AUDIO=')+len('const RECORDED_AUDIO=');audio,_=json.JSONDecoder().raw_decode(s[start:]);assert len(audio)==15 and all(url.startswith('data:audio/mp4;base64,')for url in audio.values()),archive
 assert (D/'.nojekyll').exists()
 assert not list(D.rglob('*.py'))and not(D/'production').exists()

@@ -1,0 +1,401 @@
+{
+  "c01s03": [
+    {
+      "key": "person-situation-model",
+      "title": "Person and situation together",
+      "terms": [
+        "Situation"
+      ]
+    },
+    {
+      "key": "person-situation",
+      "title": "Disposition and immediate demands",
+      "terms": [
+        "Disposition"
+      ]
+    }
+  ],
+  "c01s04": [
+    {
+      "key": "attribution-error",
+      "title": "Fundamental attribution error",
+      "terms": [
+        "Fundamental attribution error"
+      ]
+    },
+    {
+      "key": "observation-attribution",
+      "title": "Observation and attribution",
+      "terms": [
+        "Observation",
+        "Attribution"
+      ]
+    }
+  ],
+  "c01s05": [
+    {
+      "key": "actor-observer",
+      "title": "Actor–observer differences",
+      "terms": [
+        "actor–observer differences"
+      ]
+    },
+    {
+      "key": "repeated-evidence",
+      "title": "Attribution across repeated observations",
+      "terms": [
+        "Attribution"
+      ]
+    }
+  ],
+  "c02s03": [
+    {
+      "key": "confounding",
+      "title": "Confounding",
+      "terms": [
+        "Confound"
+      ]
+    },
+    {
+      "key": "sampling-assignment",
+      "title": "Random sampling and random assignment",
+      "terms": [
+        "Random assignment",
+        "Random sampling"
+      ]
+    },
+    {
+      "key": "correlation-causation",
+      "title": "Correlation and causation",
+      "terms": [
+        "Correlation"
+      ]
+    }
+  ],
+  "c02s04": [
+    {
+      "key": "effect-size",
+      "title": "Effect size and uncertainty",
+      "terms": [
+        "percentage points"
+      ]
+    },
+    {
+      "key": "significance-importance",
+      "title": "Statistical significance and practical importance",
+      "terms": [
+        "Statistical significance"
+      ]
+    }
+  ],
+  "c02s05": [
+    {
+      "key": "research-reliability",
+      "title": "Preregistration, transparency, and replication",
+      "terms": [
+        "Replication",
+        "Preregistration"
+      ]
+    }
+  ],
+  "c03s03": [
+    {
+      "key": "availability-base-rate",
+      "title": "Availability heuristic, base rates, and denominators",
+      "terms": [
+        "Availability heuristic",
+        "Base rate",
+        "Denominator"
+      ]
+    }
+  ],
+  "c03s04": [
+    {
+      "key": "confirmation-bias",
+      "title": "Confirmation bias",
+      "terms": [
+        "Confirmation bias"
+      ]
+    },
+    {
+      "key": "motivated-reasoning",
+      "title": "Motivated reasoning",
+      "terms": [
+        "Motivated reasoning"
+      ]
+    }
+  ],
+  "c03s05": [
+    {
+      "key": "bias-evidence",
+      "title": "Check a bias claim against evidence",
+      "terms": []
+    }
+  ],
+  "c04s03": [
+    {
+      "key": "cognitive-dissonance",
+      "title": "Cognitive dissonance and cognitions",
+      "terms": [
+        "Cognitive dissonance",
+        "Cognitions"
+      ]
+    }
+  ],
+  "c04s04": [
+    {
+      "key": "sunk-cost",
+      "title": "Sunk cost effect and future consequences",
+      "terms": [
+        "Sunk cost",
+        "Sunk cost effect"
+      ]
+    }
+  ],
+  "c04s05": [
+    {
+      "key": "dissonance-evidence",
+      "title": "A procedure, a prediction, and a theory",
+      "terms": [
+        "induced-compliance"
+      ]
+    }
+  ],
+  "c05s03": [
+    {
+      "key": "conformity-motives",
+      "title": "Informational influence and normative influence",
+      "terms": [
+        "Informational influence",
+        "Normative influence"
+      ]
+    }
+  ],
+  "c05s04": [
+    {
+      "key": "compliance-obedience",
+      "title": "Compliance and obedience",
+      "terms": [
+        "Compliance",
+        "Obedience"
+      ]
+    },
+    {
+      "key": "questioning-authority",
+      "title": "Questioning an unsafe instruction",
+      "terms": []
+    }
+  ],
+  "c05s05": [
+    {
+      "key": "study-context",
+      "title": "Classic studies in context",
+      "terms": []
+    }
+  ],
+  "c06s03": [
+    {
+      "key": "message-processing",
+      "title": "Central and peripheral processing",
+      "terms": [
+        "Elaboration likelihood model",
+        "Central processing",
+        "Peripheral processing"
+      ]
+    },
+    {
+      "key": "attitude-evaluation",
+      "title": "Attitudes and action",
+      "terms": [
+        "Attitude"
+      ]
+    }
+  ],
+  "c06s04": [
+    {
+      "key": "social-norms",
+      "title": "Descriptive and injunctive norms",
+      "terms": [
+        "Descriptive norm",
+        "Injunctive norm"
+      ]
+    },
+    {
+      "key": "honest-request",
+      "title": "An honest, usable invitation",
+      "terms": []
+    }
+  ],
+  "c06s05": [
+    {
+      "key": "persuasion-outcomes",
+      "title": "Attention, understanding, and participation",
+      "terms": []
+    }
+  ],
+  "c07s03": [
+    {
+      "key": "ingroup-favoritism",
+      "title": "Social identity and in-group favoritism",
+      "terms": [
+        "Social identity",
+        "In-group favoritism"
+      ]
+    },
+    {
+      "key": "shared-goal",
+      "title": "A shared goal and workable arrangements",
+      "terms": []
+    }
+  ],
+  "c07s04": [
+    {
+      "key": "group-polarization",
+      "title": "Group polarization and consensus",
+      "terms": [
+        "Group polarization"
+      ]
+    },
+    {
+      "key": "loafing-coordination",
+      "title": "Social loafing and coordination loss",
+      "terms": [
+        "Social loafing",
+        "Coordination loss"
+      ]
+    }
+  ],
+  "c07s05": [
+    {
+      "key": "groupthink",
+      "title": "Groupthink and visible decision processes",
+      "terms": [
+        "Groupthink"
+      ]
+    }
+  ],
+  "c08s03": [
+    {
+      "key": "belief-attitude-action",
+      "title": "Stereotypes, prejudice, and discrimination",
+      "terms": [
+        "Stereotype",
+        "Prejudice",
+        "Discrimination"
+      ]
+    },
+    {
+      "key": "structural-barriers",
+      "title": "Rules and unequal access",
+      "terms": []
+    }
+  ],
+  "c08s04": [
+    {
+      "key": "intergroup-contact",
+      "title": "Intergroup contact and participation",
+      "terms": [
+        "Intergroup contact"
+      ]
+    },
+    {
+      "key": "procedural-change",
+      "title": "Procedural changes to access",
+      "terms": [
+        "Procedural change"
+      ]
+    }
+  ],
+  "c08s05": [
+    {
+      "key": "attitude-measures",
+      "title": "Explicit attitudes, implicit associations, and behavior",
+      "terms": [
+        "explicit attitude",
+        "implicit association"
+      ]
+    }
+  ],
+  "c09s03": [
+    {
+      "key": "relationship-opportunity",
+      "title": "Proximity and similarity",
+      "terms": [
+        "Proximity",
+        "Similarity"
+      ]
+    },
+    {
+      "key": "mere-exposure",
+      "title": "The mere exposure effect",
+      "terms": [
+        "Mere exposure effect"
+      ]
+    }
+  ],
+  "c09s04": [
+    {
+      "key": "disclosure-responsiveness",
+      "title": "Disclosure, responsiveness, and reciprocity",
+      "terms": [
+        "Disclosure",
+        "Responsiveness",
+        "Reciprocity"
+      ]
+    },
+    {
+      "key": "attachment-boundary",
+      "title": "Attachment labels and stated boundaries",
+      "terms": [
+        "Attachment"
+      ]
+    }
+  ],
+  "c09s05": [
+    {
+      "key": "relationship-evidence",
+      "title": "Relationship evidence and its limits",
+      "terms": []
+    }
+  ],
+  "c10s03": [
+    {
+      "key": "helping-barriers",
+      "title": "Helping and the bystander effect",
+      "terms": [
+        "Bystander effect",
+        "Diffusion of responsibility",
+        "Pluralistic ignorance"
+      ]
+    },
+    {
+      "key": "helping-path",
+      "title": "A safe helping process",
+      "terms": []
+    }
+  ],
+  "c10s04": [
+    {
+      "key": "anger-aggression",
+      "title": "Anger, aggression, and de-escalation",
+      "terms": [
+        "Aggression",
+        "De-escalation"
+      ]
+    },
+    {
+      "key": "cooperation-plan",
+      "title": "Cooperation with roles and feedback",
+      "terms": [
+        "Cooperation"
+      ]
+    }
+  ],
+  "c10s05": [
+    {
+      "key": "proxy-and-context",
+      "title": "Research measures, context, and safe help",
+      "terms": []
+    }
+  ]
+}

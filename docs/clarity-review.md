@@ -55,3 +55,26 @@ Six further teaching slides now illustrate the seven suggested concepts. They us
 The repair records and opinion positions are illustrations, with no empirical effect sizes or café outcome rates implied. Recorded narration and teaching text are unchanged. Each visual is assigned to its own teaching slide and appears in the portable decks and PDF exports.
 
 `qa/check_concept_visuals.py` checks placement, text bounds, horizontal overflow, and accessibility at mobile and desktop widths. It also verifies that the confirmation-bias illustration uses the same evidence on both sides while highlighting different outcomes. `qa/concept-visuals-results.json` records the results. These checks do not establish learner comprehension or complete accessibility conformance.
+
+## Complete visual coverage
+
+The visual set now covers every concept and evidence slide: 30 teaching slides, with 48 separate views. The original attribution thought bubble and the seven subsequently illustrated concepts remain available. Additional views separate concepts that need their own explanation rather than compressing them into one diagram.
+
+| Chapter | Visual explanations |
+| --- | --- |
+| 1 | Person and situation, disposition under pressure, attribution error, observation versus attribution, actor–observer differences, and evidence across occasions |
+| 2 | Confounding, correlation, random sampling versus assignment, invented effect sizes, significance versus importance, and research reliability |
+| 3 | Availability, base rates and denominators, confirmation bias, motivated reasoning, and checking bias claims against evidence |
+| 4 | Cognitive dissonance and its possible responses, sunk costs and future consequences, and the scope of a particular replication |
+| 5 | Informational and normative influence, compliance versus obedience, an actionable questioning route, and the limits of classic study settings |
+| 6 | Message processing, attitudes versus action, descriptive versus injunctive norms, honest invitations, and persuasion outcomes |
+| 7 | Social identity and favoritism, shared goals, polarization versus consensus, loafing versus coordination loss, and groupthink processes |
+| 8 | Stereotype, prejudice, and discrimination; procedural barriers; contact conditions; access changes; and distinct attitude and behavior measures |
+| 9 | Opportunities and similarity, mere exposure and its limits, disclosure and responsiveness, reciprocity, attachment labels and boundaries, and relationship evidence |
+| 10 | Bystander processes, a safe helping path, anger versus aggression, de-escalation, cooperation, and limits of research proxies |
+
+Every teaching slide has a primary figure. Native expandable sections provide the additional views. The shared artwork registry generates a separate visual companion in HTML and PDF, containing every view. Each chapter ZIP includes that companion, while the main slide PDFs remain eight pages per chapter. The complete visual PDF has 49 pages: a cover and 48 individual figures.
+
+`qa/visual-coverage.json` records the slide-to-view mapping and required vocabulary. The expanded visual QA checks every view at four widths, the native disclosures, visible terminology, accessible descriptions, and every page of the visual PDF. Figures are original teaching illustrations; invented counts and opinion positions are identified as illustrative. Course text, questions, and recorded narration are unchanged. No learner pilot or external subject-matter review is claimed.
+
+Offline archive verification also exercised an expanded chapter figure, embedded audio playback, all 48 companion views, and the chapter return link with other network requests blocked. The test served HTML directly from a generated ZIP. Managed Chromium blocks direct file navigation, so file-opening behavior itself was not verified; see `qa/offline-visuals-results.json`.

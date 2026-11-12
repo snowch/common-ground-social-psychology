@@ -1,0 +1,10 @@
+{
+  "mode": "HTML documents served directly from chapter ZIP by request interception; all other requests blocked",
+  "expanded_figures": "passed",
+  "embedded_audio_playback": "passed",
+  "visual_companion_figures": 48,
+  "chapter_return_link": "passed",
+  "unexpected_network_requests": [],
+  "js_errors": [],
+  "limit": "Managed Chromium blocks file:// navigation, so direct file-opening behavior was not verified."
+}

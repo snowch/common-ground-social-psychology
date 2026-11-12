@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse,base64,json,re,shutil
 from scripts.build_study_guide import render as render_study_guide
+from scripts.build_visual_guide import render as render_visual_guide
 R=Path(__file__).resolve().parent
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--portable',action='store_true',help='Embed narration in each HTML deck for offline use.')
@@ -19,7 +20,8 @@ def spoken_text(scene):
 narration={x['id']:spoken_text(x)for x in json.loads((R/'production/af-heart/scenes.json').read_text())}
 rights=(R/'FONT-LICENSE.txt').read_text()+'\n'+(R/'THIRD-PARTY-NOTICES.txt').read_text()
 assert '-->' not in rights
-template=(R/'template.html').read_text().replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights)
+visual_js=(R/'visuals.js').read_text()+'\n'+(R/'visual-lessons.js').read_text()
+template=(R/'template.html').read_text().replace('__VISUALS__',visual_js).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights)
 for placeholder,file in [('__EVIDENCE__','course-evidence.json'),('__LEARNING_CHECK__','learning-check.json')]:
  template=template.replace(placeholder,json.dumps(json.loads((R/file).read_text()),ensure_ascii=False).replace('</','<\\/'))
 
@@ -31,6 +33,8 @@ def render(path,chapters,prefix):
   s=s.replace('The recordings are included in this deck and work offline.','Recordings load when you press Play narration. The portable build embeds them for offline use.').replace('The deck embeds prerecorded Kokoro','The course plays prerecorded Kokoro').replace('Quizzes and embedded narration work offline. External reading requires a connection.','This build loads audio files from its audio folder. Use the portable build for self-contained offline decks.')
  path.write_text(s)
 (D/'study-guide.html').write_text(render_study_guide(R).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights))
+(D/'visual-guide.html').write_text(render_visual_guide(R).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights))
+if (R/'visual-guide.pdf').exists():shutil.copy(R/'visual-guide.pdf',D/'visual-guide.pdf')
 if (R/'study-guide.pdf').exists():shutil.copy(R/'study-guide.pdf',D/'study-guide.pdf')
 render(D/'index.html',C,'./')
 for c in C:

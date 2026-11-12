@@ -1,195 +1,1072 @@
 {
-  "revision": "concept-visuals",
-  "concepts": [
-    "confounding",
-    "confirmation bias",
-    "sunk cost effect",
-    "informational and normative influence",
-    "group polarization",
-    "pluralistic ignorance",
-    "diffusion of responsibility"
-  ],
-  "target_slides": {
-    "c02s03": "confounding",
-    "c03s04": "confirmation-bias",
-    "c04s04": "sunk-cost",
-    "c05s03": "conformity-motives",
-    "c07s04": "group-polarization",
-    "c10s03": "helping-barriers"
-  },
+  "revision": "all-concepts-visual",
+  "teaching_slides": 30,
+  "concept_slides": 20,
+  "evidence_slides": 10,
+  "visual_views": 48,
+  "visual_companion_pages": 49,
+  "required_term_appearances": 61,
+  "primary_and_expanded_placement": "passed",
+  "confirmation_evidence": "same records, different emphasis",
   "checks": [
     {
-      "slide": "c02s03",
-      "diagram": "confounding",
+      "visual": "person-situation-model",
       "width": 320,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c03s04",
-      "diagram": "confirmation-bias",
+      "visual": "person-situation",
       "width": 320,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c04s04",
-      "diagram": "sunk-cost",
+      "visual": "attribution-error",
       "width": 320,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c05s03",
-      "diagram": "conformity-motives",
+      "visual": "observation-attribution",
       "width": 320,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c07s04",
-      "diagram": "group-polarization",
+      "visual": "actor-observer",
       "width": 320,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c10s03",
-      "diagram": "helping-barriers",
+      "visual": "repeated-evidence",
       "width": 320,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c02s03",
-      "diagram": "confounding",
+      "visual": "confounding",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "sampling-assignment",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "correlation-causation",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "effect-size",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "significance-importance",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "research-reliability",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "availability-base-rate",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "confirmation-bias",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "motivated-reasoning",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "bias-evidence",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "cognitive-dissonance",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "sunk-cost",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "dissonance-evidence",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "conformity-motives",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "compliance-obedience",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "questioning-authority",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "study-context",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "message-processing",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-evaluation",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "social-norms",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "honest-request",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "persuasion-outcomes",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "ingroup-favoritism",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "shared-goal",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "group-polarization",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "loafing-coordination",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "groupthink",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "belief-attitude-action",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "structural-barriers",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "intergroup-contact",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "procedural-change",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-measures",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-opportunity",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "mere-exposure",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "disclosure-responsiveness",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "attachment-boundary",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-evidence",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-barriers",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-path",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "anger-aggression",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "cooperation-plan",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "proxy-and-context",
+      "width": 320,
+      "clipped_text": []
+    },
+    {
+      "visual": "person-situation-model",
       "width": 390,
-      "overflow": [],
-      "axe_violations": []
+      "clipped_text": []
     },
     {
-      "slide": "c03s04",
-      "diagram": "confirmation-bias",
+      "visual": "person-situation",
       "width": 390,
-      "overflow": [],
-      "axe_violations": []
+      "clipped_text": []
     },
     {
-      "slide": "c04s04",
-      "diagram": "sunk-cost",
+      "visual": "attribution-error",
       "width": 390,
-      "overflow": [],
-      "axe_violations": []
+      "clipped_text": []
     },
     {
-      "slide": "c05s03",
-      "diagram": "conformity-motives",
+      "visual": "observation-attribution",
       "width": 390,
-      "overflow": [],
-      "axe_violations": []
+      "clipped_text": []
     },
     {
-      "slide": "c07s04",
-      "diagram": "group-polarization",
+      "visual": "actor-observer",
       "width": 390,
-      "overflow": [],
-      "axe_violations": []
+      "clipped_text": []
     },
     {
-      "slide": "c10s03",
-      "diagram": "helping-barriers",
+      "visual": "repeated-evidence",
       "width": 390,
-      "overflow": [],
-      "axe_violations": []
+      "clipped_text": []
     },
     {
-      "slide": "c02s03",
-      "diagram": "confounding",
+      "visual": "confounding",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "sampling-assignment",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "correlation-causation",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "effect-size",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "significance-importance",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "research-reliability",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "availability-base-rate",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "confirmation-bias",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "motivated-reasoning",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "bias-evidence",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "cognitive-dissonance",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "sunk-cost",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "dissonance-evidence",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "conformity-motives",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "compliance-obedience",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "questioning-authority",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "study-context",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "message-processing",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-evaluation",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "social-norms",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "honest-request",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "persuasion-outcomes",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "ingroup-favoritism",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "shared-goal",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "group-polarization",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "loafing-coordination",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "groupthink",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "belief-attitude-action",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "structural-barriers",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "intergroup-contact",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "procedural-change",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-measures",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-opportunity",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "mere-exposure",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "disclosure-responsiveness",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "attachment-boundary",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-evidence",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-barriers",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-path",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "anger-aggression",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "cooperation-plan",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "proxy-and-context",
+      "width": 390,
+      "clipped_text": []
+    },
+    {
+      "visual": "person-situation-model",
       "width": 768,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c03s04",
-      "diagram": "confirmation-bias",
+      "visual": "person-situation",
       "width": 768,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c04s04",
-      "diagram": "sunk-cost",
+      "visual": "attribution-error",
       "width": 768,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c05s03",
-      "diagram": "conformity-motives",
+      "visual": "observation-attribution",
       "width": 768,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c07s04",
-      "diagram": "group-polarization",
+      "visual": "actor-observer",
       "width": 768,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c10s03",
-      "diagram": "helping-barriers",
+      "visual": "repeated-evidence",
       "width": 768,
-      "overflow": [],
-      "axe_violations": "not rerun at this width"
+      "clipped_text": []
     },
     {
-      "slide": "c02s03",
-      "diagram": "confounding",
-      "width": 1440,
-      "overflow": [],
-      "axe_violations": []
+      "visual": "confounding",
+      "width": 768,
+      "clipped_text": []
     },
     {
-      "slide": "c03s04",
-      "diagram": "confirmation-bias",
-      "width": 1440,
-      "overflow": [],
-      "axe_violations": []
+      "visual": "sampling-assignment",
+      "width": 768,
+      "clipped_text": []
     },
     {
-      "slide": "c04s04",
-      "diagram": "sunk-cost",
-      "width": 1440,
-      "overflow": [],
-      "axe_violations": []
+      "visual": "correlation-causation",
+      "width": 768,
+      "clipped_text": []
     },
     {
-      "slide": "c05s03",
-      "diagram": "conformity-motives",
-      "width": 1440,
-      "overflow": [],
-      "axe_violations": []
+      "visual": "effect-size",
+      "width": 768,
+      "clipped_text": []
     },
     {
-      "slide": "c07s04",
-      "diagram": "group-polarization",
-      "width": 1440,
-      "overflow": [],
-      "axe_violations": []
+      "visual": "significance-importance",
+      "width": 768,
+      "clipped_text": []
     },
     {
-      "slide": "c10s03",
-      "diagram": "helping-barriers",
+      "visual": "research-reliability",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "availability-base-rate",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "confirmation-bias",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "motivated-reasoning",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "bias-evidence",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "cognitive-dissonance",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "sunk-cost",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "dissonance-evidence",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "conformity-motives",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "compliance-obedience",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "questioning-authority",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "study-context",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "message-processing",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-evaluation",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "social-norms",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "honest-request",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "persuasion-outcomes",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "ingroup-favoritism",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "shared-goal",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "group-polarization",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "loafing-coordination",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "groupthink",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "belief-attitude-action",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "structural-barriers",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "intergroup-contact",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "procedural-change",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-measures",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-opportunity",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "mere-exposure",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "disclosure-responsiveness",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "attachment-boundary",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-evidence",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-barriers",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-path",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "anger-aggression",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "cooperation-plan",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "proxy-and-context",
+      "width": 768,
+      "clipped_text": []
+    },
+    {
+      "visual": "person-situation-model",
       "width": 1440,
-      "overflow": [],
-      "axe_violations": []
+      "clipped_text": []
+    },
+    {
+      "visual": "person-situation",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "attribution-error",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "observation-attribution",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "actor-observer",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "repeated-evidence",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "confounding",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "sampling-assignment",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "correlation-causation",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "effect-size",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "significance-importance",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "research-reliability",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "availability-base-rate",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "confirmation-bias",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "motivated-reasoning",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "bias-evidence",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "cognitive-dissonance",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "sunk-cost",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "dissonance-evidence",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "conformity-motives",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "compliance-obedience",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "questioning-authority",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "study-context",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "message-processing",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-evaluation",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "social-norms",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "honest-request",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "persuasion-outcomes",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "ingroup-favoritism",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "shared-goal",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "group-polarization",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "loafing-coordination",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "groupthink",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "belief-attitude-action",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "structural-barriers",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "intergroup-contact",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "procedural-change",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "attitude-measures",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-opportunity",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "mere-exposure",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "disclosure-responsiveness",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "attachment-boundary",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "relationship-evidence",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-barriers",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "helping-path",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "anger-aggression",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "cooperation-plan",
+      "width": 1440,
+      "clipped_text": []
+    },
+    {
+      "visual": "proxy-and-context",
+      "width": 1440,
+      "clipped_text": []
+    }
+  ],
+  "axe_audits": [
+    {
+      "screen": "visual-guide",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "visual-guide",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "screen": "c01s03-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c01s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c01s05-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c02s03-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c02s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c03s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c05s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c06s03-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c06s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c07s03-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c07s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c08s03-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c08s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c09s03-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c09s04-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c10s03-expanded",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "screen": "c10s04-expanded",
+      "width": 390,
+      "violations": []
     }
   ],
   "js_errors": [],
-  "unique_print_placement": "passed",
-  "confirmation_evidence": "same records, different emphasis",
-  "complete_and_chapter_pdf_diagrams": 12,
-  "limits": "Automated layout and accessibility checks; no learner pilot."
+  "limits": "Automated visual, PDF, and accessibility checks; no learner pilot or full accessibility certification."
 }

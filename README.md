@@ -7,9 +7,12 @@ An original, illustrated social psychology course in ten stories, with recorded 
 ## Read or download
 
 - [Open the course](https://snowch.github.io/common-ground-social-psychology/).
+- [Explore all 48 visual explanations](https://snowch.github.io/common-ground-social-psychology/visual-guide.html) or [download the visual companion PDF](https://snowch.github.io/common-ground-social-psychology/visual-guide.pdf).
 - [Download smaller chapter packages](https://snowch.github.io/common-ground-social-psychology/downloads.html).
 
-Each chapter download includes a narrated HTML deck, continuous audio, an eight-slide PDF, and the study companion. Extract the ZIP and open its HTML file in a modern browser, then press **Play narration**. The recorded voice is embedded; no speech service or installed device voice is required. The M4A track can be played directly on a phone.
+Each chapter download includes a narrated HTML deck, continuous audio, an eight-slide PDF, the study companion, and the complete visual companion in HTML and PDF. Extract the ZIP and open its chapter HTML file in a modern browser, then press **Play narration**. The recorded voice is embedded; no speech service or installed device voice is required. The M4A track can be played directly on a phone.
+
+All 20 concept slides and ten evidence slides have relevant visual explanations. Where a slide teaches several ideas, **More visual explanations** opens separate figures. The 49-page visual companion collects all 48 views, with a cover and one figure per page. The eight-slide chapter PDFs retain the primary figures; the companion includes every additional view.
 
 ## Course
 
@@ -64,6 +67,8 @@ The **Deploy course to GitHub Pages** workflow builds the hosted course and chap
 - `study-guide.pdf`: printable evidence and assessment companion; `scripts/build_study_guide.py` generates its HTML.
 - `content.py`: original content authoring source; regenerates the canonical course JSON and teaching script.
 - `template.html`, `build.py`: interactive player and portable/static builds.
+- `visuals.js`, `visual-lessons.js`: shared SVG artwork, concept-specific figures, and the complete visual coverage registry.
+- `visual-guide.pdf`, `scripts/build_visual_guide.py`: printable visual companion and its self-contained HTML renderer.
 - `assets/fonts/`, `FONT-LICENSE.txt`: bundled fonts and their license information.
 - `audio/clips/`: 150 final AAC recordings, including feedback and recall answers.
 - `audio/chapters/`: ten continuous listening tracks.
