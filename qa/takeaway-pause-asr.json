@@ -1,0 +1,19 @@
+{
+  "method": "independent Whisper screening; not listening approval",
+  "model": "small.en",
+  "flagged": 0,
+  "scenes": [
+    {
+      "id": "c01s01",
+      "text": "A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo takes her lateness as a sign that she doesn’t care about the project.\n\nWhat Leo hasn’t seen is the broken lift at Maya’s apartment, or the neighbor she helped down the stairs.\n\nLeo’s conclusion—that Maya didn’t care—was one possible explanation for her lateness. But he hadn’t considered what might have delayed her.\n\nFirst, examine Leo’s reasoning in this fictional story. What did Leo observe about Maya’s arrival, and what did he infer about her priorities?\n\nThen think of a recent occasion when you explained someone’s behavior. What did you observe directly, and which cause did you infer?\n\nThroughout this course, keep that distinction in mind.",
+      "heard": "A neighborhood team is turning an empty shop into a repair cafe. At the first meeting, Maya arrives 20 minutes late. Leo takes her lateness as a sign that she doesn't care about the project. What Leo hasn't seen is the broken lift at Maya's apartment or the neighbor she helped down the stairs. Leo's conclusion that Maya didn't care was one possible explanation for her lateness, but he hadn't considered what might have delayed her. First, examine Leo's reasoning in this fictional story. What did Leo observe about Maya's arrival, and what did he infer about her priorities? Then think of a recent occasion when you explain someone's behavior. What did you observe directly, and which cause did you infer? Throughout this course, keep that distinction in mind.",
+      "level": -23.468399593072533,
+      "gap": 2.2,
+      "peak": 0.452667236328125,
+      "ratio": 0.9782608695652174,
+      "wpm": 185.70574162679426,
+      "short": false,
+      "gap_ok": 3.0
+    }
+  ]
+}

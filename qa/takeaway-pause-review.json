@@ -1,0 +1,10 @@
+{
+  "scene": "c01s01",
+  "pause_before": "Throughout this course, keep that distinction in mind.",
+  "requested_pause_seconds": 2,
+  "measured_zero_silence": {
+    "start": 45.435,
+    "duration": 2.0
+  },
+  "waveform_seconds": 50.18666666666667
+}
