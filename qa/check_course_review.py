@@ -20,7 +20,7 @@ async def main():
     await page.evaluate('(h)=>location.hash=h',f"chapter-{c['number']}-slide-{s['id'].split('s')[1].lstrip('0')}");await page.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=s['title'])
     assert await page.evaluate('document.activeElement.id')=='slideTitle',s['id']
     reading=page.locator('.chapter-reading')
-    assert (await reading.get_attribute('open') is not None)==(s['kind']=='evidence')
+    assert (await reading.get_attribute('open') is not None)==(s['kind']=='evidence' and c['number']!=1)
     if await reading.get_attribute('open') is None:await reading.locator('summary').first.click()
     assert await page.locator('.evidence-note').inner_text() and evidence[str(c['number'])]['note'] in await page.locator('.evidence-note').inner_text()
     text=await page.locator('.transcript>details').first.inner_text();assert '[pause' not in text and '](/' not in text

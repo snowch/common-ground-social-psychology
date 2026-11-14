@@ -33,7 +33,7 @@ async def main():
   await page.goto(BASE+'/#chapter-1-slide-8');assert await page.locator('.slide-number').inner_text()==position('c01s08')
   await page.locator('#next').click();await page.wait_for_url('**/#chapter-2-slide-1');await page.locator('#prev').click();await page.wait_for_url('**/#chapter-1-slide-8')
   # Legacy position 5 meant the transfer decision, not the new lesson.
-  await page.evaluate('localStorage.setItem("common-ground-v1",JSON.stringify({position:{chapter:1,slide:5},visited:{c01s05:true},answers:{c01s06:1},checked:{c01s06:true}}))')
+  await page.evaluate('localStorage.setItem("common-ground-v1",JSON.stringify({position:{chapter:1,slide:5},visited:{c01s05:true},answers:{c01s06:1},checked:{c01s06:true},answerRevisions:{c01s06:"attribution-evidence-v2"}}))')
   await page.goto(BASE+'/#home');await page.reload();await page.locator('#resume').click();await page.wait_for_url('**/#chapter-1-slide-6');assert await page.locator('[data-answer="1"]').get_attribute('aria-pressed')=='true'
   await page.goto(BASE+'/#chapter-1-slide-5b');await page.goto(BASE+'/#home');await page.locator('#resume').click();await page.wait_for_url('**/#chapter-1-slide-5b')
   for width in [320,390,768,1440]:

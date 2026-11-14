@@ -5,6 +5,7 @@
   "load_method": "Portable document served locally, then browser network disabled; file URLs are blocked by managed Chromium policy and were not tested",
   "independent_teaching_pages_played": 18,
   "chapter_decks_played": 10,
+  "optional_research_and_written_evidence_task": "passed",
   "full_deck_playback": "passed",
   "written_case_full_and_standalone": "passed",
   "study_companion": "passed",

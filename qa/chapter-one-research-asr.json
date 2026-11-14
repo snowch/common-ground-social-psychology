@@ -1,0 +1,98 @@
+{
+  "method": "External record-demo ASR screening of audio-only inputs; existing cached screens retained. Not a human listening review.",
+  "model": "small.en",
+  "flagged": 0,
+  "scenes": [
+    {
+      "id": "c01s04",
+      "text": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why.\n\nAn attribution is an explanation of what caused an action.\n\nA dispositional attribution locates a cause in characteristics of the person, such as goals, attitudes, or enduring tendencies. Leo\u2019s claim that Maya did not care is a dispositional explanation.\n\nA situational attribution locates a cause in circumstances, such as demands, constraints, or available opportunities. The broken lift and helping a neighbor offer situational explanations of the delay.\n\nPersonal characteristics and circumstances can contribute together. Compare the evidence for each explanation before deciding how much weight it deserves.",
+      "heard": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not by itself explain why. An attribution is an explanation of what caused an action. A dispositional attribution locates a cause in characteristics of the person, such as goals, attitudes, or enduring tendencies. Leo's claim that Maya did not care is a dispositional explanation. A situational attribution locates a cause in circumstances, such as demands, constraints, or available opportunities. The broken lift and helping a neighbor offer situational explanations of the delay. Personal characteristics and circumstances can contribute together. Compare the evidence for each explanation before deciding how much weight it deserves.",
+      "level": -23.428613956502005,
+      "gap": 1.08,
+      "peak": 0.644989013671875,
+      "ratio": 1.0,
+      "wpm": 137.34879032258064,
+      "short": false,
+      "gap_ok": 1.9,
+      "flags": []
+    },
+    {
+      "id": "c01s04b",
+      "text": "The fundamental attribution error describes a tendency to give too much weight to personal characteristics and too little to circumstances when explaining another person\u2019s behavior. Its strength varies with culture and context.\n\nCorrespondence bias is a related, more specific idea: inferring an enduring disposition from behavior that can be explained by situational constraints. The terms overlap, but they do not identify every possible error in a causal explanation.\n\nLeo treats Maya\u2019s late arrival as a sign of low commitment before investigating what delayed her. The broken lift and helping a neighbor make that conclusion less secure. These circumstances do not establish that personal characteristics played no part.\n\nThe caf\u00e9 story illustrates a possible inference to examine. It does not measure an attribution bias. A bias label alone cannot establish how Leo reached his judgment.",
+      "heard": "The fundamental attribution error describes a tendency to give too much weight to personal characteristics and too little to circumstances when explaining another person's behavior. Its strength varies with culture and context. Correspondence bias is a related, more specific idea, inferring and enduring disposition from behavior that can be explained by situational constraints. The terms overlap, but they do not identify every possible error in a causal explanation. Leo treats Maya's late arrival as a sign of low commitment before investigating what delayed her. The broken lift and helping a neighbor make that conclusion less secure. These circumstances do not establish that personal characteristics played no part. The cafe story illustrates a possible inference to examine. It does not measure an attribution bias. A bias label alone cannot establish how Leo reached his judgment.",
+      "level": -23.389298441867275,
+      "gap": 1.06,
+      "peak": 0.464752197265625,
+      "ratio": 0.9852941176470589,
+      "wpm": 142.40506329113924,
+      "short": false,
+      "gap_ok": 1.9,
+      "flags": []
+    },
+    {
+      "id": "c01s05",
+      "text": "Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person\u2019s action.\n\nThe actor\u2013observer hypothesis proposes that people explain their own actions more through situations and other people\u2019s actions more through personal characteristics. Leo citing a bus delay for his own lateness but Maya\u2019s priorities for hers illustrates this hypothesis.\n\nActor\u2013observer differences are not a general rule. A meta-analysis did not support a general asymmetry across positive and negative events; results varied with the event and research method. Keep the hypothesis, the research finding, and the fictional example distinct.",
+      "heard": "A tribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person's action. The actor-observer hypothesis proposes that people explain their own actions more through situations and other people's actions more through personal characteristics. Leo citing a bust delay for his own lateness, but Maya's priorities for hers illustrates this hypothesis. Actor-observer differences are not a general rule. A meta-analysis did not support a general asymmetry across positive and negative events. Results varied with the event and research method. Keep the hypothesis, the research finding, and the fictional example distinct.",
+      "level": -23.42289975985972,
+      "gap": 1.02,
+      "peak": 0.5831298828125,
+      "ratio": 0.9769585253456221,
+      "wpm": 141.87295656235403,
+      "short": false,
+      "gap_ok": 1.9,
+      "flags": []
+    },
+    {
+      "id": "c01s06",
+      "text": "Apply the idea to a new decision.\n\nNoor was late for three of six caf\u00e9 shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.\n\nAll three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running.\n\nWhich additional comparison best separates these explanations?\n\nWhy does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.\n\nOption A. Noor\u2019s punctuality on early shifts with and without bus cancellations.\nOption B. Noor\u2019s punctuality at a different activity reached on foot.\nOption C. Other volunteers\u2019 punctuality on early caf\u00e9 shifts.\n\nPause here and make your choice.",
+      "heard": "Apply the idea to a new decision. Nor was late for three of six cafe shifts. Leo proposes bus cancellations. Maya asks whether the earlier start also matters. All three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running. Which additional comparison best separates these explanations? Why does your comparison help? State what it keeps similar, what it varies, and one remaining limitation. Option A, Nor's punctuality on early shifts with and without bus cancellations. Option B, Nor's punctuality at a different activity reached on foot. Option C, other volunteers' punctuality on early cafe shifts. Pause here and make your choice.",
+      "level": -23.491283214951295,
+      "gap": 0.84,
+      "peak": 0.55322265625,
+      "ratio": 0.9553571428571429,
+      "wpm": 159.49367088607596,
+      "short": false,
+      "gap_ok": 3.0,
+      "flags": []
+    },
+    {
+      "id": "c01s06-feedback-0",
+      "text": "Most direct comparison. Compare the same volunteer at the same early start time while bus availability differs. This helps separate the bus explanation from the earlier-start explanation. The comparison is observational: other conditions may change too, and six shifts give little evidence about a lasting personal tendency.",
+      "heard": "Most direct comparison. Compare the same volunteer at the same early start time while bus availability differs. This helps separate the bus explanation from the earlier start explanation. The comparison is observational. Other conditions may change too, and six shifts give little evidence about a lasting personal tendency.",
+      "level": -23.482954744987367,
+      "gap": 0.6,
+      "peak": 0.5521240234375,
+      "ratio": 1.0,
+      "wpm": 139.31888544891643,
+      "short": false,
+      "gap_ok": 1.5,
+      "flags": []
+    },
+    {
+      "id": "c01s06-feedback-1",
+      "text": "Useful for a different question. Punctuality elsewhere could inform an explanation based on a broader personal tendency. Changing the activity, journey, and schedule does not isolate the bus explanation from the early start. Comparing Noor across early caf\u00e9 shifts with and without cancellations addresses the question more directly.",
+      "heard": "Useful for a different question, punctuality elsewhere could inform an explanation based on a broader personal tendency. Changing the activity, journey, and schedule does not isolate the bus explanation from the early start. Comparing nor across early cafe shifts with and without cancellations addresses the question more directly.",
+      "level": -23.387030090255855,
+      "gap": 0.68,
+      "peak": 0.456878662109375,
+      "ratio": 0.9583333333333334,
+      "wpm": 135.54216867469881,
+      "short": false,
+      "gap_ok": 1.5,
+      "flags": []
+    },
+    {
+      "id": "c01s06-feedback-2",
+      "text": "Potentially useful, but less direct. Other volunteers\u2019 punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from Noor\u2019s. A more direct comparison keeps Noor and the early start similar while bus availability differs; other changing circumstances would still need investigation.",
+      "heard": "Potentially useful, but less direct. Other volunteers' punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from NOR's. A more direct comparison keeps NOR and the early start similar while bus availability differs. Other changing circumstances would still need investigation.",
+      "level": -23.413432378779056,
+      "gap": 0.56,
+      "peak": 0.452484130859375,
+      "ratio": 0.9565217391304348,
+      "wpm": 134.76562500000003,
+      "short": false,
+      "gap_ok": 1.5,
+      "flags": []
+    }
+  ]
+}

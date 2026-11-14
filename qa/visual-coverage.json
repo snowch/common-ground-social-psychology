@@ -24,7 +24,9 @@
       "title": "Observation and attribution",
       "terms": [
         "Observation",
-        "Attribution"
+        "Attribution",
+        "Dispositional attribution",
+        "Situational attribution"
       ]
     }
   ],
@@ -33,17 +35,18 @@
       "key": "attribution-error",
       "title": "Fundamental attribution error",
       "terms": [
-        "Fundamental attribution error"
+        "Fundamental attribution error",
+        "Correspondence bias"
       ]
     }
   ],
   "c01s05": [
     {
       "key": "actor-observer",
-      "title": "Attribution and actor–observer differences",
+      "title": "Attribution and the actor–observer hypothesis",
       "terms": [
         "Attribution",
-        "actor–observer differences"
+        "actor–observer hypothesis"
       ]
     }
   ],

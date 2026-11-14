@@ -12,7 +12,26 @@
       "text": "Social psychology studies how people’s thoughts, feelings, and behavior are shaped by other people and social circumstances. To explain an action, consider both the person and the situation.\n\nPersonal qualities include dispositions, goals, beliefs, and skills. A disposition is a usual tendency over time, such as patience. Someone described as having a sweet disposition is generally kind and good-natured. A tendency need not appear in every situation.\n\nA situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. Personal qualities and circumstances can interact: the same person may respond differently as those demands change.\n\nIn Maya’s story, Leo’s judgment about her commitment leaves the obstacles she faced unexplored. The late arrival alone cannot settle how much either personal qualities or circumstances contributed.",
       "id": "c01s03",
       "stage": "Person and situation",
-      "visual": "person-situation-model"
+      "visual": "person-situation-model",
+      "research": {
+        "sections": [
+          {
+            "heading": "Conceptual background",
+            "text": "Social psychology examines social influences on thought, feeling, and behavior. Dispositions, goals, circumstances, and their interaction are possible contributions to an action."
+          },
+          {
+            "heading": "Applying the idea",
+            "text": "The café examples are original illustrations. They do not measure how much a person or situation contributed to an individual action."
+          }
+        ],
+        "sources": [
+          {
+            "title": "OpenStax Psychology 2e: What Is Social Psychology?",
+            "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+            "kind": "Open introductory textbook"
+          }
+        ]
+      }
     },
     {
       "id": "c01s03b",
@@ -26,47 +45,140 @@
         "Check: compare calmer and busier shifts."
       ],
       "text": "Imagine a volunteer who is usually patient with visitors. During a quiet shift, the volunteer listens and explains each repair calmly.\n\nAt the next shift, several visitors ask for help at once. The same volunteer gives one sharp reply. Their usual patience and the immediate pressure are both relevant to understanding that action.\n\nBefore judging the volunteer’s character, what changed in the room?\n\nThe immediate demands increased. That change offers a situational explanation to investigate. It does not establish that personal qualities played no part.\n\nThis example illustrates an interaction between a disposition and a situation. Compare the volunteer’s responses across calmer and busier shifts before drawing a conclusion about a lasting personal tendency.",
-      "visual": "person-situation"
+      "visual": "person-situation",
+      "research": {
+        "sections": [
+          {
+            "heading": "What this example illustrates",
+            "text": "The usually patient volunteer and the busy shift illustrate how an action may depend on both personal tendencies and immediate demands."
+          },
+          {
+            "heading": "What it cannot establish",
+            "text": "This fictional comparison is not an experiment. A sharper reply on one busy shift does not establish the cause or demonstrate an enduring change in disposition."
+          }
+        ],
+        "sources": [
+          {
+            "title": "OpenStax Psychology 2e: What Is Social Psychology?",
+            "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+            "kind": "Open introductory textbook"
+          }
+        ]
+      }
     },
     {
       "kind": "concept",
-      "title": "Observation is not explanation.",
+      "title": "Observation and attribution.",
       "points": [
         "Observation: Maya arrived after the start.",
-        "Attribution: Leo proposes that she does not care.",
-        "Different questions: what happened, and what caused it?",
-        "Next step: ask for information that could test the cause."
+        "Attribution: an explanation of what caused an action.",
+        "Dispositional attribution: a cause in personal characteristics.",
+        "Situational attribution: a cause in circumstances."
       ],
-      "text": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why.\n\nAn attribution is an explanation of what caused an action.\n\nLeo’s claim that Maya did not care about the project is an attribution. He has proposed a cause, rather than directly observed her priorities.\n\nMaya can provide information about the delay. The broken lift and helping a neighbor offer possible causes that Leo had not considered. He needs evidence to compare those accounts.\n\nFor an action in your own life, first describe what you observed. Then state your proposed cause separately. Keeping those two statements distinct makes the explanation easier to test.",
+      "text": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why.\n\nAn attribution is an explanation of what caused an action.\n\nA dispositional attribution locates a cause in characteristics of the person, such as goals, attitudes, or enduring tendencies. Leo’s claim that Maya did not care is a dispositional explanation.\n\nA situational attribution locates a cause in circumstances, such as demands, constraints, or available opportunities. The broken lift and helping a neighbor offer situational explanations of the delay.\n\nPersonal characteristics and circumstances can contribute together. Compare the evidence for each explanation before deciding how much weight it deserves.",
       "id": "c01s04",
       "stage": "Observation and attribution",
-      "visual": "observation-attribution"
+      "visual": "observation-attribution",
+      "research": {
+        "sections": [
+          {
+            "heading": "The academic distinction",
+            "text": "Dispositional and situational attributions classify proposed causes. The classification does not tell us whether an explanation is correct."
+          },
+          {
+            "heading": "The café application",
+            "text": "Maya’s late arrival is an observation. Her priorities and the obstacles she faced are proposed causes to investigate. Asking about circumstances need not deny the possible contribution of personal characteristics."
+          }
+        ],
+        "sources": [
+          {
+            "title": "OpenStax Psychology 2e: What Is Social Psychology?",
+            "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+            "kind": "Open introductory textbook"
+          }
+        ]
+      }
     },
     {
       "id": "c01s04b",
       "kind": "concept",
       "stage": "Attribution error",
-      "title": "When the person gets too much weight.",
+      "title": "When a constraint gets too little weight.",
       "points": [
-        "Fundamental attribution error: too much weight on personal qualities, too little on circumstances.",
-        "Leo’s first account: “Maya doesn’t care.”",
-        "Missing context: the broken lift and helping a neighbor.",
-        "Check: compare plausible causes before judging commitment."
+        "Fundamental attribution error: overweighting personal characteristics and underweighting circumstances.",
+        "Correspondence bias: inferring an enduring disposition from constrained behavior.",
+        "Leo’s inference: lateness shows low commitment.",
+        "Limit: one arrival cannot establish Maya’s disposition or diagnose Leo’s reasoning."
       ],
-      "text": "Now consider how much weight Leo gives each kind of explanation. He treats Maya’s late arrival mainly as evidence about her personal qualities, before examining the circumstances that delayed her.\n\nThe fundamental attribution error is the tendency to give too much weight to personal qualities and too little to the situation when explaining another person’s behavior. Its strength varies with culture and context.\n\nIn Maya’s case, the broken lift and helping a neighbor make Leo’s initial explanation less complete. Personal qualities can still matter, but he needs to consider the circumstances before deciding how well his account fits.\n\nTo check an explanation you form, ask which situational causes you have investigated and which you may have overlooked. Naming a bias is a prompt to examine evidence; the label alone does not prove that someone’s reasoning is biased.",
-      "visual": "attribution-error"
+      "text": "The fundamental attribution error describes a tendency to give too much weight to personal characteristics and too little to circumstances when explaining another person’s behavior. Its strength varies with culture and context.\n\nCorrespondence bias is a related, more specific idea: inferring an enduring disposition from behavior that can be explained by situational constraints. The terms overlap, but they do not identify every possible error in a causal explanation.\n\nLeo treats Maya’s late arrival as a sign of low commitment before investigating what delayed her. The broken lift and helping a neighbor make that conclusion less secure. These circumstances do not establish that personal characteristics played no part.\n\nThe café story illustrates a possible inference to examine. It does not measure an attribution bias. A bias label alone cannot establish how Leo reached his judgment.",
+      "visual": "attribution-error",
+      "research": {
+        "sections": [
+          {
+            "heading": "What researchers did",
+            "text": "Jones and Harris (1967) asked readers to judge a writer’s attitude after reading an essay for or against Fidel Castro. The writer’s position was described as freely chosen or assigned."
+          },
+          {
+            "heading": "What they found",
+            "text": "Even when the position was assigned, judgments of the writer’s attitude still followed the position expressed in the essay. A known constraint did not eliminate the dispositional inference."
+          },
+          {
+            "heading": "What this supports and its limit",
+            "text": "The task shows how a situational constraint can receive too little weight in an attitude judgment. It does not establish why Maya was late, a universal bias in every setting, or the effectiveness of a particular café procedure."
+          },
+          {
+            "heading": "How the concept is interpreted",
+            "text": "Gilbert and Malone (1995) review correspondence bias and mechanisms that can produce it. Their review concerns inferences about enduring dispositions from behavior that can be explained by the situation."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Jones & Harris (1967), The attribution of attitudes",
+            "url": "https://doi.org/10.1016/0022-1031(67)90034-0",
+            "kind": "Experimental study; full-text access varies"
+          },
+          {
+            "title": "Gilbert & Malone (1995), The correspondence bias",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7870861/",
+            "kind": "Review; abstract available"
+          }
+        ]
+      }
     },
     {
       "kind": "evidence",
-      "title": "One observer, two explanations.",
+      "title": "Actor–observer differences need qualification.",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
-      "text": "An attribution is an explanation of what caused an action.\n\nAttribution research describes patterns across judgments. Those patterns do not settle the cause of one person’s action.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.",
+      "text": "Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person’s action.\n\nThe actor–observer hypothesis proposes that people explain their own actions more through situations and other people’s actions more through personal characteristics. Leo citing a bus delay for his own lateness but Maya’s priorities for hers illustrates this hypothesis.\n\nActor–observer differences are not a general rule. A meta-analysis did not support a general asymmetry across positive and negative events; results varied with the event and research method. Keep the hypothesis, the research finding, and the fictional example distinct.",
       "id": "c01s05",
       "stage": "Evidence check",
-      "visual": "actor-observer"
+      "visual": "actor-observer",
+      "research": {
+        "sections": [
+          {
+            "heading": "What was examined",
+            "text": "Malle (2006) combined 173 published studies of the actor–observer asymmetry in attribution: the proposed tendency to explain one’s own behavior situationally and others’ behavior dispositionally."
+          },
+          {
+            "heading": "What the synthesis found",
+            "text": "The review did not support a general asymmetry across positive and negative events. Results differed with event valence and research methods; some conditions supported the familiar pattern, while positive events could show a reverse pattern."
+          },
+          {
+            "heading": "What this means for the lesson",
+            "text": "The fictional Leo comparison makes the hypothesis understandable. It does not demonstrate a dependable rule. Actor–observer comparisons also ask a different question from whether an observer underweights a known situational constraint in one judgment."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Malle (2006), The actor-observer asymmetry in attribution: A (surprising) meta-analysis",
+            "url": "https://doi.org/10.1037/0033-2909.132.6.895",
+            "kind": "Meta-analysis of 173 published studies; full-text access varies"
+          }
+        ]
+      }
     },
     {
       "id": "c01s05b",
@@ -80,7 +192,31 @@
         "Revise: change your confidence when the evidence changes."
       ],
       "text": "Return to Maya’s late arrival at the café. Leo has proposed that she did not care about the project. How could he check that explanation?\n\nBegin with what was observed: Maya arrived after the start. Leo’s claim that she did not care adds a cause. Ask Maya about the delay before deciding which explanation fits.\n\nCompare repeated occasions and settings. Is Maya late across different shifts, or only when a particular obstacle is present? A personal tendency becomes more plausible when the behavior recurs across varied circumstances. One episode is a weak basis for that conclusion.\n\nCheck alternatives. A broken lift or helping a neighbor could explain this delay. Identify what evidence would strengthen or weaken each account, then revise your confidence.\n\nIf you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it.",
-      "visual": "repeated-evidence"
+      "visual": "repeated-evidence",
+      "research": {
+        "sections": [
+          {
+            "heading": "A proposed application",
+            "text": "Describing an action, comparing occasions, checking alternatives, and revising confidence are the course’s suggested reasoning steps. They apply the distinction between an observed action and a proposed cause."
+          },
+          {
+            "heading": "What is not established",
+            "text": "This sequence has not been evaluated here as a bias-reduction intervention. Asking for evidence can improve the investigation without guaranteeing a correct explanation or revealing another person’s private motives."
+          }
+        ],
+        "sources": [
+          {
+            "title": "OpenStax Psychology 2e: What Is Social Psychology?",
+            "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+            "kind": "Open introductory textbook"
+          },
+          {
+            "title": "Gilbert & Malone (1995), The correspondence bias",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7870861/",
+            "kind": "Review; abstract available"
+          }
+        ]
+      }
     }
   ],
   "2": [

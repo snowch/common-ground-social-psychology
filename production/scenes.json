@@ -34,24 +34,24 @@
   {
     "id": "c01s04",
     "slide": 5,
-    "step": "Observation is not explanation.",
-    "text": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why.\n\nAn attribution is an explanation of what caused an action.\n\nLeo’s claim that Maya did not care about the project is an attribution. He has proposed a cause, rather than directly observed her priorities.\n\nMaya can provide information about the delay. The broken lift and helping a neighbor offer possible causes that Leo had not considered. He needs evidence to compare those accounts.\n\nFor an action in your own life, first describe what you observed. Then state your proposed cause separately. Keeping those two statements distinct makes the explanation easier to test.",
+    "step": "Observation and attribution.",
+    "text": "Leo saw Maya arrive after the meeting had started. That observation describes what happened. It does not, by itself, explain why.\n\nAn attribution is an explanation of what caused an action.\n\nA dispositional attribution locates a cause in characteristics of the person, such as goals, attitudes, or enduring tendencies. Leo’s claim that Maya did not care is a dispositional explanation.\n\nA situational attribution locates a cause in circumstances, such as demands, constraints, or available opportunities. The broken lift and helping a neighbor offer situational explanations of the delay.\n\nPersonal characteristics and circumstances can contribute together. Compare the evidence for each explanation before deciding how much weight it deserves.",
     "part": "chapter-01",
     "hold": 1
   },
   {
     "id": "c01s04b",
     "slide": 6,
-    "step": "When the person gets too much weight.",
-    "text": "Now consider how much weight Leo gives each kind of explanation. He treats Maya’s late arrival mainly as evidence about her personal qualities, before examining the circumstances that delayed her.\n\nThe fundamental attribution error is the tendency to give too much weight to personal qualities and too little to the situation when explaining another person’s behavior. Its strength varies with culture and context.\n\nIn Maya’s case, the broken lift and helping a neighbor make Leo’s initial explanation less complete. Personal qualities can still matter, but he needs to consider the circumstances before deciding how well his account fits.\n\nTo check an explanation you form, ask which situational causes you have investigated and which you may have overlooked. Naming a bias is a prompt to examine evidence; the label alone does not prove that someone’s reasoning is biased.",
+    "step": "When a constraint gets too little weight.",
+    "text": "The fundamental attribution error describes a tendency to give too much weight to personal characteristics and too little to circumstances when explaining another person’s behavior. Its strength varies with culture and context.\n\nCorrespondence bias is a related, more specific idea: inferring an enduring disposition from behavior that can be explained by situational constraints. The terms overlap, but they do not identify every possible error in a causal explanation.\n\nLeo treats Maya’s late arrival as a sign of low commitment before investigating what delayed her. The broken lift and helping a neighbor make that conclusion less secure. These circumstances do not establish that personal characteristics played no part.\n\nThe café story illustrates a possible inference to examine. It does not measure an attribution bias. A bias label alone cannot establish how Leo reached his judgment.",
     "part": "chapter-01",
     "hold": 1
   },
   {
     "id": "c01s05",
     "slide": 7,
-    "step": "One observer, two explanations.",
-    "text": "An attribution is an explanation of what caused an action.\n\nAttribution research describes patterns across judgments. Those patterns do not settle the cause of one person’s action.\n\nActor–observer differences compare how one observer explains their own actions and other people’s actions. In a hypothetical comparison, Leo might cite a bus delay for his own lateness but Maya’s priorities for hers. The pattern varies with the judgment and study design.",
+    "step": "Actor–observer differences need qualification.",
+    "text": "Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person’s action.\n\nThe actor–observer hypothesis proposes that people explain their own actions more through situations and other people’s actions more through personal characteristics. Leo citing a bus delay for his own lateness but Maya’s priorities for hers illustrates this hypothesis.\n\nActor–observer differences are not a general rule. A meta-analysis did not support a general asymmetry across positive and negative events; results varied with the event and research method. Keep the hypothesis, the research finding, and the fictional example distinct.",
     "part": "chapter-01",
     "hold": 1
   },
@@ -67,7 +67,7 @@
     "id": "c01s06",
     "slide": 9,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nA volunteer misses shifts only when the bus service is suspended. What should you test?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nNoor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.\n\nAll three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running.\n\nWhich additional comparison best separates these explanations?\n\nWhy does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.",
     "part": "chapter-01",
     "hold": 3
   },

@@ -152,13 +152,32 @@ chapter('Who will do something?','Aggression, helping & cooperation','help','#A1
  'Design a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan.',
  [os('12-6-aggression','Aggression'),os('12-7-prosocial-behavior','Prosocial Behavior'),no('helping-and-prosocial-behavior','Helping and Prosocial Behavior')])
 
+# Stable slide IDs remain; the quiz revision invalidates old transfer choices.
+C[0]['objective']='Distinguish an observation from dispositional and situational explanations, and select evidence that helps separate competing causes.'
+C[0]['quizzes'][1]={
+ 'revision':'attribution-evidence-v2',
+ 'context':'Noor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.',
+ 'record':dict(caption='Invented teaching record · six shifts',headers=['Shift conditions','Late','On time'],rows=[['Earlier start; bus cancelled','3','0'],['Later start; bus running','0','3']],spoken='All three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running.'),
+ 'prompt':'Which additional comparison best separates these explanations?',
+ 'options':['Noor’s punctuality on early shifts with and without bus cancellations.','Noor’s punctuality at a different activity reached on foot.','Other volunteers’ punctuality on early café shifts.'],
+ 'correct':0,
+ 'reasoningPrompt':'Why does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.',
+ 'feedbackLabels':['Most direct comparison.','Useful for a different question.','Potentially useful, but less direct.'],
+ 'feedback':[
+  'Compare the same volunteer at the same early start time while bus availability differs. This helps separate the bus explanation from the earlier-start explanation. The comparison is observational: other conditions may change too, and six shifts give little evidence about a lasting personal tendency.',
+  'Punctuality elsewhere could inform an explanation based on a broader personal tendency. Changing the activity, journey, and schedule does not isolate the bus explanation from the early start. Comparing Noor across early café shifts with and without cancellations addresses the question more directly.',
+  'Other volunteers’ punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from Noor’s. A more direct comparison keeps Noor and the early start similar while bus availability differs; other changing circumstances would still need investigation.']}
+
+def quiz_prompt(quiz):
+ return '\n\n'.join(x for x in [quiz.get('context'),quiz.get('record',{}).get('spoken'),quiz['prompt']] if x)
+
 STAGES=['Story','Your decision','First lens','Second lens','Evidence check','New situation','Recall','Field practice']
 for i,c in enumerate(C):
  c['number']=i+1
  def s(kind,title,points,text,**kw):return dict(kind=kind,title=title,points=points,text=text,**kw)
  c['slides']=[s('story',c['hook'],['An original story at the Common Ground repair café.'],c['story']),s('choice','What would you do?',[], 'Before the explanation, make your own choice.\n\n'+c['quizzes'][0]['prompt']+'\n\nConsider the consequences of each option.',quiz=c['quizzes'][0])]
  c['slides'] += [s('concept',x['title'],x['points'],x['text']) for x in c['concepts']]
- c['slides'] += [s('evidence','What can we really conclude?',['What the research supports','Where the claim needs restraint'],c['evidence']),s('transfer','Try the idea somewhere new.',[], 'Apply the idea to a new decision.\n\n'+c['quizzes'][1]['prompt']+'\n\nChoose an action and explain why it addresses the problem.',quiz=c['quizzes'][1]),s('recall','Close your notes. Explain it.',c['recall'],'Answer both prompts from memory.\n\nFirst. '+c['recall'][0]+'\n\nSecond. '+c['recall'][1]+'\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.',answers=c['answers']),s('practice','Carry one idea into your week.',[c['field']], 'Here is your field practice.\n\n'+c['field']+'\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.')]
+ c['slides'] += [s('evidence','What can we really conclude?',['What the research supports','Where the claim needs restraint'],c['evidence']),s('transfer','Try the idea somewhere new.',[], 'Apply the idea to a new decision.\n\n'+quiz_prompt(c['quizzes'][1])+'\n\n'+c['quizzes'][1].get('reasoningPrompt','Choose an action and explain why it addresses the problem.'),quiz=c['quizzes'][1]),s('recall','Close your notes. Explain it.',c['recall'],'Answer both prompts from memory.\n\nFirst. '+c['recall'][0]+'\n\nSecond. '+c['recall'][1]+'\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.',answers=c['answers']),s('practice','Carry one idea into your week.',[c['field']], 'Here is your field practice.\n\n'+c['field']+'\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.')]
  for j,x in enumerate(c['slides']):x.update(id=f'c{i+1:02d}s{j+1:02d}',stage=STAGES[j])
 # Canonical teaching pages: one learning task and primary visual per page.
 teaching=json.loads((ROOT/'teaching-pages.json').read_text())

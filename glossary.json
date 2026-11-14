@@ -1,12 +1,17 @@
 {
   "1": {
-    "Disposition": "a usual tendency, such as patience.",
-    "Situation": "demands, people, available choices.",
+    "Disposition": "An enduring or usual personal tendency that need not appear in every situation.",
+    "Situation": "The circumstances someone faces, including other people, demands, constraints, and available opportunities.",
     "Observation": "What someone saw or recorded, distinguished from their explanation of why it happened.",
-    "Attribution": "An explanation of what caused an action.",
-    "Fundamental attribution error": "too much weight on the person, too little on the situation.",
+    "Attribution": "An explanation of the cause of an action or event.",
+    "Fundamental attribution error": "A tendency to give too much weight to personal characteristics and too little to circumstances when explaining another person’s behavior.",
     "Attribution research": "Research on how people explain the causes of actions and events, and patterns across those explanations.",
-    "Actor–observer differences": "Differences between how an observer explains their own actions and other people’s actions. The pattern depends on the judgment and setting."
+    "Actor–observer differences": "Differences between explanations of one’s own and others’ actions. They depend on events and methods rather than following a general own-situation, others-person rule.",
+    "Dispositional attribution": "An explanation locating a cause in characteristics of the person, such as goals, attitudes, or enduring tendencies.",
+    "Situational attribution": "An explanation locating a cause in circumstances, such as demands, constraints, or available opportunities.",
+    "Correspondence bias": "Inferring an enduring disposition from behavior that can be explained by situational constraints. Related to the broader teaching label fundamental attribution error.",
+    "Actor–observer hypothesis": "The proposal that people explain their own behavior more through situations and others’ behavior more through personal characteristics. A general asymmetry is not supported across positive and negative events.",
+    "Meta-analysis": "A statistical synthesis of results from multiple studies, interpreted in light of their methods, quality, and differences."
   },
   "2": {
     "Correlation": "things vary together.",
