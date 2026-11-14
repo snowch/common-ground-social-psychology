@@ -115,7 +115,7 @@
     "id": "c02s03b",
     "slide": 15,
     "step": "Several changes, one result.",
-    "text": "A confound is another factor that could explain an apparent relationship. Leo changed the poster, but the weather improved and the local paper also covered the café.\n\nBecause these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.\n\nA fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.",
+    "text": "A confounding factor varies with the proposed cause and could also influence the outcome. Leo changed the poster, but the weather improved and the local paper also covered the café.\n\nBecause these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.\n\nA fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.",
     "part": "chapter-02",
     "hold": 1
   },
@@ -139,7 +139,7 @@
     "id": "c02s04b",
     "slide": 18,
     "step": "Significance and usefulness are different questions.",
-    "text": "Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not measure whether a difference is useful.\n\nA small attendance increase could be statistically significant in a large study, yet be too small to justify an expensive campaign. Conversely, an imprecise estimate may leave a useful effect uncertain.\n\nA nonsignificant result does not prove zero effect. Inspect the estimated size, its uncertainty, the study design, and other tests before deciding what the café should do.",
+    "text": "A result is usually called statistically significant when a test crosses a prespecified threshold, such as a p-value below 0.05. A p-value describes how unusual the observed result, or more extreme results, would be under a specified model and its assumptions. It is not the probability that a hypothesis is true.\n\nStatistical significance does not measure practical importance. A small attendance increase could be significant in a large study yet be too small to justify an expensive campaign.\n\nA nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do.",
     "part": "chapter-02",
     "hold": 1
   },
@@ -155,7 +155,7 @@
     "id": "c02s06",
     "slide": 20,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nWhich invitation comparison is strongest?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nThe café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.\n\nWhich redesign most directly tests that claim?\n\nName the competing explanation your design addresses and one remaining limitation.",
     "part": "chapter-02",
     "hold": 3
   },
@@ -227,7 +227,7 @@
     "id": "c03s06",
     "slide": 29,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nLeo thinks evening sessions fail. Which question best challenges his belief?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nEvening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.\n\nWhat would most improve a comparison of failure rates?\n\nState the denominator you need and one reason a difference would not establish its cause.",
     "part": "chapter-03",
     "hold": 3
   },
@@ -291,7 +291,7 @@
     "id": "c04s06",
     "slide": 37,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nSwitching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nIn an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.\n\nWhich information matters most to the next cost comparison?\n\nSeparate an irrecoverable cost from a future consequence, and identify one assumption to check.",
     "part": "chapter-04",
     "hold": 3
   },
@@ -339,7 +339,7 @@
     "id": "c05s04",
     "slide": 43,
     "step": "A request and an authority’s order.",
-    "text": "Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following the chair’s instruction because the chair is in charge illustrates obedience.\n\nA request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.\n\nThat pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.",
+    "text": "Compliance means changing behavior in response to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means following an order from someone perceived as an authority. Following the chair’s instruction because the chair is in charge illustrates obedience.\n\nA request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.\n\nThat pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.",
     "part": "chapter-05",
     "hold": 1
   },
@@ -363,7 +363,7 @@
     "id": "c05s06",
     "slide": 46,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nThe chair requests bypassing a required check. Which process helps?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nVolunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.\n\nWhich check best separates these possible influences?\n\nDescribe a pattern consistent with each influence and one limit on inferring motives.",
     "part": "chapter-05",
     "hold": 3
   },
@@ -443,7 +443,7 @@
     "id": "c06s06",
     "slide": 56,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nFew residents currently volunteer. Which invitation is defensible?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nTwo café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.\n\nWhich comparison best matches that aim?\n\nDistinguish two message outcomes and state a design or measurement limitation.",
     "part": "chapter-06",
     "hold": 3
   },
@@ -507,7 +507,7 @@
     "id": "c07s04b",
     "slide": 64,
     "step": "Poor output can have different causes.",
-    "text": "Social loafing means reducing individual effort when working collectively. A volunteer might check fewer items because their contribution will be hidden in the team’s total.\n\nCoordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.\n\nBefore choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.",
+    "text": "Social loafing is lower individual effort in collective work than when working individually or when a contribution is evaluated separately. A volunteer might check fewer items because their contribution will be hidden in the team’s total.\n\nCoordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.\n\nBefore choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.",
     "part": "chapter-07",
     "hold": 1
   },
@@ -523,7 +523,7 @@
     "id": "c07s06",
     "slide": 66,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nAn event budget keeps escalating without checking demand. What helps?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nWelcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.\n\nWhich check best distinguishes coordination loss from reduced effort?\n\nName evidence consistent with each explanation and one limitation of the comparison.",
     "part": "chapter-07",
     "hold": 3
   },
@@ -603,7 +603,7 @@
     "id": "c08s06",
     "slide": 76,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nFriend referrals become an open skills-based application. How can improvement be assessed?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nFriend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.\n\nWhat evidence best examines whether access improved?\n\nName one access outcome and one reason a before-and-after change would not establish its cause.",
     "part": "chapter-08",
     "hold": 3
   },
@@ -659,7 +659,7 @@
     "id": "c09s04",
     "slide": 83,
     "step": "Closeness depends on the response.",
-    "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for.\n\nSam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.\n\nReciprocity means consideration can flow both ways over time. It does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.",
+    "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for.\n\nSam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.\n\nReciprocity means responding to another person’s action with a related action, such as returning help or disclosure. Reciprocal responses can also be negative; the term does not mean kindness alone. In a friendship, neither a favor nor a disclosure creates a right to a matching response.",
     "part": "chapter-09",
     "hold": 1
   },
@@ -683,7 +683,7 @@
     "id": "c09s06",
     "slide": 86,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nSam declines an invitation and needs time alone. What should Leo do?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nAfter several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.\n\nWhich evidence best examines whether responsiveness relates to closeness?\n\nState an observable or reported measure and one limit on a causal interpretation.",
     "part": "chapter-09",
     "hold": 3
   },
@@ -723,7 +723,7 @@
     "id": "c10s03",
     "slide": 91,
     "step": "Two reasons concerned people may hesitate.",
-    "text": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.\n\nPluralistic ignorance concerns interpreting reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. He has mistaken an appearance for a private assessment.\n\nDiffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.",
+    "text": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.\n\nPluralistic ignorance is a shared misperception of other people’s private beliefs or concerns. Each café volunteer may be unsure whether help is needed while reading the others’ outward calm as reassurance. Their public reactions hide their private uncertainty.\n\nDiffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.",
     "part": "chapter-10",
     "hold": 1
   },
@@ -747,7 +747,7 @@
     "id": "c10s04b",
     "slide": 94,
     "step": "Turn a shared aim into coordinated work.",
-    "text": "Cooperation needs more than a general wish to work together. A shared task needs a clear outcome, named contributions, usable resources, and a way to report problems.\n\nFor the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.\n\nReview the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.",
+    "text": "Cooperation is joint action directed toward shared or mutually beneficial outcomes. Clear roles and feedback are possible ways to organize it, rather than the definition or a guarantee of success.\n\nA shared café task needs a clear outcome, usable resources, and a way to report problems.\n\nFor the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.\n\nReview the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.",
     "part": "chapter-10",
     "hold": 1
   },
@@ -763,7 +763,7 @@
     "id": "c10s06",
     "slide": 96,
     "step": "Try the idea somewhere new.",
-    "text": "Apply the idea to a new decision.\n\nWhich preparation makes future help more likely?\n\nChoose an action and explain why it addresses the problem.",
+    "text": "Apply the idea to a new decision.\n\nIn a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.\n\nWhich change most directly tests the proposed responsibility problem?\n\nIdentify the process addressed, the outcome to record, and one limit of your comparison.",
     "part": "chapter-10",
     "hold": 3
   },

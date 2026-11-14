@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def speech_form(text):
     text = re.sub(r"\bMaya[’']s\b", '[Maya’s](/mˈaɪəz/)', text)
     text = re.sub(r"(?<!\[)\bMaya\b(?![’'])", '[Maya](/mˈaɪə/)', text)
-    return (text.replace('£100', 'one hundred pounds')
+    return (text.replace('£600', 'six hundred pounds').replace('£120', 'one hundred and twenty pounds').replace('£80', 'eighty pounds').replace('£40', 'forty pounds').replace('0.05', 'zero point zero five').replace('£100', 'one hundred pounds')
             .replace('£300', 'three hundred pounds').replace('2024', 'twenty twenty-four')
             .replace('The linked Vaidis and colleagues study provides the details.',
                      'The linked study provides the details.'))

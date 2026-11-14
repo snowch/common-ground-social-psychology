@@ -36,7 +36,7 @@ async def main():
   assert await page.evaluate('JSON.parse(localStorage.getItem("common-ground-v1")).visited.c02s03c===true')
   # Old eight-page positions still resolve to their stable original identities.
   for chapter in [2,6,10]:
-   await page.evaluate('(chapter)=>localStorage.setItem("common-ground-v1",JSON.stringify({position:{chapter,slide:3},answers:{c02s06:1},checked:{c02s06:true},visited:{c01s03b:true}}))',chapter)
+   await page.evaluate('(chapter)=>localStorage.setItem("common-ground-v1",JSON.stringify({position:{chapter,slide:3},answers:{c02s06:1},checked:{c02s06:true},answerRevisions:{c02s06:"academic-transfer-v2"},visited:{c01s03b:true}}))',chapter)
    await page.goto(BASE+'/#home');await page.reload();await page.locator('#resume').click();await page.wait_for_url('**/#chapter-'+str(chapter)+'-slide-4')
   await page.goto(BASE+'/#chapter-2-slide-6');assert await page.locator('[data-answer="1"]').get_attribute('aria-pressed')=='true'
   await page.set_viewport_size({'width':768,'height':1000})

@@ -1,0 +1,692 @@
+{
+  "checked_utc": "2026-11-14",
+  "scope": "Selected sources for Chapters 2–10; not a systematic literature review or independent academic review. Bibliographic identities checked against Crossref records. Available abstracts inspected; introductory textbooks support standard task summaries. No claim of full-text review for every paper.",
+  "sources": [
+    {
+      "key": "aggression",
+      "title": "Human Aggression",
+      "authors": [
+        "Anderson",
+        "Bushman"
+      ],
+      "citation_year": 2002,
+      "doi": "10.1146/annurev.psych.53.100901.135231",
+      "record_url": "https://api.crossref.org/works/10.1146/annurev.psych.53.100901.135231",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "asa",
+      "title": "The ASA Statement on p -Values: Context, Process, and Purpose",
+      "authors": [
+        "Wasserstein",
+        "Lazar"
+      ],
+      "citation_year": 2016,
+      "doi": "10.1080/00031305.2016.1154108",
+      "record_url": "https://api.crossref.org/works/10.1080/00031305.2016.1154108",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "availability",
+      "title": "Availability: A heuristic for judging frequency and probability",
+      "authors": [
+        "Tversky",
+        "Kahneman"
+      ],
+      "citation_year": 1973,
+      "doi": "10.1016/0010-0285(73)90033-9",
+      "record_url": "https://api.crossref.org/works/10.1016/0010-0285(73)90033-9",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "bertrand",
+      "title": "Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination",
+      "authors": [
+        "Bertrand",
+        "Mullainathan"
+      ],
+      "citation_year": 2004,
+      "doi": "10.1257/0002828042002561",
+      "record_url": "https://api.crossref.org/works/10.1257/0002828042002561",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "bond",
+      "title": "Culture and conformity: A meta-analysis of studies using Asch's (1952b, 1956) line judgment task.",
+      "authors": [
+        "Bond",
+        "Smith"
+      ],
+      "citation_year": 1996,
+      "doi": "10.1037/0033-2909.119.1.111",
+      "record_url": "https://api.crossref.org/works/10.1037/0033-2909.119.1.111",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "burger",
+      "title": "Replicating Milgram: Would people still obey today?",
+      "authors": [
+        "Burger"
+      ],
+      "citation_year": 2009,
+      "doi": "10.1037/a0010932",
+      "record_url": "https://api.crossref.org/works/10.1037/a0010932",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "cooperation",
+      "title": "Communication and Cooperation in Social Dilemmas: A Meta-Analytic Review",
+      "authors": [
+        "Balliet"
+      ],
+      "citation_year": 2010,
+      "doi": "10.1177/0022002709352443",
+      "record_url": "https://api.crossref.org/works/10.1177/0022002709352443",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "cumming",
+      "title": "The New Statistics",
+      "authors": [
+        "Cumming"
+      ],
+      "citation_year": 2014,
+      "doi": "10.1177/0956797613504966",
+      "record_url": "https://api.crossref.org/works/10.1177/0956797613504966",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "darley",
+      "title": "Bystander intervention in emergencies: Diffusion of responsibility.",
+      "authors": [
+        "Darley",
+        "Latane"
+      ],
+      "citation_year": 1968,
+      "doi": "10.1037/h0025589",
+      "record_url": "https://api.crossref.org/works/10.1037/h0025589",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "deutsch",
+      "title": "A study of normative and informational social influences upon individual judgment.",
+      "authors": [
+        "Deutsch",
+        "Gerard"
+      ],
+      "citation_year": 1955,
+      "doi": "10.1037/h0046408",
+      "record_url": "https://api.crossref.org/works/10.1037/h0046408",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "edmondson",
+      "title": "Psychological Safety and Learning Behavior in Work Teams",
+      "authors": [
+        "Edmondson"
+      ],
+      "citation_year": 1999,
+      "doi": "10.2307/2666999",
+      "record_url": "https://api.crossref.org/works/10.2307/2666999",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "elm",
+      "title": "The Elaboration Likelihood Model of Persuasion",
+      "authors": [
+        "Petty",
+        "Cacioppo"
+      ],
+      "citation_year": 1986,
+      "doi": "10.1016/S0065-2601(08)60214-2",
+      "record_url": "https://api.crossref.org/works/10.1016/S0065-2601(08)60214-2",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "elson",
+      "title": "Press CRTT to measure aggressive behavior: The unstandardized use of the competitive reaction time task in aggression research.",
+      "authors": [
+        "Elson",
+        "Mohseni",
+        "Breuer",
+        "Scharkow",
+        "Quandt"
+      ],
+      "citation_year": 2014,
+      "doi": "10.1037/a0035569",
+      "record_url": "https://api.crossref.org/works/10.1037/a0035569",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "esser",
+      "title": "Alive and Well after 25 Years: A Review of Groupthink Research",
+      "authors": [
+        "Esser"
+      ],
+      "citation_year": 1998,
+      "doi": "10.1006/obhd.1998.2758",
+      "record_url": "https://api.crossref.org/works/10.1006/obhd.1998.2758",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "exposure",
+      "title": "A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking.",
+      "authors": [
+        "Montoya",
+        "Horton",
+        "Vevea",
+        "Citkowicz",
+        "Lauber"
+      ],
+      "citation_year": 2017,
+      "doi": "10.1037/bul0000085",
+      "record_url": "https://api.crossref.org/works/10.1037/bul0000085",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "fehr",
+      "title": "Fairness and Retaliation: The Economics of Reciprocity",
+      "authors": [
+        "Fehr",
+        "Gächter"
+      ],
+      "citation_year": 2000,
+      "doi": "10.1257/jep.14.3.159",
+      "record_url": "https://api.crossref.org/works/10.1257/jep.14.3.159",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "festinger",
+      "title": "Cognitive consequences of forced compliance.",
+      "authors": [
+        "Festinger",
+        "Carlsmith"
+      ],
+      "citation_year": 1959,
+      "doi": "10.1037/h0041593",
+      "record_url": "https://api.crossref.org/works/10.1037/h0041593",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "fischer",
+      "title": "The bystander-effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies.",
+      "authors": [
+        "Fischer",
+        "Krueger",
+        "Greitemeyer",
+        "Vogrincic",
+        "Kastenmüller",
+        "Frey",
+        "Heene",
+        "Wicher",
+        "Kainbacher"
+      ],
+      "citation_year": 2011,
+      "doi": "10.1037/a0023304",
+      "record_url": "https://api.crossref.org/works/10.1037/a0023304",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "fraley",
+      "title": "An item response theory analysis of self-report measures of adult attachment.",
+      "authors": [
+        "Fraley",
+        "Waller",
+        "Brennan"
+      ],
+      "citation_year": 2000,
+      "doi": "10.1037/0022-3514.78.2.350",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.78.2.350",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "gaertner",
+      "title": "Reducing intergroup bias: The benefits of recategorization.",
+      "authors": [
+        "Gaertner",
+        "Mann",
+        "Murrell",
+        "Dovidio"
+      ],
+      "citation_year": 1989,
+      "doi": "10.1037/0022-3514.57.2.239",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.57.2.239",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "gigerenzer",
+      "title": "Reasoning the fast and frugal way: Models of bounded rationality.",
+      "authors": [
+        "Gigerenzer",
+        "Goldstein"
+      ],
+      "citation_year": 1996,
+      "doi": "10.1037/0033-295X.103.4.650",
+      "record_url": "https://api.crossref.org/works/10.1037/0033-295X.103.4.650",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "glasman",
+      "title": "Forming attitudes that predict future behavior: A meta-analysis of the attitude-behavior relation.",
+      "authors": [
+        "Glasman",
+        "Albarracín"
+      ],
+      "citation_year": 2006,
+      "doi": "10.1037/0033-2909.132.5.778",
+      "record_url": "https://api.crossref.org/works/10.1037/0033-2909.132.5.778",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "gouldner",
+      "title": "The Norm of Reciprocity: A Preliminary Statement",
+      "authors": [
+        "Gouldner"
+      ],
+      "citation_year": 1960,
+      "doi": "10.2307/2092623",
+      "record_url": "https://api.crossref.org/works/10.2307/2092623",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "hazan",
+      "title": "Romantic love conceptualized as an attachment process.",
+      "authors": [
+        "Hazan",
+        "Shaver"
+      ],
+      "citation_year": 1987,
+      "doi": "10.1037/0022-3514.52.3.511",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.52.3.511",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "isenberg",
+      "title": "Group polarization: A critical review and meta-analysis.",
+      "authors": [
+        "Isenberg"
+      ],
+      "citation_year": 1986,
+      "doi": "10.1037/0022-3514.50.6.1141",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.50.6.1141",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "kunda",
+      "title": "The case for motivated reasoning.",
+      "authors": [
+        "Kunda"
+      ],
+      "citation_year": 1990,
+      "doi": "10.1037/0033-2909.108.3.480",
+      "record_url": "https://api.crossref.org/works/10.1037/0033-2909.108.3.480",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "kurdi",
+      "title": "Relationship between the Implicit Association Test and intergroup behavior: A meta-analysis.",
+      "authors": [
+        "Kurdi",
+        "Seitchik",
+        "Axt",
+        "Carroll",
+        "Karapetyan",
+        "Kaushik",
+        "Tomezsko",
+        "Greenwald",
+        "Banaji"
+      ],
+      "citation_year": 2019,
+      "doi": "10.1037/amp0000364",
+      "record_url": "https://api.crossref.org/works/10.1037/amp0000364",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "latane",
+      "title": "Group inhibition of bystander intervention in emergencies.",
+      "authors": [
+        "Latane",
+        "Darley"
+      ],
+      "citation_year": 1968,
+      "doi": "10.1037/h0026570",
+      "record_url": "https://api.crossref.org/works/10.1037/h0026570",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "laurenceau",
+      "title": "Intimacy as an interpersonal process: The importance of self-disclosure, partner disclosure, and perceived partner responsiveness in interpersonal exchanges.",
+      "authors": [
+        "Laurenceau",
+        "Barrett",
+        "Pietromonaco"
+      ],
+      "citation_year": 1998,
+      "doi": "10.1037/0022-3514.74.5.1238",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.74.5.1238",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "loafing",
+      "title": "Social loafing: A meta-analytic review and theoretical integration.",
+      "authors": [
+        "Karau",
+        "Williams"
+      ],
+      "citation_year": 1993,
+      "doi": "10.1037/0022-3514.65.4.681",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.65.4.681",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "milgram",
+      "title": "Behavioral Study of obedience.",
+      "authors": [
+        "Milgram"
+      ],
+      "citation_year": 1963,
+      "doi": "10.1037/h0040525",
+      "record_url": "https://api.crossref.org/works/10.1037/h0040525",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "nickerson",
+      "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+      "authors": [
+        "Nickerson"
+      ],
+      "citation_year": 1998,
+      "doi": "10.1037/1089-2680.2.2.175",
+      "record_url": "https://api.crossref.org/works/10.1037/1089-2680.2.2.175",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "norms",
+      "title": "A focus theory of normative conduct: Recycling the concept of norms to reduce littering in public places.",
+      "authors": [
+        "Cialdini",
+        "Reno",
+        "Kallgren"
+      ],
+      "citation_year": 1990,
+      "doi": "10.1037/0022-3514.58.6.1015",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.58.6.1015",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "nosek",
+      "title": "The preregistration revolution",
+      "authors": [
+        "Nosek",
+        "Ebersole",
+        "DeHaven",
+        "Mellor"
+      ],
+      "citation_year": 2018,
+      "doi": "10.1073/pnas.1708274114",
+      "record_url": "https://api.crossref.org/works/10.1073/pnas.1708274114",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "osc",
+      "title": "Estimating the reproducibility of psychological science",
+      "authors": [
+        "Open Science Collaboration"
+      ],
+      "citation_year": 2015,
+      "doi": "10.1126/science.aac4716",
+      "record_url": "https://api.crossref.org/works/10.1126/science.aac4716",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "paluck2019",
+      "title": "The contact hypothesis re-evaluated",
+      "authors": [
+        "PALUCK",
+        "GREEN",
+        "GREEN"
+      ],
+      "citation_year": 2019,
+      "doi": "10.1017/bpp.2018.25",
+      "record_url": "https://api.crossref.org/works/10.1017/bpp.2018.25",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "paluck2021",
+      "title": "Prejudice Reduction: Progress and Challenges",
+      "authors": [
+        "Paluck",
+        "Porat",
+        "Clark",
+        "Green"
+      ],
+      "citation_year": 2021,
+      "doi": "10.1146/annurev-psych-071620-030619",
+      "record_url": "https://api.crossref.org/works/10.1146/annurev-psych-071620-030619",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "pettigrew",
+      "title": "A meta-analytic test of intergroup contact theory.",
+      "authors": [
+        "Pettigrew",
+        "Tropp"
+      ],
+      "citation_year": 2006,
+      "doi": "10.1037/0022-3514.90.5.751",
+      "record_url": "https://api.crossref.org/works/10.1037/0022-3514.90.5.751",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "similarity",
+      "title": "Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity",
+      "authors": [
+        "Montoya",
+        "Horton",
+        "Kirchner"
+      ],
+      "citation_year": 2008,
+      "doi": "10.1177/0265407508096700",
+      "record_url": "https://api.crossref.org/works/10.1177/0265407508096700",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "sunk",
+      "title": "The psychology of sunk cost",
+      "authors": [
+        "Arkes",
+        "Blumer"
+      ],
+      "citation_year": 1985,
+      "doi": "10.1016/0749-5978(85)90049-4",
+      "record_url": "https://api.crossref.org/works/10.1016/0749-5978(85)90049-4",
+      "abstract_available": false,
+      "verified_identity": true
+    },
+    {
+      "key": "tajfel",
+      "title": "Social categorization and intergroup behaviour",
+      "authors": [
+        "Tajfel",
+        "Billig",
+        "Bundy",
+        "Flament"
+      ],
+      "citation_year": 1971,
+      "doi": "10.1002/ejsp.2420010202",
+      "record_url": "https://api.crossref.org/works/10.1002/ejsp.2420010202",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "vaidis",
+      "title": "A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance",
+      "authors": [
+        "Vaidis",
+        "Sleegers",
+        "van Leeuwen",
+        "DeMarree",
+        "Sætrevik",
+        "Ross",
+        "Schmidt",
+        "Protzko",
+        "Morvinski",
+        "Ghasemi",
+        "Roberts",
+        "Stone",
+        "Bran",
+        "Gourdon-Kanhukamwe",
+        "Gunsoy",
+        "Moussaoui",
+        "Smith",
+        "Nugier",
+        "Fayant",
+        "Al-Hoorie",
+        "Appiah",
+        "Arbige",
+        "Aubert-Teillaud",
+        "Bialobrzeska",
+        "Bordel",
+        "Boudjemadi",
+        "Brohmer",
+        "Cabooter",
+        "Chahir",
+        "Chassang",
+        "Chatard",
+        "Chou",
+        "Chung",
+        "Cristea",
+        "Daga",
+        "Depow",
+        "Desrichard",
+        "Dubrov",
+        "Evans",
+        "Falkowicz",
+        "Ferreira",
+        "Figureau",
+        "Fointiat",
+        "Friedrich",
+        "Gashkova",
+        "Girandola",
+        "Granjon",
+        "Grigoryev",
+        "Gunaydin",
+        "Güzel",
+        "Hazrati",
+        "Helmy",
+        "Ikeda",
+        "Inzlicht",
+        "Jaubert",
+        "Kasanov",
+        "Khoddami",
+        "Kim",
+        "Kiyokawa",
+        "Kodapanakkal",
+        "Kosachenko",
+        "Maedge",
+        "Mahaney",
+        "Martinie",
+        "Mascheretti",
+        "Matsuda",
+        "Mauduy",
+        "Mauny",
+        "Metzen",
+        "Moreno-Bella",
+        "Moya",
+        "Nadarajah",
+        "Nejat",
+        "Norman",
+        "Olcaysoy Okten",
+        "Özdoğru",
+        "Ozer",
+        "Padial-Rojas",
+        "Pavlov",
+        "Perusquia-Hernandez",
+        "Proost",
+        "Rabinovitch",
+        "Rohmer",
+        "Selcuk",
+        "Sénémeaud",
+        "Shani",
+        "Shmeleva",
+        "Simoens",
+        "Smith",
+        "Somat",
+        "Song",
+        "Sonmez",
+        "Souchet",
+        "Taylor",
+        "van Beest",
+        "Van der Linden",
+        "Verheyen",
+        "Verschuere",
+        "Vezirian",
+        "Vieira",
+        "Wiechert",
+        "Willis",
+        "Wollast",
+        "Xia",
+        "Yamada",
+        "Yoshimura",
+        "Priolo"
+      ],
+      "citation_year": 2024,
+      "doi": "10.1177/25152459231213375",
+      "record_url": "https://api.crossref.org/works/10.1177/25152459231213375",
+      "abstract_available": true,
+      "verified_identity": true
+    },
+    {
+      "key": "webb",
+      "title": "Does changing behavioral intentions engender behavior change? A meta-analysis of the experimental evidence.",
+      "authors": [
+        "Webb",
+        "Sheeran"
+      ],
+      "citation_year": 2006,
+      "doi": "10.1037/0033-2909.132.2.249",
+      "record_url": "https://api.crossref.org/works/10.1037/0033-2909.132.2.249",
+      "abstract_available": true,
+      "verified_identity": true
+    }
+  ]
+}

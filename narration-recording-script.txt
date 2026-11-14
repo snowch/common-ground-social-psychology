@@ -205,12 +205,12 @@ When you assess a causal claim, distinguish the observed change from the propose
 Speech-specific rendering: Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain. [pause 0.9] Leo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes. [pause 0.9] When you assess a causal claim, distinguish the observed change from the proposed explanation. Then ask what comparison could help test that explanation.
 
 c02s03b | Several changes, one result.
-A confound is another factor that could explain an apparent relationship. Leo changed the poster, but the weather improved and the local paper also covered the café.
+A confounding factor varies with the proposed cause and could also influence the outcome. Leo changed the poster, but the weather improved and the local paper also covered the café.
 
 Because these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.
 
 A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
-Speech-specific rendering: A confound is another factor that could explain an apparent relationship. Leo changed the poster, but the weather improved and the local paper also covered the café. [pause 0.9] Because these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem. [pause 0.9] A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
+Speech-specific rendering: A confounding factor varies with the proposed cause and could also influence the outcome. Leo changed the poster, but the weather improved and the local paper also covered the café. [pause 0.9] Because these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem. [pause 0.9] A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
 
 c02s03c | Select people. Assign conditions.
 Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives.
@@ -229,12 +229,12 @@ The café needs to consider the size and precision of the estimated difference a
 Speech-specific rendering: Imagine two groups of one hundred households. Twelve attend after receiving invitation A, and fifteen attend after receiving invitation B. These are invented teaching numbers. [pause 0.9] Attendance differs by three percentage points: fifteen percent minus twelve percent. A different sample could produce a different result, so this estimate has uncertainty. [pause 0.9] The café needs to consider the size and precision of the estimated difference alongside the cost of changing its invitation. Whether a statistical test calls the result significant is a separate question.
 
 c02s04b | Significance and usefulness are different questions.
-Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not measure whether a difference is useful.
+A result is usually called statistically significant when a test crosses a prespecified threshold, such as a p-value below 0.05. A p-value describes how unusual the observed result, or more extreme results, would be under a specified model and its assumptions. It is not the probability that a hypothesis is true.
 
-A small attendance increase could be statistically significant in a large study, yet be too small to justify an expensive campaign. Conversely, an imprecise estimate may leave a useful effect uncertain.
+Statistical significance does not measure practical importance. A small attendance increase could be significant in a large study yet be too small to justify an expensive campaign.
 
-A nonsignificant result does not prove zero effect. Inspect the estimated size, its uncertainty, the study design, and other tests before deciding what the café should do.
-Speech-specific rendering: Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not measure whether a difference is useful. [pause 0.9] A small attendance increase could be statistically significant in a large study, yet be too small to justify an expensive campaign. Conversely, an imprecise estimate may leave a useful effect uncertain. [pause 0.9] A nonsignificant result does not prove zero effect. Inspect the estimated size, its uncertainty, the study design, and other tests before deciding what the café should do.
+A nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do.
+Speech-specific rendering: A result is usually called statistically significant when a test crosses a prespecified threshold, such as a p-value below zero point zero five. A p-value describes how unusual the observed result, or more extreme results, would be under a specified model and its assumptions. It is not the probability that a hypothesis is true. [pause 0.9] Statistical significance does not measure practical importance. A small attendance increase could be significant in a large study yet be too small to justify an expensive campaign. [pause 0.9] A nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do.
 
 c02s05 | What can we really conclude?
 Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.
@@ -247,28 +247,30 @@ Speech-specific rendering: Replication repeats a test to examine how dependable 
 c02s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-Which invitation comparison is strongest?
+The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.
 
-Choose an action and explain why it addresses the problem.
+Which redesign most directly tests that claim?
 
-Option A. Design A in winter; design B in summer.
-Option B. Randomize designs for one event; define attendance in advance.
-Option C. Design A for existing fans; design B for newcomers.
+Name the competing explanation your design addresses and one remaining limitation.
+
+Option A. Keep the existing groups and compare attendance over more weekends.
+Option B. Randomly assign A or B within both contact groups for the same event.
+Option C. Use only first-time contacts; send A this month and B next month.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Which invitation comparison is strongest? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. Design A in winter; design B in summer. [pause 0.6] Option B. Randomize designs for one event; define attendance in advance. [pause 0.6] Option C. Design A for existing fans; design B for newcomers. [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect. [pause 0.6] Which redesign most directly tests that claim? [pause 0.6] Name the competing explanation your design addresses and one remaining limitation. [pause 0.6] Option A. Keep the existing groups and compare attendance over more weekends. [pause 0.6] Option B. Randomly assign A or B within both contact groups for the same event. [pause 0.6] Option C. Use only first-time contacts; send A this month and B next month. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c02s06-feedback-0 | Decision feedback
-Consider the consequence. Comparing winter with summer changes the season alongside the invitation design.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Comparing winter with summer changes the season alongside the invitation design.
+Consider what this comparison establishes. More weekends may improve precision, but the invitation still differs with prior interest. A larger record does not remove that competing explanation.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] More weekends may improve precision, but the invitation still differs with prior interest. A larger record does not remove that competing explanation.
 
 c02s06-feedback-1 | Decision feedback
-Good application. Randomizing invitations for one event improves the comparison. Also check whether households share invitations.
-Speech-specific rendering: Good application. [pause 0.35] Randomizing invitations for one event improves the comparison. Also check whether households share invitations.
+Best fit for this question. Random assignment within both contact groups helps separate invitation design from prior interest. Define attendance before comparing results. Shared invitations and evidence from only one event would still limit the conclusion.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Random assignment within both contact groups helps separate invitation design from prior interest. Define attendance before comparing results. Shared invitations and evidence from only one event would still limit the conclusion.
 
 c02s06-feedback-2 | Decision feedback
-Consider the consequence. Existing fans and newcomers differ in prior interest. That difference could affect attendance regardless of the invitation.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Existing fans and newcomers differ in prior interest. That difference could affect attendance regardless of the invitation.
+Consider what this comparison establishes. Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result.
 
 c02s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -365,28 +367,30 @@ Speech-specific rendering: When assessing someone else’s estimate, compare tha
 c03s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-Leo thinks evening sessions fail. Which question best challenges his belief?
+Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.
 
-Choose an action and explain why it addresses the problem.
+What would most improve a comparison of failure rates?
 
-Option A. Which evenings went badly?
-Option B. Who agrees that evenings are a poor idea?
-Option C. What outcomes would make us conclude evenings work?
+State the denominator you need and one reason a difference would not establish its cause.
+
+Option A. Count every fault mentioned in the evening-session chat.
+Option B. Ask the most experienced evening repairer to estimate the failure rate.
+Option C. Compare failure proportions among comparable repairs using the same follow-up period.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Leo thinks evening sessions fail. Which question best challenges his belief? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. Which evenings went badly? [pause 0.6] Option B. Who agrees that evenings are a poor idea? [pause 0.6] Option C. What outcomes would make us conclude evenings work? [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure. [pause 0.6] What would most improve a comparison of failure rates? [pause 0.6] State the denominator you need and one reason a difference would not establish its cause. [pause 0.6] Option A. Count every fault mentioned in the evening-session chat. [pause 0.6] Option B. Ask the most experienced evening repairer to estimate the failure rate. [pause 0.6] Option C. Compare failure proportions among comparable repairs using the same follow-up period. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c03s06-feedback-0 | Decision feedback
-Consider the consequence. Looking only at unsuccessful evening sessions selects evidence that fits Leo’s initial belief.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Looking only at unsuccessful evening sessions selects evidence that fits Leo’s initial belief.
+Consider what this comparison establishes. The chat can identify faults, but it may miss successful repairs and cases nobody reports. A failure rate needs a relevant total and consistent follow-up.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] The chat can identify faults, but it may miss successful repairs and cases nobody reports. A failure rate needs a relevant total and consistent follow-up.
 
 c03s06-feedback-1 | Decision feedback
-Consider the consequence. Agreement with Leo may reflect shared assumptions rather than independent evidence.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Agreement with Leo may reflect shared assumptions rather than independent evidence.
+Consider what this comparison establishes. Experience can supply useful information, but the estimate still needs a representative record. Agreement with an expert does not supply the missing denominator.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Experience can supply useful information, but the estimate still needs a representative record. Agreement with an expert does not supply the missing denominator.
 
 c03s06-feedback-2 | Decision feedback
-Good application. Naming outcomes that would count as success gives Leo’s belief a chance to be wrong.
-Speech-specific rendering: Good application. [pause 0.35] Naming outcomes that would count as success gives Leo’s belief a chance to be wrong.
+Best fit for this question. Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference.
 
 c03s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -475,28 +479,30 @@ Speech-specific rendering: Evidence for specific cognitive dissonance demonstrat
 c04s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-Switching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters?
+In an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.
 
-Choose an action and explain why it addresses the problem.
+Which information matters most to the next cost comparison?
 
-Option A. The large fee already paid.
-Option B. The lower avoidable future cost of switching.
-Option C. Only the emotional discomfort of switching.
+Separate an irrecoverable cost from a future consequence, and identify one assumption to check.
+
+Option A. Whether retraining adds more than £40 in future cost.
+Option B. Which volunteer feels most responsible for the original £600.
+Option C. Whether other cafés also paid £600 for the same tool.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Switching costs one hundred pounds; keeping the tool costs three hundred pounds in future support. Benefits are equal. What matters? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. The large fee already paid. [pause 0.6] Option B. The lower avoidable future cost of switching. [pause 0.6] Option C. Only the emotional discomfort of switching. [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] In an invented booking-system decision, the team has paid a nonrefundable six hundred pounds. Keeping the tool requires one hundred and twenty pounds in future support; switching costs eighty pounds plus retraining. Expected future booking benefits are similar. [pause 0.6] Which information matters most to the next cost comparison? [pause 0.6] Separate an irrecoverable cost from a future consequence, and identify one assumption to check. [pause 0.6] Option A. Whether retraining adds more than forty pounds in future cost. [pause 0.6] Option B. Which volunteer feels most responsible for the original six hundred pounds. [pause 0.6] Option C. Whether other cafés also paid six hundred pounds for the same tool. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c04s06-feedback-0 | Decision feedback
-Consider the consequence. The original fee cannot be recovered under the stated assumptions. It does not favor either future option.
-Speech-specific rendering: Consider the consequence. [pause 0.35] The original fee cannot be recovered under the stated assumptions. It does not favor either future option.
+Best fit for this question. Under these assumptions, the support-cost difference is forty pounds. Retraining could change which future option costs less. Also compare uncertainty, disruption, and benefits before deciding. The nonrefundable payment cannot be recovered by continuing.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Under these assumptions, the support-cost difference is forty pounds. Retraining could change which future option costs less. Also compare uncertainty, disruption, and benefits before deciding. The nonrefundable payment cannot be recovered by continuing.
 
 c04s06-feedback-1 | Decision feedback
-Good application. Under the stated assumptions, switching costs one hundred pounds and keeping the tool costs three hundred. Real choices also compare risks.
-Speech-specific rendering: Good application. [pause 0.35] Under the stated assumptions, switching costs one hundred pounds and keeping the tool costs three hundred. Real choices also compare risks.
+Consider what this comparison establishes. Responsibility and discomfort can affect the discussion, but they do not change whether the old payment is recoverable. The next cost comparison concerns future support, switching, and retraining.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Responsibility and discomfort can affect the discussion, but they do not change whether the old payment is recoverable. The next cost comparison concerns future support, switching, and retraining.
 
 c04s06-feedback-2 | Decision feedback
-Consider the consequence. Discomfort about switching may matter to the people involved, but it does not replace the comparison of future costs and benefits.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Discomfort about switching may matter to the people involved, but it does not replace the comparison of future costs and benefits.
+Consider what this comparison establishes. Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs.
 
 c04s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -568,12 +574,12 @@ For your own group decisions, check the information behind the agreement and whe
 Speech-specific rendering: Informational influence means treating other people’s responses as evidence about reality. Sam might think, “[Maya](/mˈaɪə/) agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain. [pause 0.9] Normative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.” [pause 0.9] Both influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair. [pause 0.9] For your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.
 
 c05s04 | A request and an authority’s order.
-Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following the chair’s instruction because the chair is in charge illustrates obedience.
+Compliance means changing behavior in response to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means following an order from someone perceived as an authority. Following the chair’s instruction because the chair is in charge illustrates obedience.
 
 A request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.
 
 That pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.
-Speech-specific rendering: Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following the chair’s instruction because the chair is in charge illustrates obedience. [pause 0.9] A request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision. [pause 0.9] That pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.
+Speech-specific rendering: Compliance means changing behavior in response to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means following an order from someone perceived as an authority. Following the chair’s instruction because the chair is in charge illustrates obedience. [pause 0.9] A request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision. [pause 0.9] That pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.
 
 c05s04b | Make questioning possible before work continues.
 In the café decision, the chair asks volunteers to bypass a required equipment check. The team needs a practical route for questioning that instruction while the decision still matters.
@@ -594,26 +600,30 @@ Speech-specific rendering: In Asch’s line-judgment studies, participants compa
 c05s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-The chair requests bypassing a required check. Which process helps?
+Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.
 
-Choose an action and explain why it addresses the problem.
+Which check best separates these possible influences?
 
-Option A. Let the first confident person decide.
-Option B. Allow anonymous complaints afterward.
-Option C. Pause and use an agreed safety escalation route.
+Describe a pattern consistent with each influence and one limit on inferring motives.
+
+Option A. Compare private estimates before and after reviewing the evidence, then compare private and public responses.
+Option B. Record the final public vote after the chair repeats the endorsement.
+Option C. Ask another team to run a different event and compare its decision.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] The chair requests bypassing a required check. Which process helps? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. Let the first confident person decide. [pause 0.6] Option B. Allow anonymous complaints afterward. [pause 0.6] Option C. Pause and use an agreed safety escalation route. [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval. [pause 0.6] Which check best separates these possible influences? [pause 0.6] Describe a pattern consistent with each influence and one limit on inferring motives. [pause 0.6] Option A. Compare private estimates before and after reviewing the evidence, then compare private and public responses. [pause 0.6] Option B. Record the final public vote after the chair repeats the endorsement. [pause 0.6] Option C. Ask another team to run a different event and compare its decision. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c05s06-feedback-0 | Decision feedback
-Consider the consequence. Confidence is not evidence of safety.
+Best fit for this question. Revised private estimates after new evidence are consistent with informational influence. Private doubts alongside public agreement are consistent with normative pressure. Neither pattern alone proves a private motive; the questions, evidence, and social conditions still matter.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Revised private estimates after new evidence are consistent with informational influence. Private doubts alongside public agreement are consistent with normative pressure. Neither pattern alone proves a private motive; the questions, evidence, and social conditions still matter.
 
 c05s06-feedback-1 | Decision feedback
-Consider the consequence. Later complaints cannot prevent unchecked work now.
+Consider what this comparison establishes. The public vote records agreement but cannot show whether private estimates changed. Repeating an endorsement may supply pressure without new information.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] The public vote records agreement but cannot show whether private estimates changed. Repeating an endorsement may supply pressure without new information.
 
 c05s06-feedback-2 | Decision feedback
-Good application. An agreed stop-and-escalation route makes questioning possible while the safety decision still matters.
-Speech-specific rendering: Good application. [pause 0.35] An agreed stop-and-escalation route makes questioning possible while the safety decision still matters.
+Consider what this comparison establishes. Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed.
 
 c05s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -718,28 +728,30 @@ Speech-specific rendering: Persuasion depends on the audience, topic, source, an
 c06s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-Few residents currently volunteer. Which invitation is defensible?
+Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.
 
-Choose an action and explain why it addresses the problem.
+Which comparison best matches that aim?
 
-Option A. “Everyone here already volunteers.”
-Option B. “Hardly anyone helps—don’t be like them.”
-Option C. “Try a supported two-hour shift; here is what it involves.”
+Distinguish two message outcomes and state a design or measurement limitation.
+
+Option A. Choose the version with more clicks, without checking what happened afterward.
+Option B. Compare how much recipients like the celebrity and practical-detail versions.
+Option C. Randomly assign truthful versions and measure understanding, informed sign-ups, and later attendance.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Few residents currently volunteer. Which invitation is defensible? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. “Everyone here already volunteers.” [pause 0.6] Option B. “Hardly anyone helps—don’t be like them.” [pause 0.6] Option C. “Try a supported two-hour shift; here is what it involves.” [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer. [pause 0.6] Which comparison best matches that aim? [pause 0.6] Distinguish two message outcomes and state a design or measurement limitation. [pause 0.6] Option A. Choose the version with more clicks, without checking what happened afterward. [pause 0.6] Option B. Compare how much recipients like the celebrity and practical-detail versions. [pause 0.6] Option C. Randomly assign truthful versions and measure understanding, informed sign-ups, and later attendance. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c06s06-feedback-0 | Decision feedback
-Consider the consequence. Claiming that everyone volunteers invents a descriptive norm that the team cannot substantiate.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Claiming that everyone volunteers invents a descriptive norm that the team cannot substantiate.
+Consider what this comparison establishes. Clicks measure attention or interest in opening the message. They do not establish understanding, an informed decision, or continued participation.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Clicks measure attention or interest in opening the message. They do not establish understanding, an informed decision, or continued participation.
 
 c06s06-feedback-1 | Decision feedback
-Consider the consequence. Highlighting how few people help can make nonparticipation seem normal. The wording also adds shame.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Highlighting how few people help can make nonparticipation seem normal. The wording also adds shame.
+Consider what this comparison establishes. Reported liking is an attitude outcome. It can matter, but it is different from understanding the commitment or taking part later.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Reported liking is an attitude outcome. It can matter, but it is different from understanding the commitment or taking part later.
 
 c06s06-feedback-2 | Decision feedback
-Good application. A supported two-hour trial is a concrete, checkable request. Its effect on informed participation still needs evaluation.
-Speech-specific rendering: Good application. [pause 0.35] A supported two-hour trial is a concrete, checkable request. Its effect on informed participation still needs evaluation.
+Best fit for this question. Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination.
 
 c06s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -826,12 +838,12 @@ To examine the café’s discussion, compare members’ independent views before
 Speech-specific rendering: Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute. [pause 0.9] Simply agreeing on a similar small event would be consensus. Agreement and polarization can also occur together; the key question is how the positions changed. [pause 0.9] To examine the café’s discussion, compare members’ independent views before and after it. An ambitious final budget alone cannot establish which process produced it.
 
 c07s04b | Poor output can have different causes.
-Social loafing means reducing individual effort when working collectively. A volunteer might check fewer items because their contribution will be hidden in the team’s total.
+Social loafing is lower individual effort in collective work than when working individually or when a contribution is evaluated separately. A volunteer might check fewer items because their contribution will be hidden in the team’s total.
 
 Coordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.
 
 Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
-Speech-specific rendering: Social loafing means reducing individual effort when working collectively. A volunteer might check fewer items because their contribution will be hidden in the team’s total. [pause 0.9] Coordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined. [pause 0.9] Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
+Speech-specific rendering: Social loafing is lower individual effort in collective work than when working individually or when a contribution is evaluated separately. A volunteer might check fewer items because their contribution will be hidden in the team’s total. [pause 0.9] Coordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined. [pause 0.9] Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
 
 c07s05 | What can we really conclude?
 Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.
@@ -844,28 +856,30 @@ Speech-specific rendering: Groupthink describes cases where pressure for agreeme
 c07s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-An event budget keeps escalating without checking demand. What helps?
+Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.
 
-Choose an action and explain why it addresses the problem.
+Which check best distinguishes coordination loss from reduced effort?
 
-Option A. Ask members to show stronger enthusiasm.
-Option B. Gather independent estimates and contrary evidence.
-Option C. Open with the chair’s preferred budget.
+Name evidence consistent with each explanation and one limitation of the comparison.
+
+Option A. Compare individual task completion and handovers on matched shifts before and after clarifying dependencies.
+Option B. Count how often volunteers describe their commitment in meetings.
+Option C. Compare team headcount on the busiest and quietest days.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] An event budget keeps escalating without checking demand. What helps? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. Ask members to show stronger enthusiasm. [pause 0.6] Option B. Gather independent estimates and contrary evidence. [pause 0.6] Option C. Open with the chair’s preferred budget. [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen. [pause 0.6] Which check best distinguishes coordination loss from reduced effort? [pause 0.6] Name evidence consistent with each explanation and one limitation of the comparison. [pause 0.6] Option A. Compare individual task completion and handovers on matched shifts before and after clarifying dependencies. [pause 0.6] Option B. Count how often volunteers describe their commitment in meetings. [pause 0.6] Option C. Compare team headcount on the busiest and quietest days. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c07s06-feedback-0 | Decision feedback
-Consider the consequence. Rewarding public enthusiasm can encourage visible commitment without improving the demand estimate.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Rewarding public enthusiasm can encourage visible commitment without improving the demand estimate.
+Best fit for this question. Examine actual effort and how contributions fit together. Duplicated work and blocked handovers can reduce output despite high effort. A before-and-after improvement would still leave other changing conditions to investigate.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Examine actual effort and how contributions fit together. Duplicated work and blocked handovers can reduce output despite high effort. A before-and-after improvement would still leave other changing conditions to investigate.
 
 c07s06-feedback-1 | Decision feedback
-Good application. Independent estimates and contrary evidence give the group information beyond its existing enthusiasm.
-Speech-specific rendering: Good application. [pause 0.35] Independent estimates and contrary evidence give the group information beyond its existing enthusiasm.
+Consider what this comparison establishes. Commitment reports provide information about members’ accounts. They do not show how much work was done or whether willing efforts were combined effectively.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Commitment reports provide information about members’ accounts. They do not show how much work was done or whether willing efforts were combined effectively.
 
 c07s06-feedback-2 | Decision feedback
-Consider the consequence. The chair’s opening budget can become an anchor: a starting number that pulls later estimates toward it, even when demand has not been checked.
-Speech-specific rendering: Consider the consequence. [pause 0.35] The chair’s opening budget can become an anchor: a starting number that pulls later estimates toward it, even when demand has not been checked.
+Consider what this comparison establishes. Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination.
 
 c07s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -971,27 +985,30 @@ Speech-specific rendering: An explicit attitude is an evaluation someone reports
 c08s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-Friend referrals become an open skills-based application. How can improvement be assessed?
+Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.
 
-Choose an action and explain why it addresses the problem.
+What evidence best examines whether access improved?
 
-Option A. Check whether organizers feel more inclusive.
-Option B. Compare the friendliness of form wording.
-Option C. Track applications, progression, and participation using relevant criteria.
+Name one access outcome and one reason a before-and-after change would not establish its cause.
+
+Option A. Survey organizers about how welcoming the process now feels.
+Option B. Track comparable applicants through assessment, offers, and participation, and ask about barriers.
+Option C. Compare the form’s wording with a different café’s form.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Friend referrals become an open skills-based application. How can improvement be assessed? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. Check whether organizers feel more inclusive. [pause 0.6] Option B. Compare the friendliness of form wording. [pause 0.6] Option C. Track applications, progression, and participation using relevant criteria. [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved. [pause 0.6] What evidence best examines whether access improved? [pause 0.6] Name one access outcome and one reason a before-and-after change would not establish its cause. [pause 0.6] Option A. Survey organizers about how welcoming the process now feels. [pause 0.6] Option B. Track comparable applicants through assessment, offers, and participation, and ask about barriers. [pause 0.6] Option C. Compare the form’s wording with a different café’s form. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c08s06-feedback-0 | Decision feedback
-Consider the consequence. Organizers feeling more inclusive is a reaction to the change. It does not establish that access improved.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Organizers feeling more inclusive is a reaction to the change. It does not establish that access improved.
+Consider what this comparison establishes. Organizers’ impressions are a reported reaction to the change. They do not establish who could enter, progress, or remain involved.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Organizers’ impressions are a reported reaction to the change. They do not establish who could enter, progress, or remain involved.
 
 c08s06-feedback-1 | Decision feedback
-Consider the consequence. Wording can help, but outcomes still matter.
+Best fit for this question. Follow the process and the outcomes, including applicants’ experiences. Changes in applicants, recruitment, or other conditions limit a before-and-after causal claim. Use relevant measures and avoid unnecessary personal data.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Follow the process and the outcomes, including applicants’ experiences. Changes in applicants, recruitment, or other conditions limit a before-and-after causal claim. Use relevant measures and avoid unnecessary personal data.
 
 c08s06-feedback-2 | Decision feedback
-Good application. Applications, progression, and participation can show where barriers remain. Interpret those outcomes with context and privacy safeguards.
-Speech-specific rendering: Good application. [pause 0.35] Applications, progression, and participation can show where barriers remain. Interpret those outcomes with context and privacy safeguards.
+Consider what this comparison establishes. Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed.
 
 c08s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -1072,8 +1089,8 @@ Disclosure means sharing something personal. Leo mentioning a difficult week is 
 
 Sam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.
 
-Reciprocity means consideration can flow both ways over time. It does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.
-Speech-specific rendering: Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. [pause 0.9] Sam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response. [pause 0.9] Reciprocity means consideration can flow both ways over time. It does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter.
+Reciprocity means responding to another person’s action with a related action, such as returning help or disclosure. Reciprocal responses can also be negative; the term does not mean kindness alone. In a friendship, neither a favor nor a disclosure creates a right to a matching response.
+Speech-specific rendering: Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for. [pause 0.9] Sam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response. [pause 0.9] Reciprocity means responding to another person’s action with a related action, such as returning help or disclosure. Reciprocal responses can also be negative; the term does not mean kindness alone. In a friendship, neither a favor nor a disclosure creates a right to a matching response.
 
 c09s04b | Respond to the preference someone states.
 People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses.
@@ -1094,28 +1111,30 @@ Speech-specific rendering: Much relationship research examines associations or a
 c09s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-Sam declines an invitation and needs time alone. What should Leo do?
+After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.
 
-Choose an action and explain why it addresses the problem.
+Which evidence best examines whether responsiveness relates to closeness?
 
-Option A. Diagnose an avoidant attachment style.
-Option B. Accept the boundary and leave future contact optional.
-Option C. Increase contact to use the familiarity effect.
+State an observable or reported measure and one limit on a causal interpretation.
+
+Option A. Record only how often the pair meets after the shared shift begins.
+Option B. Invite both, if willing, to report disclosure, perceived responsiveness, and closeness across conversations.
+Option C. Compare shared interests and later friendship ratings across different pairs.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Sam declines an invitation and needs time alone. What should Leo do? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. Diagnose an avoidant attachment style. [pause 0.6] Option B. Accept the boundary and leave future contact optional. [pause 0.6] Option C. Increase contact to use the familiarity effect. [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to. [pause 0.6] Which evidence best examines whether responsiveness relates to closeness? [pause 0.6] State an observable or reported measure and one limit on a causal interpretation. [pause 0.6] Option A. Record only how often the pair meets after the shared shift begins. [pause 0.6] Option B. Invite both, if willing, to report disclosure, perceived responsiveness, and closeness across conversations. [pause 0.6] Option C. Compare shared interests and later friendship ratings across different pairs. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c09s06-feedback-0 | Decision feedback
-Consider the consequence. One declined invitation does not establish an attachment pattern.
-Speech-specific rendering: Consider the consequence. [pause 0.35] One declined invitation does not establish an attachment pattern.
+Consider what this comparison establishes. Meeting frequency informs opportunity and exposure. It does not show how either person experienced the other’s response.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Meeting frequency informs opportunity and exposure. It does not show how either person experienced the other’s response.
 
 c09s06-feedback-1 | Decision feedback
-Good application. Accepting the invitation refusal respects Sam’s stated preference without inventing a diagnosis.
-Speech-specific rendering: Good application. [pause 0.35] Accepting the invitation refusal respects Sam’s stated preference without inventing a diagnosis.
+Best fit for this question. Repeated reports from both people can examine how disclosure, responsiveness, and closeness vary together. They do not establish a one-way cause; existing closeness may also affect responses. Participation and personal boundaries remain voluntary.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Repeated reports from both people can examine how disclosure, responsiveness, and closeness vary together. They do not establish a one-way cause; existing closeness may also affect responses. Participation and personal boundaries remain voluntary.
 
 c09s06-feedback-2 | Decision feedback
-Consider the consequence. The familiarity effect is not a reason to ignore Sam’s expressed boundary.
-Speech-specific rendering: Consider the consequence. [pause 0.35] The familiarity effect is not a reason to ignore Sam’s expressed boundary.
+Consider what this comparison establishes. Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute.
 
 c09s07 | Close your notes. Explain it.
 Answer both prompts from memory.
@@ -1179,10 +1198,10 @@ Speech-specific rendering: Consider the consequence. [pause 0.35] A person may c
 c10s03 | Two reasons concerned people may hesitate.
 The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.
 
-Pluralistic ignorance concerns interpreting reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. He has mistaken an appearance for a private assessment.
+Pluralistic ignorance is a shared misperception of other people’s private beliefs or concerns. Each café volunteer may be unsure whether help is needed while reading the others’ outward calm as reassurance. Their public reactions hide their private uncertainty.
 
 Diffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.
-Speech-specific rendering: The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act. [pause 0.9] Pluralistic ignorance concerns interpreting reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. He has mistaken an appearance for a private assessment. [pause 0.9] Diffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.
+Speech-specific rendering: The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act. [pause 0.9] Pluralistic ignorance is a shared misperception of other people’s private beliefs or concerns. Each café volunteer may be unsure whether help is needed while reading the others’ outward calm as reassurance. Their public reactions hide their private uncertainty. [pause 0.9] Diffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.
 
 c10s03b | Give concern a workable next step.
 Explaining hesitation and planning an appropriate response are different tasks. For a low-risk shared job, clarify the need, agree who will act, and check that the person has the necessary skills and support.
@@ -1201,12 +1220,14 @@ De-escalation means reducing tension and the risk of harm. At the café, space t
 Speech-specific rendering: Aggression is behavior intended to harm. Anger is a feeling. A volunteer can feel angry about the fallen shelf and still respond constructively. [pause 0.9] Frustration, perceived threat, situational pressure, and learned expectations can contribute to aggression. Those influences do not make harm inevitable or remove responsibility. [pause 0.9] De-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate those arrangements rather than treating them as guarantees.
 
 c10s04b | Turn a shared aim into coordinated work.
-Cooperation needs more than a general wish to work together. A shared task needs a clear outcome, named contributions, usable resources, and a way to report problems.
+Cooperation is joint action directed toward shared or mutually beneficial outcomes. Clear roles and feedback are possible ways to organize it, rather than the definition or a guarantee of success.
+
+A shared café task needs a clear outcome, usable resources, and a way to report problems.
 
 For the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.
 
 Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
-Speech-specific rendering: Cooperation needs more than a general wish to work together. A shared task needs a clear outcome, named contributions, usable resources, and a way to report problems. [pause 0.9] For the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible. [pause 0.9] Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
+Speech-specific rendering: Cooperation is joint action directed toward shared or mutually beneficial outcomes. Clear roles and feedback are possible ways to organize it, rather than the definition or a guarantee of success. [pause 0.9] A shared café task needs a clear outcome, usable resources, and a way to report problems. [pause 0.9] For the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible. [pause 0.9] Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
 
 c10s05 | What can we really conclude?
 Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.
@@ -1219,28 +1240,30 @@ Speech-specific rendering: Laboratory studies may measure aggression through con
 c10s06 | Try the idea somewhere new.
 Apply the idea to a new decision.
 
-Which preparation makes future help more likely?
+In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.
 
-Choose an action and explain why it addresses the problem.
+Which change most directly tests the proposed responsibility problem?
 
-Option A. Tell everyone to be more caring.
-Option B. Assume the most senior person handles all incidents.
-Option C. Agree on response roles, training, and a call-for-help route.
+Identify the process addressed, the outcome to record, and one limit of your comparison.
+
+Option A. Add recognition training without changing task ownership.
+Option B. Discuss why the list matters while leaving its owner unspecified.
+Option C. Introduce a named checker and backup; compare completion and handovers across similar shifts.
 
 Pause here and make your choice.
-Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] Which preparation makes future help more likely? [pause 0.6] Choose an action and explain why it addresses the problem. [pause 0.6] Option A. Tell everyone to be more caring. [pause 0.6] Option B. Assume the most senior person handles all incidents. [pause 0.6] Option C. Agree on response roles, training, and a call-for-help route. [pause 0.7] Pause here and make your choice. [pause 2.0]
+Speech-specific rendering: Apply the idea to a new decision. [pause 0.6] In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check. [pause 0.6] Which change most directly tests the proposed responsibility problem? [pause 0.6] Identify the process addressed, the outcome to record, and one limit of your comparison. [pause 0.6] Option A. Add recognition training without changing task ownership. [pause 0.6] Option B. Discuss why the list matters while leaving its owner unspecified. [pause 0.6] Option C. Introduce a named checker and backup; compare completion and handovers across similar shifts. [pause 0.7] Pause here and make your choice. [pause 2.0]
 
 c10s06-feedback-0 | Decision feedback
-Consider the consequence. Asking everyone to care more leaves the required action and responsibility unclear.
-Speech-specific rendering: Consider the consequence. [pause 0.35] Asking everyone to care more leaves the required action and responsibility unclear.
+Consider what this comparison establishes. Training can address missing skills or recognition. The stated problem is unclear responsibility despite knowing what to do, so training alone leaves that explanation untested.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Training can address missing skills or recognition. The stated problem is unclear responsibility despite knowing what to do, so training alone leaves that explanation untested.
 
 c10s06-feedback-1 | Decision feedback
-Consider the consequence. The most senior person may be absent or lack the relevant training. Assuming that person will act leaves a gap in the plan.
-Speech-specific rendering: Consider the consequence. [pause 0.35] The most senior person may be absent or lack the relevant training. Assuming that person will act leaves a gap in the plan.
+Consider what this comparison establishes. Discussion may improve shared understanding, but the record already says people recognized the problem. Leaving ownership unspecified retains the proposed responsibility gap.
+Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Discussion may improve shared understanding, but the record already says people recognized the problem. Leaving ownership unspecified retains the proposed responsibility gap.
 
 c10s06-feedback-2 | Decision feedback
-Good application. Roles, training, and a call-for-help route address ability and responsibility as well as good intentions.
-Speech-specific rendering: Good application. [pause 0.35] Roles, training, and a call-for-help route address ability and responsibility as well as good intentions.
+Best fit for this question. Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention.
+Speech-specific rendering: Best fit for this question. [pause 0.35] Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention.
 
 c10s07 | Close your notes. Explain it.
 Answer both prompts from memory.

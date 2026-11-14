@@ -99,7 +99,8 @@
       "key": "significance-importance",
       "title": "Statistical significance and practical importance",
       "terms": [
-        "Statistical significance"
+        "Statistical significance",
+        "p-value"
       ]
     }
   ],

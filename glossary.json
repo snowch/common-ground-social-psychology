@@ -14,49 +14,50 @@
     "Meta-analysis": "A statistical synthesis of results from multiple studies, interpreted in light of their methods, quality, and differences."
   },
   "2": {
-    "Correlation": "things vary together.",
-    "Confound": "another factor could explain the pattern.",
+    "Correlation": "A statistical association: values of variables vary together. Correlation alone does not identify a cause.",
+    "Confound": "A factor that varies with a proposed cause and could also influence the outcome, making their contributions difficult to separate.",
     "Random assignment": "allocate conditions by chance.",
     "Random sampling": "select people from a population by chance.",
-    "Statistical significance": "judged against a model, often assuming no group difference.",
+    "Statistical significance": "A test result crosses a prespecified threshold under a stated statistical model, often a p-value below 0.05. This does not measure effect size or practical importance.",
     "Percentage points": "The arithmetic difference between two percentages: 15% minus 12% is three percentage points.",
     "Replication": "Repeating a test to examine how dependable a finding is.",
-    "Preregistration": "Recording planned methods and analyses before the results are known."
+    "Preregistration": "Recording planned methods and analyses before the results are known.",
+    "P-value": "Under a specified model and its assumptions, the probability of a result at least as extreme as the observed result by the test’s criterion. It is not the probability that a hypothesis is true."
   },
   "3": {
-    "Availability heuristic": "easy-to-recall examples shape judgment.",
-    "Base rate": "how common is it among comparable cases?.",
-    "Denominator": "total comparable repairs, including successes.",
-    "Confirmation bias": "seeking or interpreting evidence to fit an existing belief.",
-    "Motivated reasoning": "what we want to be true influences our reasoning."
+    "Availability heuristic": "Judging frequency or probability partly through the ease with which relevant examples come to mind.",
+    "Base rate": "The frequency or prevalence of an event in a relevant reference group.",
+    "Denominator": "The total quantity used as the reference in a proportion or rate, such as all comparable completed repairs.",
+    "Confirmation bias": "Seeking, interpreting, or remembering information in ways that favor an existing belief.",
+    "Motivated reasoning": "Reasoning influenced by goals or desired conclusions, including how evidence is sought and evaluated."
   },
   "4": {
-    "Cognitive dissonance": "inconsistency between beliefs or actions can feel uncomfortable.",
-    "Cognitions": "beliefs and knowledge about our actions.",
+    "Cognitive dissonance": "Psychological discomfort associated with inconsistency among relevant beliefs, attitudes, or knowledge of one’s actions.",
+    "Cognitions": "Beliefs, attitudes, or knowledge concerning oneself, behavior, or the environment.",
     "Sunk cost": "money, time, or effort that cannot be recovered.",
-    "Sunk cost effect": "letting that past expense drive the next choice.",
+    "Sunk cost effect": "Allowing irrecoverable past expenditure to influence a current choice between future options.",
     "Induced-compliance": "A procedure in which participants are asked to advocate a position they do not hold; researchers may vary their freedom to choose."
   },
   "5": {
-    "Informational influence": "they may know better.",
-    "Normative influence": "I want acceptance.",
-    "Compliance": "responding to a request.",
-    "Obedience": "responding to an authority’s order."
+    "Informational influence": "Influence that arises from accepting others’ responses as evidence about reality.",
+    "Normative influence": "Influence arising from expectations of social approval or avoidance of disapproval.",
+    "Compliance": "Changing behavior in response to another person’s request.",
+    "Obedience": "Following an order from someone perceived as an authority."
   },
   "6": {
-    "Attitude": "an evaluation of something.",
-    "Elaboration likelihood model": "motivation and ability shape careful thinking.",
-    "Central processing": "examine relevant arguments.",
-    "Peripheral processing": "give more weight to cues such as familiarity.",
-    "Descriptive norm": "what people do.",
-    "Injunctive norm": "what people approve."
+    "Attitude": "An evaluation of an object, person, issue, or action, which can be more or less favorable.",
+    "Elaboration likelihood model": "A theory of persuasion in which motivation and ability shape how extensively a message is examined and how attitudes change.",
+    "Central processing": "Relatively extensive scrutiny of issue-relevant arguments in a persuasive message.",
+    "Peripheral processing": "Relatively low elaboration, in which cues or simple associations may carry more weight than scrutiny of relevant arguments.",
+    "Descriptive norm": "A perception or claim about what people typically do in a relevant group or setting.",
+    "Injunctive norm": "A perception or claim about what people approve or disapprove in a relevant group or setting."
   },
   "7": {
-    "Social identity": "groups help define who we are.",
-    "In-group favoritism": "favoring “our” side.",
-    "Group polarization": "discussion can intensify a group’s initial leaning.",
-    "Social loafing": "individual effort can fall in pooled work.",
-    "Coordination loss": "real effort is poorly combined.",
+    "Social identity": "The part of self-understanding associated with membership in social groups and the value or meaning attached to it.",
+    "In-group favoritism": "Preferential evaluation or treatment of members of a group one identifies with.",
+    "Group polarization": "A shift after group interaction toward a more extreme version of the group’s initial leaning.",
+    "Social loafing": "Lower individual effort in collective work than when working individually or when one’s contribution is evaluated separately.",
+    "Coordination loss": "Reduced group output because members’ efforts are not effectively combined, even when individual effort is high.",
     "Groupthink": "Pressure for agreement that interferes with critical discussion. A poor decision alone does not establish groupthink."
   },
   "8": {
@@ -64,25 +65,25 @@
     "Prejudice": "a group attitude, often involving dislike.",
     "Discrimination": "unequal treatment based on group membership.",
     "Intergroup contact": "interaction between members of different groups.",
-    "Procedural change": "remove an unnecessary entry requirement.",
+    "Procedural change": "A change to rules or processes governing access or participation. This describes an intervention, not a distinct psychological theory.",
     "Explicit attitude": "An evaluation someone reports directly.",
     "Implicit association": "A link between ideas measured indirectly, for example through response speeds in a sorting task."
   },
   "9": {
-    "Mere exposure effect": "familiarity can increase liking in some conditions.",
-    "Disclosure": "sharing something personal.",
-    "Responsiveness": "helping someone feel understood.",
-    "Reciprocity": "mutual consideration over time.",
+    "Mere exposure effect": "An increase in liking associated with repeated exposure under some conditions; the pattern is not unlimited or universal.",
+    "Disclosure": "Sharing personally relevant information with another person.",
+    "Responsiveness": "Perceiving that another person understands, validates, and cares about relevant aspects of oneself.",
+    "Reciprocity": "Responding to another person’s action with a related action, such as returning help, disclosure, or hostility. It does not mean kindness alone.",
     "Proximity": "Physical or social closeness that creates opportunities to meet.",
     "Similarity": "Having characteristics, interests, or attitudes in common.",
     "Attachment": "Patterns of expectations and responses in close relationships. Attachment labels are not diagnoses."
   },
   "10": {
     "Bystander effect": "others’ presence can reduce an individual’s chance of helping.",
-    "Diffusion of responsibility": "“Someone else will act.”.",
-    "Pluralistic ignorance": "“Everyone looks calm, so perhaps no help is needed.”.",
+    "Diffusion of responsibility": "A reduced sense of personal responsibility when others are present or responsibility is shared.",
+    "Pluralistic ignorance": "A shared misperception in which people privately differ from what they mistakenly believe others think or accept.",
     "Aggression": "behavior intended to harm.",
-    "De-escalation": "lower threat and preserve safety.",
-    "Cooperation": "align goals, roles, and feedback."
+    "De-escalation": "Reducing interpersonal tension and the risk of harmful behavior.",
+    "Cooperation": "Joint action directed toward shared or mutually beneficial outcomes."
   }
 }

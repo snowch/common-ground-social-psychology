@@ -32,9 +32,24 @@
     "note": "Random assignment helps balance other possible causes on average. It does not guarantee equal groups. Households might share invitations, so one group could be affected by the other group’s message. Assignment also does not make a narrow sample representative. The invented 12-versus-15 attendance comparison does not establish a dependable advantage.",
     "sources": [
       {
+        "title": "Wasserstein & Lazar (2016), The ASA Statement on p-Values: Context, Process, and Purpose",
+        "url": "https://doi.org/10.1080/00031305.2016.1154108",
+        "kind": "Professional statistical statement; access varies"
+      },
+      {
+        "title": "Cumming (2014), The New Statistics",
+        "url": "https://doi.org/10.1177/0956797613504966",
+        "kind": "Methods and interpretation article; access varies"
+      },
+      {
         "title": "Open Science Collaboration (2015), Estimating the reproducibility of psychological science",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/26315443/",
-        "kind": "Replication project; abstract available"
+        "url": "https://doi.org/10.1126/science.aac4716",
+        "kind": "Multistudy replication project; access varies"
+      },
+      {
+        "title": "Nosek et al. (2018), The preregistration revolution",
+        "url": "https://doi.org/10.1073/pnas.1708274114",
+        "kind": "Methods and transparency article; access varies"
       }
     ]
   },
@@ -48,7 +63,22 @@
       {
         "title": "Tversky & Kahneman (1973), Availability: A heuristic for judging frequency and probability",
         "url": "https://doi.org/10.1016/0010-0285(73)90033-9",
-        "kind": "Foundational experiments; access varies"
+        "kind": "Foundational experimental research; access varies"
+      },
+      {
+        "title": "Nickerson (1998), Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+        "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+        "kind": "Research review; access varies"
+      },
+      {
+        "title": "Kunda (1990), The case for motivated reasoning.",
+        "url": "https://doi.org/10.1037/0033-2909.108.3.480",
+        "kind": "Theoretical and research review; access varies"
+      },
+      {
+        "title": "Gigerenzer & Goldstein (1996), Reasoning the fast and frugal way: Models of bounded rationality.",
+        "url": "https://doi.org/10.1037/0033-295X.103.4.650",
+        "kind": "Computational model comparison; access varies"
       }
     ]
   },
@@ -60,14 +90,19 @@
     "note": "The 2024 multilab study asked people to argue for a position they did not hold, under conditions offering more or less choice. Its primary analysis did not support the predicted attitude difference. That finding concerns the tested procedure, rather than every dissonance claim. Past investments can still matter through future consequences such as usable skills or switching costs.",
     "sources": [
       {
-        "title": "Vaidis et al. (2024), A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance",
-        "url": "https://www.psychologicalscience.org/journals/ampps/25152459231213375/",
-        "kind": "Preregistered multilab replication"
+        "title": "Festinger & Carlsmith (1959), Cognitive consequences of forced compliance.",
+        "url": "https://doi.org/10.1037/h0041593",
+        "kind": "Foundational experiment; access varies"
       },
       {
         "title": "Arkes & Blumer (1985), The psychology of sunk cost",
         "url": "https://doi.org/10.1016/0749-5978(85)90049-4",
         "kind": "Foundational experiments; access varies"
+      },
+      {
+        "title": "Vaidis et al. (2024), A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance",
+        "url": "https://doi.org/10.1177/25152459231213375",
+        "kind": "Preregistered multilab replication; access varies"
       }
     ]
   },
@@ -79,9 +114,29 @@
     "note": "The classic tasks used particular participants, procedures, and pressures. Their results should not be converted into a universal conformity or obedience rate. Independent judgments and stop rules are practical hypotheses to evaluate in a real group.",
     "sources": [
       {
-        "title": "Noba, Conformity and Obedience",
-        "url": "https://nobaproject.com/modules/conformity-and-obedience",
-        "kind": "Open introductory module"
+        "title": "Deutsch & Gerard (1955), A study of normative and informational social influences upon individual judgment.",
+        "url": "https://doi.org/10.1037/h0046408",
+        "kind": "Foundational experimental research; access varies"
+      },
+      {
+        "title": "Bond & Smith (1996), Culture and conformity: A meta-analysis of studies using Asch's (1952b, 1956) line judgment task.",
+        "url": "https://doi.org/10.1037/0033-2909.119.1.111",
+        "kind": "Meta-analysis; access varies"
+      },
+      {
+        "title": "Milgram (1963), Behavioral Study of obedience.",
+        "url": "https://doi.org/10.1037/h0040525",
+        "kind": "Foundational experiment; ethical and contextual limitations; access varies"
+      },
+      {
+        "title": "Burger (2009), Replicating Milgram: Would people still obey today?",
+        "url": "https://doi.org/10.1037/a0010932",
+        "kind": "Partial replication with modified safeguards; access varies"
+      },
+      {
+        "title": "Edmondson (1999), Psychological Safety and Learning Behavior in Work Teams",
+        "url": "https://doi.org/10.2307/2666999",
+        "kind": "Observational field study; access varies"
       }
     ]
   },
@@ -93,14 +148,24 @@
     "note": "Central and peripheral processing describe degrees of careful examination, rather than two fixed types of person. The same cue can play different roles: a speaker’s expertise might serve as a shortcut or prompt someone to investigate the argument. Clicking, reporting a positive attitude, joining with an informed choice, and continuing to volunteer are different outcomes.",
     "sources": [
       {
-        "title": "Elaboration Likelihood Model, Oxford reference entry",
-        "url": "https://academic.oup.com/reference/62347/reference-article-abstract/554213168",
-        "kind": "Reference overview; access varies"
+        "title": "Glasman & Albarracín (2006), Forming attitudes that predict future behavior: A meta-analysis of the attitude-behavior relation.",
+        "url": "https://doi.org/10.1037/0033-2909.132.5.778",
+        "kind": "Meta-analysis; access varies"
       },
       {
-        "title": "Cialdini, Reno & Kallgren (1990), A focus theory of normative conduct",
+        "title": "Petty & Cacioppo (1986), The Elaboration Likelihood Model of Persuasion",
+        "url": "https://doi.org/10.1016/S0065-2601(08)60214-2",
+        "kind": "Theoretical framework and research review; access varies"
+      },
+      {
+        "title": "Cialdini et al. (1990), A focus theory of normative conduct: Recycling the concept of norms to reduce littering in public places.",
         "url": "https://doi.org/10.1037/0022-3514.58.6.1015",
         "kind": "Experimental social-norm research; access varies"
+      },
+      {
+        "title": "Webb & Sheeran (2006), Does changing behavioral intentions engender behavior change? A meta-analysis of the experimental evidence.",
+        "url": "https://doi.org/10.1037/0033-2909.132.2.249",
+        "kind": "Meta-analysis of experimental evidence; access varies"
       }
     ]
   },
@@ -112,9 +177,29 @@
     "note": "When reviewing a group’s work, distinguish the result from the process that produced it. Poor output alone does not establish low effort, and a poor decision alone does not establish groupthink. Ask what participants did, what information was shared, and which practical conditions constrained the task. The café cases illustrate possible processes rather than diagnosing real groups.",
     "sources": [
       {
-        "title": "Karau & Williams (1993), Social loafing: A meta-analytic review and theoretical integration",
+        "title": "Tajfel et al. (1971), Social categorization and intergroup behaviour",
+        "url": "https://doi.org/10.1002/ejsp.2420010202",
+        "kind": "Minimal-group experiments; access varies"
+      },
+      {
+        "title": "Gaertner et al. (1989), Reducing intergroup bias: The benefits of recategorization.",
+        "url": "https://doi.org/10.1037/0022-3514.57.2.239",
+        "kind": "Experimental recategorization research; access varies"
+      },
+      {
+        "title": "Isenberg (1986), Group polarization: A critical review and meta-analysis.",
+        "url": "https://doi.org/10.1037/0022-3514.50.6.1141",
+        "kind": "Critical review and meta-analysis; access varies"
+      },
+      {
+        "title": "Karau & Williams (1993), Social loafing: A meta-analytic review and theoretical integration.",
         "url": "https://doi.org/10.1037/0022-3514.65.4.681",
-        "kind": "Meta-analysis; access varies"
+        "kind": "Meta-analysis and theoretical integration; access varies"
+      },
+      {
+        "title": "Esser (1998), Alive and Well after 25 Years: A Review of Groupthink Research",
+        "url": "https://doi.org/10.1006/obhd.1998.2758",
+        "kind": "Research review; access varies"
       }
     ]
   },
@@ -126,14 +211,29 @@
     "note": "Contact is not a universal remedy. The 2019 review found gaps in studies that randomly assigned contact conditions and measured particular adult prejudice outcomes. The 2021 review also highlights uncertainty about whether improvements last and extend to other settings or groups. Check the actual people, access, behavior, and later outcomes. An implicit-association score is not a character diagnosis.",
     "sources": [
       {
-        "title": "Paluck, Green & Green (2019), The contact hypothesis re-evaluated",
-        "url": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/contact-hypothesis-reevaluated/142C913E7FA9E121277B29E994124EC5",
-        "kind": "Review of randomized contact evidence"
+        "title": "Bertrand & Mullainathan (2004), Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination",
+        "url": "https://doi.org/10.1257/0002828042002561",
+        "kind": "Randomized correspondence field experiment; access varies"
+      },
+      {
+        "title": "Pettigrew & Tropp (2006), A meta-analytic test of intergroup contact theory.",
+        "url": "https://doi.org/10.1037/0022-3514.90.5.751",
+        "kind": "Meta-analysis; access varies"
+      },
+      {
+        "title": "Paluck et al. (2019), The contact hypothesis re-evaluated",
+        "url": "https://doi.org/10.1017/bpp.2018.25",
+        "kind": "Review of randomized contact studies with delayed outcomes; access varies"
       },
       {
         "title": "Paluck et al. (2021), Prejudice Reduction: Progress and Challenges",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/32928061/",
-        "kind": "Review of intervention experiments; abstract available"
+        "url": "https://doi.org/10.1146/annurev-psych-071620-030619",
+        "kind": "Review and meta-analysis of intervention experiments; access varies"
+      },
+      {
+        "title": "Kurdi et al. (2019), Relationship between the Implicit Association Test and intergroup behavior: A meta-analysis.",
+        "url": "https://doi.org/10.1037/amp0000364",
+        "kind": "Meta-analysis of measurement–behavior associations; access varies"
       }
     ]
   },
@@ -145,14 +245,39 @@
     "note": "Repeated exposure does not mean that each extra encounter increases liking. Research combining results from multiple studies finds that the pattern depends on conditions and can change as encounters accumulate. Relationship associations do not establish a guaranteed way to improve a particular relationship, and they never override someone’s boundary.",
     "sources": [
       {
-        "title": "Montoya et al. (2017), A re-examination of the mere exposure effect",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/28263645/",
-        "kind": "Meta-analysis; abstract available"
+        "title": "Montoya et al. (2008), Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity",
+        "url": "https://doi.org/10.1177/0265407508096700",
+        "kind": "Meta-analysis; access varies"
       },
       {
-        "title": "Laurenceau, Barrett & Pietromonaco (1998), Intimacy as an interpersonal process",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/9599440/",
-        "kind": "Interpersonal-process studies; abstract available"
+        "title": "Montoya et al. (2017), A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking.",
+        "url": "https://doi.org/10.1037/bul0000085",
+        "kind": "Meta-analysis; access varies"
+      },
+      {
+        "title": "Laurenceau et al. (1998), Intimacy as an interpersonal process: The importance of self-disclosure, partner disclosure, and perceived partner responsiveness in interpersonal exchanges.",
+        "url": "https://doi.org/10.1037/0022-3514.74.5.1238",
+        "kind": "Interpersonal-process studies; access varies"
+      },
+      {
+        "title": "Gouldner (1960), The Norm of Reciprocity: A Preliminary Statement",
+        "url": "https://doi.org/10.2307/2092623",
+        "kind": "Conceptual account of a social norm; access varies"
+      },
+      {
+        "title": "Fehr & Gächter (2000), Fairness and Retaliation: The Economics of Reciprocity",
+        "url": "https://doi.org/10.1257/jep.14.3.159",
+        "kind": "Review of reciprocity in economic behavior; access varies"
+      },
+      {
+        "title": "Hazan & Shaver (1987), Romantic love conceptualized as an attachment process.",
+        "url": "https://doi.org/10.1037/0022-3514.52.3.511",
+        "kind": "Theoretical account with self-report evidence; access varies"
+      },
+      {
+        "title": "Fraley et al. (2000), An item response theory analysis of self-report measures of adult attachment.",
+        "url": "https://doi.org/10.1037/0022-3514.78.2.350",
+        "kind": "Psychometric analysis of adult-attachment measures; access varies"
       }
     ]
   },
@@ -164,9 +289,34 @@
     "note": "Other people can reduce an individual’s likelihood of helping in some settings and provide essential support in others. A crowd is not a deterministic cause of inaction. Social-psychology models do not replace emergency training, and laboratory aggression measures are imperfect indicators of serious violence.",
     "sources": [
       {
-        "title": "Fischer et al. (2011), The bystander-effect: a meta-analytic review",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/21534650/",
-        "kind": "Meta-analysis; abstract available"
+        "title": "Darley & Latane (1968), Bystander intervention in emergencies: Diffusion of responsibility.",
+        "url": "https://doi.org/10.1037/h0025589",
+        "kind": "Controlled bystander experiment; access varies"
+      },
+      {
+        "title": "Latane & Darley (1968), Group inhibition of bystander intervention in emergencies.",
+        "url": "https://doi.org/10.1037/h0026570",
+        "kind": "Controlled group-inhibition experiment; access varies"
+      },
+      {
+        "title": "Fischer et al. (2011), The bystander-effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies.",
+        "url": "https://doi.org/10.1037/a0023304",
+        "kind": "Meta-analysis; access varies"
+      },
+      {
+        "title": "Anderson & Bushman (2002), Human Aggression",
+        "url": "https://doi.org/10.1146/annurev.psych.53.100901.135231",
+        "kind": "Theoretical and research review; access varies"
+      },
+      {
+        "title": "Balliet (2010), Communication and Cooperation in Social Dilemmas: A Meta-Analytic Review",
+        "url": "https://doi.org/10.1177/0022002709352443",
+        "kind": "Meta-analysis of social-dilemma research; access varies"
+      },
+      {
+        "title": "Elson et al. (2014), Press CRTT to measure aggressive behavior: The unstandardized use of the competitive reaction time task in aggression research.",
+        "url": "https://doi.org/10.1037/a0035569",
+        "kind": "Measurement and analytic-method comparison; access varies"
       }
     ]
   }
