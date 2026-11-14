@@ -486,12 +486,12 @@
       {
         "title": "Several changes, one result.",
         "points": [
-          "Confound: another factor could explain the pattern.",
+          "Confound: a factor that varies with the proposed cause and may affect the outcome.",
           "Poster, weather, publicity: all changed together.",
           "One outcome: more people attended.",
           "Problem: this comparison cannot isolate the poster’s contribution."
         ],
-        "text": "A confound is another factor that could explain an apparent relationship. Leo changed the poster, but the weather improved and the local paper also covered the café.\n\nBecause these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.\n\nA fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive."
+        "text": "A confounding factor varies with the proposed cause and could also influence the outcome. Leo changed the poster, but the weather improved and the local paper also covered the café.\n\nBecause these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.\n\nA fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive."
       },
       {
         "title": "Select people. Assign conditions.",
@@ -516,12 +516,12 @@
       {
         "title": "Significance and usefulness are different questions.",
         "points": [
-          "Statistical significance: evidence assessed against a specified model.",
+          "Statistical significance: a test crosses a prespecified threshold.",
+          "A p-value does not give the probability that a hypothesis is true.",
           "Practical importance: is the difference useful for this decision?",
-          "A significant result may be too small to matter.",
           "A nonsignificant result does not prove zero effect."
         ],
-        "text": "Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not measure whether a difference is useful.\n\nA small attendance increase could be statistically significant in a large study, yet be too small to justify an expensive campaign. Conversely, an imprecise estimate may leave a useful effect uncertain.\n\nA nonsignificant result does not prove zero effect. Inspect the estimated size, its uncertainty, the study design, and other tests before deciding what the café should do."
+        "text": "A result is usually called statistically significant when a test crosses a prespecified threshold, such as a p-value below 0.05. A p-value describes how unusual the observed result, or more extreme results, would be under a specified model and its assumptions. It is not the probability that a hypothesis is true.\n\nStatistical significance does not measure practical importance. A small attendance increase could be significant in a large study yet be too small to justify an expensive campaign.\n\nA nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do."
       }
     ],
     "evidence": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.\n\nPreregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.\n\nWith a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.",
@@ -541,17 +541,25 @@
         ]
       },
       {
-        "prompt": "Which invitation comparison is strongest?",
+        "revision": "academic-transfer-v2",
+        "context": "The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.",
+        "prompt": "Which redesign most directly tests that claim?",
         "options": [
-          "Design A in winter; design B in summer.",
-          "Randomize designs for one event; define attendance in advance.",
-          "Design A for existing fans; design B for newcomers."
+          "Keep the existing groups and compare attendance over more weekends.",
+          "Randomly assign A or B within both contact groups for the same event.",
+          "Use only first-time contacts; send A this month and B next month."
         ],
         "correct": 1,
+        "reasoningPrompt": "Name the competing explanation your design addresses and one remaining limitation.",
+        "feedbackLabels": [
+          "Consider what this comparison establishes.",
+          "Best fit for this question.",
+          "Consider what this comparison establishes."
+        ],
         "feedback": [
-          "Comparing winter with summer changes the season alongside the invitation design.",
-          "Randomizing invitations for one event improves the comparison. Also check whether households share invitations.",
-          "Existing fans and newcomers differ in prior interest. That difference could affect attendance regardless of the invitation."
+          "More weekends may improve precision, but the invitation still differs with prior interest. A larger record does not remove that competing explanation.",
+          "Random assignment within both contact groups helps separate invitation design from prior interest. Define attendance before comparing results. Shared invitations and evidence from only one event would still limit the conclusion.",
+          "Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result."
         ]
       }
     ],
@@ -620,7 +628,26 @@
           "Causal claim: the poster produced the rise.",
           "Check: what else could explain the change?"
         ],
-        "text": "Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain.\n\nLeo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes.\n\nWhen you assess a causal claim, distinguish the observed change from the proposed explanation. Then ask what comparison could help test that explanation."
+        "text": "Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain.\n\nLeo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes.\n\nWhen you assess a causal claim, distinguish the observed change from the proposed explanation. Then ask what comparison could help test that explanation.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The methodological distinction",
+              "text": "Correlation describes an association. A causal interpretation also needs a design and assumptions that address competing explanations, temporal order, and how the variables were measured."
+            },
+            {
+              "heading": "The café application",
+              "text": "The poster and attendance changed together, alongside weather, publicity, and opening hours. This fictional before-and-after example cannot isolate the poster’s contribution. The source is introductory methods teaching, not a study showing which café invitation works."
+            }
+          ],
+          "sources": [
+            {
+              "title": "OpenStax Psychology 2e: Analyzing Findings",
+              "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c02s03b",
@@ -629,12 +656,31 @@
         "stage": "Worked example",
         "visual": "confounding",
         "points": [
-          "Confound: another factor could explain the pattern.",
+          "Confound: a factor that varies with the proposed cause and may affect the outcome.",
           "Poster, weather, publicity: all changed together.",
           "One outcome: more people attended.",
           "Problem: this comparison cannot isolate the poster’s contribution."
         ],
-        "text": "A confound is another factor that could explain an apparent relationship. Leo changed the poster, but the weather improved and the local paper also covered the café.\n\nBecause these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.\n\nA fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive."
+        "text": "A confounding factor varies with the proposed cause and could also influence the outcome. Leo changed the poster, but the weather improved and the local paper also covered the café.\n\nBecause these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem.\n\nA fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What makes a factor a confound",
+              "text": "A confounding factor varies with the proposed cause and could also influence the outcome. It is more specific than any imaginable alternative or random error."
+            },
+            {
+              "heading": "Why the example is inconclusive",
+              "text": "Weather and publicity changed when the poster changed. A detailed account of the poster cannot separate their contributions. More observations of the same unfair comparison do not automatically solve that problem."
+            }
+          ],
+          "sources": [
+            {
+              "title": "OpenStax Psychology 2e: Analyzing Findings",
+              "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c02s03c",
@@ -648,7 +694,26 @@
           "Same event: compare invitation versions A and B.",
           "Limit: assignment does not make a sample representative."
         ],
-        "text": "Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives.\n\nThe café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups.\n\nTesting only existing supporters may tell the team little about residents who have never visited. Randomly assigning those supporters to versions would not solve that sampling limitation."
+        "text": "Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives.\n\nThe café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups.\n\nTesting only existing supporters may tell the team little about residents who have never visited. Randomly assigning those supporters to versions would not solve that sampling limitation.",
+        "research": {
+          "sections": [
+            {
+              "heading": "Two different chance processes",
+              "text": "Random sampling concerns selection from a defined population or sampling frame. Random assignment allocates selected units to conditions and helps balance other influences on average."
+            },
+            {
+              "heading": "What remains uncertain",
+              "text": "Assignment does not guarantee identical groups or make a narrow sample representative. The invitation proposal is an authored design example. Shared messages, nonresponse, measurement, and the population represented still need examination."
+            }
+          ],
+          "sources": [
+            {
+              "title": "OpenStax Psychology 2e: Analyzing Findings",
+              "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c02s04",
@@ -662,7 +727,26 @@
           "Uncertainty: another sample may give a different estimate.",
           "Decision: consider the size, precision, and cost."
         ],
-        "text": "Imagine two groups of one hundred households. Twelve attend after receiving invitation A, and fifteen attend after receiving invitation B. These are invented teaching numbers.\n\nAttendance differs by three percentage points: fifteen percent minus twelve percent. A different sample could produce a different result, so this estimate has uncertainty.\n\nThe café needs to consider the size and precision of the estimated difference alongside the cost of changing its invitation. Whether a statistical test calls the result significant is a separate question."
+        "text": "Imagine two groups of one hundred households. Twelve attend after receiving invitation A, and fifteen attend after receiving invitation B. These are invented teaching numbers.\n\nAttendance differs by three percentage points: fifteen percent minus twelve percent. A different sample could produce a different result, so this estimate has uncertainty.\n\nThe café needs to consider the size and precision of the estimated difference alongside the cost of changing its invitation. Whether a statistical test calls the result significant is a separate question.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the methods article recommends",
+              "text": "Cumming advocates estimating effect sizes, showing uncertainty, reporting completely, and combining evidence across studies. This is guidance for interpretation and cumulative research, rather than one experiment establishing a café effect."
+            },
+            {
+              "heading": "Interpreting the teaching numbers",
+              "text": "The 12-of-100 and 15-of-100 attendance figures are invented. Their difference is three percentage points. Without a suitable design and uncertainty analysis, that arithmetic does not establish a dependable benefit or its practical value."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Cumming (2014), The New Statistics",
+              "url": "https://doi.org/10.1177/0956797613504966",
+              "kind": "Methods and interpretation article; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c02s04b",
@@ -671,12 +755,36 @@
         "stage": "Interpret a result",
         "visual": "significance-importance",
         "points": [
-          "Statistical significance: evidence assessed against a specified model.",
+          "Statistical significance: a test crosses a prespecified threshold.",
+          "A p-value does not give the probability that a hypothesis is true.",
           "Practical importance: is the difference useful for this decision?",
-          "A significant result may be too small to matter.",
           "A nonsignificant result does not prove zero effect."
         ],
-        "text": "Statistical significance concerns how unusual a result would be under a specified statistical model, often one assuming no difference between groups. It does not measure whether a difference is useful.\n\nA small attendance increase could be statistically significant in a large study, yet be too small to justify an expensive campaign. Conversely, an imprecise estimate may leave a useful effect uncertain.\n\nA nonsignificant result does not prove zero effect. Inspect the estimated size, its uncertainty, the study design, and other tests before deciding what the café should do."
+        "text": "A result is usually called statistically significant when a test crosses a prespecified threshold, such as a p-value below 0.05. A p-value describes how unusual the observed result, or more extreme results, would be under a specified model and its assumptions. It is not the probability that a hypothesis is true.\n\nStatistical significance does not measure practical importance. A small attendance increase could be significant in a large study yet be too small to justify an expensive campaign.\n\nA nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the ASA statement clarifies",
+              "text": "The American Statistical Association statement explains that p-values are conditional on a specified model and assumptions. They do not give the probability that a hypothesis is true, and statistical significance does not measure effect size or importance."
+            },
+            {
+              "heading": "How to use that distinction",
+              "text": "A threshold can be part of a prespecified analysis, but a binary label cannot replace the estimate, uncertainty, study design, and context. The café’s decision also needs costs and relevant benefits; the statement does not validate a particular campaign."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Wasserstein & Lazar (2016), The ASA Statement on p-Values: Context, Process, and Purpose",
+              "url": "https://doi.org/10.1080/00031305.2016.1154108",
+              "kind": "Professional statistical statement; access varies"
+            },
+            {
+              "title": "Cumming (2014), The New Statistics",
+              "url": "https://doi.org/10.1177/0956797613504966",
+              "kind": "Methods and interpretation article; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -688,25 +796,61 @@
         "text": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.\n\nPreregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.\n\nWith a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.",
         "id": "c02s05",
         "stage": "Evidence check",
-        "visual": "research-reliability"
+        "visual": "research-reliability",
+        "research": {
+          "sections": [
+            {
+              "heading": "What was examined",
+              "text": "The Open Science Collaboration repeated 100 studies from three psychology journals using high-powered designs and original materials when available. Replication effect estimates were generally smaller, and conclusions depended on the criterion used to evaluate replication."
+            },
+            {
+              "heading": "A transparency practice",
+              "text": "Nosek and colleagues explain preregistration as separating planned predictions from analyses developed after seeing outcomes. Exploratory work remains useful when described as exploratory."
+            },
+            {
+              "heading": "Limits",
+              "text": "The project did not sample every area of psychology or determine whether each theory was true. Preregistration does not rescue a poor design, and a larger sample does not repair a systematically unfair comparison."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Open Science Collaboration (2015), Estimating the reproducibility of psychological science",
+              "url": "https://doi.org/10.1126/science.aac4716",
+              "kind": "Multistudy replication project; access varies"
+            },
+            {
+              "title": "Nosek et al. (2018), The preregistration revolution",
+              "url": "https://doi.org/10.1073/pnas.1708274114",
+              "kind": "Methods and transparency article; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nWhich invitation comparison is strongest?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nThe café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.\n\nWhich redesign most directly tests that claim?\n\nName the competing explanation your design addresses and one remaining limitation.",
         "quiz": {
-          "prompt": "Which invitation comparison is strongest?",
+          "revision": "academic-transfer-v2",
+          "context": "The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.",
+          "prompt": "Which redesign most directly tests that claim?",
           "options": [
-            "Design A in winter; design B in summer.",
-            "Randomize designs for one event; define attendance in advance.",
-            "Design A for existing fans; design B for newcomers."
+            "Keep the existing groups and compare attendance over more weekends.",
+            "Randomly assign A or B within both contact groups for the same event.",
+            "Use only first-time contacts; send A this month and B next month."
           ],
           "correct": 1,
+          "reasoningPrompt": "Name the competing explanation your design addresses and one remaining limitation.",
+          "feedbackLabels": [
+            "Consider what this comparison establishes.",
+            "Best fit for this question.",
+            "Consider what this comparison establishes."
+          ],
           "feedback": [
-            "Comparing winter with summer changes the season alongside the invitation design.",
-            "Randomizing invitations for one event improves the comparison. Also check whether households share invitations.",
-            "Existing fans and newcomers differ in prior interest. That difference could affect attendance regardless of the invitation."
+            "More weekends may improve precision, but the invitation still differs with prior interest. A larger record does not remove that competing explanation.",
+            "Random assignment within both contact groups helps separate invitation design from prior interest. Define attendance before comparing results. Shared invitations and evidence from only one event would still limit the conclusion.",
+            "Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result."
           ]
         },
         "id": "c02s06",
@@ -795,17 +939,25 @@
         ]
       },
       {
-        "prompt": "Leo thinks evening sessions fail. Which question best challenges his belief?",
+        "revision": "academic-transfer-v2",
+        "context": "Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.",
+        "prompt": "What would most improve a comparison of failure rates?",
         "options": [
-          "Which evenings went badly?",
-          "Who agrees that evenings are a poor idea?",
-          "What outcomes would make us conclude evenings work?"
+          "Count every fault mentioned in the evening-session chat.",
+          "Ask the most experienced evening repairer to estimate the failure rate.",
+          "Compare failure proportions among comparable repairs using the same follow-up period."
         ],
         "correct": 2,
+        "reasoningPrompt": "State the denominator you need and one reason a difference would not establish its cause.",
+        "feedbackLabels": [
+          "Consider what this comparison establishes.",
+          "Consider what this comparison establishes.",
+          "Best fit for this question."
+        ],
         "feedback": [
-          "Looking only at unsuccessful evening sessions selects evidence that fits Leo’s initial belief.",
-          "Agreement with Leo may reflect shared assumptions rather than independent evidence.",
-          "Naming outcomes that would count as success gives Leo’s belief a chance to be wrong."
+          "The chat can identify faults, but it may miss successful repairs and cases nobody reports. A failure rate needs a relevant total and consistent follow-up.",
+          "Experience can supply useful information, but the estimate still needs a representative record. Agreement with an expert does not supply the missing denominator.",
+          "Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference."
         ]
       }
     ],
@@ -873,7 +1025,31 @@
         "text": "Heuristics are mental shortcuts. They can help when time and information are limited. The availability shortcut uses examples that come easily to mind. After hearing the toaster story, Leo may judge repair failures by how easily he remembers one.\n\nVivid or recent examples can be a poor guide to frequency. A complaint channel helps discover faults, but usually says little about repairs that worked.\n\nTo estimate a failure rate, count failures and the total of comparable repairs. In an invented example, four failures among forty repairs means ten percent. Forty is the denominator: the total used to interpret the four failures. Without that total and consistent follow-up, the café cannot tell how common failure is.",
         "id": "c03s03",
         "stage": "First lens",
-        "visual": "availability-base-rate"
+        "visual": "availability-base-rate",
+        "research": {
+          "sections": [
+            {
+              "heading": "The research idea",
+              "text": "Tversky and Kahneman examine availability: using the ease with which examples come to mind when judging frequency or probability. Accessibility can reflect exposure, vividness, or retrieval processes as well as actual frequency."
+            },
+            {
+              "heading": "The application and its limit",
+              "text": "A complaint channel can reveal faults without representing all completed repairs. The invented repair count illustrates a denominator, not the size of a published availability effect. A shortcut can be useful when remembered experience matches the relevant environment."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Tversky & Kahneman (1973), Availability: A heuristic for judging frequency and probability",
+              "url": "https://doi.org/10.1016/0010-0285(73)90033-9",
+              "kind": "Foundational experimental research; access varies"
+            },
+            {
+              "title": "OpenStax Psychology 2e: Problem Solving",
+              "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c03s04",
@@ -887,7 +1063,26 @@
           "Count comparable successes as well as failures.",
           "Ask: what outcome could change Leo’s view?"
         ],
-        "text": "Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives that belief an unfair advantage.\n\nA fairer check defines the outcome first and records comparable successes and failures. Someone with a different expectation can review whether the same standard was applied to every case.\n\nFor your own reasoning, ask what evidence could change your initial view. The aim is to make the belief testable. Naming a bias alone does not establish that a conclusion is wrong."
+        "text": "Confirmation bias means seeking or interpreting information in ways that fit an existing belief. If Leo thinks evening sessions fail, asking only about unsuccessful evenings gives that belief an unfair advantage.\n\nA fairer check defines the outcome first and records comparable successes and failures. Someone with a different expectation can review whether the same standard was applied to every case.\n\nFor your own reasoning, ask what evidence could change your initial view. The aim is to make the belief testable. Naming a bias alone does not establish that a conclusion is wrong.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the review examines",
+              "text": "Nickerson reviews ways that seeking and interpreting evidence can favor an existing belief or hypothesis, possible explanations, and questions about when such processes help or hinder judgment."
+            },
+            {
+              "heading": "The proposed practice",
+              "text": "Defining an outcome and recording comparable successes and failures is the course’s suggested way to make Leo’s belief testable. It is not a bias-reduction intervention evaluated by this course, and a bias label cannot establish that his conclusion is false."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Nickerson (1998), Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+              "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+              "kind": "Research review; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c03s04b",
@@ -901,7 +1096,31 @@
           "Use one definition of failure for every case.",
           "Invite a review that could challenge the preferred answer."
         ],
-        "text": "Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so reassuring repair stories may feel easier to accept than reports of returns.\n\nThe desired conclusion could still be correct. To investigate it, Maya can define a repair failure in advance, follow up comparable repairs consistently, and invite someone to challenge the initial interpretation.\n\nWith confirmation bias, the question is whether evidence was selected to fit an existing belief. With motivated reasoning, the question is whether a preferred conclusion shaped that evaluation. The processes can overlap. Test the evidence; a label alone does not settle the issue."
+        "text": "Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. Maya wants the café to succeed, so reassuring repair stories may feel easier to accept than reports of returns.\n\nThe desired conclusion could still be correct. To investigate it, Maya can define a repair failure in advance, follow up comparable repairs consistently, and invite someone to challenge the initial interpretation.\n\nWith confirmation bias, the question is whether evidence was selected to fit an existing belief. With motivated reasoning, the question is whether a preferred conclusion shaped that evaluation. The processes can overlap. Test the evidence; a label alone does not settle the issue.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The proposed mechanism",
+              "text": "Kunda reviews how goals influence the cognitive strategies used to access, construct, and evaluate beliefs. A desire for accuracy and a desire for a particular conclusion can shape reasoning differently."
+            },
+            {
+              "heading": "What this does not establish",
+              "text": "A conclusion someone wants can still be correct. The fictional Maya example makes a possible process understandable; it does not reveal her private motive. Confirmation bias and motivated reasoning can overlap, so the task is to examine evidence and evaluation rather than assign a label."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Kunda (1990), The case for motivated reasoning.",
+              "url": "https://doi.org/10.1037/0033-2909.108.3.480",
+              "kind": "Theoretical and research review; access varies"
+            },
+            {
+              "title": "Nickerson (1998), Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+              "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+              "kind": "Research review; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -913,25 +1132,57 @@
         "text": "When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.\n\nFor example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities.\n\nWhen reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.",
         "id": "c03s05",
         "stage": "Evidence check",
-        "visual": "bias-evidence"
+        "visual": "bias-evidence",
+        "research": {
+          "sections": [
+            {
+              "heading": "Why shortcuts are not automatically errors",
+              "text": "Gigerenzer and Goldstein compare computational models that make inferences with limited information. In their simulations, a simple strategy could perform competitively with more information-intensive procedures."
+            },
+            {
+              "heading": "Limits on applying that result",
+              "text": "This is a model comparison under specified conditions, not evidence that every intuitive estimate is accurate. Check the reference group, the record, and feedback. The café’s explanation-checking procedure remains an authored application, rather than a guarantee of immunity to bias."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gigerenzer & Goldstein (1996), Reasoning the fast and frugal way: Models of bounded rationality.",
+              "url": "https://doi.org/10.1037/0033-295X.103.4.650",
+              "kind": "Computational model comparison; access varies"
+            },
+            {
+              "title": "Nickerson (1998), Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+              "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+              "kind": "Research review; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nLeo thinks evening sessions fail. Which question best challenges his belief?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nEvening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.\n\nWhat would most improve a comparison of failure rates?\n\nState the denominator you need and one reason a difference would not establish its cause.",
         "quiz": {
-          "prompt": "Leo thinks evening sessions fail. Which question best challenges his belief?",
+          "revision": "academic-transfer-v2",
+          "context": "Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.",
+          "prompt": "What would most improve a comparison of failure rates?",
           "options": [
-            "Which evenings went badly?",
-            "Who agrees that evenings are a poor idea?",
-            "What outcomes would make us conclude evenings work?"
+            "Count every fault mentioned in the evening-session chat.",
+            "Ask the most experienced evening repairer to estimate the failure rate.",
+            "Compare failure proportions among comparable repairs using the same follow-up period."
           ],
           "correct": 2,
+          "reasoningPrompt": "State the denominator you need and one reason a difference would not establish its cause.",
+          "feedbackLabels": [
+            "Consider what this comparison establishes.",
+            "Consider what this comparison establishes.",
+            "Best fit for this question."
+          ],
           "feedback": [
-            "Looking only at unsuccessful evening sessions selects evidence that fits Leo’s initial belief.",
-            "Agreement with Leo may reflect shared assumptions rather than independent evidence.",
-            "Naming outcomes that would count as success gives Leo’s belief a chance to be wrong."
+            "The chat can identify faults, but it may miss successful repairs and cases nobody reports. A failure rate needs a relevant total and consistent follow-up.",
+            "Experience can supply useful information, but the estimate still needs a representative record. Agreement with an expert does not supply the missing denominator.",
+            "Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference."
           ]
         },
         "id": "c03s06",
@@ -1010,17 +1261,25 @@
         ]
       },
       {
-        "prompt": "Switching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters?",
+        "revision": "academic-transfer-v2",
+        "context": "In an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.",
+        "prompt": "Which information matters most to the next cost comparison?",
         "options": [
-          "The large fee already paid.",
-          "The lower avoidable future cost of switching.",
-          "Only the emotional discomfort of switching."
+          "Whether retraining adds more than £40 in future cost.",
+          "Which volunteer feels most responsible for the original £600.",
+          "Whether other cafés also paid £600 for the same tool."
         ],
-        "correct": 1,
+        "correct": 0,
+        "reasoningPrompt": "Separate an irrecoverable cost from a future consequence, and identify one assumption to check.",
+        "feedbackLabels": [
+          "Best fit for this question.",
+          "Consider what this comparison establishes.",
+          "Consider what this comparison establishes."
+        ],
         "feedback": [
-          "The original fee cannot be recovered under the stated assumptions. It does not favor either future option.",
-          "Under the stated assumptions, switching costs one hundred pounds and keeping the tool costs three hundred. Real choices also compare risks.",
-          "Discomfort about switching may matter to the people involved, but it does not replace the comparison of future costs and benefits."
+          "Under these assumptions, the support-cost difference is forty pounds. Retraining could change which future option costs less. Also compare uncertainty, disruption, and benefits before deciding. The nonrefundable payment cannot be recovered by continuing.",
+          "Responsibility and discomfort can affect the discussion, but they do not change whether the old payment is recoverable. The next cost comparison concerns future support, switching, and retraining.",
+          "Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs."
         ]
       }
     ],
@@ -1093,7 +1352,31 @@
         "text": "Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce.\n\nMaya believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice.\n\nPeople may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.",
         "id": "c04s03",
         "stage": "First lens",
-        "visual": "cognitive-dissonance"
+        "visual": "cognitive-dissonance",
+        "research": {
+          "sections": [
+            {
+              "heading": "A classic experimental approach",
+              "text": "Festinger and Carlsmith studied attitude reports after participants performed a dull task and advocated that it was interesting under different incentive conditions. The finding helped motivate dissonance-based explanations of counterattitudinal behavior."
+            },
+            {
+              "heading": "Theory and procedure",
+              "text": "Dissonance theory concerns relations among relevant cognitions and motivation to reduce inconsistency. A particular task, incentive manipulation, and attitude measure are separate empirical questions. The later multilab study tested a different induced-compliance procedure; it was not a repetition of every feature of the classic experiment."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Festinger & Carlsmith (1959), Cognitive consequences of forced compliance.",
+              "url": "https://doi.org/10.1037/h0041593",
+              "kind": "Foundational experiment; access varies"
+            },
+            {
+              "title": "Vaidis et al. (2024), A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance",
+              "url": "https://doi.org/10.1177/25152459231213375",
+              "kind": "Preregistered multilab replication; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "concept",
@@ -1106,7 +1389,26 @@
         "text": "A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next.\n\nThe hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option.\n\nPast work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.",
         "id": "c04s04",
         "stage": "Second lens",
-        "visual": "sunk-cost"
+        "visual": "sunk-cost",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the research examines",
+              "text": "Arkes and Blumer examine decisions in which irrecoverable investments can affect whether people continue an activity. The sunk-cost concept distinguishes a past unrecoverable payment from future consequences of continuing or stopping."
+            },
+            {
+              "heading": "Applying it carefully",
+              "text": "The course’s booking-system example is invented. Switching, retraining, reusable skills, risk, and future benefits belong in the comparison. A past expense is relevant only through consequences that differ between the future options, rather than because continuing can recover an irrecoverable payment."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Arkes & Blumer (1985), The psychology of sunk cost",
+              "url": "https://doi.org/10.1016/0749-5978(85)90049-4",
+              "kind": "Foundational experiments; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -1118,25 +1420,56 @@
         "text": "Evidence for specific cognitive dissonance demonstrations is uneven. In 2024, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure.\n\nThe study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups.\n\nThat result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked Vaidis and colleagues study provides the details.",
         "id": "c04s05",
         "stage": "Evidence check",
-        "visual": "dissonance-evidence"
+        "visual": "dissonance-evidence",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the multilab study tested",
+              "text": "Vaidis and colleagues compared counterattitudinal essay writing with more or less choice, alongside a neutral-essay condition. The primary higher-choice versus lower-choice attitude comparison did not support the predicted difference."
+            },
+            {
+              "heading": "What should not be collapsed into one verdict",
+              "text": "The counterattitudinal-versus-neutral comparison did show an attitude difference. The results challenge the tested procedure’s dissonance prediction, rather than making every comparison null or settling every version of dissonance theory."
+            },
+            {
+              "heading": "Scope",
+              "text": "The paper reports a preregistered multilab constructive replication. The café’s account of defending a booking decision is an illustration, not a measurement of dissonance in a real coordinator."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Vaidis et al. (2024), A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance",
+              "url": "https://doi.org/10.1177/25152459231213375",
+              "kind": "Preregistered multilab replication; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nSwitching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nIn an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.\n\nWhich information matters most to the next cost comparison?\n\nSeparate an irrecoverable cost from a future consequence, and identify one assumption to check.",
         "quiz": {
-          "prompt": "Switching costs £100; keeping the tool costs £300 in future support. Benefits are equal. What matters?",
+          "revision": "academic-transfer-v2",
+          "context": "In an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.",
+          "prompt": "Which information matters most to the next cost comparison?",
           "options": [
-            "The large fee already paid.",
-            "The lower avoidable future cost of switching.",
-            "Only the emotional discomfort of switching."
+            "Whether retraining adds more than £40 in future cost.",
+            "Which volunteer feels most responsible for the original £600.",
+            "Whether other cafés also paid £600 for the same tool."
           ],
-          "correct": 1,
+          "correct": 0,
+          "reasoningPrompt": "Separate an irrecoverable cost from a future consequence, and identify one assumption to check.",
+          "feedbackLabels": [
+            "Best fit for this question.",
+            "Consider what this comparison establishes.",
+            "Consider what this comparison establishes."
+          ],
           "feedback": [
-            "The original fee cannot be recovered under the stated assumptions. It does not favor either future option.",
-            "Under the stated assumptions, switching costs one hundred pounds and keeping the tool costs three hundred. Real choices also compare risks.",
-            "Discomfort about switching may matter to the people involved, but it does not replace the comparison of future costs and benefits."
+            "Under these assumptions, the support-cost difference is forty pounds. Retraining could change which future option costs less. Also compare uncertainty, disruption, and benefits before deciding. The nonrefundable payment cannot be recovered by continuing.",
+            "Responsibility and discomfort can affect the discussion, but they do not change whether the old payment is recoverable. The next cost comparison concerns future support, switching, and retraining.",
+            "Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs."
           ]
         },
         "id": "c04s06",
@@ -1190,12 +1523,12 @@
       {
         "title": "A request and an authority’s order.",
         "points": [
-          "Compliance: responding to a request.",
-          "Obedience: responding to an authority’s order.",
+          "Compliance: changing behavior in response to a request.",
+          "Obedience: following an order from a perceived authority.",
           "An authority’s request can involve both.",
           "The role can add pressure; resistance remains possible."
         ],
-        "text": "Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following the chair’s instruction because the chair is in charge illustrates obedience.\n\nA request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.\n\nThat pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson."
+        "text": "Compliance means changing behavior in response to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means following an order from someone perceived as an authority. Following the chair’s instruction because the chair is in charge illustrates obedience.\n\nA request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.\n\nThat pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson."
       },
       {
         "title": "Make questioning possible before work continues.",
@@ -1225,17 +1558,25 @@
         ]
       },
       {
-        "prompt": "The chair requests bypassing a required check. Which process helps?",
+        "revision": "academic-transfer-v2",
+        "context": "Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.",
+        "prompt": "Which check best separates these possible influences?",
         "options": [
-          "Let the first confident person decide.",
-          "Allow anonymous complaints afterward.",
-          "Pause and use an agreed safety escalation route."
+          "Compare private estimates before and after reviewing the evidence, then compare private and public responses.",
+          "Record the final public vote after the chair repeats the endorsement.",
+          "Ask another team to run a different event and compare its decision."
         ],
-        "correct": 2,
+        "correct": 0,
+        "reasoningPrompt": "Describe a pattern consistent with each influence and one limit on inferring motives.",
+        "feedbackLabels": [
+          "Best fit for this question.",
+          "Consider what this comparison establishes.",
+          "Consider what this comparison establishes."
+        ],
         "feedback": [
-          "Confidence is not evidence of safety.",
-          "Later complaints cannot prevent unchecked work now.",
-          "An agreed stop-and-escalation route makes questioning possible while the safety decision still matters."
+          "Revised private estimates after new evidence are consistent with informational influence. Private doubts alongside public agreement are consistent with normative pressure. Neither pattern alone proves a private motive; the questions, evidence, and social conditions still matter.",
+          "The public vote records agreement but cannot show whether private estimates changed. Repeating an endorsement may supply pressure without new information.",
+          "Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed."
         ]
       }
     ],
@@ -1303,7 +1644,31 @@
         "text": "Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.\n\nNormative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”\n\nBoth influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair.\n\nFor your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.",
         "id": "c05s03",
         "stage": "First lens",
-        "visual": "conformity-motives"
+        "visual": "conformity-motives",
+        "research": {
+          "sections": [
+            {
+              "heading": "The academic distinction",
+              "text": "Deutsch and Gerard distinguish informational social influence, in which others’ responses are treated as evidence, from normative influence related to others’ expectations and social acceptance."
+            },
+            {
+              "heading": "What observations can tell us",
+              "text": "A public agreement can fit either process or both. Comparing private estimates, the evidence available, and public responses can help investigate alternatives. These observations do not give direct access to a volunteer’s private motives."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Deutsch & Gerard (1955), A study of normative and informational social influences upon individual judgment.",
+              "url": "https://doi.org/10.1037/h0046408",
+              "kind": "Foundational experimental research; access varies"
+            },
+            {
+              "title": "OpenStax Psychology 2e: Conformity, Compliance, and Obedience",
+              "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c05s04",
@@ -1312,12 +1677,40 @@
         "stage": "Compliance and obedience",
         "visual": "compliance-obedience",
         "points": [
-          "Compliance: responding to a request.",
-          "Obedience: responding to an authority’s order.",
+          "Compliance: changing behavior in response to a request.",
+          "Obedience: following an order from a perceived authority.",
           "An authority’s request can involve both.",
           "The role can add pressure; resistance remains possible."
         ],
-        "text": "Compliance means responding to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means responding to an authority’s order. Following the chair’s instruction because the chair is in charge illustrates obedience.\n\nA request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.\n\nThat pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson."
+        "text": "Compliance means changing behavior in response to a request. If Leo asks Sam to cover a shift and Sam agrees, Sam has complied. Obedience means following an order from someone perceived as an authority. Following the chair’s instruction because the chair is in charge illustrates obedience.\n\nA request from an authority can involve both processes. The role may make the demand feel legitimate or encourage someone to think that the chair is responsible for the decision.\n\nThat pressure does not make obedience inevitable. People can question or resist. Designing a usable way to raise a concern is the practical task in the next lesson.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The classic authority task",
+              "text": "Milgram examined how participants responded when an experimenter urged them to continue a task they believed administered electric shocks. The highly structured setting and its ethical problems matter when interpreting the results."
+            },
+            {
+              "heading": "A qualified later comparison",
+              "text": "Burger conducted a partial replication with additional safeguards and stopped at an earlier point in the procedure. It supplies a limited comparison, not a direct observation that modern participants would complete the original sequence."
+            },
+            {
+              "heading": "Application",
+              "text": "Compliance and obedience classify forms of social influence; neither makes a particular harmful action inevitable or removes accountability. The café’s request is fictional."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Milgram (1963), Behavioral Study of obedience.",
+              "url": "https://doi.org/10.1037/h0040525",
+              "kind": "Foundational experiment; ethical and contextual limitations; access varies"
+            },
+            {
+              "title": "Burger (2009), Replicating Milgram: Would people still obey today?",
+              "url": "https://doi.org/10.1037/a0010932",
+              "kind": "Partial replication with modified safeguards; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c05s04b",
@@ -1331,7 +1724,26 @@
           "Raise: use the agreed route for the concern.",
           "Review: clarify responsibilities before proceeding."
         ],
-        "text": "In the café decision, the chair asks volunteers to bypass a required equipment check. The team needs a practical route for questioning that instruction while the decision still matters.\n\nAn agreed rule can allow a volunteer to pause unsafe work, name the concern, and bring it to the person responsible under the team’s procedures. The response must reflect the relevant training and responsibilities.\n\nAn invitation to speak up is less useful if nobody knows what happens next. Evaluate whether people can actually raise concerns before work continues. An authority’s instruction does not remove accountability."
+        "text": "In the café decision, the chair asks volunteers to bypass a required equipment check. The team needs a practical route for questioning that instruction while the decision still matters.\n\nAn agreed rule can allow a volunteer to pause unsafe work, name the concern, and bring it to the person responsible under the team’s procedures. The response must reflect the relevant training and responsibilities.\n\nAn invitation to speak up is less useful if nobody knows what happens next. Evaluate whether people can actually raise concerns before work continues. An authority’s instruction does not remove accountability.",
+        "research": {
+          "sections": [
+            {
+              "heading": "Relevant field evidence",
+              "text": "Edmondson’s observational study of work teams links psychological safety with learning behavior. It concerns a shared belief about interpersonal risk taking; it does not randomly test the café’s stop-and-escalation procedure."
+            },
+            {
+              "heading": "The proposed application",
+              "text": "An agreed route can make a concern actionable before work continues. Its usability depends on authority, training, responsibilities, and what actually happens when someone raises a concern. The course has not demonstrated its effect on safety outcomes."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Edmondson (1999), Psychological Safety and Learning Behavior in Work Teams",
+              "url": "https://doi.org/10.2307/2666999",
+              "kind": "Observational field study; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -1343,25 +1755,62 @@
         "text": "In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence.\n\nIn Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting.\n\nBoth sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.",
         "id": "c05s05",
         "stage": "Evidence check",
-        "visual": "study-context"
+        "visual": "study-context",
+        "research": {
+          "sections": [
+            {
+              "heading": "What a synthesis adds",
+              "text": "Bond and Smith review studies using Asch-style line-judgment tasks and examine variation across cultural and historical contexts. A conformity result belongs to its task, participants, and conditions."
+            },
+            {
+              "heading": "Different procedures ask different questions",
+              "text": "Asch-style majority judgments and Milgram-style authority instructions are not the same manipulation. Burger’s partial replication also differs from the original authority procedure. No single percentage should be presented as a universal rate of obedience or conformity."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Bond & Smith (1996), Culture and conformity: A meta-analysis of studies using Asch's (1952b, 1956) line judgment task.",
+              "url": "https://doi.org/10.1037/0033-2909.119.1.111",
+              "kind": "Meta-analysis; access varies"
+            },
+            {
+              "title": "Burger (2009), Replicating Milgram: Would people still obey today?",
+              "url": "https://doi.org/10.1037/a0010932",
+              "kind": "Partial replication with modified safeguards; access varies"
+            },
+            {
+              "title": "OpenStax Psychology 2e: Conformity, Compliance, and Obedience",
+              "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nThe chair requests bypassing a required check. Which process helps?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nVolunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.\n\nWhich check best separates these possible influences?\n\nDescribe a pattern consistent with each influence and one limit on inferring motives.",
         "quiz": {
-          "prompt": "The chair requests bypassing a required check. Which process helps?",
+          "revision": "academic-transfer-v2",
+          "context": "Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.",
+          "prompt": "Which check best separates these possible influences?",
           "options": [
-            "Let the first confident person decide.",
-            "Allow anonymous complaints afterward.",
-            "Pause and use an agreed safety escalation route."
+            "Compare private estimates before and after reviewing the evidence, then compare private and public responses.",
+            "Record the final public vote after the chair repeats the endorsement.",
+            "Ask another team to run a different event and compare its decision."
           ],
-          "correct": 2,
+          "correct": 0,
+          "reasoningPrompt": "Describe a pattern consistent with each influence and one limit on inferring motives.",
+          "feedbackLabels": [
+            "Best fit for this question.",
+            "Consider what this comparison establishes.",
+            "Consider what this comparison establishes."
+          ],
           "feedback": [
-            "Confidence is not evidence of safety.",
-            "Later complaints cannot prevent unchecked work now.",
-            "An agreed stop-and-escalation route makes questioning possible while the safety decision still matters."
+            "Revised private estimates after new evidence are consistent with informational influence. Private doubts alongside public agreement are consistent with normative pressure. Neither pattern alone proves a private motive; the questions, evidence, and social conditions still matter.",
+            "The public vote records agreement but cannot show whether private estimates changed. Repeating an endorsement may supply pressure without new information.",
+            "Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed."
           ]
         },
         "id": "c05s06",
@@ -1461,17 +1910,25 @@
         ]
       },
       {
-        "prompt": "Few residents currently volunteer. Which invitation is defensible?",
+        "revision": "academic-transfer-v2",
+        "context": "Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.",
+        "prompt": "Which comparison best matches that aim?",
         "options": [
-          "“Everyone here already volunteers.”",
-          "“Hardly anyone helps—don’t be like them.”",
-          "“Try a supported two-hour shift; here is what it involves.”"
+          "Choose the version with more clicks, without checking what happened afterward.",
+          "Compare how much recipients like the celebrity and practical-detail versions.",
+          "Randomly assign truthful versions and measure understanding, informed sign-ups, and later attendance."
         ],
         "correct": 2,
+        "reasoningPrompt": "Distinguish two message outcomes and state a design or measurement limitation.",
+        "feedbackLabels": [
+          "Consider what this comparison establishes.",
+          "Consider what this comparison establishes.",
+          "Best fit for this question."
+        ],
         "feedback": [
-          "Claiming that everyone volunteers invents a descriptive norm that the team cannot substantiate.",
-          "Highlighting how few people help can make nonparticipation seem normal. The wording also adds shame.",
-          "A supported two-hour trial is a concrete, checkable request. Its effect on informed participation still needs evaluation."
+          "Clicks measure attention or interest in opening the message. They do not establish understanding, an informed decision, or continued participation.",
+          "Reported liking is an attitude outcome. It can matter, but it is different from understanding the commitment or taking part later.",
+          "Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination."
         ]
       }
     ],
@@ -1540,7 +1997,26 @@
           "Time, transport, support, and choice also affect action.",
           "Decide which outcome the invitation should support."
         ],
-        "text": "An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up.\n\nA resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does.\n\nWhen evaluating Maya’s invitation, distinguish a favorable reaction from understanding the commitment and choosing to participate. Ask what outcome the message is intended to support before deciding whether it worked."
+        "text": "An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up.\n\nA resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does.\n\nWhen evaluating Maya’s invitation, distinguish a favorable reaction from understanding the commitment and choosing to participate. Ask what outcome the message is intended to support before deciding whether it worked.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What was synthesized",
+              "text": "Glasman and Albarracín examine conditions affecting the relation between attitudes and later behavior. More accessible and stable attitudes tended to show stronger associations with subsequent behavior."
+            },
+            {
+              "heading": "What this means for the invitation",
+              "text": "A favorable evaluation, an intention, a sign-up, and attending later shifts are distinct outcomes. The review does not mean that changing any attitude will reliably change behavior, especially when time, access, support, or preferences differ."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Glasman & Albarracín (2006), Forming attitudes that predict future behavior: A meta-analysis of the attitude-behavior relation.",
+              "url": "https://doi.org/10.1037/0033-2909.132.5.778",
+              "kind": "Meta-analysis; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c06s03b",
@@ -1554,7 +2030,26 @@
           "Peripheral processing: give more weight to cues such as familiarity.",
           "These are processing differences, not fixed kinds of person."
         ],
-        "text": "The elaboration likelihood model describes how motivation and ability affect examination of a persuasive message. Central processing involves considering relevant arguments, such as shift length, available support, and the likely contribution.\n\nPeripheral processing gives more weight to cues such as a familiar face or an apparently credible speaker. A hurried passerby might respond favorably to the celebrity without checking practical details.\n\nThese are differences in how a message is processed, not fixed personality types or two sealed categories. The same person may examine different messages more or less carefully. Argument quality matters more when someone can and wants to think carefully."
+        "text": "The elaboration likelihood model describes how motivation and ability affect examination of a persuasive message. Central processing involves considering relevant arguments, such as shift length, available support, and the likely contribution.\n\nPeripheral processing gives more weight to cues such as a familiar face or an apparently credible speaker. A hurried passerby might respond favorably to the celebrity without checking practical details.\n\nThese are differences in how a message is processed, not fixed personality types or two sealed categories. The same person may examine different messages more or less carefully. Argument quality matters more when someone can and wants to think carefully.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The theoretical framework",
+              "text": "Petty and Cacioppo’s elaboration likelihood model concerns the extent and nature of thought about persuasive messages. Motivation and ability affect elaboration; argument scrutiny and simpler cues can play different roles."
+            },
+            {
+              "heading": "Limits on the shorthand",
+              "text": "Central and peripheral processing are not fixed types of people or two sealed mental compartments. A speaker’s expertise can act as a cue, an argument-relevant fact, or a reason to examine a message, depending on the setting. The café celebrity example is illustrative."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Petty & Cacioppo (1986), The Elaboration Likelihood Model of Persuasion",
+              "url": "https://doi.org/10.1016/S0065-2601(08)60214-2",
+              "kind": "Theoretical framework and research review; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c06s04",
@@ -1568,7 +2063,26 @@
           "Both example claims need evidence.",
           "Highlighting common nonparticipation can normalize it."
         ],
-        "text": "A descriptive norm concerns what people do. Saying that many residents volunteer makes a descriptive-norm claim. An injunctive norm concerns approval: saying the community values volunteering makes an injunctive-norm claim.\n\nBoth claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.\n\nBefore putting a norm in the café’s invitation, check whether the team can substantiate it. A truthful description of the actual commitment can be more useful than unsupported social proof."
+        "text": "A descriptive norm concerns what people do. Saying that many residents volunteer makes a descriptive-norm claim. An injunctive norm concerns approval: saying the community values volunteering makes an injunctive-norm claim.\n\nBoth claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.\n\nBefore putting a norm in the café’s invitation, check whether the team can substantiate it. A truthful description of the actual commitment can be more useful than unsupported social proof.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the experimental work distinguishes",
+              "text": "Cialdini, Reno, and Kallgren examine normative conduct in littering settings, separating what people commonly do from what is socially approved and considering which norm is made salient."
+            },
+            {
+              "heading": "Applying the distinction",
+              "text": "An invitation makes a descriptive claim when it says what residents do and an injunctive claim when it says what they approve. Both need evidence. Results from littering contexts do not supply a guaranteed effect size for volunteer recruitment or permission to invent social proof."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Cialdini et al. (1990), A focus theory of normative conduct: Recycling the concept of norms to reduce littering in public places.",
+              "url": "https://doi.org/10.1037/0022-3514.58.6.1015",
+              "kind": "Experimental social-norm research; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c06s04b",
@@ -1582,7 +2096,31 @@
           "Next step: make questions or a supported trial possible.",
           "Choice: leave room to decline."
         ],
-        "text": "Writing an honest invitation is a practical task. For the café, explain what a volunteer would contribute, how long a shift takes, and what support is available.\n\nMake the next step clear. A potential volunteer could ask a question or try a supported shift before making a larger commitment. Leave room to decline without pressure.\n\nRemove social-proof claims the team cannot substantiate. To evaluate the revised invitation, check understanding and informed participation, rather than relying only on attention or clicks."
+        "text": "Writing an honest invitation is a practical task. For the café, explain what a volunteer would contribute, how long a shift takes, and what support is available.\n\nMake the next step clear. A potential volunteer could ask a question or try a supported shift before making a larger commitment. Leave room to decline without pressure.\n\nRemove social-proof claims the team cannot substantiate. To evaluate the revised invitation, check understanding and informed participation, rather than relying only on attention or clicks.",
+        "research": {
+          "sections": [
+            {
+              "heading": "An authored application",
+              "text": "The practical invitation steps combine relevant reasons, an accurate commitment, an accessible next step, and meaningful choice. They are a proposed application of message processing and outcome measurement, rather than a tested intervention in this course."
+            },
+            {
+              "heading": "What to evaluate",
+              "text": "Compare truthful versions for comparable audiences, define the outcome, and follow what happens after attention. A claim about informed participation needs evidence about understanding and decisions, not only favorable reactions."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Petty & Cacioppo (1986), The Elaboration Likelihood Model of Persuasion",
+              "url": "https://doi.org/10.1016/S0065-2601(08)60214-2",
+              "kind": "Theoretical framework and research review; access varies"
+            },
+            {
+              "title": "Webb & Sheeran (2006), Does changing behavioral intentions engender behavior change? A meta-analysis of the experimental evidence.",
+              "url": "https://doi.org/10.1037/0033-2909.132.2.249",
+              "kind": "Meta-analysis of experimental evidence; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -1594,25 +2132,57 @@
         "text": "Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.\n\nFor the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering.\n\nThe team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.",
         "id": "c06s05",
         "stage": "Evidence check",
-        "visual": "persuasion-outcomes"
+        "visual": "persuasion-outcomes",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the meta-analysis tested",
+              "text": "Webb and Sheeran synthesize experiments designed to change intentions and measure subsequent behavior. Across the included tests, changes in intention were larger than changes in behavior, with variation across conditions."
+            },
+            {
+              "heading": "The limit that stays in the lesson",
+              "text": "An intention, a changed survey answer, and sustained participation are different outcomes. The café’s proposed follow-up is not automatically causal evidence: assignment, nonresponse, shared messages, and who remains available all need examination."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Webb & Sheeran (2006), Does changing behavioral intentions engender behavior change? A meta-analysis of the experimental evidence.",
+              "url": "https://doi.org/10.1037/0033-2909.132.2.249",
+              "kind": "Meta-analysis of experimental evidence; access varies"
+            },
+            {
+              "title": "Glasman & Albarracín (2006), Forming attitudes that predict future behavior: A meta-analysis of the attitude-behavior relation.",
+              "url": "https://doi.org/10.1037/0033-2909.132.5.778",
+              "kind": "Meta-analysis; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nFew residents currently volunteer. Which invitation is defensible?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nTwo café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.\n\nWhich comparison best matches that aim?\n\nDistinguish two message outcomes and state a design or measurement limitation.",
         "quiz": {
-          "prompt": "Few residents currently volunteer. Which invitation is defensible?",
+          "revision": "academic-transfer-v2",
+          "context": "Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.",
+          "prompt": "Which comparison best matches that aim?",
           "options": [
-            "“Everyone here already volunteers.”",
-            "“Hardly anyone helps—don’t be like them.”",
-            "“Try a supported two-hour shift; here is what it involves.”"
+            "Choose the version with more clicks, without checking what happened afterward.",
+            "Compare how much recipients like the celebrity and practical-detail versions.",
+            "Randomly assign truthful versions and measure understanding, informed sign-ups, and later attendance."
           ],
           "correct": 2,
+          "reasoningPrompt": "Distinguish two message outcomes and state a design or measurement limitation.",
+          "feedbackLabels": [
+            "Consider what this comparison establishes.",
+            "Consider what this comparison establishes.",
+            "Best fit for this question."
+          ],
           "feedback": [
-            "Claiming that everyone volunteers invents a descriptive norm that the team cannot substantiate.",
-            "Highlighting how few people help can make nonparticipation seem normal. The wording also adds shame.",
-            "A supported two-hour trial is a concrete, checkable request. Its effect on informed participation still needs evaluation."
+            "Clicks measure attention or interest in opening the message. They do not establish understanding, an informed decision, or continued participation.",
+            "Reported liking is an attitude outcome. It can matter, but it is different from understanding the commitment or taking part later.",
+            "Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination."
           ]
         },
         "id": "c06s06",
@@ -1687,12 +2257,12 @@
       {
         "title": "Poor output can have different causes.",
         "points": [
-          "Social loafing: individual effort can fall in pooled work.",
+          "Social loafing: lower individual effort in collective work than in an appropriate individual comparison.",
           "Coordination loss: genuine effort is poorly combined.",
           "The unfinished checklist alone establishes neither process.",
           "Check effort, tools, sequencing, and roles."
         ],
-        "text": "Social loafing means reducing individual effort when working collectively. A volunteer might check fewer items because their contribution will be hidden in the team’s total.\n\nCoordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.\n\nBefore choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause."
+        "text": "Social loafing is lower individual effort in collective work than when working individually or when a contribution is evaluated separately. A volunteer might check fewer items because their contribution will be hidden in the team’s total.\n\nCoordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.\n\nBefore choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause."
       }
     ],
     "evidence": "Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.\n\nTo review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?\n\nThen choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.",
@@ -1712,17 +2282,25 @@
         ]
       },
       {
-        "prompt": "An event budget keeps escalating without checking demand. What helps?",
+        "revision": "academic-transfer-v2",
+        "context": "Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.",
+        "prompt": "Which check best distinguishes coordination loss from reduced effort?",
         "options": [
-          "Ask members to show stronger enthusiasm.",
-          "Gather independent estimates and contrary evidence.",
-          "Open with the chair’s preferred budget."
+          "Compare individual task completion and handovers on matched shifts before and after clarifying dependencies.",
+          "Count how often volunteers describe their commitment in meetings.",
+          "Compare team headcount on the busiest and quietest days."
         ],
-        "correct": 1,
+        "correct": 0,
+        "reasoningPrompt": "Name evidence consistent with each explanation and one limitation of the comparison.",
+        "feedbackLabels": [
+          "Best fit for this question.",
+          "Consider what this comparison establishes.",
+          "Consider what this comparison establishes."
+        ],
         "feedback": [
-          "Rewarding public enthusiasm can encourage visible commitment without improving the demand estimate.",
-          "Independent estimates and contrary evidence give the group information beyond its existing enthusiasm.",
-          "The chair’s opening budget can become an anchor: a starting number that pulls later estimates toward it, even when demand has not been checked."
+          "Examine actual effort and how contributions fit together. Duplicated work and blocked handovers can reduce output despite high effort. A before-and-after improvement would still leave other changing conditions to investigate.",
+          "Commitment reports provide information about members’ accounts. They do not show how much work was done or whether willing efforts were combined effectively.",
+          "Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination."
         ]
       }
     ],
@@ -1791,7 +2369,26 @@
           "In-group favoritism: favoring members of that group.",
           "Group preference can produce unequal treatment without explicit hatred."
         ],
-        "text": "Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as us. Giving repair volunteers first choice of shifts simply because they are our team illustrates in-group favoritism.\n\nThe welcome team’s contribution may then receive less recognition or influence. Favoritism can create unequal treatment without explicit hatred of outsiders.\n\nWhen reviewing the café’s division, examine how membership affects actual decisions. A group label suggests a process to investigate; it does not reveal every member’s private motives."
+        "text": "Group memberships help people understand who they are and who belongs with them. An in-group is a group someone sees as us. Giving repair volunteers first choice of shifts simply because they are our team illustrates in-group favoritism.\n\nThe welcome team’s contribution may then receive less recognition or influence. Favoritism can create unequal treatment without explicit hatred of outsiders.\n\nWhen reviewing the café’s division, examine how membership affects actual decisions. A group label suggests a process to investigate; it does not reveal every member’s private motives.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the experiments examined",
+              "text": "Tajfel and colleagues used minimal group classifications and reward-allocation choices. In-group favoritism appeared in a setting where prior hostility and ordinary material conflict had been reduced by the design."
+            },
+            {
+              "heading": "What the example cannot show",
+              "text": "The café teams have histories, roles, and resources that minimal-group tasks do not reproduce. A group label can suggest a process to investigate; it does not establish hostility, explain every unequal decision, or reveal each person’s private motive."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Tajfel et al. (1971), Social categorization and intergroup behaviour",
+              "url": "https://doi.org/10.1002/ejsp.2420010202",
+              "kind": "Minimal-group experiments; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c07s03b",
@@ -1805,7 +2402,31 @@
           "Participation: share decisions, credit, and burdens.",
           "Check: a shared name alone does not change incentives or power."
         ],
-        "text": "A successful visitor experience needs both the welcome desk and the repair bench. A shared goal can help the teams see why both contributions matter.\n\nTranslate that goal into arrangements: who greets the visitor, who assesses the repair, what information moves between teams, and which tools and decisions each team can access. Review workloads and share credit.\n\nA shared name alone does not resolve unequal power or conflicting incentives. If one team still controls the shift schedule and resources, renaming everyone the café team leaves those arrangements in place."
+        "text": "A successful visitor experience needs both the welcome desk and the repair bench. A shared goal can help the teams see why both contributions matter.\n\nTranslate that goal into arrangements: who greets the visitor, who assesses the repair, what information moves between teams, and which tools and decisions each team can access. Review workloads and share credit.\n\nA shared name alone does not resolve unequal power or conflicting incentives. If one team still controls the shift schedule and resources, renaming everyone the café team leaves those arrangements in place.",
+        "research": {
+          "sections": [
+            {
+              "heading": "A related research approach",
+              "text": "Gaertner and colleagues examine recategorization: representing separate groups through a common group identity. This is a research approach to intergroup bias, not proof that a shared name alone changes power or incentives."
+            },
+            {
+              "heading": "The proposed café application",
+              "text": "The course adds explicit tasks, decision rights, resources, and feedback to make a shared visitor goal workable. That package is authored practice. It has not been evaluated here, and it should be assessed through actual coordination and treatment rather than team slogans."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gaertner et al. (1989), Reducing intergroup bias: The benefits of recategorization.",
+              "url": "https://doi.org/10.1037/0022-3514.57.2.239",
+              "kind": "Experimental recategorization research; access varies"
+            },
+            {
+              "title": "Tajfel et al. (1971), Social categorization and intergroup behaviour",
+              "url": "https://doi.org/10.1002/ejsp.2420010202",
+              "kind": "Minimal-group experiments; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c07s04",
@@ -1819,7 +2440,26 @@
           "Consensus means agreement; polarization concerns direction and extremity.",
           "Compare independent views before and after discussion."
         ],
-        "text": "Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute.\n\nSimply agreeing on a similar small event would be consensus. Agreement and polarization can also occur together; the key question is how the positions changed.\n\nTo examine the café’s discussion, compare members’ independent views before and after it. An ambitious final budget alone cannot establish which process produced it."
+        "text": "Group polarization means moving toward a more extreme version of a group’s initial leaning. A team initially favoring a small event might finish discussion demanding a week-long festival. Supporting arguments and comparisons with enthusiastic members can contribute.\n\nSimply agreeing on a similar small event would be consensus. Agreement and polarization can also occur together; the key question is how the positions changed.\n\nTo examine the café’s discussion, compare members’ independent views before and after it. An ambitious final budget alone cannot establish which process produced it.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What is reviewed",
+              "text": "Isenberg reviews and synthesizes evidence on group polarization: shifts toward a more extreme version of an initial leaning after group interaction. Persuasive arguments and social comparison are relevant accounts of the process."
+            },
+            {
+              "heading": "What needs measurement",
+              "text": "Agreement is not itself polarization. Record individual positions before and after discussion, what information was shared, and the decision context. A large final budget alone cannot show which process produced it."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Isenberg (1986), Group polarization: A critical review and meta-analysis.",
+              "url": "https://doi.org/10.1037/0022-3514.50.6.1141",
+              "kind": "Critical review and meta-analysis; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c07s04b",
@@ -1828,12 +2468,36 @@
         "stage": "Effort and coordination",
         "visual": "loafing-coordination",
         "points": [
-          "Social loafing: individual effort can fall in pooled work.",
+          "Social loafing: lower individual effort in collective work than in an appropriate individual comparison.",
           "Coordination loss: genuine effort is poorly combined.",
           "The unfinished checklist alone establishes neither process.",
           "Check effort, tools, sequencing, and roles."
         ],
-        "text": "Social loafing means reducing individual effort when working collectively. A volunteer might check fewer items because their contribution will be hidden in the team’s total.\n\nCoordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.\n\nBefore choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause."
+        "text": "Social loafing is lower individual effort in collective work than when working individually or when a contribution is evaluated separately. A volunteer might check fewer items because their contribution will be hidden in the team’s total.\n\nCoordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined.\n\nBefore choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The comparison in the literature",
+              "text": "Karau and Williams synthesize research on lower individual effort in collective work compared with an appropriate individual or evaluation condition. Effort depends on the task, identifiability, meaning, and other conditions."
+            },
+            {
+              "heading": "Why coordination is separate",
+              "text": "Group output can also fall because willing contributions are duplicated, blocked, or poorly sequenced. Observing an unfinished checklist does not measure effort. The café comparison is invented and should examine both effort and how contributions fit together."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Karau & Williams (1993), Social loafing: A meta-analytic review and theoretical integration.",
+              "url": "https://doi.org/10.1037/0022-3514.65.4.681",
+              "kind": "Meta-analysis and theoretical integration; access varies"
+            },
+            {
+              "title": "OpenStax Psychology 2e: Conformity, Compliance, and Obedience",
+              "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -1845,25 +2509,52 @@
         "text": "Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.\n\nTo review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?\n\nThen choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.",
         "id": "c07s05",
         "stage": "Evidence check",
-        "visual": "groupthink"
+        "visual": "groupthink",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the review covers",
+              "text": "Esser reviews historical-case analyses and laboratory research on groupthink, alongside theoretical and methodological difficulties. The account proposes that pressure for agreement can interfere with critical evaluation."
+            },
+            {
+              "heading": "Limits on retrospective labels",
+              "text": "A failed decision does not establish that groupthink occurred. Evidence should concern discussion, withheld concerns, information, and alternatives. The course’s independent estimates and structured disagreement are proposed practices, not a demonstrated cure for all group failures."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Esser (1998), Alive and Well after 25 Years: A Review of Groupthink Research",
+              "url": "https://doi.org/10.1006/obhd.1998.2758",
+              "kind": "Research review; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nAn event budget keeps escalating without checking demand. What helps?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nWelcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.\n\nWhich check best distinguishes coordination loss from reduced effort?\n\nName evidence consistent with each explanation and one limitation of the comparison.",
         "quiz": {
-          "prompt": "An event budget keeps escalating without checking demand. What helps?",
+          "revision": "academic-transfer-v2",
+          "context": "Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.",
+          "prompt": "Which check best distinguishes coordination loss from reduced effort?",
           "options": [
-            "Ask members to show stronger enthusiasm.",
-            "Gather independent estimates and contrary evidence.",
-            "Open with the chair’s preferred budget."
+            "Compare individual task completion and handovers on matched shifts before and after clarifying dependencies.",
+            "Count how often volunteers describe their commitment in meetings.",
+            "Compare team headcount on the busiest and quietest days."
           ],
-          "correct": 1,
+          "correct": 0,
+          "reasoningPrompt": "Name evidence consistent with each explanation and one limitation of the comparison.",
+          "feedbackLabels": [
+            "Best fit for this question.",
+            "Consider what this comparison establishes.",
+            "Consider what this comparison establishes."
+          ],
           "feedback": [
-            "Rewarding public enthusiasm can encourage visible commitment without improving the demand estimate.",
-            "Independent estimates and contrary evidence give the group information beyond its existing enthusiasm.",
-            "The chair’s opening budget can become an anchor: a starting number that pulls later estimates toward it, even when demand has not been checked."
+            "Examine actual effort and how contributions fit together. Duplicated work and blocked handovers can reduce output despite high effort. A before-and-after improvement would still leave other changing conditions to investigate.",
+            "Commitment reports provide information about members’ accounts. They do not show how much work was done or whether willing efforts were combined effectively.",
+            "Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination."
           ]
         },
         "id": "c07s06",
@@ -1963,17 +2654,25 @@
         ]
       },
       {
-        "prompt": "Friend referrals become an open skills-based application. How can improvement be assessed?",
+        "revision": "academic-transfer-v2",
+        "context": "Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.",
+        "prompt": "What evidence best examines whether access improved?",
         "options": [
-          "Check whether organizers feel more inclusive.",
-          "Compare the friendliness of form wording.",
-          "Track applications, progression, and participation using relevant criteria."
+          "Survey organizers about how welcoming the process now feels.",
+          "Track comparable applicants through assessment, offers, and participation, and ask about barriers.",
+          "Compare the form’s wording with a different café’s form."
         ],
-        "correct": 2,
+        "correct": 1,
+        "reasoningPrompt": "Name one access outcome and one reason a before-and-after change would not establish its cause.",
+        "feedbackLabels": [
+          "Consider what this comparison establishes.",
+          "Best fit for this question.",
+          "Consider what this comparison establishes."
+        ],
         "feedback": [
-          "Organizers feeling more inclusive is a reaction to the change. It does not establish that access improved.",
-          "Wording can help, but outcomes still matter.",
-          "Applications, progression, and participation can show where barriers remain. Interpret those outcomes with context and privacy safeguards."
+          "Organizers’ impressions are a reported reaction to the change. They do not establish who could enter, progress, or remain involved.",
+          "Follow the process and the outcomes, including applicants’ experiences. Changes in applicants, recruitment, or other conditions limit a before-and-after causal claim. Use relevant measures and avoid unnecessary personal data.",
+          "Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed."
         ]
       }
     ],
@@ -2042,7 +2741,26 @@
           "Discrimination: unequal treatment based on group membership.",
           "Evidence about one does not establish everything about the others."
         ],
-        "text": "A stereotype is a generalized belief about a group, such as assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them.\n\nDiscrimination is unequal treatment based on group membership, such as rejecting an applicant because they are a newcomer without checking relevant skills.\n\nBeliefs, attitudes, and actions can overlap, but evidence about one does not establish everything about the others. A decision is evidence to examine; it does not reveal an organizer’s entire belief system. The recruitment process also needs inspection."
+        "text": "A stereotype is a generalized belief about a group, such as assuming that every newcomer lacks repair skills. Prejudice is an attitude toward a group, often involving dislike: resenting newcomers before meeting them.\n\nDiscrimination is unequal treatment based on group membership, such as rejecting an applicant because they are a newcomer without checking relevant skills.\n\nBeliefs, attitudes, and actions can overlap, but evidence about one does not establish everything about the others. A decision is evidence to examine; it does not reveal an organizer’s entire belief system. The recruitment process also needs inspection.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The conceptual distinctions",
+              "text": "A stereotype concerns a generalized belief about a group, prejudice an evaluative attitude, and discrimination differential treatment based on membership. They can be related without being interchangeable measures."
+            },
+            {
+              "heading": "What the case establishes",
+              "text": "The newcomer example is fictional. A decision can be examined as treatment without supplying a complete diagnosis of the decision maker’s beliefs or character. Procedures and opportunities may also create unequal outcomes."
+            }
+          ],
+          "sources": [
+            {
+              "title": "OpenStax Psychology 2e: Prejudice and Discrimination",
+              "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c08s03b",
@@ -2056,7 +2774,26 @@
           "Timing: who cannot attend during working hours?",
           "Evidence: examine access and outcomes, not intentions alone."
         ],
-        "text": "The café says everyone is welcome, yet recruitment runs through existing friends, meetings happen during working hours, and applicants are expected to own specialist tools. Each arrangement can restrict who enters.\n\nTrace the route from hearing about the opportunity to applying and participating. Ask where people are excluded or drop out, and investigate the reasons.\n\nA barrier can remain without an openly hostile statement. Good intentions alone do not establish fair access. The observed process does not, by itself, diagnose an organizer’s attitude or character."
+        "text": "The café says everyone is welcome, yet recruitment runs through existing friends, meetings happen during working hours, and applicants are expected to own specialist tools. Each arrangement can restrict who enters.\n\nTrace the route from hearing about the opportunity to applying and participating. Ask where people are excluded or drop out, and investigate the reasons.\n\nA barrier can remain without an openly hostile statement. Good intentions alone do not establish fair access. The observed process does not, by itself, diagnose an organizer’s attitude or character.",
+        "research": {
+          "sections": [
+            {
+              "heading": "An example of measuring treatment",
+              "text": "Bertrand and Mullainathan sent fictitious résumés to job advertisements, randomly varying names associated with perceived racial categories. Callback differences provided evidence about differential employer responses in that design."
+            },
+            {
+              "heading": "Important limits",
+              "text": "Callbacks are not job offers, and the study concerns particular labor-market settings. It does not identify every employer’s private attitude. The café’s tools, meeting times, and referral rules are separate fictional barriers to investigate; the résumé experiment did not test them."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Bertrand & Mullainathan (2004), Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination",
+              "url": "https://doi.org/10.1257/0002828042002561",
+              "kind": "Randomized correspondence field experiment; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c08s04",
@@ -2070,7 +2807,35 @@
           "Sharing a room is not the same as sharing decisions.",
           "Check whether newcomers can actually participate."
         ],
-        "text": "Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support matter.\n\nExperienced volunteers and newcomers could work together on a repair, share decisions, and receive support from the coordinator. If newcomers only watch while established members control the tools, participation is less equal.\n\nEvaluate the encounter people actually experience. Contact and changes to recruitment rules are different interventions, so each needs its own assessment."
+        "text": "Intergroup contact means interaction between members of different groups. It can reduce prejudice on average, though bringing people together does not guarantee improvement. Cooperation, common goals, equal status within the encounter, and institutional support matter.\n\nExperienced volunteers and newcomers could work together on a repair, share decisions, and receive support from the coordinator. If newcomers only watch while established members control the tools, participation is less equal.\n\nEvaluate the encounter people actually experience. Contact and changes to recruitment rules are different interventions, so each needs its own assessment.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the broad synthesis found",
+              "text": "Pettigrew and Tropp synthesize contact studies and report that intergroup contact generally relates to reduced prejudice. Favorable conditions can strengthen effects; they are not necessary requirements for every beneficial result."
+            },
+            {
+              "heading": "What a narrower review adds",
+              "text": "Paluck, Green, and Green review randomized contact studies with delayed outcomes, finding important gaps and variation. Those were gaps in the evidence reviewed at that time, not a claim that no later studies exist."
+            },
+            {
+              "heading": "Application limits",
+              "text": "Contact does not guarantee improvement, and it does not automatically remove a recruitment rule. Check the people, type of encounter, outcomes, and follow-up before generalizing to the café."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pettigrew & Tropp (2006), A meta-analytic test of intergroup contact theory.",
+              "url": "https://doi.org/10.1037/0022-3514.90.5.751",
+              "kind": "Meta-analysis; access varies"
+            },
+            {
+              "title": "Paluck et al. (2019), The contact hypothesis re-evaluated",
+              "url": "https://doi.org/10.1017/bpp.2018.25",
+              "kind": "Review of randomized contact studies with delayed outcomes; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c08s04b",
@@ -2084,7 +2849,35 @@
           "Example: share specialist tools where feasible.",
           "Evaluate access, progression, and participation; protect privacy."
         ],
-        "text": "A friendly contact event does not change a rule requiring applicants to own expensive tools. Removing that requirement where unnecessary is a procedural change.\n\nThe café could open applications beyond existing friends, use relevant skills criteria, and provide shared tools where feasible. Specify the barrier each change is intended to address.\n\nFollow up who can apply, progress, and remain involved. Include applicants’ experiences, interpret small samples cautiously, and protect privacy. A revised form or a feeling of inclusiveness alone cannot establish that access improved."
+        "text": "A friendly contact event does not change a rule requiring applicants to own expensive tools. Removing that requirement where unnecessary is a procedural change.\n\nThe café could open applications beyond existing friends, use relevant skills criteria, and provide shared tools where feasible. Specify the barrier each change is intended to address.\n\nFollow up who can apply, progress, and remain involved. Include applicants’ experiences, interpret small samples cautiously, and protect privacy. A revised form or a feeling of inclusiveness alone cannot establish that access improved.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The intervention description",
+              "text": "A procedural change alters a rule or process. It is not itself a named psychological theory or a result showing that access improved. The course’s proposed open application and shared tools need their own assessment."
+            },
+            {
+              "heading": "What the broader review cautions",
+              "text": "Paluck and colleagues review prejudice-reduction experiments and identify limitations in durable outcomes, publication patterns, and the actionable conclusions that can be drawn. Their review is not a direct test of this café’s recruitment plan."
+            },
+            {
+              "heading": "What to inspect",
+              "text": "Follow relevant applications, progression, and participation, alongside applicants’ experiences. Changing applicant composition or other conditions limits a before-and-after causal interpretation."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Paluck et al. (2021), Prejudice Reduction: Progress and Challenges",
+              "url": "https://doi.org/10.1146/annurev-psych-071620-030619",
+              "kind": "Review and meta-analysis of intervention experiments; access varies"
+            },
+            {
+              "title": "Bertrand & Mullainathan (2004), Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination",
+              "url": "https://doi.org/10.1257/0002828042002561",
+              "kind": "Randomized correspondence field experiment; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -2096,25 +2889,57 @@
         "text": "An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.\n\nWhen interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action.\n\nWhen evaluating a recruitment change, inspect access and participation: who can apply, progress, and remain involved? Include follow-up and the experiences of applicants. An organizer saying “I am fair” cannot establish that those outcomes are fair.\n\nInterpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
         "id": "c08s05",
         "stage": "Evidence check",
-        "visual": "attitude-measures"
+        "visual": "attitude-measures",
+        "research": {
+          "sections": [
+            {
+              "heading": "What was synthesized",
+              "text": "Kurdi and colleagues examine associations between Implicit Association Tests and intergroup behavior. Associations varied substantially with measurement and methodological features; the review does not support treating every score as an individual character diagnosis."
+            },
+            {
+              "heading": "Separate constructs and outcomes",
+              "text": "An explicit report, a response-speed association measure, and observed treatment are different sources of evidence. A recruitment intervention needs evidence about access and behavior, including later outcomes. Neither a self-description of fairness nor a single score settles those questions."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Kurdi et al. (2019), Relationship between the Implicit Association Test and intergroup behavior: A meta-analysis.",
+              "url": "https://doi.org/10.1037/amp0000364",
+              "kind": "Meta-analysis of measurement–behavior associations; access varies"
+            },
+            {
+              "title": "Paluck et al. (2021), Prejudice Reduction: Progress and Challenges",
+              "url": "https://doi.org/10.1146/annurev-psych-071620-030619",
+              "kind": "Review and meta-analysis of intervention experiments; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nFriend referrals become an open skills-based application. How can improvement be assessed?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nFriend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.\n\nWhat evidence best examines whether access improved?\n\nName one access outcome and one reason a before-and-after change would not establish its cause.",
         "quiz": {
-          "prompt": "Friend referrals become an open skills-based application. How can improvement be assessed?",
+          "revision": "academic-transfer-v2",
+          "context": "Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.",
+          "prompt": "What evidence best examines whether access improved?",
           "options": [
-            "Check whether organizers feel more inclusive.",
-            "Compare the friendliness of form wording.",
-            "Track applications, progression, and participation using relevant criteria."
+            "Survey organizers about how welcoming the process now feels.",
+            "Track comparable applicants through assessment, offers, and participation, and ask about barriers.",
+            "Compare the form’s wording with a different café’s form."
           ],
-          "correct": 2,
+          "correct": 1,
+          "reasoningPrompt": "Name one access outcome and one reason a before-and-after change would not establish its cause.",
+          "feedbackLabels": [
+            "Consider what this comparison establishes.",
+            "Best fit for this question.",
+            "Consider what this comparison establishes."
+          ],
           "feedback": [
-            "Organizers feeling more inclusive is a reaction to the change. It does not establish that access improved.",
-            "Wording can help, but outcomes still matter.",
-            "Applications, progression, and participation can show where barriers remain. Interpret those outcomes with context and privacy safeguards."
+            "Organizers’ impressions are a reported reaction to the change. They do not establish who could enter, progress, or remain involved.",
+            "Follow the process and the outcomes, including applicants’ experiences. Changes in applicants, recruitment, or other conditions limit a before-and-after causal claim. Use relevant measures and avoid unnecessary personal data.",
+            "Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed."
           ]
         },
         "id": "c08s06",
@@ -2179,12 +3004,11 @@
       {
         "title": "Closeness depends on the response.",
         "points": [
-          "Disclosure: sharing something personal.",
-          "Responsiveness: helping someone feel understood and cared for.",
-          "Reciprocity: mutual consideration over time.",
-          "Check what support is wanted before offering advice."
+          "Disclosure: sharing personally relevant information.",
+          "Responsiveness: feeling understood, validated, and cared for.",
+          "Reciprocity: responding to another person’s action with a related action."
         ],
-        "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for.\n\nSam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.\n\nReciprocity means consideration can flow both ways over time. It does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter."
+        "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for.\n\nSam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.\n\nReciprocity means responding to another person’s action with a related action, such as returning help or disclosure. Reciprocal responses can also be negative; the term does not mean kindness alone. In a friendship, neither a favor nor a disclosure creates a right to a matching response."
       },
       {
         "title": "Respond to the preference someone states.",
@@ -2214,17 +3038,25 @@
         ]
       },
       {
-        "prompt": "Sam declines an invitation and needs time alone. What should Leo do?",
+        "revision": "academic-transfer-v2",
+        "context": "After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.",
+        "prompt": "Which evidence best examines whether responsiveness relates to closeness?",
         "options": [
-          "Diagnose an avoidant attachment style.",
-          "Accept the boundary and leave future contact optional.",
-          "Increase contact to use the familiarity effect."
+          "Record only how often the pair meets after the shared shift begins.",
+          "Invite both, if willing, to report disclosure, perceived responsiveness, and closeness across conversations.",
+          "Compare shared interests and later friendship ratings across different pairs."
         ],
         "correct": 1,
+        "reasoningPrompt": "State an observable or reported measure and one limit on a causal interpretation.",
+        "feedbackLabels": [
+          "Consider what this comparison establishes.",
+          "Best fit for this question.",
+          "Consider what this comparison establishes."
+        ],
         "feedback": [
-          "One declined invitation does not establish an attachment pattern.",
-          "Accepting the invitation refusal respects Sam’s stated preference without inventing a diagnosis.",
-          "The familiarity effect is not a reason to ignore Sam’s expressed boundary."
+          "Meeting frequency informs opportunity and exposure. It does not show how either person experienced the other’s response.",
+          "Repeated reports from both people can examine how disclosure, responsiveness, and closeness vary together. They do not establish a one-way cause; existing closeness may also affect responses. Participation and personal boundaries remain voluntary.",
+          "Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute."
         ]
       }
     ],
@@ -2293,7 +3125,31 @@
           "Sam and Leo share a shift and an interest in old radios.",
           "Connection still depends on mutual willingness."
         ],
-        "text": "Daily settings affect whom people have opportunities to meet. Sharing the Thursday shift brings Sam and Leo into contact. Their interest in old radios gives them something to discuss.\n\nProximity creates opportunities, and similarity can make conversation easier. Neither guarantees attraction, compatibility, or a healthy relationship.\n\nNotice reciprocal interest and respect expressed boundaries. Their shared shift creates opportunities for friendship; it creates no obligation to become friends. The effect of repeated familiarity is a related question in the next lesson."
+        "text": "Daily settings affect whom people have opportunities to meet. Sharing the Thursday shift brings Sam and Leo into contact. Their interest in old radios gives them something to discuss.\n\nProximity creates opportunities, and similarity can make conversation easier. Neither guarantees attraction, compatibility, or a healthy relationship.\n\nNotice reciprocal interest and respect expressed boundaries. Their shared shift creates opportunities for friendship; it creates no obligation to become friends. The effect of repeated familiarity is a related question in the next lesson.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the synthesis distinguishes",
+              "text": "Montoya, Horton, and Kirchner compare actual and perceived similarity in relation to attraction. The patterns differ with interaction and relationship context; perceived similarity and measured similarity are not interchangeable."
+            },
+            {
+              "heading": "The café application",
+              "text": "A shared shift creates opportunities to meet; a shared interest can support conversation. These are possible contributions, not a formula for compatibility, entitlement, or a healthy relationship. The café friendship is fictional."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Montoya et al. (2008), Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity",
+              "url": "https://doi.org/10.1177/0265407508096700",
+              "kind": "Meta-analysis; access varies"
+            },
+            {
+              "title": "OpenStax Psychology 2e: Prosocial Behavior",
+              "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c09s03b",
@@ -2307,7 +3163,26 @@
           "Repetition can also intensify annoyance or threat.",
           "A stated boundary still matters."
         ],
-        "text": "The mere exposure effect refers to cases where repeated encounters increase liking. A face that initially feels unfamiliar may become more comfortable to see.\n\nThat pattern has limits. Repeated unwanted contact can intensify annoyance or threat. More contact is not automatically better, and a general research pattern does not determine what Sam or Leo should want.\n\nUse shared activities as opportunities for willing interaction. If someone declines an invitation or asks for space, respect that preference rather than treating familiarity as a reason to persist."
+        "text": "The mere exposure effect refers to cases where repeated encounters increase liking. A face that initially feels unfamiliar may become more comfortable to see.\n\nThat pattern has limits. Repeated unwanted contact can intensify annoyance or threat. More contact is not automatically better, and a general research pattern does not determine what Sam or Leo should want.\n\nUse shared activities as opportunities for willing interaction. If someone declines an invitation or asks for space, respect that preference rather than treating familiarity as a reason to persist.",
+        "research": {
+          "sections": [
+            {
+              "heading": "What the meta-analysis examines",
+              "text": "Montoya and colleagues synthesize repeated-exposure studies of liking, familiarity, recognition, and related evaluations. Liking does not follow a simple rule that every additional exposure increases it; the shape and size of the pattern depend on conditions."
+            },
+            {
+              "heading": "What cannot be inferred",
+              "text": "Controlled exposures to stimuli do not establish how a particular person wants to be approached. Unwanted interaction and boundaries are separate matters. The course’s recommendation to respect a refusal is an ethical application, not a result derived from an exposure curve."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Montoya et al. (2017), A re-examination of the mere exposure effect: The influence of repeated exposure on recognition, familiarity, and liking.",
+              "url": "https://doi.org/10.1037/bul0000085",
+              "kind": "Meta-analysis; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c09s04",
@@ -2316,12 +3191,44 @@
         "stage": "Disclosure and responsiveness",
         "visual": "disclosure-responsiveness",
         "points": [
-          "Disclosure: sharing something personal.",
-          "Responsiveness: helping someone feel understood and cared for.",
-          "Reciprocity: mutual consideration over time.",
-          "Check what support is wanted before offering advice."
+          "Disclosure: sharing personally relevant information.",
+          "Responsiveness: feeling understood, validated, and cared for.",
+          "Reciprocity: responding to another person’s action with a related action."
         ],
-        "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for.\n\nSam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.\n\nReciprocity means consideration can flow both ways over time. It does not require matching secrets on demand or treating favors as debts. Trust, willingness, fairness, and commitment also matter."
+        "text": "Disclosure means sharing something personal. Leo mentioning a difficult week is a disclosure. Responsiveness means responding in a way that helps someone feel understood and cared for.\n\nSam could listen, check what Leo means, and ask whether listening, practical help, or advice would be useful. Disclosure can support intimacy when it receives an understanding response.\n\nReciprocity means responding to another person’s action with a related action, such as returning help or disclosure. Reciprocal responses can also be negative; the term does not mean kindness alone. In a friendship, neither a favor nor a disclosure creates a right to a matching response.",
+        "research": {
+          "sections": [
+            {
+              "heading": "Interpersonal-process evidence",
+              "text": "Laurenceau, Barrett, and Pietromonaco examine disclosure, perceived responsiveness, and experienced intimacy in interpersonal exchanges. The work supports examining how people experience responses, rather than counting disclosure alone."
+            },
+            {
+              "heading": "A precise use of reciprocity",
+              "text": "Gouldner discusses a norm of returning benefits; Fehr and Gächter review reciprocity in economic behavior, including fairness and retaliation. Reciprocity can describe positive or negative contingent responses and is not a synonym for kindness."
+            },
+            {
+              "heading": "Limits and application",
+              "text": "Associations among disclosure, responsiveness, and closeness do not establish a one-way cause or a requirement to match another person’s disclosure. Neither a favor nor a personal disclosure creates an entitlement to a response."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Laurenceau et al. (1998), Intimacy as an interpersonal process: The importance of self-disclosure, partner disclosure, and perceived partner responsiveness in interpersonal exchanges.",
+              "url": "https://doi.org/10.1037/0022-3514.74.5.1238",
+              "kind": "Interpersonal-process studies; access varies"
+            },
+            {
+              "title": "Gouldner (1960), The Norm of Reciprocity: A Preliminary Statement",
+              "url": "https://doi.org/10.2307/2092623",
+              "kind": "Conceptual account of a social norm; access varies"
+            },
+            {
+              "title": "Fehr & Gächter (2000), Fairness and Retaliation: The Economics of Reciprocity",
+              "url": "https://doi.org/10.1257/jep.14.3.159",
+              "kind": "Review of reciprocity in economic behavior; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c09s04b",
@@ -2335,7 +3242,31 @@
           "Sam’s refusal states a preference for now.",
           "Leo can accept it and leave future contact optional."
         ],
-        "text": "People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses.\n\nWhen Sam declines an invitation and asks for time alone, Leo has a stated preference to respond to. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference.\n\nLeo can accept the refusal and leave future contact optional. To understand a relationship, ask about the people’s actual experiences and wishes rather than inferring a complete explanation from a label."
+        "text": "People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses.\n\nWhen Sam declines an invitation and asks for time alone, Leo has a stated preference to respond to. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference.\n\nLeo can accept the refusal and leave future contact optional. To understand a relationship, ask about the people’s actual experiences and wishes rather than inferring a complete explanation from a label.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The research domain",
+              "text": "Hazan and Shaver apply attachment ideas to adult romantic love; Fraley, Waller, and Brennan examine measurement of adult attachment using item-response methods. These are specific theoretical and measurement approaches, not a way to diagnose anyone who declines an invitation."
+            },
+            {
+              "heading": "What remains visible in the lesson",
+              "text": "The café situation concerns a stated preference. One refusal is insufficient evidence of an enduring attachment pattern, and sources about adult romantic relationships do not decide what a particular friend or coworker wants. Ask about experience and respect the stated boundary."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Hazan & Shaver (1987), Romantic love conceptualized as an attachment process.",
+              "url": "https://doi.org/10.1037/0022-3514.52.3.511",
+              "kind": "Theoretical account with self-report evidence; access varies"
+            },
+            {
+              "title": "Fraley et al. (2000), An item response theory analysis of self-report measures of adult attachment.",
+              "url": "https://doi.org/10.1037/0022-3514.78.2.350",
+              "kind": "Psychometric analysis of adult-attachment measures; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -2347,25 +3278,57 @@
         "text": "Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.\n\nTo apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.",
         "id": "c09s05",
         "stage": "Evidence check",
-        "visual": "relationship-evidence"
+        "visual": "relationship-evidence",
+        "research": {
+          "sections": [
+            {
+              "heading": "Study design matters",
+              "text": "The linked similarity synthesis and interpersonal-process studies examine different constructs, samples, and outcomes. Self-reports can describe people’s experiences, while also depending on memory, interpretation, and how questions are asked."
+            },
+            {
+              "heading": "What a relationship cannot establish",
+              "text": "An association between similarity, responsiveness, and closeness does not prove that changing one factor will improve this relationship. Existing closeness, selection, and other circumstances may also contribute. The fictional Sam–Leo case illustrates a question rather than a tested intervention."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Montoya et al. (2008), Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity",
+              "url": "https://doi.org/10.1177/0265407508096700",
+              "kind": "Meta-analysis; access varies"
+            },
+            {
+              "title": "Laurenceau et al. (1998), Intimacy as an interpersonal process: The importance of self-disclosure, partner disclosure, and perceived partner responsiveness in interpersonal exchanges.",
+              "url": "https://doi.org/10.1037/0022-3514.74.5.1238",
+              "kind": "Interpersonal-process studies; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nSam declines an invitation and needs time alone. What should Leo do?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nAfter several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.\n\nWhich evidence best examines whether responsiveness relates to closeness?\n\nState an observable or reported measure and one limit on a causal interpretation.",
         "quiz": {
-          "prompt": "Sam declines an invitation and needs time alone. What should Leo do?",
+          "revision": "academic-transfer-v2",
+          "context": "After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.",
+          "prompt": "Which evidence best examines whether responsiveness relates to closeness?",
           "options": [
-            "Diagnose an avoidant attachment style.",
-            "Accept the boundary and leave future contact optional.",
-            "Increase contact to use the familiarity effect."
+            "Record only how often the pair meets after the shared shift begins.",
+            "Invite both, if willing, to report disclosure, perceived responsiveness, and closeness across conversations.",
+            "Compare shared interests and later friendship ratings across different pairs."
           ],
           "correct": 1,
+          "reasoningPrompt": "State an observable or reported measure and one limit on a causal interpretation.",
+          "feedbackLabels": [
+            "Consider what this comparison establishes.",
+            "Best fit for this question.",
+            "Consider what this comparison establishes."
+          ],
           "feedback": [
-            "One declined invitation does not establish an attachment pattern.",
-            "Accepting the invitation refusal respects Sam’s stated preference without inventing a diagnosis.",
-            "The familiarity effect is not a reason to ignore Sam’s expressed boundary."
+            "Meeting frequency informs opportunity and exposure. It does not show how either person experienced the other’s response.",
+            "Repeated reports from both people can examine how disclosure, responsiveness, and closeness vary together. They do not establish a one-way cause; existing closeness may also affect responses. Participation and personal boundaries remain voluntary.",
+            "Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute."
           ]
         },
         "id": "c09s06",
@@ -2412,10 +3375,10 @@
         "points": [
           "Bystander effect: others’ presence can reduce an individual’s likelihood of helping.",
           "Diffusion of responsibility: someone else will act.",
-          "Pluralistic ignorance: others look calm, so perhaps no help is needed.",
+          "Pluralistic ignorance: private uncertainty is mistaken for shared reassurance.",
           "Context can also make other people a source of help."
         ],
-        "text": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.\n\nPluralistic ignorance concerns interpreting reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. He has mistaken an appearance for a private assessment.\n\nDiffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting."
+        "text": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.\n\nPluralistic ignorance is a shared misperception of other people’s private beliefs or concerns. Each café volunteer may be unsure whether help is needed while reading the others’ outward calm as reassurance. Their public reactions hide their private uncertainty.\n\nDiffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting."
       },
       {
         "title": "Give concern a workable next step.",
@@ -2440,12 +3403,12 @@
       {
         "title": "Turn a shared aim into coordinated work.",
         "points": [
-          "Cooperation: coordinate contributions toward a shared outcome.",
+          "Cooperation: joint action toward shared or mutually beneficial outcomes.",
           "Name roles and provide resources and support.",
           "Agree how problems will be raised.",
           "Review contributions, benefits, burdens, and feedback."
         ],
-        "text": "Cooperation needs more than a general wish to work together. A shared task needs a clear outcome, named contributions, usable resources, and a way to report problems.\n\nFor the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.\n\nReview the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective."
+        "text": "Cooperation is joint action directed toward shared or mutually beneficial outcomes. Clear roles and feedback are possible ways to organize it, rather than the definition or a guarantee of success.\n\nA shared café task needs a clear outcome, usable resources, and a way to report problems.\n\nFor the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.\n\nReview the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective."
       }
     ],
     "evidence": "Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.\n\nBystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident.\n\nFor a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.",
@@ -2465,17 +3428,25 @@
         ]
       },
       {
-        "prompt": "Which preparation makes future help more likely?",
+        "revision": "academic-transfer-v2",
+        "context": "In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.",
+        "prompt": "Which change most directly tests the proposed responsibility problem?",
         "options": [
-          "Tell everyone to be more caring.",
-          "Assume the most senior person handles all incidents.",
-          "Agree on response roles, training, and a call-for-help route."
+          "Add recognition training without changing task ownership.",
+          "Discuss why the list matters while leaving its owner unspecified.",
+          "Introduce a named checker and backup; compare completion and handovers across similar shifts."
         ],
         "correct": 2,
+        "reasoningPrompt": "Identify the process addressed, the outcome to record, and one limit of your comparison.",
+        "feedbackLabels": [
+          "Consider what this comparison establishes.",
+          "Consider what this comparison establishes.",
+          "Best fit for this question."
+        ],
         "feedback": [
-          "Asking everyone to care more leaves the required action and responsibility unclear.",
-          "The most senior person may be absent or lack the relevant training. Assuming that person will act leaves a gap in the plan.",
-          "Roles, training, and a call-for-help route address ability and responsibility as well as good intentions."
+          "Training can address missing skills or recognition. The stated problem is unclear responsibility despite knowing what to do, so training alone leaves that explanation untested.",
+          "Discussion may improve shared understanding, but the record already says people recognized the problem. Leaving ownership unspecified retains the proposed responsibility gap.",
+          "Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention."
         ]
       }
     ],
@@ -2545,10 +3516,43 @@
         "points": [
           "Bystander effect: others’ presence can reduce an individual’s likelihood of helping.",
           "Diffusion of responsibility: someone else will act.",
-          "Pluralistic ignorance: others look calm, so perhaps no help is needed.",
+          "Pluralistic ignorance: private uncertainty is mistaken for shared reassurance.",
           "Context can also make other people a source of help."
         ],
-        "text": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.\n\nPluralistic ignorance concerns interpreting reactions. Leo might read Sam’s outward calm as reassurance that no help is needed, even while Sam is privately uncertain. He has mistaken an appearance for a private assessment.\n\nDiffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting."
+        "text": "The bystander effect describes conditions where others’ presence reduces an individual’s likelihood of helping. Diffusion of responsibility is one possible process: a concerned volunteer assumes someone else will act.\n\nPluralistic ignorance is a shared misperception of other people’s private beliefs or concerns. Each café volunteer may be unsure whether help is needed while reading the others’ outward calm as reassurance. Their public reactions hide their private uncertainty.\n\nDiffusion concerns who should act; pluralistic ignorance concerns how the need is interpreted. Both could contribute after the shelf falls. In other situations, people provide essential support. The effect depends on the setting.",
+        "research": {
+          "sections": [
+            {
+              "heading": "Two experimental approaches",
+              "text": "Darley and Latané examined helping when others appeared available to respond; Latané and Darley also studied group inhibition when people interpreted an ambiguous emergency. The tasks help distinguish responsibility from interpreting others’ reactions."
+            },
+            {
+              "heading": "What a synthesis adds",
+              "text": "Fischer and colleagues find that bystander effects depend on danger, relationships, and available support. Other people can also make intervention more feasible. The result is not a rule that crowds never help or that hesitation proves indifference."
+            },
+            {
+              "heading": "Limits",
+              "text": "Controlled tasks do not reproduce every emergency. The fictional shelf incident cannot establish each volunteer’s private belief or justify unsafe experiments with real emergencies."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Darley & Latane (1968), Bystander intervention in emergencies: Diffusion of responsibility.",
+              "url": "https://doi.org/10.1037/h0025589",
+              "kind": "Controlled bystander experiment; access varies"
+            },
+            {
+              "title": "Latane & Darley (1968), Group inhibition of bystander intervention in emergencies.",
+              "url": "https://doi.org/10.1037/h0026570",
+              "kind": "Controlled group-inhibition experiment; access varies"
+            },
+            {
+              "title": "Fischer et al. (2011), The bystander-effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies.",
+              "url": "https://doi.org/10.1037/a0023304",
+              "kind": "Meta-analysis; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c10s03b",
@@ -2562,7 +3566,26 @@
           "Action: use appropriate skills, training, and support.",
           "Review: check the outcome for a low-risk shared task."
         ],
-        "text": "Explaining hesitation and planning an appropriate response are different tasks. For a low-risk shared job, clarify the need, agree who will act, and check that the person has the necessary skills and support.\n\nFor example, before a café session, the team can name who checks a shared setup task and how that person reports an unresolved problem. A clear handover makes responsibility visible.\n\nIn an emergency, follow local guidance and your training and contact appropriate help. A social psychology model does not replace practical instruction. Evaluate the plan by whether appropriate help becomes available."
+        "text": "Explaining hesitation and planning an appropriate response are different tasks. For a low-risk shared job, clarify the need, agree who will act, and check that the person has the necessary skills and support.\n\nFor example, before a café session, the team can name who checks a shared setup task and how that person reports an unresolved problem. A clear handover makes responsibility visible.\n\nIn an emergency, follow local guidance and your training and contact appropriate help. A social psychology model does not replace practical instruction. Evaluate the plan by whether appropriate help becomes available.",
+        "research": {
+          "sections": [
+            {
+              "heading": "A proposed application",
+              "text": "The course’s low-risk planning steps make a need, owner, action, and handover explicit. They are an authored application of the distinction between noticing a problem and taking responsibility."
+            },
+            {
+              "heading": "Evidence and safety limits",
+              "text": "The bystander synthesis does not validate this particular checklist or replace emergency training. Evaluate a plan using appropriate, low-risk outcomes and established responsibilities. Do not delay or withhold necessary help to create a comparison."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Fischer et al. (2011), The bystander-effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies.",
+              "url": "https://doi.org/10.1037/a0023304",
+              "kind": "Meta-analysis; access varies"
+            }
+          ]
+        }
       },
       {
         "id": "c10s04",
@@ -2576,7 +3599,31 @@
           "De-escalation: reduce tension and the risk of harm.",
           "Context helps explain conduct without removing responsibility."
         ],
-        "text": "Aggression is behavior intended to harm. Anger is a feeling. A volunteer can feel angry about the fallen shelf and still respond constructively.\n\nFrustration, perceived threat, situational pressure, and learned expectations can contribute to aggression. Those influences do not make harm inevitable or remove responsibility.\n\nDe-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate those arrangements rather than treating them as guarantees."
+        "text": "Aggression is behavior intended to harm. Anger is a feeling. A volunteer can feel angry about the fallen shelf and still respond constructively.\n\nFrustration, perceived threat, situational pressure, and learned expectations can contribute to aggression. Those influences do not make harm inevitable or remove responsibility.\n\nDe-escalation means reducing tension and the risk of harm. At the café, space to calm down, clear conduct rules, and a trained person to contact may help. Evaluate those arrangements rather than treating them as guarantees.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The research framework",
+              "text": "Anderson and Bushman review aggression through interacting personal and situational influences, with cognition, affect, and arousal as relevant processes. Anger is an emotional state; aggression concerns behavior intended to harm."
+            },
+            {
+              "heading": "What is proposed here",
+              "text": "Space, conduct rules, and a trained contact are practical arrangements to evaluate in context. This course does not establish their effects as a de-escalation intervention. The framework does not make harmful conduct inevitable or remove accountability."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Anderson & Bushman (2002), Human Aggression",
+              "url": "https://doi.org/10.1146/annurev.psych.53.100901.135231",
+              "kind": "Theoretical and research review; access varies"
+            },
+            {
+              "title": "OpenStax Psychology 2e: Aggression",
+              "url": "https://openstax.org/books/psychology-2e/pages/12-6-aggression",
+              "kind": "Open introductory textbook"
+            }
+          ]
+        }
       },
       {
         "id": "c10s04b",
@@ -2585,12 +3632,35 @@
         "stage": "Cooperation",
         "visual": "cooperation-plan",
         "points": [
-          "Cooperation: coordinate contributions toward a shared outcome.",
+          "Cooperation: joint action toward shared or mutually beneficial outcomes.",
           "Name roles and provide resources and support.",
           "Agree how problems will be raised.",
           "Review contributions, benefits, burdens, and feedback."
         ],
-        "text": "Cooperation needs more than a general wish to work together. A shared task needs a clear outcome, named contributions, usable resources, and a way to report problems.\n\nFor the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.\n\nReview the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective."
+        "text": "Cooperation is joint action directed toward shared or mutually beneficial outcomes. Clear roles and feedback are possible ways to organize it, rather than the definition or a guarantee of success.\n\nA shared café task needs a clear outcome, usable resources, and a way to report problems.\n\nFor the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible.\n\nReview the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.",
+        "research": {
+          "sections": [
+            {
+              "heading": "The academic concept",
+              "text": "Cooperation concerns joint action toward shared or mutually beneficial outcomes. Named roles and feedback describe ways to organize a task; they are not the definition and do not guarantee success."
+            },
+            {
+              "heading": "What the synthesis examines",
+              "text": "Balliet synthesizes communication studies in social dilemmas and finds that communication can increase cooperation, with variation by communication form and setting."
+            },
+            {
+              "heading": "The application limit",
+              "text": "Experimental social dilemmas are not the same as café maintenance. The course’s roles, resources, and feedback plan is an authored proposal. Check completion, coordination, and the distribution of benefits and burdens rather than assuming a shared aim is enough."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Balliet (2010), Communication and Cooperation in Social Dilemmas: A Meta-Analytic Review",
+              "url": "https://doi.org/10.1177/0022002709352443",
+              "kind": "Meta-analysis of social-dilemma research; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "evidence",
@@ -2602,25 +3672,61 @@
         "text": "Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.\n\nBystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident.\n\nFor a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.",
         "id": "c10s05",
         "stage": "Evidence check",
-        "visual": "proxy-and-context"
+        "visual": "proxy-and-context",
+        "research": {
+          "sections": [
+            {
+              "heading": "What a measurement comparison found",
+              "text": "Elson and colleagues compare published ways of administering and analyzing a competitive reaction-time task. Different analytic procedures produced different significance levels and estimated effects in the data they examined."
+            },
+            {
+              "heading": "The inference limit",
+              "text": "A controlled aggression score is not a direct measure of serious violence. Interpret the task, scoring rule, and context before generalizing. Likewise, the bystander meta-analysis supports attention to context, not a deterministic crowd rule."
+            },
+            {
+              "heading": "Practical boundary",
+              "text": "Psychological explanations do not replace relevant emergency or first-aid training. The course’s low-risk planning exercises do not establish that a response plan works in a real emergency."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Elson et al. (2014), Press CRTT to measure aggressive behavior: The unstandardized use of the competitive reaction time task in aggression research.",
+              "url": "https://doi.org/10.1037/a0035569",
+              "kind": "Measurement and analytic-method comparison; access varies"
+            },
+            {
+              "title": "Fischer et al. (2011), The bystander-effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies.",
+              "url": "https://doi.org/10.1037/a0023304",
+              "kind": "Meta-analysis; access varies"
+            }
+          ]
+        }
       },
       {
         "kind": "transfer",
         "title": "Try the idea somewhere new.",
         "points": [],
-        "text": "Apply the idea to a new decision.\n\nWhich preparation makes future help more likely?\n\nChoose an action and explain why it addresses the problem.",
+        "text": "Apply the idea to a new decision.\n\nIn a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.\n\nWhich change most directly tests the proposed responsibility problem?\n\nIdentify the process addressed, the outcome to record, and one limit of your comparison.",
         "quiz": {
-          "prompt": "Which preparation makes future help more likely?",
+          "revision": "academic-transfer-v2",
+          "context": "In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.",
+          "prompt": "Which change most directly tests the proposed responsibility problem?",
           "options": [
-            "Tell everyone to be more caring.",
-            "Assume the most senior person handles all incidents.",
-            "Agree on response roles, training, and a call-for-help route."
+            "Add recognition training without changing task ownership.",
+            "Discuss why the list matters while leaving its owner unspecified.",
+            "Introduce a named checker and backup; compare completion and handovers across similar shifts."
           ],
           "correct": 2,
+          "reasoningPrompt": "Identify the process addressed, the outcome to record, and one limit of your comparison.",
+          "feedbackLabels": [
+            "Consider what this comparison establishes.",
+            "Consider what this comparison establishes.",
+            "Best fit for this question."
+          ],
           "feedback": [
-            "Asking everyone to care more leaves the required action and responsibility unclear.",
-            "The most senior person may be absent or lack the relevant training. Assuming that person will act leaves a gap in the plan.",
-            "Roles, training, and a call-for-help route address ability and responsibility as well as good intentions."
+            "Training can address missing skills or recognition. The stated problem is unclear responsibility despite knowing what to do, so training alone leaves that explanation untested.",
+            "Discussion may improve shared understanding, but the record already says people recognized the problem. Leaving ownership unspecified retains the proposed responsibility gap.",
+            "Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention."
           ]
         },
         "id": "c10s06",

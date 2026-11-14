@@ -1,0 +1,243 @@
+{
+  "1": {
+    "revision": "attribution-evidence-v2",
+    "context": "Noor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.",
+    "record": {
+      "caption": "Invented teaching record · six shifts",
+      "headers": [
+        "Shift conditions",
+        "Late",
+        "On time"
+      ],
+      "rows": [
+        [
+          "Earlier start; bus cancelled",
+          "3",
+          "0"
+        ],
+        [
+          "Later start; bus running",
+          "0",
+          "3"
+        ]
+      ],
+      "spoken": "All three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running."
+    },
+    "prompt": "Which additional comparison best separates these explanations?",
+    "options": [
+      "Noor’s punctuality on early shifts with and without bus cancellations.",
+      "Noor’s punctuality at a different activity reached on foot.",
+      "Other volunteers’ punctuality on early café shifts."
+    ],
+    "correct": 0,
+    "reasoningPrompt": "Why does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.",
+    "feedbackLabels": [
+      "Most direct comparison.",
+      "Useful for a different question.",
+      "Potentially useful, but less direct."
+    ],
+    "feedback": [
+      "Compare the same volunteer at the same early start time while bus availability differs. This helps separate the bus explanation from the earlier-start explanation. The comparison is observational: other conditions may change too, and six shifts give little evidence about a lasting personal tendency.",
+      "Punctuality elsewhere could inform an explanation based on a broader personal tendency. Changing the activity, journey, and schedule does not isolate the bus explanation from the early start. Comparing Noor across early café shifts with and without cancellations addresses the question more directly.",
+      "Other volunteers’ punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from Noor’s. A more direct comparison keeps Noor and the early start similar while bus availability differs; other changing circumstances would still need investigation."
+    ]
+  },
+  "2": {
+    "revision": "academic-transfer-v2",
+    "context": "The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.",
+    "prompt": "Which redesign most directly tests that claim?",
+    "options": [
+      "Keep the existing groups and compare attendance over more weekends.",
+      "Randomly assign A or B within both contact groups for the same event.",
+      "Use only first-time contacts; send A this month and B next month."
+    ],
+    "correct": 1,
+    "reasoningPrompt": "Name the competing explanation your design addresses and one remaining limitation.",
+    "feedbackLabels": [
+      "Consider what this comparison establishes.",
+      "Best fit for this question.",
+      "Consider what this comparison establishes."
+    ],
+    "feedback": [
+      "More weekends may improve precision, but the invitation still differs with prior interest. A larger record does not remove that competing explanation.",
+      "Random assignment within both contact groups helps separate invitation design from prior interest. Define attendance before comparing results. Shared invitations and evidence from only one event would still limit the conclusion.",
+      "Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result."
+    ]
+  },
+  "3": {
+    "revision": "academic-transfer-v2",
+    "context": "Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.",
+    "prompt": "What would most improve a comparison of failure rates?",
+    "options": [
+      "Count every fault mentioned in the evening-session chat.",
+      "Ask the most experienced evening repairer to estimate the failure rate.",
+      "Compare failure proportions among comparable repairs using the same follow-up period."
+    ],
+    "correct": 2,
+    "reasoningPrompt": "State the denominator you need and one reason a difference would not establish its cause.",
+    "feedbackLabels": [
+      "Consider what this comparison establishes.",
+      "Consider what this comparison establishes.",
+      "Best fit for this question."
+    ],
+    "feedback": [
+      "The chat can identify faults, but it may miss successful repairs and cases nobody reports. A failure rate needs a relevant total and consistent follow-up.",
+      "Experience can supply useful information, but the estimate still needs a representative record. Agreement with an expert does not supply the missing denominator.",
+      "Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference."
+    ]
+  },
+  "4": {
+    "revision": "academic-transfer-v2",
+    "context": "In an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.",
+    "prompt": "Which information matters most to the next cost comparison?",
+    "options": [
+      "Whether retraining adds more than £40 in future cost.",
+      "Which volunteer feels most responsible for the original £600.",
+      "Whether other cafés also paid £600 for the same tool."
+    ],
+    "correct": 0,
+    "reasoningPrompt": "Separate an irrecoverable cost from a future consequence, and identify one assumption to check.",
+    "feedbackLabels": [
+      "Best fit for this question.",
+      "Consider what this comparison establishes.",
+      "Consider what this comparison establishes."
+    ],
+    "feedback": [
+      "Under these assumptions, the support-cost difference is forty pounds. Retraining could change which future option costs less. Also compare uncertainty, disruption, and benefits before deciding. The nonrefundable payment cannot be recovered by continuing.",
+      "Responsibility and discomfort can affect the discussion, but they do not change whether the old payment is recoverable. The next cost comparison concerns future support, switching, and retraining.",
+      "Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs."
+    ]
+  },
+  "5": {
+    "revision": "academic-transfer-v2",
+    "context": "Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.",
+    "prompt": "Which check best separates these possible influences?",
+    "options": [
+      "Compare private estimates before and after reviewing the evidence, then compare private and public responses.",
+      "Record the final public vote after the chair repeats the endorsement.",
+      "Ask another team to run a different event and compare its decision."
+    ],
+    "correct": 0,
+    "reasoningPrompt": "Describe a pattern consistent with each influence and one limit on inferring motives.",
+    "feedbackLabels": [
+      "Best fit for this question.",
+      "Consider what this comparison establishes.",
+      "Consider what this comparison establishes."
+    ],
+    "feedback": [
+      "Revised private estimates after new evidence are consistent with informational influence. Private doubts alongside public agreement are consistent with normative pressure. Neither pattern alone proves a private motive; the questions, evidence, and social conditions still matter.",
+      "The public vote records agreement but cannot show whether private estimates changed. Repeating an endorsement may supply pressure without new information.",
+      "Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed."
+    ]
+  },
+  "6": {
+    "revision": "academic-transfer-v2",
+    "context": "Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.",
+    "prompt": "Which comparison best matches that aim?",
+    "options": [
+      "Choose the version with more clicks, without checking what happened afterward.",
+      "Compare how much recipients like the celebrity and practical-detail versions.",
+      "Randomly assign truthful versions and measure understanding, informed sign-ups, and later attendance."
+    ],
+    "correct": 2,
+    "reasoningPrompt": "Distinguish two message outcomes and state a design or measurement limitation.",
+    "feedbackLabels": [
+      "Consider what this comparison establishes.",
+      "Consider what this comparison establishes.",
+      "Best fit for this question."
+    ],
+    "feedback": [
+      "Clicks measure attention or interest in opening the message. They do not establish understanding, an informed decision, or continued participation.",
+      "Reported liking is an attitude outcome. It can matter, but it is different from understanding the commitment or taking part later.",
+      "Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination."
+    ]
+  },
+  "7": {
+    "revision": "academic-transfer-v2",
+    "context": "Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.",
+    "prompt": "Which check best distinguishes coordination loss from reduced effort?",
+    "options": [
+      "Compare individual task completion and handovers on matched shifts before and after clarifying dependencies.",
+      "Count how often volunteers describe their commitment in meetings.",
+      "Compare team headcount on the busiest and quietest days."
+    ],
+    "correct": 0,
+    "reasoningPrompt": "Name evidence consistent with each explanation and one limitation of the comparison.",
+    "feedbackLabels": [
+      "Best fit for this question.",
+      "Consider what this comparison establishes.",
+      "Consider what this comparison establishes."
+    ],
+    "feedback": [
+      "Examine actual effort and how contributions fit together. Duplicated work and blocked handovers can reduce output despite high effort. A before-and-after improvement would still leave other changing conditions to investigate.",
+      "Commitment reports provide information about members’ accounts. They do not show how much work was done or whether willing efforts were combined effectively.",
+      "Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination."
+    ]
+  },
+  "8": {
+    "revision": "academic-transfer-v2",
+    "context": "Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.",
+    "prompt": "What evidence best examines whether access improved?",
+    "options": [
+      "Survey organizers about how welcoming the process now feels.",
+      "Track comparable applicants through assessment, offers, and participation, and ask about barriers.",
+      "Compare the form’s wording with a different café’s form."
+    ],
+    "correct": 1,
+    "reasoningPrompt": "Name one access outcome and one reason a before-and-after change would not establish its cause.",
+    "feedbackLabels": [
+      "Consider what this comparison establishes.",
+      "Best fit for this question.",
+      "Consider what this comparison establishes."
+    ],
+    "feedback": [
+      "Organizers’ impressions are a reported reaction to the change. They do not establish who could enter, progress, or remain involved.",
+      "Follow the process and the outcomes, including applicants’ experiences. Changes in applicants, recruitment, or other conditions limit a before-and-after causal claim. Use relevant measures and avoid unnecessary personal data.",
+      "Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed."
+    ]
+  },
+  "9": {
+    "revision": "academic-transfer-v2",
+    "context": "After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.",
+    "prompt": "Which evidence best examines whether responsiveness relates to closeness?",
+    "options": [
+      "Record only how often the pair meets after the shared shift begins.",
+      "Invite both, if willing, to report disclosure, perceived responsiveness, and closeness across conversations.",
+      "Compare shared interests and later friendship ratings across different pairs."
+    ],
+    "correct": 1,
+    "reasoningPrompt": "State an observable or reported measure and one limit on a causal interpretation.",
+    "feedbackLabels": [
+      "Consider what this comparison establishes.",
+      "Best fit for this question.",
+      "Consider what this comparison establishes."
+    ],
+    "feedback": [
+      "Meeting frequency informs opportunity and exposure. It does not show how either person experienced the other’s response.",
+      "Repeated reports from both people can examine how disclosure, responsiveness, and closeness vary together. They do not establish a one-way cause; existing closeness may also affect responses. Participation and personal boundaries remain voluntary.",
+      "Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute."
+    ]
+  },
+  "10": {
+    "revision": "academic-transfer-v2",
+    "context": "In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.",
+    "prompt": "Which change most directly tests the proposed responsibility problem?",
+    "options": [
+      "Add recognition training without changing task ownership.",
+      "Discuss why the list matters while leaving its owner unspecified.",
+      "Introduce a named checker and backup; compare completion and handovers across similar shifts."
+    ],
+    "correct": 2,
+    "reasoningPrompt": "Identify the process addressed, the outcome to record, and one limit of your comparison.",
+    "feedbackLabels": [
+      "Consider what this comparison establishes.",
+      "Consider what this comparison establishes.",
+      "Best fit for this question."
+    ],
+    "feedback": [
+      "Training can address missing skills or recognition. The stated problem is unclear responsibility despite knowing what to do, so training alone leaves that explanation untested.",
+      "Discussion may improve shared understanding, but the record already says people recognized the problem. Leaving ownership unspecified retains the proposed responsibility gap.",
+      "Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention."
+    ]
+  }
+}

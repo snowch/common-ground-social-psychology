@@ -51,7 +51,9 @@ for c in C:
   z.writestr('START-HERE.txt',f"COMMON GROUND — CHAPTER {n}: {c['title']}\n\nOpen {slug}.html in a browser and press Play narration. Recorded Kokoro af_heart audio is embedded for offline use. {slug}.m4a is the continuous audio track. {slug}.pdf is the static deck. visual-guide.html and visual-guide.pdf collect all 48 teaching illustrations. study-guide.pdf contains the evidence notes and optional written final case; this companion has no recorded narration.\n\nExplore social psychology through fictional café stories, decisions, recall, and field practice. Asset credits and licenses are in FONT-LICENSE.txt, THIRD-PARTY-NOTICES.txt, and licenses/.\n")
  digest=hashlib.sha256(archive.read_bytes()).hexdigest()[:12]
  size=archive.stat().st_size/2**20
- assert size<24,(slug,size)
+ # The fuller research companion still fits with margin below the hosted
+ # 25 MiB asset ceiling, which is also enforced on every final file below.
+ assert size<24.8,(slug,size)
  rows.append(f'<li><span class="download-num">{n:02d}</span><div><h2>{html.escape(c["title"])}</h2><p>{html.escape(c["topic"])}</p></div><a class="button" href="downloads/{slug}.zip?v={digest}" download aria-label="Download chapter {n}: {html.escape(c["title"],quote=True)}">Download chapter <span>{size:.1f} MB</span></a></li>')
 shutil.copy(R/'common-ground-slides.pdf',D/'downloads/all-slides.pdf')
 font_css='\n'.join(re.findall(r'@font-face\{[^}]+\}',(P/'index.html').read_text()))

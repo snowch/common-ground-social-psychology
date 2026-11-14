@@ -1,0 +1,22 @@
+{
+  "chapters": 10,
+  "teaching_pages_with_optional_research": 48,
+  "expanded_checks": 192,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "expanded_research_axe_audits": 48,
+  "axe_violations": 0,
+  "written_transfer_tasks": 10,
+  "transfer_feedback_variants": 30,
+  "old_replaced_choices": "cleared; original decisions and current Chapter 1 response retained",
+  "written_responses_across_standalone_files": "passed",
+  "response_escaping": "passed",
+  "research_print_sources": 48,
+  "study_companion_research_topics": 48,
+  "study_companion_chapter_links": 10,
+  "js_errors": []
+}

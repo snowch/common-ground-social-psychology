@@ -66,7 +66,7 @@ function differenceFigure(){
  return conceptSVG('effect-size','Invented example: attendance is 12 of 100 versus 15 of 100 households. The observed difference is three percentage points; the estimate remains uncertain.',label(260,28,'Invented attendance example',24)+bar(100,12,'Invitation A','#7058A3')+bar(246,15,'Invitation B','#216B88')+label(260,391,'15% − 12% = 3 percentage points',25)+figureFooter('A different sample could give a different estimate.'));
 }
 function significanceFigure(){return compareFigure('significance-importance','Two questions about a result',
- [['Statistical','significance'],['How unusual under','a specified model?','Often a model of','no group difference.'],'record'],
+ [['Statistical','significance'],['A test crosses a','prespecified threshold.','A p-value is not the','probability that a','hypothesis is true.'],'record'],
  [['Practical','importance'],['How large is','the difference?','Is it useful enough','for the decision?'],'record'],
  ['Significance does not measure usefulness.','Nonsignificance does not prove zero effect.']);}
 function researchCycleFigure(){return flowFigure('research-reliability','Build confidence through checks',[
@@ -185,7 +185,7 @@ const visualCatalog={
  'sampling-assignment':lessonView('sampling-assignment','Random sampling and random assignment',samplingFigure,'Choosing the sample and assigning conditions answer different questions.',['Random assignment','Random sampling']),
  'correlation-causation':lessonView('correlation-causation','Correlation and causation',correlationFigure,'A shared pattern leaves multiple causes possible.',['Correlation']),
  'effect-size':lessonView('effect-size','Effect size and uncertainty',differenceFigure,'Invented counts illustrate the size of a difference.',['percentage points']),
- 'significance-importance':lessonView('significance-importance','Statistical significance and practical importance',significanceFigure,'Model-based evidence and practical value are different questions.',['Statistical significance']),
+ 'significance-importance':lessonView('significance-importance','Statistical significance and practical importance',significanceFigure,'Statistical significance concerns a p-value threshold; it does not measure practical importance.',['Statistical significance','p-value']),
  'research-reliability':lessonView('research-reliability','Preregistration, transparency, and replication',researchCycleFigure,'Plan, inspect, and independently repeat a sound comparison.',['Replication','Preregistration']),
  'availability-base-rate':lessonView('availability-base-rate','Availability heuristic, base rates, and denominators',availabilityFigure,'The invented whole record gives a vivid case its denominator.',['Availability heuristic','Base rate','Denominator']),
  'confirmation-bias':lessonView('confirmation-bias','Confirmation bias',confirmationBiasScene,conceptCaptions.c03s04,['Confirmation bias']),
@@ -221,7 +221,7 @@ const visualCatalog={
  'helping-barriers':lessonView('helping-barriers','Helping and the bystander effect',helpingBarriersScene,'In some settings, others’ presence can reduce an individual’s likelihood of helping. These are two possible processes; context, skills, and support also matter.',['Bystander effect','Diffusion of responsibility','Pluralistic ignorance']),
  'helping-path':lessonView('helping-path','A safe helping process',helpingPathFigure,'Clear responsibility, skills, and support can make action feasible.',[]),
  'anger-aggression':lessonView('anger-aggression','Anger, aggression, and de-escalation',aggressionFigure,'A feeling does not predetermine a harmful action.',['Aggression','De-escalation']),
- 'cooperation-plan':lessonView('cooperation-plan','Cooperation with roles and feedback',cooperationFigure,'A specific arrangement can turn a shared aim into coordinated work.',['Cooperation']),
+ 'cooperation-plan':lessonView('cooperation-plan','Cooperation with roles and feedback',cooperationFigure,'Cooperation is joint action toward shared or mutually beneficial outcomes; this plan is an application.',['Cooperation']),
  'proxy-and-context':lessonView('proxy-and-context','Research measures, context, and safe help',proxyMeasuresFigure,'Interpret controlled tasks and real incidents with appropriate limits.',[]),
 };
 const visualLessons=Object.fromEntries(COURSE.flatMap(c=>c.slides.filter(s=>s.visual).map(s=>[s.id,[visualCatalog[s.visual]]])));

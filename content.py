@@ -154,19 +154,9 @@ chapter('Who will do something?','Aggression, helping & cooperation','help','#A1
 
 # Stable slide IDs remain; the quiz revision invalidates old transfer choices.
 C[0]['objective']='Distinguish an observation from dispositional and situational explanations, and select evidence that helps separate competing causes.'
-C[0]['quizzes'][1]={
- 'revision':'attribution-evidence-v2',
- 'context':'Noor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.',
- 'record':dict(caption='Invented teaching record · six shifts',headers=['Shift conditions','Late','On time'],rows=[['Earlier start; bus cancelled','3','0'],['Later start; bus running','0','3']],spoken='All three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running.'),
- 'prompt':'Which additional comparison best separates these explanations?',
- 'options':['Noor’s punctuality on early shifts with and without bus cancellations.','Noor’s punctuality at a different activity reached on foot.','Other volunteers’ punctuality on early café shifts.'],
- 'correct':0,
- 'reasoningPrompt':'Why does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.',
- 'feedbackLabels':['Most direct comparison.','Useful for a different question.','Potentially useful, but less direct.'],
- 'feedback':[
-  'Compare the same volunteer at the same early start time while bus availability differs. This helps separate the bus explanation from the earlier-start explanation. The comparison is observational: other conditions may change too, and six shifts give little evidence about a lasting personal tendency.',
-  'Punctuality elsewhere could inform an explanation based on a broader personal tendency. Changing the activity, journey, and schedule does not isolate the bus explanation from the early start. Comparing Noor across early café shifts with and without cancellations addresses the question more directly.',
-  'Other volunteers’ punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from Noor’s. A more direct comparison keeps Noor and the early start similar while bus availability differs; other changing circumstances would still need investigation.']}
+transfers=json.loads((ROOT/'transfer-exercises.json').read_text())
+assert set(transfers)=={str(i)for i in range(1,11)}
+for index,c in enumerate(C,1):c['quizzes'][1]=transfers[str(index)]
 
 def quiz_prompt(quiz):
  return '\n\n'.join(x for x in [quiz.get('context'),quiz.get('record',{}).get('spoken'),quiz['prompt']] if x)

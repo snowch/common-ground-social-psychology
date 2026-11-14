@@ -32,7 +32,7 @@ async def main():
      issues=await page.evaluate('''async()=>{const r=await axe.run(document.querySelector('main'),{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}});return r.violations.map(v=>({id:v.id,targets:v.nodes.map(n=>n.target)}))}''');assert not issues,(s['id'],issues);audits.append({'slide':s['id'],'violations':issues})
     await page.keyboard.press('Enter');assert await details.get_attribute('open') is None
   # Existing answers for the replaced exercise must not acquire new meanings.
-  await page.evaluate('''localStorage.setItem('common-ground-v1',JSON.stringify({answers:{c01s02:0,c01s06:1,c02s06:1},checked:{c01s02:true,c01s06:true,c02s06:true},position:{chapter:1,slide:5},visited:{c01s05b:true}}))''')
+  await page.evaluate('''localStorage.setItem('common-ground-v1',JSON.stringify({answers:{c01s02:0,c01s06:1,c02s06:1},checked:{c01s02:true,c01s06:true,c02s06:true},answerRevisions:{c02s06:"academic-transfer-v2"},position:{chapter:1,slide:5},visited:{c01s05b:true}}))''')
   await page.goto(BASE+'/#home');await page.reload();await page.goto(BASE+'/#chapter-1-slide-6')
   assert await page.locator('.option[aria-pressed="true"]').count()==0
   assert await page.locator('#checkChoice').is_disabled()
@@ -55,8 +55,8 @@ async def main():
   assert any('Jones & Harris (1967)' in t for t in await page.locator('#print .print-research-sources').all_inner_texts())
   assert 'not a general rule' in await page.locator('#print .evidence-body').first.inner_text()
   assert await page.locator('#print .reasoning-print').count()==1
-  await page.goto(BASE+'/study-guide.html');assert await page.locator('.research-notes .research-topic').count()==len(PAGES)
-  assert await page.locator('.research-notes a[href="https://doi.org/10.1037/0033-2909.132.6.895"]').count()==1
+  await page.goto(BASE+'/study-guide.html');assert await page.locator('.research-notes[data-chapter="1"] .research-topic').count()==len(PAGES)
+  assert await page.locator('.research-notes[data-chapter="1"] a[href="https://doi.org/10.1037/0033-2909.132.6.895"]').count()==1
   await page.goto(BASE+'/chapters/chapter-01.html#chapter-1-slide-5');assert await page.locator('.lesson-research').get_attribute('open') is None
   await page.locator('.lesson-research summary').click();assert '173 published studies' in await page.locator('.research-content').inner_text()
   assert not errors,errors;await b.close()
