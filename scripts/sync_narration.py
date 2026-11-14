@@ -54,7 +54,7 @@ def compile_scenes(course, previous):
             add(slide['id'], slide['title'], text, say, part, sum(len(c['slides']) for c in course if c['number'] < chapter['number'])+index+1)
             if 'quiz' in slide:
                 for index, feedback in enumerate(slide['quiz']['feedback']):
-                    prefix = 'Good application.' if index == slide['quiz']['correct'] else 'Consider the consequence.'
+                    prefix = slide['quiz']['feedbackLabels'][index] if 'feedbackLabels' in slide['quiz'] else ('Good application.' if index == slide['quiz']['correct'] else 'Consider the consequence.')
                     add(f"{slide['id']}-feedback-{index}", 'Decision feedback', prefix+' '+feedback,
                         prefix+' [pause 0.35] '+feedback, part)
             if 'answers' in slide:

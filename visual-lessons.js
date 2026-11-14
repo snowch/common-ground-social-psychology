@@ -39,7 +39,7 @@ function observationFigure(){return conceptSVG('observation-attribution','Leo’
 function actorObserverFigure(){return compareFigure('actor-observer','One observer, two explanations',
  ['Leo explains himself',['“The bus','was delayed.”','Circumstances'],'person'],
  ['Leo explains Maya',['“She doesn’t care.”','A personal tendency','Could he be missing','her circumstances?'],'person'],
- ['A possible actor–observer difference.','The pattern depends on judgment and setting.']);}
+ ['A hypothetical comparison.','Patterns depend on event and method.']);}
 function repeatedEvidenceFigure(){
  const steps=[
   ['Describe the action','Maya arrived after the start.','Keep the cause open.'],
@@ -177,9 +177,9 @@ function personSituationModelFigure(){return scene('room','concept').replace('<s
 const visualCatalog={
  'person-situation-model':lessonView('person-situation-model','Person, disposition, and situation',personSituationModelFigure,'A disposition is one personal quality; circumstances also contribute.',['Disposition','Situation']),
  'person-situation':lessonView('person-situation','Disposition under changing demands',personSituationFigure,'A hypothetical interaction of a disposition and a situation. Dashed paths indicate possible contributions.',['Disposition']),
- 'observation-attribution':lessonView('observation-attribution','Observation and attribution',observationFigure,'Leo’s observation and his attribution answer different questions.',['Observation','Attribution']),
- 'attribution-error':lessonView('attribution-error','Fundamental attribution error',attributionErrorScene,'Leo gives personal qualities more weight than the circumstances.',['Fundamental attribution error']),
- 'actor-observer':lessonView('actor-observer','Attribution and actor–observer differences',actorObserverFigure,'Hypothetical explanations by the same observer.',['Attribution','actor–observer differences']),
+ 'observation-attribution':lessonView('observation-attribution','Observation and attribution',observationFigure,'Observation records an action; attribution proposes a cause. Dispositional attribution locates a cause in the person; situational attribution in circumstances.',['Observation','Attribution','Dispositional attribution','Situational attribution']),
+ 'attribution-error':lessonView('attribution-error','Fundamental attribution error',attributionErrorScene,'Correspondence bias concerns enduring dispositions inferred from constrained behavior. This hypothetical weighting is conceptual, not a measured effect.',['Fundamental attribution error','Correspondence bias']),
+ 'actor-observer':lessonView('actor-observer','Attribution and the actor–observer hypothesis',actorObserverFigure,'Actor–observer differences do not follow a general rule across positive and negative events. These fictional explanations illustrate the actor–observer hypothesis.',['Attribution','actor–observer hypothesis']),
  'repeated-evidence':lessonView('repeated-evidence','Test an explanation against evidence',repeatedEvidenceFigure,'Describe, compare, check, and revise. Apply the same steps to your own interpretations.',[]),
  'confounding':lessonView('confounding','Confounding',confoundingScene,conceptCaptions.c02s03,['Confound']),
  'sampling-assignment':lessonView('sampling-assignment','Random sampling and random assignment',samplingFigure,'Choosing the sample and assigning conditions answer different questions.',['Random assignment','Random sampling']),

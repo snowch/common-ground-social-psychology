@@ -27,6 +27,8 @@ rights=(R/'FONT-LICENSE.txt').read_text()+'\n'+(R/'THIRD-PARTY-NOTICES.txt').rea
 assert '-->' not in rights
 visual_js=(R/'visuals.js').read_text()+'\n'+(R/'visual-lessons.js').read_text()
 template=(R/'template.html').read_text().replace('__VISUALS__',visual_js).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights)
+quiz_metadata={s['id']:dict(revision=s['quiz'].get('revision'),reasoningPrompt=bool(s['quiz'].get('reasoningPrompt')))for c in C for s in c['slides']if 'quiz'in s}
+template=template.replace('__QUIZ_METADATA__',json.dumps(quiz_metadata))
 for placeholder,file in [('__GLOSSARY__','glossary.json'),('__EVIDENCE__','course-evidence.json'),('__LEARNING_CHECK__','learning-check.json')]:
  template=template.replace(placeholder,json.dumps(json.loads((R/file).read_text()),ensure_ascii=False).replace('</','<\\/'))
 
@@ -57,6 +59,13 @@ print(f"Built {'portable'if a.portable else 'streamed-audio'} course in {D}")
 for page in D.rglob("*.html"):
  text=page.read_text()
  if 'class="copyright-notice"' in text:continue
+ # Keep the notice in each printed page's footer rather than creating a final
+ # notice-only page that shifts the slide and chapter export page ranges.
+ if 'const RECORDED_AUDIO=' in text:
+  print_notice='@media print{.copyright-notice{position:fixed;bottom:2px;left:0;right:0;margin:0;padding:2px 12px!important;font:9px/1.4 sans-serif!important;background:#fff;color:#19394D;z-index:10}.copyright-notice a{font:inherit!important;color:inherit!important}}'
+ else:
+  print_notice='@media print{.copyright-notice{display:none!important}}@page{@bottom-center{content:"Copyright © 2026 Christopher Snow. All rights reserved.";font:9px sans-serif;color:#19394D}}'
+ text=text.replace('</style>',print_notice+'</style>',1)
  marker="</body>" if "</body>" in text else "</html>"
  assert marker in text, page
  page.write_text(text.replace(marker, '<footer class="copyright-notice" style="padding:1rem 4vw;font:14px/1.6 sans-serif"><a href="https://github.com/snowch/common-ground-social-psychology/blob/main/LICENSE">Copyright © 2026 Christopher Snow. All rights reserved.</a></footer>'+marker, 1))

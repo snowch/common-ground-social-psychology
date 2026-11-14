@@ -14,6 +14,8 @@ Each chapter download includes a narrated HTML deck, continuous audio, a chapter
 
 All 48 teaching pages have one primary illustration and independent narration. Distinct skills and worked examples appear in the normal lesson sequence. Related comparisons stay together, and Chapter 4 retains its existing focused structure. The 49-page visual companion collects all 48 figures, with a cover and one figure per page. Chapter PDFs include every teaching page. The [course-wide learning-design review](docs/course-wide-learning-review.md) explains the page-by-page decisions.
 
+Chapter 1 keeps core definitions and research qualifications in the lesson, with optional **Research behind this** disclosures for methods, findings and sources. Its revised transfer exercise compares plausible explanations and includes a written reasoning field saved in the browser. The [academic-content review](docs/chapter-one-academic-review.md) records the sources and decisions.
+
 ## Course
 
 | Chapter | Story | Topic |
@@ -29,7 +31,7 @@ All 48 teaching pages have one primary illustration and independent narration. D
 | 9 | A place beside someone | Attraction and relationships |
 | 10 | Who will do something? | Aggression, helping, and cooperation |
 
-There are 98 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 67 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
+There are 98 slides, 20 application decisions with feedback for every choice, 20 recall questions, and ten field exercises. The continuous chapter tracks total approximately 68 minutes, including thinking pauses and suggested answers. Allow additional time for the exercises and reading. An optional 20–30-minute written case in a different setting includes six tasks and a self-assessment rubric. It has no recorded narration. The study companion combines the ten evidence notes, case, suggested reasoning, and rubric in HTML and a printable PDF.
 
 The [whole-course review](docs/course-review-v0.2.0.md) records the chapter-by-chapter findings, fixes, evidence sources, and remaining limits. The [examples and explanation review](docs/clarity-review.md) adds concrete definitions, story connections, and clearer distinctions across all ten chapters. The [perspective review](docs/perspective-review.md) separates checking your own interpretation from assessing someone else’s reasoning and names whose belief or experience is being discussed. Essential concept names also appear directly on the teaching slides and in their PDFs, with short explanations. This is a short introduction; the multiple-choice decisions are formative practice and do not establish mastery.
 
@@ -93,7 +95,7 @@ The voice workflow uses [snowch/claude-skills](https://github.com/snowch/claude-
 
 The recorded-audio browser check decoded all 168 recordings and exercised playback, pause/resume, stopping, rate changes, feedback and recall queues, navigation, mobile width, and a separate chapter deck. The 20 decisions' 60 feedback variants were checked.
 
-Independent Whisper `small.en` screening covers all 168 clips. The [course-wide teaching review](docs/course-wide-learning-review.md) screens 29 changed or added recordings and retains 139 unchanged screens. The revised clips have no automated flags; 7 historical flags remain in unchanged clips. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
+Independent Whisper `small.en` screening covers all 168 clips. The [Chapter 1 academic-content review](docs/chapter-one-academic-review.md) screens seven changed recordings and retains 161 unchanged screens. The revised clips have no automated flags; 7 historical flags remain in unchanged clips. ASR and phoneme inspection are not a human listening review. No external subject-matter review or learner pilot has been performed.
 
 For optional browser checks, install Playwright and Chromium, serve `dist` on port 8877, then run:
 
@@ -103,11 +105,12 @@ python3 -m playwright install chromium
 python3 qa/check_deck.py
 python3 qa/check_recorded_audio.py
 python3 qa/check_teaching_sequence.py
+python3 qa/check_chapter_one_research.py
 python3 qa/check_reading_layout.py
 # Optional broader accessibility and regression audit:
 curl -fsSL https://cdn.jsdelivr.net/npm/axe-core@4.10.3/axe.min.js -o /tmp/common-ground-axe.min.js
 python3 qa/check_course_review.py
-# Regenerate the PDFs from a running course preview:
+# Regenerate the PDFs from a running course preview (requires pdfinfo):
 python3 scripts/export_pdfs.py
 # Check essential vocabulary on the slides and PDF pages (requires pdftotext):
 python3 qa/check_visible_terminology.py

@@ -1,0 +1,47 @@
+{
+  "chapter": 1,
+  "teaching_disclosures": 6,
+  "research_default": "collapsed",
+  "essential_qualification": "visible on screen and in print",
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "expanded_research_axe_audits": [
+    {
+      "slide": "c01s03",
+      "violations": []
+    },
+    {
+      "slide": "c01s03b",
+      "violations": []
+    },
+    {
+      "slide": "c01s04",
+      "violations": []
+    },
+    {
+      "slide": "c01s04b",
+      "violations": []
+    },
+    {
+      "slide": "c01s05",
+      "violations": []
+    },
+    {
+      "slide": "c01s05b",
+      "violations": []
+    }
+  ],
+  "stacked_controls": "between text and illustration",
+  "three_comparison_feedbacks": "passed",
+  "written_reasoning_restore_and_escaping": "passed",
+  "cross_chapter_standalone_response_retention": "passed",
+  "replaced_exercise_migration": "old answer cleared; other answers and visits retained",
+  "research_in_study_companion": "passed",
+  "standalone_chapter": "passed",
+  "js_errors": []
+}

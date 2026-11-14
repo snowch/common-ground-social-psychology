@@ -16,6 +16,10 @@ async def main():
    token=slide['id'].split('s')[1].lstrip('0')
    await page.evaluate('(h)=>location.hash=h',f"chapter-{c['number']}-slide-{token}");await page.wait_for_function('(t)=>document.querySelector("#slideTitle")?.textContent===t',arg=slide['title'])
    await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1');assert await page.evaluate('(id)=>audioPlayer.src===RECORDED_AUDIO[id]',slide['id']);await page.locator('#stop').click()
+  await page.evaluate("location.hash='chapter-1-slide-4b'");await page.locator('.lesson-research summary').click();assert 'Jones and Harris' in await page.locator('.research-content').inner_text()
+  await page.evaluate("location.hash='chapter-1-slide-6'");await page.locator('#decisionReasoning').fill('Keep the early start similar and compare bus availability; other circumstances could differ.')
+  await page.locator('[data-answer="0"]').click();await page.locator('#checkChoice').click();assert 'observational' in await page.locator('.feedback').inner_text()
+  await page.locator('#playFeedback').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.1');await page.locator('#stop').click()
   await page.evaluate("location.hash='case'");await page.wait_for_selector('.case-wrap');assert await page.locator('.case-wrap ol li').count()==6
   for n in range(1,11):
    await load(f'chapters/chapter-{n:02d}.html');await page.wait_for_selector('#slideTitle');assert await page.evaluate('Object.keys(RECORDED_AUDIO).length')==sum(id.startswith(f'c{n:02d}') for id in expected)
@@ -23,5 +27,5 @@ async def main():
   await page.evaluate("location.hash='case'");await page.wait_for_selector('.case-wrap');assert await page.locator('.case-wrap ol li').count()==6
   await load('study-guide.html');assert await page.locator('section.chapter').count()==10
   assert not errors and not requests,(errors,requests)
-  out={'build':'out/portable','embedded_audio_hashes_verified':len(expected),'network_disabled_during_interaction_and_playback':True,'load_method':'Portable document served locally, then browser network disabled; file URLs are blocked by managed Chromium policy and were not tested','independent_teaching_pages_played':len(added),'chapter_decks_played':10,'full_deck_playback':'passed','written_case_full_and_standalone':'passed','study_companion':'passed','external_requests':requests,'js_errors':errors};(R/'qa/course-review-portable.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2));await b.close()
+  out={'build':'out/portable','embedded_audio_hashes_verified':len(expected),'network_disabled_during_interaction_and_playback':True,'load_method':'Portable document served locally, then browser network disabled; file URLs are blocked by managed Chromium policy and were not tested','independent_teaching_pages_played':len(added),'chapter_decks_played':10,'optional_research_and_written_evidence_task':'passed','full_deck_playback':'passed','written_case_full_and_standalone':'passed','study_companion':'passed','external_requests':requests,'js_errors':errors};(R/'qa/course-review-portable.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2));await b.close()
 asyncio.run(main())

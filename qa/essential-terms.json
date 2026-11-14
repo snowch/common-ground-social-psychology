@@ -5,11 +5,13 @@
   ],
   "c01s04": [
     "Observation",
-    "Attribution"
+    "Attribution",
+    "Dispositional attribution",
+    "Situational attribution"
   ],
   "c01s05": [
     "Attribution",
-    "actor–observer differences"
+    "actor–observer hypothesis"
   ],
   "c02s03": [
     "Correlation"
@@ -99,7 +101,8 @@
     "Disposition"
   ],
   "c01s04b": [
-    "Fundamental attribution error"
+    "Fundamental attribution error",
+    "Correspondence bias"
   ],
   "c02s03b": [
     "Confound"

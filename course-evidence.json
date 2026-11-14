@@ -1,15 +1,26 @@
 {
   "1": {
     "claims": [
-      "Behavior can reflect personal tendencies, circumstances, and their interaction.",
-      "Attribution biases describe tendencies rather than diagnoses of an individual."
+      "Attributions propose causes in personal characteristics, circumstances, or their interaction.",
+      "Correspondence bias concerns dispositional inferences from behavior that can be explained by situational constraints.",
+      "A general actor–observer asymmetry is not supported across positive and negative events in the cited meta-analysis."
     ],
-    "note": "When checking your own explanation of someone’s behavior, compare repeated observations and plausible alternatives. A single late arrival leaves several causes possible.\n\nWhen assessing another person’s explanation, examine that person’s reasons and evidence. A bias label, or your disagreement with the conclusion, does not establish that the reasoning is biased.",
+    "note": "Separate an observed action from a proposed cause. Dispositional and situational attributions classify explanations; they do not establish whether an explanation is correct.\n\nCorrespondence bias concerns inferring an enduring disposition from behavior that can be explained by situational constraints. The café stories illustrate questions to investigate rather than diagnose an individual’s reasoning.\n\nMalle’s 2006 meta-analysis did not support a general actor–observer asymmetry across positive and negative events. Results depended on the events and research methods. The familiar own-situation, others-person comparison should be taught as a qualified hypothesis.\n\nThe course’s explanation-checking steps are proposed applications, not an intervention shown here to eliminate bias. Compare plausible causes and examine evidence while retaining uncertainty.",
     "sources": [
+      {
+        "title": "Jones & Harris (1967), The attribution of attitudes",
+        "url": "https://doi.org/10.1016/0022-1031(67)90034-0",
+        "kind": "Experimental study; full-text access varies"
+      },
       {
         "title": "Gilbert & Malone (1995), The correspondence bias",
         "url": "https://pubmed.ncbi.nlm.nih.gov/7870861/",
         "kind": "Review; abstract available"
+      },
+      {
+        "title": "Malle (2006), The actor-observer asymmetry in attribution: A (surprising) meta-analysis",
+        "url": "https://doi.org/10.1037/0033-2909.132.6.895",
+        "kind": "Meta-analysis of 173 published studies; full-text access varies"
       }
     ]
   },
