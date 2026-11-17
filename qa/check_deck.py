@@ -17,7 +17,7 @@ async def main():
   await page.locator('[data-answer="1"]').click();await page.locator('#checkChoice').click()
   assert 'One episode' in await page.locator('.feedback').inner_text()
   await page.locator('[data-answer="0"]').click();await page.locator('#checkChoice').click()
-  assert 'Good application' in await page.locator('.feedback').inner_text()
+  assert 'Best-supported choice' in await page.locator('.feedback').inner_text()
   await page.screenshot(path=str(R/'qa/decision.png'),full_page=True)
   await page.locator('#next').click();await page.wait_for_selector('.slide.concept')
   await page.screenshot(path=str(R/'qa/concept.png'),full_page=True)

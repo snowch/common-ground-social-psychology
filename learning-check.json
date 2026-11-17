@@ -1,7 +1,7 @@
 {
   "title": "Try a new case",
-  "subtitle": "An optional written transfer check after the ten chapters",
-  "intro": "Work without your notes first. Allow about 20–30 minutes. Write your reasoning somewhere private; this page does not collect or grade it. The case is fictional, and different well-supported plans can be reasonable.",
+  "subtitle": "An optional writing exercise after the ten chapters",
+  "intro": "Work without your notes first. Allow about 20–30 minutes. Write your answers in a separate document or on paper, then compare them with the suggested reasoning. The case is fictional, and different well-supported plans can be reasonable.",
   "paragraphs": [
     "An online language club changes its reminder message. Attendance rises from 14 of 20 members one week to 17 of 20 the next. That second week also has a different lesson topic and a school holiday. The organizer credits the new message.",
     "The organizer opens a planning call by recommending daily homework. Two members agree; others remain quiet. One quiet member privately worries about the workload and assumes everyone else wants the plan. The organizer describes another member’s late arrivals as poor commitment without first asking about that member’s work schedule.",
@@ -32,8 +32,8 @@
         5,
         7
       ],
-      "prompt": "Distinguish two reasons a member might publicly agree. Choose a procedure that makes independent concerns visible, and explain why an unfinished task does not establish loafing.",
-      "answer": "A member may seek acceptance or treat others’ responses as information. Collect independent judgments before public discussion and review contrary evidence. The resource list could reflect unclear ownership, dependencies, or missing tools even when effort is genuine."
+      "prompt": "Distinguish two reasons a member might publicly agree. Choose a way to hear each person’s doubts before the group discussion. Explain what evidence you would need to decide whether reduced effort contributed to the unfinished task.",
+      "answer": "A member may seek acceptance or treat others’ responses as information. Collect independent judgments before public discussion and review contrary evidence. The resource list could reflect unclear ownership, tasks waiting on one another, or missing tools. Check who could start each task, what work they attempted, and where progress stalled."
     },
     {
       "title": "Compare future options",
@@ -84,5 +84,5 @@
       "developing": "Treats an average pattern as a guarantee or overrides a person’s expressed wishes."
     }
   ],
-  "followup": "After comparing your work with the suggested reasoning, revise one weak answer in your own words. Revisit the case in about a week using a different setting. This self-check can expose gaps; it does not certify mastery or demonstrate real-world transfer."
+  "followup": "After comparing your work with the suggested reasoning, revise one weak answer in your own words. In about a week, try the same reasoning with a different example. Use the rubric to identify one place where you could make your evidence or explanation more specific."
 }

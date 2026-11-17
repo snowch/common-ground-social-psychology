@@ -36,8 +36,6 @@ def render(path,chapters,prefix):
  numbers={f"c{c['number']:02d}"for c in chapters}
  audio={key:('data:audio/mp4;base64,'+base64.b64encode(file.read_bytes()).decode()if a.portable else prefix+'audio/clips/'+file.name)for key,file in clips.items()if key[:3]in numbers}
  s=template.replace('__NARRATION_TEXT__',json.dumps({k:v for k,v in narration.items()if k[:3]in numbers},ensure_ascii=False).replace('</','<\\/')).replace('__DATA__',json.dumps(chapters,ensure_ascii=False).replace('</','<\\/')).replace('__AUDIO__',json.dumps(audio))
- if not a.portable:
-  s=s.replace('The recordings are included in this deck and work offline.','Recordings load when you press Play narration. The portable build embeds them for offline use.').replace('The deck embeds prerecorded Kokoro','The course plays prerecorded Kokoro').replace('Quizzes and embedded narration work offline. External reading requires a connection.','This build loads audio files from its audio folder. Use the portable build for self-contained offline decks.')
  path.write_text(s)
 (D/'study-guide.html').write_text(render_study_guide(R).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights))
 (D/'visual-guide.html').write_text(render_visual_guide(R).replace('__FONTS__',fonts).replace('__RIGHTS_NOTICES__',rights))

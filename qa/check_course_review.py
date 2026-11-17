@@ -23,25 +23,37 @@ async def main():
     assert await reading.get_attribute('open') is None
     if await reading.get_attribute('open') is None:await reading.locator('summary').first.click()
     assert await page.locator('.evidence-note').inner_text() and evidence[str(c['number'])]['note'] in await page.locator('.evidence-note').inner_text()
-    text=await page.locator('.transcript>details').first.inner_text();assert '[pause' not in text and '](/' not in text
+    transcript=page.locator('.transcript>details').first
+    assert await transcript.get_attribute('open') is None
+    await transcript.locator('summary').click()
+    text=await transcript.inner_text();assert '[pause' not in text and '](/' not in text
     if 'quiz'in s:
-     await page.locator('[data-answer="0"]').click();assert 'explain why' in await page.locator('.feedback').inner_text();assert not await page.locator('#playFeedback').count()
+     await page.locator('[data-answer="0"]').click()
+     instruction=await page.locator('.exercise-instruction').inner_text()
+     assert ('Write your reasoning' in instruction)==bool(s['quiz'].get('reasoningPrompt'))
+     assert not await page.locator('#playFeedback').is_visible()
      # Selecting alone must not leak feedback through the audio queue.
      await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.02');await page.evaluate("audioPlayer.dispatchEvent(new Event('ended'))");assert await page.evaluate('!playing')
      await page.locator('#checkChoice').click();assert s['quiz']['feedback'][0] in await page.locator('.feedback').inner_text();assert 'Option A.' in text and 'Option C.'in text
-     assert await page.locator('#playFeedback').count()==1
+     assert await page.locator('#playFeedback').is_visible()
      await page.locator('#playFeedback').click();assert await page.evaluate('(id)=>audioPlayer.src===new URL(RECORDED_AUDIO[id+"-feedback-0"],location.href).href',s['id']);await page.locator('#stop').click()
     await audit(s['id'])
   await page.evaluate("location.hash='case'");await page.wait_for_selector('.case-wrap');assert await page.locator('.case-wrap ol li').count()==6;assert not await page.locator('.case-wrap details').first.get_attribute('open');await audit('case')
+  case_field=page.locator('#case-answer-0')
+  await case_field.fill('The attendance count rose from 14 to 17.')
+  await page.reload()
+  assert await case_field.input_value()=='The attendance count rose from 14 to 17.'
+  await page.locator('.case-wrap summary').first.press('Enter')
+  assert await page.locator('.case-wrap details').first.get_attribute('open') is not None
   await page.screenshot(path=str(R/'qa/course-case.png'),full_page=True)
   await page.evaluate("location.hash='about'");await page.wait_for_selector('#main h1');await audit('about')
   await page.locator('.skip').focus();await page.keyboard.press('Enter');assert await page.evaluate('document.activeElement.id')=='main';assert await page.evaluate('location.hash')=='#about'
   # Browser back/forward restores the destination heading, not a removed control.
-  await page.evaluate('history.back()');await page.wait_for_selector('.case-wrap');await page.evaluate('history.forward()');await page.wait_for_function('document.querySelector("#main h1")?.textContent==="About Common Ground"')
+  await page.evaluate('history.back()');await page.get_by_role('heading',name='Final written case').wait_for();await page.evaluate('history.forward()');await page.get_by_role('heading',name='How to use Common Ground').wait_for()
   await page.evaluate('buildPrint()');assert await page.locator('#print .slide').count()==sum(len(c['slides']) for c in C)
   assert await page.evaluate('''()=>{let ids=[...document.querySelectorAll('[id]')].map(x=>x.id);return ids.length===new Set(ids).size}''')
   # Corrupted saved values must not make Resume crash.
-  await page.evaluate('''localStorage.setItem('common-ground-v1',JSON.stringify({position:{chapter:1,slide:'bad'},answers:{c01s02:50},visited:{c01s01:'yes'}}))''');await page.goto(BASE+'/index.html#home');await page.reload();await page.locator('#resume').click();await page.wait_for_selector('#slideTitle');assert await page.locator('.slide-number').inner_text()==f"1 / {len(C[0]['slides'])}"
+  await page.evaluate('''localStorage.setItem('common-ground-v1',JSON.stringify({position:{chapter:1,slide:'bad'},answers:{c01s02:50},visited:{c01s01:'yes'}}))''');await page.goto(BASE+'/index.html#home');await page.reload();assert not await page.locator('#resume').count();await page.locator('#start').click();await page.wait_for_selector('#slideTitle');assert await page.locator('.slide-number').inner_text()==f"1 / {len(C[0]['slides'])}"
   for width in [320,390,768,1440]:
    await page.set_viewport_size({'width':width,'height':900})
    for hash in ['home','chapter-1-slide-2','chapter-2-slide-3','chapter-8-slide-5','case','about']:
