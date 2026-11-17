@@ -3,7 +3,7 @@ Original introductory social psychology course. Fictional characters and example
 Recorded Kokoro af_heart narration is embedded in the deck. See narration-recording-script.txt for exact audio clip text and speech-specific forms.
 
 CHAPTER 1: The person and the room
-Learning outcome: Distinguish an observation from dispositional and situational explanations, and select evidence that helps separate competing causes.
+Learning outcome: Separate what you saw from why you think it happened. Choose evidence that helps you tell possible causes apart.
 
 c01s01 | Story | Maya arrives late. The room has already decided why.
 A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo takes her lateness as a sign that she doesn’t care about the project.
@@ -18,7 +18,7 @@ Then think of a recent occasion when you explained someone’s behavior. What di
 
 Throughout this course, keep that distinction in mind.
 
-c01s02 | Your decision | What would you do?
+c01s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 Leo is assigning the opening shift. What is his most informative next move?
@@ -72,7 +72,7 @@ Leo treats Maya’s late arrival as a sign of low commitment before investigatin
 
 The café story illustrates a possible inference to examine. It does not measure an attribution bias. A bias label alone cannot establish how Leo reached his judgment.
 
-c01s05 | Evidence check | Actor–observer differences need qualification.
+c01s05 | The actor–observer hypothesis | Do people explain their own actions differently?
 Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person’s action.
 
 The actor–observer hypothesis proposes that people explain their own actions more through situations and other people’s actions more through personal characteristics. Leo citing a bus delay for his own lateness but Maya’s priorities for hers illustrates this hypothesis.
@@ -90,7 +90,7 @@ Check alternatives. A broken lift or helping a neighbor could explain this delay
 
 If you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it.
 
-c01s06 | New situation | Try the idea somewhere new.
+c01s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 Noor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.
@@ -108,7 +108,7 @@ Why does your comparison help? State what it keeps similar, what it varies, and 
   Feedback: Punctuality elsewhere could inform an explanation based on a broader personal tendency. Changing the activity, journey, and schedule does not isolate the bus explanation from the early start. Comparing Noor across early café shifts with and without cancellations addresses the question more directly.
   Feedback: Other volunteers’ punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from Noor’s. A more direct comparison keeps Noor and the early start similar while bus availability differs; other changing circumstances would still need investigation.
 
-c01s07 | Recall | Close your notes. Explain it.
+c01s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. In Maya’s arrival story, what did Leo observe, and what cause did he infer?
@@ -119,7 +119,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: Leo observed that Maya arrived after the meeting had started. He inferred that she did not care about the project. Her late arrival is the observation; not caring is his proposed cause.
   Suggested recall: An explanation based on a personal tendency becomes more credible when the behavior recurs across varied circumstances and plausible alternatives have been examined.
 
-c01s08 | Field practice | Carry one idea into your week.
+c01s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Choose a mildly frustrating action by another person. Write what you observed, your initial explanation, two plausible alternatives, and one respectful question that could clarify what happened.
@@ -130,7 +130,7 @@ Further reading:
 OpenStax Psychology 2e: What Is Social Psychology? — https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology
 
 CHAPTER 2: The poster that “worked”
-Learning outcome: Identify a confound in a before-and-after claim and propose a fairer comparison.
+Learning outcome: Spot another change that could explain a result. Design a comparison that helps tell the changes apart.
 
 c02s01 | Story | A brighter poster. More visitors. A cause?
 Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. Leo credits the new poster for the increase.
@@ -139,7 +139,7 @@ But other things changed too. The rain stopped, the local paper ran a story, and
 
 The team knows that more people attended. The team does not yet know how much the poster contributed. Keep that distinction in mind whenever someone says that one change caused another.
 
-c02s02 | Your decision | What would you do?
+c02s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 Which statement fits Leo’s evidence?
@@ -153,7 +153,7 @@ Consider the consequences of each option.
   Feedback: Uncertainty about the poster’s contribution does not establish that the poster had no effect.
   Feedback: Saying that attendance rose preserves the observation. Leaving the cause open reflects the limits of the comparison.
 
-c02s03 | Correlation and causation | Together does not establish because.
+c02s03 | Correlation and causation | Did the poster bring more visitors?
 Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain.
 
 Leo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes.
@@ -167,7 +167,7 @@ Because these changes occurred together, the team cannot tell how much of the at
 
 A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
 
-c02s03c | Design a fair test | Select people. Assign conditions.
+c02s03c | Random sampling and random assignment | Who takes part and what do they receive?
 Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives.
 
 The café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups.
@@ -188,14 +188,14 @@ Statistical significance does not measure practical importance. A small attendan
 
 A nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do.
 
-c02s05 | Evidence check | What can we really conclude?
+c02s05 | Replication and study design | What would make the result more dependable?
 Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.
 
 Preregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.
 
 With a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.
 
-c02s06 | New situation | Try the idea somewhere new.
+c02s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.
@@ -211,7 +211,7 @@ Name the competing explanation your design addresses and one remaining limitatio
   Feedback: Random assignment within both contact groups helps separate invitation design from prior interest. Define attendance before comparing results. Shared invitations and evidence from only one event would still limit the conclusion.
   Feedback: Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result.
 
-c02s07 | Recall | Close your notes. Explain it.
+c02s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. How does random assignment differ from random sampling?
@@ -222,7 +222,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: Random assignment allocates people to conditions. Random sampling selects people from a population.
   Suggested recall: Other conditions can change over time and produce the same before-and-after pattern.
 
-c02s08 | Field practice | Carry one idea into your week.
+c02s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Find an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent.
@@ -234,7 +234,7 @@ OpenStax Psychology 2e: Analyzing Findings — https://openstax.org/books/psycho
 Noba: The Replication Crisis in Psychology — https://nobaproject.com/modules/the-replication-crisis-in-psychology
 
 CHAPTER 3: The story that comes to mind
-Learning outcome: Identify a missing base rate and formulate a question that could challenge an initial belief.
+Learning outcome: Work out what you need to count before calling something common. Ask a question that could test your first impression.
 
 c03s01 | Story | One broken toaster becomes “they always break.”
 A repaired toaster fails again. The story spreads through the café chat. Leo concludes that electrical repairs usually fail, although nobody has counted the outcomes.
@@ -243,7 +243,7 @@ Maya remembers grateful visitors and overlooks returns. Maya therefore has a mor
 
 Both people remember genuine cases. Neither person has systematically checked all comparable repairs. To estimate how often repairs fail, the team needs a record that includes the cases nobody talked about.
 
-c03s02 | Your decision | What would you do?
+c03s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 What most improves the estimate of repeat failures?
@@ -278,14 +278,14 @@ The desired conclusion could still be correct. To investigate it, Maya can defin
 
 With confirmation bias, the question is whether evidence was selected to fit an existing belief. With motivated reasoning, the question is whether a preferred conclusion shaped that evaluation. The processes can overlap. Test the evidence; a label alone does not settle the issue.
 
-c03s05 | Evidence check | What can we really conclude?
+c03s05 | Checking a frequency estimate | Check a frequency estimate against the record
 When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.
 
 For example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities.
 
 When reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.
 
-c03s06 | New situation | Try the idea somewhere new.
+c03s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.
@@ -301,7 +301,7 @@ State the denominator you need and one reason a difference would not establish i
   Feedback: Experience can supply useful information, but the estimate still needs a representative record. Agreement with an expert does not supply the missing denominator.
   Feedback: Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference.
 
-c03s07 | Recall | Close your notes. Explain it.
+c03s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. Why can’t Leo estimate the repair failure rate from one vivid toaster failure? What total must he count?
@@ -312,7 +312,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: The denominator is the total of comparable cases. Four failed repairs mean something different among forty repairs than among four hundred. Consistent follow-up is needed to estimate the failure rate.
   Suggested recall: An availability shortcut can help when the examples that come to mind reliably represent the relevant events.
 
-c03s08 | Field practice | Carry one idea into your week.
+c03s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Keep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression.
@@ -324,7 +324,7 @@ OpenStax Psychology 2e: Problem Solving — https://openstax.org/books/psycholog
 Noba: Social Cognition and Attitudes — https://nobaproject.com/modules/social-cognition-and-attitudes
 
 CHAPTER 4: The plan we cannot let go
-Learning outcome: Distinguish dissonance reduction from evidence-based revision and compare future options without counting irrecoverable costs as benefits.
+Learning outcome: Recognize when someone justifies an earlier choice. Compare what will happen if they continue or switch.
 
 c04s01 | Story | “I chose it” quietly becomes “it must be right.”
 Maya championed a booking system. After weeks of work, the system still loses reservations. Maya usually spots technical problems quickly, but now explains each failure away.
@@ -333,7 +333,7 @@ For Maya, admitting that the system is poor feels like admitting that she is poo
 
 Maya is defending her judgment. Leo is focused on money already spent. Both need to compare what the available options would deliver from today onward.
 
-c04s02 | Your decision | What would you do?
+c04s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 What makes honest revision easier?
@@ -347,28 +347,28 @@ Consider the consequences of each option.
   Feedback: Questioning Maya’s competence can increase defensiveness without improving the comparison of options.
   Feedback: Continuing with an inferior option cannot recover money that has already been spent.
 
-c04s03 | First lens | Inconsistency can feel uncomfortable.
+c04s03 | Cognitive dissonance | When actions and beliefs clash
 Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce.
 
 Maya believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice.
 
 People may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.
 
-c04s04 | Second lens | Give the future a fresh vote.
+c04s04 | Sunk costs | Compare what happens from here
 A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next.
 
 The hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option.
 
 Past work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.
 
-c04s05 | Evidence check | What can we really conclude?
+c04s05 | Evidence on cognitive dissonance | What did the dissonance study test?
 Evidence for specific cognitive dissonance demonstrations is uneven. In 2024, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure.
 
 The study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups.
 
 That result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked Vaidis and colleagues study provides the details.
 
-c04s06 | New situation | Try the idea somewhere new.
+c04s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 In an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.
@@ -384,7 +384,7 @@ Separate an irrecoverable cost from a future consequence, and identify one assum
   Feedback: Responsibility and discomfort can affect the discussion, but they do not change whether the old payment is recoverable. The next cost comparison concerns future support, switching, and retraining.
   Feedback: Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs.
 
-c04s07 | Recall | Close your notes. Explain it.
+c04s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. Name two ways to reduce dissonance.
@@ -395,7 +395,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: People may reduce dissonance by changing a behavior or belief, or by adding a justification. Context affects the response.
   Suggested recall: A past investment matters when it changes future consequences, such as switching costs or usable skills.
 
-c04s08 | Field practice | Carry one idea into your week.
+c04s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Revisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character.
@@ -408,7 +408,7 @@ Vaidis et al. (2024): Multilab dissonance replication — https://doi.org/10.117
 OpenStax Psychology 2e: Problem Solving — https://openstax.org/books/psychology-2e/pages/7-3-problem-solving
 
 CHAPTER 5: The quiet vote
-Learning outcome: Distinguish normative and informational influence and design a process that makes independent concerns visible.
+Learning outcome: Tell apart agreement based on evidence from agreement aimed at fitting in. Give people a chance to share concerns before the group votes.
 
 c05s01 | Story | Everyone says yes. Has everyone agreed?
 A donor offers a publicity event. The chair calls it a wonderful opportunity, and the first three volunteers agree. Sam doubts that the team can manage the workload, but stays silent.
@@ -417,7 +417,7 @@ Sam assumes Maya has checked the risks. Maya reads Sam’s silence as reassuranc
 
 Public agreement can hide private doubts. In a later decision in this chapter, the chair asks volunteers to skip a required equipment check. You will consider how the team can question that instruction before unsafe work begins.
 
-c05s02 | Your decision | What would you do?
+c05s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 What could reveal concerns before discussion?
@@ -431,7 +431,7 @@ Consider the consequences of each option.
   Feedback: Independent written judgments let people record a view before seeing which answer has public support.
   Feedback: Experience matters, but other members may have relevant information.
 
-c05s03 | First lens | Two reasons to follow a group.
+c05s03 | Informational and normative influence | Why do people follow the group?
 Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.
 
 Normative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”
@@ -454,14 +454,14 @@ An agreed rule can allow a volunteer to pause unsafe work, name the concern, and
 
 An invitation to speak up is less useful if nobody knows what happens next. Evaluate whether people can actually raise concerns before work continues. An authority’s instruction does not remove accountability.
 
-c05s05 | Evidence check | What can we really conclude?
+c05s05 | Evidence on conformity and obedience | What did Asch and Milgram test?
 In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence.
 
 In Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting.
 
 Both sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.
 
-c05s06 | New situation | Try the idea somewhere new.
+c05s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.
@@ -477,7 +477,7 @@ Describe a pattern consistent with each influence and one limit on inferring mot
   Feedback: The public vote records agreement but cannot show whether private estimates changed. Repeating an endorsement may supply pressure without new information.
   Feedback: Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed.
 
-c05s07 | Recall | Close your notes. Explain it.
+c05s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. Distinguish normative and informational influence.
@@ -488,7 +488,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: Normative influence concerns acceptance. Informational influence treats other people’s responses as evidence.
   Suggested recall: Public agreement can hide private doubt when people copy early answers, suppress concerns, or assume that others have checked.
 
-c05s08 | Field practice | Carry one idea into your week.
+c05s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 For an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed.
@@ -500,7 +500,7 @@ OpenStax Psychology 2e: Conformity, Compliance, and Obedience — https://openst
 Noba: Conformity and Obedience — https://nobaproject.com/modules/conformity-and-obedience
 
 CHAPTER 6: The invitation
-Learning outcome: Evaluate a message by its evidence, audience needs, and honest description of social norms.
+Learning outcome: Check whether an invitation describes the commitment accurately and gives people enough information to decide.
 
 c06s01 | Story | Two invitations. Different reasons to care.
 The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya’s invitation explains what volunteers can learn, how much time a shift takes, and what support is available.
@@ -509,7 +509,7 @@ A hurried passerby might notice the celebrity. A person deciding whether to volu
 
 An invitation can attract attention and help someone evaluate a decision. The team needs to consider both jobs, while keeping the invitation honest.
 
-c06s02 | Your decision | What would you do?
+c06s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 A potential volunteer worries about the time commitment. What information would help most?
@@ -523,7 +523,7 @@ Consider the consequences of each option.
   Feedback: Shift length, support, and an optional trial give the volunteer relevant information about the commitment.
   Feedback: Calling the opportunity unmissable adds pressure without answering how much time it requires.
 
-c06s03 | Attitude and action | An evaluation is not a sign-up.
+c06s03 | Attitudes and action | Liking an invitation and deciding to sign up
 An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up.
 
 A resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does.
@@ -551,14 +551,14 @@ Make the next step clear. A potential volunteer could ask a question or try a su
 
 Remove social-proof claims the team cannot substantiate. To evaluate the revised invitation, check understanding and informed participation, rather than relying only on attention or clicks.
 
-c06s05 | Evidence check | What can we really conclude?
+c06s05 | Measuring persuasion | What do clicks and sign-ups tell us?
 Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.
 
 For the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering.
 
 The team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.
 
-c06s06 | New situation | Try the idea somewhere new.
+c06s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.
@@ -574,7 +574,7 @@ Distinguish two message outcomes and state a design or measurement limitation.
   Feedback: Reported liking is an attitude outcome. It can matter, but it is different from understanding the commitment or taking part later.
   Feedback: Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination.
 
-c06s07 | Recall | Close your notes. Explain it.
+c06s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. What makes central processing more likely?
@@ -585,7 +585,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: Central processing is more likely when someone is motivated and has the ability, attention, and information to examine the arguments.
   Suggested recall: Descriptive norms concern what people do. Injunctive norms concern approval.
 
-c06s08 | Field practice | Carry one idea into your week.
+c06s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Rewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate.
@@ -597,7 +597,7 @@ OpenStax Psychology 2e: Attitudes and Persuasion — https://openstax.org/books/
 Noba: Persuasion: So Easily Fooled — https://nobaproject.com/modules/persuasion-so-easily-fooled
 
 CHAPTER 7: When “we” takes over
-Learning outcome: Identify a plausible group process behind a failure and select a procedure that addresses it.
+Learning outcome: Look for reasons a group task fell behind. Choose a fix that addresses the problem you find.
 
 c07s01 | Story | Two teams stop sharing a table.
 Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each team notices its own effort more clearly than the other team’s contribution.
@@ -606,7 +606,7 @@ At a planning meeting, speakers propose increasingly ambitious events. Meanwhile
 
 The café now faces several group problems: boundaries between teams, an escalating decision, and unclear task ownership. Each problem may need a different remedy.
 
-c07s02 | Your decision | What would you do?
+c07s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 The shared checklist is unfinished. What is a useful first change?
@@ -648,14 +648,14 @@ Coordination loss is different. Two willing volunteers may duplicate one repair 
 
 Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
 
-c07s05 | Evidence check | What can we really conclude?
+c07s05 | Checking for groupthink | Was there pressure to agree?
 Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.
 
 To review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?
 
 Then choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.
 
-c07s06 | New situation | Try the idea somewhere new.
+c07s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.
@@ -671,7 +671,7 @@ Name evidence consistent with each explanation and one limitation of the compari
   Feedback: Commitment reports provide information about members’ accounts. They do not show how much work was done or whether willing efforts were combined effectively.
   Feedback: Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination.
 
-c07s07 | Recall | Close your notes. Explain it.
+c07s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. How does polarization differ from consensus?
@@ -682,7 +682,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: Consensus is agreement. Polarization is movement toward a more extreme position from an initial leaning.
   Suggested recall: A willing group can still lose output through poor sequencing, duplicated work, missing tools, or unclear roles.
 
-c07s08 | Field practice | Carry one idea into your week.
+c07s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Choose a shared project you know well. Map each task, its owner, what must happen before it can start, and when progress will be checked. Identify one plausible obstacle and a check that could distinguish it from another explanation before proposing a remedy.
@@ -694,7 +694,7 @@ OpenStax Psychology 2e: Conformity, Compliance, and Obedience — https://openst
 OpenStax Psychology 2e: Prejudice and Discrimination — https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination
 
 CHAPTER 8: The invisible doorway
-Learning outcome: Distinguish stereotypes, prejudice, and discrimination and locate a procedural barrier to access.
+Learning outcome: Distinguish beliefs about a group, feelings towards it, and how its members are treated. Identify a rule that limits who can take part.
 
 c08s01 | Story | “Anyone can join.” The form says otherwise.
 The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes that people own specialist tools.
@@ -703,7 +703,7 @@ A newcomer is treated as inexperienced before anyone checks the applicant’s sk
 
 To understand unequal access, examine beliefs, attitudes, individual decisions, and procedures. Good intentions alone do not tell us how the process works.
 
-c08s02 | Your decision | What would you do?
+c08s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 How should the team investigate unequal access?
@@ -745,7 +745,7 @@ The café could open applications beyond existing friends, use relevant skills c
 
 Follow up who can apply, progress, and remain involved. Include applicants’ experiences, interpret small samples cautiously, and protect privacy. A revised form or a feeling of inclusiveness alone cannot establish that access improved.
 
-c08s05 | Evidence check | What can we really conclude?
+c08s05 | Attitudes, associations and access | What can we observe about access?
 An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.
 
 When interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action.
@@ -754,7 +754,7 @@ When evaluating a recruitment change, inspect access and participation: who can 
 
 Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.
 
-c08s06 | New situation | Try the idea somewhere new.
+c08s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.
@@ -770,7 +770,7 @@ Name one access outcome and one reason a before-and-after change would not estab
   Feedback: Follow the process and the outcomes, including applicants’ experiences. Changes in applicants, recruitment, or other conditions limit a before-and-after causal claim. Use relevant measures and avoid unnecessary personal data.
   Feedback: Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed.
 
-c08s07 | Recall | Close your notes. Explain it.
+c08s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. Give an example of discrimination without an openly hostile statement.
@@ -781,7 +781,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: An irrelevant requirement or restricted network can exclude a group without an openly hostile statement.
   Suggested recall: Contact can leave unequal access unchanged when decision power, incentives, status differences, or procedures remain the same.
 
-c08s08 | Field practice | Carry one idea into your week.
+c08s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Review a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data.
@@ -793,7 +793,7 @@ OpenStax Psychology 2e: Prejudice and Discrimination — https://openstax.org/bo
 Noba: Prejudice, Discrimination, and Stereotyping — https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping
 
 CHAPTER 9: A place beside someone
-Learning outcome: Explain how contact opportunities and reciprocal responsiveness can support closeness without guaranteeing it.
+Learning outcome: Explain how chances to meet and the way people respond to each other can help a friendship develop.
 
 c09s01 | Story | Friendship begins with the quiet shift.
 Sam and Leo take the quiet Thursday session. At first, they discuss only spare parts. Over several weeks, they discover a shared interest in old radios.
@@ -802,7 +802,7 @@ Leo mentions a difficult week. Sam listens before offering a solution, and Leo f
 
 Their shared shift created opportunities to meet. Their common interest supported conversation. Sam’s responsive listening supported closeness. None of those conditions gave either person a right to the other’s friendship.
 
-c09s02 | Your decision | What would you do?
+c09s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 A newcomer hopes to make friends. What is a respectful starting point?
@@ -844,14 +844,14 @@ When Sam declines an invitation and asks for time alone, Leo has a stated prefer
 
 Leo can accept the refusal and leave future contact optional. To understand a relationship, ask about the people’s actual experiences and wishes rather than inferring a complete explanation from a label.
 
-c09s05 | Evidence check | What can we really conclude?
+c09s05 | Interpreting relationship studies | What can relationship studies tell us?
 Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.
 
 Suppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.
 
 To apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.
 
-c09s06 | New situation | Try the idea somewhere new.
+c09s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.
@@ -867,7 +867,7 @@ State an observable or reported measure and one limit on a causal interpretation
   Feedback: Repeated reports from both people can examine how disclosure, responsiveness, and closeness vary together. They do not establish a one-way cause; existing closeness may also affect responses. Participation and personal boundaries remain voluntary.
   Feedback: Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute.
 
-c09s07 | Recall | Close your notes. Explain it.
+c09s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. How can proximity affect friendship?
@@ -878,7 +878,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: Proximity changes opportunities to interact and discover shared interests.
   Suggested recall: Disclosure alone is insufficient because willingness, responsiveness, trust, context, and mutual boundaries also matter.
 
-c09s08 | Field practice | Carry one idea into your week.
+c09s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 During a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave.
@@ -890,7 +890,7 @@ OpenStax Psychology 2e: Prosocial Behavior — https://openstax.org/books/psycho
 Noba: Attraction and Beauty — https://nobaproject.com/modules/attraction-and-beauty
 
 CHAPTER 10: Who will do something?
-Learning outcome: Identify barriers to helping and design a specific, safe response with clear responsibility.
+Learning outcome: Explain why someone might hesitate to help. Plan who will act, what they can safely do, and how to get support.
 
 c10s01 | Story | A crash. A full room. A moment of hesitation.
 A shelf falls during a busy café session, and a visitor needs help. People hesitate while checking everyone else’s reaction.
@@ -899,7 +899,7 @@ Maya names the problem. Maya asks Leo to contact the appropriate emergency servi
 
 Later, two volunteers argue about blame. The team needs to review both the immediate response and the conditions supporting cooperation. Good intentions need a clear, safe path to action.
 
-c10s02 | Your decision | What would you do?
+c10s02 | Opening decision | Opening decision
 Before the explanation, make your own choice.
 
 Why could concerned bystanders hesitate?
@@ -943,14 +943,14 @@ For the replacement shelf, the team can agree who owns the check, what support t
 
 Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
 
-c10s05 | Evidence check | What can we really conclude?
+c10s05 | Evidence on aggression and helping | What can studies of aggression and helping tell us?
 Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.
 
 Bystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident.
 
 For a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.
 
-c10s06 | New situation | Try the idea somewhere new.
+c10s06 | Apply the idea | Apply the idea
 Apply the idea to a new decision.
 
 In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.
@@ -966,7 +966,7 @@ Identify the process addressed, the outcome to record, and one limit of your com
   Feedback: Discussion may improve shared understanding, but the record already says people recognized the problem. Leaving ownership unspecified retains the proposed responsibility gap.
   Feedback: Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention.
 
-c10s07 | Recall | Close your notes. Explain it.
+c10s07 | Recall | Recall the ideas
 Answer both prompts from memory.
 
 First. Distinguish diffusion of responsibility from pluralistic ignorance.
@@ -977,7 +977,7 @@ Answer each prompt first. Then give a brief example of your own that illustrates
   Suggested recall: Diffusion of responsibility concerns who should act. Pluralistic ignorance concerns how people interpret others’ reactions.
   Suggested recall: For an incident review, separate observations from blame, compare possible causes, invite independent accounts, or assign clear roles. These draw on chapters one, two, five, and seven.
 
-c10s08 | Field practice | Carry one idea into your week.
+c10s08 | Field practice | Practise outside the course
 Here is your field practice.
 
 Design a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan.

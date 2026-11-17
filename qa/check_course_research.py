@@ -37,7 +37,7 @@ async def main():
    text=f"Chapter {c['number']}: distinguish the process, compare relevant evidence, and retain uncertainty. <script>throw Error('unsafe')</script>"
    await page.locator('#decisionReasoning').fill(text);await page.locator('#decisionReasoning').press('ArrowRight');assert page.url.endswith(f"chapter-{c['number']}-slide-6")
    for index,feedback in enumerate(s['quiz']['feedback']):
-    await page.locator(f'[data-answer="{index}"]').click();assert await page.locator('#decisionReasoning').input_value()==text;assert not await page.locator('#playFeedback').count();await page.locator('#checkChoice').click();assert feedback in await page.locator('.feedback').inner_text()
+    await page.locator(f'[data-answer="{index}"]').click();assert await page.locator('#decisionReasoning').input_value()==text;assert not await page.locator('#playFeedback').is_visible();await page.locator('#checkChoice').click();assert feedback in await page.locator('.feedback').inner_text()
    await page.reload();assert await page.locator('#decisionReasoning').input_value()==text;assert await page.locator('[data-answer="2"]').get_attribute('aria-pressed')=='true';assert not await page.locator('.reasoning-field script').count()
    await page.goto(BASE+f"/chapters/chapter-{c['number']:02d}.html#chapter-{c['number']}-slide-6");assert await page.locator('#decisionReasoning').input_value()==text
    await page.goto(BASE+'/#home')

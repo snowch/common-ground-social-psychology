@@ -16,7 +16,7 @@ Then think of a recent occasion when you explained someone’s behavior. What di
 Throughout this course, keep that distinction in mind.
 Speech-specific rendering: A neighborhood team is turning an empty shop into a repair café. At the first meeting, [Maya](/mˈaɪə/) arrives twenty minutes late. Leo takes her lateness as a sign that she doesn’t care about the project. [pause 0.9] What Leo hasn’t seen is the broken lift at [Maya’s](/mˈaɪəz/) apartment, or the neighbor she helped down the stairs. [pause 0.9] Leo’s conclusion—that [Maya](/mˈaɪə/) didn’t care—was one possible explanation for her lateness. But he hadn’t considered what might have delayed her. [pause 0.9] First, examine Leo’s reasoning in this fictional story. What did Leo observe about [Maya’s](/mˈaɪəz/) arrival, and what did he infer about her priorities? [pause 0.9] Then think of a recent occasion when you explained someone’s behavior. What did you observe directly, and which cause did you infer? [pause 2.0] Throughout this course, keep that distinction in mind.
 
-c01s02 | What would you do?
+c01s02 | Opening decision
 Before the explanation, make your own choice.
 
 Leo is assigning the opening shift. What is his most informative next move?
@@ -86,7 +86,7 @@ Leo treats Maya’s late arrival as a sign of low commitment before investigatin
 The café story illustrates a possible inference to examine. It does not measure an attribution bias. A bias label alone cannot establish how Leo reached his judgment.
 Speech-specific rendering: The fundamental attribution error describes a tendency to give too much weight to personal characteristics and too little to circumstances when explaining another person’s behavior. Its strength varies with culture and context. [pause 0.9] Correspondence bias is a related, more specific idea: inferring an enduring disposition from behavior that can be explained by situational constraints. The terms overlap, but they do not identify every possible error in a causal explanation. [pause 0.9] Leo treats [Maya’s](/mˈaɪəz/) late arrival as a sign of low commitment before investigating what delayed her. The broken lift and helping a neighbor make that conclusion less secure. These circumstances do not establish that personal characteristics played no part. [pause 0.9] The café story illustrates a possible inference to examine. It does not measure an attribution bias. A bias label alone cannot establish how Leo reached his judgment.
 
-c01s05 | Actor–observer differences need qualification.
+c01s05 | Do people explain their own actions differently?
 Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person’s action.
 
 The actor–observer hypothesis proposes that people explain their own actions more through situations and other people’s actions more through personal characteristics. Leo citing a bus delay for his own lateness but Maya’s priorities for hers illustrates this hypothesis.
@@ -106,7 +106,7 @@ Check alternatives. A broken lift or helping a neighbor could explain this delay
 If you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it.
 Speech-specific rendering: Return to [Maya’s](/mˈaɪəz/) late arrival at the café. Leo has proposed that she did not care about the project. How could he check that explanation? [pause 0.9] Begin with what was observed: [Maya](/mˈaɪə/) arrived after the start. Leo’s claim that she did not care adds a cause. Ask [Maya](/mˈaɪə/) about the delay before deciding which explanation fits. [pause 0.9] Compare repeated occasions and settings. Is [Maya](/mˈaɪə/) late across different shifts, or only when a particular obstacle is present? A personal tendency becomes more plausible when the behavior recurs across varied circumstances. One episode is a weak basis for that conclusion. [pause 0.9] Check alternatives. A broken lift or helping a neighbor could explain this delay. Identify what evidence would strengthen or weaken each account, then revise your confidence. [pause 0.9] If you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it.
 
-c01s06 | Try the idea somewhere new.
+c01s06 | Apply the idea
 Apply the idea to a new decision.
 
 Noor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.
@@ -136,7 +136,7 @@ c01s06-feedback-2 | Decision feedback
 Potentially useful, but less direct. Other volunteers’ punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from Noor’s. A more direct comparison keeps Noor and the early start similar while bus availability differs; other changing circumstances would still need investigation.
 Speech-specific rendering: Potentially useful, but less direct. [pause 0.35] Other volunteers’ punctuality could reveal difficulties shared across early shifts. Their routes and circumstances may differ from Noor’s. A more direct comparison keeps Noor and the early start similar while bus availability differs; other changing circumstances would still need investigation.
 
-c01s07 | Close your notes. Explain it.
+c01s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. In Maya’s arrival story, what did Leo observe, and what cause did he infer?
@@ -154,7 +154,7 @@ First. Leo observed that Maya arrived after the meeting had started. He inferred
 Second. An explanation based on a personal tendency becomes more credible when the behavior recurs across varied circumstances and plausible alternatives have been examined.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. Leo observed that [Maya](/mˈaɪə/) arrived after the meeting had started. He inferred that she did not care about the project. Her late arrival is the observation; not caring is his proposed cause. [pause 0.8] Second. An explanation based on a personal tendency becomes more credible when the behavior recurs across varied circumstances and plausible alternatives have been examined.
 
-c01s08 | Carry one idea into your week.
+c01s08 | Practise outside the course
 Here is your field practice.
 
 Choose a mildly frustrating action by another person. Write what you observed, your initial explanation, two plausible alternatives, and one respectful question that could clarify what happened.
@@ -170,7 +170,7 @@ But other things changed too. The rain stopped, the local paper ran a story, and
 The team knows that more people attended. The team does not yet know how much the poster contributed. Keep that distinction in mind whenever someone says that one change caused another.
 Speech-specific rendering: Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. Leo credits the new poster for the increase. [pause 0.9] But other things changed too. The rain stopped, the local paper ran a story, and the opening hours changed. [pause 0.9] The team knows that more people attended. The team does not yet know how much the poster contributed. Keep that distinction in mind whenever someone says that one change caused another.
 
-c02s02 | What would you do?
+c02s02 | Opening decision
 Before the explanation, make your own choice.
 
 Which statement fits Leo’s evidence?
@@ -196,7 +196,7 @@ c02s02-feedback-2 | Decision feedback
 Good application. Saying that attendance rose preserves the observation. Leaving the cause open reflects the limits of the comparison.
 Speech-specific rendering: Good application. [pause 0.35] Saying that attendance rose preserves the observation. Leaving the cause open reflects the limits of the comparison.
 
-c02s03 | Together does not establish because.
+c02s03 | Did the poster bring more visitors?
 Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain.
 
 Leo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes.
@@ -212,7 +212,7 @@ Because these changes occurred together, the team cannot tell how much of the at
 A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
 Speech-specific rendering: A confounding factor varies with the proposed cause and could also influence the outcome. Leo changed the poster, but the weather improved and the local paper also covered the café. [pause 0.9] Because these changes occurred together, the team cannot tell how much of the attendance rise came from the poster. A detailed story about the new design does not remove that problem. [pause 0.9] A fairer comparison would vary the invitation while keeping the event and practical details as similar as possible. The next lesson distinguishes selecting participants from assigning the versions they receive.
 
-c02s03c | Select people. Assign conditions.
+c02s03c | Who takes part and what do they receive?
 Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives.
 
 The café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups.
@@ -236,7 +236,7 @@ Statistical significance does not measure practical importance. A small attendan
 A nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do.
 Speech-specific rendering: A result is usually called statistically significant when a test crosses a prespecified threshold, such as a p-value below zero point zero five. A p-value describes how unusual the observed result, or more extreme results, would be under a specified model and its assumptions. It is not the probability that a hypothesis is true. [pause 0.9] Statistical significance does not measure practical importance. A small attendance increase could be significant in a large study yet be too small to justify an expensive campaign. [pause 0.9] A nonsignificant result does not prove zero effect. Examine the estimated size, uncertainty, study design, and other tests before deciding what the café should do.
 
-c02s05 | What can we really conclude?
+c02s05 | What would make the result more dependable?
 Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.
 
 Preregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.
@@ -244,7 +244,7 @@ Preregistration records the planned methods and analysis before results are know
 With a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.
 Speech-specific rendering: Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere. [pause 0.9] Preregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design. [pause 0.9] With a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.
 
-c02s06 | Try the idea somewhere new.
+c02s06 | Apply the idea
 Apply the idea to a new decision.
 
 The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.
@@ -272,7 +272,7 @@ c02s06-feedback-2 | Decision feedback
 Consider what this comparison establishes. Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result.
 Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Using one contact group reduces one difference, but changing month alongside invitation leaves other conditions changing too. A seasonal or publicity change could explain the result.
 
-c02s07 | Close your notes. Explain it.
+c02s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. How does random assignment differ from random sampling?
@@ -290,7 +290,7 @@ First. Random assignment allocates people to conditions. Random sampling selects
 Second. Other conditions can change over time and produce the same before-and-after pattern.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. Random assignment allocates people to conditions. Random sampling selects people from a population. [pause 0.8] Second. Other conditions can change over time and produce the same before-and-after pattern.
 
-c02s08 | Carry one idea into your week.
+c02s08 | Practise outside the course
 Here is your field practice.
 
 Find an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent.
@@ -306,7 +306,7 @@ Maya remembers grateful visitors and overlooks returns. Maya therefore has a mor
 Both people remember genuine cases. Neither person has systematically checked all comparable repairs. To estimate how often repairs fail, the team needs a record that includes the cases nobody talked about.
 Speech-specific rendering: A repaired toaster fails again. The story spreads through the café chat. Leo concludes that electrical repairs usually fail, although nobody has counted the outcomes. [pause 0.9] [Maya](/mˈaɪə/) remembers grateful visitors and overlooks returns. [Maya](/mˈaɪə/) therefore has a more positive impression than Leo. [pause 0.9] Both people remember genuine cases. Neither person has systematically checked all comparable repairs. To estimate how often repairs fail, the team needs a record that includes the cases nobody talked about.
 
-c03s02 | What would you do?
+c03s02 | Opening decision
 Before the explanation, make your own choice.
 
 What most improves the estimate of repeat failures?
@@ -356,7 +356,7 @@ The desired conclusion could still be correct. To investigate it, Maya can defin
 With confirmation bias, the question is whether evidence was selected to fit an existing belief. With motivated reasoning, the question is whether a preferred conclusion shaped that evaluation. The processes can overlap. Test the evidence; a label alone does not settle the issue.
 Speech-specific rendering: Motivated reasoning concerns how a conclusion we want to reach influences our reasoning. [Maya](/mˈaɪə/) wants the café to succeed, so reassuring repair stories may feel easier to accept than reports of returns. [pause 0.9] The desired conclusion could still be correct. To investigate it, [Maya](/mˈaɪə/) can define a repair failure in advance, follow up comparable repairs consistently, and invite someone to challenge the initial interpretation. [pause 0.9] With confirmation bias, the question is whether evidence was selected to fit an existing belief. With motivated reasoning, the question is whether a preferred conclusion shaped that evaluation. The processes can overlap. Test the evidence; a label alone does not settle the issue.
 
-c03s05 | What can we really conclude?
+c03s05 | Check a frequency estimate against the record
 When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.
 
 For example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities.
@@ -364,7 +364,7 @@ For example, Leo’s vivid repair stories might give a distorted impression of f
 When reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.
 Speech-specific rendering: When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate. [pause 0.9] For example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities. [pause 0.9] When reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.
 
-c03s06 | Try the idea somewhere new.
+c03s06 | Apply the idea
 Apply the idea to a new decision.
 
 Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.
@@ -392,7 +392,7 @@ c03s06-feedback-2 | Decision feedback
 Best fit for this question. Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference.
 Speech-specific rendering: Best fit for this question. [pause 0.35] Define failure and follow up comparable completed repairs in both sessions. Divide failures by the relevant total. That improves the comparison without establishing that session time caused any remaining difference.
 
-c03s07 | Close your notes. Explain it.
+c03s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. Why can’t Leo estimate the repair failure rate from one vivid toaster failure? What total must he count?
@@ -410,7 +410,7 @@ First. The denominator is the total of comparable cases. Four failed repairs mea
 Second. An availability shortcut can help when the examples that come to mind reliably represent the relevant events.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. The denominator is the total of comparable cases. Four failed repairs mean something different among forty repairs than among four hundred. Consistent follow-up is needed to estimate the failure rate. [pause 0.8] Second. An availability shortcut can help when the examples that come to mind reliably represent the relevant events.
 
-c03s08 | Carry one idea into your week.
+c03s08 | Practise outside the course
 Here is your field practice.
 
 Keep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression.
@@ -426,7 +426,7 @@ For Maya, admitting that the system is poor feels like admitting that she is poo
 Maya is defending her judgment. Leo is focused on money already spent. Both need to compare what the available options would deliver from today onward.
 Speech-specific rendering: [Maya](/mˈaɪə/) championed a booking system. After weeks of work, the system still loses reservations. [Maya](/mˈaɪə/) usually spots technical problems quickly, but now explains each failure away. [pause 0.9] For [Maya](/mˈaɪə/), admitting that the system is poor feels like admitting that she is poor at her role. Leo proposes another month of configuration because the team has already spent so much. [pause 0.9] [Maya](/mˈaɪə/) is defending her judgment. Leo is focused on money already spent. Both need to compare what the available options would deliver from today onward.
 
-c04s02 | What would you do?
+c04s02 | Opening decision
 Before the explanation, make your own choice.
 
 What makes honest revision easier?
@@ -452,7 +452,7 @@ c04s02-feedback-2 | Decision feedback
 Consider the consequence. Continuing with an inferior option cannot recover money that has already been spent.
 Speech-specific rendering: Consider the consequence. [pause 0.35] Continuing with an inferior option cannot recover money that has already been spent.
 
-c04s03 | Inconsistency can feel uncomfortable.
+c04s03 | When actions and beliefs clash
 Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce.
 
 Maya believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice.
@@ -460,7 +460,7 @@ Maya believes she chooses reliable tools, yet the booking system she chose keeps
 People may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.
 Speech-specific rendering: Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce. [pause 0.9] [Maya](/mˈaɪə/) believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice. [pause 0.9] People may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.
 
-c04s04 | Give the future a fresh vote.
+c04s04 | Compare what happens from here
 A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next.
 
 The hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option.
@@ -468,7 +468,7 @@ The hours spent configuring the booking system cannot be recovered by continuing
 Past work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.
 Speech-specific rendering: A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next. [pause 0.9] The hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option. [pause 0.9] Past work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.
 
-c04s05 | What can we really conclude?
+c04s05 | What did the dissonance study test?
 Evidence for specific cognitive dissonance demonstrations is uneven. In 2024, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure.
 
 The study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups.
@@ -476,7 +476,7 @@ The study tested whether the amount of choice affected later attitudes. Its prim
 That result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked Vaidis and colleagues study provides the details.
 Speech-specific rendering: Evidence for specific cognitive dissonance demonstrations is uneven. In twenty twenty-four, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure. [pause 0.9] The study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups. [pause 0.9] That result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked study provides the details.
 
-c04s06 | Try the idea somewhere new.
+c04s06 | Apply the idea
 Apply the idea to a new decision.
 
 In an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.
@@ -504,7 +504,7 @@ c04s06-feedback-2 | Decision feedback
 Consider what this comparison establishes. Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs.
 Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Other cafés’ earlier payments may inform a separate price question. They do not make this team’s nonrefundable payment recoverable or settle its future costs.
 
-c04s07 | Close your notes. Explain it.
+c04s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. Name two ways to reduce dissonance.
@@ -522,7 +522,7 @@ First. People may reduce dissonance by changing a behavior or belief, or by addi
 Second. A past investment matters when it changes future consequences, such as switching costs or usable skills.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. People may reduce dissonance by changing a behavior or belief, or by adding a justification. Context affects the response. [pause 0.8] Second. A past investment matters when it changes future consequences, such as switching costs or usable skills.
 
-c04s08 | Carry one idea into your week.
+c04s08 | Practise outside the course
 Here is your field practice.
 
 Revisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character.
@@ -538,7 +538,7 @@ Sam assumes Maya has checked the risks. Maya reads Sam’s silence as reassuranc
 Public agreement can hide private doubts. In a later decision in this chapter, the chair asks volunteers to skip a required equipment check. You will consider how the team can question that instruction before unsafe work begins.
 Speech-specific rendering: A donor offers a publicity event. The chair calls it a wonderful opportunity, and the first three volunteers agree. Sam doubts that the team can manage the workload, but stays silent. [pause 0.9] Sam assumes [Maya](/mˈaɪə/) has checked the risks. [Maya](/mˈaɪə/) reads Sam’s silence as reassurance. Each person is taking the other’s outward response as a sign that the proposal has been considered carefully. [pause 0.9] Public agreement can hide private doubts. In a later decision in this chapter, the chair asks volunteers to skip a required equipment check. You will consider how the team can question that instruction before unsafe work begins.
 
-c05s02 | What would you do?
+c05s02 | Opening decision
 Before the explanation, make your own choice.
 
 What could reveal concerns before discussion?
@@ -563,7 +563,7 @@ Speech-specific rendering: Good application. [pause 0.35] Independent written ju
 c05s02-feedback-2 | Decision feedback
 Consider the consequence. Experience matters, but other members may have relevant information.
 
-c05s03 | Two reasons to follow a group.
+c05s03 | Why do people follow the group?
 Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.
 
 Normative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”
@@ -589,7 +589,7 @@ An agreed rule can allow a volunteer to pause unsafe work, name the concern, and
 An invitation to speak up is less useful if nobody knows what happens next. Evaluate whether people can actually raise concerns before work continues. An authority’s instruction does not remove accountability.
 Speech-specific rendering: In the café decision, the chair asks volunteers to bypass a required equipment check. The team needs a practical route for questioning that instruction while the decision still matters. [pause 0.9] An agreed rule can allow a volunteer to pause unsafe work, name the concern, and bring it to the person responsible under the team’s procedures. The response must reflect the relevant training and responsibilities. [pause 0.9] An invitation to speak up is less useful if nobody knows what happens next. Evaluate whether people can actually raise concerns before work continues. An authority’s instruction does not remove accountability.
 
-c05s05 | What can we really conclude?
+c05s05 | What did Asch and Milgram test?
 In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence.
 
 In Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting.
@@ -597,7 +597,7 @@ In Milgram’s studies, an experimenter urged participants to continue a task th
 Both sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.
 Speech-specific rendering: In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence. [pause 0.9] In Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting. [pause 0.9] Both sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.
 
-c05s06 | Try the idea somewhere new.
+c05s06 | Apply the idea
 Apply the idea to a new decision.
 
 Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.
@@ -625,7 +625,7 @@ c05s06-feedback-2 | Decision feedback
 Consider what this comparison establishes. Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed.
 Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Another team could provide useful experience, but its event, information, and relationships differ. Its decision does not isolate why these volunteers agreed.
 
-c05s07 | Close your notes. Explain it.
+c05s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. Distinguish normative and informational influence.
@@ -643,7 +643,7 @@ First. Normative influence concerns acceptance. Informational influence treats o
 Second. Public agreement can hide private doubt when people copy early answers, suppress concerns, or assume that others have checked.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. Normative influence concerns acceptance. Informational influence treats other people’s responses as evidence. [pause 0.8] Second. Public agreement can hide private doubt when people copy early answers, suppress concerns, or assume that others have checked.
 
-c05s08 | Carry one idea into your week.
+c05s08 | Practise outside the course
 Here is your field practice.
 
 For an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed.
@@ -659,7 +659,7 @@ A hurried passerby might notice the celebrity. A person deciding whether to volu
 An invitation can attract attention and help someone evaluate a decision. The team needs to consider both jobs, while keeping the invitation honest.
 Speech-specific rendering: The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. [Maya’s](/mˈaɪəz/) invitation explains what volunteers can learn, how much time a shift takes, and what support is available. [pause 0.9] A hurried passerby might notice the celebrity. A person deciding whether to volunteer regularly needs practical details about the commitment. [pause 0.9] An invitation can attract attention and help someone evaluate a decision. The team needs to consider both jobs, while keeping the invitation honest.
 
-c06s02 | What would you do?
+c06s02 | Opening decision
 Before the explanation, make your own choice.
 
 A potential volunteer worries about the time commitment. What information would help most?
@@ -685,7 +685,7 @@ c06s02-feedback-2 | Decision feedback
 Consider the consequence. Calling the opportunity unmissable adds pressure without answering how much time it requires.
 Speech-specific rendering: Consider the consequence. [pause 0.35] Calling the opportunity unmissable adds pressure without answering how much time it requires.
 
-c06s03 | An evaluation is not a sign-up.
+c06s03 | Liking an invitation and deciding to sign up
 An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up.
 
 A resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does.
@@ -717,7 +717,7 @@ Make the next step clear. A potential volunteer could ask a question or try a su
 Remove social-proof claims the team cannot substantiate. To evaluate the revised invitation, check understanding and informed participation, rather than relying only on attention or clicks.
 Speech-specific rendering: Writing an honest invitation is a practical task. For the café, explain what a volunteer would contribute, how long a shift takes, and what support is available. [pause 0.9] Make the next step clear. A potential volunteer could ask a question or try a supported shift before making a larger commitment. Leave room to decline without pressure. [pause 0.9] Remove social-proof claims the team cannot substantiate. To evaluate the revised invitation, check understanding and informed participation, rather than relying only on attention or clicks.
 
-c06s05 | What can we really conclude?
+c06s05 | What do clicks and sign-ups tell us?
 Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.
 
 For the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering.
@@ -725,7 +725,7 @@ For the café team, the next task is to evaluate its revised invitation. More cl
 The team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.
 Speech-specific rendering: Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change. [pause 0.9] For the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering. [pause 0.9] The team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.
 
-c06s06 | Try the idea somewhere new.
+c06s06 | Apply the idea
 Apply the idea to a new decision.
 
 Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.
@@ -753,7 +753,7 @@ c06s06-feedback-2 | Decision feedback
 Best fit for this question. Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination.
 Speech-specific rendering: Best fit for this question. [pause 0.35] Compare accurate messages for comparable audiences and define the outcomes in advance. Random assignment helps the causal comparison; follow-up, shared messages, and differences in who responds still need examination.
 
-c06s07 | Close your notes. Explain it.
+c06s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. What makes central processing more likely?
@@ -771,7 +771,7 @@ First. Central processing is more likely when someone is motivated and has the a
 Second. Descriptive norms concern what people do. Injunctive norms concern approval.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. Central processing is more likely when someone is motivated and has the ability, attention, and information to examine the arguments. [pause 0.8] Second. Descriptive norms concern what people do. Injunctive norms concern approval.
 
-c06s08 | Carry one idea into your week.
+c06s08 | Practise outside the course
 Here is your field practice.
 
 Rewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate.
@@ -787,7 +787,7 @@ At a planning meeting, speakers propose increasingly ambitious events. Meanwhile
 The café now faces several group problems: boundaries between teams, an escalating decision, and unclear task ownership. Each problem may need a different remedy.
 Speech-specific rendering: Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each team notices its own effort more clearly than the other team’s contribution. [pause 0.9] At a planning meeting, speakers propose increasingly ambitious events. Meanwhile, nobody owns the checklist. Each volunteer assumes someone else is responsible. [pause 0.9] The café now faces several group problems: boundaries between teams, an escalating decision, and unclear task ownership. Each problem may need a different remedy.
 
-c07s02 | What would you do?
+c07s02 | Opening decision
 Before the explanation, make your own choice.
 
 The shared checklist is unfinished. What is a useful first change?
@@ -845,7 +845,7 @@ Coordination loss is different. Two willing volunteers may duplicate one repair 
 Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
 Speech-specific rendering: Social loafing is lower individual effort in collective work than when working individually or when a contribution is evaluated separately. A volunteer might check fewer items because their contribution will be hidden in the team’s total. [pause 0.9] Coordination loss is different. Two willing volunteers may duplicate one repair while another waits for a tool. Genuine effort is being poorly combined. [pause 0.9] Before choosing a remedy for the unfinished checklist, investigate effort, resources, sequencing, and task ownership. Clear roles or better handovers may help a coordination problem; accusing volunteers of low commitment would not establish its cause.
 
-c07s05 | What can we really conclude?
+c07s05 | Was there pressure to agree?
 Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.
 
 To review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?
@@ -853,7 +853,7 @@ To review the café’s planning meeting, look at what happened during the discu
 Then choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.
 Speech-specific rendering: Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred. [pause 0.9] To review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear? [pause 0.9] Then choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.
 
-c07s06 | Try the idea somewhere new.
+c07s06 | Apply the idea
 Apply the idea to a new decision.
 
 Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.
@@ -881,7 +881,7 @@ c07s06-feedback-2 | Decision feedback
 Consider what this comparison establishes. Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination.
 Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Staffing can matter, but busy and quiet days also differ in demand. Headcount alone does not separate individual effort from coordination.
 
-c07s07 | Close your notes. Explain it.
+c07s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. How does polarization differ from consensus?
@@ -899,7 +899,7 @@ First. Consensus is agreement. Polarization is movement toward a more extreme po
 Second. A willing group can still lose output through poor sequencing, duplicated work, missing tools, or unclear roles.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. Consensus is agreement. Polarization is movement toward a more extreme position from an initial leaning. [pause 0.8] Second. A willing group can still lose output through poor sequencing, duplicated work, missing tools, or unclear roles.
 
-c07s08 | Carry one idea into your week.
+c07s08 | Practise outside the course
 Here is your field practice.
 
 Choose a shared project you know well. Map each task, its owner, what must happen before it can start, and when progress will be checked. Identify one plausible obstacle and a check that could distinguish it from another explanation before proposing a remedy.
@@ -915,7 +915,7 @@ A newcomer is treated as inexperienced before anyone checks the applicant’s sk
 To understand unequal access, examine beliefs, attitudes, individual decisions, and procedures. Good intentions alone do not tell us how the process works.
 Speech-specific rendering: The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes that people own specialist tools. [pause 0.9] A newcomer is treated as inexperienced before anyone checks the applicant’s skills. The barrier may involve a judgment about the person, a recruitment rule, or both. [pause 0.9] To understand unequal access, examine beliefs, attitudes, individual decisions, and procedures. Good intentions alone do not tell us how the process works.
 
-c08s02 | What would you do?
+c08s02 | Opening decision
 Before the explanation, make your own choice.
 
 How should the team investigate unequal access?
@@ -972,7 +972,7 @@ The café could open applications beyond existing friends, use relevant skills c
 Follow up who can apply, progress, and remain involved. Include applicants’ experiences, interpret small samples cautiously, and protect privacy. A revised form or a feeling of inclusiveness alone cannot establish that access improved.
 Speech-specific rendering: A friendly contact event does not change a rule requiring applicants to own expensive tools. Removing that requirement where unnecessary is a procedural change. [pause 0.9] The café could open applications beyond existing friends, use relevant skills criteria, and provide shared tools where feasible. Specify the barrier each change is intended to address. [pause 0.9] Follow up who can apply, progress, and remain involved. Include applicants’ experiences, interpret small samples cautiously, and protect privacy. A revised form or a feeling of inclusiveness alone cannot establish that access improved.
 
-c08s05 | What can we really conclude?
+c08s05 | What can we observe about access?
 An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.
 
 When interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action.
@@ -982,7 +982,7 @@ When evaluating a recruitment change, inspect access and participation: who can 
 Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.
 Speech-specific rendering: An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated. [pause 0.9] When interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action. [pause 0.9] When evaluating a recruitment change, inspect access and participation: who can apply, progress, and remain involved? Include follow-up and the experiences of applicants. An organizer saying “I am fair” cannot establish that those outcomes are fair. [pause 0.9] Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.
 
-c08s06 | Try the idea somewhere new.
+c08s06 | Apply the idea
 Apply the idea to a new decision.
 
 Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.
@@ -1010,7 +1010,7 @@ c08s06-feedback-2 | Decision feedback
 Consider what this comparison establishes. Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed.
 Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Wording can reveal a possible barrier, but a comparison of forms does not show what applicants experienced or how participation changed.
 
-c08s07 | Close your notes. Explain it.
+c08s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. Give an example of discrimination without an openly hostile statement.
@@ -1028,7 +1028,7 @@ First. An irrelevant requirement or restricted network can exclude a group witho
 Second. Contact can leave unequal access unchanged when decision power, incentives, status differences, or procedures remain the same.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. An irrelevant requirement or restricted network can exclude a group without an openly hostile statement. [pause 0.8] Second. Contact can leave unequal access unchanged when decision power, incentives, status differences, or procedures remain the same.
 
-c08s08 | Carry one idea into your week.
+c08s08 | Practise outside the course
 Here is your field practice.
 
 Review a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data.
@@ -1044,7 +1044,7 @@ Leo mentions a difficult week. Sam listens before offering a solution, and Leo f
 Their shared shift created opportunities to meet. Their common interest supported conversation. Sam’s responsive listening supported closeness. None of those conditions gave either person a right to the other’s friendship.
 Speech-specific rendering: Sam and Leo take the quiet Thursday session. At first, they discuss only spare parts. Over several weeks, they discover a shared interest in old radios. [pause 0.9] Leo mentions a difficult week. Sam listens before offering a solution, and Leo feels heard. [pause 0.9] Their shared shift created opportunities to meet. Their common interest supported conversation. Sam’s responsive listening supported closeness. None of those conditions gave either person a right to the other’s friendship.
 
-c09s02 | What would you do?
+c09s02 | Opening decision
 Before the explanation, make your own choice.
 
 A newcomer hopes to make friends. What is a respectful starting point?
@@ -1100,7 +1100,7 @@ When Sam declines an invitation and asks for time alone, Leo has a stated prefer
 Leo can accept the refusal and leave future contact optional. To understand a relationship, ask about the people’s actual experiences and wishes rather than inferring a complete explanation from a label.
 Speech-specific rendering: People differ in how secure or anxious they feel about closeness. Attachment labels describe patterns studied in relationships; they are not diagnoses. [pause 0.9] When Sam declines an invitation and asks for time alone, Leo has a stated preference to respond to. One refusal does not establish Sam’s attachment pattern or justify ignoring that preference. [pause 0.9] Leo can accept the refusal and leave future contact optional. To understand a relationship, ask about the people’s actual experiences and wishes rather than inferring a complete explanation from a label.
 
-c09s05 | What can we really conclude?
+c09s05 | What can relationship studies tell us?
 Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.
 
 Suppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.
@@ -1108,7 +1108,7 @@ Suppose similar partners report greater satisfaction. That association does not,
 To apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.
 Speech-specific rendering: Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms. [pause 0.9] Suppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction. [pause 0.9] To apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.
 
-c09s06 | Try the idea somewhere new.
+c09s06 | Apply the idea
 Apply the idea to a new decision.
 
 After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.
@@ -1136,7 +1136,7 @@ c09s06-feedback-2 | Decision feedback
 Consider what this comparison establishes. Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute.
 Speech-specific rendering: Consider what this comparison establishes. [pause 0.35] Shared interests may relate to attraction, but comparing different pairs does not directly examine responsiveness within these conversations. Other differences may contribute.
 
-c09s07 | Close your notes. Explain it.
+c09s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. How can proximity affect friendship?
@@ -1154,7 +1154,7 @@ First. Proximity changes opportunities to interact and discover shared interests
 Second. Disclosure alone is insufficient because willingness, responsiveness, trust, context, and mutual boundaries also matter.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. Proximity changes opportunities to interact and discover shared interests. [pause 0.8] Second. Disclosure alone is insufficient because willingness, responsiveness, trust, context, and mutual boundaries also matter.
 
-c09s08 | Carry one idea into your week.
+c09s08 | Practise outside the course
 Here is your field practice.
 
 During a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave.
@@ -1170,7 +1170,7 @@ Maya names the problem. Maya asks Leo to contact the appropriate emergency servi
 Later, two volunteers argue about blame. The team needs to review both the immediate response and the conditions supporting cooperation. Good intentions need a clear, safe path to action.
 Speech-specific rendering: A shelf falls during a busy café session, and a visitor needs help. People hesitate while checking everyone else’s reaction. [pause 0.9] [Maya](/mˈaɪə/) names the problem. [Maya](/mˈaɪə/) asks Leo to contact the appropriate emergency service and clears space for a trained helper. [pause 0.9] Later, two volunteers argue about blame. The team needs to review both the immediate response and the conditions supporting cooperation. Good intentions need a clear, safe path to action.
 
-c10s02 | What would you do?
+c10s02 | Opening decision
 Before the explanation, make your own choice.
 
 Why could concerned bystanders hesitate?
@@ -1229,7 +1229,7 @@ For the replacement shelf, the team can agree who owns the check, what support t
 Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
 Speech-specific rendering: Cooperation is joint action directed toward shared or mutually beneficial outcomes. Clear roles and feedback are possible ways to organize it, rather than the definition or a guarantee of success. [pause 0.9] A shared café task needs a clear outcome, usable resources, and a way to report problems. [pause 0.9] For the replacement shelf, the team can agree who owns the check, what support that person needs, and how an unresolved concern will be raised. Naming responsibility makes the next step visible. [pause 0.9] Review the outcome and the fairness of benefits and burdens. Use feedback to revise arrangements that are not working. A statement that everyone cares does not establish that the plan is effective.
 
-c10s05 | What can we really conclude?
+c10s05 | What can studies of aggression and helping tell us?
 Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.
 
 Bystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident.
@@ -1237,7 +1237,7 @@ Bystander findings also vary with danger, relationships, and available support. 
 For a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.
 Speech-specific rendering: Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory. [pause 0.9] Bystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident. [pause 0.9] For a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.
 
-c10s06 | Try the idea somewhere new.
+c10s06 | Apply the idea
 Apply the idea to a new decision.
 
 In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.
@@ -1265,7 +1265,7 @@ c10s06-feedback-2 | Decision feedback
 Best fit for this question. Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention.
 Speech-specific rendering: Best fit for this question. [pause 0.35] Named responsibility and backup address the proposed process. Record completion and handovers on comparable low-risk tasks, while checking other changing conditions. This is an authored application, not a validated emergency-response intervention.
 
-c10s07 | Close your notes. Explain it.
+c10s07 | Recall the ideas
 Answer both prompts from memory.
 
 First. Distinguish diffusion of responsibility from pluralistic ignorance.
@@ -1283,7 +1283,7 @@ First. Diffusion of responsibility concerns who should act. Pluralistic ignoranc
 Second. For an incident review, separate observations from blame, compare possible causes, invite independent accounts, or assign clear roles. These draw on chapters one, two, five, and seven.
 Speech-specific rendering: Suggested answers. [pause 0.8] First. Diffusion of responsibility concerns who should act. Pluralistic ignorance concerns how people interpret others’ reactions. [pause 0.8] Second. For an incident review, separate observations from blame, compare possible causes, invite independent accounts, or assign clear roles. These draw on chapters one, two, five, and seven.
 
-c10s08 | Carry one idea into your week.
+c10s08 | Practise outside the course
 Here is your field practice.
 
 Design a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan.

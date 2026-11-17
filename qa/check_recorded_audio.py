@@ -15,6 +15,7 @@ async def main():
   await pg.locator('#pause').click();t=await pg.evaluate('audioPlayer.currentTime');await pg.wait_for_timeout(300)
   assert abs(await pg.evaluate('audioPlayer.currentTime')-t)<.1
   await pg.locator('#pause').click();await pg.wait_for_function('(t)=>audioPlayer.currentTime>t+.1',arg=t)
+  await pg.locator('.audio-settings summary').click()
   await pg.select_option('#speed','1.15');assert await pg.evaluate('audioPlayer.playbackRate')==1.15
   await pg.locator('#stop').click();assert await pg.evaluate('audioPlayer===null')
   await pg.locator('#next').click();await pg.wait_for_selector('.choices')

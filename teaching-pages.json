@@ -31,7 +31,8 @@
             "kind": "Open introductory textbook"
           }
         ]
-      }
+      },
+      "readingText": "Social psychology studies how people’s thoughts, feelings, and behavior are shaped by other people and social circumstances. To explain an action, consider both the person and the situation.\n\nA disposition is a usual tendency over time, such as patience. A patient person may still give a sharp reply when several people ask for help at once. Goals, beliefs, and skills can also shape how someone responds.\n\nA situation is the set of circumstances someone faces, including other people, immediate demands, and available choices. Personal qualities and circumstances can interact: the same person may respond differently as those demands change.\n\nIn Maya’s story, Leo’s judgment about her commitment leaves the obstacles she faced unexplored. The late arrival alone cannot settle how much either personal qualities or circumstances contributed."
     },
     {
       "id": "c01s03b",
@@ -147,14 +148,14 @@
     },
     {
       "kind": "evidence",
-      "title": "Actor–observer differences need qualification.",
+      "title": "Do people explain their own actions differently?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person’s action.\n\nThe actor–observer hypothesis proposes that people explain their own actions more through situations and other people’s actions more through personal characteristics. Leo citing a bus delay for his own lateness but Maya’s priorities for hers illustrates this hypothesis.\n\nActor–observer differences are not a general rule. A meta-analysis did not support a general asymmetry across positive and negative events; results varied with the event and research method. Keep the hypothesis, the research finding, and the fictional example distinct.",
       "id": "c01s05",
-      "stage": "Evidence check",
+      "stage": "The actor–observer hypothesis",
       "visual": "actor-observer",
       "research": {
         "sections": [
@@ -223,7 +224,7 @@
     {
       "id": "c02s03",
       "kind": "concept",
-      "title": "Together does not establish because.",
+      "title": "Did the poster bring more visitors?",
       "stage": "Correlation and causation",
       "visual": "correlation-causation",
       "points": [
@@ -289,8 +290,8 @@
     {
       "id": "c02s03c",
       "kind": "concept",
-      "title": "Select people. Assign conditions.",
-      "stage": "Design a fair test",
+      "title": "Who takes part and what do they receive?",
+      "stage": "Random sampling and random assignment",
       "visual": "sampling-assignment",
       "points": [
         "Random sampling: select people from a population by chance.",
@@ -392,14 +393,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "What would make the result more dependable?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.\n\nPreregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.\n\nWith a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.",
       "id": "c02s05",
-      "stage": "Evidence check",
+      "stage": "Replication and study design",
       "visual": "research-reliability",
       "research": {
         "sections": [
@@ -467,7 +468,8 @@
             "kind": "Open introductory textbook"
           }
         ]
-      }
+      },
+      "readingText": "Heuristics are mental shortcuts. They can help when time and information are limited. The availability heuristic is a shortcut that uses examples that come easily to mind. After hearing the toaster story, Leo may judge repair failures by how easily he remembers one.\n\nVivid or recent examples can be a poor guide to frequency. A complaint channel helps discover faults, but usually says little about repairs that worked.\n\nThe base rate is how common an event is in a relevant group. To estimate it for repair failures, count failures and the total of comparable repairs. In an invented example, four failures among forty repairs means ten percent. Forty is the denominator: the total used to interpret the four failures. Without that total and consistent follow-up, the café cannot tell how common failure is."
     },
     {
       "id": "c03s04",
@@ -542,14 +544,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "Check a frequency estimate against the record",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.\n\nFor example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities.\n\nWhen reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.",
       "id": "c03s05",
-      "stage": "Evidence check",
+      "stage": "Checking a frequency estimate",
       "visual": "bias-evidence",
       "research": {
         "sections": [
@@ -580,7 +582,7 @@
   "4": [
     {
       "kind": "concept",
-      "title": "Inconsistency can feel uncomfortable.",
+      "title": "When actions and beliefs clash",
       "points": [
         "Cognitive dissonance: inconsistency between beliefs or actions can feel uncomfortable.",
         "Cognitions: beliefs and knowledge about our actions.",
@@ -589,7 +591,7 @@
       ],
       "text": "Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce.\n\nMaya believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice.\n\nPeople may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.",
       "id": "c04s03",
-      "stage": "First lens",
+      "stage": "Cognitive dissonance",
       "visual": "cognitive-dissonance",
       "research": {
         "sections": [
@@ -618,7 +620,7 @@
     },
     {
       "kind": "concept",
-      "title": "Give the future a fresh vote.",
+      "title": "Compare what happens from here",
       "points": [
         "Sunk cost: money, time, or effort that cannot be recovered.",
         "Sunk cost effect: letting that past expense drive the next choice.",
@@ -626,7 +628,7 @@
       ],
       "text": "A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next.\n\nThe hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option.\n\nPast work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.",
       "id": "c04s04",
-      "stage": "Second lens",
+      "stage": "Sunk costs",
       "visual": "sunk-cost",
       "research": {
         "sections": [
@@ -650,14 +652,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "What did the dissonance study test?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "Evidence for specific cognitive dissonance demonstrations is uneven. In 2024, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure.\n\nThe study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups.\n\nThat result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked Vaidis and colleagues study provides the details.",
       "id": "c04s05",
-      "stage": "Evidence check",
+      "stage": "Evidence on cognitive dissonance",
       "visual": "dissonance-evidence",
       "research": {
         "sections": [
@@ -687,7 +689,7 @@
   "5": [
     {
       "kind": "concept",
-      "title": "Two reasons to follow a group.",
+      "title": "Why do people follow the group?",
       "points": [
         "Informational influence: they may know better.",
         "Normative influence: I want acceptance.",
@@ -695,7 +697,7 @@
       ],
       "text": "Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.\n\nNormative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”\n\nBoth influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair.\n\nFor your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.",
       "id": "c05s03",
-      "stage": "First lens",
+      "stage": "Informational and normative influence",
       "visual": "conformity-motives",
       "research": {
         "sections": [
@@ -799,14 +801,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "What did Asch and Milgram test?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence.\n\nIn Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting.\n\nBoth sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.",
       "id": "c05s05",
-      "stage": "Evidence check",
+      "stage": "Evidence on conformity and obedience",
       "visual": "study-context",
       "research": {
         "sections": [
@@ -843,8 +845,8 @@
     {
       "id": "c06s03",
       "kind": "concept",
-      "title": "An evaluation is not a sign-up.",
-      "stage": "Attitude and action",
+      "title": "Liking an invitation and deciding to sign up",
+      "stage": "Attitudes and action",
       "visual": "attitude-evaluation",
       "points": [
         "Attitude: an evaluation of something.",
@@ -937,7 +939,8 @@
             "kind": "Experimental social-norm research; access varies"
           }
         ]
-      }
+      },
+      "readingText": "A descriptive norm concerns what people do. Saying that many residents volunteer makes a descriptive-norm claim. An injunctive norm concerns approval: saying the community values volunteering makes an injunctive-norm claim.\n\nBoth claims need evidence. Inventing a norm is misleading. Highlighting how common an unwanted behavior is can sometimes make that behavior seem normal.\n\nBefore putting a norm in the café’s invitation, check what evidence the team has. If the team cannot verify how many residents volunteer or what residents approve of, describe the shift and the support available instead."
     },
     {
       "id": "c06s04b",
@@ -979,14 +982,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "What do clicks and sign-ups tell us?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.\n\nFor the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering.\n\nThe team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.",
       "id": "c06s05",
-      "stage": "Evidence check",
+      "stage": "Measuring persuasion",
       "visual": "persuasion-outcomes",
       "research": {
         "sections": [
@@ -1046,7 +1049,8 @@
             "kind": "Minimal-group experiments; access varies"
           }
         ]
-      }
+      },
+      "readingText": "Social identity is the part of how people see themselves that comes from belonging to groups. An in-group is a group someone sees as us. Giving repair volunteers first choice of shifts simply because they are our team illustrates in-group favoritism.\n\nThe welcome team’s contribution may then receive less recognition or influence. Favoritism can create unequal treatment without explicit hatred of outsiders.\n\nWhen reviewing the café’s division, examine how membership affects actual decisions. A group label suggests a process to investigate; it does not reveal every member’s private motives."
     },
     {
       "id": "c07s03b",
@@ -1159,14 +1163,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "Was there pressure to agree?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.\n\nTo review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?\n\nThen choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.",
       "id": "c07s05",
-      "stage": "Evidence check",
+      "stage": "Checking for groupthink",
       "visual": "groupthink",
       "research": {
         "sections": [
@@ -1342,14 +1346,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "What can we observe about access?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.\n\nWhen interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action.\n\nWhen evaluating a recruitment change, inspect access and participation: who can apply, progress, and remain involved? Include follow-up and the experiences of applicants. An organizer saying “I am fair” cannot establish that those outcomes are fair.\n\nInterpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
       "id": "c08s05",
-      "stage": "Evidence check",
+      "stage": "Attitudes, associations and access",
       "visual": "attitude-measures",
       "research": {
         "sections": [
@@ -1535,14 +1539,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "What can relationship studies tell us?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.\n\nTo apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.",
       "id": "c09s05",
-      "stage": "Evidence check",
+      "stage": "Interpreting relationship studies",
       "visual": "relationship-evidence",
       "research": {
         "sections": [
@@ -1728,14 +1732,14 @@
     },
     {
       "kind": "evidence",
-      "title": "What can we really conclude?",
+      "title": "What can studies of aggression and helping tell us?",
       "points": [
         "What the research supports",
         "Where the claim needs restraint"
       ],
       "text": "Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.\n\nBystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident.\n\nFor a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.",
       "id": "c10s05",
-      "stage": "Evidence check",
+      "stage": "Evidence on aggression and helping",
       "visual": "proxy-and-context",
       "research": {
         "sections": [

@@ -43,7 +43,7 @@ async def main():
   await page.locator('#decisionReasoning').fill(text);await page.locator('#decisionReasoning').press('ArrowLeft');assert page.url.endswith('chapter-1-slide-6')
   for index,feedback in enumerate(C['quizzes'][1]['feedback']):
    await page.locator(f'[data-answer="{index}"]').click();assert await page.locator('#decisionReasoning').input_value()==text
-   assert not await page.locator('#playFeedback').count();await page.locator('#checkChoice').click();assert feedback in await page.locator('.feedback').inner_text()
+   assert not await page.locator('#playFeedback').is_visible();await page.locator('#checkChoice').click();assert feedback in await page.locator('.feedback').inner_text()
   await page.reload();assert await page.locator('#decisionReasoning').input_value()==text;assert await page.locator('[data-answer="2"]').get_attribute('aria-pressed')=='true'
   assert not await page.locator('.reasoning-field script').count()
   await page.goto(BASE+'/chapters/chapter-02.html');await page.locator('#next').click();await page.locator('[data-answer="1"]').click()

@@ -45,7 +45,7 @@ async def main():
                     assert normalized(term) in text, (width, key, term, 'missing from visible teaching slide')
                 assert await page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'), (width, key, 'horizontal overflow')
                 if key == 'c01s04b':
-                    assert await page.locator('#app .slide strong').filter(has_text='Fundamental attribution error').count() == 1
+                    assert await page.get_by_role('button',name='Define fundamental attribution error',exact=False).count() == 1
                     if width == 1440:
                         await page.locator('#app .slide').screenshot(path=str(ROOT/'out/terminology-desktop.png'))
         await browser.close()
@@ -61,7 +61,7 @@ async def main():
             for term in expected:
                 assert normalized(term) in text, (str(path), number, term, 'missing from PDF teaching slide')
     result = dict(revision='visible-terminology', teaching_slides=len(terms), term_appearances=sum(map(len, terms.values())),
-                  widths=[320, 1440], transcript_excluded=True, visible_bold_term='passed',
+                  widths=[320, 1440], transcript_excluded=True, visible_definition_control='passed',
                   complete_and_chapter_pdf_terms='passed', js_errors=errors)
     (ROOT/'qa/visible-terminology-results.json').write_text(json.dumps(result, indent=2)+'\n')
     print(json.dumps(result, indent=2))

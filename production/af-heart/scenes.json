@@ -10,7 +10,7 @@
   {
     "id": "c01s02",
     "slide": 2,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nLeo is assigning the opening shift. What is his most informative next move?\n\nConsider the consequences of each option.\n\nOption A. Ask Maya about today and check her availability.\nOption B. Use today’s lateness as the main sign of reliability.\nOption C. Ignore today and assume she will arrive on time.\n\nPause here and make your choice.",
     "part": "chapter-01",
     "say": "Before the explanation, make your own choice. [pause 0.6] Leo is assigning the opening shift. What is his most informative next move? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. Ask [Maya](/mˈaɪə/) about today and check her availability. [pause 0.6] Option B. Use today’s lateness as the main sign of reliability. [pause 0.6] Option C. Ignore today and assume she will arrive on time. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -70,7 +70,7 @@
   },
   {
     "id": "c01s05",
-    "step": "Actor–observer differences need qualification.",
+    "step": "Do people explain their own actions differently?",
     "text": "Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person’s action.\n\nThe actor–observer hypothesis proposes that people explain their own actions more through situations and other people’s actions more through personal characteristics. Leo citing a bus delay for his own lateness but Maya’s priorities for hers illustrates this hypothesis.\n\nActor–observer differences are not a general rule. A meta-analysis did not support a general asymmetry across positive and negative events; results varied with the event and research method. Keep the hypothesis, the research finding, and the fictional example distinct.",
     "part": "chapter-01",
     "say": "Attribution research examines how people explain the causes of actions and events. Those explanations do not, by themselves, settle the cause of one person’s action. [pause 0.9] The actor–observer hypothesis proposes that people explain their own actions more through situations and other people’s actions more through personal characteristics. Leo citing a bus delay for his own lateness but [Maya’s](/mˈaɪəz/) priorities for hers illustrates this hypothesis. [pause 0.9] Actor–observer differences are not a general rule. A meta-analysis did not support a general asymmetry across positive and negative events; results varied with the event and research method. Keep the hypothesis, the research finding, and the fictional example distinct.",
@@ -86,7 +86,7 @@
   },
   {
     "id": "c01s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nNoor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.\n\nAll three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running.\n\nWhich additional comparison best separates these explanations?\n\nWhy does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.\n\nOption A. Noor’s punctuality on early shifts with and without bus cancellations.\nOption B. Noor’s punctuality at a different activity reached on foot.\nOption C. Other volunteers’ punctuality on early café shifts.\n\nPause here and make your choice.",
     "part": "chapter-01",
     "say": "Apply the idea to a new decision. [pause 0.6] Noor was late for three of six café shifts. Leo proposes bus cancellations; [Maya](/mˈaɪə/) asks whether the earlier start also matters. [pause 0.6] All three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running. [pause 0.6] Which additional comparison best separates these explanations? [pause 0.6] Why does your comparison help? State what it keeps similar, what it varies, and one remaining limitation. [pause 0.6] Option A. Noor’s punctuality on early shifts with and without bus cancellations. [pause 0.6] Option B. Noor’s punctuality at a different activity reached on foot. [pause 0.6] Option C. Other volunteers’ punctuality on early café shifts. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -115,7 +115,7 @@
   },
   {
     "id": "c01s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. In Maya’s arrival story, what did Leo observe, and what cause did he infer?\n\nSecond. What evidence would strengthen an explanation based on a person’s usual tendencies, rather than one unusual situation?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-01",
     "say": "Answer both prompts from memory. [pause 0.7] First. In [Maya’s](/mˈaɪəz/) arrival story, what did Leo observe, and what cause did he infer? [pause 2.0] Second. What evidence would strengthen an explanation based on a person’s usual tendencies, rather than one unusual situation? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -130,7 +130,7 @@
   },
   {
     "id": "c01s08",
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nChoose a mildly frustrating action by another person. Write what you observed, your initial explanation, two plausible alternatives, and one respectful question that could clarify what happened.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-01",
     "say": "Here is your field practice. [pause 0.9] Choose a mildly frustrating action by another person. Write what you observed, your initial explanation, two plausible alternatives, and one respectful question that could clarify what happened. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
@@ -147,7 +147,7 @@
   {
     "id": "c02s02",
     "slide": 13,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nWhich statement fits Leo’s evidence?\n\nConsider the consequences of each option.\n\nOption A. The poster caused the increase.\nOption B. The poster had no effect.\nOption C. Attendance rose; several causes remain possible.\n\nPause here and make your choice.",
     "part": "chapter-02",
     "say": "Before the explanation, make your own choice. [pause 0.6] Which statement fits Leo’s evidence? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. The poster caused the increase. [pause 0.6] Option B. The poster had no effect. [pause 0.6] Option C. Attendance rose; several causes remain possible. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -175,7 +175,7 @@
   },
   {
     "id": "c02s03",
-    "step": "Together does not establish because.",
+    "step": "Did the poster bring more visitors?",
     "text": "Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain.\n\nLeo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes.\n\nWhen you assess a causal claim, distinguish the observed change from the proposed explanation. Then ask what comparison could help test that explanation.",
     "part": "chapter-02",
     "say": "Correlation means that two things vary together. In the café story, the poster changed and attendance increased. That pattern is an observation to explain. [pause 0.9] Leo’s claim that the poster caused the increase goes further. Better weather, publicity, or changed opening hours could also have brought visitors. The before-and-after pattern does not separate those causes. [pause 0.9] When you assess a causal claim, distinguish the observed change from the proposed explanation. Then ask what comparison could help test that explanation.",
@@ -191,7 +191,7 @@
   },
   {
     "id": "c02s03c",
-    "step": "Select people. Assign conditions.",
+    "step": "Who takes part and what do they receive?",
     "text": "Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives.\n\nThe café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups.\n\nTesting only existing supporters may tell the team little about residents who have never visited. Randomly assigning those supporters to versions would not solve that sampling limitation.",
     "part": "chapter-02",
     "say": "Random sampling and random assignment answer different questions. Sampling concerns who enters the study. Assignment concerns which condition each selected person receives. [pause 0.9] The café could randomly select households from a neighborhood list, then use another chance process to assign the first invitation design or the second for the same event. Random assignment helps balance other influences between groups on average; it does not guarantee identical groups. [pause 0.9] Testing only existing supporters may tell the team little about residents who have never visited. Randomly assigning those supporters to versions would not solve that sampling limitation.",
@@ -215,7 +215,7 @@
   },
   {
     "id": "c02s05",
-    "step": "What can we really conclude?",
+    "step": "What would make the result more dependable?",
     "text": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere.\n\nPreregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design.\n\nWith a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.",
     "part": "chapter-02",
     "say": "Replication repeats a test to examine how dependable a finding is. Independent tests help us learn whether a result holds up elsewhere. [pause 0.9] Preregistration records the planned methods and analysis before results are known. That advance record reduces some opportunities for selective reporting. Preregistration cannot rescue a poor design. [pause 0.9] With a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.",
@@ -223,7 +223,7 @@
   },
   {
     "id": "c02s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nThe café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.\n\nWhich redesign most directly tests that claim?\n\nName the competing explanation your design addresses and one remaining limitation.\n\nOption A. Keep the existing groups and compare attendance over more weekends.\nOption B. Randomly assign A or B within both contact groups for the same event.\nOption C. Use only first-time contacts; send A this month and B next month.\n\nPause here and make your choice.",
     "part": "chapter-02",
     "say": "Apply the idea to a new decision. [pause 0.6] The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect. [pause 0.6] Which redesign most directly tests that claim? [pause 0.6] Name the competing explanation your design addresses and one remaining limitation. [pause 0.6] Option A. Keep the existing groups and compare attendance over more weekends. [pause 0.6] Option B. Randomly assign A or B within both contact groups for the same event. [pause 0.6] Option C. Use only first-time contacts; send A this month and B next month. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -252,7 +252,7 @@
   },
   {
     "id": "c02s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. How does random assignment differ from random sampling?\n\nSecond. Why does the rise in attendance after Leo changed the poster fail to establish that the poster caused the increase?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-02",
     "say": "Answer both prompts from memory. [pause 0.7] First. How does random assignment differ from random sampling? [pause 2.0] Second. Why does the rise in attendance after Leo changed the poster fail to establish that the poster caused the increase? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -268,7 +268,7 @@
   {
     "id": "c02s08",
     "slide": 22,
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nFind an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-02",
     "say": "Here is your field practice. [pause 0.9] Find an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example."
@@ -284,7 +284,7 @@
   {
     "id": "c03s02",
     "slide": 24,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nWhat most improves the estimate of repeat failures?\n\nConsider the consequences of each option.\n\nOption A. A detailed account of the worst failure.\nOption B. Failures divided by comparable completed repairs.\nOption C. A vote on whose impression feels realistic.\n\nPause here and make your choice.",
     "part": "chapter-03",
     "say": "Before the explanation, make your own choice. [pause 0.6] What most improves the estimate of repeat failures? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. A detailed account of the worst failure. [pause 0.6] Option B. Failures divided by comparable completed repairs. [pause 0.6] Option C. A vote on whose impression feels realistic. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -336,7 +336,7 @@
   },
   {
     "id": "c03s05",
-    "step": "What can we really conclude?",
+    "step": "Check a frequency estimate against the record",
     "text": "When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate.\n\nFor example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities.\n\nWhen reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.",
     "part": "chapter-03",
     "say": "When assessing someone else’s estimate, compare that estimate with a relevant record before proposing that it is biased. A bias label alone cannot establish how the person reached the estimate. [pause 0.9] For example, Leo’s vivid repair stories might give a distorted impression of failure. In another case, an experienced repairer’s remembered cases might accurately reflect a dependable record. Representative evidence helps distinguish these possibilities. [pause 0.9] When reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.",
@@ -344,7 +344,7 @@
   },
   {
     "id": "c03s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nEvening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.\n\nWhat would most improve a comparison of failure rates?\n\nState the denominator you need and one reason a difference would not establish its cause.\n\nOption A. Count every fault mentioned in the evening-session chat.\nOption B. Ask the most experienced evening repairer to estimate the failure rate.\nOption C. Compare failure proportions among comparable repairs using the same follow-up period.\n\nPause here and make your choice.",
     "part": "chapter-03",
     "say": "Apply the idea to a new decision. [pause 0.6] Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure. [pause 0.6] What would most improve a comparison of failure rates? [pause 0.6] State the denominator you need and one reason a difference would not establish its cause. [pause 0.6] Option A. Count every fault mentioned in the evening-session chat. [pause 0.6] Option B. Ask the most experienced evening repairer to estimate the failure rate. [pause 0.6] Option C. Compare failure proportions among comparable repairs using the same follow-up period. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -373,7 +373,7 @@
   },
   {
     "id": "c03s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. Why can’t Leo estimate the repair failure rate from one vivid toaster failure? What total must he count?\n\nSecond. When can an availability shortcut be useful?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-03",
     "say": "Answer both prompts from memory. [pause 0.7] First. Why can’t Leo estimate the repair failure rate from one vivid toaster failure? What total must he count? [pause 2.0] Second. When can an availability shortcut be useful? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -389,7 +389,7 @@
   {
     "id": "c03s08",
     "slide": 31,
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nKeep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-03",
     "say": "Here is your field practice. [pause 0.9] Keep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example."
@@ -405,7 +405,7 @@
   {
     "id": "c04s02",
     "slide": 33,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nWhat makes honest revision easier?\n\nConsider the consequences of each option.\n\nOption A. Review failures and compare options afresh.\nOption B. Remind Maya that a competent coordinator would know better.\nOption C. Keep the system until the investment feels worthwhile.\n\nPause here and make your choice.",
     "part": "chapter-04",
     "say": "Before the explanation, make your own choice. [pause 0.6] What makes honest revision easier? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. Review failures and compare options afresh. [pause 0.6] Option B. Remind [Maya](/mˈaɪə/) that a competent coordinator would know better. [pause 0.6] Option C. Keep the system until the investment feels worthwhile. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -433,7 +433,7 @@
   },
   {
     "id": "c04s03",
-    "step": "Inconsistency can feel uncomfortable.",
+    "step": "When actions and beliefs clash",
     "text": "Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce.\n\nMaya believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice.\n\nPeople may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.",
     "part": "chapter-04",
     "say": "Cognitive dissonance theory concerns a clash between things we believe or know about our actions. “Cognitions” is the technical term for those beliefs and pieces of knowledge. The theory proposes that such a clash can create discomfort we are motivated to reduce. [pause 0.9] [Maya](/mˈaɪə/) believes she chooses reliable tools, yet the booking system she chose keeps losing reservations. She could reduce that discomfort by dismissing each failure, or by revising her view: a capable coordinator can recognize and correct a poor choice. [pause 0.9] People may change a behavior, change a belief, or add a justification. The response is not predetermined. How much choice and responsibility someone feels can affect the pressure to justify an action.",
@@ -441,7 +441,7 @@
   },
   {
     "id": "c04s04",
-    "step": "Give the future a fresh vote.",
+    "step": "Compare what happens from here",
     "text": "A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next.\n\nThe hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option.\n\nPast work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.",
     "part": "chapter-04",
     "say": "A sunk cost is money, time, or effort already spent that cannot be recovered. The sunk cost effect occurs when that past expense influences a decision about what to do next. [pause 0.9] The hours spent configuring the booking system cannot be recovered by continuing to use it. The next decision concerns future bookings, support costs, and the effort needed to switch. Compare the future benefits and avoidable costs of each option. [pause 0.9] Past work can still matter through its future consequences. Skills the team can reuse are a benefit; retraining after a switch is a future cost. Those consequences belong in the comparison. The wish to make past effort feel worthwhile does not, by itself, favor continuing.",
@@ -449,7 +449,7 @@
   },
   {
     "id": "c04s05",
-    "step": "What can we really conclude?",
+    "step": "What did the dissonance study test?",
     "text": "Evidence for specific cognitive dissonance demonstrations is uneven. In 2024, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure.\n\nThe study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups.\n\nThat result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked Vaidis and colleagues study provides the details.",
     "part": "chapter-04",
     "say": "Evidence for specific cognitive dissonance demonstrations is uneven. In twenty twenty-four, researchers repeated one procedure across multiple laboratories. Participants were asked to argue for a position they did not hold, with more or less choice about doing so. This is called an induced-compliance procedure. [pause 0.9] The study tested whether the amount of choice affected later attitudes. Its primary analysis did not support the predicted difference between the higher-choice and lower-choice groups. [pause 0.9] That result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked study provides the details.",
@@ -457,7 +457,7 @@
   },
   {
     "id": "c04s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nIn an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.\n\nWhich information matters most to the next cost comparison?\n\nSeparate an irrecoverable cost from a future consequence, and identify one assumption to check.\n\nOption A. Whether retraining adds more than £40 in future cost.\nOption B. Which volunteer feels most responsible for the original £600.\nOption C. Whether other cafés also paid £600 for the same tool.\n\nPause here and make your choice.",
     "part": "chapter-04",
     "say": "Apply the idea to a new decision. [pause 0.6] In an invented booking-system decision, the team has paid a nonrefundable six hundred pounds. Keeping the tool requires one hundred and twenty pounds in future support; switching costs eighty pounds plus retraining. Expected future booking benefits are similar. [pause 0.6] Which information matters most to the next cost comparison? [pause 0.6] Separate an irrecoverable cost from a future consequence, and identify one assumption to check. [pause 0.6] Option A. Whether retraining adds more than forty pounds in future cost. [pause 0.6] Option B. Which volunteer feels most responsible for the original six hundred pounds. [pause 0.6] Option C. Whether other cafés also paid six hundred pounds for the same tool. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -486,7 +486,7 @@
   },
   {
     "id": "c04s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. Name two ways to reduce dissonance.\n\nSecond. When can a past investment still matter?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-04",
     "say": "Answer both prompts from memory. [pause 0.7] First. Name two ways to reduce dissonance. [pause 2.0] Second. When can a past investment still matter? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -502,7 +502,7 @@
   {
     "id": "c04s08",
     "slide": 39,
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nRevisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-04",
     "say": "Here is your field practice. [pause 0.9] Revisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example."
@@ -518,7 +518,7 @@
   {
     "id": "c05s02",
     "slide": 41,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nWhat could reveal concerns before discussion?\n\nConsider the consequences of each option.\n\nOption A. Have the chair announce the preferred answer.\nOption B. Collect independent written judgments first.\nOption C. Ask only experienced members to speak.\n\nPause here and make your choice.",
     "part": "chapter-05",
     "say": "Before the explanation, make your own choice. [pause 0.6] What could reveal concerns before discussion? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. Have the chair announce the preferred answer. [pause 0.6] Option B. Collect independent written judgments first. [pause 0.6] Option C. Ask only experienced members to speak. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -545,7 +545,7 @@
   },
   {
     "id": "c05s03",
-    "step": "Two reasons to follow a group.",
+    "step": "Why do people follow the group?",
     "text": "Informational influence means treating other people’s responses as evidence about reality. Sam might think, “Maya agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain.\n\nNormative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.”\n\nBoth influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair.\n\nFor your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.",
     "part": "chapter-05",
     "say": "Informational influence means treating other people’s responses as evidence about reality. Sam might think, “[Maya](/mˈaɪə/) agreed, so perhaps she knows we can manage the event.” This is especially relevant when Sam is uncertain. [pause 0.9] Normative influence concerns acceptance and the wish to avoid rejection. Sam might think, “I’m worried about the workload, but I don’t want the team to see me as unhelpful.” [pause 0.9] Both influences can operate at once. Sam may doubt their own estimate and fear disappointing the chair. [pause 0.9] For your own group decisions, check the information behind the agreement and whether members can disagree without a social penalty. Those checks help you evaluate the decision without assuming that you know everyone’s private motive.",
@@ -569,7 +569,7 @@
   },
   {
     "id": "c05s05",
-    "step": "What can we really conclude?",
+    "step": "What did Asch and Milgram test?",
     "text": "In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence.\n\nIn Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting.\n\nBoth sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.",
     "part": "chapter-05",
     "say": "In Asch’s line-judgment studies, participants compared line lengths after hearing a group give incorrect answers. The studies examined when people would follow a majority despite the visible evidence. [pause 0.9] In Milgram’s studies, an experimenter urged participants to continue a task they believed delivered electric shocks to another person. The studies examined responses to apparent authority in a highly structured setting. [pause 0.9] Both sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.",
@@ -577,7 +577,7 @@
   },
   {
     "id": "c05s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nVolunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.\n\nWhich check best separates these possible influences?\n\nDescribe a pattern consistent with each influence and one limit on inferring motives.\n\nOption A. Compare private estimates before and after reviewing the evidence, then compare private and public responses.\nOption B. Record the final public vote after the chair repeats the endorsement.\nOption C. Ask another team to run a different event and compare its decision.\n\nPause here and make your choice.",
     "part": "chapter-05",
     "say": "Apply the idea to a new decision. [pause 0.6] Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval. [pause 0.6] Which check best separates these possible influences? [pause 0.6] Describe a pattern consistent with each influence and one limit on inferring motives. [pause 0.6] Option A. Compare private estimates before and after reviewing the evidence, then compare private and public responses. [pause 0.6] Option B. Record the final public vote after the chair repeats the endorsement. [pause 0.6] Option C. Ask another team to run a different event and compare its decision. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -606,7 +606,7 @@
   },
   {
     "id": "c05s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. Distinguish normative and informational influence.\n\nSecond. Why can public agreement overstate private agreement?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-05",
     "say": "Answer both prompts from memory. [pause 0.7] First. Distinguish normative and informational influence. [pause 2.0] Second. Why can public agreement overstate private agreement? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -622,7 +622,7 @@
   {
     "id": "c05s08",
     "slide": 48,
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nFor an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-05",
     "say": "Here is your field practice. [pause 0.9] For an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example."
@@ -638,7 +638,7 @@
   {
     "id": "c06s02",
     "slide": 50,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nA potential volunteer worries about the time commitment. What information would help most?\n\nConsider the consequences of each option.\n\nOption A. A second celebrity endorsement.\nOption B. Shift length, support, and an optional trial.\nOption C. A stronger claim that this is unmissable.\n\nPause here and make your choice.",
     "part": "chapter-06",
     "say": "Before the explanation, make your own choice. [pause 0.6] A potential volunteer worries about the time commitment. What information would help most? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. A second celebrity endorsement. [pause 0.6] Option B. Shift length, support, and an optional trial. [pause 0.6] Option C. A stronger claim that this is unmissable. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -666,7 +666,7 @@
   },
   {
     "id": "c06s03",
-    "step": "An evaluation is not a sign-up.",
+    "step": "Liking an invitation and deciding to sign up",
     "text": "An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up.\n\nA resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does.\n\nWhen evaluating Maya’s invitation, distinguish a favorable reaction from understanding the commitment and choosing to participate. Ask what outcome the message is intended to support before deciding whether it worked.",
     "part": "chapter-06",
     "say": "An attitude is an evaluation, such as judging volunteering to be worthwhile or burdensome. An invitation may influence that evaluation, but a positive attitude does not guarantee a sign-up. [pause 0.9] A resident might value the café yet be unable to attend its shifts. Time, transport, available support, and personal choice also affect what the person does. [pause 0.9] When evaluating [Maya’s](/mˈaɪəz/) invitation, distinguish a favorable reaction from understanding the commitment and choosing to participate. Ask what outcome the message is intended to support before deciding whether it worked.",
@@ -698,7 +698,7 @@
   },
   {
     "id": "c06s05",
-    "step": "What can we really conclude?",
+    "step": "What do clicks and sign-ups tell us?",
     "text": "Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change.\n\nFor the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering.\n\nThe team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.",
     "part": "chapter-06",
     "say": "Persuasion depends on the audience, topic, source, and outcome being measured. A changed survey answer is not the same outcome as sustained behavior change. [pause 0.9] For the café team, the next task is to evaluate its revised invitation. More clicks show increased attention; they do not establish that potential volunteers understood the commitment or will keep volunteering. [pause 0.9] The team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.",
@@ -706,7 +706,7 @@
   },
   {
     "id": "c06s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nTwo café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.\n\nWhich comparison best matches that aim?\n\nDistinguish two message outcomes and state a design or measurement limitation.\n\nOption A. Choose the version with more clicks, without checking what happened afterward.\nOption B. Compare how much recipients like the celebrity and practical-detail versions.\nOption C. Randomly assign truthful versions and measure understanding, informed sign-ups, and later attendance.\n\nPause here and make your choice.",
     "part": "chapter-06",
     "say": "Apply the idea to a new decision. [pause 0.6] Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer. [pause 0.6] Which comparison best matches that aim? [pause 0.6] Distinguish two message outcomes and state a design or measurement limitation. [pause 0.6] Option A. Choose the version with more clicks, without checking what happened afterward. [pause 0.6] Option B. Compare how much recipients like the celebrity and practical-detail versions. [pause 0.6] Option C. Randomly assign truthful versions and measure understanding, informed sign-ups, and later attendance. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -735,7 +735,7 @@
   },
   {
     "id": "c06s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. What makes central processing more likely?\n\nSecond. Distinguish descriptive and injunctive norms.\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-06",
     "say": "Answer both prompts from memory. [pause 0.7] First. What makes central processing more likely? [pause 2.0] Second. Distinguish descriptive and injunctive norms. [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -751,7 +751,7 @@
   {
     "id": "c06s08",
     "slide": 58,
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nRewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-06",
     "say": "Here is your field practice. [pause 0.9] Rewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example."
@@ -767,7 +767,7 @@
   {
     "id": "c07s02",
     "slide": 60,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nThe shared checklist is unfinished. What is a useful first change?\n\nConsider the consequences of each option.\n\nOption A. Agree on owners, deadlines, and needed support.\nOption B. Tell everyone their commitment is disappointing.\nOption C. Copy more people onto every task.\n\nPause here and make your choice.",
     "part": "chapter-07",
     "say": "Before the explanation, make your own choice. [pause 0.6] The shared checklist is unfinished. What is a useful first change? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. Agree on owners, deadlines, and needed support. [pause 0.6] Option B. Tell everyone their commitment is disappointing. [pause 0.6] Option C. Copy more people onto every task. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -827,7 +827,7 @@
   },
   {
     "id": "c07s05",
-    "step": "What can we really conclude?",
+    "step": "Was there pressure to agree?",
     "text": "Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred.\n\nTo review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear?\n\nThen choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.",
     "part": "chapter-07",
     "say": "Groupthink describes cases where pressure for agreement interferes with critical discussion. A poor decision alone does not establish that this process occurred. [pause 0.9] To review the café’s planning meeting, look at what happened during the discussion. Which concerns were withheld? Which information was repeated or missed? Were roles or incentives unclear? [pause 0.9] Then choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.",
@@ -835,7 +835,7 @@
   },
   {
     "id": "c07s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nWelcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.\n\nWhich check best distinguishes coordination loss from reduced effort?\n\nName evidence consistent with each explanation and one limitation of the comparison.\n\nOption A. Compare individual task completion and handovers on matched shifts before and after clarifying dependencies.\nOption B. Count how often volunteers describe their commitment in meetings.\nOption C. Compare team headcount on the busiest and quietest days.\n\nPause here and make your choice.",
     "part": "chapter-07",
     "say": "Apply the idea to a new decision. [pause 0.6] Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen. [pause 0.6] Which check best distinguishes coordination loss from reduced effort? [pause 0.6] Name evidence consistent with each explanation and one limitation of the comparison. [pause 0.6] Option A. Compare individual task completion and handovers on matched shifts before and after clarifying dependencies. [pause 0.6] Option B. Count how often volunteers describe their commitment in meetings. [pause 0.6] Option C. Compare team headcount on the busiest and quietest days. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -864,7 +864,7 @@
   },
   {
     "id": "c07s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. How does polarization differ from consensus?\n\nSecond. How can a willing group still perform poorly?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-07",
     "say": "Answer both prompts from memory. [pause 0.7] First. How does polarization differ from consensus? [pause 2.0] Second. How can a willing group still perform poorly? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -879,7 +879,7 @@
   },
   {
     "id": "c07s08",
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nChoose a shared project you know well. Map each task, its owner, what must happen before it can start, and when progress will be checked. Identify one plausible obstacle and a check that could distinguish it from another explanation before proposing a remedy.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-07",
     "say": "Here is your field practice. [pause 0.9] Choose a shared project you know well. Map each task, its owner, what must happen before it can start, and when progress will be checked. Identify one plausible obstacle and a check that could distinguish it from another explanation before proposing a remedy. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
@@ -896,7 +896,7 @@
   {
     "id": "c08s02",
     "slide": 70,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nHow should the team investigate unequal access?\n\nConsider the consequences of each option.\n\nOption A. Ask whether organizers consider themselves fair.\nOption B. Trace who can enter each stage and where people drop out.\nOption C. Add a fairness slogan to the poster.\n\nPause here and make your choice.",
     "part": "chapter-08",
     "say": "Before the explanation, make your own choice. [pause 0.6] How should the team investigate unequal access? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. Ask whether organizers consider themselves fair. [pause 0.6] Option B. Trace who can enter each stage and where people drop out. [pause 0.6] Option C. Add a fairness slogan to the poster. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -955,7 +955,7 @@
   },
   {
     "id": "c08s05",
-    "step": "What can we really conclude?",
+    "step": "What can we observe about access?",
     "text": "An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated.\n\nWhen interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action.\n\nWhen evaluating a recruitment change, inspect access and participation: who can apply, progress, and remain involved? Include follow-up and the experiences of applicants. An organizer saying “I am fair” cannot establish that those outcomes are fair.\n\nInterpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
     "part": "chapter-08",
     "say": "An explicit attitude is an evaluation someone reports directly. An implicit association is a link between ideas that may be measured indirectly, such as through the speed of responses in a sorting task. Discriminatory behavior concerns how people are actually treated. [pause 0.9] When interpreting a participant’s implicit-association score, remember that it is not a complete diagnosis of that person’s character or a forecast of every action. [pause 0.9] When evaluating a recruitment change, inspect access and participation: who can apply, progress, and remain involved? Include follow-up and the experiences of applicants. An organizer saying “I am fair” cannot establish that those outcomes are fair. [pause 0.9] Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.",
@@ -963,7 +963,7 @@
   },
   {
     "id": "c08s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nFriend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.\n\nWhat evidence best examines whether access improved?\n\nName one access outcome and one reason a before-and-after change would not establish its cause.\n\nOption A. Survey organizers about how welcoming the process now feels.\nOption B. Track comparable applicants through assessment, offers, and participation, and ask about barriers.\nOption C. Compare the form’s wording with a different café’s form.\n\nPause here and make your choice.",
     "part": "chapter-08",
     "say": "Apply the idea to a new decision. [pause 0.6] Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved. [pause 0.6] What evidence best examines whether access improved? [pause 0.6] Name one access outcome and one reason a before-and-after change would not establish its cause. [pause 0.6] Option A. Survey organizers about how welcoming the process now feels. [pause 0.6] Option B. Track comparable applicants through assessment, offers, and participation, and ask about barriers. [pause 0.6] Option C. Compare the form’s wording with a different café’s form. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -992,7 +992,7 @@
   },
   {
     "id": "c08s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. Give an example of discrimination without an openly hostile statement.\n\nSecond. Why might a contact event leave unequal access unchanged?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-08",
     "say": "Answer both prompts from memory. [pause 0.7] First. Give an example of discrimination without an openly hostile statement. [pause 2.0] Second. Why might a contact event leave unequal access unchanged? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -1008,7 +1008,7 @@
   {
     "id": "c08s08",
     "slide": 78,
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nReview a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-08",
     "say": "Here is your field practice. [pause 0.9] Review a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example."
@@ -1024,7 +1024,7 @@
   {
     "id": "c09s02",
     "slide": 80,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nA newcomer hopes to make friends. What is a respectful starting point?\n\nConsider the consequences of each option.\n\nOption A. Offer a shared activity and notice reciprocal interest.\nOption B. Share increasingly private details until closeness develops.\nOption C. Keep arranging contact after invitations are declined.\n\nPause here and make your choice.",
     "part": "chapter-09",
     "say": "Before the explanation, make your own choice. [pause 0.6] A newcomer hopes to make friends. What is a respectful starting point? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. Offer a shared activity and notice reciprocal interest. [pause 0.6] Option B. Share increasingly private details until closeness develops. [pause 0.6] Option C. Keep arranging contact after invitations are declined. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -1082,7 +1082,7 @@
   },
   {
     "id": "c09s05",
-    "step": "What can we really conclude?",
+    "step": "What can relationship studies tell us?",
     "text": "Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms.\n\nSuppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction.\n\nTo apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.",
     "part": "chapter-09",
     "say": "Much relationship research examines associations or asks people to report their own experiences. Self-reports provide information about those experiences, but people may remember events differently or answer in ways they prefer others to see. Samples may also represent only particular cultures or relationship forms. [pause 0.9] Suppose similar partners report greater satisfaction. That association does not, by itself, establish that making two people more similar would improve their relationship. Other factors might contribute to both similarity and satisfaction. [pause 0.9] To apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.",
@@ -1090,7 +1090,7 @@
   },
   {
     "id": "c09s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nAfter several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.\n\nWhich evidence best examines whether responsiveness relates to closeness?\n\nState an observable or reported measure and one limit on a causal interpretation.\n\nOption A. Record only how often the pair meets after the shared shift begins.\nOption B. Invite both, if willing, to report disclosure, perceived responsiveness, and closeness across conversations.\nOption C. Compare shared interests and later friendship ratings across different pairs.\n\nPause here and make your choice.",
     "part": "chapter-09",
     "say": "Apply the idea to a new decision. [pause 0.6] After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to. [pause 0.6] Which evidence best examines whether responsiveness relates to closeness? [pause 0.6] State an observable or reported measure and one limit on a causal interpretation. [pause 0.6] Option A. Record only how often the pair meets after the shared shift begins. [pause 0.6] Option B. Invite both, if willing, to report disclosure, perceived responsiveness, and closeness across conversations. [pause 0.6] Option C. Compare shared interests and later friendship ratings across different pairs. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "c09s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. How can proximity affect friendship?\n\nSecond. Why is disclosure alone insufficient?\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-09",
     "say": "Answer both prompts from memory. [pause 0.7] First. How can proximity affect friendship? [pause 2.0] Second. Why is disclosure alone insufficient? [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -1134,7 +1134,7 @@
   },
   {
     "id": "c09s08",
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nDuring a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-09",
     "say": "Here is your field practice. [pause 0.9] During a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
@@ -1151,7 +1151,7 @@
   {
     "id": "c10s02",
     "slide": 90,
-    "step": "What would you do?",
+    "step": "Opening decision",
     "text": "Before the explanation, make your own choice.\n\nWhy could concerned bystanders hesitate?\n\nConsider the consequences of each option.\n\nOption A. Concern disappears when groups become large.\nOption B. People may be uncertain and assume someone else will act.\nOption C. Hesitation proves nobody cares.\n\nPause here and make your choice.",
     "part": "chapter-10",
     "say": "Before the explanation, make your own choice. [pause 0.6] Why could concerned bystanders hesitate? [pause 0.6] Consider the consequences of each option. [pause 0.6] Option A. Concern disappears when groups become large. [pause 0.6] Option B. People may be uncertain and assume someone else will act. [pause 0.6] Option C. Hesitation proves nobody cares. [pause 0.7] Pause here and make your choice. [pause 2.0]"
@@ -1210,7 +1210,7 @@
   },
   {
     "id": "c10s05",
-    "step": "What can we really conclude?",
+    "step": "What can studies of aggression and helping tell us?",
     "text": "Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory.\n\nBystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident.\n\nFor a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.",
     "part": "chapter-10",
     "say": "Laboratory studies may measure aggression through controlled tasks, such as choosing an unpleasant noise for another participant. Such measures are imperfect indicators of serious violence outside the laboratory. [pause 0.9] Bystander findings also vary with danger, relationships, and available support. “Crowds don’t help” hides those differences and cannot explain every incident. [pause 0.9] For a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.",
@@ -1218,7 +1218,7 @@
   },
   {
     "id": "c10s06",
-    "step": "Try the idea somewhere new.",
+    "step": "Apply the idea",
     "text": "Apply the idea to a new decision.\n\nIn a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.\n\nWhich change most directly tests the proposed responsibility problem?\n\nIdentify the process addressed, the outcome to record, and one limit of your comparison.\n\nOption A. Add recognition training without changing task ownership.\nOption B. Discuss why the list matters while leaving its owner unspecified.\nOption C. Introduce a named checker and backup; compare completion and handovers across similar shifts.\n\nPause here and make your choice.",
     "part": "chapter-10",
     "say": "Apply the idea to a new decision. [pause 0.6] In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check. [pause 0.6] Which change most directly tests the proposed responsibility problem? [pause 0.6] Identify the process addressed, the outcome to record, and one limit of your comparison. [pause 0.6] Option A. Add recognition training without changing task ownership. [pause 0.6] Option B. Discuss why the list matters while leaving its owner unspecified. [pause 0.6] Option C. Introduce a named checker and backup; compare completion and handovers across similar shifts. [pause 0.7] Pause here and make your choice. [pause 2.0]",
@@ -1247,7 +1247,7 @@
   },
   {
     "id": "c10s07",
-    "step": "Close your notes. Explain it.",
+    "step": "Recall the ideas",
     "text": "Answer both prompts from memory.\n\nFirst. Distinguish diffusion of responsibility from pluralistic ignorance.\n\nSecond. Imagine you are reviewing the café’s response to the fallen shelf. Choose two ideas from earlier chapters and explain how each would improve the review.\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.",
     "part": "chapter-10",
     "say": "Answer both prompts from memory. [pause 0.7] First. Distinguish diffusion of responsibility from pluralistic ignorance. [pause 2.0] Second. Imagine you are reviewing the café’s response to the fallen shelf. Choose two ideas from earlier chapters and explain how each would improve the review. [pause 2.0] Answer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers. [pause 3.0]",
@@ -1263,7 +1263,7 @@
   {
     "id": "c10s08",
     "slide": 98,
-    "step": "Carry one idea into your week.",
+    "step": "Practise outside the course",
     "text": "Here is your field practice.\n\nDesign a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
     "part": "chapter-10",
     "say": "Here is your field practice. [pause 0.9] Design a helping plan for a low-risk shared task: signal, named role, safe action, and feedback. Explain how context, evidence, influence, and group structure shape your plan. [pause 0.9] Return tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example."
