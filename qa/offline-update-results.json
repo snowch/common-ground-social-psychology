@@ -1,0 +1,8 @@
+{
+  "nested_scope": "passed",
+  "corrupt_file_rejected": "passed",
+  "partial_save_resume": "passed",
+  "failed_update_preserves_complete_old_release_offline": "passed",
+  "explicit_update_promotes_complete_release": "passed",
+  "previous_recording_version_for_existing_tabs": "passed"
+}

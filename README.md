@@ -62,6 +62,8 @@ The [v0.4.0 design refinement](docs/design-v0.4.0.md) updates the illustrated co
 
 The **Deploy course to GitHub Pages** workflow builds the hosted course and chapter downloads on pushes to `main`, then deploys the validated artifact. Pages uses **GitHub Actions** as its build source. See [deployment instructions](docs/github-pages.md) for manual runs, local builds, permissions, and checks.
 
+The hosted **Offline** option saves all ten chapters, narration, exercises and companions in the browser. Save once while connected, then reopen the course in the same browser without a connection. External research websites require internet access; chapter ZIP downloads remain available as an alternative. Narration controls show a playback bar, elapsed time and time remaining at the selected speed, including any revealed feedback or recall answers.
+
 ## Content and production source
 
 - `course.json`: complete chapter content, quizzes, feedback, recall answers, outcomes, and references.

@@ -127,11 +127,16 @@ button.glossary-term:hover{background:#E2ECF3;border:0}
 @media screen{.story-opening{max-width:62ch;font-size:18px;line-height:1.8}.story-opening p{font:inherit;line-height:inherit;margin:0 0 1em}.story-opening p:last-child{margin-bottom:0}}
 @media(max-width:600px){.lesson-research{margin-top:19px}.quiz-context{font-size:16px}.quiz-record{font-size:14px}.quiz-record th,.quiz-record td{padding:8px 6px}}
 @media print{.print-slides .written-decision .slide-copy{padding:25px 40px}.print-slides .written-decision h2{font-size:28px;margin-bottom:10px}.print-slides .written-decision .quiz-context{font-size:16px;line-height:1.4;margin-bottom:10px}.print-slides .written-decision .quiz-record{font-size:15px;margin-bottom:12px}.print-slides .written-decision .quiz-record th,.print-slides .written-decision .quiz-record td{padding:5px 8px}.print-slides .written-decision .question{font-size:22px;margin-bottom:12px}.print-slides .written-decision .option{font-size:17px;padding:8px 12px}.print-slides .written-decision .feedback{font-size:14px;line-height:1.4;padding-top:8px}.print-slides .written-decision .reasoning-print{font-size:14px;margin:8px 0}.print-slides .written-decision .scene-tag{padding-top:5px}.lesson-research{display:none}}
+/* Playback stays with the narration and slide controls at every width. */
+.player-controls{flex-wrap:wrap}.playback-progress{flex:0 0 100%;width:100%;display:flex;align-items:center;gap:16px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}.playback-progress progress{flex:1;min-width:50px;width:100%;height:7px;accent-color:var(--accent);border:0;border-radius:8px;overflow:hidden}.playback-progress progress::-webkit-progress-bar{background:var(--line);border-radius:8px}.playback-progress progress::-webkit-progress-value{background:var(--accent);border-radius:8px}.playback-progress progress::-moz-progress-bar{background:var(--accent);border-radius:8px}.playback-progress span{white-space:nowrap}
+@media(max-width:620px){.playback-progress{flex:0 0 auto;gap:10px;font-size:12px}}
 </style></head><body><a class="skip" href="#main">Skip to content</a><noscript><p>This narrated deck needs JavaScript. In the download package, use common-ground-slides.pdf or the chapter PDF and M4A files for reading and listening.</p></noscript><div id="app"></div><div id="print" class="print-only print-slides"></div>
 <script>
 'use strict';
 const COURSE=__DATA__;
 const RECORDED_AUDIO=__AUDIO__;
+const AUDIO_DURATIONS=__AUDIO_DURATIONS__;
+let playbackInfo={queue:[],index:0,finished:false};
 const NARRATION_TEXT=__NARRATION_TEXT__;
 const EVIDENCE=__EVIDENCE__;
 const LEARNING_CHECK=__LEARNING_CHECK__;
@@ -227,11 +232,12 @@ function placePlayerControls(){
 stackedLesson.addEventListener('change',placePlayerControls);
 function player(){
  const c=COURSE[state.c],s=c.slides[state.s];visited[s.id]=true;save();document.documentElement.style.setProperty('--accent',c.color);
- $('#app').innerHTML=header()+`<main id="main" class="player"><div class="player-heading"><div><div class="chapter-label">Chapter ${c.number} of 10 · ${esc(c.topic)}</div><h1 class="player-title">${esc(c.title)}</h1></div><div class="stage-track" aria-label="Chapter slides">${c.slides.map((x,i)=>`<button class="${i===state.s?'on':''}" data-stage="${i}" aria-label="${esc(x.stage)}" ${i===state.s?'aria-current="step"':''}></button>`).join('')}</div></div><div class="player-controls"><div class="audio-group"><button id="read" class="primary">Play narration</button><button id="pause" disabled>Pause</button><button id="stop" disabled>Stop</button><label class="sr-only" for="speed">Narration speed</label><select id="speed"><option value="0.85">0.85× speed</option><option value="1" selected>1× speed</option><option value="1.15">1.15× speed</option></select></div><div class="nav-group"><button id="prev" ${state.c===0&&state.s===0?'disabled':''}>Previous</button><span class="slide-number">${state.s+1} / ${c.slides.length}</span><button class="primary" id="next">${state.s===c.slides.length-1?(state.c===COURSE.length-1?'Finish chapter':'Next chapter'):'Next'}</button></div></div>${slideHTML(c,s)}<p id="audioStatus" class="audio-status" aria-live="polite">Listen or read, then continue at your own pace. Exercises wait for your response.</p><div class="transcript"><details open><summary>Recording transcript</summary>${paragraphs(NARRATION_TEXT[s.id]||s.text,c)}${qTranscript(s)}<p class="progress-caption">${esc(storageNotice())}</p></details><aside class="resources">${glossaryHTML(c)}<h3>What you will be able to do</h3><p class="objective">${esc(c.objective)}</p><details class="chapter-reading" ${s.kind==='evidence'&&!c.slides.some(x=>x.research)?'open':''}><summary>Evidence and further reading</summary>${evidenceHTML(c)}<h3>Open reading for this chapter</h3>${c.refs.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>`).join('')}<p class="small muted">The links support further reading. Evidence checks are selective; this is not an exhaustive literature review.</p></details></aside></div></main>`;
+ $('#app').innerHTML=header()+`<main id="main" class="player"><div class="player-heading"><div><div class="chapter-label">Chapter ${c.number} of 10 · ${esc(c.topic)}</div><h1 class="player-title">${esc(c.title)}</h1></div><div class="stage-track" aria-label="Chapter slides">${c.slides.map((x,i)=>`<button class="${i===state.s?'on':''}" data-stage="${i}" aria-label="${esc(x.stage)}" ${i===state.s?'aria-current="step"':''}></button>`).join('')}</div></div><div class="player-controls"><div class="audio-group"><button id="read" class="primary">Play narration</button><button id="pause" disabled>Pause</button><button id="stop" disabled>Stop</button><label class="sr-only" for="speed">Narration speed</label><select id="speed"><option value="0.85">0.85× speed</option><option value="1" selected>1× speed</option><option value="1.15">1.15× speed</option></select></div><div class="nav-group"><button id="prev" ${state.c===0&&state.s===0?'disabled':''}>Previous</button><span class="slide-number">${state.s+1} / ${c.slides.length}</span><button class="primary" id="next">${state.s===c.slides.length-1?(state.c===COURSE.length-1?'Finish chapter':'Next chapter'):'Next'}</button></div><div class="playback-progress"><progress id="playbackProgress" max="100" value="0" aria-label="Narration playback"></progress><span id="playbackTime">0:00 played</span></div></div>${slideHTML(c,s)}<p id="audioStatus" class="audio-status" aria-live="polite">Listen or read, then continue at your own pace. Exercises wait for your response.</p><div class="transcript"><details open><summary>Recording transcript</summary>${paragraphs(NARRATION_TEXT[s.id]||s.text,c)}${qTranscript(s)}<p class="progress-caption">${esc(storageNotice())}</p></details><aside class="resources">${glossaryHTML(c)}<h3>What you will be able to do</h3><p class="objective">${esc(c.objective)}</p><details class="chapter-reading" ${s.kind==='evidence'&&!c.slides.some(x=>x.research)?'open':''}><summary>Evidence and further reading</summary>${evidenceHTML(c)}<h3>Open reading for this chapter</h3>${c.refs.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>`).join('')}<p class="small muted">The links support further reading. Evidence checks are selective; this is not an exhaustive literature review.</p></details></aside></div></main>`;
  placePlayerControls();
+ playbackInfo={queue:narrationQueue(s),index:0,finished:false};updatePlaybackProgress();
  $('#prev').onclick=()=>move(-1);$('#next').onclick=()=>move(1);$('#read').onclick=read;$('#pause').onclick=togglePause;$('#stop').onclick=stop;
  if($('#decisionReasoning'))$('#decisionReasoning').oninput=e=>{reasoning[s.id]=e.target.value;save();};
- $('#speed').value=String(window.readSpeed||1);$('#speed').onchange=e=>{window.readSpeed=+e.target.value;if(audioPlayer)audioPlayer.playbackRate=window.readSpeed;};
+ $('#speed').value=String(window.readSpeed||1);$('#speed').onchange=e=>{window.readSpeed=+e.target.value;if(audioPlayer)audioPlayer.playbackRate=window.readSpeed;updatePlaybackProgress();};
  document.querySelectorAll('[data-stage]').forEach(b=>b.onclick=()=>go(state.c,+b.dataset.stage));document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>choose(+b.dataset.answer));if($('#reveal'))$('#reveal').onclick=()=>{stop();revealed[s.id]=true;player();$('#slideTitle').focus({preventScroll:true});};if($('#checkChoice'))$('#checkChoice').onclick=()=>{stop();checked[s.id]=true;save();player();$('.feedback').tabIndex=-1;$('.feedback').focus({preventScroll:true});};if($('#playFeedback'))$('#playFeedback').onclick=()=>read([s.id+'-feedback-'+answers[s.id]]);bindHeader();
 
 }
@@ -241,21 +247,34 @@ function choose(i){const s=COURSE[state.c].slides[state.s];stop();answers[s.id]=
 function go(c,s){const hash=`#chapter-${COURSE[c].number}-slide-${slideToken(COURSE[c].slides[s])}`;if(location.hash===hash){route();}else location.hash=hash;}
 function move(d){let c=state.c,s=state.s+d;if(s<0){c--;if(c<0)return;s=COURSE[c].slides.length-1;}if(s>=COURSE[c].slides.length){c++;s=0;}if(c<0)return;if(c>=COURSE.length){location.hash=COURSE[c-1].number===10?'case':'home';return;}go(c,s);}
 function bindHeader(){if($('#homeButton'))$('#homeButton').onclick=()=>{location.hash='home';};if($('#printButton'))$('#printButton').onclick=()=>{buildPrint();window.print();};}
+function narrationQueue(s){const queue=[s.id];if(s.quiz&&checked[s.id])queue.push(s.id+'-feedback-'+answers[s.id]);if(s.kind==='recall'&&revealed[s.id])queue.push(s.id+'-answers');return queue;}
+function playbackClock(seconds){const n=Math.max(0,seconds);return Math.floor(n/60)+':'+String(n%60).padStart(2,'0');}
+function updatePlaybackProgress(){
+ const bar=$('#playbackProgress'),label=$('#playbackTime');if(!bar||!label)return;
+ const queue=playbackInfo.queue,total=queue.reduce((n,id)=>n+(AUDIO_DURATIONS[id]||0),0);
+ const elapsed=playbackInfo.finished?total:Math.min(total,queue.slice(0,playbackInfo.index).reduce((n,id)=>n+(AUDIO_DURATIONS[id]||0),0)+(audioPlayer?.currentTime||0));
+ const rate=window.readSpeed||1,remaining=Math.ceil(Math.max(0,total-elapsed)/rate);
+ bar.max=total||1;bar.value=elapsed;bar.setAttribute('aria-valuetext',playbackClock(Math.floor(elapsed))+' played; '+playbackClock(remaining)+' remaining at '+rate+' times speed');
+ label.textContent=playbackClock(Math.floor(elapsed))+' played · '+playbackClock(remaining)+' left';
+}
 function stop(){
- generation++;if(audioPlayer){audioPlayer.pause();audioPlayer.onended=null;audioPlayer.onerror=null;audioPlayer.removeAttribute('src');audioPlayer.load();audioPlayer=null;}
+ generation++;if(audioPlayer){audioPlayer.pause();audioPlayer.onended=null;audioPlayer.onerror=null;audioPlayer.ontimeupdate=null;audioPlayer.onloadedmetadata=null;audioPlayer.ondurationchange=null;audioPlayer.onratechange=null;audioPlayer.removeAttribute('src');audioPlayer.load();audioPlayer=null;}
+ playbackInfo={queue:narrationQueue(COURSE[state.c].slides[state.s]),index:0,finished:false};updatePlaybackProgress();
  playing=false;paused=false;if($('#read'))$('#read').textContent='Play narration';if($('#pause')){$('#pause').disabled=true;$('#pause').textContent='Pause';}if($('#stop'))$('#stop').disabled=true;if($('#audioStatus'))$('#audioStatus').textContent='Narration stopped. Play this slide again whenever you are ready.';
 }
 function read(onlyQueue){
- stop();const current=++generation;const s=COURSE[state.c].slides[state.s];const queue=Array.isArray(onlyQueue)?onlyQueue.slice():[s.id];
- if(!Array.isArray(onlyQueue)&&s.quiz&&checked[s.id])queue.push(s.id+'-feedback-'+answers[s.id]);
- if(!Array.isArray(onlyQueue)&&s.kind==='recall'&&revealed[s.id])queue.push(s.id+'-answers');
+ stop();const current=++generation;const s=COURSE[state.c].slides[state.s];const queue=Array.isArray(onlyQueue)?onlyQueue.slice():narrationQueue(s);
+ playbackInfo={queue,index:0,finished:false};updatePlaybackProgress();
  let i=0;
  function failed(){if(current!==generation)return;stop();$('#audioStatus').textContent='This browser could not play the recording. Try another modern browser or use the downloadable chapter audio and transcript.';}
  function playNext(){
   if(current!==generation)return;
-  if(i>=queue.length){playing=false;paused=false;$('#read').textContent='Play again';$('#pause').disabled=true;$('#stop').disabled=true;$('#audioStatus').textContent='Narration complete. Continue when you are ready.';return;}
-  const recording=RECORDED_AUDIO[queue[i++]];if(!recording){failed();return;}
+  if(i>=queue.length){playbackInfo.finished=true;updatePlaybackProgress();playing=false;paused=false;$('#read').textContent='Play again';$('#pause').disabled=true;$('#stop').disabled=true;$('#audioStatus').textContent='Narration complete. Continue when you are ready.';return;}
+  playbackInfo.index=i;const id=queue[i++],recording=RECORDED_AUDIO[id];if(!recording){failed();return;}
   audioPlayer=new Audio(recording);audioPlayer.preload='auto';audioPlayer.playbackRate=window.readSpeed||1;audioPlayer.onended=playNext;audioPlayer.onerror=failed;
+  const activeAudio=audioPlayer;
+  const update=()=>{if(current!==generation||audioPlayer!==activeAudio)return;if(Number.isFinite(activeAudio.duration)&&activeAudio.duration>0)AUDIO_DURATIONS[id]=activeAudio.duration;updatePlaybackProgress();};
+  audioPlayer.ontimeupdate=update;audioPlayer.onloadedmetadata=update;audioPlayer.ondurationchange=update;audioPlayer.onratechange=update;updatePlaybackProgress();
   const pending=audioPlayer.play();if(pending)pending.catch(failed);
  }
  playing=true;$('#read').textContent='Restart narration';$('#pause').disabled=false;$('#stop').disabled=false;$('#audioStatus').textContent='Playing this scene.';playNext();
