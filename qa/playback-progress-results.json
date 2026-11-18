@@ -1,0 +1,18 @@
+{
+  "initial_duration_without_loading_audio": "passed",
+  "elapsed_and_remaining": "passed",
+  "pause_resume_seek_speed_stop": "passed",
+  "narration_plus_feedback_queue": "passed",
+  "feedback_only_queue": "passed",
+  "recall_answers_queue": "passed",
+  "completion_and_navigation_reset": "passed",
+  "standalone_chapter": "passed",
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "js_errors": []
+}

@@ -8,6 +8,7 @@ p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--portable',action='store_true',help='Embed narration in each HTML deck for offline use.')
 p.add_argument('--output',default='dist',help='Build output directory (default: dist).')
 a=p.parse_args();D=(R/a.output).resolve();D.mkdir(parents=True,exist_ok=True);(D/'chapters').mkdir(exist_ok=True)
+durations={x['id']:x['duration'] for x in json.loads((R/'audio/manifest.json').read_text())['clips']}
 C=json.loads((R/'course.json').read_text());clips={f.stem:f for f in (R/'audio/clips').glob('*.m4a')}
 expected={s['id'] for c in C for s in c['slides']}
 for c in C:
@@ -35,7 +36,7 @@ for placeholder,file in [('__GLOSSARY__','glossary.json'),('__EVIDENCE__','cours
 def render(path,chapters,prefix):
  numbers={f"c{c['number']:02d}"for c in chapters}
  audio={key:('data:audio/mp4;base64,'+base64.b64encode(file.read_bytes()).decode()if a.portable else prefix+'audio/clips/'+file.name)for key,file in clips.items()if key[:3]in numbers}
- s=template.replace('__NARRATION_TEXT__',json.dumps({k:v for k,v in narration.items()if k[:3]in numbers},ensure_ascii=False).replace('</','<\\/')).replace('__DATA__',json.dumps(chapters,ensure_ascii=False).replace('</','<\\/')).replace('__AUDIO__',json.dumps(audio))
+ s=template.replace('__AUDIO_DURATIONS__',json.dumps({k:v for k,v in durations.items()if k[:3]in numbers})).replace('__NARRATION_TEXT__',json.dumps({k:v for k,v in narration.items()if k[:3]in numbers},ensure_ascii=False).replace('</','<\\/')).replace('__DATA__',json.dumps(chapters,ensure_ascii=False).replace('</','<\\/')).replace('__AUDIO__',json.dumps(audio))
  if not a.portable:
   s=s.replace('The recordings are included in this deck and work offline.','Recordings load when you press Play narration. The portable build embeds them for offline use.').replace('The deck embeds prerecorded Kokoro','The course plays prerecorded Kokoro').replace('Quizzes and embedded narration work offline. External reading requires a connection.','This build loads audio files from its audio folder. Use the portable build for self-contained offline decks.')
  path.write_text(s)
