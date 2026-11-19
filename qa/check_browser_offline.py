@@ -53,7 +53,7 @@ async def main():
         await ctx.set_offline(True)
         await page.goto(BASE+'/?offline-test=1#chapter-1-slide-1')
         await page.locator('#slideTitle').wait_for()
-        assert await page.locator('.top-actions a').inner_text()=='Offline'
+        assert await page.locator('.top-actions a[href$="offline.html"]').inner_text()=='Offline'
         course=await page.evaluate('COURSE')
         recordings=await page.evaluate('RECORDED_AUDIO')
         assert len(course)==10 and len(recordings)==168
