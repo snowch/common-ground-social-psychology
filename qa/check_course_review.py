@@ -23,16 +23,24 @@ async def main():
     assert await reading.get_attribute('open') is None
     if await reading.get_attribute('open') is None:await reading.locator('summary').first.click()
     assert await page.locator('.evidence-note').inner_text() and evidence[str(c['number'])]['note'] in await page.locator('.evidence-note').inner_text()
-    transcript=page.get_by_text('Recording transcript for this exercise',exact=True)
-    if s['kind'] in ('choice','transfer','recall','practice'):
-     assert not await transcript.locator('..').get_attribute('open')
-     await transcript.press('Enter');text=await transcript.locator('..').inner_text();assert '[pause' not in text and '](/' not in text
-     await transcript.press('Enter')
-    else:
-     region={'story':'.story-opening','concept':'.concept-reading','evidence':'.evidence-body'}[s['kind']]
-     prose=await page.locator(region).inner_text()
-     assert all(p in prose for p in s['text'].split('\n\n'))
-     assert not await transcript.count()
+    is_exercise=s['kind'] in ('choice','transfer','recall','practice')
+    transcript=page.get_by_text('Recording transcript for this exercise' if is_exercise else 'Read full narration',exact=True)
+    assert await transcript.count()==1
+    assert await transcript.locator('..').get_attribute('open') is None
+    await transcript.press('Enter');text=await transcript.locator('..').inner_text()
+    assert '[pause' not in text and '](/' not in text
+    await transcript.press('Enter')
+    if not is_exercise:
+     if s['kind']=='concept':
+      prose=await page.locator('.slide-points').first.inner_text()
+      assert all(p in prose for p in s['points']),s['id']
+      assert not await page.locator('.concept-reading').count()
+     elif s['kind']=='story':
+      prose=await page.locator('.story-opening').inner_text()
+      assert all(p in prose for p in s['text'].split('\n\n')[:2]),s['id']
+     else:
+      prose=await page.locator('.evidence-body').inner_text()
+      assert all(p in prose for p in s['text'].split('\n\n')),s['id']
     assert await page.locator('main .primary').count()==1
     if 'quiz'in s:
      await page.locator('[data-answer="0"]').click();assert 'Check choice' in await page.locator('#decisionHelp').inner_text();assert not await page.locator('.feedback').inner_text();assert not await page.locator('#playFeedback').count()
