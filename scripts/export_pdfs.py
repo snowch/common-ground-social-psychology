@@ -8,7 +8,7 @@ async def main():
  async with async_playwright()as p:
   b=await p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=await b.new_page(viewport={'width':1280,'height':720},reduced_motion='reduce')
   await page.goto(BASE+'/index.html');await page.evaluate('buildPrint()');await page.emulate_media(media='print');await page.evaluate('document.fonts.ready')
-  bad=await page.locator('#print .slide').evaluate_all('''els=>els.flatMap((el,i)=>{const r=el.getBoundingClientRect();return [...el.querySelectorAll('.slide-copy h2,.slide-points,.evidence-body,.choices,.feedback,.answers,.practice-tip,.scene-tag,.quiz-context,.quiz-record,.reasoning-print,.print-research-sources')].filter(x=>{const a=x.getBoundingClientRect();return a.bottom>r.bottom-5||a.right>r.right+1}).map(x=>({slide:i+1,element:x.className||x.tagName,bottom:x.getBoundingClientRect().bottom-r.bottom}));})''')
+  bad=await page.locator('#print .slide').evaluate_all('''els=>els.flatMap((el,i)=>{const r=el.getBoundingClientRect();return [...el.querySelectorAll('.slide-copy h2,.slide-points,.story-opening,.evidence-body,.practice-example,.choices,.feedback,.answers,.practice-tip,.scene-tag,.quiz-context,.quiz-record,.reasoning-print,.print-research-sources')].filter(x=>{const a=x.getBoundingClientRect();return a.bottom>r.bottom-5||a.right>r.right+1}).map(x=>({slide:i+1,element:x.className||x.tagName,bottom:x.getBoundingClientRect().bottom-r.bottom}));})''')
   print('Overflow:',bad,flush=True)
   assert not bad,bad
   await page.pdf(path=str(R/'common-ground-slides.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)

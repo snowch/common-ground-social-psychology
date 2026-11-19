@@ -8,7 +8,7 @@
   $('offlineSize').textContent=mb(s.bytes);
   const upToDate = s.ready && s.savedVersion===s.version;
   $('offlineState').textContent=s.busy?'Saving your course…':s.ready?(upToDate?'Ready to use offline':'Your saved course is ready. An update is available.'):'Save the course before you go';
-  $('offlineDetail').textContent=s.busy?'Keep this tab open until saving finishes. You can continue learning in another tab.':s.ready?'All ten chapters, narration, exercises, glossary, research notes and companions are saved in this browser.':'One save includes all ten chapters and their recordings. No ZIP files to unpack.';
+  $('offlineDetail').textContent=s.busy?'Keep this tab open until saving finishes. You can continue learning in another tab.':s.ready?'Your browser has a saved copy of all ten chapters, recordings and companions.':'Select Make available offline to save all ten chapters and their recordings in this browser.';
   $('offlineSave').hidden=upToDate&&!s.busy;
   $('offlineSave').disabled=s.busy;
   $('offlineSave').textContent=s.ready?'Update saved course':s.progress?'Resume saving':'Make available offline';
@@ -16,6 +16,7 @@
   $('offlineRemove').hidden=!s.ready&&!s.progress;
   $('offlineRemove').disabled=s.busy;
   $('offlineContinue').hidden=!s.ready;
+  $('offlineContinue').classList.toggle('primary',upToDate&&!s.busy);
   $('offlineProgressWrap').hidden=!s.progress;
   $('offlineProgress').max=s.bytes;
   $('offlineProgress').value=s.progress?.bytes||0;
@@ -67,7 +68,7 @@
    }
    worker=registration.active;
    navigator.serviceWorker.addEventListener('message',e=>{
-    if(e.data?.type==='OFFLINE_STATUS')render(e.data);
+    if(e.data?.type==='OFFLINE_STATUS' && e.source?.scriptURL===new URL('./sw.js',location.href).href)render(e.data);
    });
    navigator.serviceWorker.addEventListener('controllerchange',async()=>{
     worker=navigator.serviceWorker.controller||registration.active;

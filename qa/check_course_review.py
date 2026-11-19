@@ -23,9 +23,19 @@ async def main():
     assert await reading.get_attribute('open') is None
     if await reading.get_attribute('open') is None:await reading.locator('summary').first.click()
     assert await page.locator('.evidence-note').inner_text() and evidence[str(c['number'])]['note'] in await page.locator('.evidence-note').inner_text()
-    text=await page.locator('.transcript>details').first.inner_text();assert '[pause' not in text and '](/' not in text
+    transcript=page.get_by_text('Recording transcript for this exercise',exact=True)
+    if s['kind'] in ('choice','transfer','recall','practice'):
+     assert not await transcript.locator('..').get_attribute('open')
+     await transcript.press('Enter');text=await transcript.locator('..').inner_text();assert '[pause' not in text and '](/' not in text
+     await transcript.press('Enter')
+    else:
+     region={'story':'.story-opening','concept':'.concept-reading','evidence':'.evidence-body'}[s['kind']]
+     prose=await page.locator(region).inner_text()
+     assert all(p in prose for p in s['text'].split('\n\n'))
+     assert not await transcript.count()
+    assert await page.locator('main .primary').count()==1
     if 'quiz'in s:
-     await page.locator('[data-answer="0"]').click();assert 'explain why' in await page.locator('.feedback').inner_text();assert not await page.locator('#playFeedback').count()
+     await page.locator('[data-answer="0"]').click();assert 'Check choice' in await page.locator('#decisionHelp').inner_text();assert not await page.locator('.feedback').inner_text();assert not await page.locator('#playFeedback').count()
      # Selecting alone must not leak feedback through the audio queue.
      await page.locator('#read').click();await page.wait_for_function('audioPlayer&&audioPlayer.currentTime>.02');await page.evaluate("audioPlayer.dispatchEvent(new Event('ended'))");assert await page.evaluate('!playing')
      await page.locator('#checkChoice').click();assert s['quiz']['feedback'][0] in await page.locator('.feedback').inner_text();assert 'Option A.' in text and 'Option C.'in text
@@ -37,19 +47,19 @@ async def main():
   await page.evaluate("location.hash='about'");await page.wait_for_selector('#main h1');await audit('about')
   await page.locator('.skip').focus();await page.keyboard.press('Enter');assert await page.evaluate('document.activeElement.id')=='main';assert await page.evaluate('location.hash')=='#about'
   # Browser back/forward restores the destination heading, not a removed control.
-  await page.evaluate('history.back()');await page.wait_for_selector('.case-wrap');await page.evaluate('history.forward()');await page.wait_for_function('document.querySelector("#main h1")?.textContent==="About Common Ground"')
+  await page.evaluate('history.back()');await page.wait_for_selector('.case-wrap');await page.evaluate('history.forward()');await page.wait_for_function('document.querySelector("#main h1")?.textContent==="About Social Psychology"')
   await page.evaluate('buildPrint()');assert await page.locator('#print .slide').count()==sum(len(c['slides']) for c in C)
   assert await page.evaluate('''()=>{let ids=[...document.querySelectorAll('[id]')].map(x=>x.id);return ids.length===new Set(ids).size}''')
-  # Corrupted saved values must not make Resume crash.
-  await page.evaluate('''localStorage.setItem('common-ground-v1',JSON.stringify({position:{chapter:1,slide:'bad'},answers:{c01s02:50},visited:{c01s01:'yes'}}))''');await page.goto(BASE+'/index.html#home');await page.reload();await page.locator('#resume').click();await page.wait_for_selector('#slideTitle');assert await page.locator('.slide-number').inner_text()==f"1 / {len(C[0]['slides'])}"
+  # Ignore corrupted saved values and offer a fresh start.
+  await page.evaluate('''localStorage.setItem('common-ground-v1',JSON.stringify({position:{chapter:1,slide:'bad'},answers:{c01s02:50},visited:{c01s01:'yes'}}))''');await page.goto(BASE+'/index.html#home');await page.reload();assert not await page.locator('#resume').count();await page.locator('#start').click();await page.wait_for_selector('#slideTitle');assert await page.locator('.slide-number').inner_text()==f"1 / {len(C[0]['slides'])}"
   for width in [320,390,768,1440]:
    await page.set_viewport_size({'width':width,'height':900})
    for hash in ['home','chapter-1-slide-2','chapter-2-slide-3','chapter-8-slide-5','case','about']:
     await page.evaluate('(h)=>location.hash=h',hash);await page.wait_for_timeout(40);assert await page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),(width,hash)
    await page.evaluate("location.hash='case'");await page.wait_for_selector('.case-wrap');await page.locator('.case-wrap summary').first.click();assert await page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
   # Denied storage remains usable and tells the learner progress is temporary.
-  denied=await b.new_context();await denied.add_init_script("Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Denied','SecurityError')}})");dp=await denied.new_page();await dp.goto(BASE+'/index.html#chapter-1-slide-1');assert 'unavailable' in await dp.locator('.progress-caption').inner_text();await denied.close()
-  await page.goto(BASE+'/study-guide.html');await page.evaluate('document.fonts.ready');assert await page.locator('section.chapter').count()==10;await page.pdf(path=str(R/'study-guide.pdf'),prefer_css_page_size=True,print_background=True,tagged=True,outline=True)
+  denied=await b.new_context();await denied.add_init_script("Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Denied','SecurityError')}})");dp=await denied.new_page();await dp.goto(BASE+'/index.html#chapter-1-slide-1');assert 'could not save' in await dp.locator('#writeStatus').inner_text();await denied.close()
+  await page.goto(BASE+'/study-guide.html');await page.evaluate('document.fonts.ready');assert await page.locator('section.chapter').count()==10
   assert not errors,errors
   out={'revision':os.environ.get('COURSE_CONTENT_REVISION','working-tree'),'native_evidence_disclosures':'passed','chapters_reviewed':10,'slides_checked':sum(len(c['slides']) for c in C),'source_notes':10,'written_transfer_tasks':6,'rubric_dimensions':4,'axe_version':'4.10.3','axe_tags':['wcag2a','wcag2aa','wcag21aa','wcag22aa'],'axe_screens':len(audits),'axe_violations':sum(len(x['violations'])for x in audits),'widths':[320,390,768,1440],'navigation_focus':'passed','feedback_gating_and_direct_play':'passed','corrupt_and_denied_storage':'passed','unique_print_ids':'passed','js_errors':errors,'limits':'Automated Chromium checks do not establish full WCAG conformance or usability with assistive technology.'}
   (R/'qa/course-review-results.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2));await b.close()

@@ -26,7 +26,7 @@ chapter('The person and the room','Situations & attribution','room','#216B88',
  'Choose a mildly frustrating action by another person. Write what you observed, your initial explanation, two plausible alternatives, and one respectful question that could clarify what happened.',
  [os('12-1-what-is-social-psychology','What Is Social Psychology?')])
 chapter('The poster that “worked”','Evidence & experiments','experiment','#7058A3',
- 'Identify a confound in a before-and-after claim and propose a fairer comparison.',
+ 'Find another change that could explain a before-and-after result. Propose a fairer comparison.',
  'A brighter poster. More visitors. A cause?',
  'Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. Leo credits the new poster for the increase.\n\nBut other things changed too. The rain stopped, the local paper ran a story, and the opening hours changed.\n\nThe team knows that more people attended. The team does not yet know how much the poster contributed. Keep that distinction in mind whenever someone says that one change caused another.',
  [co('Comparison makes a claim testable.',['Correlation: things vary together.', 'Confound: another factor could explain the pattern.', 'Random assignment: allocate conditions by chance.', 'Random sampling: select people from a population by chance.'],
@@ -40,7 +40,7 @@ chapter('The poster that “worked”','Evidence & experiments','experiment','#7
  'Find an everyday causal claim. Name its outcome, one competing explanation, and a feasible comparison. State whose behavior the result would represent.',
  [os('2-3-analyzing-findings','Analyzing Findings'),no('the-replication-crisis-in-psychology','The Replication Crisis in Psychology')])
 chapter('The story that comes to mind','Social cognition','filter','#A1486D',
- 'Identify a missing base rate and formulate a question that could challenge an initial belief.',
+ 'Identify which cases need to be counted to estimate how often something happens. Ask what could change your first impression.',
  'One broken toaster becomes “they always break.”',
  'A repaired toaster fails again. The story spreads through the café chat. Leo concludes that electrical repairs usually fail, although nobody has counted the outcomes.\n\nMaya remembers grateful visitors and overlooks returns. Maya therefore has a more positive impression than Leo.\n\nBoth people remember genuine cases. Neither person has systematically checked all comparable repairs. To estimate how often repairs fail, the team needs a record that includes the cases nobody talked about.',
  [co('Memorable is not the same as common.',['Availability heuristic: easy-to-recall examples shape judgment.', 'Base rate: how common is it among comparable cases?', 'Denominator: total comparable repairs, including successes.'],
@@ -54,7 +54,7 @@ chapter('The story that comes to mind','Social cognition','filter','#A1486D',
  'Keep a small record of one everyday prediction for a week. Include successes and failures. Avoid collecting private information about others. Compare the whole record with your first impression.',
  [os('7-3-problem-solving','Problem Solving'),no('social-cognition-and-attitudes','Social Cognition and Attitudes')])
 chapter('The plan we cannot let go','Self & self-justification','dissonance','#9A5630',
- 'Distinguish dissonance reduction from evidence-based revision and compare future options without counting irrecoverable costs as benefits.',
+ 'Tell when someone is defending an earlier decision. Compare what each option would cost or deliver from today onward.',
  '“I chose it” quietly becomes “it must be right.”',
  'Maya championed a booking system. After weeks of work, the system still loses reservations. Maya usually spots technical problems quickly, but now explains each failure away.\n\nFor Maya, admitting that the system is poor feels like admitting that she is poor at her role. Leo proposes another month of configuration because the team has already spent so much.\n\nMaya is defending her judgment. Leo is focused on money already spent. Both need to compare what the available options would deliver from today onward.',
  [co('Inconsistency can feel uncomfortable.',['Cognitive dissonance: inconsistency between beliefs or actions can feel uncomfortable.', 'Cognitions: beliefs and knowledge about our actions.', '“I choose reliable tools” clashes with a system that loses bookings.', 'Reduce discomfort by revising a belief or action, or adding a justification.'],
@@ -68,7 +68,7 @@ chapter('The plan we cannot let go','Self & self-justification','dissonance','#9
  'Revisit a small commitment you can change. List the future benefits and avoidable costs of continuing or stopping. Write a sentence that permits correction without attacking your character.',
  [os('12-3-attitudes-and-persuasion','Attitudes and Persuasion'),dict(title='Vaidis et al. (2024): Multilab dissonance replication',url='https://doi.org/10.1177/25152459231213375'),os('7-3-problem-solving','Problem Solving')])
 chapter('The quiet vote','Conformity & authority','crowd','#216B88',
- 'Distinguish normative and informational influence and design a process that makes independent concerns visible.',
+ 'Explain two reasons someone might agree with a group. Plan a way to hear concerns before the group decides.',
  'Everyone says yes. Has everyone agreed?',
  'A donor offers a publicity event. The chair calls it a wonderful opportunity, and the first three volunteers agree. Sam doubts that the team can manage the workload, but stays silent.\n\nSam assumes Maya has checked the risks. Maya reads Sam’s silence as reassurance. Each person is taking the other’s outward response as a sign that the proposal has been considered carefully.\n\nPublic agreement can hide private doubts. In a later decision in this chapter, the chair asks volunteers to skip a required equipment check. You will consider how the team can question that instruction before unsafe work begins.',
  [co('Two reasons to follow a group.',['Informational influence: they may know better.', 'Normative influence: I want acceptance.', 'Public agreement can differ from private belief.'],
@@ -82,7 +82,7 @@ chapter('The quiet vote','Conformity & authority','crowd','#216B88',
  'For an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed.',
  [os('12-4-conformity-compliance-and-obedience','Conformity, Compliance, and Obedience'),no('conformity-and-obedience','Conformity and Obedience')])
 chapter('The invitation','Attitudes & persuasion','message','#7058A3',
- 'Evaluate a message by its evidence, audience needs, and honest description of social norms.',
+ 'Check whether an invitation gives people enough information to decide and supports any claims about what others do.',
  'Two invitations. Different reasons to care.',
  'The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya’s invitation explains what volunteers can learn, how much time a shift takes, and what support is available.\n\nA hurried passerby might notice the celebrity. A person deciding whether to volunteer regularly needs practical details about the commitment.\n\nAn invitation can attract attention and help someone evaluate a decision. The team needs to consider both jobs, while keeping the invitation honest.',
  [co('Attention and evaluation are different jobs.',['Attitude: an evaluation of something.', 'Elaboration likelihood model: motivation and ability shape careful thinking.', 'Central processing: examine relevant arguments.', 'Peripheral processing: give more weight to cues such as familiarity.'],
@@ -96,7 +96,7 @@ chapter('The invitation','Attitudes & persuasion','message','#7058A3',
  'Rewrite a low-stakes invitation. State the decision, relevant reason, effort required, and next step. Remove social-proof claims you cannot substantiate.',
  [os('12-3-attitudes-and-persuasion','Attitudes and Persuasion'),no('persuasion-so-easily-fooled','Persuasion: So Easily Fooled')])
 chapter('When “we” takes over','Groups & belonging','groups','#A1486D',
- 'Identify a plausible group process behind a failure and select a procedure that addresses it.',
+ 'Use evidence to explain what went wrong in a group and choose a change that addresses it.',
  'Two teams stop sharing a table.',
  'Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each team notices its own effort more clearly than the other team’s contribution.\n\nAt a planning meeting, speakers propose increasingly ambitious events. Meanwhile, nobody owns the checklist. Each volunteer assumes someone else is responsible.\n\nThe café now faces several group problems: boundaries between teams, an escalating decision, and unclear task ownership. Each problem may need a different remedy.',
  [co('Identity changes the boundary of “us.”',['Social identity: groups help define who we are.','In-group favoritism: favoring “our” side.','Shared goals can widen the circle.'],
@@ -110,7 +110,7 @@ chapter('When “we” takes over','Groups & belonging','groups','#A1486D',
  'Choose a shared project you know well. Map each task, its owner, what must happen before it can start, and when progress will be checked. Identify one plausible obstacle and a check that could distinguish it from another explanation before proposing a remedy.',
  [os('12-4-conformity-compliance-and-obedience','Conformity, Compliance, and Obedience'),os('12-5-prejudice-and-discrimination','Prejudice and Discrimination')])
 chapter('The invisible doorway','Prejudice & discrimination','door','#216B88',
- 'Distinguish stereotypes, prejudice, and discrimination and locate a procedural barrier to access.',
+ 'Separate beliefs, attitudes, and treatment. Find a rule or requirement that makes it harder to take part.',
  '“Anyone can join.” The form says otherwise.',
  'The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes that people own specialist tools.\n\nA newcomer is treated as inexperienced before anyone checks the applicant’s skills. The barrier may involve a judgment about the person, a recruitment rule, or both.\n\nTo understand unequal access, examine beliefs, attitudes, individual decisions, and procedures. Good intentions alone do not tell us how the process works.',
  [co('Belief, feeling, and action are distinct.',['Stereotype: a generalized group belief.','Prejudice: a group attitude, often involving dislike.','Discrimination: unequal treatment based on group membership.'],
@@ -124,7 +124,7 @@ chapter('The invisible doorway','Prejudice & discrimination','door','#216B88',
  'Review a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data.',
  [os('12-5-prejudice-and-discrimination','Prejudice and Discrimination'),no('prejudice-discrimination-and-stereotyping','Prejudice, Discrimination, and Stereotyping')])
 chapter('A place beside someone','Attraction & relationships','relationship','#7058A3',
- 'Explain how contact opportunities and reciprocal responsiveness can support closeness without guaranteeing it.',
+ 'Explain how opportunities to meet and feeling heard can support closeness.',
  'Friendship begins with the quiet shift.',
  'Sam and Leo take the quiet Thursday session. At first, they discuss only spare parts. Over several weeks, they discover a shared interest in old radios.\n\nLeo mentions a difficult week. Sam listens before offering a solution, and Leo feels heard.\n\nTheir shared shift created opportunities to meet. Their common interest supported conversation. Sam’s responsive listening supported closeness. None of those conditions gave either person a right to the other’s friendship.',
  [co('Opportunity shapes who becomes familiar.',['Proximity creates opportunities to meet.', 'Mere exposure effect: familiarity can increase liking in some conditions.', 'Similarity can make interaction easier.'],
@@ -138,7 +138,7 @@ chapter('A place beside someone','Attraction & relationships','relationship','#7
  'During a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave.',
  [os('12-7-prosocial-behavior','Prosocial Behavior'),no('attraction-and-beauty','Attraction and Beauty')])
 chapter('Who will do something?','Aggression, helping & cooperation','help','#A1486D',
- 'Identify barriers to helping and design a specific, safe response with clear responsibility.',
+ 'Identify what can stop people from helping. Plan a safe response with a clear person responsible for each step.',
  'A crash. A full room. A moment of hesitation.',
  'A shelf falls during a busy café session, and a visitor needs help. People hesitate while checking everyone else’s reaction.\n\nMaya names the problem. Maya asks Leo to contact the appropriate emergency service and clears space for a trained helper.\n\nLater, two volunteers argue about blame. The team needs to review both the immediate response and the conditions supporting cooperation. Good intentions need a clear, safe path to action.',
  [co('Helping has several decision points.',['Bystander effect: others’ presence can reduce an individual’s chance of helping.', 'Diffusion of responsibility: “Someone else will act.”', 'Pluralistic ignorance: “Everyone looks calm, so perhaps no help is needed.”', 'Help depends on context, skills, safety, and support.'],
@@ -153,7 +153,7 @@ chapter('Who will do something?','Aggression, helping & cooperation','help','#A1
  [os('12-6-aggression','Aggression'),os('12-7-prosocial-behavior','Prosocial Behavior'),no('helping-and-prosocial-behavior','Helping and Prosocial Behavior')])
 
 # Stable slide IDs remain; the quiz revision invalidates old transfer choices.
-C[0]['objective']='Distinguish an observation from dispositional and situational explanations, and select evidence that helps separate competing causes.'
+C[0]['objective']='Separate what someone saw from what they assumed. Choose evidence that could help tell two explanations apart.'
 transfers=json.loads((ROOT/'transfer-exercises.json').read_text())
 assert set(transfers)=={str(i)for i in range(1,11)}
 for index,c in enumerate(C,1):c['quizzes'][1]=transfers[str(index)]
@@ -162,13 +162,43 @@ def quiz_prompt(quiz):
  return '\n\n'.join(x for x in [quiz.get('context'),quiz.get('record',{}).get('spoken'),quiz['prompt']] if x)
 
 STAGES=['Story','Your decision','First lens','Second lens','Evidence check','New situation','Recall','Field practice']
+# Name the specific situation or question in the chapter navigator.
+activity_titles = [
+ ('Plan the opening shift', 'What one arrival can tell you', 'Compare explanations for lateness'),
+ ('Interpret the attendance change', 'How to check a finding again', 'Test the invitation design'),
+ ('Estimate repeat repairs', 'Check an estimate against a record', 'Compare failure rates'),
+ ('Respond to a change of plan', 'What studies of dissonance can tell us', 'Review the next costs'),
+ ('Hear concerns before a group vote', 'What studies of social pressure can tell us', 'Explain a change in votes'),
+ ('Respond to a volunteer’s concern', 'Measure what an invitation achieves', 'Compare two invitations'),
+ ('Address an unfinished checklist', 'Look for pressure for agreement', 'Investigate a group’s poor result'),
+ ('Investigate access to volunteering', 'Measure attitudes and treatment', 'Check whether access improved'),
+ ('Make room for friendship', 'What relationship studies can tell us', 'Examine listening and closeness'),
+ ('Explain why bystanders hesitate', 'What helping and aggression studies can tell us', 'Test a plan for shared responsibility'),
+]
 for i,c in enumerate(C):
  c['number']=i+1
  def s(kind,title,points,text,**kw):return dict(kind=kind,title=title,points=points,text=text,**kw)
- c['slides']=[s('story',c['hook'],['An original story at the Common Ground repair café.'],c['story']),s('choice','What would you do?',[], 'Before the explanation, make your own choice.\n\n'+c['quizzes'][0]['prompt']+'\n\nConsider the consequences of each option.',quiz=c['quizzes'][0])]
+ choice_title, evidence_title, transfer_title=activity_titles[i]
+ c['slides']=[s('story',c['hook'],['An original story at the Common Ground repair café.'],c['story']),s('choice',choice_title,[], 'Before the explanation, make your own choice.\n\n'+c['quizzes'][0]['prompt']+'\n\nConsider the consequences of each option.',quiz=c['quizzes'][0])]
  c['slides'] += [s('concept',x['title'],x['points'],x['text']) for x in c['concepts']]
- c['slides'] += [s('evidence','What can we really conclude?',['What the research supports','Where the claim needs restraint'],c['evidence']),s('transfer','Try the idea somewhere new.',[], 'Apply the idea to a new decision.\n\n'+quiz_prompt(c['quizzes'][1])+'\n\n'+c['quizzes'][1].get('reasoningPrompt','Choose an action and explain why it addresses the problem.'),quiz=c['quizzes'][1]),s('recall','Close your notes. Explain it.',c['recall'],'Answer both prompts from memory.\n\nFirst. '+c['recall'][0]+'\n\nSecond. '+c['recall'][1]+'\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.',answers=c['answers']),s('practice','Carry one idea into your week.',[c['field']], 'Here is your field practice.\n\n'+c['field']+'\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.')]
+ c['slides'] += [s('evidence',evidence_title,['What the research supports','Where the claim needs restraint'],c['evidence']),s('transfer',transfer_title,[], 'Apply the idea to a new decision.\n\n'+quiz_prompt(c['quizzes'][1])+'\n\n'+c['quizzes'][1].get('reasoningPrompt','Choose an action and explain why it addresses the problem.'),quiz=c['quizzes'][1]),s('recall','Close your notes. Explain it.',c['recall'],'Answer both prompts from memory.\n\nFirst. '+c['recall'][0]+'\n\nSecond. '+c['recall'][1]+'\n\nAnswer each prompt first. Then give a brief example of your own that illustrates one of your answers. Try both prompts before revealing the suggested answers.',answers=c['answers']),s('practice','Carry one idea into your week.',[c['field']], 'Here is your field practice.\n\n'+c['field']+'\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.')]
  for j,x in enumerate(c['slides']):x.update(id=f'c{i+1:02d}s{j+1:02d}',stage=STAGES[j])
+# Written alternatives to practice that depends on other people or access.
+practice_examples = {
+ 5: dict(title='Use a fictional vote instead',
+         source='At a fictional club, three volunteers independently write that they can attend Saturday. One adds that they can stay only until noon, and another needs step-free access. All three later raise their hands for Saturday.',
+         action='Write which conditions the public vote left out. Describe what you would ask before treating that vote as enough to plan the event.'),
+ 8: dict(title='Use a fictional application instead',
+         source='A fictional café requires applicants to complete a repair volunteer sign-up on a single weekday morning. The volunteer shift is on Saturday, and the organizers can accept applications by phone or online.',
+         action='Write one change to the sign-up rule and one outcome that could indicate easier access, such as how many people start and finish an application. Name any further evidence you would need.'),
+ 9: dict(title='Use a fictional conversation instead',
+         source='A fictional volunteer says, “I can manage the repair itself. What’s hard is explaining the queue to visitors.” A teammate replies, “So you want help with the repair?” The volunteer says, “The queue is the part I meant.”',
+         action='Write a revised summary, an open question and a way to invite a correction. Identify what the volunteer actually said about the support they want.'),
+}
+for c in C:
+ if c['number'] in practice_examples:
+  c['slides'][-1]['practiceExample']=practice_examples[c['number']]
+
 # Canonical teaching pages: one learning task and primary visual per page.
 teaching=json.loads((ROOT/'teaching-pages.json').read_text())
 for c in C:
