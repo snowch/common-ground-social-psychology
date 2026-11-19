@@ -10,7 +10,7 @@
   {
     "id": "c01s02",
     "slide": 2,
-    "step": "What would you do?",
+    "step": "Plan the opening shift",
     "text": "Before the explanation, make your own choice.\n\nLeo is assigning the opening shift. What is his most informative next move?\n\nConsider the consequences of each option.",
     "part": "chapter-01",
     "hold": 3
@@ -66,7 +66,7 @@
   {
     "id": "c01s06",
     "slide": 9,
-    "step": "Try the idea somewhere new.",
+    "step": "Compare explanations for lateness",
     "text": "Apply the idea to a new decision.\n\nNoor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.\n\nAll three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running.\n\nWhich additional comparison best separates these explanations?\n\nWhy does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.",
     "part": "chapter-01",
     "hold": 3
@@ -98,7 +98,7 @@
   {
     "id": "c02s02",
     "slide": 13,
-    "step": "What would you do?",
+    "step": "Interpret the attendance change",
     "text": "Before the explanation, make your own choice.\n\nWhich statement fits Leo’s evidence?\n\nConsider the consequences of each option.",
     "part": "chapter-02",
     "hold": 3
@@ -154,7 +154,7 @@
   {
     "id": "c02s06",
     "slide": 20,
-    "step": "Try the idea somewhere new.",
+    "step": "Test the invitation design",
     "text": "Apply the idea to a new decision.\n\nThe café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.\n\nWhich redesign most directly tests that claim?\n\nName the competing explanation your design addresses and one remaining limitation.",
     "part": "chapter-02",
     "hold": 3
@@ -186,7 +186,7 @@
   {
     "id": "c03s02",
     "slide": 24,
-    "step": "What would you do?",
+    "step": "Estimate repeat repairs",
     "text": "Before the explanation, make your own choice.\n\nWhat most improves the estimate of repeat failures?\n\nConsider the consequences of each option.",
     "part": "chapter-03",
     "hold": 3
@@ -226,7 +226,7 @@
   {
     "id": "c03s06",
     "slide": 29,
-    "step": "Try the idea somewhere new.",
+    "step": "Compare failure rates",
     "text": "Apply the idea to a new decision.\n\nEvening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.\n\nWhat would most improve a comparison of failure rates?\n\nState the denominator you need and one reason a difference would not establish its cause.",
     "part": "chapter-03",
     "hold": 3
@@ -258,7 +258,7 @@
   {
     "id": "c04s02",
     "slide": 33,
-    "step": "What would you do?",
+    "step": "Respond to a change of plan",
     "text": "Before the explanation, make your own choice.\n\nWhat makes honest revision easier?\n\nConsider the consequences of each option.",
     "part": "chapter-04",
     "hold": 3
@@ -290,7 +290,7 @@
   {
     "id": "c04s06",
     "slide": 37,
-    "step": "Try the idea somewhere new.",
+    "step": "Review the next costs",
     "text": "Apply the idea to a new decision.\n\nIn an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.\n\nWhich information matters most to the next cost comparison?\n\nSeparate an irrecoverable cost from a future consequence, and identify one assumption to check.",
     "part": "chapter-04",
     "hold": 3
@@ -322,7 +322,7 @@
   {
     "id": "c05s02",
     "slide": 41,
-    "step": "What would you do?",
+    "step": "Hear concerns before a group vote",
     "text": "Before the explanation, make your own choice.\n\nWhat could reveal concerns before discussion?\n\nConsider the consequences of each option.",
     "part": "chapter-05",
     "hold": 3
@@ -362,7 +362,7 @@
   {
     "id": "c05s06",
     "slide": 46,
-    "step": "Try the idea somewhere new.",
+    "step": "Explain a change in votes",
     "text": "Apply the idea to a new decision.\n\nVolunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.\n\nWhich check best separates these possible influences?\n\nDescribe a pattern consistent with each influence and one limit on inferring motives.",
     "part": "chapter-05",
     "hold": 3
@@ -394,7 +394,7 @@
   {
     "id": "c06s02",
     "slide": 50,
-    "step": "What would you do?",
+    "step": "Respond to a volunteer’s concern",
     "text": "Before the explanation, make your own choice.\n\nA potential volunteer worries about the time commitment. What information would help most?\n\nConsider the consequences of each option.",
     "part": "chapter-06",
     "hold": 3
@@ -442,7 +442,7 @@
   {
     "id": "c06s06",
     "slide": 56,
-    "step": "Try the idea somewhere new.",
+    "step": "Compare two invitations",
     "text": "Apply the idea to a new decision.\n\nTwo café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.\n\nWhich comparison best matches that aim?\n\nDistinguish two message outcomes and state a design or measurement limitation.",
     "part": "chapter-06",
     "hold": 3
@@ -474,7 +474,7 @@
   {
     "id": "c07s02",
     "slide": 60,
-    "step": "What would you do?",
+    "step": "Address an unfinished checklist",
     "text": "Before the explanation, make your own choice.\n\nThe shared checklist is unfinished. What is a useful first change?\n\nConsider the consequences of each option.",
     "part": "chapter-07",
     "hold": 3
@@ -522,7 +522,7 @@
   {
     "id": "c07s06",
     "slide": 66,
-    "step": "Try the idea somewhere new.",
+    "step": "Investigate a group’s poor result",
     "text": "Apply the idea to a new decision.\n\nWelcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.\n\nWhich check best distinguishes coordination loss from reduced effort?\n\nName evidence consistent with each explanation and one limitation of the comparison.",
     "part": "chapter-07",
     "hold": 3
@@ -554,7 +554,7 @@
   {
     "id": "c08s02",
     "slide": 70,
-    "step": "What would you do?",
+    "step": "Investigate access to volunteering",
     "text": "Before the explanation, make your own choice.\n\nHow should the team investigate unequal access?\n\nConsider the consequences of each option.",
     "part": "chapter-08",
     "hold": 3
@@ -602,7 +602,7 @@
   {
     "id": "c08s06",
     "slide": 76,
-    "step": "Try the idea somewhere new.",
+    "step": "Check whether access improved",
     "text": "Apply the idea to a new decision.\n\nFriend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.\n\nWhat evidence best examines whether access improved?\n\nName one access outcome and one reason a before-and-after change would not establish its cause.",
     "part": "chapter-08",
     "hold": 3
@@ -634,7 +634,7 @@
   {
     "id": "c09s02",
     "slide": 80,
-    "step": "What would you do?",
+    "step": "Make room for friendship",
     "text": "Before the explanation, make your own choice.\n\nA newcomer hopes to make friends. What is a respectful starting point?\n\nConsider the consequences of each option.",
     "part": "chapter-09",
     "hold": 3
@@ -682,7 +682,7 @@
   {
     "id": "c09s06",
     "slide": 86,
-    "step": "Try the idea somewhere new.",
+    "step": "Examine listening and closeness",
     "text": "Apply the idea to a new decision.\n\nAfter several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.\n\nWhich evidence best examines whether responsiveness relates to closeness?\n\nState an observable or reported measure and one limit on a causal interpretation.",
     "part": "chapter-09",
     "hold": 3
@@ -714,7 +714,7 @@
   {
     "id": "c10s02",
     "slide": 90,
-    "step": "What would you do?",
+    "step": "Explain why bystanders hesitate",
     "text": "Before the explanation, make your own choice.\n\nWhy could concerned bystanders hesitate?\n\nConsider the consequences of each option.",
     "part": "chapter-10",
     "hold": 3
@@ -762,7 +762,7 @@
   {
     "id": "c10s06",
     "slide": 96,
-    "step": "Try the idea somewhere new.",
+    "step": "Test a plan for shared responsibility",
     "text": "Apply the idea to a new decision.\n\nIn a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.\n\nWhich change most directly tests the proposed responsibility problem?\n\nIdentify the process addressed, the outcome to record, and one limit of your comparison.",
     "part": "chapter-10",
     "hold": 3

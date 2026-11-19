@@ -4,7 +4,7 @@
     "topic": "Situations & attribution",
     "icon": "room",
     "color": "#216B88",
-    "objective": "Distinguish an observation from dispositional and situational explanations, and select evidence that helps separate competing causes.",
+    "objective": "Separate what someone saw from what they assumed. Choose evidence that could help tell two explanations apart.",
     "hook": "Maya arrives late. The room has already decided why.",
     "story": "A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo takes her lateness as a sign that she doesn’t care about the project.\n\nWhat Leo hasn’t seen is the broken lift at Maya’s apartment, or the neighbor she helped down the stairs.\n\nLeo’s conclusion—that Maya didn’t care—was one possible explanation for her lateness. But he hadn’t considered what might have delayed her.\n\nFirst, examine Leo’s reasoning in this fictional story. What did Leo observe about Maya’s arrival, and what did he infer about her priorities?\n\nThen think of a recent occasion when you explained someone’s behavior. What did you observe directly, and which cause did you infer?\n\nThroughout this course, keep that distinction in mind.",
     "concepts": [
@@ -148,7 +148,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Plan the opening shift",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nLeo is assigning the opening shift. What is his most informative next move?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -388,7 +388,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Compare explanations for lateness",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nNoor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.\n\nAll three late shifts started earlier and followed bus cancellations. All three on-time shifts started later, with buses running.\n\nWhich additional comparison best separates these explanations?\n\nWhy does your comparison help? State what it keeps similar, what it varies, and one remaining limitation.",
         "quiz": {
@@ -469,7 +469,7 @@
     "topic": "Evidence & experiments",
     "icon": "experiment",
     "color": "#7058A3",
-    "objective": "Identify a confound in a before-and-after claim and propose a fairer comparison.",
+    "objective": "Find another change that could explain a before-and-after result. Propose a fairer comparison.",
     "hook": "A brighter poster. More visitors. A cause?",
     "story": "Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. Leo credits the new poster for the increase.\n\nBut other things changed too. The rain stopped, the local paper ran a story, and the opening hours changed.\n\nThe team knows that more people attended. The team does not yet know how much the poster contributed. Keep that distinction in mind whenever someone says that one change caused another.",
     "concepts": [
@@ -596,7 +596,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Interpret the attendance change",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nWhich statement fits Leo’s evidence?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -828,7 +828,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Test the invitation design",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nThe café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.\n\nWhich redesign most directly tests that claim?\n\nName the competing explanation your design addresses and one remaining limitation.",
         "quiz": {
@@ -888,7 +888,7 @@
     "topic": "Social cognition",
     "icon": "filter",
     "color": "#A1486D",
-    "objective": "Identify a missing base rate and formulate a question that could challenge an initial belief.",
+    "objective": "Identify which cases need to be counted to estimate how often something happens. Ask what could change your first impression.",
     "hook": "One broken toaster becomes “they always break.”",
     "story": "A repaired toaster fails again. The story spreads through the café chat. Leo concludes that electrical repairs usually fail, although nobody has counted the outcomes.\n\nMaya remembers grateful visitors and overlooks returns. Maya therefore has a more positive impression than Leo.\n\nBoth people remember genuine cases. Neither person has systematically checked all comparable repairs. To estimate how often repairs fail, the team needs a record that includes the cases nobody talked about.",
     "concepts": [
@@ -994,7 +994,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Estimate repeat repairs",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nWhat most improves the estimate of repeat failures?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -1160,7 +1160,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Compare failure rates",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nEvening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.\n\nWhat would most improve a comparison of failure rates?\n\nState the denominator you need and one reason a difference would not establish its cause.",
         "quiz": {
@@ -1220,7 +1220,7 @@
     "topic": "Self & self-justification",
     "icon": "dissonance",
     "color": "#9A5630",
-    "objective": "Distinguish dissonance reduction from evidence-based revision and compare future options without counting irrecoverable costs as benefits.",
+    "objective": "Tell when someone is defending an earlier decision. Compare what each option would cost or deliver from today onward.",
     "hook": "“I chose it” quietly becomes “it must be right.”",
     "story": "Maya championed a booking system. After weeks of work, the system still loses reservations. Maya usually spots technical problems quickly, but now explains each failure away.\n\nFor Maya, admitting that the system is poor feels like admitting that she is poor at her role. Leo proposes another month of configuration because the team has already spent so much.\n\nMaya is defending her judgment. Leo is focused on money already spent. Both need to compare what the available options would deliver from today onward.",
     "concepts": [
@@ -1320,7 +1320,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Respond to a change of plan",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nWhat makes honest revision easier?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -1447,7 +1447,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Review the next costs",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nIn an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.\n\nWhich information matters most to the next cost comparison?\n\nSeparate an irrecoverable cost from a future consequence, and identify one assumption to check.",
         "quiz": {
@@ -1507,7 +1507,7 @@
     "topic": "Conformity & authority",
     "icon": "crowd",
     "color": "#216B88",
-    "objective": "Distinguish normative and informational influence and design a process that makes independent concerns visible.",
+    "objective": "Explain two reasons someone might agree with a group. Plan a way to hear concerns before the group decides.",
     "hook": "Everyone says yes. Has everyone agreed?",
     "story": "A donor offers a publicity event. The chair calls it a wonderful opportunity, and the first three volunteers agree. Sam doubts that the team can manage the workload, but stays silent.\n\nSam assumes Maya has checked the risks. Maya reads Sam’s silence as reassurance. Each person is taking the other’s outward response as a sign that the proposal has been considered carefully.\n\nPublic agreement can hide private doubts. In a later decision in this chapter, the chair asks volunteers to skip a required equipment check. You will consider how the team can question that instruction before unsafe work begins.",
     "concepts": [
@@ -1613,7 +1613,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Hear concerns before a group vote",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nWhat could reveal concerns before discussion?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -1788,7 +1788,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Explain a change in votes",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nVolunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.\n\nWhich check best separates these possible influences?\n\nDescribe a pattern consistent with each influence and one limit on inferring motives.",
         "quiz": {
@@ -1839,7 +1839,12 @@
         ],
         "text": "Here is your field practice.\n\nFor an agreed, low-stakes group choice, have everyone write a view before discussion. Compare the range of initial reasons with what a show of hands might have revealed.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
         "id": "c05s08",
-        "stage": "Field practice"
+        "stage": "Field practice",
+        "practiceExample": {
+          "title": "Use a fictional vote instead",
+          "source": "At a fictional club, three volunteers independently write that they can attend Saturday. One adds that they can stay only until noon, and another needs step-free access. All three later raise their hands for Saturday.",
+          "action": "Write which conditions the public vote left out. Describe what you would ask before treating that vote as enough to plan the event."
+        }
       }
     ]
   },
@@ -1848,7 +1853,7 @@
     "topic": "Attitudes & persuasion",
     "icon": "message",
     "color": "#7058A3",
-    "objective": "Evaluate a message by its evidence, audience needs, and honest description of social norms.",
+    "objective": "Check whether an invitation gives people enough information to decide and supports any claims about what others do.",
     "hook": "Two invitations. Different reasons to care.",
     "story": "The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya’s invitation explains what volunteers can learn, how much time a shift takes, and what support is available.\n\nA hurried passerby might notice the celebrity. A person deciding whether to volunteer regularly needs practical details about the commitment.\n\nAn invitation can attract attention and help someone evaluate a decision. The team needs to consider both jobs, while keeping the invitation honest.",
     "concepts": [
@@ -1965,7 +1970,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Respond to a volunteer’s concern",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nA potential volunteer worries about the time commitment. What information would help most?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -2160,7 +2165,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Compare two invitations",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nTwo café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.\n\nWhich comparison best matches that aim?\n\nDistinguish two message outcomes and state a design or measurement limitation.",
         "quiz": {
@@ -2220,7 +2225,7 @@
     "topic": "Groups & belonging",
     "icon": "groups",
     "color": "#A1486D",
-    "objective": "Identify a plausible group process behind a failure and select a procedure that addresses it.",
+    "objective": "Use evidence to explain what went wrong in a group and choose a change that addresses it.",
     "hook": "Two teams stop sharing a table.",
     "story": "Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each team notices its own effort more clearly than the other team’s contribution.\n\nAt a planning meeting, speakers propose increasingly ambitious events. Meanwhile, nobody owns the checklist. Each volunteer assumes someone else is responsible.\n\nThe café now faces several group problems: boundaries between teams, an escalating decision, and unclear task ownership. Each problem may need a different remedy.",
     "concepts": [
@@ -2337,7 +2342,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Address an unfinished checklist",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nThe shared checklist is unfinished. What is a useful first change?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -2532,7 +2537,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Investigate a group’s poor result",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nWelcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.\n\nWhich check best distinguishes coordination loss from reduced effort?\n\nName evidence consistent with each explanation and one limitation of the comparison.",
         "quiz": {
@@ -2592,7 +2597,7 @@
     "topic": "Prejudice & discrimination",
     "icon": "door",
     "color": "#216B88",
-    "objective": "Distinguish stereotypes, prejudice, and discrimination and locate a procedural barrier to access.",
+    "objective": "Separate beliefs, attitudes, and treatment. Find a rule or requirement that makes it harder to take part.",
     "hook": "“Anyone can join.” The form says otherwise.",
     "story": "The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes that people own specialist tools.\n\nA newcomer is treated as inexperienced before anyone checks the applicant’s skills. The barrier may involve a judgment about the person, a recruitment rule, or both.\n\nTo understand unequal access, examine beliefs, attitudes, individual decisions, and procedures. Good intentions alone do not tell us how the process works.",
     "concepts": [
@@ -2709,7 +2714,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Investigate access to volunteering",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nHow should the team investigate unequal access?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -2917,7 +2922,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Check whether access improved",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nFriend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.\n\nWhat evidence best examines whether access improved?\n\nName one access outcome and one reason a before-and-after change would not establish its cause.",
         "quiz": {
@@ -2968,7 +2973,12 @@
         ],
         "text": "Here is your field practice.\n\nReview a process you are authorized to examine. Identify an unnecessary barrier, propose a change, and select a fair outcome measure without collecting unnecessary personal data.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
         "id": "c08s08",
-        "stage": "Field practice"
+        "stage": "Field practice",
+        "practiceExample": {
+          "title": "Use a fictional application instead",
+          "source": "A fictional café requires applicants to complete a repair volunteer sign-up on a single weekday morning. The volunteer shift is on Saturday, and the organizers can accept applications by phone or online.",
+          "action": "Write one change to the sign-up rule and one outcome that could indicate easier access, such as how many people start and finish an application. Name any further evidence you would need."
+        }
       }
     ]
   },
@@ -2977,7 +2987,7 @@
     "topic": "Attraction & relationships",
     "icon": "relationship",
     "color": "#7058A3",
-    "objective": "Explain how contact opportunities and reciprocal responsiveness can support closeness without guaranteeing it.",
+    "objective": "Explain how opportunities to meet and feeling heard can support closeness.",
     "hook": "Friendship begins with the quiet shift.",
     "story": "Sam and Leo take the quiet Thursday session. At first, they discuss only spare parts. Over several weeks, they discover a shared interest in old radios.\n\nLeo mentions a difficult week. Sam listens before offering a solution, and Leo feels heard.\n\nTheir shared shift created opportunities to meet. Their common interest supported conversation. Sam’s responsive listening supported closeness. None of those conditions gave either person a right to the other’s friendship.",
     "concepts": [
@@ -3093,7 +3103,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Make room for friendship",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nA newcomer hopes to make friends. What is a respectful starting point?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -3306,7 +3316,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Examine listening and closeness",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nAfter several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.\n\nWhich evidence best examines whether responsiveness relates to closeness?\n\nState an observable or reported measure and one limit on a causal interpretation.",
         "quiz": {
@@ -3357,7 +3367,12 @@
         ],
         "text": "Here is your field practice.\n\nDuring a willing everyday conversation, ask an open question. Summarize what you heard and invite the person to correct your summary before offering advice. Afterwards, reflect on your own responses and the feedback the person actually gave.\n\nReturn tomorrow and in a week. On each visit, answer the recall questions without notes and use a different example.",
         "id": "c09s08",
-        "stage": "Field practice"
+        "stage": "Field practice",
+        "practiceExample": {
+          "title": "Use a fictional conversation instead",
+          "source": "A fictional volunteer says, “I can manage the repair itself. What’s hard is explaining the queue to visitors.” A teammate replies, “So you want help with the repair?” The volunteer says, “The queue is the part I meant.”",
+          "action": "Write a revised summary, an open question and a way to invite a correction. Identify what the volunteer actually said about the support they want."
+        }
       }
     ]
   },
@@ -3366,7 +3381,7 @@
     "topic": "Aggression, helping & cooperation",
     "icon": "help",
     "color": "#A1486D",
-    "objective": "Identify barriers to helping and design a specific, safe response with clear responsibility.",
+    "objective": "Identify what can stop people from helping. Plan a safe response with a clear person responsible for each step.",
     "hook": "A crash. A full room. A moment of hesitation.",
     "story": "A shelf falls during a busy café session, and a visitor needs help. People hesitate while checking everyone else’s reaction.\n\nMaya names the problem. Maya asks Leo to contact the appropriate emergency service and clears space for a trained helper.\n\nLater, two volunteers argue about blame. The team needs to review both the immediate response and the conditions supporting cooperation. Good intentions need a clear, safe path to action.",
     "concepts": [
@@ -3487,7 +3502,7 @@
       },
       {
         "kind": "choice",
-        "title": "What would you do?",
+        "title": "Explain why bystanders hesitate",
         "points": [],
         "text": "Before the explanation, make your own choice.\n\nWhy could concerned bystanders hesitate?\n\nConsider the consequences of each option.",
         "quiz": {
@@ -3704,7 +3719,7 @@
       },
       {
         "kind": "transfer",
-        "title": "Try the idea somewhere new.",
+        "title": "Test a plan for shared responsibility",
         "points": [],
         "text": "Apply the idea to a new decision.\n\nIn a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.\n\nWhich change most directly tests the proposed responsibility problem?\n\nIdentify the process addressed, the outcome to record, and one limit of your comparison.",
         "quiz": {

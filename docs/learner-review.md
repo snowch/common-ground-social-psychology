@@ -1,0 +1,11 @@
+# Social Psychology learner review
+
+The review starts from the released course at `133ac10`. The course assumes no psychology background. The review covers all 98 pages in ten chapters, including 20 decisions and their 60 possible feedback messages, 48 teaching and evidence pages, all recall and practice tasks, and the six prompts in the final written case. It follows the course through the narrated deck, browser offline mode, individual chapter downloads, and the study and visual companions.
+
+The published story and teaching screens showed shortened notes and kept parts of the lesson in the recording transcript. The lesson now shows its story, definitions, explanations, and core qualifications. The opening goals use words the learner can understand before encountering the vocabulary. Supporting research, other figures, and transcripts for exercises have descriptive labels. Repeated teaching bullets are available in the print deck.
+
+An opening decision asks the learner to select and check an option. In a transfer exercise, the learner also writes an explanation. **Check choice** gives feedback on the option. The learner can compare that feedback with the written reasoning or try another choice. Recall answers appear after **Reveal suggested answers**. The final case directs the learner to paper or a private notes app and names the control for opening the suggested reasoning. The three field exercises that depend on permission, access, or another person have fictional alternatives.
+
+The original settings, slide addresses, answer revisions, and browser storage key are retained. The interface reports storage failures while the saved work remains available to copy from the tab. Original recordings remain paired with their existing slide and feedback IDs. The browser save screen shows when its copy is ready. For individual downloads, the page explains how to extract the chapter before opening it.
+
+The functional review covers the original and alternative choices, draft recovery, keyboard access to feedback and definitions, responsive reading, recording playback, and browser and download offline flows. Lesson and chapter PDFs are regenerated with the updated wording. These checks describe course operation. Learner understanding and teaching effectiveness require evidence from learners.

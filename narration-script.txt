@@ -3,7 +3,7 @@ Original introductory social psychology course. Fictional characters and example
 Recorded Kokoro af_heart narration is embedded in the deck. See narration-recording-script.txt for exact audio clip text and speech-specific forms.
 
 CHAPTER 1: The person and the room
-Learning outcome: Distinguish an observation from dispositional and situational explanations, and select evidence that helps separate competing causes.
+Learning outcome: Separate what someone saw from what they assumed. Choose evidence that could help tell two explanations apart.
 
 c01s01 | Story | Maya arrives late. The room has already decided why.
 A neighborhood team is turning an empty shop into a repair café. At the first meeting, Maya arrives twenty minutes late. Leo takes her lateness as a sign that she doesn’t care about the project.
@@ -18,7 +18,7 @@ Then think of a recent occasion when you explained someone’s behavior. What di
 
 Throughout this course, keep that distinction in mind.
 
-c01s02 | Your decision | What would you do?
+c01s02 | Your decision | Plan the opening shift
 Before the explanation, make your own choice.
 
 Leo is assigning the opening shift. What is his most informative next move?
@@ -90,7 +90,7 @@ Check alternatives. A broken lift or helping a neighbor could explain this delay
 
 If you are reviewing someone else’s reasoning, ask what that person observed and considered. Disagreement alone does not establish bias. When you form your own interpretation, use these same steps to test it.
 
-c01s06 | New situation | Try the idea somewhere new.
+c01s06 | New situation | Compare explanations for lateness
 Apply the idea to a new decision.
 
 Noor was late for three of six café shifts. Leo proposes bus cancellations; Maya asks whether the earlier start also matters.
@@ -130,7 +130,7 @@ Further reading:
 OpenStax Psychology 2e: What Is Social Psychology? — https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology
 
 CHAPTER 2: The poster that “worked”
-Learning outcome: Identify a confound in a before-and-after claim and propose a fairer comparison.
+Learning outcome: Find another change that could explain a before-and-after result. Propose a fairer comparison.
 
 c02s01 | Story | A brighter poster. More visitors. A cause?
 Leo replaces the café’s plain poster with a colorful one. Attendance rises the next weekend. Leo credits the new poster for the increase.
@@ -139,7 +139,7 @@ But other things changed too. The rain stopped, the local paper ran a story, and
 
 The team knows that more people attended. The team does not yet know how much the poster contributed. Keep that distinction in mind whenever someone says that one change caused another.
 
-c02s02 | Your decision | What would you do?
+c02s02 | Your decision | Interpret the attendance change
 Before the explanation, make your own choice.
 
 Which statement fits Leo’s evidence?
@@ -195,7 +195,7 @@ Preregistration records the planned methods and analysis before results are know
 
 With a sound design, a larger sample can narrow the uncertainty around an estimate. More observations cannot fix a systematically unfair comparison. Sharing the study’s methods and materials lets others inspect how it was done. A memorable study is a starting point for evaluation, rather than a final verdict.
 
-c02s06 | New situation | Try the idea somewhere new.
+c02s06 | New situation | Test the invitation design
 Apply the idea to a new decision.
 
 The café sent invitation A to long-standing supporters and invitation B to first-time contacts. More A recipients attended. The team wants to isolate the invitation’s effect.
@@ -234,7 +234,7 @@ OpenStax Psychology 2e: Analyzing Findings — https://openstax.org/books/psycho
 Noba: The Replication Crisis in Psychology — https://nobaproject.com/modules/the-replication-crisis-in-psychology
 
 CHAPTER 3: The story that comes to mind
-Learning outcome: Identify a missing base rate and formulate a question that could challenge an initial belief.
+Learning outcome: Identify which cases need to be counted to estimate how often something happens. Ask what could change your first impression.
 
 c03s01 | Story | One broken toaster becomes “they always break.”
 A repaired toaster fails again. The story spreads through the café chat. Leo concludes that electrical repairs usually fail, although nobody has counted the outcomes.
@@ -243,7 +243,7 @@ Maya remembers grateful visitors and overlooks returns. Maya therefore has a mor
 
 Both people remember genuine cases. Neither person has systematically checked all comparable repairs. To estimate how often repairs fail, the team needs a record that includes the cases nobody talked about.
 
-c03s02 | Your decision | What would you do?
+c03s02 | Your decision | Estimate repeat repairs
 Before the explanation, make your own choice.
 
 What most improves the estimate of repeat failures?
@@ -285,7 +285,7 @@ For example, Leo’s vivid repair stories might give a distorted impression of f
 
 When reviewing another person’s reasoning, ask which information they used and which cases they missed. Disagreeing with their estimate does not replace that investigation. Experts also need feedback and opportunities to revise their judgments.
 
-c03s06 | New situation | Try the idea somewhere new.
+c03s06 | New situation | Compare failure rates
 Apply the idea to a new decision.
 
 Evening sessions recorded more returns, but daytime sessions completed many more repairs. The team has no common follow-up period or agreed definition of failure.
@@ -324,7 +324,7 @@ OpenStax Psychology 2e: Problem Solving — https://openstax.org/books/psycholog
 Noba: Social Cognition and Attitudes — https://nobaproject.com/modules/social-cognition-and-attitudes
 
 CHAPTER 4: The plan we cannot let go
-Learning outcome: Distinguish dissonance reduction from evidence-based revision and compare future options without counting irrecoverable costs as benefits.
+Learning outcome: Tell when someone is defending an earlier decision. Compare what each option would cost or deliver from today onward.
 
 c04s01 | Story | “I chose it” quietly becomes “it must be right.”
 Maya championed a booking system. After weeks of work, the system still loses reservations. Maya usually spots technical problems quickly, but now explains each failure away.
@@ -333,7 +333,7 @@ For Maya, admitting that the system is poor feels like admitting that she is poo
 
 Maya is defending her judgment. Leo is focused on money already spent. Both need to compare what the available options would deliver from today onward.
 
-c04s02 | Your decision | What would you do?
+c04s02 | Your decision | Respond to a change of plan
 Before the explanation, make your own choice.
 
 What makes honest revision easier?
@@ -368,7 +368,7 @@ The study tested whether the amount of choice affected later attitudes. Its prim
 
 That result challenges the particular procedure tested. It does not settle every version of cognitive dissonance theory. Distinguish the broad explanation of discomfort and justification from the evidence for a particular prediction. The linked Vaidis and colleagues study provides the details.
 
-c04s06 | New situation | Try the idea somewhere new.
+c04s06 | New situation | Review the next costs
 Apply the idea to a new decision.
 
 In an invented booking-system decision, the team has paid a nonrefundable £600. Keeping the tool requires £120 in future support; switching costs £80 plus retraining. Expected future booking benefits are similar.
@@ -408,7 +408,7 @@ Vaidis et al. (2024): Multilab dissonance replication — https://doi.org/10.117
 OpenStax Psychology 2e: Problem Solving — https://openstax.org/books/psychology-2e/pages/7-3-problem-solving
 
 CHAPTER 5: The quiet vote
-Learning outcome: Distinguish normative and informational influence and design a process that makes independent concerns visible.
+Learning outcome: Explain two reasons someone might agree with a group. Plan a way to hear concerns before the group decides.
 
 c05s01 | Story | Everyone says yes. Has everyone agreed?
 A donor offers a publicity event. The chair calls it a wonderful opportunity, and the first three volunteers agree. Sam doubts that the team can manage the workload, but stays silent.
@@ -417,7 +417,7 @@ Sam assumes Maya has checked the risks. Maya reads Sam’s silence as reassuranc
 
 Public agreement can hide private doubts. In a later decision in this chapter, the chair asks volunteers to skip a required equipment check. You will consider how the team can question that instruction before unsafe work begins.
 
-c05s02 | Your decision | What would you do?
+c05s02 | Your decision | Hear concerns before a group vote
 Before the explanation, make your own choice.
 
 What could reveal concerns before discussion?
@@ -461,7 +461,7 @@ In Milgram’s studies, an experimenter urged participants to continue a task th
 
 Both sets of studies raise questions about methods, ethics, and how widely their findings apply. Their results concern particular conditions of influence; they are not universal obedience rates. Some participants resisted, and responses varied with the conditions. Harmful conduct is not inevitable.
 
-c05s06 | New situation | Try the idea somewhere new.
+c05s06 | New situation | Explain a change in votes
 Apply the idea to a new decision.
 
 Volunteers are unsure whether an event is feasible. Publicly, all agree with the chair. The team wants to learn whether agreement reflects new information or concern about disapproval.
@@ -500,7 +500,7 @@ OpenStax Psychology 2e: Conformity, Compliance, and Obedience — https://openst
 Noba: Conformity and Obedience — https://nobaproject.com/modules/conformity-and-obedience
 
 CHAPTER 6: The invitation
-Learning outcome: Evaluate a message by its evidence, audience needs, and honest description of social norms.
+Learning outcome: Check whether an invitation gives people enough information to decide and supports any claims about what others do.
 
 c06s01 | Story | Two invitations. Different reasons to care.
 The café needs volunteers. Leo drafts a glossy invitation featuring a local celebrity. Maya’s invitation explains what volunteers can learn, how much time a shift takes, and what support is available.
@@ -509,7 +509,7 @@ A hurried passerby might notice the celebrity. A person deciding whether to volu
 
 An invitation can attract attention and help someone evaluate a decision. The team needs to consider both jobs, while keeping the invitation honest.
 
-c06s02 | Your decision | What would you do?
+c06s02 | Your decision | Respond to a volunteer’s concern
 Before the explanation, make your own choice.
 
 A potential volunteer worries about the time commitment. What information would help most?
@@ -558,7 +558,7 @@ For the café team, the next task is to evaluate its revised invitation. More cl
 
 The team can track comprehension, informed sign-ups, and continued participation. To learn about the volunteers’ experience, ask them whether they understood the effort involved and felt able to decline. Their answers provide information that the organizers’ impressions alone cannot supply.
 
-c06s06 | New situation | Try the idea somewhere new.
+c06s06 | New situation | Compare two invitations
 Apply the idea to a new decision.
 
 Two café invitations produced different click rates. The team wants an honest message that helps residents understand a regular shift and decide whether to volunteer.
@@ -597,7 +597,7 @@ OpenStax Psychology 2e: Attitudes and Persuasion — https://openstax.org/books/
 Noba: Persuasion: So Easily Fooled — https://nobaproject.com/modules/persuasion-so-easily-fooled
 
 CHAPTER 7: When “we” takes over
-Learning outcome: Identify a plausible group process behind a failure and select a procedure that addresses it.
+Learning outcome: Use evidence to explain what went wrong in a group and choose a change that addresses it.
 
 c07s01 | Story | Two teams stop sharing a table.
 Repair volunteers call the welcome desk “the talkers.” The welcome team calls the repair bench “the gatekeepers.” Each team notices its own effort more clearly than the other team’s contribution.
@@ -606,7 +606,7 @@ At a planning meeting, speakers propose increasingly ambitious events. Meanwhile
 
 The café now faces several group problems: boundaries between teams, an escalating decision, and unclear task ownership. Each problem may need a different remedy.
 
-c07s02 | Your decision | What would you do?
+c07s02 | Your decision | Address an unfinished checklist
 Before the explanation, make your own choice.
 
 The shared checklist is unfinished. What is a useful first change?
@@ -655,7 +655,7 @@ To review the café’s planning meeting, look at what happened during the discu
 
 Then choose a change that addresses the process you found. Independent estimates can broaden the evidence. Clear roles can improve coordination. Structured disagreement can make concerns easier to express. These changes help the team investigate the decision without pretending to know every member’s private thoughts.
 
-c07s06 | New situation | Try the idea somewhere new.
+c07s06 | New situation | Investigate a group’s poor result
 Apply the idea to a new decision.
 
 Welcome and repair volunteers report working hard. Some checks are duplicated; others wait for information or a shared tool. The team’s total output has fallen.
@@ -694,7 +694,7 @@ OpenStax Psychology 2e: Conformity, Compliance, and Obedience — https://openst
 OpenStax Psychology 2e: Prejudice and Discrimination — https://openstax.org/books/psychology-2e/pages/12-5-prejudice-and-discrimination
 
 CHAPTER 8: The invisible doorway
-Learning outcome: Distinguish stereotypes, prejudice, and discrimination and locate a procedural barrier to access.
+Learning outcome: Separate beliefs, attitudes, and treatment. Find a rule or requirement that makes it harder to take part.
 
 c08s01 | Story | “Anyone can join.” The form says otherwise.
 The café says everyone is welcome. Yet recruitment runs through existing friends, meetings happen during working hours, and the application assumes that people own specialist tools.
@@ -703,7 +703,7 @@ A newcomer is treated as inexperienced before anyone checks the applicant’s sk
 
 To understand unequal access, examine beliefs, attitudes, individual decisions, and procedures. Good intentions alone do not tell us how the process works.
 
-c08s02 | Your decision | What would you do?
+c08s02 | Your decision | Investigate access to volunteering
 Before the explanation, make your own choice.
 
 How should the team investigate unequal access?
@@ -754,7 +754,7 @@ When evaluating a recruitment change, inspect access and participation: who can 
 
 Interpret small samples cautiously and protect privacy. Investigating unequal access does not justify collecting unnecessary personal information.
 
-c08s06 | New situation | Try the idea somewhere new.
+c08s06 | New situation | Check whether access improved
 Apply the idea to a new decision.
 
 Friend referrals were replaced by an open application with relevant skills criteria and shared tools. Applications rose, but the team does not know who progressed or remained involved.
@@ -793,7 +793,7 @@ OpenStax Psychology 2e: Prejudice and Discrimination — https://openstax.org/bo
 Noba: Prejudice, Discrimination, and Stereotyping — https://nobaproject.com/modules/prejudice-discrimination-and-stereotyping
 
 CHAPTER 9: A place beside someone
-Learning outcome: Explain how contact opportunities and reciprocal responsiveness can support closeness without guaranteeing it.
+Learning outcome: Explain how opportunities to meet and feeling heard can support closeness.
 
 c09s01 | Story | Friendship begins with the quiet shift.
 Sam and Leo take the quiet Thursday session. At first, they discuss only spare parts. Over several weeks, they discover a shared interest in old radios.
@@ -802,7 +802,7 @@ Leo mentions a difficult week. Sam listens before offering a solution, and Leo f
 
 Their shared shift created opportunities to meet. Their common interest supported conversation. Sam’s responsive listening supported closeness. None of those conditions gave either person a right to the other’s friendship.
 
-c09s02 | Your decision | What would you do?
+c09s02 | Your decision | Make room for friendship
 Before the explanation, make your own choice.
 
 A newcomer hopes to make friends. What is a respectful starting point?
@@ -851,7 +851,7 @@ Suppose similar partners report greater satisfaction. That association does not,
 
 To apply that research to Sam and Leo, first ask about their actual experiences and preferences. Their conversations may reveal relevant details that a group average cannot settle. A research pattern cannot decide what either person should want.
 
-c09s06 | New situation | Try the idea somewhere new.
+c09s06 | New situation | Examine listening and closeness
 Apply the idea to a new decision.
 
 After several weeks on the same shift, Sam and Leo report greater closeness. They also share more personal information and describe feeling listened to.
@@ -890,7 +890,7 @@ OpenStax Psychology 2e: Prosocial Behavior — https://openstax.org/books/psycho
 Noba: Attraction and Beauty — https://nobaproject.com/modules/attraction-and-beauty
 
 CHAPTER 10: Who will do something?
-Learning outcome: Identify barriers to helping and design a specific, safe response with clear responsibility.
+Learning outcome: Identify what can stop people from helping. Plan a safe response with a clear person responsible for each step.
 
 c10s01 | Story | A crash. A full room. A moment of hesitation.
 A shelf falls during a busy café session, and a visitor needs help. People hesitate while checking everyone else’s reaction.
@@ -899,7 +899,7 @@ Maya names the problem. Maya asks Leo to contact the appropriate emergency servi
 
 Later, two volunteers argue about blame. The team needs to review both the immediate response and the conditions supporting cooperation. Good intentions need a clear, safe path to action.
 
-c10s02 | Your decision | What would you do?
+c10s02 | Your decision | Explain why bystanders hesitate
 Before the explanation, make your own choice.
 
 Why could concerned bystanders hesitate?
@@ -950,7 +950,7 @@ Bystander findings also vary with danger, relationships, and available support. 
 
 For a real emergency, follow local guidance and your training. A social psychology explanation does not replace first-aid instruction. Evaluate practical changes by whether appropriate, safe help becomes more available. A team saying it cares does not establish that its response plan works.
 
-c10s06 | New situation | Try the idea somewhere new.
+c10s06 | New situation | Test a plan for shared responsibility
 Apply the idea to a new decision.
 
 In a fictional review of a low-risk stock list, volunteers noticed missing entries and knew how to update them, but each assumed someone else owned the check.
